@@ -1,0 +1,18 @@
+{
+  "locale": "en",
+  "fallback": "fr",
+  "name": "English",
+  "translations": {
+    "app.title": "Montpellier Municipal Elections 2026",
+    "app.subtitle": "The citizen comparator",
+    "app.menu.home": "Home",
+    "app.menu.comparator": "Comparator",
+    "app.menu.info": "News",
+    "sidebar.description": "The citizen media for the 2026 municipal elections in Montpellier",
+    "languageSwitcher.label": "Language",
+    "home.heroTitle": "Montpellier 2026",
+    "home.heroSubtitle": "Compare programs, get informed, and vote with conscience.",
+    "home.headOfList": "Head of List",
+    "home.noImage": "No image"
+  }
+}

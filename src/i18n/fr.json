@@ -1,0 +1,24 @@
+{
+  "locale": "fr",
+  "name": "Français",
+  "translations": {
+    "app.title": "Montpellier Municipales 2026",
+    "app.subtitle": "Le comparateur citoyen",
+    "app.menu.home": "Accueil",
+    "app.menu.comparator": "Comparateur",
+    "app.menu.info": "Infos",
+    "sidebar.description": "Le média citoyen des élections municipales 2026 à Montpellier",
+    "languageSwitcher.label": "Langue",
+    "home.heroTitle": "Montpellier 2026",
+    "home.heroSubtitle": "Comparez les programmes, informez-vous et votez en conscience.",
+    "home.headOfList": "Tête de liste",
+    "home.noImage": "Pas d'image",
+    "comparator.addList": "Ajouter une liste à comparer",
+    "comparator.selectListPlaceholder": "Sélectionnez une liste",
+    "comparator.noListSelected": "Sélectionnez au moins une liste pour démarrer la comparaison.",
+    "comparator.themes": "Thèmes",
+    "comparator.remove": "Retirer",
+    "comparator.noProgramForTheme": "Pas de proposition sur ce thème",
+    "comparator.metaDescription": "Comparez les programmes des candidats aux élections municipales de Montpellier 2026."
+  }
+}

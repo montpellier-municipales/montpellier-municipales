@@ -1,0 +1,155 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "headOfList": {
+      "type": "string"
+    },
+    "parties": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "logoUrl": {
+      "type": "string"
+    },
+    "candidatePictureUrl": {
+      "type": "string"
+    },
+    "fame": {
+      "type": "number"
+    },
+    "website": {
+      "type": "string"
+    },
+    "socials": {
+      "type": "object",
+      "properties": {
+        "twitter": {
+          "type": "string"
+        },
+        "facebook": {
+          "type": "string"
+        },
+        "instagram": {
+          "type": "string"
+        },
+        "tiktok": {
+          "type": "string"
+        },
+        "bluesky": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "bio": {
+      "type": "string"
+    },
+    "slogan": {
+      "type": "string"
+    },
+    "program": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "themeId": {
+            "type": "string"
+          },
+          "summary": {
+            "type": "object",
+            "propertyNames": {
+              "type": "string",
+              "enum": [
+                "fr",
+                "en",
+                "oc",
+                "ar",
+                "es"
+              ]
+            },
+            "additionalProperties": {
+              "type": "string"
+            }
+          },
+          "details": {
+            "type": "object",
+            "propertyNames": {
+              "type": "string",
+              "enum": [
+                "fr",
+                "en",
+                "oc",
+                "ar",
+                "es"
+              ]
+            },
+            "additionalProperties": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "themeId",
+          "summary",
+          "details"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "presentation": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string",
+        "enum": [
+          "fr",
+          "en",
+          "oc",
+          "ar",
+          "es"
+        ]
+      },
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "vision": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string",
+        "enum": [
+          "fr",
+          "en",
+          "oc",
+          "ar",
+          "es"
+        ]
+      },
+      "additionalProperties": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "headOfList",
+    "parties",
+    "logoUrl",
+    "candidatePictureUrl",
+    "socials",
+    "program"
+  ],
+  "additionalProperties": false
+}

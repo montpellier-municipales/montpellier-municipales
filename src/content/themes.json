@@ -1,0 +1,46 @@
+[
+  {
+    "id": "transport",
+    "label": {
+      "fr": "Transports & Mobilités",
+      "oc": "Transpòrts e Mobilitats",
+      "ar": "النقل والتنقل",
+      "en": "Transport & Mobility",
+      "es": "Transporte y Movilidad"
+    },
+    "icon": "bus"
+  },
+  {
+    "id": "logement",
+    "label": {
+      "fr": "Logement & Urbanisme",
+      "oc": "A lotjament e Urbanisme",
+      "ar": "الإسكان والتخطيط العمراني",
+      "en": "Housing & Urban Planning",
+      "es": "Vivienda y Urbanismo"
+    },
+    "icon": "home"
+  },
+  {
+    "id": "ecologie",
+    "label": {
+      "fr": "Écologie & Environnement",
+      "oc": "Ecologia e Environament",
+      "ar": "البيئة",
+      "en": "Ecology & Environment",
+      "es": "Ecología y Medio Ambiente"
+    },
+    "icon": "leaf"
+  },
+  {
+    "id": "securite",
+    "label": {
+      "fr": "Sécurité & Tranquillité",
+      "oc": "Seguretat e Tranquillitat",
+      "ar": "الأمن والهدوء",
+      "en": "Security & Tranquility",
+      "es": "Seguridad y Tranquilidad"
+    },
+    "icon": "shield"
+  }
+]

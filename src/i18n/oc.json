@@ -1,0 +1,18 @@
+{
+  "locale": "oc",
+  "fallback": "fr",
+  "name": "Occitan",
+  "translations": {
+    "app.title": "Montpelhièr Municipalas 2026",
+    "app.subtitle": "Lo comparator ciutadan",
+    "app.menu.home": "Acuèlh",
+    "app.menu.comparator": "Comparator",
+    "app.menu.info": "Actualitats",
+    "sidebar.description": "Lo mèdia ciutadan de las eleccions municipalas de 2026 a Montpelhièr",
+    "languageSwitcher.label": "Lenga",
+    "home.heroTitle": "Montpelhièr 2026",
+    "home.heroSubtitle": "Comparatz los programas, informatz-vos e votatz en consciéncia.",
+    "home.headOfList": "Cap de lista",
+    "home.noImage": "Cap d'imatge"
+  }
+}

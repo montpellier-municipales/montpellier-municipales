@@ -1,0 +1,53 @@
+{
+  "$schema": "../../types/schema.json",
+  "id": "delafosse-ensemble",
+  "name": "Montpellier en Commun",
+  "headOfList": "Michaël Delafosse",
+  "parties": ["Parti Socialiste", "Alliance Citoyenne"],
+  "logoUrl": "/images/logos/delafosse-ensemble.png",
+  "candidatePictureUrl": "/images/candidates/michael-delafosse.jpg",
+  "fame": 10,
+  "website": "https://www.montpellierencommun.fr",
+  "socials": {
+    "twitter": "https://twitter.com/MDelafosse",
+    "facebook": "https://facebook.com/MichaelDelafosseOfficiel"
+  },
+  "presentation": { "fr": "", "en": "", "es": "", "oc": "", "ar": "" },
+  "vision": { "fr": "", "en": "", "es": "", "oc": "", "ar": "" },
+  "program": [
+    {
+      "themeId": "transport",
+      "summary": {
+        "fr": "Développer les transports en commun et les pistes cyclables.",
+        "oc": "Desenvolopar los transpòrts en comun e las pistas ciclablas.",
+        "ar": "تطوير النقل العام ومسارات الدراجات.",
+        "en": "Develop public transport and cycling paths.",
+        "es": "Desarrollar el transporte público y los carriles bici."
+      },
+      "details": {
+        "fr": "Prolongement de la ligne 5 du tramway, création de nouvelles lignes de bus électriques, et doublement du réseau de pistes cyclables d'ici 2030 pour une mobilité douce et écologique.",
+        "oc": "Prolongament de la linha 5 del tramvai, creacion de linhas novèlas de bus electrics, e doblament del ret de pistas ciclablas d'aicí 2030 per una mobilitat doça e ecologica.",
+        "ar": "تمديد الخط 5 للترام، إنشاء خطوط حافلات كهربائية جديدة، ومضاعفة شبكة مسارات الدراجات بحلول عام 2030 لتوفير تنقل سلس وصديق للبيئة.",
+        "en": "Extension of tram line 5, creation of new electric bus lines, and doubling of the cycling path network by 2030 for soft and ecological mobility.",
+        "es": "Extensión de la línea 5 del tranvía, creación de nuevas líneas de autobuses eléctricos y duplicación de la red de carriles bici para 2030 para una movilidad suave y ecológica."
+      }
+    },
+    {
+      "themeId": "logement",
+      "summary": {
+        "fr": "Construire plus de logements sociaux et maîtriser les prix.",
+        "oc": "Bastir mai de lòtjaments socials e mestrejar los prèses.",
+        "ar": "بناء المزيد من المساكن الاجتماعية والتحكم في الأسعار.",
+        "en": "Build more social housing and control prices.",
+        "es": "Construir más viviendas sociales y controlar los precios."
+      },
+      "details": {
+        "fr": "Mise en place d'un permis de louer pour lutter contre l'habitat indigne, accélération de la construction de logements abordables et encadrement des loyers dans les zones tendues.",
+        "oc": "Mesa en plaça d'un permís de logar per lutar contra l'abitat indigne, acceleracion de la construccion de lòtjaments abordables e encastre dels lòyers dins las zonas tendudas.",
+        "ar": "تطبيق ترخيص الإيجار لمكافحة السكن غير اللائق، وتسريع بناء المساكن بأسعار معقولة، وتحديد الإيجارات في المناطق ذات الضغط العقاري.",
+        "en": "Implementation of a rental permit to combat substandard housing, acceleration of affordable housing construction, and rent control in strained areas.",
+        "es": "Implementación de un permiso de alquiler para combatir la vivienda indigna, aceleración de la construcción de viviendas asequibles y control de alquileres en zonas tensas."
+      }
+    }
+  ]
+}
