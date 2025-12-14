@@ -16,7 +16,7 @@ import { getAllLists, getListsByIds } from "~/services/lists";
 import { _ } from "compiled-i18n";
 import { Select } from "@qwik-ui/headless";
 import * as styles from "./comparator.css";
-import type { Candidate } from "~/types/schema";
+import { Candidate, Language } from "~/types/schema";
 import { LuChevronDown } from "@qwikest/icons/lucide";
 import { vars } from "~/theme.css";
 
@@ -108,7 +108,7 @@ export default component$(() => {
   const data = useComparatorData();
   const loc = useLocation();
   const navigate = useNavigate();
-  const currentLang = loc.params.lang || "fr"; // Langue de l'URL
+  const currentLang = (loc.params.lang as Language) ?? Language.fr; // Langue de l'URL
 
   // Gère les IDs des listes sélectionnées pour l'URL
   const selectedListIds = useSignal<string[]>(
