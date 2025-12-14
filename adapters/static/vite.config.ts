@@ -12,7 +12,7 @@ export default extendConfig(baseConfig, () => {
     },
     plugins: [
       staticAdapter({
-        origin: "http://localhost:8080",
+        origin: "https://montpellier-municipales.fr",
       }),
     ],
   };
