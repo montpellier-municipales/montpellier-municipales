@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://montpellier2026.fr/sitemap.xml
+ 
+Sitemap: https://montpellier-municipales.fr/sitemap.xml
