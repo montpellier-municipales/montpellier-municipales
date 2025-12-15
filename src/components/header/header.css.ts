@@ -16,6 +16,7 @@ export const header = style({
 
 export const container = style({
   gap: 32,
+  width: "100%",
 });
 
 export const logo = style({
@@ -33,6 +34,13 @@ export const nav = style({
   alignItems: "center",
   flex: "1 1 auto",
   gap: 16,
+  overflow: "hidden",
+
+  "@media": {
+    "screen and (max-width: 768px)": {
+      display: "none",
+    },
+  },
 });
 
 export const link = style({
