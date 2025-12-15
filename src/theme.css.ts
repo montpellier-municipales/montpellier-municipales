@@ -66,8 +66,8 @@ export const lightTheme = createTheme(vars, {
     secondaryHover: palette.yellowDarken, // Version plus sombre
   },
   font: {
-    body: '"Inter", system-ui, -apple-system, sans-serif',
-    heading: '"Outfit", system-ui, -apple-system, sans-serif',
+    body: '"Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif',
+    heading: 'Lato, "Open Sans", "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif',
   },
   layout: {
     maxWidth: "1200px",
@@ -98,8 +98,8 @@ export const darkTheme = createTheme(vars, {
     secondaryHover: palette.yellowDarken,
   },
   font: {
-    body: '"Inter", system-ui, -apple-system, sans-serif',
-    heading: '"Outfit", system-ui, -apple-system, sans-serif',
+    body: '"Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif',
+    heading: '"Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif',
   },
   layout: {
     maxWidth: "1200px",
