@@ -9,7 +9,8 @@
     }
   },
   "sidebar": {
-    "description": "Le média citoyen des élections municipales 2026 à Montpellier"
+    "description": "Le média citoyen des élections municipales 2026 à Montpellier",
+    "toggleSidebar": "basculer la barre latérale"
   },
   "languageSwitcher": {
     "label": "Langue"

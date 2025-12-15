@@ -1,0 +1,11 @@
+{
+  "comparator": {
+    "addList": "Ajustar una lista de comparar",
+    "selectListPlaceholder": "Seleccionatz una lista",
+    "noListSelected": "Seleccionatz al mens una lista per començar la comparason.",
+    "themes": "Tèmas",
+    "remove": "Levar",
+    "noProgramForTheme": "Cap de proposicion sus aqueste tèma",
+    "metaDescription": "Comparatz los programas dels candidats a las eleccions municipalas de Montpelhièr 2026."
+  }
+}

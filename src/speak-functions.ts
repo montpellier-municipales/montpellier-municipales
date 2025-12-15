@@ -3,7 +3,7 @@ import type { LoadTranslationFn, Translation, TranslationFn } from "qwik-speak";
 //import { config } from "./speak-config";
 
 const translationData = import.meta.glob<Translation>(
-  "/src/i18n-test/**/*.json",
+  "/src/i18n/**/*.json",
   { import: "default" }
 );
 
@@ -13,7 +13,7 @@ const translationData = import.meta.glob<Translation>(
 const loadTranslation$: LoadTranslationFn = server$(
   async (lang: string, asset: string) => {
     const res =
-      await translationData[`/src/i18n-test/${lang}/${asset}.json`]?.();
+      await translationData[`/src/i18n/${lang}/${asset}.json`]?.();
     return res;
   }
 );
@@ -23,7 +23,7 @@ export const translationFn: TranslationFn = {
 };
 
 // Glob statique pour le build/SSR et client (via code splitting)
-//const translationData = import.meta.glob<Translation>("./i18n-test/**/*.json");
+//const translationData = import.meta.glob<Translation>("./i18n/**/*.json");
 /*
 // Deep merge pour les fallbacks (réutilisé de notre ancienne implémentation)
 function deepMerge(obj1: any, obj2: any): any {
@@ -52,13 +52,13 @@ const loadTranslation$: LoadTranslationFn = server$(
     let defaultData: Translation = {};
     if (lang !== defaultLang) {
       const defaultLoader =
-        translationData[`./i18n-test/${defaultLang}/${asset}.json`];
+        translationData[`./i18n/${defaultLang}/${asset}.json`];
       if (defaultLoader) defaultData = await defaultLoader();
     }
 
     // 2. Charger langue cible
     let langData: Translation = {};
-    const targetLoader = translationData[`./i18n-test/${lang}/${asset}.json`];
+    const targetLoader = translationData[`./i18n/${lang}/${asset}.json`];
     if (targetLoader) langData = await targetLoader();
 
     return deepMerge(defaultData, langData);

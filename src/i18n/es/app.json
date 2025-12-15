@@ -9,7 +9,8 @@
     }
   },
   "sidebar": {
-    "description": "El medio ciudadano de las elecciones municipales de 2026 en Montpellier"
+    "description": "El medio ciudadano de las elecciones municipales de 2026 en Montpellier",
+    "toggleSidebar": "alternar barra lateral"
   },
   "languageSwitcher": {
     "label": "Idioma"

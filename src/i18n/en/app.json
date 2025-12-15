@@ -9,7 +9,8 @@
     }
   },
   "sidebar": {
-    "description": "The citizen media for the 2026 municipal elections in Montpellier"
+    "description": "The citizen media for the 2026 municipal elections in Montpellier",
+    "toggleSidebar": "toggle sidebar"
   },
   "languageSwitcher": {
     "label": "Language"

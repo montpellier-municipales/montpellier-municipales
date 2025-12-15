@@ -49,7 +49,10 @@ export const Sidebar = component$<Props>(({ menu }) => {
   return (
     <>
       <Modal.Root>
-        <Modal.Trigger class={toggleBaseStyle}>
+        <Modal.Trigger
+          class={toggleBaseStyle}
+          name={t("sidebar.toggleSidebar")}
+        >
           <Slot />
         </Modal.Trigger>
         <Modal.Panel class={modalPanelSheet}>

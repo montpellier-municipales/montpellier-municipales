@@ -1,0 +1,11 @@
+{
+  "comparator": {
+    "addList": "أضف قائمة للمقارنة",
+    "selectListPlaceholder": "اختر قائمة",
+    "noListSelected": "اختر قائمة واحدة على الأقل لبدء المقارنة.",
+    "themes": "المواضيع",
+    "remove": "إزالة",
+    "noProgramForTheme": "لا يوجد اقتراح حول هذا الموضوع",
+    "metaDescription": "قارن برامج المرشحين للانتخابات البلدية في مونبلييه 2026."
+  }
+}

@@ -31,7 +31,7 @@ export default defineConfig(({ command, mode }): UserConfig => {
       qwikSpeakInline({
         supportedLangs: ["ar", "en", "es", "fr", "oc"],
         defaultLang: "fr",
-        assetsPath: "src/i18n-test",
+        assetsPath: "src/i18n",
       }),
       tsconfigPaths({ root: "." }),
     ],
