@@ -1,10 +1,15 @@
 import { component$ } from "@builder.io/qwik";
-import { routeLoader$, StaticGenerateHandler } from "@builder.io/qwik-city";
+import {
+  DocumentHead,
+  routeLoader$,
+  StaticGenerateHandler,
+  useLocation,
+} from "@builder.io/qwik-city";
 import { getList, getAllLists } from "~/services/lists";
-import { getLocale } from "compiled-i18n"; // Import de getLocale
 import * as styles from "./list-details.css";
 import { marked } from "marked";
 import { Language } from "~/types/schema";
+import { inlineTranslate, useSpeak } from "qwik-speak";
 
 // Loader pour récupérer les données côté serveur
 export const useListDetails = routeLoader$(async (requestEvent) => {
@@ -47,8 +52,10 @@ export const useListDetails = routeLoader$(async (requestEvent) => {
 });
 
 export default component$(() => {
+  useSpeak({ assets: ["list"] });
   const list = useListDetails();
-  const currentLocale = getLocale() as Language; // Utilisation de getLocale de compiled-i18n
+  const loc = useLocation();
+  const currentLocale = (loc.params.lang as Language) ?? Language.fr;
 
   return (
     <div class={styles.container}>
@@ -109,7 +116,7 @@ export default component$(() => {
         dangerouslySetInnerHTML={list.value.vision?.[currentLocale]}
       ></section>
 
-      <section class={styles.programSection}>
+      {/*<section class={styles.programSection}>
         <h2>Programme (Extrait)</h2>
 
         {list.value.program.map((point) => (
@@ -123,10 +130,27 @@ export default component$(() => {
             </div>
           </article>
         ))}
-      </section>
+      </section>*/}
     </div>
   );
 });
+
+export const head: DocumentHead = ({ resolveValue }) => {
+  const t = inlineTranslate();
+  const list = resolveValue(useListDetails);
+  return {
+    title: `${list.name} · ${list.headOfList}`,
+    meta: [
+      {
+        name: "description",
+        content: t("list.description", {
+          listName: list.name,
+          headOfList: list.headOfList,
+        }),
+      },
+    ],
+  };
+};
 
 // SSG : Génération statique pour les Listes (Français)
 export const onStaticGenerate: StaticGenerateHandler = async () => {

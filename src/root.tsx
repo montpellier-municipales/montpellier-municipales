@@ -14,10 +14,14 @@ import { RouterHead } from "./components/router-head/router-head";
 import { lightTheme, darkTheme } from "./theme.css";
 import { ThemeContext } from "./routes/theme-context";
 import "./global.css";
+import { useQwikSpeak } from "qwik-speak";
+import { config } from "./speak-config";
+import { translationFn } from "./speak-functions";
 
 export default component$(() => {
   // État du thème (par défaut light)
   const themeSignal = useSignal<"light" | "dark">("light");
+  useQwikSpeak({ config, translationFn });
 
   // Au montage côté client, on vérifie la préférence ou le localStorage
   // useVisibleTask$ s'exécute uniquement dans le navigateur

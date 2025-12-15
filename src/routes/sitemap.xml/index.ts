@@ -1,7 +1,7 @@
 import { type RequestHandler } from "@builder.io/qwik-city";
 import { getAllLists } from "~/services/lists";
 import { getBlogPosts } from "~/services/blog";
-import { locales, defaultLocale } from "compiled-i18n"; // Imports de compiled-i18n
+import { config } from "~/speak-config";
 
 export const onGet: RequestHandler = async ({ request, send }) => {
   // Récupérer l'origine de la requête (ex: https://montpellier2026.fr ou http://localhost:5173)
@@ -13,11 +13,11 @@ export const onGet: RequestHandler = async ({ request, send }) => {
 
   // Fonctions helper
   const getPrefix = (lang: string) =>
-    lang === defaultLocale ? "" : `/${lang}`;
+    lang === config.defaultLocale.lang ? "" : `/${lang}`;
 
   // 1. Pages statiques
-  for (const loc of locales) { // Utilisation de locales de compiled-i18n
-    const prefix = getPrefix(loc);
+  for (const locale of config.supportedLocales) {
+    const prefix = getPrefix(locale.lang);
     urls.push(`${siteUrl}${prefix}/`);
     urls.push(`${siteUrl}${prefix}/comparateur`);
     urls.push(`${siteUrl}${prefix}/info`);
@@ -27,17 +27,17 @@ export const onGet: RequestHandler = async ({ request, send }) => {
   // On suppose que l'ID est le même pour toutes les langues (ce qui est le cas dans notre design)
   const lists = await getAllLists();
   for (const list of lists) {
-    for (const loc of locales) { // Utilisation de locales de compiled-i18n
-      const prefix = getPrefix(loc);
+    for (const locale of config.supportedLocales) {
+      const prefix = getPrefix(locale.lang);
       urls.push(`${siteUrl}${prefix}/listes/${list.id}`);
     }
   }
 
   // 3. Blog Posts
   // On doit récupérer les posts pour CHAQUE langue car les slugs diffèrent
-  for (const loc of locales) { // Utilisation de locales de compiled-i18n
-    const prefix = getPrefix(loc);
-    const posts = await getBlogPosts(loc);
+  for (const locale of config.supportedLocales) {
+    const prefix = getPrefix(locale.lang);
+    const posts = await getBlogPosts(locale.lang);
 
     for (const post of posts) {
       urls.push(`${siteUrl}${prefix}/info/${post.slug}`);

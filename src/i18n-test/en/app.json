@@ -1,0 +1,17 @@
+{
+  "app": {
+    "title": "Montpellier Municipal Elections 2026",
+    "subtitle": "The citizen comparator",
+    "menu": {
+      "home": "Home",
+      "comparator": "Comparator",
+      "info": "News"
+    }
+  },
+  "sidebar": {
+    "description": "The citizen media for the 2026 municipal elections in Montpellier"
+  },
+  "languageSwitcher": {
+    "label": "Language"
+  }
+}

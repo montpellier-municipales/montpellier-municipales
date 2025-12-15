@@ -21,6 +21,7 @@ export const CandidateSchema = z
   .object({
     // $schema est optionnel ou ignoré par Zod pour la validation des données pures, mais utile pour le JSON
     $schema: z.string().optional(),
+    disabled: z.boolean().optional(),
     id: z.string(),
     name: z.string(),
     headOfList: z.string(),
@@ -29,6 +30,7 @@ export const CandidateSchema = z
     candidatePictureUrl: z.string(),
     fame: z.number().optional(), // 1 (Inconnu) à 10 (Très connu). Utilisé pour le tri aléatoire pondéré.
     website: z.string().optional(),
+    
     socials: z.object({
       twitter: z.string().optional(),
       facebook: z.string().optional(),

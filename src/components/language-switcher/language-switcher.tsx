@@ -1,6 +1,5 @@
 import { $, component$, useSignal } from "@builder.io/qwik";
-import { getLocale, _, locales, defaultLocale } from "compiled-i18n"; // Imports de compiled-i18n
-import { useLocation, useNavigate } from "@builder.io/qwik-city";
+import { useLocation } from "@builder.io/qwik-city";
 import { Select } from "@qwik-ui/headless";
 import { LuChevronDown } from "@qwikest/icons/lucide";
 import {
@@ -13,13 +12,14 @@ import {
 import Occitan from "~/static/oc.svg?jsx";
 import { Spacer } from "../spacer";
 import { useUrlMapping } from "~/routes/url-mapping-context";
+import { Language } from "~/types/schema.zod";
+import { inlineTranslate, localizePath } from "qwik-speak";
+import { config } from "~/speak-config";
 
 export const LanguageSwitcher = component$(() => {
-  // const t = inlineTranslate(); // Remplacé par _
-  const currentLocale = getLocale(); // Utilisation de getLocale de compiled-i18n
-  // const config = useSpeakConfig(); // Non nécessaire avec compiled-i18n
   const loc = useLocation();
-  const navigate = useNavigate();
+  const t = inlineTranslate();
+  const currentLocale = (loc.params.lang as Language) || Language.fr;
   const urlMapping = useUrlMapping(); // Récupérer le mapping contextuel
 
   // On initialise avec la langue courante
@@ -60,53 +60,28 @@ export const LanguageSwitcher = component$(() => {
   };
 
   const handleChange = $((newValue: string) => {
-    // Sécurité renforcée
-    if (typeof newValue !== "string" || !newValue) {
-      return;
-    }
+    const getPath = localizePath();
+    if (typeof window === "undefined") return;
 
     // 1. Vérifier si une URL spécifique est définie dans le mapping pour cette langue
     if (urlMapping[newValue]) {
-      console.log("Using mapped URL from context:", urlMapping[newValue]);
-      navigate(urlMapping[newValue]);
+      window.location.href = urlMapping[newValue];
       return;
     }
 
     // 2. Sinon, Fallback sur la logique de remplacement de préfixe
-    const getNewPath = (targetLang: string) => {
-      let path = loc.url.pathname;
-
-      // Nettoyer le chemin de tout préfixe de langue existant
-      const currentLangPrefix = locales.find(
-        (l) => path.startsWith(`/${l}/`) || path === `/${l}`
-      );
-
-      if (currentLangPrefix) {
-        path = path.replace(`/${currentLangPrefix}`, "");
-        if (path === "") path = "/";
-      }
-
-      // Construire le nouveau chemin
-      if (targetLang !== defaultLocale) {
-        // Utilisation de defaultLocale de compiled-i18n
-        return `/${targetLang}${path === "/" ? "" : path}`;
-      } else {
-        return path;
-      }
-    };
-
-    navigate(getNewPath(newValue));
+    const pathname = loc.url.pathname;
+    window.location.href = getPath(pathname, newValue);
   });
 
   return (
     <Select.Root bind:value={value} onChange$={handleChange} class={select}>
       <Select.Label style={{ display: "none" }}>
-        {/* t("languageSwitcher.label") sera _("languageSwitcher.label") */}
-        {_("languageSwitcher.label")}
+        {t("languageSwitcher.label")}
       </Select.Label>
 
       <Select.Trigger class={selectTrigger}>
-        {currentLocale === "oc" ? ( // Utilisation de locale.lang qui est getLocale()
+        {currentLocale === "oc" ? (
           <Occitan height="18px" />
         ) : (
           <span>{getFlag(currentLocale)}</span>
@@ -119,24 +94,24 @@ export const LanguageSwitcher = component$(() => {
       </Select.Trigger>
 
       <Select.Popover class={popover}>
-        {locales.map(
-          (
-            l // Utilisation de locales de compiled-i18n
-          ) => (
-            <Select.Item key={l} value={l} class={popoverItem}>
-              {l === "oc" ? (
-                <Occitan height="18px" />
-              ) : (
-                <span>{getFlag(l)}</span>
-              )}
-              <Select.ItemLabel>{getLabel(l)}</Select.ItemLabel>
-              <Spacer />
-              <Select.ItemIndicator>
-                {currentLocale === l ? "✓" : ""}
-              </Select.ItemIndicator>
-            </Select.Item>
-          )
-        )}
+        {config.supportedLocales.map((locale) => (
+          <Select.Item
+            key={locale.lang}
+            value={locale.lang}
+            class={popoverItem}
+          >
+            {locale.lang === "oc" ? (
+              <Occitan height="18px" />
+            ) : (
+              <span>{getFlag(locale.lang)}</span>
+            )}
+            <Select.ItemLabel>{getLabel(locale.lang)}</Select.ItemLabel>
+            <Spacer />
+            <Select.ItemIndicator>
+              {currentLocale === locale.lang ? "✓" : ""}
+            </Select.ItemIndicator>
+          </Select.Item>
+        ))}
       </Select.Popover>
     </Select.Root>
   );

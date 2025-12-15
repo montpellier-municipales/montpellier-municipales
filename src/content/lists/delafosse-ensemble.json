@@ -1,6 +1,7 @@
 {
   "$schema": "../../types/schema.json",
   "id": "delafosse-ensemble",
+  "disabled": true,
   "name": "Montpellier en Commun",
   "headOfList": "Michaël Delafosse",
   "parties": ["Parti Socialiste", "Alliance Citoyenne"],

@@ -1,6 +1,5 @@
 import { component$, Slot } from "@builder.io/qwik";
 import { Modal } from "@qwik-ui/headless";
-import { getLocale, _ } from "compiled-i18n"; // Imports de compiled-i18n
 import {
   activeMenuListItem,
   menuList,
@@ -13,6 +12,7 @@ import { Logo } from "../logo/logo";
 import { Link, useLocation } from "@builder.io/qwik-city";
 import { LanguageSwitcher } from "../language-switcher/language-switcher";
 import { Spacer } from "../spacer";
+import { inlineTranslate } from "qwik-speak";
 
 type MenuItem = {
   label: string;
@@ -37,7 +37,8 @@ const cleanHref = (href: string) => {
 
 export const Sidebar = component$<Props>(({ menu }) => {
   const loc = useLocation();
-  const currentLocale = getLocale(); // Utilisation de getLocale de compiled-i18n
+  const t = inlineTranslate();
+  const currentLocale = loc.params.lang || "fr";
 
   const getLink = (path: string) => {
     if (currentLocale === "fr") return path;
@@ -56,7 +57,7 @@ export const Sidebar = component$<Props>(({ menu }) => {
             <Logo tag="div" />
           </Modal.Title>
           <Modal.Description align="center">
-            {_("sidebar.description")}
+            {t("sidebar.description")}
           </Modal.Description>
 
           <nav>

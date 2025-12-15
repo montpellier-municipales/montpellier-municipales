@@ -36,7 +36,7 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Build Static
-        run: pnpm run build
+        run: pnpm run build.server
         # Si le site est hébergé dans un sous-dossier (ex: https://user.github.io/repo/), 
         # décommentez la ligne ci-dessous et ajustez le nom du repo :
         # env:

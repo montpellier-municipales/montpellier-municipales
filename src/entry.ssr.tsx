@@ -11,16 +11,22 @@
  *
  */
 import {
+  RenderOptions,
   renderToStream,
   type RenderToStreamOptions,
 } from "@builder.io/qwik/server";
 import { manifest } from "@qwik-client-manifest";
 import Root from "./root";
-// +++ Extra import
-import { setSsrLocaleGetter } from "compiled-i18n/qwik";
+import { isDev } from "@builder.io/qwik";
+import { config } from "./speak-config";
 
-// +++ Allow compiled-i18n to get the current SSR locale
-setSsrLocaleGetter();
+export function extractBase({ serverData }: RenderOptions): string {
+  if (!isDev && serverData?.locale) {
+    return "/build/" + serverData.locale;
+  } else {
+    return "/build";
+  }
+}
 
 export default function (opts: RenderToStreamOptions) {
   return renderToStream(<Root />, {
@@ -28,12 +34,12 @@ export default function (opts: RenderToStreamOptions) {
     ...opts,
 
     // +++ Configure the base path for assets
-    base: "/build/",
+    base: extractBase,
 
     // Use container attributes to set attributes on the html tag.
     containerAttributes: {
       // +++ Set the HTML lang attribute to the SSR locale
-      lang: opts.serverData!.locale,
+      lang: opts.serverData!.locale || config.defaultLocale.lang,
 
       ...opts.containerAttributes,
     },

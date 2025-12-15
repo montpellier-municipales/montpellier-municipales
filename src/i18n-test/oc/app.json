@@ -1,0 +1,17 @@
+{
+  "app": {
+    "title": "Montpelhièr Municipalas 2026",
+    "subtitle": "Lo comparator ciutadan",
+    "menu": {
+      "home": "Acuèlh",
+      "comparator": "Comparator",
+      "info": "Actualitats"
+    }
+  },
+  "sidebar": {
+    "description": "Lo mèdia ciutadan de las eleccions municipalas de 2026 a Montpelhièr"
+  },
+  "languageSwitcher": {
+    "label": "Lenga"
+  }
+}

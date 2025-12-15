@@ -1,7 +1,7 @@
-import ListDetails, { useListDetails } from '../../../listes/[id]/index';
-import { locales, defaultLocale } from 'compiled-i18n';
-import { getAllLists } from '~/services/lists';
-import type { StaticGenerateHandler } from '@builder.io/qwik-city';
+import ListDetails, { useListDetails } from "../../../listes/[id]/index";
+import { getAllLists } from "~/services/lists";
+import type { StaticGenerateHandler } from "@builder.io/qwik-city";
+import { config } from "~/speak-config";
 
 export { useListDetails };
 export default ListDetails;
@@ -9,12 +9,14 @@ export default ListDetails;
 export const onStaticGenerate: StaticGenerateHandler = async () => {
   const params: { lang: string; id: string }[] = [];
   const lists = await getAllLists();
-  const targetLangs = locales.filter(l => l !== defaultLocale);
+  const targetLangs = config.supportedLocales.filter(
+    (locale) => locale.lang !== config.defaultLocale.lang
+  );
 
   for (const list of lists) {
     for (const loc of targetLangs) {
       params.push({
-        lang: loc,
+        lang: loc.lang,
         id: list.id,
       });
     }

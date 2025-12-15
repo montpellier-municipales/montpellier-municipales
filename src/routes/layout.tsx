@@ -2,12 +2,12 @@ import { component$, Slot } from "@builder.io/qwik";
 import { Header } from "~/components/header/header";
 import { UrlMappingProvider } from "./url-mapping-context";
 import type { RequestHandler } from "@builder.io/qwik-city";
-import { defaultLocale } from "compiled-i18n";
+import { config } from "~/speak-config";
 
 export const onRequest: RequestHandler = ({ locale }) => {
   // Si aucune locale n'est définie (ex: racine / sans préfixe), on force la locale par défaut
   if (!locale()) {
-    locale(defaultLocale);
+    locale(config.defaultLocale.lang);
   }
 };
 

@@ -13,12 +13,12 @@ import {
   StaticGenerateHandler,
 } from "@builder.io/qwik-city";
 import { getAllLists, getListsByIds } from "~/services/lists";
-import { _ } from "compiled-i18n";
 import { Select } from "@qwik-ui/headless";
 import * as styles from "./comparator.css";
 import { Candidate, Language } from "~/types/schema";
 import { LuChevronDown } from "@qwikest/icons/lucide";
 import { vars } from "~/theme.css";
+import { inlineTranslate } from "qwik-speak";
 
 // Simuler les thèmes (nous les avons déjà dans src/content/themes.json, mais pour l'exemple)
 interface Theme {
@@ -105,6 +105,7 @@ export const useComparatorData = routeLoader$(async ({ url, locale }) => {
 });
 
 export default component$(() => {
+  const t = inlineTranslate();
   const data = useComparatorData();
   const loc = useLocation();
   const navigate = useNavigate();
@@ -153,16 +154,16 @@ export default component$(() => {
 
   return (
     <div class={styles.container}>
-      <h1 class={styles.title}>{_("app.menu.comparator")}</h1>
+      <h1 class={styles.title}>{t("app.menu.comparator")}</h1>
 
       <div class={styles.selectorContainer}>
-        <label class={styles.selectorLabel}>{_("comparator.addList")}</label>
+        <label class={styles.selectorLabel}>{t("comparator.addList")}</label>
         <Select.Root bind:value={selectedListIds} onChange$={handleAddList}>
           {" "}
           {/* Bind au tableau pour simuler un multi-select simplifié */}
           <Select.Trigger class={styles.select}>
             <Select.DisplayValue
-              placeholder={_("comparator.selectListPlaceholder")}
+              placeholder={t("comparator.selectListPlaceholder")}
             />
             <LuChevronDown />
           </Select.Trigger>
@@ -178,7 +179,7 @@ export default component$(() => {
 
       {data.value.selectedLists.length === 0 && (
         <p style={{ textAlign: "center", color: vars.color.textMuted }}>
-          {_("comparator.noListSelected")}
+          {t("comparator.noListSelected")}
         </p>
       )}
 
@@ -191,7 +192,7 @@ export default component$(() => {
         >
           {/* Colonne des thèmes */}
           <div style={{ padding: "1rem", fontWeight: "bold" }}>
-            {_("comparator.themes")}
+            {t("comparator.themes")}
           </div>
 
           {/* En-têtes des listes sélectionnées */}
@@ -215,7 +216,7 @@ export default component$(() => {
                   fontSize: "0.8rem",
                 }}
               >
-                ({_("comparator.remove")})
+                ({t("comparator.remove")})
               </button>
             </div>
           ))}
@@ -241,7 +242,7 @@ export default component$(() => {
                     {programPoint
                       ? programPoint.summary[currentLang] ||
                         programPoint.summary["fr"]
-                      : _("comparator.noProgramForTheme")}
+                      : t("comparator.noProgramForTheme")}
                   </div>
                 );
               })}
@@ -253,14 +254,17 @@ export default component$(() => {
   );
 });
 
-export const head: DocumentHead = {
-  title: _("app.menu.comparator"),
-  meta: [
-    {
-      name: "description",
-      content: _("comparator.metaDescription"),
-    },
-  ],
+export const head: DocumentHead = () => {
+  const t = inlineTranslate();
+  return {
+    title: t("app.menu.comparator"),
+    meta: [
+      {
+        name: "description",
+        content: t("comparator.metaDescription"),
+      },
+    ],
+  };
 };
 
 // SSG : Génération statique (la page vide par défaut)

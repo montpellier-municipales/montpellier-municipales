@@ -1,0 +1,11 @@
+{
+  "comparator": {
+    "addList": "Ajouter une liste à comparer",
+    "selectListPlaceholder": "Sélectionnez une liste",
+    "noListSelected": "Sélectionnez au moins une liste pour démarrer la comparaison.",
+    "themes": "Thèmes",
+    "remove": "Retirer",
+    "noProgramForTheme": "Pas de proposition sur ce thème",
+    "metaDescription": "Comparez les programmes des candidats aux élections municipales de Montpellier 2026."
+  }
+}

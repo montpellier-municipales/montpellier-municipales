@@ -1,6 +1,6 @@
 ---
 title: "Lançament de la plataforma Montpelhièr Municipalas 2026"
-slug: "lançament-plataforma-montpelhier-2026"
+slug: "lancament-plataforma-montpelhier-2026"
 date: "2025-12-09"
 author: "La còla ciutadana"
 excerpt: "Benvenguda sus nòstre comparator neutre e independent per las eleccions municipalas a Montpelhièr."

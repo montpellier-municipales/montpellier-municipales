@@ -1,8 +1,8 @@
 import { component$ } from "@builder.io/qwik";
 import { routeLoader$, Link, type DocumentHead } from "@builder.io/qwik-city";
 import { getAllLists } from "~/services/lists";
-import { _ } from "compiled-i18n";
 import * as styles from "./home.css";
+import { inlineTranslate, useSpeak } from "qwik-speak";
 
 // Chargement des données côté serveur
 export const useLists = routeLoader$(async () => {
@@ -10,13 +10,16 @@ export const useLists = routeLoader$(async () => {
 });
 
 export default component$(() => {
+  useSpeak({ assets: ["home"] });
+
+  const t = inlineTranslate();
   const lists = useLists();
 
   return (
     <div class={styles.container}>
       <header class={styles.hero}>
-        <h1 class={styles.title}>{_("home.heroTitle")}</h1>
-        <p class={styles.subtitle}>{_("home.heroSubtitle")}</p>
+        <h1 class={styles.title}>{t("home.heroTitle")}</h1>
+        <p class={styles.subtitle}>{t("home.heroSubtitle")}</p>
       </header>
 
       <div class={styles.grid}>
@@ -33,14 +36,14 @@ export default component$(() => {
                   style={{ width: "100%", height: "100%", objectFit: "cover" }}
                 />
               ) : (
-                <span>{_("home.noImage")}</span>
+                <span>{t("home.noImage")}</span>
               )}
             </div>
 
             <div class={styles.cardContent}>
               <h2 class={styles.cardTitle}>{list.name}</h2>
               <p class={styles.cardSubtitle}>
-                {_("home.headOfList")} : <strong>{list.headOfList}</strong>
+                {t("home.headOfList")} : <strong>{list.headOfList}</strong>
               </p>
 
               <div>
@@ -61,13 +64,15 @@ export default component$(() => {
   );
 });
 
-export const head: DocumentHead = {
-  title: "Montpellier Municipales 2026 - Comparateur",
-  meta: [
-    {
-      name: "description",
-      content:
-        "Site comparatif des programmes pour les élections municipales de Montpellier 2026.",
-    },
-  ],
+export const head: DocumentHead = () => {
+  const t = inlineTranslate();
+  return {
+    title: t("home.heroTitle"),
+    meta: [
+      {
+        name: "description",
+        content: t("home.heroSubtitle"),
+      },
+    ],
+  };
 };

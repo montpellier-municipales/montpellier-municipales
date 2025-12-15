@@ -6,7 +6,7 @@ import { defineConfig, type UserConfig } from "vite";
 import { qwikVite } from "@builder.io/qwik/optimizer";
 import { qwikCity } from "@builder.io/qwik-city/vite";
 import { vanillaExtractPlugin } from "@vanilla-extract/vite-plugin";
-import { i18nPlugin } from "compiled-i18n/vite"; // Import du plugin i18n
+import { qwikSpeakInline } from "qwik-speak/inline"; // Import qwik-speak plugin
 import tsconfigPaths from "vite-tsconfig-paths";
 import pkg from "./package.json";
 
@@ -27,13 +27,11 @@ export default defineConfig(({ command, mode }): UserConfig => {
       qwikCity(),
       qwikVite(),
       vanillaExtractPlugin(),
-      // Configuration de compiled-i18n
-      i18nPlugin({
-        locales: ["fr", "oc", "ar", "en", "es"], // Nos langues supportées
-        localesDir: "src/i18n", // Chemin vers les dossiers de traduction
-        assetsDir: "public", // Où stocker les fichiers de traduction compilés (sera dans .qwik/build/i18n)
-        defaultLocale: "fr",
-        addMissing: true,
+      // Plugin Qwik Speak (pour le test isolé)
+      qwikSpeakInline({
+        supportedLangs: ["ar", "en", "es", "fr", "oc"],
+        defaultLang: "fr",
+        assetsPath: "src/i18n-test",
       }),
       tsconfigPaths({ root: "." }),
     ],
@@ -67,7 +65,7 @@ export default defineConfig(({ command, mode }): UserConfig => {
         "Cache-Control": "public, max-age=0",
       },
       watch: {
-        ignored: ['**/src/i18n.d.ts'],
+        ignored: ["**/src/i18n.d.ts"],
       },
     },
     preview: {

@@ -6,8 +6,8 @@ import {
 } from "@builder.io/qwik-city";
 import { getBlogPost, getPostAlternates, getBlogPosts } from "~/services/blog";
 import { useUrlMapping } from "~/routes/url-mapping-context";
-import { defaultLocale } from "compiled-i18n"; // Import de defaultLocale (compiled-i18n)
 import * as styles from "../blog.css";
+import { config } from "~/speak-config";
 
 export const useBlogPost = routeLoader$(async ({ params, fail }) => {
   const lang = params.lang || "fr";
@@ -38,7 +38,7 @@ export default component$(() => {
 
     Object.keys(data.value.alternates).forEach((lang) => {
       const slug = data.value.alternates[lang];
-      if (lang === defaultLocale) { // Utilisation de defaultLocale de compiled-i18n
+      if (lang === config.defaultLocale.lang) {
         mapping[lang] = `/info/${slug}`;
       } else {
         mapping[lang] = `/${lang}/info/${slug}`;
@@ -72,7 +72,9 @@ export const head: DocumentHead = ({ resolveValue }) => {
 
   for (const [lang, slug] of Object.entries(alternates)) {
     const href =
-      lang === defaultLocale ? `/info/${slug}` : `/${lang}/info/${slug}`; // Utilisation de defaultLocale
+      lang === config.defaultLocale.lang
+        ? `/info/${slug}`
+        : `/${lang}/info/${slug}`; // Utilisation de defaultLocale
     links.push({
       rel: "alternate",
       hreflang: lang,
@@ -94,8 +96,7 @@ export const head: DocumentHead = ({ resolveValue }) => {
 
 // SSG : Génération statique pour le Français (Langue par défaut)
 export const onStaticGenerate: StaticGenerateHandler = async () => {
-  // `defaultLocale` est directement importé de compiled-i18n
-  const posts = await getBlogPosts(defaultLocale);
+  const posts = await getBlogPosts(config.defaultLocale.lang);
 
   return {
     params: posts.map((post) => ({
