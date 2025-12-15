@@ -14,6 +14,10 @@ export const RouterHead = component$(() => {
 
       <link rel="canonical" href={loc.url.href} />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta
+        http-equiv="Content-Security-Policy"
+        content="default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self';"
+      />
       <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
       {head.meta.map((m) => (
