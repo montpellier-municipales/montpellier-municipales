@@ -52,6 +52,7 @@ export const Sidebar = component$<Props>(({ menu }) => {
         <Modal.Trigger
           class={toggleBaseStyle}
           name={t("sidebar.toggleSidebar")}
+          aria-label={t("sidebar.toggleSidebar")}
         >
           <Slot />
         </Modal.Trigger>
