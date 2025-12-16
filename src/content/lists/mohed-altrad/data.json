@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../types/schema.json",
+  "id": "mohed-altrad",
+  "name": "Mohed Altrad",
+  "headOfList": "Mohed Altrad",
+  "parties": ["Sans étiquette", "Milliardaire"],
+  "logoUrl": "/images/mohed-altrad-logo.png",
+  "candidatePictureUrl": "/images/mohed-altrad.jpg",
+  "fame": 9,
+  "website": "",
+  "socials": {},
+  "program": []
+}

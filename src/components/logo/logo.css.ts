@@ -5,13 +5,13 @@ import { vars } from "~/theme.css";
 export const title = style([
   stack,
   {
-    lineHeight: "22px",
-    fontSize: "26px",
+    lineHeight: "20px",
+    fontSize: "24px",
     margin: 0,
     color: vars.color.primaryHover,
   },
 ]);
 
 export const subTitle = style({
-  fontSize: "17px",
+  fontSize: "16px",
 });

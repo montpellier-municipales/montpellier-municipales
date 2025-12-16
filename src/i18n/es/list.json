@@ -1,5 +1,6 @@
 {
   "list": {
-    "description": "Presentación de la lista {{listName}} y de su cabeza de lista {{headOfList}} que se presenta a las elecciones municipales de 2026 en Montpellier"
+    "description": "Presentación de la lista {{listName}} y de su cabeza de lista {{headOfList}} que se presenta a las elecciones municipales de 2026 en Montpellier",
+    "headOfList": "Cabeza de lista: {{name}}"
   }
 }

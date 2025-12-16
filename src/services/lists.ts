@@ -1,16 +1,51 @@
-import { readFile, readdir } from "node:fs/promises";
+import { readFile, readdir, stat } from "node:fs/promises";
 import { join } from "node:path";
 import type { Candidate } from "~/types/schema";
 
 const LISTS_DIR = join(process.cwd(), "src/content/lists");
 
+async function readMarkdownFiles(
+  dir: string
+): Promise<Record<string, string> | undefined> {
+  try {
+    const files = await readdir(dir);
+    const result: Record<string, string> = {};
+    let hasContent = false;
+
+    for (const file of files) {
+      if (file.endsWith(".md")) {
+        const lang = file.replace(".md", "");
+        const content = await readFile(join(dir, file), "utf-8");
+        result[lang] = content;
+        hasContent = true;
+      }
+    }
+    return hasContent ? result : undefined;
+  } catch (error) {
+    // Directory might not exist or be empty, which is fine
+    return undefined;
+  }
+}
+
 export const getList = async (id: string): Promise<Candidate | null> => {
   try {
-    const filePath = join(LISTS_DIR, `${id}.json`);
-    const fileContent = await readFile(filePath, "utf-8");
-    const list = JSON.parse(fileContent) as Candidate;
-    if (list.disabled) return null;
-    return list;
+    const listDir = join(LISTS_DIR, id);
+    const dataPath = join(listDir, "data.json");
+
+    const fileContent = await readFile(dataPath, "utf-8");
+    const listData = JSON.parse(fileContent) as Candidate;
+
+    if (listData.disabled) return null;
+
+    // Load markdown content
+    const presentation = await readMarkdownFiles(join(listDir, "presentation"));
+    const vision = await readMarkdownFiles(join(listDir, "vision"));
+
+    return {
+      ...listData,
+      presentation: presentation as any,
+      vision: vision as any,
+    };
   } catch (error) {
     console.error(`Error reading list ${id}:`, error);
     return null;
@@ -19,15 +54,24 @@ export const getList = async (id: string): Promise<Candidate | null> => {
 
 export const getAllLists = async (): Promise<Candidate[]> => {
   try {
-    const files = await readdir(LISTS_DIR);
-    const jsonFiles = files.filter((file) => file.endsWith(".json"));
+    const entries = await readdir(LISTS_DIR);
+    const listIds: string[] = [];
 
-    const lists = await Promise.all(
-      jsonFiles.map(async (file) => {
-        const id = file.replace(".json", "");
-        return getList(id);
-      })
-    );
+    for (const entry of entries) {
+      const fullPath = join(LISTS_DIR, entry);
+      const stats = await stat(fullPath);
+      if (stats.isDirectory()) {
+        try {
+          // Check if data.json exists to confirm it's a list folder
+          await stat(join(fullPath, "data.json"));
+          listIds.push(entry);
+        } catch {
+          // Not a list folder
+        }
+      }
+    }
+
+    const lists = await Promise.all(listIds.map((id) => getList(id)));
 
     const validLists = lists.filter((list): list is Candidate => list !== null);
 

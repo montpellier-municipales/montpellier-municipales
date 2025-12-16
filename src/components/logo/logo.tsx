@@ -12,7 +12,7 @@ export const Logo = component$<Props>(({ tag = "h1" }) => {
 
   return (
     <>
-      <MontpellierMunicipalesLogo height="40px" preserveAspectRatio="true" />
+      <MontpellierMunicipalesLogo height="32px" preserveAspectRatio="meet" />
       <Tag class={title}>
         <div>Montpellier</div>
         <div class={subTitle}>municipales 2026</div>

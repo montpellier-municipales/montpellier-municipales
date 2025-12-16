@@ -29,6 +29,7 @@ export const vars = createThemeContract({
   shadow: {
     sm: null,
     md: null,
+    lg: null,
   },
 });
 
@@ -67,15 +68,17 @@ export const lightTheme = createTheme(vars, {
   },
   font: {
     body: '"Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif',
-    heading: 'Lato, "Open Sans", "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif',
+    heading:
+      'Lato, "Open Sans", "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif',
   },
   layout: {
-    maxWidth: "1200px",
+    maxWidth: "1000px",
     sidebarWidth: "320px",
   },
   shadow: {
     sm: "0 1px 2px 0 rgba(0, 0, 0, 0.05)",
-    md: "0 4px 6px -1px rgba(0, 0, 0, 0.1)",
+    md: "0 2px 4px rgba(0, 0, 0, 0.05)",
+    lg: "0 4px 6px -1px rgba(0, 0, 0, 0.1)",
   },
 });
 
@@ -99,14 +102,16 @@ export const darkTheme = createTheme(vars, {
   },
   font: {
     body: '"Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif',
-    heading: '"Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif',
+    heading:
+      '"Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif',
   },
   layout: {
-    maxWidth: "1200px",
+    maxWidth: "1000px",
     sidebarWidth: "320px",
   },
   shadow: {
     sm: "0 1px 2px 0 rgba(0, 0, 0, 0.3)", // Ombres plus fortes en dark
-    md: "0 4px 6px -1px rgba(0, 0, 0, 0.5)",
+    md: "0 2px 4px rgba(0, 0, 0, 0.5)",
+    lg: "0 4px 6px -1px rgba(0, 0, 0, 0.5)",
   },
 });

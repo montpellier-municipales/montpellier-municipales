@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../types/schema.json",
+  "id": "revolution-permanente",
+  "name": "Révolution Permanente",
+  "headOfList": "Max Muller",
+  "parties": [
+    "Révolution Permanente"
+  ],
+  "logoUrl": "/images/revolution-permanente.svg",
+  "candidatePictureUrl": "/images/max-muller.jpeg",
+  "fame": 2,
+  "website": "https://www.revolutionpermanente.fr/Avec-Max-Muller-Revolution-Permanente-se-presente-pour-la-premiere-fois-aux-municipales-a",
+  "socials": {
+    "twitter": "https://x.com/RevPermanente",
+    "facebook": "https://www.facebook.com/RevolutionPermanente.fr/",
+    "instagram": "https://www.instagram.com/revolutionpermanente_mtp/",
+    "tiktok": "https://www.tiktok.com/@revpermanente",
+    "bluesky": "https://bsky.app/profile/revolutionpermanente.fr"
+  },
+  "program": []
+}

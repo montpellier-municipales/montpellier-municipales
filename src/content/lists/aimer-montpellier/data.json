@@ -1,0 +1,84 @@
+{
+  "$schema": "../../../types/schema.json",
+  "id": "aimer-montpellier",
+  "name": "Aimer Montpellier",
+  "headOfList": "Isabelle Perrein",
+  "parties": ["Les Républicains", "UDI", "Modem"],
+  "logoUrl": "/images/aimer-montpellier-logo.png",
+  "candidatePictureUrl": "/images/Isabelle-Perrein.png",
+  "fame": 7,
+  "website": "https://isabelleperrein2026.fr",
+  "socials": {
+    "facebook": "https://www.facebook.com/IsabellePerrein2026"
+  },
+  "program": [
+    {
+      "themeId": "securite",
+      "summary": {
+        "fr": "Tolérance zéro et renforcement de la police municipale.",
+        "en": "Zero tolerance and reinforcement of the municipal police.",
+        "es": "Tolerancia cero y refuerzo de la policía municipal.",
+        "oc": "Tolerància zèro e renforçament de la polícia municipala.",
+        "ar": "عدم التسامح مطلقاً وتعزيز الشرطة البلدية."
+      },
+      "details": {
+        "fr": "Renforcement significatif de la police municipale, maillage accru des postes dans les quartiers, présence 24h/24 et développement d'un Centre de Supervision Urbain performant.",
+        "en": "Significant reinforcement of the municipal police, increased network of stations in neighborhoods, 24/7 presence, and development of a high-performance Urban Supervision Center.",
+        "es": "Refuerzo significativo de la policía municipal, mayor red de comisarías en los barrios, presencia las 24 horas y desarrollo de un Centro de Supervisión Urbana de alto rendimiento.",
+        "oc": "Renforçament significatiu de la polícia municipala, malhatge crescut dels pòstes dins los quartièrs, preséncia 24h/24 e desvolopament d'un Centre de Supervision Urban performant.",
+        "ar": "تعزيز كبير للشرطة البلدية، وزيادة شبكة المراكز في الأحياء، وتواجد على مدار 24 ساعة، وتطوير مركز إشراف حضري عالي الأداء."
+      }
+    },
+    {
+      "themeId": "transport",
+      "summary": {
+        "fr": "Accessibilité pour tous les modes et remise à plat du plan de circulation.",
+        "en": "Accessibility for all modes and overhaul of the traffic plan.",
+        "es": "Accesibilidad para todos los modos y revisión del plan de tráfico.",
+        "oc": "Accessibilitat per totes los mòdes e mesa a plat del plan de circulacion.",
+        "ar": "إمكانية الوصول لجميع وسائل النقل وإصلاح خطة المرور."
+      },
+      "details": {
+        "fr": "Critique de la ZFE jugée discriminante. Objectif de rendre la ville accessible aux piétons, vélos et automobilistes. Rétablissement du stationnement et réforme de la gratuité.",
+        "en": "Criticism of the LEZ deemed discriminatory. Goal to make the city accessible to pedestrians, cyclists, and motorists. Restoration of parking and reform of free transport.",
+        "es": "Crítica a la ZBE considerada discriminatoria. Objetivo de hacer la ciudad accesible a peatones, ciclistas y automovilistas. Restablecimiento del estacionamiento y reforma de la gratuidad.",
+        "oc": "Critica de la ZFE jutjada discriminanta. Objectiu de rendre la vila accessibla als pedons, vélos e automobilistas. Restabliment de l'estacionament e reforma de la gratuïtat.",
+        "ar": "انتقاد منطقة الانبعاثات المنخفضة (ZFE) باعتبارها تمييزية. الهدف هو جعل المدينة في متناول المشاة وراكبي الدراجات وسائقي السيارات. استعادة مواقف السيارات وإصلاح مجانية النقل."
+      }
+    },
+    {
+      "themeId": "ecologie",
+      "summary": {
+        "fr": "Réorganisation du nettoiement et gestion efficace des déchets.",
+        "en": "Reorganization of cleaning and effective waste management.",
+        "es": "Reorganización de la limpieza y gestión eficaz de residuos.",
+        "oc": "Reorganizacion del netejament e gestion eficaça dels degalhs.",
+        "ar": "إعادة تنظيم التنظيف وإدارة فعالة للنفايات."
+      },
+      "details": {
+        "fr": "Diagnostic sévère de la propreté. Proposition de réorganiser le nettoiement urbain, développer le tri et l'économie circulaire, et construire des outils de traitement moins coûteux.",
+        "en": "Severe diagnosis of cleanliness. Proposal to reorganize urban cleaning, develop sorting and circular economy, and build less expensive treatment tools.",
+        "es": "Diagnóstico severo de la limpieza. Propuesta de reorganizar la limpieza urbana, desarrollar el reciclaje y la economía circular, y construir herramientas de tratamiento menos costosas.",
+        "oc": "Diagnostic sevèr de la propretat. Proposicion de reorganizar lo netejament urban, desvolopar la tria e l'economia circulara, e bastir d'aisinas de tractament mens expensive.",
+        "ar": "تشخيص قاسٍ لمستوى النظافة. مقترح لإعادة تنظيم التنظيف الحضري، وتطوير الفرز والاقتصاد الدائري، وبناء أدوات معالجة أقل تكلفة."
+      }
+    },
+    {
+      "themeId": "logement",
+      "summary": {
+        "fr": "Urbanisme de « bon sens » et maîtrise de la bétonisation.",
+        "en": "\"Common sense\" urban planning and control of concreting.",
+        "es": "Urbanismo de \"sentido común\" y control del hormigonado.",
+        "oc": "Urbanisme de « bon sens » e mestritge de la betonizacion.",
+        "ar": "تخطيط عمراني يعتمد على \"المنطق السليم\" والسيطرة على التوسع الخرساني."
+      },
+      "details": {
+        "fr": "Priorité à la rénovation du bâti existant, densification maîtrisée, création d'espaces verts et refus de la bétonisation excessive pour un cadre de vie agréable.",
+        "en": "Priority on renovating existing buildings, controlled densification, creation of green spaces, and refusal of excessive concreting for a pleasant living environment.",
+        "es": "Prioridad a la renovación de edificios existentes, densificación controlada, creación de espacios verdes y rechazo al hormigonado excesivo para un entorno de vida agradable.",
+        "oc": "Prioritat a la renovacion del bastit existant, densificacion mestrejada, creacion d'espacis verds e refús de la betonizacion excessiva per un quadre de vida agradiu.",
+        "ar": "أولوية لتجديد المباني القائمة، وتكثيف سكاني مسيطر عليه، وإنشاء مساحات خضراء ورفض التوسع الخرساني المفرط من أجل بيئة معيشية ممتعة."
+      }
+    }
+  ]
+}

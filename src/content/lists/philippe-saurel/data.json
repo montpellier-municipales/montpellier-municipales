@@ -1,0 +1,13 @@
+{
+  "$schema": "../../../types/schema.json",
+  "id": "philippe-saurel",
+  "name": "Philippe Saurel",
+  "headOfList": "Philippe Saurel",
+  "parties": ["Centre droit"],
+  "logoUrl": "/images/philippe-saurel.jpg",
+  "candidatePictureUrl": "/images/philippe-saurel.jpg",
+  "fame": 9,
+  "website": "",
+  "socials": {},
+  "program": []
+}

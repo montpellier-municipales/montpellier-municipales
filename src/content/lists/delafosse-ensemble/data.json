@@ -1,10 +1,13 @@
 {
-  "$schema": "../../types/schema.json",
+  "$schema": "../../../types/schema.json",
   "id": "delafosse-ensemble",
   "disabled": true,
   "name": "Montpellier en Commun",
   "headOfList": "Michaël Delafosse",
-  "parties": ["Parti Socialiste", "Alliance Citoyenne"],
+  "parties": [
+    "Parti Socialiste",
+    "Alliance Citoyenne"
+  ],
   "logoUrl": "/images/logos/delafosse-ensemble.png",
   "candidatePictureUrl": "/images/candidates/michael-delafosse.jpg",
   "fame": 10,
@@ -13,8 +16,6 @@
     "twitter": "https://twitter.com/MDelafosse",
     "facebook": "https://facebook.com/MichaelDelafosseOfficiel"
   },
-  "presentation": { "fr": "", "en": "", "es": "", "oc": "", "ar": "" },
-  "vision": { "fr": "", "en": "", "es": "", "oc": "", "ar": "" },
   "program": [
     {
       "themeId": "transport",

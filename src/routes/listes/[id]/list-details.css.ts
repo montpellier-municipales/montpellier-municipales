@@ -1,10 +1,11 @@
 import { style } from "@vanilla-extract/css";
+import { vars } from "~/theme.css";
 
 export const container = style({
-  maxWidth: "800px",
+  maxWidth: vars.layout.maxWidth,
   margin: "0 auto",
   padding: "2rem",
-  fontFamily: "system-ui, sans-serif",
+  fontFamily: vars.font.body,
 });
 
 export const header = style({
@@ -12,13 +13,22 @@ export const header = style({
   alignItems: "center",
   gap: "2rem",
   marginBottom: "3rem",
-  borderBottom: "1px solid #eee",
+  borderBottom: `1px solid ${vars.color.border}`,
   paddingBottom: "2rem",
+
+  "@media": {
+    "screen and (max-width: 768px)": {
+      flexWrap: "wrap",
+      alignItems: "center",
+      justifyContent: "center",
+      textAlign: "center",
+    },
+  },
 });
 
 export const logo = style({
-  width: "120px",
-  height: "120px",
+  width: "150px",
+  height: "150px",
   objectFit: "contain",
   borderRadius: "8px",
   display: "flex",
@@ -29,13 +39,13 @@ export const logo = style({
 export const title = style({
   fontSize: "2.5rem",
   fontWeight: "bold",
-  color: "#333",
+  color: vars.color.title,
   margin: "0 0 0.5rem 0",
 });
 
 export const subtitle = style({
   fontSize: "1.25rem",
-  color: "#666",
+  color: vars.color.title,
   margin: 0,
 });
 
@@ -43,13 +53,22 @@ export const programSection = style({
   marginTop: "2rem",
 });
 
+export const party = style({
+  display: "inline-block",
+  padding: "0.25rem 0.5rem",
+  backgroundColor: vars.color.border,
+  borderRadius: "4px",
+  fontSize: "0.875rem",
+  marginRight: "0.5rem",
+});
+
 export const themeCard = style({
-  backgroundColor: "white",
-  border: "1px solid #e0e0e0",
+  backgroundColor: vars.color.surface,
+  border: `1px solid ${vars.color.border}`,
   borderRadius: "8px",
   padding: "1.5rem",
   marginBottom: "1.5rem",
-  boxShadow: "0 2px 4px rgba(0,0,0,0.05)",
+  boxShadow: vars.shadow.md,
 });
 
 export const themeTitle = style({
@@ -59,4 +78,8 @@ export const themeTitle = style({
   display: "flex",
   alignItems: "center",
   gap: "0.5rem",
+});
+
+export const listSection = style({
+  lineHeight: "1.5em",
 });

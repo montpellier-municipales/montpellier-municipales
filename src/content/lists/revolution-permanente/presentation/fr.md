@@ -1,0 +1,5 @@
+**Révolution Permanente (RP)** est une organisation politique se réclamant du **trotskysme**, c’est‑à‑dire d’un courant marxiste issu des analyses de Léon Trotsky. Le mouvement se définit comme **anticapitaliste, internationaliste et révolutionnaire**, avec une stratégie centrée sur l’auto‑organisation des travailleuses et travailleurs, des jeunes et des classes populaires.
+
+Révolution Permanente s’est constituée en France en **2022**, à la suite d’une scission interne au **Nouveau Parti anticapitaliste (NPA)**. Depuis, le mouvement agit de manière indépendante sur le terrain politique, syndical, étudiant et féministe, et développe ses propres campagnes et candidatures électorales.
+
+Pour les élections municipales de 2026 à Montpellier, Révolution Permanente présente une liste conduite par **Max Muller**. Il s’agit de la **première participation du mouvement à une élection municipale dans la ville**.

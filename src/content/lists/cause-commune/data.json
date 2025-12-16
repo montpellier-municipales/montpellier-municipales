@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../types/schema.json",
+  "id": "cause-commune",
+  "name": "Cause Commune",
+  "headOfList": "non définie",
+  "parties": [
+    "Cause Commune"
+  ],
+  "logoUrl": "/images/cause-commune.png",
+  "candidatePictureUrl": "/images/cause-commune-2.webp",
+  "website": "https://montpelliercausecommune.org/",
+  "fame": 1,
+  "socials": {
+    "twitter": "https://x.com/CauseCommuneMtp",
+    "facebook": "https://facebook.com/CauseCommuneMontpellier",
+    "instagram": "https://instagram.com/causecommunemtp"
+  },
+  "program": []
+}

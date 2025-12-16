@@ -14,7 +14,7 @@ import { RouterHead } from "./components/router-head/router-head";
 import { lightTheme, darkTheme } from "./theme.css";
 import { ThemeContext } from "./routes/theme-context";
 import "./global.css";
-import { useQwikSpeak } from "qwik-speak";
+import { useQwikSpeak, useSpeakContext } from "qwik-speak"; // Added useQwikSpeakContext
 import { config } from "./speak-config";
 import { translationFn } from "./speak-functions";
 
@@ -22,6 +22,11 @@ export default component$(() => {
   // État du thème (par défaut light)
   const themeSignal = useSignal<"light" | "dark">("light");
   useQwikSpeak({ config, translationFn });
+
+  // Get the current speak context to access language direction
+  const speakContext = useSpeakContext();
+  const lang = speakContext.locale.lang;
+  const dir = speakContext.locale.dir;
 
   // Au montage côté client, on vérifie la préférence ou le localStorage
   // useVisibleTask$ s'exécute uniquement dans le navigateur
@@ -74,7 +79,8 @@ export default component$(() => {
       </head>
       {/* Application dynamique de la classe de thème */}
       <body
-        lang="en"
+        lang={lang}
+        dir={dir}
         class={themeSignal.value === "light" ? lightTheme : darkTheme}
       >
         <RouterOutlet />

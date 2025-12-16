@@ -1,0 +1,15 @@
+{
+  "$schema": "../../../types/schema.json",
+  "id": "serge-martin",
+  "name": "Serge Martin",
+  "headOfList": "Serge Martin",
+  "parties": [
+    "Indépendant"
+  ],
+  "logoUrl": "/images/serge-martin.png",
+  "candidatePictureUrl": "/images/serge-martin.png",
+  "fame": 4,
+  "website": "",
+  "socials": {},
+  "program": []
+}

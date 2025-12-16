@@ -29,7 +29,7 @@ export const popover = style({
   color: vars.color.text,
   border: vars.color.border,
   borderRadius: "4px",
-  boxShadow: vars.shadow.md,
+  boxShadow: vars.shadow.lg,
   padding: "8px",
   width: vars.layout.sidebarWidth,
   boxSizing: "border-box",

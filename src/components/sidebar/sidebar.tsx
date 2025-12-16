@@ -1,4 +1,4 @@
-import { component$, Slot } from "@builder.io/qwik";
+import { $, component$, Slot, useSignal } from "@builder.io/qwik";
 import { Modal } from "@qwik-ui/headless";
 import {
   activeMenuListItem,
@@ -6,6 +6,7 @@ import {
   menuListItem,
   modalPanelSheet,
   panelTitle,
+  panelDescription,
 } from "./sidebar.css";
 import { toggleBaseStyle } from "../ToggleIcon/ToggleIcon.css";
 import { Logo } from "../logo/logo";
@@ -40,19 +41,24 @@ export const Sidebar = component$<Props>(({ menu }) => {
   const t = inlineTranslate();
   const currentLocale = loc.params.lang || "fr";
 
+  const isOpen = useSignal(false);
+
   const getLink = (path: string) => {
     if (currentLocale === "fr") return path;
     return `/${currentLocale}${path}`;
   };
   const cleanedPath = cleanPath(loc.url.pathname);
 
+  const closeSidebar = $(() => (isOpen.value = false));
+
   return (
     <>
-      <Modal.Root>
+      <Modal.Root bind:show={isOpen}>
         <Modal.Trigger
           class={toggleBaseStyle}
           name={t("sidebar.toggleSidebar")}
           aria-label={t("sidebar.toggleSidebar")}
+          onClick$={() => (isOpen.value = true)}
         >
           <Slot />
         </Modal.Trigger>
@@ -60,7 +66,7 @@ export const Sidebar = component$<Props>(({ menu }) => {
           <Modal.Title class={panelTitle}>
             <Logo tag="div" />
           </Modal.Title>
-          <Modal.Description align="center">
+          <Modal.Description align="center" class={panelDescription}>
             {t("sidebar.description")}
           </Modal.Description>
 
@@ -70,6 +76,7 @@ export const Sidebar = component$<Props>(({ menu }) => {
                 <li key={item.href}>
                   <Link
                     href={getLink(item.href)}
+                    onClick$={closeSidebar}
                     class={[
                       menuListItem,
                       ...(cleanedPath === cleanHref(item.href)

@@ -55,6 +55,7 @@ export default component$(() => {
   useSpeak({ assets: ["list"] });
   const list = useListDetails();
   const loc = useLocation();
+  const t = inlineTranslate();
   const currentLocale = (loc.params.lang as Language) ?? Language.fr;
 
   return (
@@ -62,45 +63,26 @@ export default component$(() => {
       <header class={styles.header}>
         {/* Placeholder image si pas d'image réelle */}
         <div class={styles.logo}>
-          {list.value.logoUrl ? (
+          {list.value.logoUrl && (
             // eslint-disable-next-line qwik/jsx-img
             <img
               src={list.value.logoUrl}
               alt={`Logo ${list.value.name}`}
               style={{ maxWidth: 120, maxHeight: 120 }}
             />
-          ) : (
-            <div
-              style={{
-                width: "100%",
-                height: "100%",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                color: "#999",
-              }}
-            >
-              Logo
-            </div>
           )}
         </div>
 
         <div>
           <h1 class={styles.title}>{list.value.name}</h1>
-          <p class={styles.subtitle}>Tête de liste : {list.value.headOfList}</p>
+          <p class={styles.subtitle}>
+            {t("list.headOfList@@Tête de liste : {{name}}", {
+              name: list.value.headOfList,
+            })}
+          </p>
           <div style={{ marginTop: "0.5rem" }}>
             {list.value.parties.map((party) => (
-              <span
-                key={party}
-                style={{
-                  display: "inline-block",
-                  padding: "0.25rem 0.5rem",
-                  backgroundColor: "#eee",
-                  borderRadius: "4px",
-                  fontSize: "0.875rem",
-                  marginRight: "0.5rem",
-                }}
-              >
+              <span key={party} class={styles.party}>
                 {party}
               </span>
             ))}
@@ -109,10 +91,12 @@ export default component$(() => {
       </header>
 
       <section
+        class={styles.listSection}
         dangerouslySetInnerHTML={list.value.presentation?.[currentLocale]}
       ></section>
 
       <section
+        class={styles.listSection}
         dangerouslySetInnerHTML={list.value.vision?.[currentLocale]}
       ></section>
 

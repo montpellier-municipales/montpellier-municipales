@@ -2,7 +2,7 @@ import { style, globalStyle } from "@vanilla-extract/css";
 import { vars } from "~/theme.css";
 
 export const container = style({
-  maxWidth: "800px",
+  maxWidth: vars.layout.maxWidth,
   margin: "0 auto",
   padding: "2rem",
   fontFamily: "system-ui, sans-serif",
@@ -43,7 +43,7 @@ export const postCard = style({
   color: "inherit",
   transition: "transform 0.2s",
   ":hover": {
-    transform: "scale(1.1)",
+    transform: "scale(1.05)",
   },
 });
 

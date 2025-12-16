@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../types/schema.json",
+  "id": "la-france-insoumise",
+  "name": "La France Insoumise",
+  "headOfList": "Nathalie Oziol",
+  "parties": [
+    "La France Insoumise"
+  ],
+  "logoUrl": "/images/LFI.png",
+  "candidatePictureUrl": "/images/lfi-candidates.jpg",
+  "fame": 5,
+  "website": "https://lafranceinsoumise.fr",
+  "socials": {
+    "twitter": "https://twitter.com/NathalieOziol",
+    "facebook": "https://www.facebook.com/LaFranceInsoumise",
+    "instagram": "https://www.instagram.com/nathalieoziol"
+  },
+  "program": []
+}

@@ -1,0 +1,5 @@
+**Révolution Permanente (RP)** es una organizacion politica que se reclama del **trotskisme**, valent a dire d’un corrent marxista eissit de las analisis de Leon Trotsky. Lo movement se definís coma **anticapitalista, internacionalista e revolucionari**, amb una estrategia centrada sus l’auto-organizacion de las trabalhairas e trabalhadors, del jovent e de las classas popularas.
+
+Révolution Permanente se constituiguèt en França en **2022**, en seguida d’una scission intèrna al **Novèl Partit Anticapitalista (NPA)**. Dempuei, lo movement agís de manièra independenta sol terren politic, sindical, estudiant e feminista, e desvolopa las siás pròprias campanhas e candidaturas electoralas.
+
+Per las eleccions municipalas de 2026 a Montpelhièr, Révolution Permanente presenta una lista menada per **Max Muller**. S’agís de la **primièra participacion del movement a una eleccion municipala dins la vila**.

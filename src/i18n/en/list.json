@@ -1,5 +1,6 @@
 {
   "list": {
-    "description": "Presentation of the {{listName}} list and its lead candidate {{headOfList}} running in the 2026 Montpellier municipal elections"
+    "description": "Presentation of the {{listName}} list and its lead candidate {{headOfList}} running in the 2026 Montpellier municipal elections",
+    "headOfList": "Head of List: {{name}}"
   }
 }

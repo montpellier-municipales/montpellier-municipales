@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../types/schema.json",
+  "id": "les-ecologistes",
+  "name": "Les Écologistes",
+  "headOfList": "Jean-Louis Roumégas",
+  "parties": [
+    "Les Écologistes"
+  ],
+  "logoUrl": "/images/ecologistes.png",
+  "candidatePictureUrl": "/images/ecologistes-candidat.webp",
+  "fame": 5,
+  "website": "https://montpellier.lesecologistes.fr",
+  "socials": {
+    "twitter": "https://twitter.com/EELV",
+    "facebook": "https://www.facebook.com/eelvofficiel",
+    "instagram": "https://www.instagram.com/eelv.fr"
+  },
+  "program": []
+}

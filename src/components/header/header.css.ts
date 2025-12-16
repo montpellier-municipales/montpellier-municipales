@@ -24,6 +24,7 @@ export const logo = style({
   display: "flex",
   alignItems: "center",
   gap: 16,
+  padding: "4px 0",
   ":hover": {
     textDecoration: "none",
   },

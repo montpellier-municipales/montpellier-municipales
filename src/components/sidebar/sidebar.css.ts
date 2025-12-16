@@ -35,6 +35,16 @@ const sheetClose = keyframes({
   "100%": { opacity: 0, transform: "translateX(100%)" },
 });
 
+// New keyframes for RTL
+const sheetOpenRtl = keyframes({
+  "0%": { opacity: 0, transform: "translateX(-100%)" },
+  "100%": { opacity: 1, transform: "translateX(0%)" },
+});
+const sheetCloseRtl = keyframes({
+  "0%": { opacity: 1, transform: "translateX(0%)" },
+  "100%": { opacity: 0, transform: "translateX(-100%)" },
+});
+
 export const backDrop = style({
   animation: `${modalFadeIn} 0.3s ${vars.defaultTransition}`,
   backgroundColor: "rgba(0, 0, 0, 0.5)",
@@ -52,7 +62,7 @@ export const modalPanelSheet = style({
   width: vars.layout.sidebarWidth,
   overflowY: "auto",
   border: 0,
-  marginRight: 0,
+  marginRight: 0, // Default for LTR
   padding: 0,
   height: "100vh",
   animation: `${sheetOpen} 0.3s ${vars.defaultTransition}`,
@@ -79,6 +89,15 @@ export const modalPanelSheet = style({
       transition: `backgroundColor 0.3s ${vars.defaultTransition}, backdropFilter 0.3s ${vars.defaultTransition}, display 0.3s`,
       transitionBehavior: "allow-discrete",
     },
+    // RTL specific overrides
+    'body[dir="rtl"] &': {
+      marginLeft: 0,
+      marginRight: "auto", // Push it to the left side
+      animation: `${sheetOpenRtl} 0.3s ${vars.defaultTransition}`,
+    },
+    'body[dir="rtl"] &[data-closing]': {
+      animation: `${sheetCloseRtl} 0.3s ${vars.defaultTransition}`,
+    },
   },
 });
 
@@ -88,6 +107,10 @@ export const panelTitle = style({
   flexDirection: "column",
   margin: "24px 8px",
   gap: 8,
+});
+
+export const panelDescription = style({
+  padding: "0 16px",
 });
 
 export const menuList = style({

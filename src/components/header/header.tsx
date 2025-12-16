@@ -20,7 +20,7 @@ export const Header = component$(() => {
 
   const menu = [
     { label: t("app.menu.home"), href: "/" },
-    { label: t("app.menu.comparator"), href: "/comparateur" },
+    //{ label: t("app.menu.comparator"), href: "/comparateur" },
     { label: t("app.menu.info"), href: "/info" },
   ];
 
