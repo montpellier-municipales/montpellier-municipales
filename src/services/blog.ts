@@ -18,6 +18,7 @@ async function parseFile(
     const fileContent = await readFile(filePath, "utf-8");
     const { data, content: markdownContent } = matter(fileContent);
     const htmlContent = await marked.parse(markdownContent);
+    const excerptHtml = data.excerpt ? await marked.parse(data.excerpt) : undefined;
 
     const publicSlug = data.slug || filenameId;
 
@@ -29,6 +30,7 @@ async function parseFile(
       date: data.date,
       author: data.author,
       excerpt: data.excerpt,
+      excerptHtml: excerptHtml as string | undefined,
       content: htmlContent as string,
     };
   } catch {

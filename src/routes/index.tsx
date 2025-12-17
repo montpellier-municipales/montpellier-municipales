@@ -3,6 +3,7 @@ import { routeLoader$, Link, type DocumentHead } from "@builder.io/qwik-city";
 import { getAllLists } from "~/services/lists";
 import * as styles from "./home.css";
 import { inlineTranslate, useSpeak } from "qwik-speak";
+import { Countdown } from "~/components/countdown/countdown";
 
 // Chargement des données côté serveur
 export const useLists = routeLoader$(async () => {
@@ -21,6 +22,8 @@ export default component$(() => {
         <h1 class={styles.title}>{t("home.heroTitle")}</h1>
         <p class={styles.subtitle}>{t("home.heroSubtitle")}</p>
       </header>
+
+      <Countdown />
 
       <div class={styles.grid}>
         {lists.value.map((list) => (

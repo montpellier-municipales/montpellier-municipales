@@ -14,6 +14,7 @@ import { Link, useLocation } from "@builder.io/qwik-city";
 import { LanguageSwitcher } from "../language-switcher/language-switcher";
 import { Spacer } from "../spacer";
 import { inlineTranslate } from "qwik-speak";
+import { getIsPathActive } from "~/utils";
 
 type MenuItem = {
   label: string;
@@ -23,18 +24,6 @@ type MenuItem = {
 interface Props {
   menu: MenuItem[];
 }
-
-const cleanPath = (path: string) => {
-  if (path.length <= 1) return path;
-  if (path.endsWith("/")) return path.substring(0, path.length - 1);
-  return path;
-};
-
-const cleanHref = (href: string) => {
-  if (href.length > 3 && href[0] === "/" && href[3] === "/")
-    return href.substring(3);
-  return href;
-};
 
 export const Sidebar = component$<Props>(({ menu }) => {
   const loc = useLocation();
@@ -47,7 +36,7 @@ export const Sidebar = component$<Props>(({ menu }) => {
     if (currentLocale === "fr") return path;
     return `/${currentLocale}${path}`;
   };
-  const cleanedPath = cleanPath(loc.url.pathname);
+  const isPathActive = getIsPathActive(loc);
 
   const closeSidebar = $(() => (isOpen.value = false));
 
@@ -79,9 +68,7 @@ export const Sidebar = component$<Props>(({ menu }) => {
                     onClick$={closeSidebar}
                     class={[
                       menuListItem,
-                      ...(cleanedPath === cleanHref(item.href)
-                        ? [activeMenuListItem]
-                        : []),
+                      ...(isPathActive(item.href) ? [activeMenuListItem] : []),
                     ]}
                   >
                     {item.label}

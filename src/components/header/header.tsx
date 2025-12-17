@@ -6,6 +6,7 @@ import { Container } from "../container/container";
 import { Sidebar } from "../sidebar/sidebar";
 import { Logo } from "../logo/logo";
 import { inlineTranslate } from "qwik-speak";
+import { getIsPathActive } from "~/utils";
 
 export const Header = component$(() => {
   const loc = useLocation();
@@ -20,9 +21,13 @@ export const Header = component$(() => {
 
   const menu = [
     { label: t("app.menu.home"), href: "/" },
+    { label: t("app.menu.inscriptionElectorale"), href: "/inscription" },
+    { label: t("app.menu.roleMairieMetropole"), href: "/role-mairie-metropole" },
     //{ label: t("app.menu.comparator"), href: "/comparateur" },
     { label: t("app.menu.info"), href: "/info" },
   ];
+
+  const isPathActive = getIsPathActive(loc);
 
   return (
     <header class={styles.header}>
@@ -36,7 +41,7 @@ export const Header = component$(() => {
             <Link
               key={item.href}
               href={getLink(item.href)}
-              class={`${styles.link} ${loc.url.pathname.endsWith(item.href) ? styles.activeLink : ""}`} // Active state simple
+              class={`${styles.link} ${isPathActive(item.href) ? styles.activeLink : ""}`} // Active state simple
             >
               {item.label}
             </Link>

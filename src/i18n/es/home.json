@@ -3,6 +3,19 @@
     "heroTitle": "Montpellier 2026",
     "heroSubtitle": "Compara programas, infórmate y vota con conciencia.",
     "headOfList": "Cabeza de lista",
-    "noImage": "Sin imagen"
+    "noImage": "Sin imagen",
+    "countdown": {
+      "title": "Fin de la inscripción en las listas electorales",
+      "days": "Días",
+      "day": "Día",
+      "hours": "Horas",
+      "hour": "Hora",
+      "minutes": "Minutos",
+      "minute": "Minuto",
+      "seconds": "Segundos",
+      "second": "Segundo",
+      "euMessage": "Todos los ciudadanos de la Unión Europea que residan, estudien o trabajen en Montpellier pueden votar.",
+      "action": "¿Cómo inscribirse?"
+    }
   }
 }

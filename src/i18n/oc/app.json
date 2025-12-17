@@ -5,7 +5,17 @@
     "menu": {
       "home": "Acuèlh",
       "comparator": "Comparator",
-      "info": "Actualitats"
+      "info": "Actualitats",
+      "inscriptionElectorale": "Listas electoralas",
+      "roleMairieMetropole": "Perqué votar?"
+    },
+    "inscription": {
+      "title": "Inscripcion sus las listas electoralas · Montpelhièr 2026",
+      "description": "Guid practic per s'inscrire sus las listas electoralas a Montpelhièr per las municipalas de 2026."
+    },
+    "roleMairieMetropole": {
+      "title": "A qué servisson la comuna e la metropòli ?",
+      "description": "Comprene las competéncias de la comuna e de la metropòli de Montpelhièr e perqué lo vòte municipal es crucial."
     }
   },
   "sidebar": {

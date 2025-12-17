@@ -46,7 +46,11 @@ export default component$(() => {
               >
                 {post.date}
               </div>
-              <p>{post.excerpt}</p>
+              {post.excerptHtml ? (
+                <div dangerouslySetInnerHTML={post.excerptHtml} />
+              ) : (
+                <p>{post.excerpt}</p>
+              )}
             </Link>
           );
         })}

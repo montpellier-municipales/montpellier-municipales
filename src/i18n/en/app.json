@@ -5,7 +5,17 @@
     "menu": {
       "home": "Home",
       "comparator": "Comparator",
-      "info": "News"
+      "info": "News",
+      "inscriptionElectorale": "Electoral lists",
+      "roleMairieMetropole": "Why vote?"
+    },
+    "inscription": {
+      "title": "Electoral Registration · Montpellier 2026",
+      "description": "Practical guide to registering on the electoral lists in Montpellier for the 2026 municipal elections."
+    },
+    "roleMairieMetropole": {
+      "title": "What are the City Hall and the Metropolis for?",
+      "description": "Understand the competencies of the City Hall and the Metropolis of Montpellier and why the municipal vote is crucial."
     }
   },
   "sidebar": {

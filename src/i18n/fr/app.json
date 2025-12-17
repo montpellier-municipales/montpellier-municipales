@@ -5,7 +5,17 @@
     "menu": {
       "home": "Accueil",
       "comparator": "Comparateur",
-      "info": "Infos"
+      "info": "Infos",
+      "inscriptionElectorale": "Listes électorales",
+      "roleMairieMetropole": "Pourquoi voter ?"
+    },
+    "inscription": {
+      "title": "Inscription sur les listes électorales · Montpellier 2026",
+      "description": "Guide pratique pour s'inscrire sur les listes électorales à Montpellier pour les municipales 2026."
+    },
+    "roleMairieMetropole": {
+      "title": "À quoi servent la mairie et la métropole ?",
+      "description": "Comprendre les compétences de la mairie et de la métropole de Montpellier et pourquoi le vote municipal est crucial."
     }
   },
   "sidebar": {

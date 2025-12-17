@@ -3,6 +3,19 @@
     "heroTitle": "Montpellier 2026",
     "heroSubtitle": "Compare programs, get informed, and vote with conscience.",
     "headOfList": "Head of List",
-    "noImage": "No image"
+    "noImage": "No image",
+    "countdown": {
+      "title": "End of voter registration",
+      "days": "Days",
+      "day": "Day",
+      "hours": "Hours",
+      "hour": "Hour",
+      "minutes": "Minutes",
+      "minute": "Minute",
+      "seconds": "Seconds",
+      "second": "Second",
+      "euMessage": "All EU citizens residing, studying, or working in Montpellier can vote.",
+      "action": "How to register?"
+    }
   }
 }

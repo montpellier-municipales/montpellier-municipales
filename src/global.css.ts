@@ -38,9 +38,36 @@ globalStyle("a:hover", {
 });
 
 globalStyle("h1, h2, h3", {
-  lineHeight: "1em",
+  lineHeight: "1.3em",
   fontFamily: vars.font.heading,
   color: vars.color.text,
+  position: "relative",
+});
+
+// Highlight effect applied to a span inside h2 for perfect multi-line support
+globalStyle("h2 span", {
+  backgroundImage: `linear-gradient(to top, ${vars.color.secondary} 0.3em, transparent 0.2em)`,
+  backgroundRepeat: "no-repeat",
+  backgroundSize: "100% 100%",
+  boxDecorationBreak: "clone",
+  WebkitBoxDecorationBreak: "clone",
+  padding: "0 0.1em",
+});
+
+globalStyle("blockquote", {
+  fontFamily: "ui-serif, Georgia, Cambria, serif",
+  fontSize: "1.5rem",
+  lineHeight: "1.4",
+  fontStyle: "italic",
+  margin: "3rem 0",
+  padding: "0.5rem 1.5rem",
+  borderLeft: `5px solid ${vars.color.primary}`,
+  color: vars.color.text,
+});
+
+globalStyle('body[dir="rtl"] blockquote', {
+  borderLeft: "none",
+  borderRight: `5px solid ${vars.color.primary}`,
 });
 
 globalStyle("hr", {
