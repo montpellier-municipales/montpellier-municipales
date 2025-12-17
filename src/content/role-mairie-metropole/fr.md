@@ -41,9 +41,17 @@ Ces politiques locales jouent un rôle clé dans l’égalité d’accès aux se
 
 Même si la sécurité relève en grande partie de l’État, la commune agit à travers la police municipale, la prévention et l’organisation de l’espace public. Les choix municipaux influencent fortement le sentiment de sécurité et la vie dans les quartiers.
 
+**À Montpellier, ces choix ont pris une orientation très marquée.** La municipalité actuelle a fortement investi dans la vidéoprotection, l’augmentation des effectifs de police municipale et des opérations de présence policière renforcée, souvent pensées dans une logique dissuasive et symbolique.
+
+À l’inverse, d’autres leviers reconnus pour leur efficacité à long terme restent peu mobilisés : prévention, travail social de proximité, réduction des risques pour les personnes en situation de grande précarité ou de consommation de drogues. Le refus de mettre en place des salles de consommation à moindre risque illustre ce choix politique : privilégier une réponse sécuritaire plutôt qu’une approche sanitaire et sociale.
+
 ### Culture, sport et vie associative
 
-À Montpellier, ville étudiante et culturelle, les décisions municipales structurent l’identité locale : soutien aux associations, programmation culturelle, accès au sport, événements publics. La vitalité culturelle d’une ville est aussi un choix politique.
+À Montpellier, ville étudiante et culturelle, les décisions municipales structurent l’identité locale : soutien aux associations, programmation culturelle, accès au sport, événements publics. La vitalité culturelle d’une ville est aussi un choix politique.
+
+**Ces choix posent une question centrale : quelle culture est mise en avant ?** Les politiques culturelles peuvent favoriser une culture institutionnelle et bourgeoise, concentrée sur de grands équipements et des événements prestigieux, ou au contraire soutenir une culture populaire, associative, de quartier, accessible et émancipatrice.
+
+À Montpellier, les arbitrages budgétaires et les critères de subvention ont suscité des tensions avec le tissu associatif. Plusieurs acteurs dénoncent une fragilisation de la culture indépendante et populaire au profit d’une offre plus événementielle et valorisante pour l’image de la ville.
 
 ---
 
@@ -55,13 +63,25 @@ La Métropole de Montpellier Méditerranée Métropole regroupe Montpellier et p
 
 La métropole organise les transports en commun, définit les grandes orientations de mobilité et met en œuvre des dispositifs structurants. Ces choix conditionnent l’accès à l’emploi, aux études et aux services, et transforment durablement les habitudes de déplacement.
 
+**La gratuité des transports a marqué une rupture importante**, mais elle ne suffit pas à elle seule à garantir une mobilité juste. Le développement du réseau de tramway, la fréquence des lignes et la desserte des quartiers populaires et des communes périphériques restent des enjeux centraux.
+
+La mise en place de la Zone à Faibles Émissions (ZFE) illustre aussi les tensions de ces politiques : conçue comme un outil environnemental, elle peut devenir socialement injuste si elle n’est pas accompagnée d’alternatives crédibles pour les habitant·es les plus éloignés du centre-ville. La question demeure : pour qui et pour quels territoires les mobilités sont-elles pensées ?
+
 ### Urbanisme et logement
 
 C’est à l’échelle métropolitaine que se décident la construction de logements, la répartition du logement social et les grands projets urbains. Dans un territoire soumis à une forte pression immobilière comme Montpellier, ces décisions ont un impact direct sur les loyers, la mixité sociale et l’étalement urbain.
 
+**Le logement est l’un des enjeux les plus conflictuels à Montpellier.** La poursuite de grands projets et d’une forte densification urbaine est souvent critiquée pour favoriser les promoteurs et les ménages les plus aisés, sans répondre suffisamment à la crise du logement.
+
+Des outils pourtant existants restent peu mobilisés : encadrement des loyers, réquisition de logements vacants, développement massif de logements sociaux réellement accessibles. Ces choix traduisent une orientation politique claire sur la manière de considérer le logement : comme un droit ou comme un marché.
+
 ### Environnement et transition écologique
 
-Gestion de l’eau, des déchets, qualité de l’air, préservation des espaces naturels : la métropole joue un rôle central dans la transition écologique. Face aux canicules, à la sécheresse et au changement climatique, ces politiques deviennent décisives pour la santé et le bien‑être des habitant·es.
+Gestion de l’eau, des déchets, qualité de l’air, préservation des espaces naturels : la métropole joue un rôle central dans la transition écologique. Face aux canicules, à la sécheresse et au changement climatique, ces politiques deviennent décisives pour la santé et le bien-être des habitant·es.
+
+**À Montpellier, ces enjeux sont déjà une réalité quotidienne.** Les épisodes de chaleur extrême, la raréfaction de la ressource en eau et l’artificialisation des sols interrogent directement les choix d’urbanisme et d’aménagement.
+
+Privilégier la végétalisation, la désimperméabilisation et la sobriété hydrique ou poursuivre des projets très consommateurs d’espace et de ressources : là encore, la transition écologique locale dépend avant tout de décisions politiques.
 
 ### Développement économique
 
@@ -78,6 +98,14 @@ Une ville comme Montpellier peut réduire ses émissions, adapter son urbanisme 
 ### Une voix au‑delà des frontières
 
 Les collectivités locales peuvent aussi agir par des coopérations internationales, des jumelages ou des prises de position symboliques sur les droits humains et la solidarité internationale. Même à l’échelle locale, ces choix participent au débat public global.
+
+### Exemple à Montpellier : des choix internationaux qui engagent la ville
+
+En 2024, le maire de Montpellier, Michaël Delafosse, s’est rendu au Maroc dans le cadre de coopérations économiques et institutionnelles, notamment avec des villes situées dans la région de Dakhla, au Sahara occidental. Cette visite s’inscrivait dans un contexte diplomatique où l’État français a reconnu la souveraineté marocaine sur ce territoire contesté, au détriment des revendications d’autodétermination du peuple sahraoui.
+
+Ce déplacement, accompagné de prises de position publiques et de partenariats économiques impliquant des entreprises françaises implantées dans la métropole montpelliéraine, illustre la manière dont une municipalité peut, à son échelle, s’inscrire dans des orientations géopolitiques plus larges.
+
+Il montre aussi que les choix internationaux d’une ville ne sont jamais neutres : ils traduisent une vision politique et des priorités qui dépassent largement le cadre strictement local.
 
 ---
 

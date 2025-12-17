@@ -41,9 +41,17 @@ These local policies play a key role in equal access to public services and soci
 
 Even if security largely falls under the State, the municipality acts through the municipal police, prevention, and the organization of public space. Municipal choices strongly influence the feeling of safety and life in neighborhoods.
 
+**In Montpellier, these choices have taken a very distinct direction.** The current municipality has heavily invested in video surveillance, increasing municipal police staff, and reinforced police presence operations, often conceived in a deterrent and symbolic logic.
+
+Conversely, other levers recognized for their long-term effectiveness remain little mobilized: prevention, local social work, harm reduction for people in great precariousness or drug use. The refusal to implement lower-risk consumption rooms illustrates this political choice: favoring a security response rather than a health and social approach.
+
 ### Culture, sport, and associative life
 
 In Montpellier, a student and cultural city, municipal decisions structure the local identity: support for associations, cultural programming, access to sports, public events. The cultural vitality of a city is also a political choice.
+
+**These choices pose a central question: what culture is prioritized?** Cultural policies can favor an institutional and bourgeois culture, concentrated on large facilities and prestigious events, or conversely support a popular, associative, neighborhood, accessible, and emancipatory culture.
+
+In Montpellier, budgetary arbitrations and subsidy criteria have sparked tensions with the associative fabric. Several actors denounce a weakening of independent and popular culture in favor of a more event-driven offer that enhances the city's image.
 
 ---
 
@@ -55,13 +63,25 @@ The Metropolis of Montpellier Méditerranée Métropole brings together Montpell
 
 The metropolis organizes public transport, defines major mobility orientations, and implements structuring mechanisms. These choices condition access to employment, studies, and services, and lastingly transform travel habits.
 
+**Free transport has marked a significant break**, but it alone is not enough to guarantee fair mobility. The development of the tramway network, the frequency of lines, and the service to working-class neighborhoods and peripheral municipalities remain central issues.
+
+The implementation of the Low Emission Zone (LEZ) also illustrates the tensions of these policies: designed as an environmental tool, it can become socially unjust if not accompanied by credible alternatives for residents furthest from the city center. The question remains: for whom and for which territories are mobilities designed?
+
 ### Urban planning and housing
 
 It is at the metropolitan scale that housing construction, social housing distribution, and major urban projects are decided. In a territory subject to strong real estate pressure like Montpellier, these decisions have a direct impact on rents, social mix, and urban sprawl.
 
+**Housing is one of the most conflicting issues in Montpellier.** The pursuit of major projects and strong urban densification is often criticized for favoring developers and wealthier households, without sufficiently responding to the housing crisis.
+
+Existing tools remain little mobilized: rent control, requisition of vacant housing, massive development of truly accessible social housing. These choices reflect a clear political orientation on how housing is considered: as a right or as a market.
+
 ### Environment and ecological transition
 
 Water management, waste management, air quality, preservation of natural spaces: the metropolis plays a central role in the ecological transition. Faced with heatwaves, drought, and climate change, these policies become decisive for the health and well-being of residents.
+
+**In Montpellier, these issues are already a daily reality.** Extreme heat episodes, water scarcity, and soil sealing directly question urban planning and development choices.
+
+Prioritizing greening, de-sealing, and water sobriety or pursuing projects that consume a lot of space and resources: here again, the local ecological transition depends above all on political decisions.
 
 ### Economic development
 
@@ -78,6 +98,14 @@ A city like Montpellier can reduce its emissions, adapt its urban planning to hi
 ### A voice beyond borders
 
 Local authorities can also act through international cooperation, twinning, or symbolic stances on human rights and international solidarity. Even at the local level, these choices participate in the global public debate.
+
+### Example in Montpellier: international choices that commit the city
+
+In 2024, the mayor of Montpellier, Michaël Delafosse, visited Morocco as part of economic and institutional cooperation, particularly with cities located in the Dakhla region, in Western Sahara. This visit took place in a diplomatic context where the French State recognized Moroccan sovereignty over this contested territory, to the detriment of the Sahrawi people's claims for self-determination.
+
+This trip, accompanied by public statements and economic partnerships involving French companies established in the Montpellier metropolis, illustrates how a municipality can, at its level, integrate into broader geopolitical orientations.
+
+It also shows that the international choices of a city are never neutral: they reflect a political vision and priorities that largely go beyond the strictly local framework.
 
 ---
 
