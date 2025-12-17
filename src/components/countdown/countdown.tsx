@@ -1,10 +1,18 @@
 import { component$, useStore, useVisibleTask$ } from "@builder.io/qwik";
 import { Link } from "@builder.io/qwik-city";
-import { inlineTranslate } from "qwik-speak";
+import { inlineTranslate, useSpeakContext } from "qwik-speak";
+import { config } from "~/speak-config";
 import * as styles from "./countdown.css";
 
 export const Countdown = component$(() => {
   const t = inlineTranslate();
+  const ctx = useSpeakContext();
+  const lang = ctx.locale.lang;
+
+  const inscriptionLink =
+    lang === config.defaultLocale.lang
+      ? "/inscription"
+      : `/${lang}/inscription`;
 
   const timeLeft = useStore({
     days: 0,
@@ -93,7 +101,7 @@ export const Countdown = component$(() => {
 
       <p class={styles.message}>{t("home.countdown.euMessage")}</p>
 
-      <Link href="/inscription" class={styles.link}>
+      <Link href={inscriptionLink} class={styles.link}>
         {t("home.countdown.action")}
       </Link>
     </div>
