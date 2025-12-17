@@ -1,5 +1,9 @@
 import { component$, useTask$ } from "@builder.io/qwik";
-import { routeLoader$, type DocumentHead } from "@builder.io/qwik-city";
+import {
+  routeLoader$,
+  StaticGenerateHandler,
+  type DocumentHead,
+} from "@builder.io/qwik-city";
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { marked } from "marked";
@@ -77,5 +81,14 @@ export const head: DocumentHead = () => {
         content: t("app.inscription.description"),
       },
     ],
+  };
+};
+
+// SSG : Génération statique pour les Listes (Français)
+export const onStaticGenerate: StaticGenerateHandler = async () => {
+  return {
+    params: config.supportedLocales
+      .filter((locale) => locale.lang !== config.defaultLocale.lang)
+      .map((locale) => ({ lang: locale.lang })),
   };
 };
