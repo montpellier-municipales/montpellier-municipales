@@ -17,14 +17,11 @@ export const title = style({
 
 export const timerGrid = style({
   display: "grid",
-  gridTemplateColumns: "repeat(4, 1fr)",
+  gridTemplateColumns: "repeat(2, 1fr)",
   gap: "1rem",
   marginBottom: "2rem",
-  "@media": {
-    "screen and (max-width: 600px)": {
-      gridTemplateColumns: "repeat(2, 1fr)",
-    },
-  },
+  maxWidth: "500px", // Limite la largeur pour que les 2 blocs ne soient pas trop étirés
+  margin: "0 auto 2rem auto", // Centre la grille
 });
 
 export const timeUnit = style({

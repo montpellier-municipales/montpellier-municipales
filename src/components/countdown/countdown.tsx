@@ -69,32 +69,12 @@ export const Countdown = component$(() => {
         </div>
         <div class={styles.timeUnit}>
           <span class={styles.number}>
-            {timeLeft.hours.toString().padStart(2, "0")}
-          </span>
-          <span class={styles.label}>
-            {timeLeft.hours <= 1
-              ? t("home.countdown.hour")
-              : t("home.countdown.hours")}
-          </span>
-        </div>
-        <div class={styles.timeUnit}>
-          <span class={styles.number}>
-            {timeLeft.minutes.toString().padStart(2, "0")}
-          </span>
-          <span class={styles.label}>
-            {timeLeft.minutes <= 1
-              ? t("home.countdown.minute")
-              : t("home.countdown.minutes")}
-          </span>
-        </div>
-        <div class={styles.timeUnit}>
-          <span class={styles.number}>
+            {timeLeft.hours.toString().padStart(2, "0")}:
+            {timeLeft.minutes.toString().padStart(2, "0")}:
             {timeLeft.seconds.toString().padStart(2, "0")}
           </span>
           <span class={styles.label}>
-            {timeLeft.seconds <= 1
-              ? t("home.countdown.second")
-              : t("home.countdown.seconds")}
+             {t("home.countdown.hours")}
           </span>
         </div>
       </div>
