@@ -35,18 +35,6 @@ export const postList = style({
   gap: "2rem",
 });
 
-export const postCard = style({
-  padding: "2rem",
-  border: `1px solid ${vars.color.border}`,
-  borderRadius: "8px",
-  textDecoration: "none",
-  color: "inherit",
-  transition: "transform 0.2s",
-  ":hover": {
-    transform: "scale(1.05)",
-  },
-});
-
 export const content = style({
   lineHeight: "1.8",
   color: vars.color.text,

@@ -27,6 +27,7 @@ async function parseFile(
       slug: publicSlug,
       lang,
       title: data.title,
+      tags: data.tags,
       date: data.date,
       author: data.author,
       excerpt: data.excerpt,
@@ -65,6 +66,14 @@ export const getBlogPosts = async (lang: string): Promise<BlogPost[]> => {
     console.error("Error reading blog directory:", error);
     return [];
   }
+};
+
+export const getBlogPostsByTag = async (
+  lang: string,
+  tag: string
+): Promise<BlogPost[]> => {
+  const allPosts = await getBlogPosts(lang);
+  return allPosts.filter((post) => post.tags?.includes(tag));
 };
 
 export const getBlogPost = async (

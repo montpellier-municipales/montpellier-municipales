@@ -6,14 +6,17 @@ import {
   useLocation,
 } from "@builder.io/qwik-city";
 import { getList, getAllLists } from "~/services/lists";
+import { getBlogPostsByTag } from "~/services/blog";
 import * as styles from "./list-details.css";
 import { marked } from "marked";
 import { Language } from "~/types/schema";
 import { inlineTranslate, useSpeak } from "qwik-speak";
+import { ArticleCard } from "~/components/article-card/article-card";
 
 // Loader pour récupérer les données côté serveur
 export const useListDetails = routeLoader$(async (requestEvent) => {
   const listId = requestEvent.params.id;
+  const lang = requestEvent.params.lang || "fr";
   const list = await getList(listId);
 
   if (!list) {
@@ -21,6 +24,9 @@ export const useListDetails = routeLoader$(async (requestEvent) => {
       errorMessage: "Liste non trouvée",
     });
   }
+
+  const relatedPosts = await getBlogPostsByTag(lang, listId);
+
   const presentation = list.presentation
     ? (
         await Promise.all(
@@ -48,7 +54,7 @@ export const useListDetails = routeLoader$(async (requestEvent) => {
       }, {})
     : {};
 
-  return { ...list, presentation, vision };
+  return { ...list, presentation, vision, relatedPosts };
 });
 
 export default component$(() => {
@@ -99,6 +105,17 @@ export default component$(() => {
         class={styles.listSection}
         dangerouslySetInnerHTML={list.value.vision?.[currentLocale]}
       ></section>
+
+      {list.value.relatedPosts.length > 0 && (
+        <section class={styles.listSection}>
+          <h2>{t("app.latestNews@@Dernières actualités")}</h2>
+          <div style={{ display: "grid", gap: "1rem" }}>
+            {list.value.relatedPosts.map((post) => (
+              <ArticleCard key={post.slug} post={post} lang={currentLocale} />
+            ))}
+          </div>
+        </section>
+      )}
 
       {/*<section class={styles.programSection}>
         <h2>Programme (Extrait)</h2>

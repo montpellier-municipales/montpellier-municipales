@@ -57,6 +57,7 @@ export const BlogPostSchema = z.object({
   title: z.string(),
   date: z.string(), // Ou z.date() transformé si on parse
   author: z.string().optional(),
+  tags: z.array(z.string()).optional(),
   excerpt: z.string(),
   excerptHtml: z.string().optional(),
   content: z.string(),

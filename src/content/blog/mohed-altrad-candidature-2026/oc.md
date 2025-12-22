@@ -3,12 +3,13 @@ title: "Mohed Altrad daissa entreveire una candidatura a las municipalas de 2026
 slug: "mohed-altrad-candidatura-municipalas-2026"
 date: "2025-12-21"
 author: "L'equipa ciutadana"
+tags: ["mohed-altrad"]
 excerpt: "Mohed Altrad multiplica los senhals cap a una candidatura en 2026, malgrat un passat judiciari pesuc e un mandat precedent pauc onorat. Analisi d'una estrategia controversiada."
 ---
 
 ## Una presa de paraula plan calculada
 
-Davant aperaquí 300 personas reunidas a Montpelhièr, Mohed Altrad, fondator e dirigent del grop industrial Altrad, a recentament pres la paraula per expausar las grandas linhas de çò que presenta coma una reflexion politica personala. Sens anonciar formalament sa candidatura a las eleccions municipalas de 2026, a multiplicat los senhals en aquel sens, evocant notadament un « deute » que deuriá a la vila de Montpelhièr e la necessitat de s'engatjar per li rendre çò que l'a balhat.
+Davant aperaquí 300 personas reunidas a Montpelhièr, [Mohed Altrad](/oc/listes/mohed-altrad/), fondator e dirigent del grop industrial Altrad, a recentament pres la paraula per expausar las grandas linhas de çò que presenta coma una reflexion politica personala. Sens anonciar formalament sa candidatura a las eleccions municipalas de 2026, a multiplicat los senhals en aquel sens, evocant notadament un « deute » que deuriá a la vila de Montpelhièr e la necessitat de s'engatjar per li rendre çò que l'a balhat.
 
 Aquesta intervencion, largament relayada per la premsa locala, marca una novèla etapa dins una estrategia ja coneguda : ocupar l'espaci mediatic, testar de tèmas e mesurar las reaccions, tot en remandant l'anóncia oficiala. Un metòde que ramenta sa precedenta temptativa municipala.
 

@@ -3,12 +3,13 @@ title: "Municipales 2026 à Montpellier : Cause Commune et La REV scellent une a
 slug: "cause-commune-rev-alliance-ecologie-rupture"
 date: "2025-12-21"
 author: "L'équipe citoyenne"
+tags: ["cause-commune"]
 excerpt: "Cause Commune et La REV officialisent leur alliance pour les municipales de 2026 à Montpellier, autour d'une 'écologie de rupture' sociale, anticapitaliste et ancrée dans les luttes."
 ---
 
 ## Une alliance politique annoncée
 
-À un peu plus d’un an des élections municipales de 2026, la liste **Cause Commune** et le parti **La REV – Révolution Écologique pour le Vivant** ont officialisé leur alliance à Montpellier. L’information, révélée par la presse locale, marque une étape importante dans la structuration d’un pôle politique qui se revendique clairement en rupture avec les politiques écologistes institutionnelles et la majorité municipale actuelle.
+À un peu plus d’un an des élections municipales de 2026, la liste [**Cause Commune**](/fr/listes/cause-commune/) et le parti **La REV – Révolution Écologique pour le Vivant** ont officialisé leur alliance à Montpellier. L’information, révélée par la presse locale, marque une étape importante dans la structuration d’un pôle politique qui se revendique clairement en rupture avec les politiques écologistes institutionnelles et la majorité municipale actuelle.
 
 Dans leur communication, les deux organisations mettent en avant une volonté commune de porter une **« écologie de rupture »**, à la fois sociale, anticapitaliste et ancrée dans les luttes concrètes. Une orientation qui tranche avec une écologie jugée trop souvent compatible avec le marché, la croissance et les compromis institutionnels.
 

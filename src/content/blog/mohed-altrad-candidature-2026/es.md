@@ -3,12 +3,13 @@ title: "Mohed Altrad deja entrever una candidatura para las municipales de 2026"
 slug: "mohed-altrad-candidatura-municipal-2026"
 date: "2025-12-21"
 author: "El equipo ciudadano"
+tags: ["mohed-altrad"]
 excerpt: "Mohed Altrad multiplica las señales hacia una candidatura en 2026, a pesar de un pasado judicial pesado y un mandato anterior poco cumplido. Análisis de una estrategia controvertida."
 ---
 
 ## Una declaración muy calculada
 
-Ante unas 300 personas reunidas en Montpellier, Mohed Altrad, fundador y dirigente del grupo industrial Altrad, tomó la palabra recientemente para exponer las grandes líneas de lo que presenta como una reflexión política personal. Sin anunciar formalmente su candidatura a las elecciones municipales de 2026, multiplicó las señales en este sentido, evocando notablemente una "deuda" que tendría con la ciudad de Montpellier y la necesidad de comprometerse para devolverle lo que ella le ha aportado.
+Ante unas 300 personas reunidas en Montpellier, [Mohed Altrad](/es/listes/mohed-altrad/), fundador y dirigente del grupo industrial Altrad, tomó la palabra recientemente para exponer las grandes líneas de lo que presenta como una reflexión política personal. Sin anunciar formalmente su candidatura a las elecciones municipales de 2026, multiplicó las señales en este sentido, evocando notablemente una "deuda" que tendría con la ciudad de Montpellier y la necesidad de comprometerse para devolverle lo que ella le ha aportado.
 
 Esta intervención, ampliamente difundida por la prensa local, marca una nueva etapa en una estrategia ya conocida: ocupar el espacio mediático, probar temas y medir las reacciones, mientras se pospone el anuncio oficial. Un método que recuerda a su anterior intento municipal.
 

@@ -1,8 +1,9 @@
 import { component$ } from "@builder.io/qwik";
-import { routeLoader$, Link, useLocation } from "@builder.io/qwik-city";
+import { routeLoader$, useLocation } from "@builder.io/qwik-city";
 import { getBlogPosts } from "~/services/blog";
 import * as styles from "./blog.css";
 import { inlineTranslate, useSpeak } from "qwik-speak";
+import { ArticleCard } from "~/components/article-card/article-card";
 
 export const useBlogPosts = routeLoader$(async ({ params }) => {
   const lang = params.lang || "fr";
@@ -24,36 +25,9 @@ export default component$(() => {
       </header>
 
       <div class={styles.postList}>
-        {posts.value.map((post) => {
-          // Si la langue est celle par défaut, on ne met pas de préfixe
-          const prefix = currentLocale === "fr" ? "" : `/${currentLocale}`;
-
-          return (
-            <Link
-              key={post.slug}
-              href={`${prefix}/info/${encodeURI(post.slug)}`}
-              class={styles.postCard}
-            >
-              <h2 style={{ fontSize: "1.5rem", marginBottom: "0.5rem" }}>
-                {post.title}
-              </h2>
-              <div
-                style={{
-                  fontSize: "0.85rem",
-                  color: "#666",
-                  marginBottom: "1rem",
-                }}
-              >
-                {post.date}
-              </div>
-              {post.excerptHtml ? (
-                <div dangerouslySetInnerHTML={post.excerptHtml} />
-              ) : (
-                <p>{post.excerpt}</p>
-              )}
-            </Link>
-          );
-        })}
+        {posts.value.map((post) => (
+          <ArticleCard key={post.slug} post={post} lang={currentLocale} />
+        ))}
       </div>
     </div>
   );

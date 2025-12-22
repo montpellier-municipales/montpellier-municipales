@@ -3,12 +3,13 @@ title: "Elecciones municipales de 2026 en Montpellier: Causa Común y La REV sel
 slug: "causa-comun-rev-alianza-ecologia-ruptura"
 date: "2025-12-21"
 author: "El equipo ciudadano"
+tags: ["cause-commune"]
 excerpt: "Causa Común y La REV oficializan su alianza para las municipales de 2026 en Montpellier, en torno a una 'ecología de ruptura' social, anticapitalista y arraigada en las luchas."
 ---
 
 ## Una alianza política anunciada
 
-A poco más de un año de las elecciones municipales de 2026, la lista **Causa Común** y el partido **La REV – Revolución Ecológica para lo Vivo** han oficializado su alianza en Montpellier. La información, revelada por la prensa local, marca un paso importante en la estructuración de un polo político que se reivindica claramente en ruptura con las políticas ecologistas institucionales y la actual mayoría municipal.
+A poco más de un año de las elecciones municipales de 2026, la lista [**Causa Común**](/es/listes/cause-commune/) y el partido **La REV – Revolución Ecológica para lo Vivo** han oficializado su alianza en Montpellier. La información, revelada por la prensa local, marca un paso importante en la estructuración de un polo político que se reivindica claramente en ruptura con las políticas ecologistas institucionales y la actual mayoría municipal.
 
 En su comunicación, ambas organizaciones destacan una voluntad común de impulsar una **«ecología de ruptura»**, a la vez social, anticapitalista y arraigada en las luchas concretas. Una orientación que contrasta con una ecología considerada con demasiada frecuencia compatible con el mercado, el crecimiento y los compromisos institucionales.
 

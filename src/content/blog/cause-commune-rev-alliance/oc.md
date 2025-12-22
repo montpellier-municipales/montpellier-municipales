@@ -3,12 +3,13 @@ title: "Municipalas 2026 a Montpelhièr: Causa Comuna e La REV selan una alianç
 slug: "causa-comuna-rev-aliança-ecologia-ruptura"
 date: "2025-12-21"
 author: "L'equipa ciutadana"
+tags: ["cause-commune"]
 excerpt: "Causa Comuna e La REV oficializan lor aliança per las municipalas de 2026 a Montpelhièr, a l'entorn d'una 'ecologia de ruptura' sociala, anticapitalista e ancorada dins las luchas."
 ---
 
 ## Una aliança politica anonciada
 
-A un pauc mai d'un an de las eleccions municipalas de 2026, la lista **Causa Comuna** e lo partit **La REV – Revolucion Ecologica per lo Vivent** an oficializat lor aliança a Montpelhièr. L'informacion, revelada per la premsa locala, marca una etapa importanta dins l'estructuracion d'un pòl politic que se revendica clarament en ruptura amb las politicas ecologistas institucionalas e la majoritat municipala actuala.
+A un pauc mai d'un an de las eleccions municipalas de 2026, la lista [**Causa Comuna**](/oc/listes/cause-commune/) e lo partit **La REV – Revolucion Ecologica per lo Vivent** an oficializat lor aliança a Montpelhièr. L'informacion, revelada per la premsa locala, marca una etapa importanta dins l'estructuracion d'un pòl politic que se revendica clarament en ruptura amb las politicas ecologistas institucionalas e la majoritat municipala actuala.
 
 Dins lor comunicacion, las doas organizacions meton en abans una volontat comuna de portar una **«ecologia de ruptura»**, a l'encòp sociala, anticapitalista e ancorada dins las luchas concretas. Una orientacion que trenca amb una ecologia jutjada tròp sovent compatibla amb lo mercat, la creissença e los compromeses institucionals.
 

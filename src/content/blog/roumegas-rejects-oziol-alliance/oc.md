@@ -3,12 +3,13 @@ title: "Municipalas 2026 a Montpelhièr: Joan-Loís Roumégas rebuta la proposic
 slug: "roumegas-rebuta-oziol-aliança-2026"
 date: "2025-12-21"
 author: "L'equipa ciutadana"
+tags: ["les-ecologistes", "la-france-insoumise"]
 excerpt: "Joan-Loís Roumégas (Ecologistas) rebuta la proposicion d'aliança de Nathalie Oziol (La France insoumise) per las municipalas 2026 a Montpelhièr, invocant la metòde e de desacòrdis de fons."
 ---
 
 ## Un refús que rebat las cartas
 
-A Montpelhièr, la campanha de las municipalas de 2026 comença a revelar sas linhas de fractura. Joan-Loís Roumégas, figura dels Ecologistas, a publicament rebutat la proposicion de Nathalie Oziol (La França insomesa) que visava a engatjar una dinamica comuna en vista de las pròchas eleccions municipalas.
+A Montpelhièr, la campanha de las municipalas de 2026 comença a revelar sas linhas de fractura. [Joan-Loís Roumégas](/oc/listes/les-ecologistes/), figura dels Ecologistas, a publicament rebutat la proposicion de [Nathalie Oziol](/oc/listes/la-france-insoumise/) (La França insomesa) que visava a engatjar una dinamica comuna en vista de las pròchas eleccions municipalas.
 
 Aquel refús, rapòrtat per la premsa locala, s'es materializat per una responsa escricha dins la quala Jean-Loís Roumégas critica la metòde emplegada per la deputada insomesa, estimant qu'es «curiós de tendir la man per mèdias interpausats». Afirma demorar jonhibla «per telefòn o per e-mail», mas rebuta l'idèa d'un procès de construccion politic iniciat publicament sens discussions prealables entre responsables.
 

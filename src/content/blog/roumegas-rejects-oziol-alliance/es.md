@@ -3,12 +3,13 @@ title: "Elecciones municipales de 2026 en Montpellier: Jean-Louis Roumégas rech
 slug: "roumegas-rechaza-oziol-alianza-2026"
 date: "2025-12-21"
 author: "El equipo ciudadano"
+tags: ["les-ecologistes", "la-france-insoumise"]
 excerpt: "Jean-Louis Roumégas (Ecologistas) rechaza la propuesta de alianza de Nathalie Oziol (La France insoumise) para las municipales de 2026 en Montpellier, invocando el método y desacuerdos de fondo."
 ---
 
 ## Un rechazo que baraja las cartas de nuevo
 
-En Montpellier, la campaña de las municipales de 2026 empieza a revelar sus líneas de fractura. Jean-Louis Roumégas, figura de los Ecologistas, ha rechazado públicamente la propuesta de Nathalie Oziol (La Francia Insumisa) de iniciar una dinámica común de cara a las próximas elecciones municipales.
+En Montpellier, la campaña de las municipales de 2026 empieza a revelar sus líneas de fractura. [Jean-Louis Roumégas](/es/listes/les-ecologistes/), figura de los Ecologistas, ha rechazado públicamente la propuesta de [Nathalie Oziol](/es/listes/la-france-insoumise/) (La Francia Insumisa) de iniciar una dinámica común de cara a las próximas elecciones municipales.
 
 Este rechazo, reportado por la prensa local, se materializó en una respuesta escrita en la que Jean-Louis Roumégas critica el método empleado por la diputada insumisa, estimando que es «curioso tender la mano por medios interpuestos». Afirma que sigue disponible «por teléfono o por correo electrónico», pero rechaza la idea de un proceso de construcción política iniciado públicamente sin discusiones previas entre responsables.
 
