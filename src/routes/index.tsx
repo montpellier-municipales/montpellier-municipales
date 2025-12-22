@@ -1,5 +1,5 @@
-import { component$ } from "@builder.io/qwik";
-import { routeLoader$, Link, type DocumentHead } from "@builder.io/qwik-city";
+import { component$, useVisibleTask$ } from "@builder.io/qwik";
+import { routeLoader$, Link, type DocumentHead, useNavigate } from "@builder.io/qwik-city";
 import { getAllLists } from "~/services/lists";
 import * as styles from "./home.css";
 import { inlineTranslate, useSpeak, useSpeakContext } from "qwik-speak";
@@ -18,6 +18,29 @@ export default component$(() => {
   const lists = useLists();
   const ctx = useSpeakContext();
   const lang = ctx.locale.lang;
+  const nav = useNavigate();
+
+  // Redirection automatique côté client basée sur la langue du navigateur
+  // eslint-disable-next-line qwik/no-use-visible-task
+  useVisibleTask$(() => {
+    // On ne redirige que si on est sur la racine (langue par défaut)
+    if (lang === config.defaultLocale.lang) {
+      const browserLang = navigator.language.split("-")[0];
+      
+      // On vérifie si on a déjà redirigé l'utilisateur durant cette session
+      const hasRedirected = sessionStorage.getItem("lang-redirect");
+
+      if (!hasRedirected && browserLang !== config.defaultLocale.lang) {
+        // Vérifie si la langue du navigateur est supportée
+        const isSupported = config.supportedLocales.some(l => l.lang === browserLang);
+        
+        if (isSupported) {
+          sessionStorage.setItem("lang-redirect", "true");
+          nav(`/${browserLang}/`);
+        }
+      }
+    }
+  });
 
   const getLocalizedLink = (path: string) => {
     return lang === config.defaultLocale.lang ? path : `/${lang}${path}`;
