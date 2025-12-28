@@ -21,7 +21,7 @@ async function readMarkdownFiles(
       }
     }
     return hasContent ? result : undefined;
-  } catch (error) {
+  } catch {
     // Directory might not exist or be empty, which is fine
     return undefined;
   }
