@@ -8,29 +8,172 @@
       "en": "Transport & Mobility",
       "es": "Transporte y Movilidad"
     },
-    "icon": "bus"
+    "icon": "bus",
+    "authority": {
+      "metropolitan": true,
+      "municipal": false
+    },
+    "tags": ["ecologie", "service_public", "amenagement"]
+  },
+  {
+    "id": "economie",
+    "label": {
+      "fr": "Économie & Emploi",
+      "oc": "Economia e Emplec",
+      "ar": "الاقتصاد والتوظيف",
+      "en": "Economy & Employment",
+      "es": "Economía y Empleo"
+    },
+    "icon": "euro",
+    "authority": {
+      "metropolitan": true,
+      "municipal": false
+    },
+    "tags": ["economie", "emploi", "attractivite"]
+  },
+  {
+    "id": "eau",
+    "label": {
+      "fr": "Eau & Biens Communs",
+      "oc": "Aiga e Bens Comuns",
+      "ar": "المياه والممتلكات العامة",
+      "en": "Water & Common Goods",
+      "es": "Agua y Bienes Comunes"
+    },
+    "icon": "droplet",
+    "authority": {
+      "metropolitan": true,
+      "municipal": false
+    },
+    "tags": ["ecologie", "service_public"]
   },
   {
     "id": "logement",
     "label": {
-      "fr": "Logement & Urbanisme",
-      "oc": "A lotjament e Urbanisme",
-      "ar": "الإسكان والتخطيط العمراني",
-      "en": "Housing & Urban Planning",
-      "es": "Vivienda y Urbanismo"
+      "fr": "Logement",
+      "oc": "Lotjament",
+      "ar": "الإسكان",
+      "en": "Housing",
+      "es": "Vivienda"
     },
-    "icon": "home"
+    "icon": "home",
+    "authority": {
+      "metropolitan": true,
+      "municipal": true
+    },
+    "tags": ["social", "urbanisme", "vie_quotidienne"]
+  },
+  {
+    "id": "urbanisme",
+    "label": {
+      "fr": "Urbanisme & Aménagement",
+      "oc": "Urbanisme e Amodament",
+      "ar": "التخطيط العمراني",
+      "en": "Urban Planning",
+      "es": "Urbanismo"
+    },
+    "icon": "building",
+    "authority": {
+      "metropolitan": true,
+      "municipal": true
+    },
+    "tags": ["urbanisme", "cadre_de_vie", "ecologie"]
   },
   {
     "id": "ecologie",
     "label": {
-      "fr": "Écologie & Environnement",
-      "oc": "Ecologia e Environament",
-      "ar": "البيئة",
-      "en": "Ecology & Environment",
-      "es": "Ecología y Medio Ambiente"
+      "fr": "Transition Écologique & Énergie",
+      "oc": "Transicion Ecologica e Energia",
+      "ar": "التحول البيئي والطاقة",
+      "en": "Ecological Transition & Energy",
+      "es": "Transición Ecológica y Energía"
     },
-    "icon": "leaf"
+    "icon": "leaf",
+    "authority": {
+      "metropolitan": true,
+      "municipal": true
+    },
+    "tags": ["ecologie", "climat", "energie"]
+  },
+  {
+    "id": "animal",
+    "label": {
+      "fr": "Bien-être Animal",
+      "oc": "Benestar Animal",
+      "ar": "الرفق بالحيوان",
+      "en": "Animal Welfare",
+      "es": "Bienestar Animal"
+    },
+    "icon": "paw",
+    "authority": {
+      "metropolitan": false,
+      "municipal": true
+    },
+    "tags": ["animal", "ethique", "ecologie"]
+  },
+  {
+    "id": "sante",
+    "label": {
+      "fr": "Santé",
+      "oc": "Santat",
+      "ar": "الصحة",
+      "en": "Health",
+      "es": "Salud"
+    },
+    "icon": "heart",
+    "authority": {
+      "metropolitan": false,
+      "municipal": true
+    },
+    "tags": ["sante", "social", "prevention"]
+  },
+  {
+    "id": "social",
+    "label": {
+      "fr": "Action Sociale & Solidarités",
+      "oc": "Accion Sociala e Solidaritats",
+      "ar": "العمل الاجتماعي والتضامن",
+      "en": "Social Action & Solidarity",
+      "es": "Acción Social y Solidaridad"
+    },
+    "icon": "users",
+    "authority": {
+      "metropolitan": false,
+      "municipal": true
+    },
+    "tags": ["social", "solidarite", "egalite"]
+  },
+  {
+    "id": "democratie",
+    "label": {
+      "fr": "Démocratie & Participation",
+      "oc": "Democracia e Participacion",
+      "ar": "الديمقراطية والمشاركة",
+      "en": "Democracy & Participation",
+      "es": "Democracia y Participación"
+    },
+    "icon": "vote",
+    "authority": {
+      "metropolitan": false,
+      "municipal": true
+    },
+    "tags": ["democratie", "citoyennete"]
+  },
+  {
+    "id": "egalite",
+    "label": {
+      "fr": "Égalité & Droits",
+      "oc": "Egalitat e Dreches",
+      "ar": "المساواة والحقوق",
+      "en": "Equality & Rights",
+      "es": "Igualdad y Derechos"
+    },
+    "icon": "scale",
+    "authority": {
+      "metropolitan": false,
+      "municipal": true
+    },
+    "tags": ["egalite", "social", "droits", "femmes_hommes"]
   },
   {
     "id": "securite",
@@ -41,6 +184,11 @@
       "en": "Security & Tranquility",
       "es": "Seguridad y Tranquilidad"
     },
-    "icon": "shield"
+    "icon": "shield",
+    "authority": {
+      "metropolitan": false,
+      "municipal": true
+    },
+    "tags": ["securite", "prevention"]
   }
 ]

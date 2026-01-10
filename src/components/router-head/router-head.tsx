@@ -70,7 +70,7 @@ export const RouterHead = component$(() => {
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta
         http-equiv="Content-Security-Policy"
-        content="default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self';"
+        content="default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; frame-src 'self' https://www.youtube.com https://youtube.com;"
       />
       <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 

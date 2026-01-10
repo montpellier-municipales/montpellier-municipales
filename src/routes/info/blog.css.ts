@@ -74,3 +74,13 @@ globalStyle(`${content} li`, {
 globalStyle(`${content} strong`, {
   fontWeight: 500,
 });
+
+globalStyle(`${content} iframe`, {
+  width: "100%",
+  aspectRatio: "16 / 9",
+  height: "auto",
+  borderRadius: "12px",
+  border: `1px solid ${vars.color.border}`,
+  marginTop: "2rem",
+  marginBottom: "2rem",
+});
