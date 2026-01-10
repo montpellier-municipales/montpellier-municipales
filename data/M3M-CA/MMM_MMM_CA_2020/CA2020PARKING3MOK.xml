@@ -1,0 +1,1616 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DocumentBudgetaire xmlns="http://www.minefi.gouv.fr/cp/demat/docbudgetaire">
+   <VersionSchema V="97"/>
+   <BlocEditeur>
+      <CodeEditeur V="GFI Progiciels, ASTRE GF V8.05 extraction 20141209 procedures 202001009"/>
+   </BlocEditeur>
+   <VersionOutil outil="DSC_COMMON" version="27"/>
+   <VersionOutil outil="REMAT" version="11_2020"/>
+   <Scellement md5="C2025A2AABFBC3B4AB76E4D39C25BDE5" sha1="4C084466B9B8EBB5A4C6BBA51E77E41CA78EBB8F" date="2021-06-24T20:30:20"/>
+   <EnTeteDocBudgetaire>
+      <DteStr V="2021-04-08"/>
+      <LibellePoste V="TRESORIER PRINCIPAL MUNICIPAL"/>
+      <IdPost V="034021"/>
+      <LibelleColl V="MONTPELLIER MEDITERRANEE METROPOLE"/>
+      <IdColl V="24340001700154"/>
+      <NatCEPL V="ETABLISSEMENT PUBLIC"/>
+   </EnTeteDocBudgetaire>
+   <Budget>
+      <EnTeteBudget>
+         <LibelleEtab V="BUDGET PARKING"/>
+         <IdEtab V="24340001700154"/>
+         <CodColl V="099"/>
+         <CodBud V="07"/>
+         <Nomenclature V="M4-M4"/>
+      </EnTeteBudget>
+      <BlocBudget>
+         <NatDec V="09"/>
+         <Exer V="2020"/>
+         <ProjetBudget V="false"/>
+         <NatVote V="FcIc"/>
+         <OpeEquip V="false"/>
+         <VoteFormelChap V="false"/>
+         <BudgPrec V="1"/>
+         <ReprRes V="1"/>
+         <NatFonc V="1"/>
+         <PresentationSimplifiee V="false"/>
+         <DepFoncN2 V="0.00"/>
+         <RecFoncN2 V="0.00"/>
+         <DepInvN2 V="0.00"/>
+         <RecInvN2 V="0.00"/>
+         <CodTypBud V="A"/>
+         <IdEtabPal V="24340001700022"/>
+         <LibelleEtabPal V="BUDGET PRINCIPAL"/>
+      </BlocBudget>
+      <InformationsGenerales>
+         <Information Code="DtDelibAmort1An" V="23/07/2019"/>
+         <Information Code="MtAmort1An" V="2000"/>
+         <Information Code="LieuCommDoc" V="Hotel de Métropole - 50 place Zeus à Montpellier"/>
+      </InformationsGenerales>
+      <LigneBudget>
+         <Nature V="2135"/>
+         <ContNat V="21"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtRARPrec V="6662.50"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="2509302.71"/>
+         <MtReal V="10162.50"/>
+         <MtRAR3112 V="32176.20"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="2495977.71"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2031"/>
+         <ContNat V="20"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="10000.00"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="10000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="678"/>
+         <ContNat V="67"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="1000.00"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="1000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="7083"/>
+         <ContNat V="70"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="37000.00"/>
+         <MtReal V="42242.16"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="37000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="023"/>
+         <ContNat V="023"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="2504640.21"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="2504640.21"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="1068"/>
+         <ContNat V="10"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="929.71"/>
+         <MtReal V="929.71"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="929.71"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6215"/>
+         <ContNat V="012"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="105000.00"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="105000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="021"/>
+         <ContNat V="021"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="2504640.21"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="2504640.21"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6156"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="3423.78"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="3423.78"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="002"/>
+         <ContNat V="002"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="2464140.21"/>
+         <MtReal V="2464140.21"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="2464140.21"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="001"/>
+         <ContNat V="001"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="5732.79"/>
+         <MtReal V="5732.79"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="5732.79"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="611"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="568576.22"/>
+         <MtReal V="263019.91"/>
+         <OpBudg V="0"/>
+         <MtSup Code="ProdChaRat" V="43882.81"/>
+         <MtSup Code="BudgetHorsRAR" V="568576.22"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="706"/>
+         <ContNat V="70"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="600000.00"/>
+         <MtReal V="412477.81"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="600000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="63512"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="83000.00"/>
+         <MtReal V="83000.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="ProdChaRat" V="83000.00"/>
+         <MtSup Code="BudgetHorsRAR" V="83000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="703"/>
+         <ContNat V="70"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="180000.00"/>
+         <MtReal V="343502.04"/>
+         <OpBudg V="0"/>
+         <MtSup Code="ProdChaRat" V="34659.67"/>
+         <MtSup Code="BudgetHorsRAR" V="180000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6287"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="16000.00"/>
+         <MtReal V="13995.55"/>
+         <OpBudg V="0"/>
+         <MtSup Code="ProdChaRat" V="13995.55"/>
+         <MtSup Code="BudgetHorsRAR" V="16000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="28135"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="8000.00"/>
+         <MtReal V="7279.10"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="8000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="627"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="1500.00"/>
+         <MtReal V="1115.33"/>
+         <OpBudg V="0"/>
+         <MtSup Code="ProdChaRat" V="299.20"/>
+         <MtSup Code="BudgetHorsRAR" V="1500.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6811"/>
+         <ContNat V="042"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="8000.00"/>
+         <MtReal V="7279.10"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="8000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="7718"/>
+         <ContNat V="77"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <MtReal V="31.99"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="0.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="7087"/>
+         <ContNat V="70"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="10000.00"/>
+         <MtReal V="5000.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="10000.00"/>
+      </LigneBudget>
+      <Annexes>
+         <DATA_CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="01"/>
+               <CodBudAnnex V="01"/>
+               <LibBudAnnex V="BUDGET PRINCIPAL"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="D"/>
+               <MtCredOuv V="519672031.53"/>
+               <MtRealMandatTitre V="453155487.12"/>
+               <RAR V="200868.60"/>
+               <SiretBudAnnexe V="24340001700022"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="02"/>
+               <LibBudAnnex V="TRANSPORT"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="D"/>
+               <MtCredOuv V="137356010.22"/>
+               <MtRealMandatTitre V="108136406.86"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700147"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="03"/>
+               <LibBudAnnex V="ASSAINISSEMENT"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="R"/>
+               <MtCredOuv V="29036741.43"/>
+               <MtRealMandatTitre V="28929149.01"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700071"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="04"/>
+               <LibBudAnnex V="SPANC"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="R"/>
+               <MtCredOuv V="83150.00"/>
+               <MtRealMandatTitre V="26251.76"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700105"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="06"/>
+               <LibBudAnnex V="EAU POTABLE"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="D"/>
+               <MtCredOuv V="5645430.17"/>
+               <MtRealMandatTitre V="66182.71"/>
+               <RAR V="35752.75"/>
+               <SiretBudAnnexe V="24340001700139"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="05"/>
+               <LibBudAnnex V="BUDGET PARKING"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="D"/>
+               <MtCredOuv V="3291140.21"/>
+               <MtRealMandatTitre V="368409.89"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700154"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="05"/>
+               <LibBudAnnex V="BUDGET PARKING"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="D"/>
+               <MtCredOuv V="2519302.71"/>
+               <MtRealMandatTitre V="10162.50"/>
+               <RAR V="32176.20"/>
+               <SiretBudAnnexe V="24340001700154"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="03"/>
+               <LibBudAnnex V="ASSAINISSEMENT"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="R"/>
+               <MtCredOuv V="47579399.68"/>
+               <MtRealMandatTitre V="24821319.60"/>
+               <RAR V="5000000.00"/>
+               <SiretBudAnnexe V="24340001700071"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="06"/>
+               <LibBudAnnex V="EAU POTABLE"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="R"/>
+               <MtCredOuv V="5645430.17"/>
+               <MtRealMandatTitre V="30937.17"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700139"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="06"/>
+               <LibBudAnnex V="EAU POTABLE"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="R"/>
+               <MtCredOuv V="6268468.99"/>
+               <MtRealMandatTitre V="915714.34"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700139"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="05"/>
+               <LibBudAnnex V="BUDGET PARKING"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="R"/>
+               <MtCredOuv V="2519302.71"/>
+               <MtRealMandatTitre V="8208.81"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700154"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="01"/>
+               <CodBudAnnex V="01"/>
+               <LibBudAnnex V="BUDGET PRINCIPAL"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="D"/>
+               <MtCredOuv V="719361185.97"/>
+               <MtRealMandatTitre V="387021096.51"/>
+               <RAR V="77605729.63"/>
+               <SiretBudAnnexe V="24340001700154"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="01"/>
+               <CodBudAnnex V="01"/>
+               <LibBudAnnex V="BUDGET PRINCIPAL"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="R"/>
+               <MtCredOuv V="517161272.53"/>
+               <MtRealMandatTitre V="495284132.81"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700154"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="03"/>
+               <LibBudAnnex V="ASSAINISSEMENT"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="D"/>
+               <MtCredOuv V="29036741.43"/>
+               <MtRealMandatTitre V="13461422.65"/>
+               <RAR V="60861.06"/>
+               <SiretBudAnnexe V="24340001700071"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="04"/>
+               <LibBudAnnex V="SPANC"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="R"/>
+               <MtCredOuv V="21133.15"/>
+               <MtRealMandatTitre V="861.67"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700105"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="01"/>
+               <CodBudAnnex V="01"/>
+               <LibBudAnnex V="BUDGET PRINCIPAL"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="R"/>
+               <MtCredOuv V="550494472.70"/>
+               <MtRealMandatTitre V="268562621.75"/>
+               <RAR V="51724400.14"/>
+               <SiretBudAnnexe V="24340001700105"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="02"/>
+               <LibBudAnnex V="TRANSPORT"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="D"/>
+               <MtCredOuv V="179385965.97"/>
+               <MtRealMandatTitre V="97801614.64"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700147"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="02"/>
+               <LibBudAnnex V="TRANSPORT"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="R"/>
+               <MtCredOuv V="179385965.97"/>
+               <MtRealMandatTitre V="116070355.57"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700147"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="04"/>
+               <LibBudAnnex V="SPANC"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="D"/>
+               <MtCredOuv V="83150.00"/>
+               <MtRealMandatTitre V="27112.90"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700105"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="06"/>
+               <LibBudAnnex V="EAU POTABLE"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="D"/>
+               <MtCredOuv V="6268468.99"/>
+               <MtRealMandatTitre V="881017.30"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700139"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="03"/>
+               <LibBudAnnex V="ASSAINISSEMENT"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="D"/>
+               <MtCredOuv V="49274001.30"/>
+               <MtRealMandatTitre V="20625693.90"/>
+               <RAR V="9720006.50"/>
+               <SiretBudAnnexe V="24340001700071"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="05"/>
+               <LibBudAnnex V="BUDGET PARKING"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="R"/>
+               <MtCredOuv V="3291140.21"/>
+               <MtRealMandatTitre V="803254.00"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700154"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="04"/>
+               <LibBudAnnex V="SPANC"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="D"/>
+               <MtCredOuv V="21133.15"/>
+               <MtRealMandatTitre V="3000.00"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700105"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="02"/>
+               <LibBudAnnex V="TRANSPORT"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="R"/>
+               <MtCredOuv V="137356010.22"/>
+               <MtRealMandatTitre V="125505748.10"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700147"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+         </DATA_CONSOLIDATION>
+         <DATA_PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Installations générales "/>
+               <MtValAcquiBien V="10162.5"/>
+               <MtCumulAmortBien V="0.0"/>
+               <DureeAmortBien V="30"/>
+            </PATRIMOINE>
+         </DATA_PATRIMOINE>
+         <DATA_VENTILATION>
+            <VENTILATION>
+               <CodTypVentil V="V"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="R"/>
+               <TypOpBudg V="R"/>
+               <CodChapitre V="70"/>
+               <CodArticle V="7087"/>
+               <LibCpte V="REMBOURSEMENTS DE FRAIS"/>
+               <MtVentil V="5000.00"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20160630"/>
+            </VENTILATION>
+            <VENTILATION>
+               <CodTypVentil V="V"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="R"/>
+               <TypOpBudg V="R"/>
+               <CodChapitre V="77"/>
+               <CodArticle V="7718"/>
+               <LibCpte V="AUTRES PRODUITS EXCEPTIONNELS SUR OPERATIONS DE GESTION"/>
+               <MtVentil V="31.99"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20160630"/>
+            </VENTILATION>
+            <VENTILATION>
+               <CodTypVentil V="V"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="D"/>
+               <TypOpBudg V="R"/>
+               <CodChapitre V="21"/>
+               <CodArticle V="2135"/>
+               <LibCpte V="INSTALLATIONS GENERALES, AGENCEMENTS, AMENAGEMENTS DES CONSTRUCTIONS"/>
+               <MtVentil V="10162.50"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20160630"/>
+            </VENTILATION>
+            <VENTILATION>
+               <CodTypVentil V="V"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="R"/>
+               <TypOpBudg V="R"/>
+               <CodChapitre V="001"/>
+               <CodArticle V="001"/>
+               <LibCpte V="SOLDE D EXECUTION DE LA SECTION D INVESTISSEMENT REPORTE"/>
+               <MtVentil V="5732.79"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20160630"/>
+            </VENTILATION>
+            <VENTILATION>
+               <CodTypVentil V="V"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="R"/>
+               <TypOpBudg V="O"/>
+               <CodChapitre V="021"/>
+               <CodArticle V="021"/>
+               <LibCpte V="VIREMENT DE LA SECTION DE FONCTIONNEMENT"/>
+               <MtVentil V="0.00"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20160630"/>
+            </VENTILATION>
+            <VENTILATION>
+               <CodTypVentil V="V"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="D"/>
+               <TypOpBudg V="R"/>
+               <CodChapitre V="011"/>
+               <CodArticle V="611"/>
+               <LibCpte V="SOUS-TRAITANCE GENERALE"/>
+               <MtVentil V="263019.91"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20160630"/>
+            </VENTILATION>
+            <VENTILATION>
+               <CodTypVentil V="V"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="D"/>
+               <TypOpBudg V="R"/>
+               <CodChapitre V="011"/>
+               <CodArticle V="6156"/>
+               <LibCpte V="MAINTENANCE"/>
+               <MtVentil V="0.00"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20160630"/>
+            </VENTILATION>
+            <VENTILATION>
+               <CodTypVentil V="V"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="D"/>
+               <TypOpBudg V="R"/>
+               <CodChapitre V="011"/>
+               <CodArticle V="627"/>
+               <LibCpte V="SERVICES BANCAIRES ET ASSIMILES"/>
+               <MtVentil V="1115.33"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20160630"/>
+            </VENTILATION>
+            <VENTILATION>
+               <CodTypVentil V="V"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="D"/>
+               <TypOpBudg V="R"/>
+               <CodChapitre V="011"/>
+               <CodArticle V="63512"/>
+               <LibCpte V="TAXES FONCIERES"/>
+               <MtVentil V="83000.00"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20160630"/>
+            </VENTILATION>
+            <VENTILATION>
+               <CodTypVentil V="V"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="D"/>
+               <TypOpBudg V="R"/>
+               <CodChapitre V="012"/>
+               <CodArticle V="6215"/>
+               <LibCpte V="PERSONNEL AFFECTE PAR LA COLLECTIVITE DE RATTACHEMENT"/>
+               <MtVentil V="0.00"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20160630"/>
+            </VENTILATION>
+            <VENTILATION>
+               <CodTypVentil V="V"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="D"/>
+               <TypOpBudg V="O"/>
+               <CodChapitre V="023"/>
+               <CodArticle V="023"/>
+               <LibCpte V="VIREMENT A LA SECTION D INVESTISSEMENT"/>
+               <MtVentil V="0.00"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20160630"/>
+            </VENTILATION>
+            <VENTILATION>
+               <CodTypVentil V="V"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="D"/>
+               <TypOpBudg V="R"/>
+               <CodChapitre V="67"/>
+               <CodArticle V="678"/>
+               <LibCpte V="AUTRES CHARGES EXCEPTIONNELLES"/>
+               <MtVentil V="0.00"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20160630"/>
+            </VENTILATION>
+            <VENTILATION>
+               <CodTypVentil V="V"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="R"/>
+               <TypOpBudg V="R"/>
+               <CodChapitre V="002"/>
+               <CodArticle V="002"/>
+               <LibCpte V="RESULTAT DE FONCTIONNEMENT REPORTE"/>
+               <MtVentil V="2464140.21"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20160630"/>
+            </VENTILATION>
+            <VENTILATION>
+               <CodTypVentil V="V"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="R"/>
+               <TypOpBudg V="R"/>
+               <CodChapitre V="70"/>
+               <CodArticle V="703"/>
+               <LibCpte V="VENTES DE PRODUITS RESIDUELS"/>
+               <MtVentil V="343502.04"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20160630"/>
+            </VENTILATION>
+            <VENTILATION>
+               <CodTypVentil V="V"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="R"/>
+               <TypOpBudg V="R"/>
+               <CodChapitre V="70"/>
+               <CodArticle V="706"/>
+               <LibCpte V="PRESTATIONS DE SERVICES"/>
+               <MtVentil V="412477.81"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20160630"/>
+            </VENTILATION>
+            <VENTILATION>
+               <CodTypVentil V="V"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="R"/>
+               <TypOpBudg V="R"/>
+               <CodChapitre V="70"/>
+               <CodArticle V="7083"/>
+               <LibCpte V="LOCATIONS DIVERSES"/>
+               <MtVentil V="42242.16"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20160630"/>
+            </VENTILATION>
+         </DATA_VENTILATION>
+         <DATA_AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Frais établissement"/>
+               <DureeBienAmort V="5"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Frais d'études, de recherche et de développement et frais d&#x2019;insertion"/>
+               <DureeBienAmort V="5"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Concessions et droits assimilés"/>
+               <DureeBienAmort V="5"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Fond commercial"/>
+               <DureeBienAmort V="5"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Autres immobilisations incorporelles"/>
+               <DureeBienAmort V="5"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Agencements et aménagements de terrains"/>
+               <DureeBienAmort V="20"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Bâtiments"/>
+               <DureeBienAmort V="30"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Installations générales - agencements - aménagements des constructions"/>
+               <DureeBienAmort V="30"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Autres constructions "/>
+               <DureeBienAmort V="40"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Constructions sur sol d&#x2019;autrui &#x2013; Bâtiments"/>
+               <DureeBienAmort V="30"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Constructions sur sol d&#x2019;autrui - Installations générales, agencements, aménagements"/>
+               <DureeBienAmort V="30"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Constructions sur sol d'autrui - Autres constructions"/>
+               <DureeBienAmort V="40"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Installations complexes spécialisées "/>
+               <DureeBienAmort V="10"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Installations à caractère spécifique"/>
+               <DureeBienAmort V="15"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Matériel industriel "/>
+               <DureeBienAmort V="15"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Outillage industriel"/>
+               <DureeBienAmort V="15"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Agencements et aménagements du matériel et outillage industriels"/>
+               <DureeBienAmort V="15"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Mise à disposition - Agencements et aménagements de terrains"/>
+               <DureeBienAmort V="20"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Mise à disposition - Constructions"/>
+               <DureeBienAmort V="30"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Mise à disposition - Constructions sur sol d&#x2019;autrui"/>
+               <DureeBienAmort V="30"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Mise à disposition - Installations complexes spécialisées"/>
+               <DureeBienAmort V="10"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Mise à disposition - Installations à caractère spécifique"/>
+               <DureeBienAmort V="15"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Mise à disposition - Matériel industriel "/>
+               <DureeBienAmort V="15"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Mise à disposition - Outillage industriel"/>
+               <DureeBienAmort V="15"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Mise à disposition - Agencements et aménagements du matériel et outillage industriels"/>
+               <DureeBienAmort V="15"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Mise à disposition - Matériel de transport"/>
+               <DureeBienAmort V="10"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Mise à disposition - Matériel informatique et matériel de bureau"/>
+               <DureeBienAmort V="5"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Mise à disposition - Mobilier "/>
+               <DureeBienAmort V="15"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Mise à disposition - Cheptel"/>
+               <DureeBienAmort V="1"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Mise à disposition - Emballages récupérables"/>
+               <DureeBienAmort V="1"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Mise à disposition - Autres immobilisations corporelles"/>
+               <DureeBienAmort V="5"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Installations générales, agencements, aménagements divers"/>
+               <DureeBienAmort V="15"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Matériel de transport"/>
+               <DureeBienAmort V="10"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Matériel informatique et matériel de bureau"/>
+               <DureeBienAmort V="5"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Mobilier "/>
+               <DureeBienAmort V="15"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Cheptel"/>
+               <DureeBienAmort V="1"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Emballages récupérables"/>
+               <DureeBienAmort V="1"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Autres immobilisations corporelles"/>
+               <DureeBienAmort V="5"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Mise en affectation - Agencements et aménagements de terrains"/>
+               <DureeBienAmort V="20"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Mise en affectation - Bâtiments"/>
+               <DureeBienAmort V="30"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Mise en affectation - Installations générales - agencements - aménagements des constructions"/>
+               <DureeBienAmort V="30"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Mise en affectation - Autres constructions "/>
+               <DureeBienAmort V="40"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Mise en affectation - Constructions sur sol d&#x2019;autrui &#x2013; Bâtiments"/>
+               <DureeBienAmort V="30"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Mise en affectation - Constructions sur sol d&#x2019;autrui - Installations, agencements, aménagements"/>
+               <DureeBienAmort V="30"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Mise en affectation - Constructions sur sol d'autrui - Autres constructions"/>
+               <DureeBienAmort V="40"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Mise en affectation - Installations complexes spécialisées "/>
+               <DureeBienAmort V="10"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Mise en affectation - Installations à caractère spécifique"/>
+               <DureeBienAmort V="15"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Mise en affectation - Matériel industriel "/>
+               <DureeBienAmort V="15"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Mise en affectation - Outillage industriel"/>
+               <DureeBienAmort V="15"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Mise en affectation - Agencements et aménagements du matériel et outillage industriels"/>
+               <DureeBienAmort V="10"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Mise en affectation - Matériel de transport"/>
+               <DureeBienAmort V="10"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Mise en affectation - Matériel de bureau et matériel informatique"/>
+               <DureeBienAmort V="5"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Mise en affectation - Mobilier "/>
+               <DureeBienAmort V="15"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Mise en affectation - Cheptel"/>
+               <DureeBienAmort V="1"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Mise en affectation - Emballages récupérables"/>
+               <DureeBienAmort V="1"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Mise en affectation - Autres immobilisations corporelles"/>
+               <DureeBienAmort V="5"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Biens inférieurs à 2000 euros"/>
+               <DureeBienAmort V="1"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+         </DATA_AMORTISSEMENT_METHODE>
+         <DATA_PROVISION>
+            <PROVISION>
+               <CodTypTabProv V="E"/>
+               <CodTypProv V="S"/>
+               <CodSTypProv V="R"/>
+               <LibNatProv V="Provision pour risques et charges"/>
+               <MtProvExer V="0.0"/>
+               <MtProvConstit_01_01_N V="306018.0"/>
+               <MtProvRepr V="0.0"/>
+               <LibObjProv V="Autres provisions pour charges"/>
+               <MtTotalProvAConstit V="306018.0"/>
+            </PROVISION>
+            <PROVISION>
+               <CodTypTabProv V="E"/>
+               <CodTypProv V="S"/>
+               <CodSTypProv V="R"/>
+               <LibNatProv V="Provision pour risques et charges"/>
+               <MtProvExer V="0.0"/>
+               <MtProvConstit_01_01_N V="300000.0"/>
+               <MtProvRepr V="0.0"/>
+               <LibObjProv V="Autres provisions pour rsiques et charges"/>
+               <MtTotalProvAConstit V="300000.0"/>
+            </PROVISION>
+         </DATA_PROVISION>
+         <DATA_SIGNATURE>
+            <SIGNATURE>
+               <NbrMembExer V="92"/>
+               <NbrMembPresent V="78"/>
+               <NbrSuffExprime V="77"/>
+               <NbrVotePour V="77"/>
+               <NbrVoteContre V="0"/>
+               <NbrVoteAbstention V="0"/>
+               <DtConvoc V="2021-06-01"/>
+               <LibPresentPar V="Renaud CALVAT, Vice-Président délégué aux finances"/>
+               <LibPresentLieu V="Montpellier"/>
+               <DtPresent V="2021-06-07"/>
+               <LibDelibPar V="l'assemblée, réunie en session "/>
+               <LibReuniSession V="Compte administratif"/>
+               <LibDelibLieu V="Montpellier"/>
+               <DtDelib V="2021-06-07"/>
+               <DtTransmPrefect V="2021-06-22"/>
+               <DtPub V="2021-06-22"/>
+            </SIGNATURE>
+         </DATA_SIGNATURE>
+         <DATA_SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Tasnime AKBARALY"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Mohed ALTRAD"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="William ARS"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Michel ASLANIAN"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Christian ASSAF"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Florence AUBY"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Jean-François AUDRIN"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Géniès BALAZUN"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Yves BARRAL"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Boris BELLANGER"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Mathilde BORNE"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Christophe BOURDIN"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Florence BRAU"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Véronique BRUNET"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Emilie CABELLO"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Renaud CALVAT"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Michel CALVO"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Michelle CASSAR"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Stéphane CHAMPAY"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Bernadette CONTE-ARRANZ"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Roger-Yannick CHARTIER"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Sébastien COTE"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Brigitte DEVOISSELLE"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Zohra DIRHOUSSI"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Fanny DOMBRE COSTE"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Alenka DOULAIN"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Hind EMAD"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Maryse FAYE"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Mylène FOURCADE"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Julie FRECHE"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Jackie GALABRUN-BOULBES"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Clara GIMENEZ"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Serge GUISEPPIN"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Clare HART"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Régine ILLAIRE"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Laurent JAOUL"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Frédéric LAFFORGUE"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Guy LAURET"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Max LEVITA"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Nathalie LEVY"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Eliane LLORET"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Lionel LOPEZ"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Sophiane MANSOURIA"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Coralie MANTION"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Nicole MARIN-KHOURY"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Isabelle MARSALA"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Jacques MARTINIER"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Cyril MEUNIER"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Patricia MIRALLES"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Julien MIRO"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Arnaud MOYNIER"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Véronique NEGRET"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Laurent NISON"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Clothilde OLLIER"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Marie-Delphine PARPILLON"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Bruno PATERNOT"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Yvon PELLET"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Eric PENSO"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Céline PINTARD"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Joël RAYMOND"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="René REVOL"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Jean-Pierre RICO"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Anne RIMBERT"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="François RIO"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Sylvie ROS-ROUART"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Séverine SAINT MARTIN"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Jean-Luc SAVY"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Célia SERRANO"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Radia TIKOUK"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Bernard TRAVIER"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Joëlle URBANI"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="François VASQUEZ"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Claudine VASSAS MEJRI"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Joël VERA"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Patricia WEBER"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Paloma PERVENT"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Isabelle TOUZARD"/>
+            </SIGNATAIRE>
+         </DATA_SIGNATAIRE>
+         <DATA_SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="PG"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="SOM"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="I"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="II-A1"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="II-A2"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="II-A3"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="II-B1"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="II-B2"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="III-A1"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="III-A2"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="III-B1"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="III-B2"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="III-B3"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A1.1"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A1.2"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A1.3"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A1.4"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A1.5"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A1.6"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A1.7"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A1.8"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A2"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A3.1"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A3.2"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A4.1"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A4.2"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A5.1.1"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A5.1.2"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A5.2.1"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A5.2.2"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A5.3.1"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A5.3.2"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A6"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A7"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A8.1"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A8.2"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A8.3"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A9.1"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A9.2"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A10"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-B1.1"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-B1.2"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-B1.3"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-B1.4"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-B1.5"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-B1.6"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-B1.7"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-B2.1"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-B2.2"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-C1.1"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-C1.2"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-C2"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-C3"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-C4"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="ARS"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+         </DATA_SOMMAIRE>
+      </Annexes>
+   </Budget>
+</DocumentBudgetaire>

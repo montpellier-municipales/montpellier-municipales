@@ -1,0 +1,64 @@
+{
+  "CULALG01": ["Montpellier"],
+  "M21EXTLI1": ["Montpellier"],
+  "M21TRAML5": [
+    "Saint-Jean-de-Védas",
+    "Montpellier",
+    "Montferrier-sur-Lez",
+    "Clapiers"
+  ],
+  "CULCRR01": ["Montpellier"],
+  "CULFAB01": ["Montpellier"],
+  "CULIFZ17": ["Montpellier"],
+  "M21ESPP01": ["Montpellier"],
+  "M21ESPP02": ["Montpellier"],
+  "M20ASSA01": ["Montpellier"],
+  "M20CDMO01": ["Montpellier"],
+  "M20NPRU01": ["Montpellier"],
+  "M20NPRU02": ["Montpellier"],
+  "M22LATT01": ["Lattes"],
+  "M22LATT02": ["Lattes"],
+  "M24MEDV01": ["Montpellier"],
+  "M24MEDV02": ["Montpellier"],
+  "M24LABO01": ["Montpellier"],
+  "M24BROSS01": ["Montpellier"],
+  "M22OPER01": ["Montpellier"],
+  "M20PDSC01": ["Montpellier"],
+  "M21OUES01": [
+    "Saint-Jean-de-Védas",
+    "Montpellier",
+    "Montferrier-sur-Lez",
+    "Clapiers"
+  ],
+  "M21OUES02": [
+    "Saint-Jean-de-Védas",
+    "Montpellier",
+    "Montferrier-sur-Lez",
+    "Clapiers"
+  ],
+  "M21ROUL2": [
+    "Saint-Jean-de-Védas",
+    "Montpellier",
+    "Montferrier-sur-Lez",
+    "Clapiers"
+  ],
+  "M23DOUBL3": ["Montpellier"],
+  "M22METRO01": [
+    "Montpellier",
+    "Castelnau-le-Lez",
+    "Castries",
+    "Vendargues",
+    "Le Crès",
+    "Grabels",
+    "Cournonsec",
+    "Cournonterral",
+    "Pignan",
+    "Fabrègues",
+    "Lavérune",
+    "Saint-Jean-de-Védas"
+  ],
+  "M22CAMB01": ["Montpellier"],
+  "SPOPAR01": ["Baillargues"],
+  "DEASHV18": ["Montpellier"],
+  "M22MROU01": ["Montpellier"]
+}

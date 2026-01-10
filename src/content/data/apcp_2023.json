@@ -1,0 +1,1406 @@
+{
+  "generated_at": "2026-01-11T13:39:57.813Z",
+  "apcps": [
+    {
+      "id": "D M23MIJO01 2023/1",
+      "libelle": "PARC D&#8217;ACTIVITE MIJOULAN",
+      "chapitre": "906",
+      "montant_ap_vote_anterieur": 1791434,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M20PDSC01 2020/1",
+      "libelle": "PLAN DE SAUVEGARDE CEVENNES",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 1715000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M23GEMA01 2023/1",
+      "libelle": "SDH RIEUTORD MONTPELLIER",
+      "chapitre": "907",
+      "montant_ap_vote_anterieur": 5200000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": [
+        "Montpellier"
+      ]
+    },
+    {
+      "id": "D M22PATC01 2022/1",
+      "libelle": "SOUTIEN PATRIMONIAL AUX COMMUNES",
+      "chapitre": "903",
+      "montant_ap_vote_anterieur": 8000000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D DUHPIE18 2018/1",
+      "libelle": "SUR FONDS PROPRES",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 16800000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M22NRJV01 2022/1",
+      "libelle": "TRANSITION ENERGETIQUE DU PATRIMOINE METROPOLITAIN",
+      "chapitre": "900",
+      "montant_ap_vote_anterieur": 1506825,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M19TRD501 2019/1",
+      "libelle": "TRAVAUX RD5 COURNONSEC",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 3900000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": [
+        "Cournonsec"
+      ]
+    },
+    {
+      "id": "D M19TRVS02 2019/1",
+      "libelle": "TRAVERSE DE RESTINCLIERES",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 1760000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": [
+        "Restinclières"
+      ]
+    },
+    {
+      "id": "D M21NBUS02 2021/1",
+      "libelle": "POURSUITE ACQUISITION DE NAVETTES ET BUS",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 10677262,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M19TRVS01 2019/1",
+      "libelle": "TRAVERSE DE SUSSARGUES",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 2300000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": [
+        "Sussargues"
+      ]
+    },
+    {
+      "id": "D M21EXTLI01 2021/1",
+      "libelle": "POURSUITE EXTENSION L1 TRAMWAY",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 46916508,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M21VEGE01 2021/1",
+      "libelle": "VEGETALISATION DE LA METROPOLE",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 2000000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M21TRAML5 2021/1",
+      "libelle": "POURSUITE LIGNE 5 DE TRAMWAY",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 386668229,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D FONAMU03 2015/1",
+      "libelle": "2010 APDI 7",
+      "chapitre": "906",
+      "montant_ap_vote_anterieur": 23671101.67,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M21ACCM02 2021/1",
+      "libelle": "POURSUITE SCHEMA DIRECTEUR ACCESSIBILITE MOBILITES",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 6250000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M19LITT01 2019/1",
+      "libelle": "PRESERVATION DU LITORAL",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 1000000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D AMEMTP16 2022/1",
+      "libelle": "QUARTIER HOPITAUX - HORTUS BAUMEL",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 2980800,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M20RDRM03 2020/1",
+      "libelle": "RD612 AMENAGEMENT ENTREE OUEST",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 2030000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M20RDRDM04 2020/1",
+      "libelle": "RD613 RD24E2 GIR ET BARREAU ZAC",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 1800000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D AMECEB16 2016/1",
+      "libelle": "APDI 7",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 5134404.98,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M22METRO01 2022/1",
+      "libelle": "REALISATION 5 LIGNES BUSTRAM",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 306000000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D AMELIT16 2016/1",
+      "libelle": "APDI 7",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 10260266.51,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M22MROU01 2022/1",
+      "libelle": "REHABILITATION PISCINE JARROUSSE",
+      "chapitre": "903",
+      "montant_ap_vote_anterieur": 5980000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D AMEMTP16 2016/1",
+      "libelle": "APDI 7",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 35250325.35,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D AMEPEG16 2016/1",
+      "libelle": "APDI 7",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 3604532.18,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D AMEPLO16 2016/1",
+      "libelle": "APDI 7",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 3506103.09,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D AMEVDL16 2016/1",
+      "libelle": "APDI 7",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 6231441.81,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D NETMTP16 2016/1",
+      "libelle": "APDI 7",
+      "chapitre": "907",
+      "montant_ap_vote_anterieur": 11769038.18,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D SPOPAR01 2016/1",
+      "libelle": "APDI 7",
+      "chapitre": "903",
+      "montant_ap_vote_anterieur": 16189265,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D VOICEB16 2016/1",
+      "libelle": "APDI 7",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 25268278.58,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D VOILIT16 2016/1",
+      "libelle": "APDI 7",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 31254604.81,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D SPOPIS02 2015/1",
+      "libelle": "2010 APDI 8",
+      "chapitre": "903",
+      "montant_ap_vote_anterieur": 12160235.68,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M20ASSA01 2020/1",
+      "libelle": "ACQ FONCIERE DEMOLITION DE LA TOUR D ASSAS",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 3252000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D SPOACC01 2015/1",
+      "libelle": "2011 APDI 6",
+      "chapitre": "903",
+      "montant_ap_vote_anterieur": 5812903.22,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M20MUSI01 2020/1",
+      "libelle": "ACQUISITION INSTRUMENTS MUSIQUE",
+      "chapitre": "903",
+      "montant_ap_vote_anterieur": 1600000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D DUHCNM01 2015/1",
+      "libelle": "2011 APDI 7",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 80838298.27,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M20AAGV01 2020/1",
+      "libelle": "AIRES D ACCUEIL DES GENS DU VOYAGE",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 22000000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D FONAMU04 2015/1",
+      "libelle": "2012 APDI 7",
+      "chapitre": "906",
+      "montant_ap_vote_anterieur": 28891327,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M21SEC116 2021/1",
+      "libelle": "AMELIORATION DE LA SECURITE",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 1200000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D CULACC01 2015/1",
+      "libelle": "2014 APDI 3",
+      "chapitre": "903",
+      "montant_ap_vote_anterieur": 5349718,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M20SECU01 2020/1",
+      "libelle": "AMELIORATION DE LA SECURITE ROUTIERE RD 986 SUD",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 2700000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D CULFAB01 2015/1",
+      "libelle": "2014 APDI 4",
+      "chapitre": "903",
+      "montant_ap_vote_anterieur": 1776609,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M18SBRN01 2018/1",
+      "libelle": "Aménagement av Nimes St-Bres",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 1620000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D FONAMU05 2015/1",
+      "libelle": "2015 APDI 7",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 95269568.24,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D VOIMTP16 2024/1",
+      "libelle": "AMENAGEMENT PDU EN 908",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 479000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D FONAMU05 2018/1",
+      "libelle": "2015 APDI 7 TVA",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 21753514.76,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D AMEMTP16 2023/1",
+      "libelle": "AMENAGEMENT URBAIN PDU",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 219200,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "R DPVDEC18 2021/1",
+      "libelle": "ANNULATIONS DE MANDATS",
+      "chapitre": "907",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D CULIFZ17 2017/1",
+      "libelle": "APDI 10",
+      "chapitre": "903",
+      "montant_ap_vote_anterieur": 6708001.18,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D VOIMTP16 2016/1",
+      "libelle": "APDI 7",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 165233056.36,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D VOIPEG16 2016/1",
+      "libelle": "APDI 7",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 20558350.74,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D VOIPLO16 2016/1",
+      "libelle": "APDI 7",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 27942658.75,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D VOIVDL16 2016/1",
+      "libelle": "APDI 7",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 33298644.5,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D DEAFAB18 2018/1",
+      "libelle": "APDI 99",
+      "chapitre": "907",
+      "montant_ap_vote_anterieur": 4915000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D DEAGRA18 2018/1",
+      "libelle": "APDI 99",
+      "chapitre": "907",
+      "montant_ap_vote_anterieur": 4300000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D DEALAT18 2018/1",
+      "libelle": "APDI 99",
+      "chapitre": "907",
+      "montant_ap_vote_anterieur": 5449524,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D DEASHV18 2018/1",
+      "libelle": "APDI 99",
+      "chapitre": "907",
+      "montant_ap_vote_anterieur": 13870448,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D DEEESR01 2017/1",
+      "libelle": "APDI 99",
+      "chapitre": "906",
+      "montant_ap_vote_anterieur": 11803080,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D DEEPMI17 2017/1",
+      "libelle": "APDI 99",
+      "chapitre": "906",
+      "montant_ap_vote_anterieur": 3590000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D DPVDEC18 2018/1",
+      "libelle": "APDI 99",
+      "chapitre": "907",
+      "montant_ap_vote_anterieur": 6972000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D DPVDTR18 2018/1",
+      "libelle": "APDI 99",
+      "chapitre": "907",
+      "montant_ap_vote_anterieur": 20175396,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D DRICIN18 2018/1",
+      "libelle": "APDI 99",
+      "chapitre": "906",
+      "montant_ap_vote_anterieur": 7110000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D DRIEXT18 2018/1",
+      "libelle": "APDI 99",
+      "chapitre": "906",
+      "montant_ap_vote_anterieur": 9313207,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D DUHESR01 2017/1",
+      "libelle": "APDI 99",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 2554043,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D MGBRES18 2018/1",
+      "libelle": "APDI 99",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 1676885,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D MGBSUR18 2018/1",
+      "libelle": "APDI 99",
+      "chapitre": "900",
+      "montant_ap_vote_anterieur": 3810434,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D SPOCNN18 2018/1",
+      "libelle": "APDI 99",
+      "chapitre": "903",
+      "montant_ap_vote_anterieur": 14240000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M21ALLU01 2021/1",
+      "libelle": "BAILLARGUES ALLEE ALLUVIALE",
+      "chapitre": "907",
+      "montant_ap_vote_anterieur": 8500000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": [
+        "Baillargues"
+      ]
+    },
+    {
+      "id": "D M22CAMB01 2022/1",
+      "libelle": "CAMBACERES PARTICIPATION CONCEDANT",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 10930000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "R VOICEB16 2021/1",
+      "libelle": "CEB RECETTES",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 32300,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M18CIME01 2018/1",
+      "libelle": "Cimetière intercommunal",
+      "chapitre": "900",
+      "montant_ap_vote_anterieur": 44400000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D CULCRR01 2015/1",
+      "libelle": "CITE DES ARTS",
+      "chapitre": "903",
+      "montant_ap_vote_anterieur": 46905167,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M21ESPP01 2021/1",
+      "libelle": "COEUR DE METROPOLE COMEDIE ESPLANADE TRIANGLE",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 39400000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M21ESPP02 2021/1",
+      "libelle": "COEUR DE METROPOLE FOCH PEYROU ARCEAUX",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 17720000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M20MART01 2020/1",
+      "libelle": "CONCESSION CHARLES MARTEL EXTENSION",
+      "chapitre": "906",
+      "montant_ap_vote_anterieur": 2370000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M20DASS01 2020/1",
+      "libelle": "CONCESSION DASSAULT 2EME EXT",
+      "chapitre": "906",
+      "montant_ap_vote_anterieur": 1999540,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M20LAUZ02 2020/1",
+      "libelle": "CONCESSION LAUZE EST",
+      "chapitre": "906",
+      "montant_ap_vote_anterieur": 4206000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M23ESRI01 2023/1",
+      "libelle": "CPER ESRI 2023-2027",
+      "chapitre": "906",
+      "montant_ap_vote_anterieur": 19100000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M19METH01 2019/1",
+      "libelle": "DERNIERE PHASE USINE METHANISATION",
+      "chapitre": "907",
+      "montant_ap_vote_anterieur": 2475962,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M20RDRM01 2020/1",
+      "libelle": "DESSERTE DE L ARENA SDF LEVADES",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 1826000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M23DOUBL3 2023/1",
+      "libelle": "DOUBLEMENT LIGNE 3 TRAMWAY",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 25608024,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M21ECOC01 2021/2",
+      "libelle": "ECOCITE EN 905",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 6013000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M19LIHT01 2019/1",
+      "libelle": "EMBELLISS ENFOUISSEMENT LHT",
+      "chapitre": "906",
+      "montant_ap_vote_anterieur": 12043794,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M21OUES01 2021/2",
+      "libelle": "ESPACES PUBLICS LIGNE 5",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 33371040,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M21VEHI01 2021/5",
+      "libelle": "FLOTTE DE VEHICULES DECARBONES",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 11550000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M22FICC01 2022/1",
+      "libelle": "FONDS D AIDE AUX ICC",
+      "chapitre": "903",
+      "montant_ap_vote_anterieur": 3600000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M22FEC01 2022/1",
+      "libelle": "FONDS D EQUIPEMENTS COMMUNES",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 10000000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M21IRDI01 2021/1",
+      "libelle": "FONDS DE CAPITAL-RISQUE",
+      "chapitre": "906",
+      "montant_ap_vote_anterieur": 4600000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M19FRA709 2019/1",
+      "libelle": "FRANCHISSEMENT A709",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 11701797,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M21GUNRJ1 2021/1",
+      "libelle": "GUICHET UNIQUE - RENOV ENERGIE",
+      "chapitre": "907",
+      "montant_ap_vote_anterieur": 16641500,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M19FRTC01 2019/1",
+      "libelle": "HALLE FRENCH TECH CAMBACERES",
+      "chapitre": "906",
+      "montant_ap_vote_anterieur": 5320000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M19FRTC01 2022/3",
+      "libelle": "HALLE INNOVATION HT",
+      "chapitre": "906",
+      "montant_ap_vote_anterieur": 18277000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D CULALG01 2015/1",
+      "libelle": "HOTEL MONTCALM &#8211; MOCO",
+      "chapitre": "903",
+      "montant_ap_vote_anterieur": 22500000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M19JTOU01 2019/1",
+      "libelle": "JALONNEMENT TOURISTIQUE",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 2280000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M22LATT01 2022/1",
+      "libelle": "LATTARA CREATION CENTRE CONSERVATION ET ETUDES",
+      "chapitre": "903",
+      "montant_ap_vote_anterieur": 8127236,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M22LATT02 2022/1",
+      "libelle": "LATTARA PARCOURS PEDAGOGIQUE",
+      "chapitre": "903",
+      "montant_ap_vote_anterieur": 7139000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M21ALLU02 2021/1",
+      "libelle": "LAVERUNE PRAIRIES ALLUVIALES",
+      "chapitre": "907",
+      "montant_ap_vote_anterieur": 1600000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": [
+        "Lavérune"
+      ]
+    },
+    {
+      "id": "D M20LAUZ01 2020/1",
+      "libelle": "MANDAT REQUALIFICATION LAUZE EST",
+      "chapitre": "906",
+      "montant_ap_vote_anterieur": 9167971,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M23RPAE01 2023/1",
+      "libelle": "MANDAT REQUALIFICATION PAE",
+      "chapitre": "906",
+      "montant_ap_vote_anterieur": 1073060,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M21ROUL2 2021/1",
+      "libelle": "MATERIEL ROULANT TRAMWAY",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 180000000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M18VEHI01 2018/1",
+      "libelle": "Mise à niveau parc véhicules",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 2775146.13,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M20MOAC01 2022/1",
+      "libelle": "MOBILITES ACTIVES MGB",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 100000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M20MOAC01 2020/2",
+      "libelle": "MOBILITES ACTIVES MOBILITES",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 69000000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M20MOAC01 2020/1",
+      "libelle": "MOBILITES ACTIVES VOIRIE",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 80900000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M23GEMA03 2023/1",
+      "libelle": "MTP POMPIGNANE CONFORTEMENT BERGES LEZ",
+      "chapitre": "907",
+      "montant_ap_vote_anterieur": 2100000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": [
+        "Pignan"
+      ]
+    },
+    {
+      "id": "D M22RM001 2022/1",
+      "libelle": "M185/185E4 GIRATOIRE VILLENEUVE LES MAGUELONE",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 1100000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": [
+        "Villeneuve-lès-Maguelone"
+      ]
+    },
+    {
+      "id": "D M21DEPO02 2021/1",
+      "libelle": "NOUVEAU DEPOT TRANSPORTS MOBILITES",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 60000000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M20NPAE01 2020/1",
+      "libelle": "NOUVEAU MANDAT PAE",
+      "chapitre": "906",
+      "montant_ap_vote_anterieur": 1500000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M23TARI01 2023/1",
+      "libelle": "REHABILITATION PISCINE TARIS",
+      "chapitre": "903",
+      "montant_ap_vote_anterieur": 4130000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M22OPER01 2022/1",
+      "libelle": "RENOV FACADES OPERA COMEDIE",
+      "chapitre": "903",
+      "montant_ap_vote_anterieur": 1280000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M23CHRM66 2023/1",
+      "libelle": "REPRISE CHAUSSEES RM66",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 5150000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M20RDRM07 2020/1",
+      "libelle": "REPRISE DES RAMPES EST",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 1506000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M21OUES02 2021/1",
+      "libelle": "RESEAUX LIGNE 5",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 13855200,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M23RESS01 2023/1",
+      "libelle": "RESSOURCERIES",
+      "chapitre": "907",
+      "montant_ap_vote_anterieur": 4000000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M22RM002 2022/1",
+      "libelle": "RM5 CREATION GIRATOIRE PIGNAN",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 1760000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": [
+        "Pignan"
+      ]
+    },
+    {
+      "id": "D M20NPRU01 2020/1",
+      "libelle": "NPRU CEVENNES",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 27325600,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M20RDRM05 2020/1",
+      "libelle": "RM610 AMGT URBAIN TRAVERSEE DE VENDARGUES",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 1208000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": [
+        "Vendargues"
+      ]
+    },
+    {
+      "id": "D M20NPRU02 2020/1",
+      "libelle": "NPRU MOSSON",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 97212500,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M22SDSI01 2022/1",
+      "libelle": "SCHEMA DIRECTEUR DES SYS D INFORMATION",
+      "chapitre": "900",
+      "montant_ap_vote_anterieur": 18389200,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M20RDRM02 2020/1",
+      "libelle": "OA RM62 GRAU DE PEROLS",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 1030000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": [
+        "Pérols"
+      ]
+    },
+    {
+      "id": "D M20CDMO01 2020/1",
+      "libelle": "OPAH COPROS DEGRADEES MOSSON",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 1215000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M18VEHI01 2020/1",
+      "libelle": "OPERATION PARC AUTO",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 1333370,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M22OFS01 2022/1",
+      "libelle": "ORGANISME FONCIER SOLIDAIRE",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 2700000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "D M23GEMA02 2023/1",
+      "libelle": "PAPI OR PROTECTION CABANES PEROLS",
+      "chapitre": "907",
+      "montant_ap_vote_anterieur": 2400000,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": [
+        "Pérols"
+      ]
+    },
+    {
+      "id": "D M21PAPI02 2021/1",
+      "libelle": "PAPI 2 LEZ JUVIGNAC",
+      "chapitre": "907",
+      "montant_ap_vote_anterieur": 1917102,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": [
+        "Juvignac"
+      ]
+    }
+  ]
+}

@@ -5,6 +5,7 @@
     "menu": {
       "home": "Accueil",
       "comparator": "Comparateur",
+      "budget": "Budget 2025",
       "info": "Infos",
       "inscriptionElectorale": "Listes électorales",
       "roleMairieMetropole": "Pourquoi voter ?"
@@ -16,7 +17,8 @@
     "roleMairieMetropole": {
       "title": "À quoi servent la mairie et la métropole ?",
       "description": "Comprendre les compétences de la mairie et de la métropole de Montpellier et pourquoi le vote municipal est crucial."
-    }
+    },
+    "latestNews": "Dernières actualités"
   },
   "sidebar": {
     "description": "Le média citoyen des élections municipales 2026 à Montpellier",

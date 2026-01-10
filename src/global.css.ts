@@ -27,6 +27,9 @@ globalStyle('body[dir="rtl"] main', {
 globalStyle("main", {
   flex: 1,
 });
+globalStyle("main p", {
+  textWrap: "pretty",
+});
 
 globalStyle("a", {
   color: vars.color.primary,
@@ -40,6 +43,7 @@ globalStyle("a:hover", {
 globalStyle("h1, h2, h3", {
   lineHeight: "1.3em",
   fontFamily: vars.font.heading,
+  textWrap: "balance",
   color: vars.color.text,
   position: "relative",
 });
@@ -63,11 +67,13 @@ globalStyle("blockquote", {
   padding: "0.5rem 1.5rem",
   borderLeft: `5px solid ${vars.color.primary}`,
   color: vars.color.text,
+  textWrap: "pretty",
 });
 
 globalStyle('body[dir="rtl"] blockquote', {
   borderLeft: "none",
   borderRight: `5px solid ${vars.color.primary}`,
+  textWrap: "pretty",
 });
 
 globalStyle("hr", {

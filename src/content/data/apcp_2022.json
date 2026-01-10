@@ -1,0 +1,1391 @@
+{
+  "generated_at": "2026-01-11T13:39:57.014Z",
+  "apcps": [
+    {
+      "id": "SDASTR03",
+      "libelle": "Stations d'épuration : Construction Sussargues-St Geniès des Mourgues + Extension Cournonterral",
+      "chapitre": "21",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": [
+        "Cournonterral",
+        "Sussargues"
+      ]
+    },
+    {
+      "id": "SDARES01",
+      "libelle": "Réseaux : Intercepteur est secteur amont + intercepteur est la Pompignane",
+      "chapitre": "21",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": [
+        "Pignan"
+      ]
+    },
+    {
+      "id": "M19MAERA01",
+      "libelle": "MAERA: RUISSEAU DES VACHES",
+      "chapitre": "21",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "M19STEP02",
+      "libelle": "STEP SGO 9700 EH",
+      "chapitre": "21",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "M19STEP03",
+      "libelle": "STEP MURVIEL 3000 EH",
+      "chapitre": "21",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "M21STEP01",
+      "libelle": "CONSTRUCTION STATION D'EPURATION DE MONTAUD",
+      "chapitre": "21",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": [
+        "Montaud"
+      ]
+    },
+    {
+      "id": "AMECEB16",
+      "libelle": "AMENAGEMENT CADOULE ET BERANGE",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 606405.62,
+      "cp_reste_a_realiser": 174832.4,
+      "nombre_lignes": 5,
+      "communes": []
+    },
+    {
+      "id": "AMELIT16",
+      "libelle": "AMENAGEMENT LITTORAL",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 1179273.9800000002,
+      "cp_reste_a_realiser": 857771.1900000001,
+      "nombre_lignes": 7,
+      "communes": []
+    },
+    {
+      "id": "AMEMTP16",
+      "libelle": "AMENAGEMENT MONTPELLIER",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 4426459.45,
+      "cp_reste_a_realiser": 1242965.1099999999,
+      "nombre_lignes": 4,
+      "communes": [
+        "Montpellier"
+      ]
+    },
+    {
+      "id": "AMEPEG16",
+      "libelle": "AMENAGEMENT PIEMONTS ET GARRIGUES",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 241169.67,
+      "cp_reste_a_realiser": 94446.37,
+      "nombre_lignes": 6,
+      "communes": []
+    },
+    {
+      "id": "AMEPLO16",
+      "libelle": "AMENAGEMENT PLAINE OUEST",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 408481.91000000003,
+      "cp_reste_a_realiser": 125113.6,
+      "nombre_lignes": 7,
+      "communes": []
+    },
+    {
+      "id": "AMEVDL16",
+      "libelle": "AMENAGEMENT VALLE DU LEZ",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 272046.82,
+      "cp_reste_a_realiser": 442025.9,
+      "nombre_lignes": 4,
+      "communes": []
+    },
+    {
+      "id": "CULACC01",
+      "libelle": "ACCESSIBILITE CULTURE",
+      "chapitre": "903",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 202819.93,
+      "cp_reste_a_realiser": 650182.42,
+      "nombre_lignes": 1,
+      "communes": []
+    },
+    {
+      "id": "CULALG01",
+      "libelle": "HOTEL MONTCALM - MOCO",
+      "chapitre": "903",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 141581.08,
+      "cp_reste_a_realiser": 128377.21,
+      "nombre_lignes": 1,
+      "communes": [
+        "Montpellier"
+      ]
+    },
+    {
+      "id": "CULCRR01",
+      "libelle": "CITE DES ARTS",
+      "chapitre": "903",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 3192636.0100000002,
+      "cp_reste_a_realiser": 77212.01000000001,
+      "nombre_lignes": 4,
+      "communes": [
+        "Montpellier"
+      ]
+    },
+    {
+      "id": "CULFAB01",
+      "libelle": "RESTAURATION OEUVRES MUSEE FABRE",
+      "chapitre": "903",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 188492.73,
+      "cp_reste_a_realiser": 35570.94,
+      "nombre_lignes": 1,
+      "communes": [
+        "Montpellier"
+      ]
+    },
+    {
+      "id": "CULIFZ17",
+      "libelle": "INTEGRATION MEDIATHEQUE FELLINI A ZOLA",
+      "chapitre": "903",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 368745.48,
+      "cp_reste_a_realiser": 358732.5,
+      "nombre_lignes": 1,
+      "communes": [
+        "Montpellier"
+      ]
+    },
+    {
+      "id": "DEAFAB18",
+      "libelle": "FABREGUES PROTECTION COULAZOU",
+      "chapitre": "907",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 27028.23,
+      "cp_reste_a_realiser": 38201.69,
+      "nombre_lignes": 1,
+      "communes": [
+        "Fabrègues"
+      ]
+    },
+    {
+      "id": "DEAGRA18",
+      "libelle": "GRABELS PROTECTION RIEUMASSEL",
+      "chapitre": "907",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 105732.89,
+      "cp_reste_a_realiser": 8139,
+      "nombre_lignes": 2,
+      "communes": [
+        "Grabels"
+      ]
+    },
+    {
+      "id": "DEALAT18",
+      "libelle": "LATTES PROTECTION BASSE VALLÉE MOSSON",
+      "chapitre": "907",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 1758288.66,
+      "cp_reste_a_realiser": 121140.24,
+      "nombre_lignes": 1,
+      "communes": [
+        "Lattes"
+      ]
+    },
+    {
+      "id": "DEASHV18",
+      "libelle": "SCHÉMA HYDRAULIQUE VERDANSON BASSIN VALS",
+      "chapitre": "907",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 1612900.48,
+      "cp_reste_a_realiser": 129096.24,
+      "nombre_lignes": 1,
+      "communes": [
+        "Montpellier"
+      ]
+    },
+    {
+      "id": "DEEESR01",
+      "libelle": "CPER ESRI UNIVERSITES ET PARTENARIATS",
+      "chapitre": "906",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 1001542,
+      "cp_reste_a_realiser": 1918000,
+      "nombre_lignes": 1,
+      "communes": []
+    },
+    {
+      "id": "DEEPMI17",
+      "libelle": "PACTE MEDITERRANEEN D'INNOVATION",
+      "chapitre": "906",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 643129.53,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 1,
+      "communes": []
+    },
+    {
+      "id": "DMOVEL18",
+      "libelle": "VELOSTATION GARE SAINT-ROCH",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "DPVDEC18",
+      "libelle": "MODERNISATION PARC DÉCHÈTERIES MÉTROPOLE",
+      "chapitre": "907",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 1260878.03,
+      "cp_reste_a_realiser": 190381.21,
+      "nombre_lignes": 3,
+      "communes": []
+    },
+    {
+      "id": "DPVDTR18",
+      "libelle": "EXTENSION RENOV CENTRE TRI DEMETER",
+      "chapitre": "907",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 70361.31,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 1,
+      "communes": []
+    },
+    {
+      "id": "DRICIN18",
+      "libelle": "CITÉ INTELLIGENTE",
+      "chapitre": "906",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 771208.13,
+      "cp_reste_a_realiser": 569763.99,
+      "nombre_lignes": 3,
+      "communes": []
+    },
+    {
+      "id": "DRIEXT18",
+      "libelle": "EXTENSION DU SHEMA DIRECTEUR D'AMENAGEMENT NUMERIQUE",
+      "chapitre": "906",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 935258.9,
+      "cp_reste_a_realiser": 216923.91000000003,
+      "nombre_lignes": 2,
+      "communes": []
+    },
+    {
+      "id": "DUHCNM01",
+      "libelle": "CONTOURNEMENT NIMES MONTPELLIER",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 53592.55,
+      "cp_reste_a_realiser": 46407.45,
+      "nombre_lignes": 1,
+      "communes": [
+        "Montpellier"
+      ]
+    },
+    {
+      "id": "DUHESR01",
+      "libelle": "CPER LOGEMENT ETUDIANT - VIE ETUDIANTE",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 213306.5,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 1,
+      "communes": []
+    },
+    {
+      "id": "DUHPIE18",
+      "libelle": "AIDES À LA PIERRE SUR FONDS PROPRES",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 1411480,
+      "cp_reste_a_realiser": 26640,
+      "nombre_lignes": 2,
+      "communes": []
+    },
+    {
+      "id": "FONAMU03",
+      "libelle": "OPERATIONS D'AMENAGEMENT A VOCATION ECO",
+      "chapitre": "906",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "FONAMU04",
+      "libelle": "DESARTICIALISATION ET TRANSFERT DES COMMERCES DU FENOUILLET",
+      "chapitre": "906",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 2650000,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 1,
+      "communes": []
+    },
+    {
+      "id": "FONAMU05",
+      "libelle": "ACQUISITIONS FONCIERES",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 21229316.83,
+      "cp_reste_a_realiser": 582947.5,
+      "nombre_lignes": 8,
+      "communes": []
+    },
+    {
+      "id": "M18CIME01",
+      "libelle": "CRÉATION D'UN CIMETIÈRE INTERCOMMUNAL",
+      "chapitre": "900",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 4655156.75,
+      "cp_reste_a_realiser": 545241.17,
+      "nombre_lignes": 1,
+      "communes": []
+    },
+    {
+      "id": "M18CTEC01",
+      "libelle": "CRÉATION D'UN CENTRE TECHNIQUE MÉTROPOLITAIN POUR LE PÔLE PLAINE OUEST",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "M18SBRN01",
+      "libelle": "AMÉNAGEMENT AV NÎMES À ST-BRES",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 20106.07,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 1,
+      "communes": []
+    },
+    {
+      "id": "M18VEHI01",
+      "libelle": "MISE À NIVEAU PARC VÉHICULES DAT",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 874868.56,
+      "cp_reste_a_realiser": 201955.97,
+      "nombre_lignes": 1,
+      "communes": []
+    },
+    {
+      "id": "M19FRA709",
+      "libelle": "FRANCHISSEMENT A709",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 933851.63,
+      "cp_reste_a_realiser": 1916071.37,
+      "nombre_lignes": 1,
+      "communes": []
+    },
+    {
+      "id": "M19FRTC01",
+      "libelle": "HALLE FRENCH TECH CAMBACERES",
+      "chapitre": "906",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 15408900,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 2,
+      "communes": []
+    },
+    {
+      "id": "M19JTOU01",
+      "libelle": "JALONNEMENT TOURISTIQUE",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "M19LIHT01",
+      "libelle": "EMBELLISSEMENT DE LA METROPOLE : ENFOUISSEMENT DES LIGNES HAUTES TENSIONS",
+      "chapitre": "906",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 170931.66,
+      "cp_reste_a_realiser": 68.34,
+      "nombre_lignes": 1,
+      "communes": []
+    },
+    {
+      "id": "M19LITT01",
+      "libelle": "PRESERVATION DU LITTORAL",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "M19METH01",
+      "libelle": "DERNIERE PHASE USINE METHANISATION",
+      "chapitre": "907",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 220619.95,
+      "cp_reste_a_realiser": 16847.23,
+      "nombre_lignes": 1,
+      "communes": []
+    },
+    {
+      "id": "M19TRD501",
+      "libelle": "TRAVAUX RD5 COURNONSEC",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 1980968.94,
+      "cp_reste_a_realiser": 247087.01,
+      "nombre_lignes": 1,
+      "communes": [
+        "Cournonsec"
+      ]
+    },
+    {
+      "id": "M19TRVS01",
+      "libelle": "TRAVERSE DE SUSSARGUES",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 14481.36,
+      "cp_reste_a_realiser": 154648.43,
+      "nombre_lignes": 3,
+      "communes": [
+        "Sussargues"
+      ]
+    },
+    {
+      "id": "M19TRVS02",
+      "libelle": "TRAVERSE DE RESTINCLIERES",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 261240.87,
+      "cp_reste_a_realiser": 31865.7,
+      "nombre_lignes": 1,
+      "communes": [
+        "Restinclières"
+      ]
+    },
+    {
+      "id": "M19VELO01",
+      "libelle": "SOLDE ANCIENNE AP PISTES CYCLABES",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "M20AAGV01",
+      "libelle": "AIRES D'ACCUEIL DES GENS DU VOYAGE - PROGRAMME 2020-2023",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 1442535.8,
+      "cp_reste_a_realiser": 906399.1,
+      "nombre_lignes": 1,
+      "communes": []
+    },
+    {
+      "id": "M20ASSA01",
+      "libelle": "ACQ FONCIERE DEMOLITION DE LA TOUR D'ASSAS",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 547997.13,
+      "cp_reste_a_realiser": 531.74,
+      "nombre_lignes": 2,
+      "communes": [
+        "Montpellier"
+      ]
+    },
+    {
+      "id": "M20CDMO01",
+      "libelle": "OPAH COPROS DEGRADEES MOSSON",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 239393.68,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 1,
+      "communes": [
+        "Montpellier"
+      ]
+    },
+    {
+      "id": "M20DASS01",
+      "libelle": "SOUTIEN AUX IMPLANTATIONS ECONOMIQUES : DASSAULT 2EME EXTENSION",
+      "chapitre": "906",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "M20LAUZ01",
+      "libelle": "SOUTIEN AUX IMPLANTATIONS ECONOMIQUES : MANDAT REQUALIFICATION LAUZE EST",
+      "chapitre": "906",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 27329.36,
+      "cp_reste_a_realiser": 442670.64,
+      "nombre_lignes": 1,
+      "communes": []
+    },
+    {
+      "id": "M20LAUZ02",
+      "libelle": "SOUTIEN AUX IMPLANTATIONS ECONOMIQUES : LAUZE EST",
+      "chapitre": "906",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 670000,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 1,
+      "communes": []
+    },
+    {
+      "id": "M20MART01",
+      "libelle": "SOUTIEN AUX IMPLANTATIONS ECONOMIQUES : CHARLES MARTEL EXTENSION",
+      "chapitre": "906",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 600000,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 1,
+      "communes": []
+    },
+    {
+      "id": "M20MOAC01",
+      "libelle": "MOBILITES ACTIVES",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 21724472.080000002,
+      "cp_reste_a_realiser": 6486769.32,
+      "nombre_lignes": 19,
+      "communes": []
+    },
+    {
+      "id": "M20MUSI01",
+      "libelle": "ACQUISITION INSTRUMENTS MUSIQUE POUR LE NOUVEAU CRR",
+      "chapitre": "903",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 186217.19,
+      "cp_reste_a_realiser": 102766.28,
+      "nombre_lignes": 1,
+      "communes": []
+    },
+    {
+      "id": "M20NPAE01",
+      "libelle": "NOUVEAU MANDAT PAE",
+      "chapitre": "906",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 1,
+      "communes": []
+    },
+    {
+      "id": "M20NPRU01",
+      "libelle": "NPRU CEVENNES",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 5533972,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 1,
+      "communes": [
+        "Montpellier"
+      ]
+    },
+    {
+      "id": "M20NPRU02",
+      "libelle": "NPRU MOSSON",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 11400000,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 1,
+      "communes": [
+        "Montpellier"
+      ]
+    },
+    {
+      "id": "M20PDSC01",
+      "libelle": "PLAN DE SAUVEGARDE CEVENNES",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 239317.88,
+      "cp_reste_a_realiser": 58309.2,
+      "nombre_lignes": 1,
+      "communes": [
+        "Montpellier"
+      ]
+    },
+    {
+      "id": "M20RDRDM04",
+      "libelle": "RD613 RD24E2 GIR ET BARREAU ZAC DES CHATAIGNIERS",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 23920.26,
+      "cp_reste_a_realiser": 71154.61,
+      "nombre_lignes": 2,
+      "communes": []
+    },
+    {
+      "id": "M20RDRM01",
+      "libelle": "DESSERTE DE L'ARENA SDF LEVADES",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 39818.2,
+      "cp_reste_a_realiser": 36760.39,
+      "nombre_lignes": 3,
+      "communes": []
+    },
+    {
+      "id": "M20RDRM02",
+      "libelle": "OA RM62 GRAU DE PEROLS",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 12247.2,
+      "cp_reste_a_realiser": 20452.8,
+      "nombre_lignes": 1,
+      "communes": [
+        "Pérols"
+      ]
+    },
+    {
+      "id": "M20RDRM03",
+      "libelle": "RD612 AMENAGEMENT ENTREE OUEST DE MONTPELLIER",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 32248.74,
+      "cp_reste_a_realiser": 164273.7,
+      "nombre_lignes": 1,
+      "communes": [
+        "Montpellier"
+      ]
+    },
+    {
+      "id": "M20RDRM05",
+      "libelle": "RM610 AMGT URBAIN TRAVERSEE DE VENDARGUES",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": [
+        "Vendargues"
+      ]
+    },
+    {
+      "id": "M20RDRM07",
+      "libelle": "RD66 REPRISE DES RAMPES EST DE L'OUVRAGE DE FREJORGUES",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 365645.03,
+      "cp_reste_a_realiser": 536.26,
+      "nombre_lignes": 2,
+      "communes": []
+    },
+    {
+      "id": "M20SECU01",
+      "libelle": "AMELIORATION DE LA SECURITE ROUTIERE",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 573314.98,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 3,
+      "communes": []
+    },
+    {
+      "id": "MGBRES18",
+      "libelle": "RACCORDEMENT RÉSEAUX ÉLECTRIQUES MTP SRU",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 422090.6,
+      "cp_reste_a_realiser": 128249.57,
+      "nombre_lignes": 1,
+      "communes": []
+    },
+    {
+      "id": "MGBSUR18",
+      "libelle": "TRAVAUX SÛRETÉ SIÈGE MÉTROPOLE",
+      "chapitre": "900",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 13266.47,
+      "cp_reste_a_realiser": 25708.56,
+      "nombre_lignes": 1,
+      "communes": []
+    },
+    {
+      "id": "NETMTP16",
+      "libelle": "ENVIRONNEMENT MONTPELLIER",
+      "chapitre": "907",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 1139365.07,
+      "cp_reste_a_realiser": 286168,
+      "nombre_lignes": 3,
+      "communes": [
+        "Montpellier"
+      ]
+    },
+    {
+      "id": "NETVDL16",
+      "libelle": "ENVIRONNEMENT VALLEE DU LEZ",
+      "chapitre": "907",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "SPOACC01",
+      "libelle": "SPORTS ACCESSIBILITE EQUIPEMENTS",
+      "chapitre": "903",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 678173.63,
+      "cp_reste_a_realiser": 82560.78,
+      "nombre_lignes": 2,
+      "communes": []
+    },
+    {
+      "id": "SPOCNN18",
+      "libelle": "RÉHABILITATION CENTRE NAUTIQUE NEPTUNE",
+      "chapitre": "903",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 150487.8,
+      "cp_reste_a_realiser": 56595.31,
+      "nombre_lignes": 1,
+      "communes": []
+    },
+    {
+      "id": "SPOPAR01",
+      "libelle": "PARC MULTIGLISSE GERARD BRUYERE",
+      "chapitre": "903",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 3075872.57,
+      "cp_reste_a_realiser": 926208.7999999999,
+      "nombre_lignes": 3,
+      "communes": [
+        "Baillargues"
+      ]
+    },
+    {
+      "id": "SPOPIS02",
+      "libelle": "PISCINE HERACLES",
+      "chapitre": "903",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 67149.37,
+      "cp_reste_a_realiser": 8576.64,
+      "nombre_lignes": 2,
+      "communes": []
+    },
+    {
+      "id": "TRAGSR01",
+      "libelle": "GARE SAINT ROCH",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "VOICEB16",
+      "libelle": "VOIRIE CADOULE ET BERANGE",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 3754811.39,
+      "cp_reste_a_realiser": 1804010.6500000004,
+      "nombre_lignes": 7,
+      "communes": []
+    },
+    {
+      "id": "VOILIT16",
+      "libelle": "VOIRIE LITTORAL",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 4466150.95,
+      "cp_reste_a_realiser": 1520677.5200000003,
+      "nombre_lignes": 5,
+      "communes": []
+    },
+    {
+      "id": "VOIMTP16",
+      "libelle": "VOIRIE MONTPELLIER",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 18529880.05,
+      "cp_reste_a_realiser": 6122184.57,
+      "nombre_lignes": 17,
+      "communes": [
+        "Montpellier"
+      ]
+    },
+    {
+      "id": "VOIPEG16",
+      "libelle": "VOIRIE PIEMONTS ET GARRIGUES",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 1501661.32,
+      "cp_reste_a_realiser": 1292345.41,
+      "nombre_lignes": 5,
+      "communes": []
+    },
+    {
+      "id": "VOIPLO16",
+      "libelle": "VOIRIE PLAINE OUEST",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 2109334.11,
+      "cp_reste_a_realiser": 1712030.1199999999,
+      "nombre_lignes": 7,
+      "communes": []
+    },
+    {
+      "id": "VOIVDL16",
+      "libelle": "VOIRIE VALLE DU LEZ",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 5534853.130000001,
+      "cp_reste_a_realiser": 2680117.6199999996,
+      "nombre_lignes": 10,
+      "communes": []
+    },
+    {
+      "id": "M21ACCM02",
+      "libelle": "POURSUITE DU SCHEMA DIRECTEUR ACCESSIBILITE MOBILITES",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 931657.53,
+      "cp_reste_a_realiser": 350403.95,
+      "nombre_lignes": 4,
+      "communes": []
+    },
+    {
+      "id": "M21ALLU01",
+      "libelle": "BAILLARGUES ALLEE ALLUVIALE",
+      "chapitre": "907",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 25000,
+      "nombre_lignes": 1,
+      "communes": [
+        "Baillargues"
+      ]
+    },
+    {
+      "id": "M21ALLU02",
+      "libelle": "LAVERUNE PRAIRIES ALLUVIALES PARCELLE ANCIENNE PEPINIERE PITOT",
+      "chapitre": "907",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 218464.29,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 1,
+      "communes": [
+        "Lavérune"
+      ]
+    },
+    {
+      "id": "M21DEPO02",
+      "libelle": "NOUVEAU DEPOT TRANSPORTS MOBILITES",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 8240896.4,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 2,
+      "communes": []
+    },
+    {
+      "id": "M21ECOC01",
+      "libelle": "ECOCITE RENOVATION DES COPROPRIETES",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 1458401.81,
+      "cp_reste_a_realiser": 582750,
+      "nombre_lignes": 2,
+      "communes": []
+    },
+    {
+      "id": "M21ESPP01",
+      "libelle": "COEUR DE METROPOLE COMEDIE ESPLANADE TRIANGLE",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 3087325.4299999997,
+      "cp_reste_a_realiser": 47339.52,
+      "nombre_lignes": 3,
+      "communes": [
+        "Montpellier"
+      ]
+    },
+    {
+      "id": "M21ESPP02",
+      "libelle": "COEUR DE METROPOLE FOCH PEYROU ARCEAUX",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 1118749.97,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 2,
+      "communes": [
+        "Montpellier"
+      ]
+    },
+    {
+      "id": "M21EXTLI01",
+      "libelle": "POURSUITE EXTENSION L1 TRAMWAY",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 369597.35,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 1,
+      "communes": []
+    },
+    {
+      "id": "M21GUNRJ1",
+      "libelle": "GUICHET UNIQUE - RENOV ENERGIE",
+      "chapitre": "907",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 86150,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 1,
+      "communes": []
+    },
+    {
+      "id": "M21IRDI01",
+      "libelle": "FONDS DE CAPITAL-RISQUE",
+      "chapitre": "906",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 472630,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 1,
+      "communes": []
+    },
+    {
+      "id": "M21NBUS02",
+      "libelle": "POURSUITE ACQUISITION DE NAVETTES ET BUS",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 1646710.19,
+      "cp_reste_a_realiser": 1080275,
+      "nombre_lignes": 1,
+      "communes": []
+    },
+    {
+      "id": "M21OUES01",
+      "libelle": "ESPACES PUBLICS LIGNE 5",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 4629105,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 2,
+      "communes": [
+        "Clapiers",
+        "Montferrier-sur-Lez",
+        "Montpellier",
+        "Saint-Jean-de-Védas"
+      ]
+    },
+    {
+      "id": "M21OUES02",
+      "libelle": "RESEAUX LIGNE 5",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 1983903,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 2,
+      "communes": [
+        "Clapiers",
+        "Montferrier-sur-Lez",
+        "Montpellier",
+        "Saint-Jean-de-Védas"
+      ]
+    },
+    {
+      "id": "M21PAPI02",
+      "libelle": "PAPI 2 LEZ JUVIGNAC PROTECTION MOSSON QUARTIER PLAINE",
+      "chapitre": "907",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 89120.68,
+      "cp_reste_a_realiser": 159188.35,
+      "nombre_lignes": 2,
+      "communes": [
+        "Juvignac"
+      ]
+    },
+    {
+      "id": "M21ROUL2",
+      "libelle": "MATERIEL ROULANT TRAMWAY",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 16506658.15,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 1,
+      "communes": [
+        "Clapiers",
+        "Montferrier-sur-Lez",
+        "Montpellier",
+        "Saint-Jean-de-Védas"
+      ]
+    },
+    {
+      "id": "M21SEC116",
+      "libelle": "AMELIORATION DE LA SECURITE ROUTIERE SUR LA RD116",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 8712,
+      "nombre_lignes": 1,
+      "communes": []
+    },
+    {
+      "id": "M21TRAML5",
+      "libelle": "POURSUITE LIGNE 5 DE TRAMWAY",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 32752653.61,
+      "cp_reste_a_realiser": 4187.11,
+      "nombre_lignes": 2,
+      "communes": [
+        "Clapiers",
+        "Montferrier-sur-Lez",
+        "Montpellier",
+        "Saint-Jean-de-Védas"
+      ]
+    },
+    {
+      "id": "M21VEGE01",
+      "libelle": "VEGETALISATION DE LA METROPOLE",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 176862.41,
+      "cp_reste_a_realiser": 49632.34,
+      "nombre_lignes": 1,
+      "communes": []
+    },
+    {
+      "id": "M21VEHI01",
+      "libelle": "FLOTTE DE VEHICULES DECARBONES",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 2586806.42,
+      "cp_reste_a_realiser": 2455847.1,
+      "nombre_lignes": 2,
+      "communes": []
+    },
+    {
+      "id": "M22CAMB01",
+      "libelle": "ZAC CAMBACERES",
+      "chapitre": "906",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 2400000,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 1,
+      "communes": [
+        "Montpellier"
+      ]
+    },
+    {
+      "id": "M22FICC01",
+      "libelle": "FONDS D'AIDE AUX ICC",
+      "chapitre": "903",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 360000,
+      "nombre_lignes": 1,
+      "communes": []
+    },
+    {
+      "id": "M22LATT01",
+      "libelle": "LATTARA: CREATION CENTRE CONSERVATION ET D'ETUDES",
+      "chapitre": "903",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 7080,
+      "cp_reste_a_realiser": 136860,
+      "nombre_lignes": 1,
+      "communes": [
+        "Lattes"
+      ]
+    },
+    {
+      "id": "M22LATT02",
+      "libelle": "LATTARA: AMENAGEMENT D'UN PARCOURS PEDAGOGIQUE",
+      "chapitre": "903",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 6300,
+      "cp_reste_a_realiser": 471529.8,
+      "nombre_lignes": 2,
+      "communes": [
+        "Lattes"
+      ]
+    },
+    {
+      "id": "M22METRO01",
+      "libelle": "REALISATION DE 5 LIGNES DE BUSTRAM (dont materiel roulant)",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 2305623.16,
+      "cp_reste_a_realiser": 507240.29000000004,
+      "nombre_lignes": 3,
+      "communes": [
+        "Castelnau-le-Lez",
+        "Castries",
+        "Cournonsec",
+        "Cournonterral",
+        "Fabrègues",
+        "Grabels",
+        "Lavérune",
+        "Le Crès",
+        "Montpellier",
+        "Pignan",
+        "Saint-Jean-de-Védas",
+        "Vendargues"
+      ]
+    },
+    {
+      "id": "M22MROU01",
+      "libelle": "REHABILITATION PISCINE MOTTE ROUGE",
+      "chapitre": "903",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 2706446.08,
+      "cp_reste_a_realiser": 1172804.19,
+      "nombre_lignes": 3,
+      "communes": [
+        "Montpellier"
+      ]
+    },
+    {
+      "id": "M22NRJV01",
+      "libelle": "TRANSITION ENERGETIQUE DU PATRIMOINE METROPOLITAIN",
+      "chapitre": "900",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 352753.49,
+      "cp_reste_a_realiser": 388543.58999999997,
+      "nombre_lignes": 3,
+      "communes": []
+    },
+    {
+      "id": "M22OFS01",
+      "libelle": "ORGANISME FONCIER SOLIDAIRE",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 1500000,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 1,
+      "communes": []
+    },
+    {
+      "id": "M22OPER01",
+      "libelle": "PATRIMOINE: FACADES OPERA COMEDIE",
+      "chapitre": "903",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": [
+        "Montpellier"
+      ]
+    },
+    {
+      "id": "M22PATC01",
+      "libelle": "SOUTIEN PATRIMONIAL AUX COMMUNES",
+      "chapitre": "903",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 0,
+      "cp_reste_a_realiser": 0,
+      "nombre_lignes": 0,
+      "communes": []
+    },
+    {
+      "id": "M22RM001",
+      "libelle": "CREATION D'UN GIRATOIRE A VILLEUNEUVE LES MAGUELONE (RM185)",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 655.2,
+      "cp_reste_a_realiser": 277.2,
+      "nombre_lignes": 1,
+      "communes": []
+    },
+    {
+      "id": "M22RM002",
+      "libelle": "CREATION D'UN GIRATOIRE A PIGNAN (RM5)",
+      "chapitre": "908",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 6227.47,
+      "cp_reste_a_realiser": 10063.87,
+      "nombre_lignes": 2,
+      "communes": [
+        "Pignan"
+      ]
+    },
+    {
+      "id": "M22SDSI01",
+      "libelle": "MODERNISATION INFORMATIQUE DE L'ADMINISTRATION ET DES RELATIONS AUX USAGERS",
+      "chapitre": "",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 1257740.5499999998,
+      "cp_reste_a_realiser": 2187525.9,
+      "nombre_lignes": 3,
+      "communes": []
+    },
+    {
+      "id": "M22FEC01",
+      "libelle": "FONDS D'EQUIPEMENT AUX COMMUNES",
+      "chapitre": "905",
+      "montant_ap_vote_anterieur": 0,
+      "cp_vote_2025": 0,
+      "cp_realise_2025": 687140,
+      "cp_reste_a_realiser": 711360,
+      "nombre_lignes": 1,
+      "communes": []
+    }
+  ]
+}

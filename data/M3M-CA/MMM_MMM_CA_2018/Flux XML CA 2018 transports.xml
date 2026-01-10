@@ -1,0 +1,4291 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DocumentBudgetaire xmlns="http://www.minefi.gouv.fr/cp/demat/docbudgetaire">
+   <VersionSchema V="86"/>
+   <BlocEditeur>
+      <CodeEditeur V="GFI Progiciels, ASTRE GF V7.01 extraction 20141209 procedures 20180926"/>
+   </BlocEditeur>
+   <VersionOutil outil="DSC_COMMON" version="27"/>
+   <VersionOutil outil="REMAT" version="3_2018"/>
+   <Scellement md5="1E60C58342285A1A9B3FEFDDE5A85420" sha1="629936C8234F4DAB2FD8F6ADA79EA00C45EAD6DE" date="2019-07-04T11:40:34"/>
+   <EnTeteDocBudgetaire>
+      <DteStr V="2019-04-29"/>
+      <LibellePoste V="TRESORIER PRINCIPAL MUNICIPAL"/>
+      <IdPost V="034021"/>
+      <LibelleColl V="MONTPELLIER MEDITERRANEE METROPOLE"/>
+      <IdColl V="24340001700147"/>
+      <NatCEPL V="ETABLISSEMENT PUBLIC"/>
+   </EnTeteDocBudgetaire>
+   <Budget>
+      <EnTeteBudget>
+         <LibelleEtab V="TRANSPORT"/>
+         <IdEtab V="24340001700147"/>
+         <CodColl V="099"/>
+         <CodBud V="06"/>
+         <Nomenclature V="M4-M43_D"/>
+      </EnTeteBudget>
+      <BlocBudget>
+         <NatDec V="09"/>
+         <Exer V="2018"/>
+         <ProjetBudget V="true"/>
+         <NatVote V="FcIc"/>
+         <OpeEquip V="false"/>
+         <VoteFormelChap V="false"/>
+         <TypProv V="1"/>
+         <BudgPrec V="1"/>
+         <ReprRes V="1"/>
+         <NatFonc V="1"/>
+         <PresentationSimplifiee V="false"/>
+         <DepFoncN2 V="0.00"/>
+         <RecFoncN2 V="0.00"/>
+         <DepInvN2 V="0.00"/>
+         <RecInvN2 V="0.00"/>
+         <CodTypBud V="A"/>
+         <IdEtabPal V="24340001700022"/>
+         <LibelleEtabPal V="BUDGET PRINCIPAL"/>
+      </BlocBudget>
+      <InformationsGenerales>
+         <Information Code="MtAmort1An" V="2000"/>
+         <Information Code="DtDelibAmort1An" V="17/07/2018"/>
+         <Information Code="LieuCommDoc" V="Hôtel de Métropole"/>
+      </InformationsGenerales>
+      <LigneBudget>
+         <Nature V="2182"/>
+         <ContNat V="21"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="3674913.07"/>
+         <MtReal V="3028101.84"/>
+         <MtRAR3112 V="646368.83"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="3674913.07"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="21756"/>
+         <ContNat V="21"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="382886.93"/>
+         <MtReal V="0.00"/>
+         <MtRAR3112 V="597448.92"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="382886.93"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2151"/>
+         <ContNat V="21"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtRARPrec V="66673.38"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="316673.38"/>
+         <MtReal V="87236.72"/>
+         <MtRAR3112 V="84232.76"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="183326.62"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2131"/>
+         <ContNat V="21"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="1477200.00"/>
+         <MtReal V="0.00"/>
+         <MtRAR3112 V="1477200.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="1477200.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2157"/>
+         <ContNat V="21"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtRARPrec V="191992.78"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="191992.78"/>
+         <MtReal V="91809.60"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="-191992.78"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="778"/>
+         <ContNat V="77"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <MtReal V="858476.52"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="0.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="777"/>
+         <ContNat V="042"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="6200000.00"/>
+         <MtReal V="5295589.59"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="6200000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="002"/>
+         <ContNat V="002"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="7167158.38"/>
+         <MtReal V="7167158.38"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="7167158.38"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="1311"/>
+         <ContNat V="13"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtRARPrec V="4542400.00"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="5808000.00"/>
+         <MtReal V="0.00"/>
+         <MtRAR3112 V="3536800.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="-3276800.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="021"/>
+         <ContNat V="021"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="17265064.38"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="17265064.38"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="1068"/>
+         <ContNat V="10"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="25894765.27"/>
+         <MtReal V="25894765.27"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="25894765.27"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2315"/>
+         <ContNat V="23"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtRARPrec V="981044.12"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="3293691.12"/>
+         <MtReal V="1148604.99"/>
+         <MtRAR3112 V="414874.91"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="1331602.88"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="1316"/>
+         <ContNat V="13"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtRARPrec V="330000.00"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="651000.00"/>
+         <MtReal V="0.00"/>
+         <MtRAR3112 V="165000.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="-9000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2315"/>
+         <ContNat V="041"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="8133976.37"/>
+         <MtReal V="4902828.33"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="1"/>
+         <MtSup Code="BudgetHorsRAR" V="8133976.37"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2318"/>
+         <ContNat V="23"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtRARPrec V="94962.40"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="94962.40"/>
+         <MtReal V="25315.80"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="-94962.40"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="238"/>
+         <ContNat V="23"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtRARPrec V="2075578.18"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="7270773.18"/>
+         <MtReal V="3948596.00"/>
+         <MtRAR3112 V="1143999.61"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="3119616.82"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2313"/>
+         <ContNat V="23"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="2458200.00"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="2458200.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="611"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="8000.00"/>
+         <MtReal V="4925.89"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="8000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2764"/>
+         <ContNat V="27"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtRARPrec V="311000.00"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="2311000.00"/>
+         <MtReal V="1596904.14"/>
+         <MtRAR3112 V="359685.96"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="1689000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2762"/>
+         <ContNat V="041"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="980000.00"/>
+         <MtReal V="945323.98"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="1"/>
+         <MtSup Code="BudgetHorsRAR" V="980000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="238"/>
+         <ContNat V="041"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="8605738.27"/>
+         <MtReal V="5374590.23"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="1"/>
+         <MtSup Code="BudgetHorsRAR" V="8605738.27"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6411"/>
+         <ContNat V="012"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="149816.50"/>
+         <MtReal V="149718.13"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="149816.50"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="1318"/>
+         <ContNat V="13"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="1709200.00"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="1709200.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="63512"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="340000.00"/>
+         <MtReal V="339714.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="340000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="1333"/>
+         <ContNat V="13"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="339300.00"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="339300.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="1641"/>
+         <ContNat V="16"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="11827648.46"/>
+         <MtReal V="11731000.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="11827648.46"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6415"/>
+         <ContNat V="012"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="1024.00"/>
+         <MtReal V="899.22"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="1024.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6414"/>
+         <ContNat V="012"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="85721.00"/>
+         <MtReal V="62734.35"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="85721.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="166"/>
+         <ContNat V="16"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="3000000.00"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="3000000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2156"/>
+         <ContNat V="041"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <MtReal V="14937.46"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="1"/>
+         <MtSup Code="BudgetHorsRAR" V="0.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6453"/>
+         <ContNat V="012"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="52444.50"/>
+         <MtReal V="47108.61"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="52444.50"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2157"/>
+         <ContNat V="041"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <MtReal V="274188.90"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="1"/>
+         <MtSup Code="BudgetHorsRAR" V="0.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6451"/>
+         <ContNat V="012"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="36427.00"/>
+         <MtReal V="23419.40"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="36427.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2182"/>
+         <ContNat V="041"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="630000.00"/>
+         <MtReal V="629714.84"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="1"/>
+         <MtSup Code="BudgetHorsRAR" V="630000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2313"/>
+         <ContNat V="23"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtRARPrec V="397200.00"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="397200.00"/>
+         <MtReal V="0.00"/>
+         <MtRAR3112 V="198600.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="-397200.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2315"/>
+         <ContNat V="041"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="61158.80"/>
+         <MtReal V="26482.78"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="1"/>
+         <MtSup Code="BudgetHorsRAR" V="61158.80"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6226"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="123030.18"/>
+         <MtReal V="505.68"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="123030.18"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6231"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="10000.00"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="10000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="617"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="201993.74"/>
+         <MtReal V="80780.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="201993.74"/>
+         <MtSup Code="ProdChaRat" V="3060.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="618"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="2000.00"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="2000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6287"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="5900.00"/>
+         <MtReal V="10000.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="5900.00"/>
+         <MtSup Code="ProdChaRat" V="10000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6156"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="1350.00"/>
+         <MtReal V="1262.04"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="1350.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6336"/>
+         <ContNat V="012"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="2560.00"/>
+         <MtReal V="1323.09"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="2560.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6331"/>
+         <ContNat V="012"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="5632.00"/>
+         <MtReal V="2940.33"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="5632.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="023"/>
+         <ContNat V="023"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="17265064.38"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="17265064.38"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="001"/>
+         <ContNat V="001"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="25894765.27"/>
+         <MtReal V="25894765.27"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="25894765.27"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6236"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="67.21"/>
+         <MtReal V="67.21"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="67.21"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="64198"/>
+         <ContNat V="013"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="6000.00"/>
+         <MtReal V="3450.80"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="6000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6238"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="13026.00"/>
+         <MtReal V="13026.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="13026.00"/>
+         <MtSup Code="ProdChaRat" V="2160.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6257"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="590.30"/>
+         <MtReal V="590.30"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="590.30"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6281"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="32692.57"/>
+         <MtReal V="32692.57"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="32692.57"/>
+         <MtSup Code="ProdChaRat" V="10000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="28157"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="109675.00"/>
+         <MtReal V="109675.00"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="109675.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="28181"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="2358.00"/>
+         <MtReal V="2358.00"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="2358.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="28151"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="22938902.00"/>
+         <MtReal V="22938902.00"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="22938902.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="28156"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="4158.00"/>
+         <MtReal V="4158.00"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="4158.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2805"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="430501.00"/>
+         <MtReal V="554.00"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="430501.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="28138"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="691155.00"/>
+         <MtReal V="691155.00"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="691155.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2762"/>
+         <ContNat V="041"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="288841.20"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="1"/>
+         <MtSup Code="BudgetHorsRAR" V="288841.20"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="66112"/>
+         <ContNat V="66"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <MtReal V="-599889.41"/>
+         <OpBudg V="0"/>
+         <MtSup Code="ICNE" V="1752719.85"/>
+         <MtSup Code="BudgetHorsRAR" V="0.00"/>
+         <MtSup Code="ProdChaRat" V="1752719.85"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2762"/>
+         <ContNat V="27"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="980000.00"/>
+         <MtReal V="945323.98"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="980000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="66111"/>
+         <ContNat V="66"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="12000000.00"/>
+         <MtReal V="10571271.46"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="12000000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="658"/>
+         <ContNat V="65"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="168113.00"/>
+         <MtReal V="168112.58"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="168113.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6574"/>
+         <ContNat V="65"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="63495820.00"/>
+         <MtReal V="58817094.33"/>
+         <MtRAR3112 V="4664631.98"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="63495820.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="648"/>
+         <ContNat V="012"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="17494.00"/>
+         <MtReal V="8545.36"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="17494.00"/>
+         <MtSup Code="ProdChaRat" V="1000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6475"/>
+         <ContNat V="012"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="2000.00"/>
+         <MtReal V="685.31"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="2000.00"/>
+         <MtSup Code="ProdChaRat" V="506.54"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="28182"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="1023251.00"/>
+         <MtReal V="1023251.00"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="1023251.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="1318"/>
+         <ContNat V="13"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="50000.00"/>
+         <MtReal V="50000.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="50000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="13911"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="3414450.80"/>
+         <MtReal V="2510040.39"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="3414450.80"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="13918"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="20122.45"/>
+         <MtReal V="20122.45"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="20122.45"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="13914"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="120887.95"/>
+         <MtReal V="120887.95"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="120887.95"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="13913"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="1382038.80"/>
+         <MtReal V="1382038.80"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="1382038.80"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="13912"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="1262500.00"/>
+         <MtReal V="1262500.00"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="1262500.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2031"/>
+         <ContNat V="20"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtRARPrec V="461890.82"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="806890.82"/>
+         <MtReal V="126662.16"/>
+         <MtRAR3112 V="116634.55"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="-116890.82"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="166"/>
+         <ContNat V="16"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="3000000.00"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="3000000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="1641"/>
+         <ContNat V="16"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="35100000.00"/>
+         <MtReal V="28022810.56"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="35100000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="753"/>
+         <ContNat V="75"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="1304508.00"/>
+         <MtReal V="1304508.49"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="1304508.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="7588"/>
+         <ContNat V="75"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="1070000.00"/>
+         <MtReal V="4708972.08"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="1070000.00"/>
+         <MtSup Code="ProdChaRat" V="820000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="703"/>
+         <ContNat V="70"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="8100.00"/>
+         <MtReal V="5000.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="8100.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="707"/>
+         <ContNat V="70"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <MtReal V="168112.58"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="0.00"/>
+         <MtSup Code="ProdChaRat" V="168112.58"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="734"/>
+         <ContNat V="73"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="87800000.00"/>
+         <MtReal V="88513383.27"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="87800000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="7475"/>
+         <ContNat V="74"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="16565000.00"/>
+         <MtReal V="16565000.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="16565000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6811"/>
+         <ContNat V="042"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="25200000.00"/>
+         <MtReal V="24770053.00"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="25200000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="739"/>
+         <ContNat V="014"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="700000.00"/>
+         <MtReal V="346186.54"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="700000.00"/>
+         <MtSup Code="ProdChaRat" V="336904.01"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2111"/>
+         <ContNat V="041"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="471761.90"/>
+         <MtReal V="471761.90"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="1"/>
+         <MtSup Code="BudgetHorsRAR" V="471761.90"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2033"/>
+         <ContNat V="20"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="5000.00"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="5000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6711"/>
+         <ContNat V="67"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="200000.00"/>
+         <MtReal V="200000.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="200000.00"/>
+      </LigneBudget>
+      <Annexes>
+         <DATA_EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="X"/>
+               <CodProfilAmortDtVote V="X"/>
+               <ProfilAmort V="Produits CDC"/>
+               <ProfilAmortDtVote V="Produits CDC"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2000"/>
+               <ObjEmpr V="CDC INVESTISSEMENT 2000 1ere tranche tramway"/>
+               <MtEmprOrig V="4573470.52"/>
+               <DureeRest V="6.50"/>
+               <DureeRestInit V="6.50"/>
+               <LibOrgaPreteur V="Caisse Dépôts et Consignations"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="V"/>
+               <CodTyptxDtVote V="V"/>
+               <IndexTxVariInit V="LIVRETA"/>
+               <TxActuaInit V="3.503"/>
+               <IndexTxVariDtVote V="LIVRETA"/>
+               <TxActua V="2.05"/>
+               <MtIntExer V="38465.24"/>
+               <MtCapitalExer V="231107.89"/>
+               <MtCapitalRestDu_01_01 V="1876353.31"/>
+               <MtICNE V="17002.37"/>
+               <MtCapitalRestDu_31_12 V="1645245.42"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="269573.13"/>
+               <AnnuitNetDette V="269573.13"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="0922547 (20003)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2000-04-20"/>
+               <DtEmission V="01/07/2000"/>
+               <Dt1RembInit V="2001-07-01"/>
+               <Txinit V="2.25"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="16863.77"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="25"/>
+               <TxMini V="LIVRETA+1,3"/>
+               <TxMaxi V="LIVRETA+1,3"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="X"/>
+               <CodProfilAmortDtVote V="X"/>
+               <ProfilAmort V="Produits CDC"/>
+               <ProfilAmortDtVote V="Produits CDC"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2000"/>
+               <ObjEmpr V="Prog. Inv. 2000 BEI"/>
+               <MtEmprOrig V="18293882.07"/>
+               <DureeRest V="1.92"/>
+               <DureeRestInit V="1.92"/>
+               <LibOrgaPreteur V="Bq Européenne d'Investissement"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="F"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="FIXE"/>
+               <TxActuaInit V="5.901"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="5.9"/>
+               <MtIntExer V="249974.93"/>
+               <MtCapitalExer V="1331794.61"/>
+               <MtCapitalRestDu_01_01 V="4236863.08"/>
+               <MtICNE V="9861.31"/>
+               <MtCapitalRestDu_31_12 V="2905068.47"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="1581769.54"/>
+               <AnnuitNetDette V="1581769.54"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="09658FR (20004)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="1997-07-15"/>
+               <DtEmission V="11/12/2000"/>
+               <Dt1RembInit V="2001-12-11"/>
+               <Txinit V="5.9"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="564518.55"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="20"/>
+               <TxMini V="5,9"/>
+               <TxMaxi V="5,9"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="C"/>
+               <CodProfilAmortDtVote V="C"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2000"/>
+               <ObjEmpr V="Prog Inv 2000 DEPFA BANK Tramway 1er tranche"/>
+               <MtEmprOrig V="6860205.78"/>
+               <DureeRest V="0.00"/>
+               <DureeRestInit V="0.00"/>
+               <LibOrgaPreteur V="Depfa Bank anciennement CLYO"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="V"/>
+               <CodTyptxDtVote V="V"/>
+               <IndexTxVariInit V="EURIBOR12M"/>
+               <TxActuaInit V="2.943"/>
+               <IndexTxVariDtVote V="EURIBOR01M"/>
+               <TxActua V="-0.028"/>
+               <MtIntExer V="0.0"/>
+               <MtCapitalExer V="490014.7"/>
+               <MtCapitalRestDu_01_01 V="490014.7"/>
+               <MtICNE V="0.0"/>
+               <MtCapitalRestDu_31_12 V="0.0"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="490014.7"/>
+               <AnnuitNetDette V="490014.7"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="347789DS (20006)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="1997-04-15"/>
+               <DtEmission V="22/12/2000"/>
+               <Dt1RembInit V="2001-12-22"/>
+               <Txinit V="4.47"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="0.0"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="18"/>
+               <TxMini V="EURIBOR01M+0,03"/>
+               <TxMaxi V="EURIBOR01M+0,03"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2001"/>
+               <ObjEmpr V="Prog. Inv. 2001 BEI 1ere tranche tramway"/>
+               <MtEmprOrig V="8384695.95"/>
+               <DureeRest V="2.25"/>
+               <DureeRestInit V="2.25"/>
+               <LibOrgaPreteur V="Bq Européenne d'Investissement"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="F"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="FIXE"/>
+               <TxActuaInit V="5.42"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="5.42"/>
+               <MtIntExer V="132699.55"/>
+               <MtCapitalExer V="564290.04"/>
+               <MtCapitalRestDu_01_01 V="2448331.22"/>
+               <MtICNE V="75816.91"/>
+               <MtCapitalRestDu_31_12 V="1884041.18"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="696989.59"/>
+               <AnnuitNetDette V="696989.59"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="09658FR (20011)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2001-03-23"/>
+               <DtEmission V="05/04/2001"/>
+               <Dt1RembInit V="2002-04-05"/>
+               <Txinit V="5.42"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="371542.06"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="20"/>
+               <TxMini V="5,42"/>
+               <TxMaxi V="5,42"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2002"/>
+               <ObjEmpr V="CELR CONTRAT CDC IXIS 2001 "/>
+               <MtEmprOrig V="13000000"/>
+               <DureeRest V="2.92"/>
+               <DureeRestInit V="2.92"/>
+               <LibOrgaPreteur V="CELR-IXIS-CREDIT FONCIER"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="F"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="FIXE"/>
+               <TxActuaInit V="4.773"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="4.85"/>
+               <MtIntExer V="183378.75"/>
+               <MtCapitalExer V="879196.58"/>
+               <MtCapitalRestDu_01_01 V="3781005.09"/>
+               <MtICNE V="11953.07"/>
+               <MtCapitalRestDu_31_12 V="2901808.51"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="1062575.33"/>
+               <AnnuitNetDette V="1062575.33"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="200112394 (20022)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2001-12-19"/>
+               <DtEmission V="17/06/2002"/>
+               <Dt1RembInit V="2002-12-01"/>
+               <Txinit V="4.85"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="526605.92"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="20"/>
+               <TxMini V="4,85"/>
+               <TxMaxi V="4,85"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="C"/>
+               <CodProfilAmortDtVote V="C"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2003"/>
+               <ObjEmpr V="CM-CIC CONTRAT cic 2002"/>
+               <MtEmprOrig V="1159639.55"/>
+               <DureeRest V="9.00"/>
+               <DureeRestInit V="9.00"/>
+               <LibOrgaPreteur V="Groupe C Mutuel CIC"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="C"/>
+               <CodTyptxDtVote V="C"/>
+               <IndexTxVariInit V="TAUX STRUCTURES"/>
+               <TxActuaInit V="3.652"/>
+               <IndexTxVariDtVote V="TAUX STRUCTURES"/>
+               <TxActua V="3.6"/>
+               <MtIntExer V="18623.81"/>
+               <MtCapitalExer V="46385.58"/>
+               <MtCapitalRestDu_01_01 V="510241.4"/>
+               <MtICNE V="16420.5"/>
+               <MtCapitalRestDu_31_12 V="463855.82"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="65009.39"/>
+               <AnnuitNetDette V="65009.39"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="158890085100026 (20031)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="B"/>
+               <StructureDtVote V="B"/>
+               <DtSignInit V="2002-12-17"/>
+               <DtEmission V="10/01/2003"/>
+               <Dt1RembInit V="2004-01-12"/>
+               <Txinit V="4.5"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="77886.47"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="25"/>
+               <TxMini V="3.6"/>
+               <TxMaxi V="EURIBOR12M"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2003"/>
+               <ObjEmpr V="DEXIA CLF MOBILYS TIP TOP "/>
+               <MtEmprOrig V="4000000.0"/>
+               <DureeRest V="10.00"/>
+               <DureeRestInit V="10.00"/>
+               <LibOrgaPreteur V="Caisse Française de Financement Local"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="C"/>
+               <CodTyptxDtVote V="C"/>
+               <IndexTxVariInit V="TAUX STRUCTURES"/>
+               <TxActuaInit V="3.526"/>
+               <IndexTxVariDtVote V="TAUX STRUCTURES"/>
+               <TxActua V="3.38"/>
+               <MtIntExer V="86204.02"/>
+               <MtCapitalExer V="158035.94"/>
+               <MtCapitalRestDu_01_01 V="2515477.94"/>
+               <MtICNE V="80788.23"/>
+               <MtCapitalRestDu_31_12 V="2357442.0"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="244239.96"/>
+               <AnnuitNetDette V="244239.96"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="MIN206314EUR (20034)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="B"/>
+               <StructureDtVote V="B"/>
+               <DtSignInit V="2002-12-20"/>
+               <DtEmission V="31/12/2003"/>
+               <Dt1RembInit V="2005-01-01"/>
+               <Txinit V="4.5"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="410634.12"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="25"/>
+               <TxMini V="3.38"/>
+               <TxMaxi V="EURIBOR12M"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="C"/>
+               <CodProfilAmortDtVote V="C"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2004"/>
+               <ObjEmpr V="CRCA 2004 CALYON 75638012"/>
+               <MtEmprOrig V="4905393.53"/>
+               <DureeRest V="5.67"/>
+               <DureeRestInit V="5.67"/>
+               <LibOrgaPreteur V="CREDIT AGRICOLE CIB"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="F"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="FIXE"/>
+               <TxActuaInit V="4.414"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="4.35"/>
+               <MtIntExer V="75721.9"/>
+               <MtCapitalExer V="245269.68"/>
+               <MtCapitalRestDu_01_01 V="1716887.74"/>
+               <MtICNE V="20805.0"/>
+               <MtCapitalRestDu_31_12 V="1471618.06"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="320991.58"/>
+               <AnnuitNetDette V="320991.58"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="00141653-N°1 (200415)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2003-12-19"/>
+               <DtEmission V="06/09/2004"/>
+               <Dt1RembInit V="2005-09-06"/>
+               <Txinit V="4.35"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="232272.73"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="20"/>
+               <TxMini V="4,35"/>
+               <TxMaxi V="4,35"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2004"/>
+               <ObjEmpr V="REAMENAGEMENT CRCA "/>
+               <MtEmprOrig V="9026603.55"/>
+               <DureeRest V="2.92"/>
+               <DureeRestInit V="2.92"/>
+               <LibOrgaPreteur V="Crédit Agricole du Midi"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="F"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="FIXE"/>
+               <TxActuaInit V="4.435"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="4.43"/>
+               <MtIntExer V="120809.23"/>
+               <MtCapitalExer V="632183.82"/>
+               <MtCapitalRestDu_01_01 V="2727071.12"/>
+               <MtICNE V="2796.82"/>
+               <MtCapitalRestDu_31_12 V="2094887.31"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="752993.05"/>
+               <AnnuitNetDette V="752993.05"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="763200010 (200419)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2004-09-28"/>
+               <DtEmission V="30/09/2004"/>
+               <Dt1RembInit V="2004-12-21"/>
+               <Txinit V="4.43"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="23200.88"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="18"/>
+               <TxMini V="4,43"/>
+               <TxMaxi V="4,43"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="X"/>
+               <CodProfilAmortDtVote V="X"/>
+               <ProfilAmort V="Libre"/>
+               <ProfilAmortDtVote V="Libre"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2004"/>
+               <ObjEmpr V="REAMENAGEMENT CALYON 784343014"/>
+               <MtEmprOrig V="9758163.51"/>
+               <DureeRest V="3.67"/>
+               <DureeRestInit V="3.67"/>
+               <LibOrgaPreteur V="CREDIT AGRICOLE CIB"/>
+               <CodPeriodRemb V="S"/>
+               <CodPeriodRembDtVote V="S"/>
+               <CodTyptxInit V="F"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="FIXE"/>
+               <TxActuaInit V="3.705"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="3.8"/>
+               <MtIntExer V="125730.44"/>
+               <MtCapitalExer V="633565.91"/>
+               <MtCapitalRestDu_01_01 V="3431597.38"/>
+               <MtICNE V="28058.04"/>
+               <MtCapitalRestDu_31_12 V="2798031.47"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="759296.32"/>
+               <AnnuitNetDette V="759296.32"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="00164473-N°1 (200420)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2004-09-28"/>
+               <DtEmission V="30/09/2004"/>
+               <Dt1RembInit V="2005-03-30"/>
+               <Txinit V="3.8"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="278145.39"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="18"/>
+               <TxMini V="3,8"/>
+               <TxMaxi V="3,8"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="C"/>
+               <CodProfilAmortDtVote V="C"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2004"/>
+               <ObjEmpr V="REAMENAGEMENT CELR ALR200410813"/>
+               <MtEmprOrig V="5860028.63"/>
+               <DureeRest V="5.75"/>
+               <DureeRestInit V="5.75"/>
+               <LibOrgaPreteur V="CAISSE D'EPARGNE"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="C"/>
+               <CodTyptxDtVote V="V"/>
+               <IndexTxVariInit V="TAUX STRUCTURES"/>
+               <TxActuaInit V="2.334"/>
+               <IndexTxVariDtVote V="EURIBOR12M"/>
+               <TxActua V="0.0"/>
+               <MtIntExer V="0.0"/>
+               <MtCapitalExer V="136871.89"/>
+               <MtCapitalRestDu_01_01 V="1502027.51"/>
+               <MtICNE V="0.0"/>
+               <MtCapitalRestDu_31_12 V="1365155.61"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="136871.89"/>
+               <AnnuitNetDette V="136871.89"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="ARC21447 (200422)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="4"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="B"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2004-11-19"/>
+               <DtEmission V="25/10/2004"/>
+               <Dt1RembInit V="2005-10-25"/>
+               <Txinit V="4.45"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="0.0"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="20"/>
+               <TxMini V="EURIBOR12M+0,05"/>
+               <TxMaxi V="EURIBOR12M+0,05"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="X"/>
+               <CodProfilAmortDtVote V="X"/>
+               <ProfilAmort V="Produits CDC"/>
+               <ProfilAmortDtVote V="Produits CDC"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2004"/>
+               <ObjEmpr V="REAMENAGEMENT CELR ALR2004108"/>
+               <MtEmprOrig V="19463907.05"/>
+               <DureeRest V="5.83"/>
+               <DureeRestInit V="5.83"/>
+               <LibOrgaPreteur V="CAISSE D'EPARGNE"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="F"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="FIXE"/>
+               <TxActuaInit V="3.752"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="3.98"/>
+               <MtIntExer V="260457.26"/>
+               <MtCapitalExer V="925725.72"/>
+               <MtCapitalRestDu_01_01 V="6454506.19"/>
+               <MtICNE V="22615.78"/>
+               <MtCapitalRestDu_31_12 V="5528780.47"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="1186182.98"/>
+               <AnnuitNetDette V="1186182.98"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="ARC21452 (200423)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2004-10-25"/>
+               <DtEmission V="25/10/2004"/>
+               <Dt1RembInit V="2004-11-25"/>
+               <Txinit V="3.98"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="1129259.65"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="21"/>
+               <TxMini V="3,98"/>
+               <TxMaxi V="3,98"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="C"/>
+               <CodProfilAmortDtVote V="C"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2005"/>
+               <ObjEmpr V="CREDIT FONCIER GROUPE CELR "/>
+               <MtEmprOrig V="17000000"/>
+               <DureeRest V="16.42"/>
+               <DureeRestInit V="16.42"/>
+               <LibOrgaPreteur V="CELR-IXIS-CREDIT FONCIER"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="F"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="FIXE"/>
+               <TxActuaInit V="3.63"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="3.63"/>
+               <MtIntExer V="370260.0"/>
+               <MtCapitalExer V="566666.67"/>
+               <MtCapitalRestDu_01_01 V="10199999.96"/>
+               <MtICNE V="182988.47"/>
+               <MtCapitalRestDu_31_12 V="9633333.29"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="936926.67"/>
+               <AnnuitNetDette V="936926.67"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="3959090G (20052)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2005-06-22"/>
+               <DtEmission V="24/06/2005"/>
+               <Dt1RembInit V="2006-06-24"/>
+               <Txinit V="3.63"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="2764424.37"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="30"/>
+               <TxMini V="3,63"/>
+               <TxMaxi V="3,63"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2005"/>
+               <ObjEmpr V="OCLT SOCIETE GENERALE "/>
+               <MtEmprOrig V="15000000"/>
+               <DureeRest V="6.58"/>
+               <DureeRestInit V="6.58"/>
+               <LibOrgaPreteur V="Société Générale"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="V"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="EURIBOR03M"/>
+               <TxActuaInit V="3.259"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="3.38"/>
+               <MtIntExer V="246887.05"/>
+               <MtCapitalExer V="802951.75"/>
+               <MtCapitalRestDu_01_01 V="7304350.73"/>
+               <MtICNE V="89705.06"/>
+               <MtCapitalRestDu_31_12 V="6501398.98"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="1049838.8"/>
+               <AnnuitNetDette V="1049838.8"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="331 (ex15838) (20053)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2004-12-28"/>
+               <DtEmission V="05/08/2005"/>
+               <Dt1RembInit V="2006-08-05"/>
+               <Txinit V="3.49"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="849796.97"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="20"/>
+               <TxMini V="3,38"/>
+               <TxMaxi V="3,38"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2005"/>
+               <ObjEmpr V="fin d'exercice CELR 17M 200312183"/>
+               <MtEmprOrig V="17000000"/>
+               <DureeRest V="16.92"/>
+               <DureeRestInit V="16.92"/>
+               <LibOrgaPreteur V="CELR-IXIS-CREDIT FONCIER"/>
+               <CodPeriodRemb V="M"/>
+               <CodPeriodRembDtVote V="M"/>
+               <CodTyptxInit V="V"/>
+               <CodTyptxDtVote V="V"/>
+               <IndexTxVariInit V="EURIBOR01M"/>
+               <TxActuaInit V="0.893"/>
+               <IndexTxVariDtVote V="TAG01M"/>
+               <TxActua V="0.0"/>
+               <MtIntExer V="0.0"/>
+               <MtCapitalExer V="456989.24"/>
+               <MtCapitalRestDu_01_01 V="12996452.6"/>
+               <MtICNE V="0.0"/>
+               <MtCapitalRestDu_31_12 V="12539463.36"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="456989.24"/>
+               <AnnuitNetDette V="456989.24"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="00778055192U (20056)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2003-12-19"/>
+               <DtEmission V="29/12/2005"/>
+               <Dt1RembInit V="2006-02-01"/>
+               <Txinit V="3.94"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="0.0"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="29"/>
+               <TxMini V="TAG01M+0,06"/>
+               <TxMaxi V="TAG01M+0,06"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2006"/>
+               <ObjEmpr V="1er tirage BEI 30M "/>
+               <MtEmprOrig V="30000000"/>
+               <DureeRest V="17.58"/>
+               <DureeRestInit V="17.58"/>
+               <LibOrgaPreteur V="Bq Européenne d'Investissement"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="F"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="FIXE"/>
+               <TxActuaInit V="4.428"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="4.428"/>
+               <MtIntExer V="1024460.19"/>
+               <MtCapitalExer V="801715.59"/>
+               <MtCapitalRestDu_01_01 V="23135957.35"/>
+               <MtICNE V="371198.77"/>
+               <MtCapitalRestDu_31_12 V="22334241.77"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="1826175.78"/>
+               <AnnuitNetDette V="1826175.78"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="23.066/FR (20064)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2005-06-27"/>
+               <DtEmission V="17/08/2006"/>
+               <Dt1RembInit V="2007-08-17"/>
+               <Txinit V="4.428"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="9308305.04"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="30"/>
+               <TxMini V="4,428"/>
+               <TxMaxi V="4,428"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2006"/>
+               <ObjEmpr V="2 eme tirage BEI 45M "/>
+               <MtEmprOrig V="45000000"/>
+               <DureeRest V="17.92"/>
+               <DureeRestInit V="17.92"/>
+               <LibOrgaPreteur V="Bq Européenne d'Investissement"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="F"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="FIXE"/>
+               <TxActuaInit V="4.116"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="4.116"/>
+               <MtIntExer V="1412740.14"/>
+               <MtCapitalExer V="1226390.99"/>
+               <MtCapitalRestDu_01_01 V="34323132.83"/>
+               <MtICNE V="14928.9"/>
+               <MtCapitalRestDu_31_12 V="33096741.85"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="2639131.13"/>
+               <AnnuitNetDette V="2639131.13"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="23.066/FR (20065)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2005-06-27"/>
+               <DtEmission V="28/12/2006"/>
+               <Dt1RembInit V="2007-12-28"/>
+               <Txinit V="4.116"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="12564282.98"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="30"/>
+               <TxMini V="4,116"/>
+               <TxMaxi V="4,116"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2006"/>
+               <ObjEmpr V="CDC ex 20062 et 20063 "/>
+               <MtEmprOrig V="50000000"/>
+               <DureeRest V="7.92"/>
+               <DureeRestInit V="7.92"/>
+               <LibOrgaPreteur V="Caisse Dépôts et Consignations"/>
+               <CodPeriodRemb V="S"/>
+               <CodPeriodRembDtVote V="S"/>
+               <CodTyptxInit V="V"/>
+               <CodTyptxDtVote V="V"/>
+               <IndexTxVariInit V="EURIBOR03M"/>
+               <TxActuaInit V="1.37"/>
+               <IndexTxVariDtVote V="EURIBOR03M"/>
+               <TxActua V="0.0"/>
+               <MtIntExer V="0.0"/>
+               <MtCapitalExer V="2582474.44"/>
+               <MtCapitalRestDu_01_01 V="26926159"/>
+               <MtICNE V="0.0"/>
+               <MtCapitalRestDu_31_12 V="24343684.56"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="2582474.44"/>
+               <AnnuitNetDette V="2582474.44"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="20060413 (20067)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2006-04-13"/>
+               <DtEmission V="20/11/2006"/>
+               <Dt1RembInit V="2007-06-01"/>
+               <Txinit V="4.5"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="0.0"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="20"/>
+               <TxMini V="EURIBOR03M"/>
+               <TxMaxi V="EURIBOR03M"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2007"/>
+               <ObjEmpr V="Livret A synthétique "/>
+               <MtEmprOrig V="8152500.0"/>
+               <DureeRest V="18.92"/>
+               <DureeRestInit V="18.92"/>
+               <LibOrgaPreteur V="CELR-IXIS-CREDIT FONCIER"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="C"/>
+               <CodTyptxDtVote V="C"/>
+               <IndexTxVariInit V="TAUX STRUCTURES"/>
+               <TxActuaInit V="2.16"/>
+               <IndexTxVariDtVote V="TAUX STRUCTURES"/>
+               <TxActua V="1.928"/>
+               <MtIntExer V="129867.58"/>
+               <MtCapitalExer V="199876.48"/>
+               <MtCapitalRestDu_01_01 V="6609106.75"/>
+               <MtICNE V="9951.67"/>
+               <MtCapitalRestDu_31_12 V="6409230.26"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="329744.06"/>
+               <AnnuitNetDette V="329744.06"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="00778082692G (20074)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2006-02-03"/>
+               <DtEmission V="17/12/2007"/>
+               <Dt1RembInit V="2008-12-01"/>
+               <Txinit V="3.513"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="0.0"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="30"/>
+               <TxMini V="(MOYEURIBOR03M+((IPC-FHT-M/IPC-FHT-M-1)*100)/2)+0.25+0.9875"/>
+               <TxMaxi V="(MOYEURIBOR03M+((IPC-FHT-M/IPC-FHT-M-1)*100)/2)+0.25+0.9875"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2007"/>
+               <ObjEmpr V="fin d'exo 07 "/>
+               <MtEmprOrig V="8152500.0"/>
+               <DureeRest V="19.00"/>
+               <DureeRestInit V="19.00"/>
+               <LibOrgaPreteur V="CELR-IXIS-CREDIT FONCIER"/>
+               <CodPeriodRemb V="I"/>
+               <CodPeriodRembDtVote V="M"/>
+               <CodTyptxInit V="V"/>
+               <CodTyptxDtVote V="V"/>
+               <IndexTxVariInit V="TAG03M"/>
+               <TxActuaInit V="0.388"/>
+               <IndexTxVariDtVote V="TAG01M"/>
+               <TxActua V="0.0"/>
+               <MtIntExer V="0.0"/>
+               <MtCapitalExer V="197265.08"/>
+               <MtCapitalRestDu_01_01 V="6647012.02"/>
+               <MtICNE V="0.0"/>
+               <MtCapitalRestDu_31_12 V="6449746.94"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="197265.1"/>
+               <AnnuitNetDette V="197265.1"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="00778082692G (20077)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2006-02-03"/>
+               <DtEmission V="27/12/2007"/>
+               <Dt1RembInit V="2008-04-01"/>
+               <Txinit V="4.0"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="0.0"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="30"/>
+               <TxMini V="TAG01M+0,065"/>
+               <TxMaxi V="TAG01M+0,065"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="C"/>
+               <CodProfilAmortDtVote V="C"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2008"/>
+               <ObjEmpr V="1ère mob 2008 "/>
+               <MtEmprOrig V="11957000"/>
+               <DureeRest V="19.92"/>
+               <DureeRestInit V="19.92"/>
+               <LibOrgaPreteur V="CELR-IXIS-CREDIT FONCIER"/>
+               <CodPeriodRemb V="I"/>
+               <CodPeriodRembDtVote V="I"/>
+               <CodTyptxInit V="F"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="FIXE"/>
+               <TxActuaInit V="4.476"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="4.34"/>
+               <MtIntExer V="361704.05"/>
+               <MtCapitalExer V="398566.66"/>
+               <MtCapitalRestDu_01_01 V="8369900.0"/>
+               <MtICNE V="12492.85"/>
+               <MtCapitalRestDu_31_12 V="7971333.34"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="760270.75"/>
+               <AnnuitNetDette V="760270.75"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="00778082692G (20081)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2006-02-03"/>
+               <DtEmission V="19/12/2008"/>
+               <Dt1RembInit V="2009-03-19"/>
+               <Txinit V="4.34"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="2769366.69"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="30"/>
+               <TxMini V="4,34"/>
+               <TxMaxi V="4,34"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2009"/>
+               <ObjEmpr V="refin RA 2009 "/>
+               <MtEmprOrig V="15000000"/>
+               <DureeRest V="15.92"/>
+               <DureeRestInit V="15.92"/>
+               <LibOrgaPreteur V="CELR-IXIS-CREDIT FONCIER"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="F"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="FIXE"/>
+               <TxActuaInit V="3.901"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="3.845"/>
+               <MtIntExer V="453449.14"/>
+               <MtCapitalExer V="497197.45"/>
+               <MtCapitalRestDu_01_01 V="11631664.58"/>
+               <MtICNE V="20216.79"/>
+               <MtCapitalRestDu_31_12 V="11134467.13"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="950646.59"/>
+               <AnnuitNetDette V="950646.59"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="00778082692G (20092)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2006-02-03"/>
+               <DtEmission V="15/12/2009"/>
+               <Dt1RembInit V="2010-12-15"/>
+               <Txinit V="3.845"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="2994677.35"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="25"/>
+               <TxMini V="3,845"/>
+               <TxMaxi V="3,845"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2009"/>
+               <ObjEmpr V="fin exo 09 + refin RA 09 "/>
+               <MtEmprOrig V="864000.0"/>
+               <DureeRest V="20.92"/>
+               <DureeRestInit V="20.92"/>
+               <LibOrgaPreteur V="Société Générale"/>
+               <CodPeriodRemb V="M"/>
+               <CodPeriodRembDtVote V="M"/>
+               <CodTyptxInit V="V"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="TAG01M"/>
+               <TxActuaInit V="0.896"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="3.05"/>
+               <MtIntExer V="24143.24"/>
+               <MtCapitalExer V="13594.02"/>
+               <MtCapitalRestDu_01_01 V="786886.71"/>
+               <MtICNE V="589.64"/>
+               <MtCapitalRestDu_31_12 V="773292.69"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="37737.26"/>
+               <AnnuitNetDette V="37737.26"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="16277/002/006 (20093)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2005-12-31"/>
+               <DtEmission V="23/12/2009"/>
+               <Dt1RembInit V="2010-01-23"/>
+               <Txinit V="3.0"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="199953.48"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="30"/>
+               <TxMini V="3,05"/>
+               <TxMaxi V="3,05"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="C"/>
+               <CodProfilAmortDtVote V="C"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2010"/>
+               <ObjEmpr V="1ère Consolidation 2010 "/>
+               <MtEmprOrig V="5435000.0"/>
+               <DureeRest V="16.25"/>
+               <DureeRestInit V="16.25"/>
+               <LibOrgaPreteur V="CELR-IXIS-CREDIT FONCIER"/>
+               <CodPeriodRemb V="I"/>
+               <CodPeriodRembDtVote V="I"/>
+               <CodTyptxInit V="F"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="FIXE"/>
+               <TxActuaInit V="3.526"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="3.43"/>
+               <MtIntExer V="129469.04"/>
+               <MtCapitalExer V="217400.0"/>
+               <MtCapitalRestDu_01_01 V="3804500.0"/>
+               <MtICNE V="22898.65"/>
+               <MtCapitalRestDu_31_12 V="3587100.0"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="346869.04"/>
+               <AnnuitNetDette V="346869.04"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="00778082692G (20101)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2006-02-03"/>
+               <DtEmission V="26/04/2010"/>
+               <Dt1RembInit V="2010-07-26"/>
+               <Txinit V="3.43"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="802238.47"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="25"/>
+               <TxMini V="3,43"/>
+               <TxMaxi V="3,43"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2010"/>
+               <ObjEmpr V="2ème consolidation 2010"/>
+               <MtEmprOrig V="18438000"/>
+               <DureeRest V="21.83"/>
+               <DureeRestInit V="21.83"/>
+               <LibOrgaPreteur V="DEXIA Crédit Local de France"/>
+               <CodPeriodRemb V="M"/>
+               <CodPeriodRembDtVote V="M"/>
+               <CodTyptxInit V="V"/>
+               <CodTyptxDtVote V="V"/>
+               <IndexTxVariInit V="EURIBOR01M"/>
+               <TxActuaInit V="0.131"/>
+               <IndexTxVariDtVote V="TAG01M"/>
+               <TxActua V="0.0"/>
+               <MtIntExer V="0.0"/>
+               <MtCapitalExer V="580463.79"/>
+               <MtCapitalRestDu_01_01 V="14446581.82"/>
+               <MtICNE V="0.0"/>
+               <MtCapitalRestDu_31_12 V="13866118.03"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="580463.78"/>
+               <AnnuitNetDette V="580463.78"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="MIR236968/001 (20102)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2005-12-28"/>
+               <DtEmission V="06/10/2010"/>
+               <Dt1RembInit V="2010-12-01"/>
+               <Txinit V="3.945"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="0.0"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="30"/>
+               <TxMini V="TAG01M+0,0549"/>
+               <TxMaxi V="TAG01M+0,0549"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2010"/>
+               <ObjEmpr V="Consolidation 30M&#x20AC; déc 2010"/>
+               <MtEmprOrig V="16305000"/>
+               <DureeRest V="21.92"/>
+               <DureeRestInit V="21.92"/>
+               <LibOrgaPreteur V="CELR-IXIS-CREDIT FONCIER"/>
+               <CodPeriodRemb V="I"/>
+               <CodPeriodRembDtVote V="I"/>
+               <CodTyptxInit V="V"/>
+               <CodTyptxDtVote V="V"/>
+               <IndexTxVariInit V="EURIBOR03M"/>
+               <TxActuaInit V="0.153"/>
+               <IndexTxVariDtVote V="TAG03M"/>
+               <TxActua V="0.0"/>
+               <MtIntExer V="0.0"/>
+               <MtCapitalExer V="400050.6"/>
+               <MtCapitalRestDu_01_01 V="13863085.47"/>
+               <MtICNE V="0.0"/>
+               <MtCapitalRestDu_31_12 V="13463034.87"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="400050.6"/>
+               <AnnuitNetDette V="400050.6"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="00778082692G (20103)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2006-02-03"/>
+               <DtEmission V="23/12/2010"/>
+               <Dt1RembInit V="2011-03-01"/>
+               <Txinit V="3.895"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="0.0"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="30"/>
+               <TxMini V="TAG03M+0,105"/>
+               <TxMaxi V="TAG03M+0,105"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2010"/>
+               <ObjEmpr V="Mob. 2010"/>
+               <MtEmprOrig V="12292000"/>
+               <DureeRest V="22.00"/>
+               <DureeRestInit V="22.00"/>
+               <LibOrgaPreteur V="DEXIA Crédit Local de France"/>
+               <CodPeriodRemb V="M"/>
+               <CodPeriodRembDtVote V="M"/>
+               <CodTyptxInit V="V"/>
+               <CodTyptxDtVote V="V"/>
+               <IndexTxVariInit V="TAG01M"/>
+               <TxActuaInit V="0.754"/>
+               <IndexTxVariDtVote V="TAG01M"/>
+               <TxActua V="0.0"/>
+               <MtIntExer V="0.0"/>
+               <MtCapitalExer V="386552.24"/>
+               <MtCapitalRestDu_01_01 V="9696644.15"/>
+               <MtICNE V="0.0"/>
+               <MtCapitalRestDu_31_12 V="9310091.91"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="386552.23"/>
+               <AnnuitNetDette V="386552.23"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="MIR236968/0246399/02 (20105)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2005-12-28"/>
+               <DtEmission V="27/12/2010"/>
+               <Dt1RembInit V="2011-02-01"/>
+               <Txinit V="3.945"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="0.0"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="30"/>
+               <TxMini V="TAG01M+0,0549"/>
+               <TxMaxi V="TAG01M+0,0549"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2011"/>
+               <ObjEmpr V="3ème consolidation 2011"/>
+               <MtEmprOrig V="19267887.18"/>
+               <DureeRest V="21.50"/>
+               <DureeRestInit V="21.50"/>
+               <LibOrgaPreteur V="DEXIA Crédit Local de France"/>
+               <CodPeriodRemb V="I"/>
+               <CodPeriodRembDtVote V="I"/>
+               <CodTyptxInit V="F"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="FIXE"/>
+               <TxActuaInit V="3.776"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="3.67"/>
+               <MtIntExer V="603092.86"/>
+               <MtCapitalExer V="510910.81"/>
+               <MtCapitalRestDu_01_01 V="16398514.68"/>
+               <MtICNE V="149008.07"/>
+               <MtCapitalRestDu_31_12 V="15887603.87"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="1114003.67"/>
+               <AnnuitNetDette V="1114003.67"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="MIR236968EUR (20113)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2005-12-28"/>
+               <DtEmission V="06/06/2011"/>
+               <Dt1RembInit V="2011-10-01"/>
+               <Txinit V="3.67"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="5090040.51"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="29"/>
+               <TxMini V="3,67"/>
+               <TxMaxi V="3,67"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2011"/>
+               <ObjEmpr V="4ème mobilisation 2011 "/>
+               <MtEmprOrig V="30000000"/>
+               <DureeRest V="18.67"/>
+               <DureeRestInit V="18.67"/>
+               <LibOrgaPreteur V="Bq Européenne d'Investissement"/>
+               <CodPeriodRemb V="I"/>
+               <CodPeriodRembDtVote V="I"/>
+               <CodTyptxInit V="F"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="FIXE"/>
+               <TxActuaInit V="3.582"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="3.535"/>
+               <MtIntExer V="874425.2"/>
+               <MtCapitalExer V="894524.16"/>
+               <MtCapitalRestDu_01_01 V="25069201.69"/>
+               <MtICNE V="54597.84"/>
+               <MtCapitalRestDu_31_12 V="24174677.53"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="1768949.36"/>
+               <AnnuitNetDette V="1768949.36"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="FI26.200/FR - 2009-0 (20114)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2011-07-04"/>
+               <DtEmission V="09/09/2011"/>
+               <Dt1RembInit V="2011-12-09"/>
+               <Txinit V="3.535"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="7101266.7"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="26"/>
+               <TxMini V="3,535"/>
+               <TxMaxi V="3,535"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2011"/>
+               <ObjEmpr V="5ème mobilisation 2011"/>
+               <MtEmprOrig V="40000000"/>
+               <DureeRest V="18.92"/>
+               <DureeRestInit V="18.92"/>
+               <LibOrgaPreteur V="Bq Européenne d'Investissement"/>
+               <CodPeriodRemb V="I"/>
+               <CodPeriodRembDtVote V="I"/>
+               <CodTyptxInit V="F"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="FIXE"/>
+               <TxActuaInit V="3.888"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="3.833"/>
+               <MtIntExer V="1284276.54"/>
+               <MtCapitalExer V="1152837.73"/>
+               <MtCapitalRestDu_01_01 V="33934657.99"/>
+               <MtICNE V="41884.24"/>
+               <MtCapitalRestDu_31_12 V="32781820.25"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="2437114.27"/>
+               <AnnuitNetDette V="2437114.27"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="FI26.200/FR - 2009-0 (20115)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2011-07-04"/>
+               <DtEmission V="20/12/2011"/>
+               <Dt1RembInit V="2012-03-20"/>
+               <Txinit V="3.833"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="10861981.76"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="26"/>
+               <TxMini V="3,833"/>
+               <TxMaxi V="3,833"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="C"/>
+               <CodProfilAmortDtVote V="C"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2011"/>
+               <ObjEmpr V="8ème mobilisation 2011"/>
+               <MtEmprOrig V="24500000"/>
+               <DureeRest V="22.92"/>
+               <DureeRestInit V="22.92"/>
+               <LibOrgaPreteur V="Caisse Dépôts et Consignations"/>
+               <CodPeriodRemb V="I"/>
+               <CodPeriodRembDtVote V="I"/>
+               <CodTyptxInit V="F"/>
+               <CodTyptxDtVote V="V"/>
+               <IndexTxVariInit V="FIXE"/>
+               <TxActuaInit V="2.437"/>
+               <IndexTxVariDtVote V="EURIBOR03M"/>
+               <TxActua V="0.646"/>
+               <MtIntExer V="126356.62"/>
+               <MtCapitalExer V="816666.68"/>
+               <MtCapitalRestDu_01_01 V="19599999.92"/>
+               <MtICNE V="10578.15"/>
+               <MtCapitalRestDu_31_12 V="18783333.24"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="943023.3"/>
+               <AnnuitNetDette V="943023.3"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="1212045 (20118)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2009-11-03"/>
+               <DtEmission V="23/12/2011"/>
+               <Dt1RembInit V="2012-03-01"/>
+               <Txinit V="2.38"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="0.0"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="30"/>
+               <TxMini V="EURIBOR03M+0,97"/>
+               <TxMaxi V="EURIBOR03M+0,97"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="C"/>
+               <CodProfilAmortDtVote V="C"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2012"/>
+               <ObjEmpr V="8ème mobilisation 2012"/>
+               <MtEmprOrig V="5000000.0"/>
+               <DureeRest V="23.92"/>
+               <DureeRestInit V="23.92"/>
+               <LibOrgaPreteur V="Caisse Dépôts et Consignations"/>
+               <CodPeriodRemb V="I"/>
+               <CodPeriodRembDtVote V="I"/>
+               <CodTyptxInit V="V"/>
+               <CodTyptxDtVote V="V"/>
+               <IndexTxVariInit V="EURIBOR03M"/>
+               <TxActuaInit V="1.648"/>
+               <IndexTxVariDtVote V="EURIBOR03M"/>
+               <TxActua V="0.846"/>
+               <MtIntExer V="35200.7"/>
+               <MtCapitalExer V="166666.68"/>
+               <MtCapitalRestDu_01_01 V="4166666.6"/>
+               <MtICNE V="2941.56"/>
+               <MtCapitalRestDu_31_12 V="3999999.92"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="201867.38"/>
+               <AnnuitNetDette V="201867.38"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="1240463 (201211)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2009-11-03"/>
+               <DtEmission V="27/12/2012"/>
+               <Dt1RembInit V="2013-03-27"/>
+               <Txinit V="3.33"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="561743.23"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="30"/>
+               <TxMini V="EURIBOR03M+1,17"/>
+               <TxMaxi V="EURIBOR03M+1,17"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="C"/>
+               <CodProfilAmortDtVote V="C"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2012"/>
+               <ObjEmpr V="4ème mobilisation 2012 "/>
+               <MtEmprOrig V="40000000"/>
+               <DureeRest V="19.50"/>
+               <DureeRestInit V="19.50"/>
+               <LibOrgaPreteur V="Bq Européenne d'Investissement"/>
+               <CodPeriodRemb V="I"/>
+               <CodPeriodRembDtVote V="I"/>
+               <CodTyptxInit V="V"/>
+               <CodTyptxDtVote V="V"/>
+               <IndexTxVariInit V="EURIBOR03M"/>
+               <TxActuaInit V="1.844"/>
+               <IndexTxVariDtVote V="EURIBOR03M"/>
+               <TxActua V="0.931"/>
+               <MtIntExer V="295874.4"/>
+               <MtCapitalExer V="1538461.52"/>
+               <MtCapitalRestDu_01_01 V="31923077.02"/>
+               <MtICNE V="65056.83"/>
+               <MtCapitalRestDu_31_12 V="30384615.5"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="1834335.91"/>
+               <AnnuitNetDette V="1834335.91"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="FI81.286/FR - 2009-0 (20126)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2012-03-30"/>
+               <DtEmission V="11/07/2012"/>
+               <Dt1RembInit V="2012-10-11"/>
+               <Txinit V="3.242"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="0.0"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="26"/>
+               <TxMini V="EURIBOR03M+1,258"/>
+               <TxMaxi V="EURIBOR03M+1,258"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="C"/>
+               <CodProfilAmortDtVote V="C"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2013"/>
+               <ObjEmpr V="2ème mobilisation 2013 "/>
+               <MtEmprOrig V="20000000"/>
+               <DureeRest V="20.92"/>
+               <DureeRestInit V="20.92"/>
+               <LibOrgaPreteur V="Bq Européenne d'Investissement"/>
+               <CodPeriodRemb V="I"/>
+               <CodPeriodRembDtVote V="I"/>
+               <CodTyptxInit V="V"/>
+               <CodTyptxDtVote V="V"/>
+               <IndexTxVariInit V="EURIBOR03M"/>
+               <TxActuaInit V="1.372"/>
+               <IndexTxVariDtVote V="EURIBOR03M"/>
+               <TxActua V="0.365"/>
+               <MtIntExer V="61506.62"/>
+               <MtCapitalExer V="769230.76"/>
+               <MtCapitalRestDu_01_01 V="16923076.96"/>
+               <MtICNE V="852.56"/>
+               <MtCapitalRestDu_31_12 V="16153846.2"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="830737.38"/>
+               <AnnuitNetDette V="830737.38"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="FI81.286/FR (20132)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2012-03-30"/>
+               <DtEmission V="27/12/2013"/>
+               <Dt1RembInit V="2014-03-27"/>
+               <Txinit V="3.81"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="0.0"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="26"/>
+               <TxMini V="EURIBOR03M+0,69"/>
+               <TxMaxi V="EURIBOR03M+0,69"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="C"/>
+               <CodProfilAmortDtVote V="C"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2014"/>
+               <ObjEmpr V="dernier versement contrat 100M&#x20AC; "/>
+               <MtEmprOrig V="40000000"/>
+               <DureeRest V="21.42"/>
+               <DureeRestInit V="21.42"/>
+               <LibOrgaPreteur V="Bq Européenne d'Investissement"/>
+               <CodPeriodRemb V="I"/>
+               <CodPeriodRembDtVote V="I"/>
+               <CodTyptxInit V="F"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="FIXE"/>
+               <TxActuaInit V="2.518"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="2.495"/>
+               <MtIntExer V="849259.62"/>
+               <MtCapitalExer V="1538461.52"/>
+               <MtCapitalRestDu_01_01 V="34615384.68"/>
+               <MtICNE V="4584.83"/>
+               <MtCapitalRestDu_31_12 V="33076923.16"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="2387721.14"/>
+               <AnnuitNetDette V="2387721.14"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="FI81.286/FR (20141)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2012-03-30"/>
+               <DtEmission V="30/06/2014"/>
+               <Dt1RembInit V="2014-09-30"/>
+               <Txinit V="2.495"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="5220543.88"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="26"/>
+               <TxMini V="2,495"/>
+               <TxMaxi V="2,495"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="C"/>
+               <CodProfilAmortDtVote V="C"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2014"/>
+               <ObjEmpr V="dernier versement contrat 75M&#x20AC; "/>
+               <MtEmprOrig V="5000000.0"/>
+               <DureeRest V="21.42"/>
+               <DureeRestInit V="21.42"/>
+               <LibOrgaPreteur V="Bq Européenne d'Investissement"/>
+               <CodPeriodRemb V="I"/>
+               <CodPeriodRembDtVote V="I"/>
+               <CodTyptxInit V="V"/>
+               <CodTyptxDtVote V="V"/>
+               <IndexTxVariInit V="EURIBOR03M"/>
+               <TxActuaInit V="0.362"/>
+               <IndexTxVariDtVote V="EURIBOR03M"/>
+               <TxActua V="0.304"/>
+               <MtIntExer V="13086.38"/>
+               <MtCapitalExer V="192307.68"/>
+               <MtCapitalRestDu_01_01 V="4326923.12"/>
+               <MtICNE V="141.27"/>
+               <MtCapitalRestDu_31_12 V="4134615.44"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="205394.06"/>
+               <AnnuitNetDette V="205394.06"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="FI26.200/FR - 2009-0 (20142)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2011-07-04"/>
+               <DtEmission V="30/06/2014"/>
+               <Dt1RembInit V="2014-09-30"/>
+               <Txinit V="3.873"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="0.0"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="26"/>
+               <TxMini V="EURIBOR03M+0,627"/>
+               <TxMaxi V="EURIBOR03M+0,627"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="X"/>
+               <CodProfilAmortDtVote V="X"/>
+               <ProfilAmort V="Produits CDC"/>
+               <ProfilAmortDtVote V="Produits CDC"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2014"/>
+               <ObjEmpr V="CDC - Rames "/>
+               <MtEmprOrig V="7097500.0"/>
+               <DureeRest V="36.42"/>
+               <DureeRestInit V="36.42"/>
+               <LibOrgaPreteur V="Caisse Dépôts et Consignations"/>
+               <CodPeriodRemb V="I"/>
+               <CodPeriodRembDtVote V="I"/>
+               <CodTyptxInit V="V"/>
+               <CodTyptxDtVote V="V"/>
+               <IndexTxVariInit V="LIVRETA"/>
+               <TxActuaInit V="1.761"/>
+               <IndexTxVariDtVote V="LIVRETA"/>
+               <TxActua V="1.75"/>
+               <MtIntExer V="114530.04"/>
+               <MtCapitalExer V="177437.52"/>
+               <MtCapitalRestDu_01_01 V="6653906.2"/>
+               <MtICNE V="9696.28"/>
+               <MtCapitalRestDu_31_12 V="6476468.68"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="291967.56"/>
+               <AnnuitNetDette V="291967.56"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="5021837 (20143)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2013-12-19"/>
+               <DtEmission V="20/12/2014"/>
+               <Dt1RembInit V="2015-09-01"/>
+               <Txinit V="2.25"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="838702.69"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="40"/>
+               <TxMini V="LIVRETA+1"/>
+               <TxMaxi V="LIVRETA+1"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2014"/>
+               <ObjEmpr V="Refinancement emprunt 20013 "/>
+               <MtEmprOrig V="7997539.16"/>
+               <DureeRest V="2.75"/>
+               <DureeRestInit V="2.75"/>
+               <LibOrgaPreteur V="Caisse Française de Financement Local"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="F"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="FIXE"/>
+               <TxActuaInit V="4.668"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="4.6"/>
+               <MtIntExer V="228576.08"/>
+               <MtCapitalExer V="1137084.46"/>
+               <MtCapitalRestDu_01_01 V="4900976.15"/>
+               <MtICNE V="44246.64"/>
+               <MtCapitalRestDu_31_12 V="3763891.69"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="1365660.54"/>
+               <AnnuitNetDette V="1365660.54"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V=" (20144)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2014-09-05"/>
+               <DtEmission V="01/10/2014"/>
+               <Dt1RembInit V="2015-10-01"/>
+               <Txinit V="4.6"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="438622.72"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="7"/>
+               <TxMini V="4,6"/>
+               <TxMaxi V="4,6"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="C"/>
+               <CodProfilAmortDtVote V="C"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2018"/>
+               <ObjEmpr V="Investissements 2018"/>
+               <MtEmprOrig V="10000000"/>
+               <DureeRest V="25.00"/>
+               <DureeRestInit V="25.00"/>
+               <LibOrgaPreteur V="CREDIT AGRICOLE CIB"/>
+               <CodPeriodRemb V="I"/>
+               <CodPeriodRembDtVote V="I"/>
+               <CodTyptxInit V="V"/>
+               <CodTyptxDtVote V="V"/>
+               <IndexTxVariInit V="EURIBOR03M"/>
+               <TxActuaInit V="1.501"/>
+               <IndexTxVariDtVote V="EURIBOR03M"/>
+               <TxActua V="0.342"/>
+               <MtIntExer V="0.0"/>
+               <MtCapitalExer V="0.0"/>
+               <MtCapitalRestDu_01_01 V="0.0"/>
+               <MtICNE V="100.28"/>
+               <MtCapitalRestDu_31_12 V="10000000"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="0.0"/>
+               <AnnuitNetDette V="0.0"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="CO9806 (201802)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2017-12-20"/>
+               <DtEmission V="31/12/2018"/>
+               <Dt1RembInit V="2019-03-31"/>
+               <Txinit V="-0.328"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="0.0"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="25"/>
+               <TxMini V="EURIBOR03M+0,67"/>
+               <TxMaxi V="EURIBOR03M+0,67"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="C"/>
+               <CodProfilAmortDtVote V="C"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2015"/>
+               <ObjEmpr V="Financement partiel de la ligne trois du tramway - Mob 2015 BAT "/>
+               <MtEmprOrig V="27500000"/>
+               <DureeRest V="26.92"/>
+               <DureeRestInit V="26.92"/>
+               <LibOrgaPreteur V="Caisse Dépôts et Consignations"/>
+               <CodPeriodRemb V="I"/>
+               <CodPeriodRembDtVote V="I"/>
+               <CodTyptxInit V="V"/>
+               <CodTyptxDtVote V="V"/>
+               <IndexTxVariInit V="LIVRETA"/>
+               <TxActuaInit V="1.751"/>
+               <IndexTxVariDtVote V="LIVRETA"/>
+               <TxActua V="1.75"/>
+               <MtIntExer V="440272.19"/>
+               <MtCapitalExer V="916666.68"/>
+               <MtCapitalRestDu_01_01 V="25666666.64"/>
+               <MtICNE V="37054.58"/>
+               <MtCapitalRestDu_31_12 V="24749999.96"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="1356938.87"/>
+               <AnnuitNetDette V="1356938.87"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="1276000 (71501)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2009-11-03"/>
+               <DtEmission V="25/12/2015"/>
+               <Dt1RembInit V="2016-03-01"/>
+               <Txinit V="0.75"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="216562.5"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="30"/>
+               <TxMini V="LIVRETA+1"/>
+               <TxMaxi V="LIVRETA+1"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="C"/>
+               <CodProfilAmortDtVote V="C"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2016"/>
+               <ObjEmpr V="Mob BEI 2016"/>
+               <MtEmprOrig V="9000000.0"/>
+               <DureeRest V="23.50"/>
+               <DureeRestInit V="23.50"/>
+               <LibOrgaPreteur V="Bq Européenne d'Investissement"/>
+               <CodPeriodRemb V="I"/>
+               <CodPeriodRembDtVote V="I"/>
+               <CodTyptxInit V="V"/>
+               <CodTyptxDtVote V="V"/>
+               <IndexTxVariInit V="EURIBOR03M"/>
+               <TxActuaInit V="1.374"/>
+               <IndexTxVariDtVote V="EURIBOR03M"/>
+               <TxActua V="0.13"/>
+               <MtIntExer V="11044.48"/>
+               <MtCapitalExer V="346153.84"/>
+               <MtCapitalRestDu_01_01 V="8567307.7"/>
+               <MtICNE V="2031.54"/>
+               <MtCapitalRestDu_31_12 V="8221153.86"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="357198.32"/>
+               <AnnuitNetDette V="357198.32"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="81287/FR (71601)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2013-09-05"/>
+               <DtEmission V="28/07/2016"/>
+               <Dt1RembInit V="2016-10-28"/>
+               <Txinit V="0.0"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="0.0"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="26"/>
+               <TxMini V="EURIBOR03M+0,456"/>
+               <TxMaxi V="EURIBOR03M+0,456"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="C"/>
+               <CodProfilAmortDtVote V="C"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2016"/>
+               <ObjEmpr V="bus"/>
+               <MtEmprOrig V="1700000.0"/>
+               <DureeRest V="20.25"/>
+               <DureeRestInit V="20.25"/>
+               <LibOrgaPreteur V="Caisse Dépôts et Consignations"/>
+               <CodPeriodRemb V="I"/>
+               <CodPeriodRembDtVote V="I"/>
+               <CodTyptxInit V="V"/>
+               <CodTyptxDtVote V="V"/>
+               <IndexTxVariInit V="LIVRETA"/>
+               <TxActuaInit V="1.748"/>
+               <IndexTxVariDtVote V="LIVRETA"/>
+               <TxActua V="1.75"/>
+               <MtIntExer V="0.0"/>
+               <MtCapitalExer V="0.0"/>
+               <MtCapitalRestDu_01_01 V="3400000.0"/>
+               <MtICNE V="91927.61"/>
+               <MtCapitalRestDu_31_12 V="5131000.0"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="0.0"/>
+               <AnnuitNetDette V="0.0"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="5021836 (71801)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2013-12-19"/>
+               <DtEmission V="19/12/2016"/>
+               <Dt1RembInit V="2019-04-01"/>
+               <Txinit V="0.75"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="377128.5"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="20"/>
+               <TxMini V="LIVRETA+1"/>
+               <TxMaxi V="LIVRETA+1"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="X"/>
+               <CodProfilAmortDtVote V="X"/>
+               <ProfilAmort V="Produits CDC"/>
+               <ProfilAmortDtVote V="Produits CDC"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="1999"/>
+               <ObjEmpr V="Tramway 1ère tranche"/>
+               <MtEmprOrig V="10671431.21"/>
+               <DureeRest V="5.33"/>
+               <DureeRestInit V="5.33"/>
+               <LibOrgaPreteur V="Caisse Dépôts et Consignations"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="V"/>
+               <CodTyptxDtVote V="V"/>
+               <IndexTxVariInit V="LIVRETA"/>
+               <TxActuaInit V="3.608"/>
+               <IndexTxVariDtVote V="LIVRETA"/>
+               <TxActua V="2.05"/>
+               <MtIntExer V="74392.46"/>
+               <MtCapitalExer V="523749.87"/>
+               <MtCapitalRestDu_01_01 V="3628900.73"/>
+               <MtICNE V="42727.72"/>
+               <MtCapitalRestDu_31_12 V="3105150.86"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="598142.33"/>
+               <AnnuitNetDette V="598142.33"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="0870802 (9901)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="1999-03-19"/>
+               <DtEmission V="04/05/1999"/>
+               <Dt1RembInit V="2000-05-01"/>
+               <Txinit V="3.0"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="31827.8"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="25"/>
+               <TxMini V="LIVRETA+1,3"/>
+               <TxMaxi V="LIVRETA+1,3"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="C"/>
+               <CodProfilAmortDtVote V="C"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="1999"/>
+               <ObjEmpr V="Prog. Inv. 1999 BEI Tramway 1er tranche"/>
+               <MtEmprOrig V="15244901.72"/>
+               <DureeRest V="0.67"/>
+               <DureeRestInit V="0.67"/>
+               <LibOrgaPreteur V="Bq Européenne d'Investissement"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="V"/>
+               <CodTyptxDtVote V="V"/>
+               <IndexTxVariInit V="EURIBOR03M"/>
+               <TxActuaInit V="2.68"/>
+               <IndexTxVariDtVote V="EURIBOR03M"/>
+               <TxActua V="0.0"/>
+               <MtIntExer V="0.0"/>
+               <MtCapitalExer V="952806.35"/>
+               <MtCapitalRestDu_01_01 V="1905612.7"/>
+               <MtICNE V="0.0"/>
+               <MtCapitalRestDu_31_12 V="952806.35"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="952806.36"/>
+               <AnnuitNetDette V="952806.36"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="9658 (9904)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="1997-07-15"/>
+               <DtEmission V="17/11/1999"/>
+               <Dt1RembInit V="2000-09-15"/>
+               <Txinit V="4.5"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="0.0"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="20"/>
+               <TxMini V="EURIBOR03M"/>
+               <TxMaxi V="EURIBOR03M"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="X"/>
+               <CodProfilAmortDtVote V="X"/>
+               <ProfilAmort V="Produits CDC"/>
+               <ProfilAmortDtVote V="Produits CDC"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="1999"/>
+               <ObjEmpr V="CDC INVESTISSEMENT 1999 1ERE TRANCHE DE TRAMWAY"/>
+               <MtEmprOrig V="15244901.73"/>
+               <DureeRest V="5.92"/>
+               <DureeRestInit V="5.92"/>
+               <LibOrgaPreteur V="Caisse Dépôts et Consignations"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="V"/>
+               <CodTyptxDtVote V="V"/>
+               <IndexTxVariInit V="LIVRETA"/>
+               <TxActuaInit V="3.573"/>
+               <IndexTxVariDtVote V="LIVRETA"/>
+               <TxActua V="2.05"/>
+               <MtIntExer V="114331.71"/>
+               <MtCapitalExer V="786246.94"/>
+               <MtCapitalRestDu_01_01 V="5577156.6"/>
+               <MtICNE V="8341.43"/>
+               <MtCapitalRestDu_31_12 V="4790909.66"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="900578.65"/>
+               <AnnuitNetDette V="900578.65"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="0894786 (9906)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="1999-11-25"/>
+               <DtEmission V="17/12/1999"/>
+               <Dt1RembInit V="2000-12-01"/>
+               <Txinit V="2.25"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="49106.82"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="25"/>
+               <TxMini V="LIVRETA+1,3"/>
+               <TxMaxi V="LIVRETA+1,3"/>
+            </EMPRUNT>
+         </DATA_EMPRUNT>
+         <DATA_CONCOURS>
+            <CONCOURS>
+               <CodArticle V="6574"/>
+               <CodNatJurBenefCA V="P2"/>
+               <LibOrgaBenef V="TAM"/>
+               <MtSubv V="44416550.52"/>
+               <ObjSubv V="Subvention forfaitaire d'exploitation - DSP Transport"/>
+            </CONCOURS>
+            <CONCOURS>
+               <CodArticle V="6574"/>
+               <CodNatJurBenefCA V="P2"/>
+               <LibOrgaBenef V="TAM"/>
+               <MtSubv V="7497.6"/>
+               <ObjSubv V="Services occasionnels - DSP Transport"/>
+            </CONCOURS>
+            <CONCOURS>
+               <CodArticle V="6574"/>
+               <CodNatJurBenefCA V="P2"/>
+               <LibOrgaBenef V="TAM"/>
+               <MtSubv V="1404950.02"/>
+               <ObjSubv V="Taxes au réel - DSP transport"/>
+            </CONCOURS>
+            <CONCOURS>
+               <CodArticle V="6574"/>
+               <CodNatJurBenefCA V="P2"/>
+               <LibOrgaBenef V="TAM"/>
+               <MtSubv V="84409.6"/>
+               <ObjSubv V="Services éducatifs - DSP transports"/>
+            </CONCOURS>
+            <CONCOURS>
+               <CodArticle V="6574"/>
+               <CodNatJurBenefCA V="P2"/>
+               <LibOrgaBenef V="TAM"/>
+               <MtSubv V="13715741"/>
+               <ObjSubv V="Compensation tarification sociale - DSP Transport"/>
+            </CONCOURS>
+            <CONCOURS>
+               <CodArticle V="6574"/>
+               <CodNatJurBenefCA V="P2"/>
+               <LibOrgaBenef V="TAM"/>
+               <MtSubv V="990600.0"/>
+               <ObjSubv V="GER - DSP Transport"/>
+            </CONCOURS>
+            <CONCOURS>
+               <CodArticle V="6574"/>
+               <CodNatJurBenefCA V="P1"/>
+               <LibOrgaBenef V="GIHP"/>
+               <MtSubv V="1200000.0"/>
+               <DenomOuNumSubv V="DELIBERATION N°M2018-44"/>
+               <ObjSubv V="MAINTIEN A DOMICILE AU MOYEN DU TRANSPORT PRIVE AU PROFIT DE PERSONNES A MOBILITE REDUITE"/>
+            </CONCOURS>
+            <CONCOURS>
+               <CodArticle V="1318"/>
+               <CodNatJurBenefCA V="P1"/>
+               <LibOrgaBenef V="GIHP"/>
+               <MtSubv V="50000.0"/>
+               <DenomOuNumSubv V="DELIBERATION N°M2018-44"/>
+               <ObjSubv V="MAINTIEN A DOMICILE AU MOYEN DU TRANSPORT PRIVE AU PROFIT DE PERSONNES A MOBILITE REDUITE"/>
+            </CONCOURS>
+            <CONCOURS>
+               <CodArticle V="6574"/>
+               <CodNatJurBenefCA V="P1"/>
+               <LibOrgaBenef V="CLCPH"/>
+               <MtSubv V="10000.0"/>
+               <DenomOuNumSubv V="DELIBERATION N° M2018-44 du 22/02/2018"/>
+               <ObjSubv V="SUBVENTION DE FONCTIONNEMENT"/>
+            </CONCOURS>
+            <CONCOURS>
+               <CodArticle V="6574"/>
+               <CodNatJurBenefCA V="P1"/>
+               <LibOrgaBenef V="LE VIEUX BICLOU"/>
+               <MtSubv V="4000.0"/>
+               <DenomOuNumSubv V="DELIBERATION N° M2018-44 DU 22 FEVRIER 2018"/>
+               <ObjSubv V="SUBVENTION DE FONCTIONNEMENT"/>
+            </CONCOURS>
+            <CONCOURS>
+               <CodArticle V="6574"/>
+               <CodNatJurBenefCA V="P1"/>
+               <LibOrgaBenef V="AMICALE DES RETRAITES DE TAM"/>
+               <MtSubv V="1220.0"/>
+               <DenomOuNumSubv V="DELIBERATION N°M2018-601"/>
+               <ObjSubv V="SUBVENTION DE FONCTIONNEMENT"/>
+            </CONCOURS>
+         </DATA_CONCOURS>
+         <DATA_CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="01"/>
+               <CodBudAnnex V="01"/>
+               <LibBudAnnex V="BUDGET PRINCIPAL"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="D"/>
+               <MtCredOuv V="499108954.96"/>
+               <MtRealMandatTitre V="404575628.06"/>
+               <RAR V="1054053.80"/>
+               <SiretBudAnnexe V="24340001700022"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20180413"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="02"/>
+               <LibBudAnnex V="TRANSPORT"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="D"/>
+               <MtCredOuv V="115456134.40"/>
+               <MtRealMandatTitre V="95053765.99"/>
+               <RAR V="4664631.98"/>
+               <SiretBudAnnexe V="24340001700147"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20180413"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="03"/>
+               <LibBudAnnex V="ASSAINISSEMENT"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="R"/>
+               <MtCredOuv V="35226260.31"/>
+               <MtRealMandatTitre V="32135300.71"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700071"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20180413"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="04"/>
+               <LibBudAnnex V="SPANC"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="R"/>
+               <MtCredOuv V="149221.74"/>
+               <MtRealMandatTitre V="32829.88"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700105"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20180413"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="05"/>
+               <LibBudAnnex V="BUDGET PARKING"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="D"/>
+               <MtCredOuv V="2380725.78"/>
+               <MtRealMandatTitre V="482889.71"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700154"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20180413"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="06"/>
+               <LibBudAnnex V="EAU POTABLE"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="D"/>
+               <MtCredOuv V="2279753.87"/>
+               <MtRealMandatTitre V="30477.41"/>
+               <RAR V="149250.68"/>
+               <SiretBudAnnexe V="24340001700139"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20180413"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="03"/>
+               <LibBudAnnex V="ASSAINISSEMENT"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="R"/>
+               <MtCredOuv V="37788939.30"/>
+               <MtRealMandatTitre V="15964808.71"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700071"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20180413"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="05"/>
+               <LibBudAnnex V="BUDGET PARKING"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="D"/>
+               <MtCredOuv V="627348.60"/>
+               <MtRealMandatTitre V="0.00"/>
+               <RAR V="46401.40"/>
+               <SiretBudAnnexe V="24340001700154"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20180413"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="05"/>
+               <LibBudAnnex V="BUDGET PARKING"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="R"/>
+               <MtCredOuv V="673750.00"/>
+               <MtRealMandatTitre V="0.00"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700154"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20180413"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="06"/>
+               <LibBudAnnex V="EAU POTABLE"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="R"/>
+               <MtCredOuv V="2429004.55"/>
+               <MtRealMandatTitre V="76441.00"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700139"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20180413"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="06"/>
+               <LibBudAnnex V="EAU POTABLE"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="R"/>
+               <MtCredOuv V="4437233.65"/>
+               <MtRealMandatTitre V="1037035.04"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700139"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20180413"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="01"/>
+               <CodBudAnnex V="01"/>
+               <LibBudAnnex V="BUDGET PRINCIPAL"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="D"/>
+               <MtCredOuv V="283292957.39"/>
+               <MtRealMandatTitre V="179657430.78"/>
+               <RAR V="59207737.61"/>
+               <SiretBudAnnexe V="24340001700139"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20180413"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="01"/>
+               <CodBudAnnex V="01"/>
+               <LibBudAnnex V="BUDGET PRINCIPAL"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="R"/>
+               <MtCredOuv V="500163008.76"/>
+               <MtRealMandatTitre V="478356719.92"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700139"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20180413"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="03"/>
+               <LibBudAnnex V="ASSAINISSEMENT"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="D"/>
+               <MtCredOuv V="35172806.31"/>
+               <MtRealMandatTitre V="13164090.38"/>
+               <RAR V="53454.00"/>
+               <SiretBudAnnexe V="24340001700071"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20180413"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="04"/>
+               <LibBudAnnex V="SPANC"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="R"/>
+               <MtCredOuv V="136013.16"/>
+               <MtRealMandatTitre V="35821.01"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700105"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20180413"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="01"/>
+               <CodBudAnnex V="01"/>
+               <LibBudAnnex V="BUDGET PRINCIPAL"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="R"/>
+               <MtCredOuv V="332589978.72"/>
+               <MtRealMandatTitre V="213084632.17"/>
+               <RAR V="9569997.28"/>
+               <SiretBudAnnexe V="24340001700105"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20180413"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="02"/>
+               <LibBudAnnex V="TRANSPORT"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="R"/>
+               <MtCredOuv V="96122716.38"/>
+               <MtRealMandatTitre V="69661056.46"/>
+               <RAR V="3900400.00"/>
+               <SiretBudAnnexe V="24340001700147"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20180413"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="02"/>
+               <LibBudAnnex V="TRANSPORT"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="D"/>
+               <MtCredOuv V="95182670.84"/>
+               <MtRealMandatTitre V="49741545.61"/>
+               <RAR V="4840445.54"/>
+               <SiretBudAnnexe V="24340001700147"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20180413"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="06"/>
+               <LibBudAnnex V="EAU POTABLE"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="D"/>
+               <MtCredOuv V="4437233.65"/>
+               <MtRealMandatTitre V="1190769.21"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700139"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20180413"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="04"/>
+               <LibBudAnnex V="SPANC"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="D"/>
+               <MtCredOuv V="149221.74"/>
+               <MtRealMandatTitre V="51157.83"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700105"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20180413"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="03"/>
+               <LibBudAnnex V="ASSAINISSEMENT"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="D"/>
+               <MtCredOuv V="29462276.25"/>
+               <MtRealMandatTitre V="21533271.00"/>
+               <RAR V="8660059.60"/>
+               <SiretBudAnnexe V="24340001700071"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20180413"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="02"/>
+               <LibBudAnnex V="TRANSPORT"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="R"/>
+               <MtCredOuv V="120120766.38"/>
+               <MtRealMandatTitre V="117422493.33"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700147"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20180413"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="05"/>
+               <LibBudAnnex V="BUDGET PARKING"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="R"/>
+               <MtCredOuv V="2380725.78"/>
+               <MtRealMandatTitre V="714350.04"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700154"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20180413"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="04"/>
+               <LibBudAnnex V="SPANC"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="D"/>
+               <MtCredOuv V="136013.16"/>
+               <MtRealMandatTitre V="34663.82"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700105"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20180413"/>
+            </CONSOLIDATION>
+         </DATA_CONSOLIDATION>
+         <DATA_ORGANISME_ENG>
+            <ORGANISME_ENG>
+               <CodNatEng V="02"/>
+               <NomOrgEng V="TAM"/>
+               <NatJurOrgEng V="SAEML"/>
+               <MtOrgEng V="1972250.0"/>
+            </ORGANISME_ENG>
+            <ORGANISME_ENG>
+               <CodNatEng V="01"/>
+               <NatEng V="Affermage du 23/12/2009 - Dépenses"/>
+               <NomOrgEng V="TAM/Transdev"/>
+               <NatJurOrgEng V="SAEML"/>
+               <MtOrgEng V="60619748.74"/>
+            </ORGANISME_ENG>
+         </DATA_ORGANISME_ENG>
+         <DATA_PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="AMENAGEMENTS MATERIEL INDUSTRIEL"/>
+               <MtValAcquiBien V="91809.6"/>
+               <DureeAmortBien V="40"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="AUTRES IMMOBILISATIONS CORPORELLES EN COURS"/>
+               <MtValAcquiBien V="25315.8"/>
+               <DureeAmortBien V="0"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="AVANCES COMMANDES IMMOBILISATION INCORPORELLE"/>
+               <MtValAcquiBien V="3948596.0"/>
+               <DureeAmortBien V="0"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="CREANCES SUR PERSONNES DE DROIT PRIVE"/>
+               <MtValAcquiBien V="1596904.14"/>
+               <DureeAmortBien V="0"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="FRAIS D'ETUDES"/>
+               <MtValAcquiBien V="126662.16"/>
+               <DureeAmortBien V="5"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="INSTALLATION MATERIEL ET OUTILLAGE TECHNIQUE"/>
+               <MtValAcquiBien V="1148604.99"/>
+               <DureeAmortBien V="40"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="INSTALLATIONS COMPLEXES SPECIALISE"/>
+               <MtValAcquiBien V="87236.72"/>
+               <DureeAmortBien V="40"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="MATERIEL DE TRANSPORT"/>
+               <MtValAcquiBien V="3028101.84"/>
+               <DureeAmortBien V="10"/>
+            </PATRIMOINE>
+         </DATA_PATRIMOINE>
+         <DATA_PERSONNEL>
+            <PERSONNEL>
+               <CodTypAgent V="I"/>
+               <EmploiGradeAgent V="Adjt adm"/>
+               <CodCatAgent V="C"/>
+               <TempsComplet V="true"/>
+               <Permanent V="true"/>
+               <CodSectAgentTitulaire V="ADM"/>
+               <EffectifBud V="2.0"/>
+               <EffectifPourvu V="2.0"/>
+            </PERSONNEL>
+            <PERSONNEL>
+               <CodTypAgent V="I"/>
+               <EmploiGradeAgent V="Attaché"/>
+               <CodCatAgent V="A"/>
+               <TempsComplet V="true"/>
+               <Permanent V="true"/>
+               <CodSectAgentTitulaire V="ADM"/>
+               <EffectifBud V="1.0"/>
+               <EffectifPourvu V="1.0"/>
+            </PERSONNEL>
+            <PERSONNEL>
+               <CodTypAgent V="I"/>
+               <EmploiGradeAgent V="Ingénieur"/>
+               <CodCatAgent V="A"/>
+               <TempsComplet V="true"/>
+               <Permanent V="true"/>
+               <CodSectAgentTitulaire V="TECH"/>
+               <EffectifBud V="1.0"/>
+               <EffectifPourvu V="1.0"/>
+            </PERSONNEL>
+            <PERSONNEL>
+               <CodTypAgent V="I"/>
+               <EmploiGradeAgent V="Ingénieur Pal"/>
+               <CodCatAgent V="A"/>
+               <TempsComplet V="true"/>
+               <Permanent V="true"/>
+               <CodSectAgentTitulaire V="TECH"/>
+               <EffectifBud V="2.0"/>
+               <EffectifPourvu V="1.9"/>
+            </PERSONNEL>
+            <PERSONNEL>
+               <CodTypAgent V="I"/>
+               <EmploiGradeAgent V="Technicien Pal 2Cl"/>
+               <CodCatAgent V="B"/>
+               <TempsComplet V="true"/>
+               <Permanent V="true"/>
+               <CodSectAgentTitulaire V="TECH"/>
+               <EffectifBud V="1.0"/>
+               <EffectifPourvu V="0.8"/>
+            </PERSONNEL>
+         </DATA_PERSONNEL>
+         <DATA_AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Frais d'étude"/>
+               <DureeBienAmort V="5"/>
+               <DtDelib V="2018-07-19"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Frais de recherche et de développement"/>
+               <DureeBienAmort V="5"/>
+               <DtDelib V="2018-07-19"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Frais d'insertion"/>
+               <DureeBienAmort V="5"/>
+               <DtDelib V="2018-07-19"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Logiciel "/>
+               <DureeBienAmort V="5"/>
+               <DtDelib V="2018-07-19"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Autres immobilisation incorporelles"/>
+               <DureeBienAmort V="5"/>
+               <DtDelib V="2018-07-19"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Autres constructions "/>
+               <DureeBienAmort V="40"/>
+               <DtDelib V="2018-07-19"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Matériel industriel "/>
+               <DureeBienAmort V="15"/>
+               <DtDelib V="2018-07-19"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Agencements et aménagements du matériel et outillage industriels"/>
+               <DureeBienAmort V="15"/>
+               <DtDelib V="2018-07-19"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Matériel et outillage technique"/>
+               <DureeBienAmort V="15"/>
+               <DtDelib V="2018-07-19"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Installations complexes spécialisées"/>
+               <DureeBienAmort V="40"/>
+               <DtDelib V="2018-07-19"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Installations et outillages techniques (Mise en accessibilité réseau bus)"/>
+               <DureeBienAmort V="20"/>
+               <DtDelib V="2018-07-19"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Matériel de transport d'exploitation : tramway"/>
+               <DureeBienAmort V="40"/>
+               <DtDelib V="2018-07-19"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Matériel de transport d'exploitation : bus"/>
+               <DureeBienAmort V="15"/>
+               <DtDelib V="2018-07-19"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Véhicules "/>
+               <DureeBienAmort V="10"/>
+               <DtDelib V="2018-07-19"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Matériel informatique et matériel de bureau"/>
+               <DureeBienAmort V="5"/>
+               <DtDelib V="2018-07-19"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Mobilier "/>
+               <DureeBienAmort V="15"/>
+               <DtDelib V="2018-07-19"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Autres immobilisations corporelles"/>
+               <DureeBienAmort V="5"/>
+               <DtDelib V="2018-07-19"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="Biens inférieurs à 2000 euros"/>
+               <DureeBienAmort V="1"/>
+               <DtDelib V="2018-07-19"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+         </DATA_AMORTISSEMENT_METHODE>
+         <DATA_SIGNATURE>
+            <SIGNATURE>
+               <NbrMembExer V="92"/>
+               <NbrMembPresent V="85"/>
+               <NbrSuffExprime V="83"/>
+               <NbrVotePour V="65"/>
+               <NbrVoteContre V="0"/>
+               <NbrVoteAbstention V="18"/>
+               <DtConvoc V="2019-06-19"/>
+               <LibPresentPar V="Max Levita"/>
+               <LibPresentLieu V="Montpellier"/>
+               <DtPresent V="2019-06-25"/>
+               <LibDelibPar V="Conseil de Métropole"/>
+               <LibReuniSession V="Séance ordinaire"/>
+               <LibDelibLieu V="Montpellier"/>
+               <DtDelib V="2019-06-25"/>
+               <LibFin V="Montpellier"/>
+            </SIGNATURE>
+         </DATA_SIGNATURE>
+         <DATA_SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Fabien ABERT"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Lorraine ACQUIER"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Jean-Marc ALAUZET"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Jean-François AUDRIN"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Geniès BALAZUN"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Guy BARRAL"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Valérie BARTHAS-ORSAL"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Maud BODKIN"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Pierre BONNAL"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Sabria BOUALLAGA"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Thierry BREYSSE"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Rosy BUONO"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Renaud CALVAT"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Roger CAIZERGUES"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Michelle CASSAR"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Gérard CASTRE"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Chantal CLARAC"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Robert COTTE"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Christophe COUR"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Jean Luc COUSQUER"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Perla DANAN"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Catherine DARDE"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Titina DASYLVA"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Henri de VERBIZIER"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Veronique DEMON"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Thierry DEWINTRE"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Jean-Marc DI RUGGIERO"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Jacques DOMERGUE"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Carole DONADA"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Michèle DRAY-FITOUSSI"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Abdi EL KANDOUSSI"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Mylène FOURCADE"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Jean-Noël FOURCADE"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Michel FRAYSSE"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Julie FRECHE"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Jackie GALABRUN-BOULBES"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Isabelle GIANIEL"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Jean-Pierre GRAND"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Isabelle GUIRAUD"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Clare HART"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Régine ILLAIRE"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Claire JABADO"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Stéphanie JANNIN"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Laurent JAOUL"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Sonia KERANGUEVEN"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Pascal KRZYZANSKI"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Gérard LANNELONGUE"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Alex LARUE"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Max LEVITA"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Chantal LEVY-RAMEAU"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Eliane LLORET"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Jean-Marc LUSSERT"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Mustapha MAJDOUL"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Jérémie MALEK"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Chantal MARION"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Isabelle MARSALA"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Hervé MARTIN"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Jean-Luc MEISSONNIER"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Cyril MEUNIER"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Patricia MIRALLES"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Jean-Pierre MOURE"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Arnaud MOYNIER"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Caroline NAVARRE"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Marie-Christine PANOS"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Gilbert PASTOR"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Eric PASTOR"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Yvon PELLET"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Eric PENSO"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Véronique PEREZ"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Eric PETIT"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Thierry QUILES"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Joël RAYMOND"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="René REVOL"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Jean-Pierre RICO"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Henri ROUILLEAULT"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Brigitte ROUSSEL-GALIANA"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Marie-Hélène SANTARELLI"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Jean-Luc SAVY"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Noël SEGURA"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Sauveur TORTORICI"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Isabelle TOUZARD"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Bernard TRAVIER"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Joël VERA"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Annie YAGUE"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Rabii YOUSSOUS"/>
+            </SIGNATAIRE>
+         </DATA_SIGNATAIRE>
+         <DATA_SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="PG"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="SOM"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="I"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="II-A1"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="II-A2"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="II-A3"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="II-B1"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="II-B2"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="III-A1"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="III-A2"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="III-B1"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="III-B2"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="III-B3"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A1.1"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A1.2"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A1.3"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A1.4"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A1.5"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A1.6"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A1.7"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A1.8"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A2"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A3.1"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A3.2"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A4.1"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A4.2"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A5.1.1"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A5.1.2"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A5.2.1"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A5.2.2"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A6"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A7"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A8.1"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A8.2"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A8.3"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A9.1"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A9.2"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A10"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-B1.1"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-B1.2"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-B1.3"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-B1.4"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-B1.5"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-B1.6"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-B1.7"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-B2.1"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-B2.2"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-C1.1"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-C1.2"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-C2"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-C3"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-C4"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="ARS"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+         </DATA_SOMMAIRE>
+      </Annexes>
+   </Budget>
+</DocumentBudgetaire>

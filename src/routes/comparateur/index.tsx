@@ -19,61 +19,22 @@ import { Candidate, Language } from "~/types/schema";
 import { LuChevronDown } from "@qwikest/icons/lucide";
 import { vars } from "~/theme.css";
 import { inlineTranslate } from "qwik-speak";
+import themesData from "~/content/themes.json";
 
 // Simuler les thèmes (nous les avons déjà dans src/content/themes.json, mais pour l'exemple)
 interface Theme {
   id: string;
   label: Record<string, string>; // { fr: "Transports", en: "Transport" }
   icon: string;
+  authority: {
+    metropolitan: boolean;
+    municipal: boolean;
+  };
+  tags: string[];
 }
 
 // Les thèmes devraient être chargés depuis src/content/themes.json
-const allThemes: Theme[] = [
-  {
-    id: "transport",
-    label: {
-      fr: "Transports & Mobilités",
-      oc: "Transpòrts e Mobilitats",
-      ar: "النقل والتنقل",
-      en: "Transport & Mobility",
-      es: "Transporte y Movilidad",
-    },
-    icon: "bus",
-  },
-  {
-    id: "logement",
-    label: {
-      fr: "Logement & Urbanisme",
-      oc: "A lotjament e Urbanisme",
-      ar: "الإسكان والتخطيط العمراني",
-      en: "Housing & Urban Planning",
-      es: "Vivienda y Urbanismo",
-    },
-    icon: "home",
-  },
-  {
-    id: "ecologie",
-    label: {
-      fr: "Écologie & Environnement",
-      oc: "Ecologia e Environament",
-      ar: "البيئة",
-      en: "Ecology & Environment",
-      es: "Ecología y Medio Ambiente",
-    },
-    icon: "leaf",
-  },
-  {
-    id: "securite",
-    label: {
-      fr: "Sécurité & Tranquillité",
-      oc: "Seguretat e Tranquillitat",
-      ar: "الأمن والهدوء",
-      en: "Security & Tranquility",
-      es: "Seguridad y Tranquilidad",
-    },
-    icon: "shield",
-  },
-];
+const allThemes: Theme[] = themesData as unknown as Theme[];
 
 export const useComparatorData = routeLoader$(async ({ url, locale }) => {
   const allAvailableLists = await getAllLists(); // Pour le sélecteur

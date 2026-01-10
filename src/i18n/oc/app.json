@@ -4,7 +4,8 @@
     "subtitle": "Lo comparator ciutadan",
     "menu": {
       "home": "Acuèlh",
-      "comparator": "Comparator",
+      "comparator": "Comparador",
+      "budget": "Budget 2025",
       "info": "Actualitats",
       "inscriptionElectorale": "Listas electoralas",
       "roleMairieMetropole": "Perqué votar?"
@@ -16,7 +17,8 @@
     "roleMairieMetropole": {
       "title": "A qué servisson la comuna e la metropòli ?",
       "description": "Comprene las competéncias de la comuna e de la metropòli de Montpelhièr e perqué lo vòte municipal es crucial."
-    }
+    },
+    "latestNews": "Darrièras actualitats"
   },
   "sidebar": {
     "description": "Lo mèdia ciutadan de las eleccions municipalas de 2026 a Montpelhièr",

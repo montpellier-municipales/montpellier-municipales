@@ -1,0 +1,5047 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DocumentBudgetaire xmlns="http://www.minefi.gouv.fr/cp/demat/docbudgetaire">
+   <VersionSchema V="97"/>
+   <BlocEditeur>
+      <CodeEditeur V="GFI Progiciels, ASTRE GF V8.05 extraction 20141209 procedures 202001009"/>
+   </BlocEditeur>
+   <VersionOutil outil="DSC_COMMON" version="27"/>
+   <VersionOutil outil="REMAT" version="11_2020"/>
+   <Scellement md5="BD30B85C7124C5A592AE5CA82B8319FE" sha1="E52E9D7B63C3012BE6B949BD893CE59E4A7EA0A3" date="2021-06-24T19:56:53"/>
+   <EnTeteDocBudgetaire>
+      <DteStr V="2021-04-30"/>
+      <LibellePoste V="TRESORIER PRINCIPAL MUNICIPAL"/>
+      <IdPost V="034021"/>
+      <LibelleColl V="MONTPELLIER MEDITERRANEE METROPOLE"/>
+      <IdColl V="24340001700071"/>
+      <NatCEPL V="ETABLISSEMENT PUBLIC"/>
+   </EnTeteDocBudgetaire>
+   <Budget>
+      <EnTeteBudget>
+         <LibelleEtab V="ASSAINISSEMENT"/>
+         <IdEtab V="24340001700071"/>
+         <CodColl V="099"/>
+         <CodBud V="01"/>
+         <Nomenclature V="M4-M49_D"/>
+      </EnTeteBudget>
+      <BlocBudget>
+         <NatDec V="09"/>
+         <Exer V="2020"/>
+         <ProjetBudget V="true"/>
+         <NatVote V="FcIc"/>
+         <OpeEquip V="false"/>
+         <VoteFormelChap V="false"/>
+         <BudgPrec V="1"/>
+         <ReprRes V="1"/>
+         <NatFonc V="1"/>
+         <PresentationSimplifiee V="false"/>
+         <DepFoncN2 V="0.00"/>
+         <RecFoncN2 V="0.00"/>
+         <DepInvN2 V="0.00"/>
+         <RecInvN2 V="0.00"/>
+         <CodTypBud V="A"/>
+         <IdEtabPal V="24340001700022"/>
+         <LibelleEtabPal V="BUDGET PRINCIPAL"/>
+      </BlocBudget>
+      <InformationsGenerales>
+         <Information Code="DtDelibAmort1An" V="23/07/2019"/>
+         <Information Code="MtAmort1An" V="2000"/>
+         <Information Code="LieuCommDoc" V="Hôtel de Métropole - 50 Place Zeus à Montpellier"/>
+      </InformationsGenerales>
+      <LigneBudget>
+         <Nature V="7588"/>
+         <ContNat V="75"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="400698.76"/>
+         <MtReal V="185245.92"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="400698.76"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="7711"/>
+         <ContNat V="77"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <MtReal V="101843.86"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="0.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6137"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="23600.00"/>
+         <MtReal V="11685.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="23600.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="1641"/>
+         <ContNat V="16"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtRARPrec V="23058.95"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="5023058.95"/>
+         <MtReal V="4491455.26"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="4976941.05"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="1318"/>
+         <ContNat V="13"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtRARPrec V="90853.56"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="290853.56"/>
+         <MtReal V="248293.89"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="109146.44"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="7714"/>
+         <ContNat V="77"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <MtReal V="0.62"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="0.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="611"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="9000.00"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="9000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="13933"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="10000.00"/>
+         <MtReal V="3830.68"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="10000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="1318"/>
+         <ContNat V="041"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="1000.00"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="1"/>
+         <MtSup Code="BudgetHorsRAR" V="1000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="13917"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="120000.00"/>
+         <MtReal V="116981.91"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="120000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="13918"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="850000.00"/>
+         <MtReal V="815825.02"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="850000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="7068"/>
+         <ContNat V="70"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <MtReal V="106865.87"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="0.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6061"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="22500.00"/>
+         <MtReal V="1285.01"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="22500.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="7084"/>
+         <ContNat V="70"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="853000.00"/>
+         <MtReal V="613017.28"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="853000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="7087"/>
+         <ContNat V="70"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="52000.00"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="52000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="13914"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="30000.00"/>
+         <MtReal V="26744.21"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="30000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6066"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="7640.90"/>
+         <MtReal V="2854.26"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="7640.90"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="13915"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="410000.00"/>
+         <MtReal V="401310.25"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="410000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="741"/>
+         <ContNat V="74"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="2293830.00"/>
+         <MtReal V="2196129.28"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="2293830.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6063"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="11990.00"/>
+         <MtReal V="11075.09"/>
+         <OpBudg V="0"/>
+         <MtSup Code="ProdChaRat" V="2651.17"/>
+         <MtSup Code="BudgetHorsRAR" V="11990.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="748"/>
+         <ContNat V="74"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="71500.00"/>
+         <MtReal V="51000.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="71500.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6064"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="2651.00"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="2651.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="13913"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="50000.00"/>
+         <MtReal V="44446.07"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="50000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="13912"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="150000.00"/>
+         <MtReal V="77581.16"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="150000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="139111"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="1350000.00"/>
+         <MtReal V="1334968.59"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="1350000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="139118"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="50000.00"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="50000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="002"/>
+         <ContNat V="002"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="567538.49"/>
+         <MtReal V="567538.49"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="567538.49"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="617"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="703785.00"/>
+         <MtReal V="390640.81"/>
+         <OpBudg V="0"/>
+         <MtSup Code="ProdChaRat" V="221642.79"/>
+         <MtSup Code="BudgetHorsRAR" V="703785.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="021"/>
+         <ContNat V="021"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="8323443.14"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="8323443.14"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6415"/>
+         <ContNat V="012"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="15000.00"/>
+         <MtReal V="13850.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="15000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2805"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="10000.00"/>
+         <MtReal V="9933.93"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="10000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6451"/>
+         <ContNat V="012"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="287000.00"/>
+         <MtReal V="286343.64"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="287000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6453"/>
+         <ContNat V="012"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="447000.00"/>
+         <MtReal V="446155.61"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="447000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="28088"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="293110.00"/>
+         <MtReal V="293107.96"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="293110.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6471"/>
+         <ContNat V="012"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="22500.00"/>
+         <MtReal V="22253.96"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="22500.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="28121"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="1140.00"/>
+         <MtReal V="1136.03"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="1140.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="28031"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="69800.00"/>
+         <MtReal V="22142.04"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="69800.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="618"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="4902.00"/>
+         <MtReal V="3637.77"/>
+         <OpBudg V="0"/>
+         <MtSup Code="ProdChaRat" V="2551.67"/>
+         <MtSup Code="BudgetHorsRAR" V="4902.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="1068"/>
+         <ContNat V="10"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="18698021.12"/>
+         <MtReal V="18698021.12"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="18698021.12"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6411"/>
+         <ContNat V="012"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="1567200.00"/>
+         <MtReal V="1531853.15"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="1567200.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6226"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="10000.00"/>
+         <MtReal V="2364.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="10000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="28033"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="114560.00"/>
+         <MtReal V="4725.25"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="114560.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6414"/>
+         <ContNat V="012"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="556500.00"/>
+         <MtReal V="556077.33"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="556500.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="238"/>
+         <ContNat V="041"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="110000.00"/>
+         <MtReal V="83617.93"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="1"/>
+         <MtSup Code="BudgetHorsRAR" V="110000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="61521"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="5000.00"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="5000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="61528"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="7300.00"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="7300.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="777"/>
+         <ContNat V="042"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="3020000.00"/>
+         <MtReal V="2821687.89"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="3020000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="778"/>
+         <ContNat V="77"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <MtReal V="9037.88"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="0.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6156"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="5200.00"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="5200.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2315"/>
+         <ContNat V="23"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtRARPrec V="690000.00"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="1190000.00"/>
+         <MtReal V="1279797.81"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="-190000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="61551"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="4213.34"/>
+         <MtReal V="1861.40"/>
+         <OpBudg V="0"/>
+         <MtSup Code="ProdChaRat" V="150.00"/>
+         <MtSup Code="BudgetHorsRAR" V="4213.34"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="61558"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="500.00"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="500.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="1641"/>
+         <ContNat V="16"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtRARPrec V="500000.00"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="7428081.86"/>
+         <MtReal V="0.00"/>
+         <MtRAR3112 V="5000000.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="6428081.86"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2033"/>
+         <ContNat V="20"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="2000.00"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="2000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6262"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="19.53"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="19.53"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="281562"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="1830.00"/>
+         <MtReal V="1763.00"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="1830.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="281721"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="12300.00"/>
+         <MtReal V="414.32"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="12300.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="627"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="300.00"/>
+         <MtReal V="98.51"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="300.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="66111"/>
+         <ContNat V="66"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="2700000.00"/>
+         <MtReal V="2366890.84"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="2700000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6257"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="3610.00"/>
+         <MtReal V="399.50"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="3610.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2817532"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="500000.00"/>
+         <MtReal V="474434.00"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="500000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2817562"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="500.00"/>
+         <MtReal V="405.08"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="500.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2111"/>
+         <ContNat V="041"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="1000.00"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="1"/>
+         <MtSup Code="BudgetHorsRAR" V="1000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6711"/>
+         <ContNat V="67"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="20970.00"/>
+         <MtReal V="20948.69"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="20970.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6712"/>
+         <ContNat V="67"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="995.00"/>
+         <MtReal V="995.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="995.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2817311"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="5120.00"/>
+         <MtReal V="4097.03"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="5120.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2051"/>
+         <ContNat V="20"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtRARPrec V="0.00"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="14600.00"/>
+         <MtReal V="0.00"/>
+         <MtRAR3112 V="0.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="14600.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6281"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="8075.00"/>
+         <MtReal V="7930.83"/>
+         <OpBudg V="0"/>
+         <MtSup Code="ProdChaRat" V="7650.00"/>
+         <MtSup Code="BudgetHorsRAR" V="8075.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="66112"/>
+         <ContNat V="66"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <MtReal V="-32036.94"/>
+         <OpBudg V="0"/>
+         <MtSup Code="ICNEPrec" V="421520.28"/>
+         <MtSup Code="ICNE" V="389483.34"/>
+         <MtSup Code="ProdChaRat" V="389483.34"/>
+         <MtSup Code="BudgetHorsRAR" V="0.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2051"/>
+         <ContNat V="20"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtRARPrec V="123745.00"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="277145.00"/>
+         <MtReal V="61493.08"/>
+         <MtRAR3112 V="73192.92"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="29655.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2817351"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="500000.00"/>
+         <MtReal V="10233.69"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="500000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6688"/>
+         <ContNat V="66"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="500.00"/>
+         <MtReal V="154.48"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="500.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="658"/>
+         <ContNat V="65"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="361780.00"/>
+         <MtReal V="55950.08"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="361780.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6231"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="2000.00"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="2000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="13111"/>
+         <ContNat V="13"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtRARPrec V="583000.00"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="1556000.00"/>
+         <MtReal V="51500.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="390000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6541"/>
+         <ContNat V="65"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="190698.76"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="190698.76"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="281532"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="2910000.00"/>
+         <MtReal V="2909038.61"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="2910000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="28154"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="9400.00"/>
+         <MtReal V="9398.13"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="9400.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="28155"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="35000.00"/>
+         <MtReal V="34988.44"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="35000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="281351"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="500000.00"/>
+         <MtReal V="402393.60"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="500000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6236"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="2531.00"/>
+         <MtReal V="2249.38"/>
+         <OpBudg V="0"/>
+         <MtSup Code="ProdChaRat" V="257.30"/>
+         <MtSup Code="BudgetHorsRAR" V="2531.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="648"/>
+         <ContNat V="012"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="26200.00"/>
+         <MtReal V="16857.64"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="26200.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="28151"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="300000.00"/>
+         <MtReal V="270549.00"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="300000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6475"/>
+         <ContNat V="012"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="8000.00"/>
+         <MtReal V="4627.80"/>
+         <OpBudg V="0"/>
+         <MtSup Code="ProdChaRat" V="1542.60"/>
+         <MtSup Code="BudgetHorsRAR" V="8000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="281311"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="4706240.00"/>
+         <MtReal V="4004.73"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="4706240.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6478"/>
+         <ContNat V="012"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="81000.00"/>
+         <MtReal V="72312.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="ProdChaRat" V="8000.00"/>
+         <MtSup Code="BudgetHorsRAR" V="81000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="64198"/>
+         <ContNat V="013"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="110074.18"/>
+         <MtReal V="9441.18"/>
+         <OpBudg V="0"/>
+         <MtSup Code="ProdChaRat" V="95009.00"/>
+         <MtSup Code="BudgetHorsRAR" V="110074.18"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6811"/>
+         <ContNat V="042"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="9982000.00"/>
+         <MtReal V="4460088.85"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="9982000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2188"/>
+         <ContNat V="21"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="800.00"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="800.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2315"/>
+         <ContNat V="041"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="110000.00"/>
+         <MtReal V="83617.93"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="1"/>
+         <MtSup Code="BudgetHorsRAR" V="110000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="023"/>
+         <ContNat V="023"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="8323443.14"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="8323443.14"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="70613"/>
+         <ContNat V="70"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="2500000.00"/>
+         <MtReal V="2494377.17"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="2500000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="13111"/>
+         <ContNat V="13"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="99000.00"/>
+         <MtReal V="99000.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="99000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="605"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="2580000.00"/>
+         <MtReal V="2579999.41"/>
+         <OpBudg V="0"/>
+         <MtSup Code="ProdChaRat" V="1205848.01"/>
+         <MtSup Code="BudgetHorsRAR" V="2580000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="704"/>
+         <ContNat V="70"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <MtReal V="16304.16"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="0.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2315"/>
+         <ContNat V="23"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtRARPrec V="6543002.02"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="24683706.02"/>
+         <MtReal V="12661013.42"/>
+         <MtRAR3112 V="9503937.74"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="11597701.98"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2031"/>
+         <ContNat V="20"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtRARPrec V="28377.00"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="118377.00"/>
+         <MtReal V="41004.06"/>
+         <MtRAR3112 V="72965.07"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="61623.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="70611"/>
+         <ContNat V="70"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="19168100.00"/>
+         <MtReal V="20324197.90"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="19168100.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="238"/>
+         <ContNat V="23"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="220621.00"/>
+         <MtReal V="83617.93"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="220621.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="001"/>
+         <ContNat V="001"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="13795355.90"/>
+         <MtReal V="13795355.90"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="13795355.90"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6331"/>
+         <ContNat V="012"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="32800.00"/>
+         <MtReal V="31573.08"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="32800.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="281783"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="1000.00"/>
+         <MtReal V="707.02"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="1000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6332"/>
+         <ContNat V="012"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="1300.00"/>
+         <MtReal V="1228.72"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="1300.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6336"/>
+         <ContNat V="012"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="14000.00"/>
+         <MtReal V="11808.74"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="14000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="28182"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="5000.00"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="5000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6355"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="260.76"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="260.76"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6287"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="280000.00"/>
+         <MtReal V="267649.63"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="280000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6288"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="39733.00"/>
+         <MtReal V="6100.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="ProdChaRat" V="3800.00"/>
+         <MtSup Code="BudgetHorsRAR" V="39733.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2182"/>
+         <ContNat V="21"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtRARPrec V="43670.97"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="141670.97"/>
+         <MtReal V="45102.05"/>
+         <MtRAR3112 V="65910.77"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="54329.03"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="28188"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="2000.00"/>
+         <MtReal V="1997.36"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="2000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6743"/>
+         <ContNat V="67"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtRARPrec V="88408.00"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="273408.00"/>
+         <MtReal V="90692.90"/>
+         <MtRAR3112 V="60861.06"/>
+         <OpBudg V="0"/>
+         <MtSup Code="ProdChaRat" V="80576.40"/>
+         <MtSup Code="BudgetHorsRAR" V="96592.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2184"/>
+         <ContNat V="21"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="2400.00"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="2400.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6358"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="3700.00"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="3700.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="28183"/>
+         <ContNat V="040"/>
+         <ArtSpe V="false"/>
+         <CodRD V="R"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="5000.00"/>
+         <MtReal V="4619.63"/>
+         <OpBudg V="1"/>
+         <TypOpBudg V="2"/>
+         <MtSup Code="BudgetHorsRAR" V="5000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="673"/>
+         <ContNat V="67"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="377172.00"/>
+         <MtReal V="212966.48"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="377172.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6742"/>
+         <ContNat V="67"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="2263.00"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="2263.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="2111"/>
+         <ContNat V="21"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtRARPrec V="4000.00"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="34000.00"/>
+         <MtReal V="0.00"/>
+         <MtRAR3112 V="4000.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="26000.00"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="21351"/>
+         <ContNat V="21"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtRARPrec V="664.84"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="35664.84"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="34335.16"/>
+      </LigneBudget>
+      <LigneBudget>
+         <Nature V="6283"/>
+         <ContNat V="011"/>
+         <ArtSpe V="false"/>
+         <CodRD V="D"/>
+         <MtPrev V="0.00"/>
+         <CredOuv V="6500.00"/>
+         <MtReal V="0.00"/>
+         <OpBudg V="0"/>
+         <MtSup Code="BudgetHorsRAR" V="6500.00"/>
+      </LigneBudget>
+      <Annexes>
+         <DATA_EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2003"/>
+               <ObjEmpr V="DEXIA CLF MOBILYS TIP TOP "/>
+               <MtEmprOrig V="6500000.0"/>
+               <DureeRest V="8.0"/>
+               <DureeRestInit V="8.0"/>
+               <LibOrgaPreteur V="Caisse Française de Financement Local"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="C"/>
+               <CodTyptxDtVote V="C"/>
+               <IndexTxVariInit V="TAUX STRUCTURES"/>
+               <TxActuaInit V="3.526"/>
+               <IndexTxVariDtVote V="TAUX STRUCTURES"/>
+               <TxActua V="3.38"/>
+               <MtIntExer V="122040.15"/>
+               <MtCapitalExer V="283131.26"/>
+               <MtCapitalRestDu_01_01 V="3561194.45"/>
+               <MtICNE V="112645.18"/>
+               <MtCapitalRestDu_31_12 V="3278063.19"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="405171.4"/>
+               <AnnuitNetDette V="405171.4"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="MIN206314EUR (20034)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="B"/>
+               <StructureDtVote V="B"/>
+               <DtSignInit V="2002-12-20"/>
+               <DtEmission V="31/12/2003"/>
+               <Dt1RembInit V="2005-01-01"/>
+               <Txinit V="4.5"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="2668623.21"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="25.0"/>
+               <TxMini V="3.38"/>
+               <TxMaxi V="EURIBOR12M"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="C"/>
+               <CodProfilAmortDtVote V="C"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2004"/>
+               <ObjEmpr V="REAMENAGEMENT CELR ALR200410813"/>
+               <MtEmprOrig V="374036.95"/>
+               <DureeRest V="3.82"/>
+               <DureeRestInit V="3.82"/>
+               <LibOrgaPreteur V="CAISSE D'EPARGNE"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="C"/>
+               <CodTyptxDtVote V="V"/>
+               <IndexTxVariInit V="TAUX STRUCTURES"/>
+               <TxActuaInit V="2.334"/>
+               <IndexTxVariDtVote V="EURIBOR12M"/>
+               <TxActua V="0.0"/>
+               <MtIntExer V="0.0"/>
+               <MtCapitalExer V="15725.4"/>
+               <MtCapitalRestDu_01_01 V="74905.0"/>
+               <MtICNE V="0.0"/>
+               <MtCapitalRestDu_31_12 V="59179.6"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="15725.39"/>
+               <AnnuitNetDette V="15725.39"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="ARC21447 (200422)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="4"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="B"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2004-11-19"/>
+               <DtEmission V="25/10/2004"/>
+               <Dt1RembInit V="2005-10-25"/>
+               <Txinit V="4.5"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="0.0"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="20.0"/>
+               <TxMini V="EURIBOR12M+0,05"/>
+               <TxMaxi V="EURIBOR12M+0,05"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2007"/>
+               <ObjEmpr V="fin d'exo 07 PLAN 01-PLAN 03 "/>
+               <MtEmprOrig V="500000.0"/>
+               <DureeRest V="16.99"/>
+               <DureeRestInit V="16.99"/>
+               <LibOrgaPreteur V="Société Générale"/>
+               <CodPeriodRemb V="M"/>
+               <CodPeriodRembDtVote V="M"/>
+               <CodTyptxInit V="V"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="TAG01M"/>
+               <TxActuaInit V="0.989"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="3.04"/>
+               <MtIntExer V="11613.27"/>
+               <MtCapitalExer V="13421.44"/>
+               <MtCapitalRestDu_01_01 V="381845.89"/>
+               <MtICNE V="155.56"/>
+               <MtCapitalRestDu_31_12 V="368424.45"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="25034.71"/>
+               <AnnuitNetDette V="25034.71"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="16277/002/004 (20078)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2005-12-31"/>
+               <DtEmission V="27/12/2007"/>
+               <Dt1RembInit V="2008-01-27"/>
+               <Txinit V="3.07"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="90731.4"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="30.0"/>
+               <TxMini V="3,04"/>
+               <TxMaxi V="3,04"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="F"/>
+               <CodProfilAmortDtVote V="F"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2019"/>
+               <ObjEmpr V="Tirage sur le Contrat Cadre N° 201907"/>
+               <MtEmprOrig V="5000000.0"/>
+               <DureeRest V="0.83"/>
+               <DureeRestInit V="0.83"/>
+               <LibOrgaPreteur V="CAISSE D'EPARGNE"/>
+               <CodPeriodRemb V="X"/>
+               <CodPeriodRembDtVote V="X"/>
+               <CodTyptxInit V="V"/>
+               <CodTyptxDtVote V="V"/>
+               <IndexTxVariInit V="EURIBOR01M"/>
+               <TxActuaInit V="0.366"/>
+               <IndexTxVariDtVote V="EURIBOR01M"/>
+               <TxActua V="0.24"/>
+               <MtIntExer V="18300.0"/>
+               <MtCapitalExer V="0.0"/>
+               <MtCapitalRestDu_01_01 V="5000000.0"/>
+               <MtICNE V="50.0"/>
+               <MtCapitalRestDu_31_12 V="5000000.0"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="18300.0"/>
+               <AnnuitNetDette V="18300.0"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="A1719099000 (201907M)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2019-11-28"/>
+               <DtEmission V="20/12/2019"/>
+               <Dt1RembInit V="2019-12-31"/>
+               <Txinit V="-0.089"/>
+               <RtAnticipe V="true"/>
+               <MtSortie V="0.0"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="1.0"/>
+               <TxMini V="EURIBOR01M+0,36"/>
+               <TxMaxi V="EURIBOR01M+0,36"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2001"/>
+               <ObjEmpr V="DEXIA CLF VILLENEUVE LES MAGUELONE 5012492401/4724"/>
+               <MtEmprOrig V="509438.99"/>
+               <DureeRest V="3.25"/>
+               <DureeRestInit V="3.25"/>
+               <LibOrgaPreteur V="Caisse Française de Financement Local"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="F"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="FIXE"/>
+               <TxActuaInit V="4.61"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="4.61"/>
+               <MtIntExer V="7342.44"/>
+               <MtCapitalExer V="29049.63"/>
+               <MtCapitalRestDu_01_01 V="159271.91"/>
+               <MtICNE V="4523.0"/>
+               <MtCapitalRestDu_31_12 V="130222.28"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="36392.07"/>
+               <AnnuitNetDette V="36392.07"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="MON004724EUR/0004724/001 (302052)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2002-01-01"/>
+               <DtEmission V="01/04/2001"/>
+               <Dt1RembInit V="2002-04-01"/>
+               <Txinit V="4.61"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="26729.82"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="23.0"/>
+               <TxMini V="4,61"/>
+               <TxMaxi V="4,61"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="C"/>
+               <CodProfilAmortDtVote V="C"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2003"/>
+               <ObjEmpr V="CRCA fin d'exercice Plan 03 802555013"/>
+               <MtEmprOrig V="11000000"/>
+               <DureeRest V="1.97"/>
+               <DureeRestInit V="1.97"/>
+               <LibOrgaPreteur V="CA-CIB"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="F"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="FIXE"/>
+               <TxActuaInit V="4.425"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="4.42"/>
+               <MtIntExer V="78261.14"/>
+               <MtCapitalExer V="578947.37"/>
+               <MtCapitalRestDu_01_01 V="1736842.11"/>
+               <MtICNE V="1563.8"/>
+               <MtCapitalRestDu_31_12 V="1157894.74"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="657208.51"/>
+               <AnnuitNetDette V="657208.51"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="00130893-N°1 (30310301)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2002-12-20"/>
+               <DtEmission V="24/12/2003"/>
+               <Dt1RembInit V="2004-12-20"/>
+               <Txinit V="4.42"/>
+               <RtAnticipe V="true"/>
+               <MtSortie V="0.0"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="19.0"/>
+               <TxMini V="4,42"/>
+               <TxMaxi V="4,42"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2003"/>
+               <ObjEmpr V="CRCA CALYON CEREIREDE 904771015"/>
+               <MtEmprOrig V="7500000.0"/>
+               <DureeRest V="16.98"/>
+               <DureeRestInit V="16.98"/>
+               <LibOrgaPreteur V="CA-CIB"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="V"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="EURIBOR03M"/>
+               <TxActuaInit V="1.03"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="4.1"/>
+               <MtIntExer V="225682.62"/>
+               <MtCapitalExer V="192454.98"/>
+               <MtCapitalRestDu_01_01 V="5414217.35"/>
+               <MtICNE V="4757.61"/>
+               <MtCapitalRestDu_31_12 V="5221762.37"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="418137.6"/>
+               <AnnuitNetDette V="418137.6"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="130883 (30310302)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2002-12-31"/>
+               <DtEmission V="24/12/2003"/>
+               <Dt1RembInit V="2004-12-24"/>
+               <Txinit V="2.105"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="0.0"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="34.0"/>
+               <TxMini V="4,1"/>
+               <TxMaxi V="4,1"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2003"/>
+               <ObjEmpr V="CELR IXIS CERREIREDE 2003 "/>
+               <MtEmprOrig V="2464000.0"/>
+               <DureeRest V="12.92"/>
+               <DureeRestInit V="12.92"/>
+               <LibOrgaPreteur V="CREDIT FONCIER"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="F"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="FIXE"/>
+               <TxActuaInit V="4.979"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="4.98"/>
+               <MtIntExer V="78934.58"/>
+               <MtCapitalExer V="80986.91"/>
+               <MtCapitalRestDu_01_01 V="1585031.68"/>
+               <MtICNE V="6361.49"/>
+               <MtCapitalRestDu_31_12 V="1504044.77"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="159921.49"/>
+               <AnnuitNetDette V="159921.49"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="200312183 (30310303)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2003-12-19"/>
+               <DtEmission V="29/12/2003"/>
+               <Dt1RembInit V="2004-12-01"/>
+               <Txinit V="4.98"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="756388.52"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="30.0"/>
+               <TxMini V="4,98"/>
+               <TxMaxi V="4,98"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2003"/>
+               <ObjEmpr V="DEXIA CLF CEREREIDE "/>
+               <MtEmprOrig V="17500000"/>
+               <DureeRest V="13.0"/>
+               <DureeRestInit V="13.0"/>
+               <LibOrgaPreteur V="Caisse Française de Financement Local"/>
+               <CodPeriodRemb V="S"/>
+               <CodPeriodRembDtVote V="S"/>
+               <CodTyptxInit V="V"/>
+               <CodTyptxDtVote V="V"/>
+               <IndexTxVariInit V="EURIBOR06M"/>
+               <TxActuaInit V="1.433"/>
+               <IndexTxVariDtVote V="EURIBOR01M"/>
+               <TxActua V="0.0"/>
+               <MtIntExer V="0.0"/>
+               <MtCapitalExer V="585452.48"/>
+               <MtCapitalRestDu_01_01 V="9923169.86"/>
+               <MtICNE V="0.0"/>
+               <MtCapitalRestDu_31_12 V="9337717.38"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="585452.48"/>
+               <AnnuitNetDette V="585452.48"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="MIN206430EUR/001 (30310304)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2002-12-26"/>
+               <DtEmission V="29/12/2003"/>
+               <Dt1RembInit V="2004-07-01"/>
+               <Txinit V="2.262"/>
+               <RtAnticipe V="true"/>
+               <MtSortie V="0.0"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="30.0"/>
+               <TxMini V="EURIBOR01M+0,0149"/>
+               <TxMaxi V="EURIBOR01M+0,0149"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2003"/>
+               <ObjEmpr V="CELR 536 000 euros, 3 communes "/>
+               <MtEmprOrig V="536000.0"/>
+               <DureeRest V="12.92"/>
+               <DureeRestInit V="12.92"/>
+               <LibOrgaPreteur V="CREDIT FONCIER"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="F"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="FIXE"/>
+               <TxActuaInit V="4.979"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="4.98"/>
+               <MtIntExer V="17170.83"/>
+               <MtCapitalExer V="17617.29"/>
+               <MtCapitalRestDu_01_01 V="344795.77"/>
+               <MtICNE V="1383.83"/>
+               <MtCapitalRestDu_31_12 V="327178.48"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="34788.12"/>
+               <AnnuitNetDette V="34788.12"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="200312183 (30310305)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2003-12-19"/>
+               <DtEmission V="29/12/2003"/>
+               <Dt1RembInit V="2004-12-01"/>
+               <Txinit V="4.98"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="164538.96"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="30.0"/>
+               <TxMini V="4,98"/>
+               <TxMaxi V="4,98"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2003"/>
+               <ObjEmpr V="AGEA CEREIREDE "/>
+               <MtEmprOrig V="418000.0"/>
+               <DureeRest V="0.0"/>
+               <DureeRestInit V="0.0"/>
+               <LibOrgaPreteur V="Agence de l'Eau"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="F"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="FIXE"/>
+               <TxActuaInit V="0.413"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="0.5"/>
+               <MtIntExer V="144.2"/>
+               <MtCapitalExer V="28850.1"/>
+               <MtCapitalRestDu_01_01 V="28850.1"/>
+               <MtICNE V="0.0"/>
+               <MtCapitalRestDu_31_12 V="0.0"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="28994.3"/>
+               <AnnuitNetDette V="28994.3"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="2002-2643 (30320003)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2002-06-22"/>
+               <DtEmission V="13/11/2003"/>
+               <Dt1RembInit V="2006-07-16"/>
+               <Txinit V="0.5"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="0.0"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="15.0"/>
+               <TxMini V="0,5"/>
+               <TxMaxi V="0,5"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2003"/>
+               <ObjEmpr V="AGEA CASTRIES "/>
+               <MtEmprOrig V="29600.0"/>
+               <DureeRest V="0.0"/>
+               <DureeRestInit V="0.0"/>
+               <LibOrgaPreteur V="Agence de l'Eau"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="F"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="FIXE"/>
+               <TxActuaInit V="0.399"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="0.5"/>
+               <MtIntExer V="10.28"/>
+               <MtCapitalExer V="2042.91"/>
+               <MtCapitalRestDu_01_01 V="2042.91"/>
+               <MtICNE V="0.0"/>
+               <MtCapitalRestDu_31_12 V="0.0"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="2053.19"/>
+               <AnnuitNetDette V="2053.19"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="2002-1860 (30320501)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2002-06-25"/>
+               <DtEmission V="13/11/2003"/>
+               <Dt1RembInit V="2006-11-16"/>
+               <Txinit V="0.5"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="0.0"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="15.0"/>
+               <TxMini V="0,5"/>
+               <TxMaxi V="0,5"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2003"/>
+               <ObjEmpr V="AGEA CEREIREDE "/>
+               <MtEmprOrig V="7400000.0"/>
+               <DureeRest V="0.0"/>
+               <DureeRestInit V="0.0"/>
+               <LibOrgaPreteur V="Agence de l'Eau"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="F"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="FIXE"/>
+               <TxActuaInit V="0.0"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="0.0"/>
+               <MtIntExer V="0.0"/>
+               <MtCapitalExer V="493333.38"/>
+               <MtCapitalRestDu_01_01 V="493333.38"/>
+               <MtICNE V="0.0"/>
+               <MtCapitalRestDu_31_12 V="0.0"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="493333.38"/>
+               <AnnuitNetDette V="493333.38"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="2003-0654 (30410303)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2002-07-25"/>
+               <DtEmission V="28/07/2003"/>
+               <Dt1RembInit V="2006-09-16"/>
+               <Txinit V="0.0"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="0.0"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="15.0"/>
+               <TxMini V="0"/>
+               <TxMaxi V="0"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2004"/>
+               <ObjEmpr V="REAMENAGEMENT DEXIA "/>
+               <MtEmprOrig V="2366771.93"/>
+               <DureeRest V="1.5"/>
+               <DureeRestInit V="1.5"/>
+               <LibOrgaPreteur V="Caisse Française de Financement Local"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="F"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="FIXE"/>
+               <TxActuaInit V="4.735"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="4.73"/>
+               <MtIntExer V="25662.34"/>
+               <MtCapitalExer V="172557.42"/>
+               <MtCapitalRestDu_01_01 V="542544.19"/>
+               <MtICNE V="8822.1"/>
+               <MtCapitalRestDu_31_12 V="369986.77"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="198219.76"/>
+               <AnnuitNetDette V="198219.76"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="MON221274EUR (30410305)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2004-06-03"/>
+               <DtEmission V="15/06/2004"/>
+               <Dt1RembInit V="2005-07-01"/>
+               <Txinit V="4.73"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="60952.66"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="18.0"/>
+               <TxMini V="4,73"/>
+               <TxMaxi V="4,73"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="X"/>
+               <CodProfilAmortDtVote V="X"/>
+               <ProfilAmort V="Libre"/>
+               <ProfilAmortDtVote V="Libre"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2004"/>
+               <ObjEmpr V="DEXIA CLF TIP TOP CEREREIDE "/>
+               <MtEmprOrig V="15000000"/>
+               <DureeRest V="13.92"/>
+               <DureeRestInit V="13.92"/>
+               <LibOrgaPreteur V="Caisse Française de Financement Local"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="C"/>
+               <CodTyptxDtVote V="C"/>
+               <IndexTxVariInit V="TAUX STRUCTURES"/>
+               <TxActuaInit V="4.601"/>
+               <IndexTxVariDtVote V="TAUX STRUCTURES"/>
+               <TxActua V="4.52"/>
+               <MtIntExer V="417026.5"/>
+               <MtCapitalExer V="375000.0"/>
+               <MtCapitalRestDu_01_01 V="9075000.0"/>
+               <MtICNE V="34236.92"/>
+               <MtCapitalRestDu_31_12 V="8700000.0"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="792026.5"/>
+               <AnnuitNetDette V="792026.5"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="MON206440EUR (30410307)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="B"/>
+               <StructureDtVote V="B"/>
+               <DtSignInit V="2002-12-26"/>
+               <DtEmission V="01/12/2004"/>
+               <Dt1RembInit V="2005-12-01"/>
+               <Txinit V="5.5"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="3163370.06"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="30.0"/>
+               <TxMini V="4.52"/>
+               <TxMaxi V="EURIBOR12M+0.05"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2004"/>
+               <ObjEmpr V="REAMENAGEMENT CELR ALR200410815"/>
+               <MtEmprOrig V="1358905.88"/>
+               <DureeRest V="0.82"/>
+               <DureeRestInit V="0.82"/>
+               <LibOrgaPreteur V="CAISSE D'EPARGNE"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="C"/>
+               <CodTyptxDtVote V="C"/>
+               <IndexTxVariInit V="TAUX STRUCTURES"/>
+               <TxActuaInit V="3.898"/>
+               <IndexTxVariDtVote V="TAUX STRUCTURES"/>
+               <TxActua V="3.53"/>
+               <MtIntExer V="7323.02"/>
+               <MtCapitalExer V="100270.42"/>
+               <MtCapitalRestDu_01_01 V="204050.24"/>
+               <MtICNE V="691.98"/>
+               <MtCapitalRestDu_31_12 V="103779.82"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="107593.44"/>
+               <AnnuitNetDette V="107593.44"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="ARC21449 (30410308)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="B"/>
+               <StructureDtVote V="B"/>
+               <DtSignInit V="2004-11-16"/>
+               <DtEmission V="25/10/2004"/>
+               <Dt1RembInit V="2005-10-25"/>
+               <Txinit V="4.5"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="3469.09"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="17.0"/>
+               <TxMini V="3.53"/>
+               <TxMaxi V="EURIBOR12M"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2005"/>
+               <ObjEmpr V="CRCA CALYON CEREIREDE 449510013"/>
+               <MtEmprOrig V="10000000"/>
+               <DureeRest V="14.36"/>
+               <DureeRestInit V="14.36"/>
+               <LibOrgaPreteur V="CA-CIB"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="F"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="FIXE"/>
+               <TxActuaInit V="4.15"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="4.09"/>
+               <MtIntExer V="291553.99"/>
+               <MtCapitalExer V="298008.12"/>
+               <MtCapitalRestDu_01_01 V="7050124.63"/>
+               <MtICNE V="180272.13"/>
+               <MtCapitalRestDu_31_12 V="6752116.51"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="589562.11"/>
+               <AnnuitNetDette V="589562.11"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="00130883-N°2 (30510301)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2002-12-31"/>
+               <DtEmission V="11/05/2005"/>
+               <Dt1RembInit V="2006-05-11"/>
+               <Txinit V="4.09"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="2162835.68"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="30.0"/>
+               <TxMini V="4,09"/>
+               <TxMaxi V="4,09"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="C"/>
+               <CodProfilAmortDtVote V="C"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2005"/>
+               <ObjEmpr V="AGEA FABREGUES "/>
+               <MtEmprOrig V="132200.0"/>
+               <DureeRest V="1.29"/>
+               <DureeRestInit V="1.29"/>
+               <LibOrgaPreteur V="Agence de l'Eau"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="F"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="FIXE"/>
+               <TxActuaInit V="0.0"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="0.0"/>
+               <MtIntExer V="0.0"/>
+               <MtCapitalExer V="8813.33"/>
+               <MtCapitalRestDu_01_01 V="26440.04"/>
+               <MtICNE V="0.0"/>
+               <MtCapitalRestDu_31_12 V="17626.71"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="8813.33"/>
+               <AnnuitNetDette V="8813.33"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="2004-2297 (30510302)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2005-04-08"/>
+               <DtEmission V="08/04/2005"/>
+               <Dt1RembInit V="2008-04-16"/>
+               <Txinit V="0.0"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="0.0"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="15.0"/>
+               <TxMini V="0"/>
+               <TxMaxi V="0"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2006"/>
+               <ObjEmpr V="AGEA CEREREIDE "/>
+               <MtEmprOrig V="623475.03"/>
+               <DureeRest V="2.88"/>
+               <DureeRestInit V="2.88"/>
+               <LibOrgaPreteur V="Agence de l'Eau"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="F"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="FIXE"/>
+               <TxActuaInit V="0.0"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="0.0"/>
+               <MtIntExer V="0.0"/>
+               <MtCapitalExer V="41565.0"/>
+               <MtCapitalRestDu_01_01 V="166260.03"/>
+               <MtICNE V="0.0"/>
+               <MtCapitalRestDu_31_12 V="124695.03"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="41565.0"/>
+               <AnnuitNetDette V="41565.0"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="2006 1503 (30602)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2006-08-04"/>
+               <DtEmission V="04/08/2006"/>
+               <Dt1RembInit V="2009-11-16"/>
+               <Txinit V="0.0"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="0.0"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="15.0"/>
+               <TxMini V="0"/>
+               <TxMaxi V="0"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2007"/>
+               <ObjEmpr V="Agea Rplcmt collecteur parc industriel salaison "/>
+               <MtEmprOrig V="41400.0"/>
+               <DureeRest V="0.0"/>
+               <DureeRestInit V="0.0"/>
+               <LibOrgaPreteur V="Agence de l'Eau"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="F"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="FIXE"/>
+               <TxActuaInit V="0.0"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="0.0"/>
+               <MtIntExer V="0.0"/>
+               <MtCapitalExer V="4140.0"/>
+               <MtCapitalRestDu_01_01 V="4140.0"/>
+               <MtICNE V="0.0"/>
+               <MtCapitalRestDu_31_12 V="0.0"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="4140.0"/>
+               <AnnuitNetDette V="4140.0"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="2007 1408 (30702)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2007-10-04"/>
+               <DtEmission V="18/12/2007"/>
+               <Dt1RembInit V="2011-01-16"/>
+               <Txinit V="0.0"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="0.0"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="10.0"/>
+               <TxMini V="0"/>
+               <TxMaxi V="0"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2007"/>
+               <ObjEmpr V="fin d'exo 07 Plan 3 "/>
+               <MtEmprOrig V="5000000.0"/>
+               <DureeRest V="17.0"/>
+               <DureeRestInit V="17.0"/>
+               <LibOrgaPreteur V="Caisse Française de Financement Local"/>
+               <CodPeriodRemb V="M"/>
+               <CodPeriodRembDtVote V="M"/>
+               <CodTyptxInit V="V"/>
+               <CodTyptxDtVote V="V"/>
+               <IndexTxVariInit V="EURIBOR01M"/>
+               <TxActuaInit V="0.95"/>
+               <IndexTxVariDtVote V="EURIBOR01M"/>
+               <TxActua V="0.0"/>
+               <MtIntExer V="0.0"/>
+               <MtCapitalExer V="137453.39"/>
+               <MtCapitalRestDu_01_01 V="3762655.37"/>
+               <MtICNE V="0.0"/>
+               <MtCapitalRestDu_31_12 V="3625201.98"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="137453.39"/>
+               <AnnuitNetDette V="137453.39"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="MIN206430EUR/002 (30703)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2002-12-26"/>
+               <DtEmission V="31/12/2007"/>
+               <Dt1RembInit V="2008-02-01"/>
+               <Txinit V="4.0"/>
+               <RtAnticipe V="true"/>
+               <MtSortie V="0.0"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="30.0"/>
+               <TxMini V="EURIBOR01M+0,0149"/>
+               <TxMaxi V="EURIBOR01M+0,0149"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2008"/>
+               <ObjEmpr V="fin d'exo 2008"/>
+               <MtEmprOrig V="15000000"/>
+               <DureeRest V="17.98"/>
+               <DureeRestInit V="17.98"/>
+               <LibOrgaPreteur V="Société Générale"/>
+               <CodPeriodRemb V="I"/>
+               <CodPeriodRembDtVote V="I"/>
+               <CodTyptxInit V="F"/>
+               <CodTyptxDtVote V="C"/>
+               <IndexTxVariInit V="FIXE"/>
+               <TxActuaInit V="4.079"/>
+               <IndexTxVariDtVote V="TAUX STRUCTURES"/>
+               <TxActua V="3.23"/>
+               <MtIntExer V="383755.29"/>
+               <MtCapitalExer V="383699.97"/>
+               <MtCapitalRestDu_01_01 V="11828593.67"/>
+               <MtICNE V="9241.75"/>
+               <MtCapitalRestDu_31_12 V="11444893.7"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="767455.26"/>
+               <AnnuitNetDette V="767455.26"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="16277/002/005 (30801)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="B"/>
+               <DtSignInit V="2005-12-31"/>
+               <DtEmission V="23/12/2008"/>
+               <Dt1RembInit V="2009-03-23"/>
+               <Txinit V="3.96"/>
+               <RtAnticipe V="true"/>
+               <MtSortie V="4268829.43"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="30.0"/>
+               <DtPeriodeBonif V="Du 23/12/2008 Au 23/03/2013"/>
+               <TxMini V="3.23"/>
+               <TxMaxi V="EURIBOR12M"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="C"/>
+               <CodProfilAmortDtVote V="C"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2012"/>
+               <ObjEmpr V="Mob 2012 "/>
+               <MtEmprOrig V="11099798"/>
+               <DureeRest V="12.97"/>
+               <DureeRestInit V="12.97"/>
+               <LibOrgaPreteur V="CA-CIB"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="F"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="FIXE"/>
+               <TxActuaInit V="4.466"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="4.4"/>
+               <MtIntExer V="406361.6"/>
+               <MtCapitalExer V="258134.84"/>
+               <MtCapitalRestDu_01_01 V="9034719.28"/>
+               <MtICNE V="11799.63"/>
+               <MtCapitalRestDu_31_12 V="8776584.44"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="664496.44"/>
+               <AnnuitNetDette V="664496.44"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="00141653 (31201)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2003-12-19"/>
+               <DtEmission V="05/03/2012"/>
+               <Dt1RembInit V="2012-12-19"/>
+               <Txinit V="4.4"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="3133934.28"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="22.0"/>
+               <TxMini V="4,4"/>
+               <TxMaxi V="4,4"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2000"/>
+               <ObjEmpr V="CLF CASTELNAU LE LEZ 5011382902"/>
+               <MtEmprOrig V="451281.46"/>
+               <DureeRest V="7.75"/>
+               <DureeRestInit V="7.75"/>
+               <LibOrgaPreteur V="Caisse Française de Financement Local"/>
+               <CodPeriodRemb V="A"/>
+               <CodPeriodRembDtVote V="A"/>
+               <CodTyptxInit V="F"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="FIXE"/>
+               <TxActuaInit V="6.005"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="5.73"/>
+               <MtIntExer V="12726.55"/>
+               <MtCapitalExer V="19545.03"/>
+               <MtCapitalRestDu_01_01 V="222103.92"/>
+               <MtICNE V="2925.5"/>
+               <MtCapitalRestDu_31_12 V="202558.89"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="32271.58"/>
+               <AnnuitNetDette V="32271.58"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="MON021434EUR (39905)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="1999-10-02"/>
+               <DtEmission V="01/04/2000"/>
+               <Dt1RembInit V="2000-10-01"/>
+               <Txinit V="5.73"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="146487.29"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="29.0"/>
+               <TxMini V="5,73"/>
+               <TxMaxi V="5,73"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2004"/>
+               <ObjEmpr V="REAMENAGEMENT CALYON 784343014"/>
+               <MtEmprOrig V="1147438.97"/>
+               <DureeRest V="1.75"/>
+               <DureeRestInit V="1.75"/>
+               <LibOrgaPreteur V="CA-CIB"/>
+               <CodPeriodRemb V="S"/>
+               <CodPeriodRembDtVote V="S"/>
+               <CodTyptxInit V="V"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="EURIBOR6M"/>
+               <TxActuaInit V="2.113"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="3.8"/>
+               <MtIntExer V="8935.1"/>
+               <MtCapitalExer V="80578.63"/>
+               <MtCapitalRestDu_01_01 V="251534.31"/>
+               <MtICNE V="1678.21"/>
+               <MtCapitalRestDu_31_12 V="170955.68"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="89513.73"/>
+               <AnnuitNetDette V="89513.73"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="00164473-N°1 (M200420.3)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2004-09-28"/>
+               <DtEmission V="30/09/2004"/>
+               <Dt1RembInit V="2005-03-30"/>
+               <Txinit V="2.25"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="0.0"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="18.0"/>
+               <TxMini V="3,8"/>
+               <TxMaxi V="3,8"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="C"/>
+               <CodProfilAmortDtVote V="C"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2008"/>
+               <ObjEmpr V="1ère mob 2008 "/>
+               <MtEmprOrig V="8000000.0"/>
+               <DureeRest V="17.97"/>
+               <DureeRestInit V="17.97"/>
+               <LibOrgaPreteur V="CREDIT FONCIER"/>
+               <CodPeriodRemb V="I"/>
+               <CodPeriodRembDtVote V="I"/>
+               <CodTyptxInit V="F"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="FIXE"/>
+               <TxActuaInit V="4.476"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="4.34"/>
+               <MtIntExer V="219145.9"/>
+               <MtCapitalExer V="266666.67"/>
+               <MtCapitalRestDu_01_01 V="5066666.67"/>
+               <MtICNE V="7522.67"/>
+               <MtCapitalRestDu_31_12 V="4800000.0"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="485812.57"/>
+               <AnnuitNetDette V="485812.57"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="00778082692G (M20081.3)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2006-02-03"/>
+               <DtEmission V="19/12/2008"/>
+               <Dt1RembInit V="2009-03-19"/>
+               <Txinit V="4.34"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="1852884.19"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="30.0"/>
+               <TxMini V="4,34"/>
+               <TxMaxi V="4,34"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <CodTypEmpr V="01"/>
+               <CodProfilAmort V="P"/>
+               <CodProfilAmortDtVote V="P"/>
+               <CodArticle V="1641"/>
+               <AnEncaisse V="2009"/>
+               <ObjEmpr V="fin exo 09 + refin RA 09 "/>
+               <MtEmprOrig V="1300000.0"/>
+               <DureeRest V="19.98"/>
+               <DureeRestInit V="19.98"/>
+               <LibOrgaPreteur V="Société Générale"/>
+               <CodPeriodRemb V="M"/>
+               <CodPeriodRembDtVote V="M"/>
+               <CodTyptxInit V="V"/>
+               <CodTyptxDtVote V="F"/>
+               <IndexTxVariInit V="TAG01M"/>
+               <TxActuaInit V="0.308"/>
+               <IndexTxVariDtVote V="FIXE"/>
+               <TxActua V="3.05"/>
+               <MtIntExer V="35055.52"/>
+               <MtCapitalExer V="24009.29"/>
+               <MtCapitalRestDu_01_01 V="1141358.65"/>
+               <MtICNE V="851.98"/>
+               <MtCapitalRestDu_31_12 V="1117349.36"/>
+               <CodTypEmprGaranti V="99"/>
+               <TotGarEchoirExer V="59064.81"/>
+               <AnnuitNetDette V="59064.81"/>
+               <ProvGarantiEmpr V="0.0"/>
+               <RReelFon V="0.0"/>
+               <NumContrat V="16277/002/006 (M20093.3)"/>
+               <Tot1Annuite V="0.0"/>
+               <IndSousJacent V="1"/>
+               <IndSousJacentDtVote V="1"/>
+               <Structure V="A"/>
+               <StructureDtVote V="A"/>
+               <DtSignInit V="2005-12-31"/>
+               <DtEmission V="23/12/2009"/>
+               <Dt1RembInit V="2010-01-23"/>
+               <Txinit V="0.378"/>
+               <RtAnticipe V="false"/>
+               <MtSortie V="0.0"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+               <DureeContratInit V="30.0"/>
+               <TxMini V="3,05"/>
+               <TxMaxi V="3,05"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+            <EMPRUNT>
+               <RtAnticipe V="false"/>
+               <Couverture V="false"/>
+               <Renegocie V="false"/>
+            </EMPRUNT>
+         </DATA_EMPRUNT>
+         <DATA_CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="01"/>
+               <CodBudAnnex V="01"/>
+               <LibBudAnnex V="BUDGET PRINCIPAL"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="D"/>
+               <MtCredOuv V="519672031.53"/>
+               <MtRealMandatTitre V="453155487.12"/>
+               <RAR V="200868.60"/>
+               <SiretBudAnnexe V="24340001700022"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="02"/>
+               <LibBudAnnex V="TRANSPORT"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="D"/>
+               <MtCredOuv V="137356010.22"/>
+               <MtRealMandatTitre V="108136406.86"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700147"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="03"/>
+               <LibBudAnnex V="ASSAINISSEMENT"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="R"/>
+               <MtCredOuv V="29036741.43"/>
+               <MtRealMandatTitre V="28929149.01"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700071"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="04"/>
+               <LibBudAnnex V="SPANC"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="R"/>
+               <MtCredOuv V="83150.00"/>
+               <MtRealMandatTitre V="26251.76"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700105"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="06"/>
+               <LibBudAnnex V="EAU POTABLE"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="D"/>
+               <MtCredOuv V="5645430.17"/>
+               <MtRealMandatTitre V="66182.71"/>
+               <RAR V="35752.75"/>
+               <SiretBudAnnexe V="24340001700139"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="05"/>
+               <LibBudAnnex V="BUDGET PARKING"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="D"/>
+               <MtCredOuv V="3291140.21"/>
+               <MtRealMandatTitre V="368409.89"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700154"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="05"/>
+               <LibBudAnnex V="BUDGET PARKING"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="D"/>
+               <MtCredOuv V="2519302.71"/>
+               <MtRealMandatTitre V="10162.50"/>
+               <RAR V="32176.20"/>
+               <SiretBudAnnexe V="24340001700154"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="03"/>
+               <LibBudAnnex V="ASSAINISSEMENT"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="R"/>
+               <MtCredOuv V="47579399.68"/>
+               <MtRealMandatTitre V="24821319.60"/>
+               <RAR V="5000000.00"/>
+               <SiretBudAnnexe V="24340001700071"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="06"/>
+               <LibBudAnnex V="EAU POTABLE"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="R"/>
+               <MtCredOuv V="5645430.17"/>
+               <MtRealMandatTitre V="30937.17"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700139"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="06"/>
+               <LibBudAnnex V="EAU POTABLE"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="R"/>
+               <MtCredOuv V="6268468.99"/>
+               <MtRealMandatTitre V="915714.34"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700139"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="05"/>
+               <LibBudAnnex V="BUDGET PARKING"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="R"/>
+               <MtCredOuv V="2519302.71"/>
+               <MtRealMandatTitre V="8208.81"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700154"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="01"/>
+               <CodBudAnnex V="01"/>
+               <LibBudAnnex V="BUDGET PRINCIPAL"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="D"/>
+               <MtCredOuv V="719361185.97"/>
+               <MtRealMandatTitre V="387021096.51"/>
+               <RAR V="77605729.63"/>
+               <SiretBudAnnexe V="24340001700154"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="01"/>
+               <CodBudAnnex V="01"/>
+               <LibBudAnnex V="BUDGET PRINCIPAL"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="R"/>
+               <MtCredOuv V="517161272.53"/>
+               <MtRealMandatTitre V="495284132.81"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700154"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="03"/>
+               <LibBudAnnex V="ASSAINISSEMENT"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="D"/>
+               <MtCredOuv V="29036741.43"/>
+               <MtRealMandatTitre V="13461422.65"/>
+               <RAR V="60861.06"/>
+               <SiretBudAnnexe V="24340001700071"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="04"/>
+               <LibBudAnnex V="SPANC"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="R"/>
+               <MtCredOuv V="21133.15"/>
+               <MtRealMandatTitre V="861.67"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700105"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="01"/>
+               <CodBudAnnex V="01"/>
+               <LibBudAnnex V="BUDGET PRINCIPAL"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="R"/>
+               <MtCredOuv V="550494472.70"/>
+               <MtRealMandatTitre V="268562621.75"/>
+               <RAR V="51724400.14"/>
+               <SiretBudAnnexe V="24340001700105"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="02"/>
+               <LibBudAnnex V="TRANSPORT"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="D"/>
+               <MtCredOuv V="179385965.97"/>
+               <MtRealMandatTitre V="97801614.64"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700147"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="02"/>
+               <LibBudAnnex V="TRANSPORT"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="R"/>
+               <MtCredOuv V="179385965.97"/>
+               <MtRealMandatTitre V="116070355.57"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700147"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="04"/>
+               <LibBudAnnex V="SPANC"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="D"/>
+               <MtCredOuv V="83150.00"/>
+               <MtRealMandatTitre V="27112.90"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700105"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="06"/>
+               <LibBudAnnex V="EAU POTABLE"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="D"/>
+               <MtCredOuv V="6268468.99"/>
+               <MtRealMandatTitre V="881017.30"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700139"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="03"/>
+               <LibBudAnnex V="ASSAINISSEMENT"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="D"/>
+               <MtCredOuv V="49274001.30"/>
+               <MtRealMandatTitre V="20625693.90"/>
+               <RAR V="9720006.50"/>
+               <SiretBudAnnexe V="24340001700071"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="05"/>
+               <LibBudAnnex V="BUDGET PARKING"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="R"/>
+               <MtCredOuv V="3291140.21"/>
+               <MtRealMandatTitre V="803254.00"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700154"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="04"/>
+               <LibBudAnnex V="SPANC"/>
+               <CodInvFonc V="I"/>
+               <CodRD V="D"/>
+               <MtCredOuv V="21133.15"/>
+               <MtRealMandatTitre V="3000.00"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700105"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+            <CONSOLIDATION>
+               <CodTypBudAgreg V="02"/>
+               <CodBudAnnex V="02"/>
+               <LibBudAnnex V="TRANSPORT"/>
+               <CodInvFonc V="F"/>
+               <CodRD V="R"/>
+               <MtCredOuv V="137356010.22"/>
+               <MtRealMandatTitre V="125505748.10"/>
+               <RAR V="0.00"/>
+               <SiretBudAnnexe V="24340001700147"/>
+               <Champ_Editeur V="GFI Progiciels, Astre GF, GFI Progiciels 20190227"/>
+            </CONSOLIDATION>
+         </DATA_CONSOLIDATION>
+         <DATA_PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Frais d'études"/>
+               <MtValAcquiBien V="41004.06"/>
+               <DureeAmortBien V="5"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Concessions et droits similaire, logiciels"/>
+               <MtValAcquiBien V="61493.08"/>
+               <DureeAmortBien V="5"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Véhicules assainissement"/>
+               <MtValAcquiBien V="45102.05"/>
+               <DureeAmortBien V="10"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Installation, matériel et outillage technique "/>
+               <MtValAcquiBien V="2497317.08"/>
+               <DureeAmortBien V="10"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Installations industrielles"/>
+               <MtValAcquiBien V="297883.34"/>
+               <DureeAmortBien V="10"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Travaux Baillargues "/>
+               <MtValAcquiBien V="169709.94"/>
+               <DureeAmortBien V="60"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Travaux Beaulieu"/>
+               <MtValAcquiBien V="30088.0"/>
+               <DureeAmortBien V="60"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Travaux Castelnau le Lez"/>
+               <MtValAcquiBien V="229061.57"/>
+               <DureeAmortBien V="60"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Travaux Castries"/>
+               <MtValAcquiBien V="43509.03"/>
+               <DureeAmortBien V="60"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Travaux Clapiers"/>
+               <MtValAcquiBien V="546374.59"/>
+               <DureeAmortBien V="60"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Travaux Cournonsec"/>
+               <MtValAcquiBien V="33878.69"/>
+               <DureeAmortBien V="60"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Travaux Cournonterral"/>
+               <MtValAcquiBien V="94562.55"/>
+               <DureeAmortBien V="60"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Travaux Fabrègues"/>
+               <MtValAcquiBien V="382803.96"/>
+               <DureeAmortBien V="60"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Travaux Grabels"/>
+               <MtValAcquiBien V="2402.52"/>
+               <DureeAmortBien V="60"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Travaux Jacou"/>
+               <MtValAcquiBien V="15151.12"/>
+               <DureeAmortBien V="60"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Travaux Juvignac"/>
+               <MtValAcquiBien V="400.0"/>
+               <DureeAmortBien V="60"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Travaux Lattes"/>
+               <MtValAcquiBien V="348003.56"/>
+               <DureeAmortBien V="60"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Travaux Lavérune"/>
+               <MtValAcquiBien V="44656.95"/>
+               <DureeAmortBien V="60"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Travaux Le Crès"/>
+               <MtValAcquiBien V="795581.08"/>
+               <DureeAmortBien V="60"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Travaux Montferrier"/>
+               <MtValAcquiBien V="102944.21"/>
+               <DureeAmortBien V="60"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Travaux Montpellier"/>
+               <MtValAcquiBien V="3471270.03"/>
+               <DureeAmortBien V="60"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Travaux Murviel-les-Montpellie"/>
+               <MtValAcquiBien V="534969.22"/>
+               <DureeAmortBien V="60"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Travaux Pérols"/>
+               <MtValAcquiBien V="158038.99"/>
+               <DureeAmortBien V="60"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Travaux Pignan"/>
+               <MtValAcquiBien V="814.0"/>
+               <DureeAmortBien V="60"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Travaux Prades-le-Lez"/>
+               <MtValAcquiBien V="961539.06"/>
+               <DureeAmortBien V="60"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Travaux Restinclières"/>
+               <MtValAcquiBien V="2875.75"/>
+               <DureeAmortBien V="60"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Travaux Saint Brès "/>
+               <MtValAcquiBien V="11893.0"/>
+               <DureeAmortBien V="60"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Travaux Saint-Drézèry"/>
+               <MtValAcquiBien V="273879.21"/>
+               <DureeAmortBien V="60"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Travaux Saint-Géniès-des-Mourg"/>
+               <MtValAcquiBien V="3210.0"/>
+               <DureeAmortBien V="60"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Travaux Saint-Georges-d'Orques"/>
+               <MtValAcquiBien V="336822.74"/>
+               <DureeAmortBien V="60"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Travaux Saint-Jean-de-Védas"/>
+               <MtValAcquiBien V="1017058.69"/>
+               <DureeAmortBien V="60"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Travaux Saussan"/>
+               <MtValAcquiBien V="4715.2"/>
+               <DureeAmortBien V="60"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Travaux Sussargues"/>
+               <MtValAcquiBien V="87285.12"/>
+               <DureeAmortBien V="60"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Travaux Vendargues"/>
+               <MtValAcquiBien V="70029.97"/>
+               <DureeAmortBien V="60"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Travaux Villeneuve les Maguelo"/>
+               <MtValAcquiBien V="39263.03"/>
+               <DureeAmortBien V="60"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Travaux Saint-Jean de Védas"/>
+               <MtValAcquiBien V="41265.0"/>
+               <DureeAmortBien V="60"/>
+            </PATRIMOINE>
+            <PATRIMOINE>
+               <CodVariPatrim V="01"/>
+               <CodEntreeSorti V="E"/>
+               <CodModalAcqui V="01"/>
+               <LibBien V="Travaux Sussargues"/>
+               <MtValAcquiBien V="2756.22"/>
+               <DureeAmortBien V="60"/>
+            </PATRIMOINE>
+         </DATA_PATRIMOINE>
+         <DATA_PERSONNEL>
+            <PERSONNEL>
+               <CodTypAgent V="I"/>
+               <EmploiGradeAgent V="Adjoint administratif"/>
+               <CodCatAgent V="C"/>
+               <TempsComplet V="true"/>
+               <Permanent V="true"/>
+               <CodSectAgentTitulaire V="ADM"/>
+               <EffectifBud V="5.0"/>
+               <EffectifPourvu V="4.9"/>
+            </PERSONNEL>
+            <PERSONNEL>
+               <CodTypAgent V="I"/>
+               <EmploiGradeAgent V="Adjoint administratif principal de 2ème classe"/>
+               <CodCatAgent V="C"/>
+               <TempsComplet V="true"/>
+               <Permanent V="true"/>
+               <CodSectAgentTitulaire V="ADM"/>
+               <EffectifBud V="2.0"/>
+               <EffectifPourvu V="2.0"/>
+            </PERSONNEL>
+            <PERSONNEL>
+               <CodTypAgent V="I"/>
+               <EmploiGradeAgent V="Adjoint administratif principal de 1ère classe"/>
+               <CodCatAgent V="C"/>
+               <TempsComplet V="true"/>
+               <Permanent V="true"/>
+               <CodSectAgentTitulaire V="ADM"/>
+               <EffectifBud V="3.0"/>
+               <EffectifPourvu V="3.0"/>
+            </PERSONNEL>
+            <PERSONNEL>
+               <CodTypAgent V="I"/>
+               <EmploiGradeAgent V="Rédacteur principal de 2ème classe"/>
+               <CodCatAgent V="B"/>
+               <TempsComplet V="true"/>
+               <Permanent V="true"/>
+               <CodSectAgentTitulaire V="ADM"/>
+               <EffectifBud V="1.0"/>
+               <EffectifPourvu V="1.0"/>
+            </PERSONNEL>
+            <PERSONNEL>
+               <CodTypAgent V="I"/>
+               <EmploiGradeAgent V="Attaché"/>
+               <CodCatAgent V="A"/>
+               <TempsComplet V="true"/>
+               <Permanent V="true"/>
+               <CodSectAgentTitulaire V="ADM"/>
+               <EffectifBud V="1.0"/>
+               <EffectifPourvu V="1.0"/>
+            </PERSONNEL>
+            <PERSONNEL>
+               <CodTypAgent V="I"/>
+               <EmploiGradeAgent V="Attaché principal"/>
+               <CodCatAgent V="A"/>
+               <TempsComplet V="true"/>
+               <Permanent V="true"/>
+               <CodSectAgentTitulaire V="ADM"/>
+               <EffectifBud V="1.0"/>
+               <EffectifPourvu V="1.0"/>
+            </PERSONNEL>
+            <PERSONNEL>
+               <CodTypAgent V="I"/>
+               <EmploiGradeAgent V="Adjoint technique"/>
+               <CodCatAgent V="C"/>
+               <TempsComplet V="true"/>
+               <Permanent V="true"/>
+               <CodSectAgentTitulaire V="TECH"/>
+               <EffectifBud V="2.0"/>
+               <EffectifPourvu V="2.0"/>
+            </PERSONNEL>
+            <PERSONNEL>
+               <CodTypAgent V="I"/>
+               <EmploiGradeAgent V="Adjoint technique principal de 2ème classe"/>
+               <CodCatAgent V="C"/>
+               <TempsComplet V="true"/>
+               <Permanent V="true"/>
+               <CodSectAgentTitulaire V="TECH"/>
+               <EffectifBud V="1.0"/>
+               <EffectifPourvu V="1.0"/>
+            </PERSONNEL>
+            <PERSONNEL>
+               <CodTypAgent V="I"/>
+               <EmploiGradeAgent V="Agent de maîtrise"/>
+               <CodCatAgent V="C"/>
+               <TempsComplet V="true"/>
+               <Permanent V="true"/>
+               <CodSectAgentTitulaire V="TECH"/>
+               <EffectifBud V="4.0"/>
+               <EffectifPourvu V="4.0"/>
+            </PERSONNEL>
+            <PERSONNEL>
+               <CodTypAgent V="I"/>
+               <EmploiGradeAgent V="Agent de maîtrise principal"/>
+               <CodCatAgent V="C"/>
+               <TempsComplet V="true"/>
+               <Permanent V="true"/>
+               <CodSectAgentTitulaire V="TECH"/>
+               <EffectifBud V="2.0"/>
+               <EffectifPourvu V="2.0"/>
+            </PERSONNEL>
+            <PERSONNEL>
+               <CodTypAgent V="I"/>
+               <EmploiGradeAgent V="Technicien"/>
+               <CodCatAgent V="B"/>
+               <TempsComplet V="true"/>
+               <Permanent V="true"/>
+               <CodSectAgentTitulaire V="TECH"/>
+               <EffectifBud V="3.0"/>
+               <EffectifPourvu V="3.0"/>
+            </PERSONNEL>
+            <PERSONNEL>
+               <CodTypAgent V="I"/>
+               <EmploiGradeAgent V="Technicien principal de 2ème classe"/>
+               <CodCatAgent V="B"/>
+               <TempsComplet V="true"/>
+               <Permanent V="true"/>
+               <CodSectAgentTitulaire V="TECH"/>
+               <EffectifBud V="13.0"/>
+               <EffectifPourvu V="9.7"/>
+            </PERSONNEL>
+            <PERSONNEL>
+               <CodTypAgent V="I"/>
+               <EmploiGradeAgent V="Technicien principal de 1ère classe"/>
+               <CodCatAgent V="B"/>
+               <TempsComplet V="true"/>
+               <Permanent V="true"/>
+               <CodSectAgentTitulaire V="TECH"/>
+               <EffectifBud V="5.0"/>
+               <EffectifPourvu V="4.8"/>
+            </PERSONNEL>
+            <PERSONNEL>
+               <CodTypAgent V="I"/>
+               <EmploiGradeAgent V="Ingénieur"/>
+               <CodCatAgent V="A"/>
+               <TempsComplet V="true"/>
+               <Permanent V="true"/>
+               <CodSectAgentTitulaire V="TECH"/>
+               <EffectifBud V="8.0"/>
+               <EffectifPourvu V="3.0"/>
+            </PERSONNEL>
+            <PERSONNEL>
+               <CodTypAgent V="I"/>
+               <EmploiGradeAgent V="Ingénieur principal"/>
+               <CodCatAgent V="A"/>
+               <TempsComplet V="true"/>
+               <Permanent V="true"/>
+               <CodSectAgentTitulaire V="TECH"/>
+               <EffectifBud V="3.0"/>
+               <EffectifPourvu V="2.9"/>
+            </PERSONNEL>
+            <PERSONNEL>
+               <CodTypAgent V="I"/>
+               <EmploiGradeAgent V="Ingénieur en chef"/>
+               <CodCatAgent V="A"/>
+               <TempsComplet V="true"/>
+               <Permanent V="true"/>
+               <CodSectAgentTitulaire V="TECH"/>
+               <EffectifBud V="3.0"/>
+               <EffectifPourvu V="3.0"/>
+            </PERSONNEL>
+            <PERSONNEL>
+               <CodTypAgent V="I"/>
+               <EmploiGradeAgent V="Adjoint territorial du patrimoine"/>
+               <CodCatAgent V="C"/>
+               <TempsComplet V="true"/>
+               <Permanent V="true"/>
+               <CodSectAgentTitulaire V="CULT"/>
+               <EffectifBud V="1.0"/>
+               <EffectifPourvu V="1.0"/>
+            </PERSONNEL>
+            <PERSONNEL>
+               <CodTypAgent V="N"/>
+               <EmploiGradeAgent V="Rédacteur"/>
+               <CodCatAgent V="B"/>
+               <TempsComplet V="true"/>
+               <Permanent V="true"/>
+               <NatureContrat V="CDI"/>
+               <LibelleNatureContrat V="CDI Non Tit CDI public"/>
+               <CodSectAgentTitulaire V="ADM"/>
+               <IndiceAgent V="513"/>
+               <CodMotifContrAgent V="3-4"/>
+               <EffectifBud V="1.0"/>
+               <EffectifPourvu V="1.0"/>
+            </PERSONNEL>
+            <PERSONNEL>
+               <CodTypAgent V="N"/>
+               <EmploiGradeAgent V="Technicien"/>
+               <CodCatAgent V="B"/>
+               <TempsComplet V="true"/>
+               <Permanent V="false"/>
+               <NatureContrat V="CDD"/>
+               <LibelleNatureContrat V="CDD Non Tit Accroissement temp activité"/>
+               <CodSectAgentTitulaire V="TECH"/>
+               <IndiceAgent V="372"/>
+               <CodMotifContrAgent V="3-a°"/>
+               <EffectifBud V="1.0"/>
+               <EffectifPourvu V="1.0"/>
+            </PERSONNEL>
+            <PERSONNEL>
+               <CodTypAgent V="N"/>
+               <EmploiGradeAgent V="Technicien principal de 2ème classe"/>
+               <CodCatAgent V="B"/>
+               <TempsComplet V="true"/>
+               <Permanent V="true"/>
+               <NatureContrat V="CDD"/>
+               <LibelleNatureContrat V="CDD Non Tit Poste Vacant"/>
+               <CodSectAgentTitulaire V="TECH"/>
+               <IndiceAgent V="389"/>
+               <CodMotifContrAgent V="3-2"/>
+               <EffectifBud V="1.0"/>
+               <EffectifPourvu V="1.0"/>
+            </PERSONNEL>
+            <PERSONNEL>
+               <CodTypAgent V="N"/>
+               <EmploiGradeAgent V="Ingénieur"/>
+               <CodCatAgent V="A"/>
+               <TempsComplet V="true"/>
+               <Permanent V="false"/>
+               <NatureContrat V="CDD"/>
+               <LibelleNatureContrat V="CDD Non Tit Accroissement temp activité"/>
+               <CodSectAgentTitulaire V="TECH"/>
+               <IndiceAgent V="444"/>
+               <CodMotifContrAgent V="3-a°"/>
+               <EffectifBud V="1.0"/>
+               <EffectifPourvu V="1.0"/>
+            </PERSONNEL>
+            <PERSONNEL>
+               <CodTypAgent V="N"/>
+               <EmploiGradeAgent V="Ingénieur"/>
+               <CodCatAgent V="A"/>
+               <TempsComplet V="true"/>
+               <Permanent V="true"/>
+               <NatureContrat V="CDD"/>
+               <LibelleNatureContrat V="CDD Non Tit Cat A"/>
+               <CodSectAgentTitulaire V="TECH"/>
+               <IndiceAgent V="484-518"/>
+               <CodMotifContrAgent V="3-3-2°"/>
+               <EffectifBud V="3.0"/>
+               <EffectifPourvu V="3.0"/>
+            </PERSONNEL>
+            <PERSONNEL>
+               <CodTypAgent V="N"/>
+               <EmploiGradeAgent V="Ingénieur"/>
+               <CodCatAgent V="A"/>
+               <TempsComplet V="true"/>
+               <Permanent V="true"/>
+               <NatureContrat V="CDI"/>
+               <LibelleNatureContrat V="CDI Non Tit CDI public"/>
+               <CodSectAgentTitulaire V="TECH"/>
+               <IndiceAgent V="611"/>
+               <CodMotifContrAgent V="3-4"/>
+               <EffectifBud V="1.0"/>
+               <EffectifPourvu V="1.0"/>
+            </PERSONNEL>
+            <PERSONNEL>
+               <CodTypAgent V="N"/>
+               <EmploiGradeAgent V="Ingénieur"/>
+               <CodCatAgent V="A"/>
+               <TempsComplet V="true"/>
+               <Permanent V="false"/>
+               <NatureContrat V="CDD"/>
+               <CodSectAgentTitulaire V="TECH"/>
+               <RemunAgent V="16500.0"/>
+               <CodMotifContrAgent V="A"/>
+               <LibMotifContrAgent V="Apprenti"/>
+               <EffectifBud V="1.0"/>
+               <EffectifPourvu V="1.0"/>
+            </PERSONNEL>
+         </DATA_PERSONNEL>
+         <DATA_AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="201 - Frais d'établissement"/>
+               <DureeBienAmort V="5"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="203 - Frais d'études, de recherche et de développement et frais d&#x2019;insertion"/>
+               <DureeBienAmort V="5"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="205 - Concessions et droits assimilés"/>
+               <DureeBienAmort V="5"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="208 - Autres immobilisations incorporelles"/>
+               <DureeBienAmort V="5"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="212 - Agencements et aménagements de terrains"/>
+               <DureeBienAmort V="20"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2131 - Bâtiments d'exploitation"/>
+               <DureeBienAmort V="60"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2131 - Bâtiments administratifs"/>
+               <DureeBienAmort V="50"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2135 - Bâtiments d'exploitation"/>
+               <DureeBienAmort V="30"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2135 - Bâtiments administratifs"/>
+               <DureeBienAmort V="50"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2138 Autres constructions "/>
+               <DureeBienAmort V="30"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2141 - Bâtiments d'exploitation"/>
+               <DureeBienAmort V="60"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2141 - Bâtiments administratifs"/>
+               <DureeBienAmort V="50"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2145 - Bâtiments d'exploitation"/>
+               <DureeBienAmort V="30"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2145 - Bâtiments administratifs"/>
+               <DureeBienAmort V="50"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2148 - Autres constructions "/>
+               <DureeBienAmort V="30"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2151 - Installations complexes spécialisées"/>
+               <DureeBienAmort V="10"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="21531 - Réseaux d'adduction d'eau"/>
+               <DureeBienAmort V="60"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="21532 - Réseaux d&#x2019;assainissement"/>
+               <DureeBienAmort V="60"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="21532 - Installations de refoulement des eaux usées"/>
+               <DureeBienAmort V="30"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2154 - Matériel industriel"/>
+               <DureeBienAmort V="8"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2155 - Outillage industriel"/>
+               <DureeBienAmort V="10"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2156 - Matériel spécifique d'exploitation"/>
+               <DureeBienAmort V="10"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2157 - Agencements et aménagements du matériel et outillage industriels"/>
+               <DureeBienAmort V="10"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2172 - Agencements et aménagements de terrains"/>
+               <DureeBienAmort V="20"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="21731 - Bâtiments d'exploitation"/>
+               <DureeBienAmort V="60"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="21731 - Bâtiments administratifs"/>
+               <DureeBienAmort V="50"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="21735 - Bâtiments d'exploitation"/>
+               <DureeBienAmort V="30"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="21735 - Bâtiments administratifs"/>
+               <DureeBienAmort V="50"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="21738 - Autres constructions "/>
+               <DureeBienAmort V="30"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="21741 - Bâtiments d'exploitation"/>
+               <DureeBienAmort V="60"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="21741 - Bâtiments administratifs"/>
+               <DureeBienAmort V="50"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="21745 - Bâtiments d'exploitation"/>
+               <DureeBienAmort V="30"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="21745 - Bâtiments administratifs"/>
+               <DureeBienAmort V="50"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="21748 - Autres constructions"/>
+               <DureeBienAmort V="30"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="21751 - Installations complexes spécialisées"/>
+               <DureeBienAmort V="10"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="217531 - Réseaux d'adduction d'eau"/>
+               <DureeBienAmort V="60"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="217532 - Réseaux d&#x2019;assainissement"/>
+               <DureeBienAmort V="60"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="217532 - Installations de refoulement des eaux usées"/>
+               <DureeBienAmort V="30"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="21754 - Matériel industriel"/>
+               <DureeBienAmort V="8"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="21755 - Outillage industriel"/>
+               <DureeBienAmort V="10"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="21756 - Matériel spécifique d'exploitation"/>
+               <DureeBienAmort V="5"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="21757 - Agencements et aménagements du matériel et outillage industriels"/>
+               <DureeBienAmort V="10"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="21782 - Matériel de transport"/>
+               <DureeBienAmort V="10"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="21783 - Matériel de bureau et matériel informatique"/>
+               <DureeBienAmort V="3"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="21784 - Mobilier"/>
+               <DureeBienAmort V="15"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="21785 - Cheptel"/>
+               <DureeBienAmort V="1"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="21786 - Emballages récupérables"/>
+               <DureeBienAmort V="1"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="21788 - Autres immobilisations corporelles"/>
+               <DureeBienAmort V="5"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2181 - Installations générales, agencements, aménagements divers"/>
+               <DureeBienAmort V="10"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2182 - Matériel de transport"/>
+               <DureeBienAmort V="10"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2183 - Matériel de bureau et matériel informatique"/>
+               <DureeBienAmort V="3"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2184 - Mobilier"/>
+               <DureeBienAmort V="15"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2185 - Cheptel"/>
+               <DureeBienAmort V="1"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2186 - Emballages récupérables"/>
+               <DureeBienAmort V="1"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2188 - Autres immobilisations corporelles"/>
+               <DureeBienAmort V="5"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="222 - Agencements et aménagements de terrains"/>
+               <DureeBienAmort V="20"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2231 - Bâtiments d'exploitation"/>
+               <DureeBienAmort V="60"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2231 - Bâtiments administratifs"/>
+               <DureeBienAmort V="50"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2235 - Bâtiments d'exploitation"/>
+               <DureeBienAmort V="30"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2235 - Bâtiments administratifs"/>
+               <DureeBienAmort V="50"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2238 - Autres constructions"/>
+               <DureeBienAmort V="30"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2241 - Bâtiments d'exploitation"/>
+               <DureeBienAmort V="60"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2241 - Bâtiments administratifs"/>
+               <DureeBienAmort V="50"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2245 - Bâtiments d'exploitation"/>
+               <DureeBienAmort V="30"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2245 - Bâtiments administratifs"/>
+               <DureeBienAmort V="50"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2248 - Autres constructions"/>
+               <DureeBienAmort V="30"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2251 - Installations complexes spécialisées"/>
+               <DureeBienAmort V="10"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="22531- Réseau d'adduction d'eau"/>
+               <DureeBienAmort V="60"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="22532 - Réseaux d&#x2019;assainissement"/>
+               <DureeBienAmort V="60"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="22532 - Installations de refoulement des eaux usées"/>
+               <DureeBienAmort V="30"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2254 - Matériel industriel"/>
+               <DureeBienAmort V="8"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2255 - Outillage industriel"/>
+               <DureeBienAmort V="10"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2256 - Matériel spécifique d'exploitation"/>
+               <DureeBienAmort V="5"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2257 - Agencements et aménagements du matériel et outillage industriels"/>
+               <DureeBienAmort V="10"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2282 - Matériel de transport"/>
+               <DureeBienAmort V="10"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2283 - Matériel de bureau et matériel informatique"/>
+               <DureeBienAmort V="3"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2284 - Mobilier"/>
+               <DureeBienAmort V="15"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2285 - Cheptel"/>
+               <DureeBienAmort V="1"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2286 - Emballages récupérables"/>
+               <DureeBienAmort V="1"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+            <AMORTISSEMENT_METHODE>
+               <LibBienAmort V="2288 - Autres immobilisations corporelles"/>
+               <DureeBienAmort V="5"/>
+               <DtDelib V="2019-07-23"/>
+               <ProcAmort V="L"/>
+            </AMORTISSEMENT_METHODE>
+         </DATA_AMORTISSEMENT_METHODE>
+         <DATA_APCP>
+            <APCP>
+               <CodTypAutori V="P"/>
+               <CodSTypAutori V="S"/>
+               <NumAutori V="SDASTR03"/>
+               <LibAutori V="Stations d'épuration : Construction Sussargues-St Geniès des Mourgues + Extension Cournonterral"/>
+               <Chapitre V="21"/>
+               <MtAutoriPrec V="9990164.91"/>
+               <MtAutoriNonCouvParCP_01_01_N V="1355699.66"/>
+               <MtCPAnt V="8634465.25"/>
+               <MtCPOuv V="4170.67"/>
+               <MtCPReal V="0.0"/>
+               <MtCredAFinanc_Sup_N V="1355699.66"/>
+            </APCP>
+            <APCP>
+               <CodTypAutori V="P"/>
+               <CodSTypAutori V="S"/>
+               <NumAutori V="SDARES01"/>
+               <LibAutori V="Réseaux : Intercepteur est secteur amont + intercepteur est la Pompignane"/>
+               <Chapitre V="21"/>
+               <MtAutoriPrec V="20841949.75"/>
+               <MtAutoriNonCouvParCP_01_01_N V="1244882.53"/>
+               <MtCPAnt V="19597067.22"/>
+               <MtCPOuv V="290263.31"/>
+               <MtCPReal V="161352.16"/>
+               <MtCredAFinanc_Sup_N V="1083530.37"/>
+            </APCP>
+            <APCP>
+               <CodTypAutori V="P"/>
+               <CodSTypAutori V="S"/>
+               <NumAutori V="M19MAERA01"/>
+               <LibAutori V="MAERA: RUISSEAU DES VACHES"/>
+               <Chapitre V="21"/>
+               <MtAutoriPrec V="2120500.0"/>
+               <MtAutoriNonCouvParCP_01_01_N V="2088910.89"/>
+               <MtCPAnt V="31589.11"/>
+               <MtCPOuv V="108330.89"/>
+               <MtCPReal V="4931.22"/>
+               <MtCredAFinanc_Sup_N V="2083979.67"/>
+            </APCP>
+            <APCP>
+               <CodTypAutori V="P"/>
+               <CodSTypAutori V="S"/>
+               <NumAutori V="M19MAERA01"/>
+               <LibAutori V="MAERA: MAS ST PIERRE PASSAGE SOUS VOIE SNCF"/>
+               <Chapitre V="21"/>
+               <MtAutoriPrec V="3179400.0"/>
+               <MtAutoriNonCouvParCP_01_01_N V="3179400.0"/>
+               <MtCPAnt V="0.0"/>
+               <MtCPOuv V="1678000.0"/>
+               <MtCPReal V="136295.96"/>
+               <MtCredAFinanc_Sup_N V="3043104.04"/>
+            </APCP>
+            <APCP>
+               <CodTypAutori V="P"/>
+               <CodSTypAutori V="S"/>
+               <NumAutori V="M19MAERA01"/>
+               <LibAutori V="MAERA: RESEAUX PRIMAIRES MAERA PR ARTIS ET ETUDE COLLECTEUR OUEST "/>
+               <Chapitre V="21"/>
+               <MtAutoriPrec V="4280000.0"/>
+               <MtAutoriNonCouvParCP_01_01_N V="4275150.0"/>
+               <MtCPAnt V="4850.0"/>
+               <MtCPOuv V="100000.0"/>
+               <MtCPReal V="0.0"/>
+               <MtCredAFinanc_Sup_N V="4275150.0"/>
+            </APCP>
+            <APCP>
+               <CodTypAutori V="P"/>
+               <CodSTypAutori V="S"/>
+               <NumAutori V="M19MAERA01"/>
+               <LibAutori V="MAERA: EXTENSION STEP MAERA "/>
+               <Chapitre V="21"/>
+               <MtAutoriPrec V="110364500"/>
+               <MtAutoriNonCouvParCP_01_01_N V="110262367.16"/>
+               <MtCPAnt V="102132.84"/>
+               <MtCPOuv V="487506.05"/>
+               <MtCPReal V="172201.89"/>
+               <MtCredAFinanc_Sup_N V="110090165.27"/>
+            </APCP>
+            <APCP>
+               <CodTypAutori V="P"/>
+               <CodSTypAutori V="S"/>
+               <NumAutori V="M19STEP02"/>
+               <LibAutori V="STEP SGO 9700 EH "/>
+               <Chapitre V="21"/>
+               <MtAutoriPrec V="2902800.0"/>
+               <MtAutoriNonCouvParCP_01_01_N V="1796628.21"/>
+               <MtCPAnt V="1106171.79"/>
+               <MtCPOuv V="1521312.21"/>
+               <MtCPReal V="1147993.76"/>
+               <MtCredAFinanc_Sup_N V="648634.45"/>
+            </APCP>
+            <APCP>
+               <CodTypAutori V="P"/>
+               <CodSTypAutori V="S"/>
+               <NumAutori V="M19STEP03"/>
+               <LibAutori V="STEP MURVIEL 3000 EH "/>
+               <Chapitre V="21"/>
+               <MtAutoriPrec V="1732100.0"/>
+               <MtAutoriPropose V="372225.0"/>
+               <MtAutoriVote V="372225.0"/>
+               <MtAutoriNonCouvParCP_01_01_N V="1548403.29"/>
+               <MtCPAnt V="183696.71"/>
+               <MtCPOuv V="1817616.85"/>
+               <MtCPReal V="984816.19"/>
+               <MtCredAFinanc_Sup_N V="935812.1"/>
+            </APCP>
+         </DATA_APCP>
+         <DATA_SIGNATURE>
+            <SIGNATURE>
+               <NbrMembExer V="92"/>
+               <NbrMembPresent V="78"/>
+               <NbrSuffExprime V="77"/>
+               <NbrVotePour V="77"/>
+               <NbrVoteContre V="0"/>
+               <NbrVoteAbstention V="0"/>
+               <DtConvoc V="2021-06-01"/>
+               <LibPresentPar V="Renaud CALVAT, Vice-Président délégué aux finances"/>
+               <LibPresentLieu V="Montpellier"/>
+               <DtPresent V="2021-06-07"/>
+               <LibDelibPar V="l'assemblée, réunie en session "/>
+               <LibReuniSession V="Compte administratif"/>
+               <LibDelibLieu V="Montpellier"/>
+               <DtDelib V="2021-06-07"/>
+               <DtTransmPrefect V="2021-06-22"/>
+               <DtPub V="2021-06-22"/>
+            </SIGNATURE>
+         </DATA_SIGNATURE>
+         <DATA_SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Tasnime AKBARALY"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Mohed ALTRAD"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="William ARS"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Michel ASLANIAN"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Christian ASSAF"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Florence AUBY"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Jean-François AUDRIN"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Géniès BALAZUN"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Yves BARRAL"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Boris BELLANGER"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Mathilde BORNE"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Christophe BOURDIN"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Florence BRAU"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Véronique BRUNET"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Emilie CABELLO"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Renaud CALVAT"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Michel CALVO"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Michelle CASSAR"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Stéphane CHAMPAY"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Bernadette CONTE-ARRANZ"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Roger-Yannick CHARTIER"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Sébastien COTE"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Brigitte DEVOISSELLE"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Zohra DIRHOUSSI"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Fanny DOMBRE COSTE"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Alenka DOULAIN"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Hind EMAD"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Maryse FAYE"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Mylène FOURCADE"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Julie FRECHE"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Jackie GALABRUN-BOULBES"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Clara GIMENEZ"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Serge GUISEPPIN"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Clare HART"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Régine ILLAIRE"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Laurent JAOUL"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Frédéric LAFFORGUE"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Guy LAURET"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Max LEVITA"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Nathalie LEVY"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Eliane LLORET"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Lionel LOPEZ"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Sophiane MANSOURIA"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Coralie MANTION"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Nicole MARIN-KHOURY"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Isabelle MARSALA"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Jacques MARTINIER"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Cyril MEUNIER"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Patricia MIRALLES"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Julien MIRO"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Arnaud MOYNIER"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Véronique NEGRET"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Laurent NISON"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Clothilde OLLIER"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Marie-Delphine PARPILLON"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Bruno PATERNOT"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Yvon PELLET"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Eric PENSO"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Céline PINTARD"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Joël RAYMOND"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="René REVOL"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Jean-Pierre RICO"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Anne RIMBERT"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="François RIO"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Sylvie ROS-ROUART"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Séverine SAINT MARTIN"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Jean-Luc SAVY"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Célia SERRANO"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Radia TIKOUK"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Bernard TRAVIER"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Joëlle URBANI"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="François VASQUEZ"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Claudine VASSAS MEJRI"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Joël VERA"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Patricia WEBER"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Paloma PERVENT"/>
+            </SIGNATAIRE>
+            <SIGNATAIRE>
+               <Signataire V="Isabelle TOUZARD"/>
+            </SIGNATAIRE>
+         </DATA_SIGNATAIRE>
+         <DATA_SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="PG"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="SOM"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="I"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="II-A1"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="II-A2"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="II-A3"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="II-B1"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="II-B2"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="III-A1"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="III-A2"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="III-B1"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="III-B2"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="III-B3"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A1.1"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A1.2"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A1.3"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A1.4"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A1.5"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A1.6"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A1.7"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A1.8"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A2"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A3.1"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A3.2"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A4.1"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A4.2"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A5.1.1"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A5.1.2"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A5.2.1"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A5.2.2"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A5.3.1"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A5.3.2"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A6"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A7"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A8.1"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A8.2"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A8.3"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A9.1"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A9.2"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-A10"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-B1.1"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-B1.2"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-B1.3"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-B1.4"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-B1.5"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-B1.6"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-B1.7"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-B2.1"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-B2.2"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-C1.1"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-C1.2"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-C2"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-C3"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="IV-C4"/>
+               <Present V="true"/>
+            </SOMMAIRE>
+            <SOMMAIRE>
+               <CodeAnnexe V="ARS"/>
+               <Present V="false"/>
+            </SOMMAIRE>
+         </DATA_SOMMAIRE>
+      </Annexes>
+   </Budget>
+</DocumentBudgetaire>

@@ -1,0 +1,422 @@
+[
+  {
+    "year": 2018,
+    "fonction_code": "0",
+    "fonction_label": "Services généraux",
+    "montant_realise": 39609756.74000001
+  },
+  {
+    "year": 2018,
+    "fonction_code": "7",
+    "fonction_label": "Environnement et propreté",
+    "montant_realise": 100555010.9799999
+  },
+  {
+    "year": 2018,
+    "fonction_code": "5",
+    "fonction_label": "Aménagement et habitat",
+    "montant_realise": 59067713.399999976
+  },
+  {
+    "year": 2018,
+    "fonction_code": "3",
+    "fonction_label": "Culture, Sport, Jeunesse",
+    "montant_realise": 121518125.64000002
+  },
+  {
+    "year": 2018,
+    "fonction_code": "9",
+    "fonction_label": "Non ventilé / Divers",
+    "montant_realise": 119648448.87000003
+  },
+  {
+    "year": 2018,
+    "fonction_code": "8",
+    "fonction_label": "Transports",
+    "montant_realise": 100414355.21000007
+  },
+  {
+    "year": 2018,
+    "fonction_code": "1",
+    "fonction_label": "Sécurité et salubrité",
+    "montant_realise": 19183747.76
+  },
+  {
+    "year": 2018,
+    "fonction_code": "6",
+    "fonction_label": "Action économique",
+    "montant_realise": 23880093.409999996
+  },
+  {
+    "year": 2018,
+    "fonction_code": "NC",
+    "fonction_label": "Non ventilé / Services centraux",
+    "montant_realise": 54007653.71
+  },
+  {
+    "year": 2018,
+    "fonction_code": "4",
+    "fonction_label": "Santé et action sociale",
+    "montant_realise": 291386.1
+  },
+  {
+    "year": 2019,
+    "fonction_code": "8",
+    "fonction_label": "Transports",
+    "montant_realise": 126102866.58999994
+  },
+  {
+    "year": 2019,
+    "fonction_code": "7",
+    "fonction_label": "Environnement et propreté",
+    "montant_realise": 120785253.77
+  },
+  {
+    "year": 2019,
+    "fonction_code": "5",
+    "fonction_label": "Aménagement et habitat",
+    "montant_realise": 66227802.120000005
+  },
+  {
+    "year": 2019,
+    "fonction_code": "0",
+    "fonction_label": "Services généraux",
+    "montant_realise": 45437038.89000001
+  },
+  {
+    "year": 2019,
+    "fonction_code": "3",
+    "fonction_label": "Culture, Sport, Jeunesse",
+    "montant_realise": 130308865.03000008
+  },
+  {
+    "year": 2019,
+    "fonction_code": "6",
+    "fonction_label": "Action économique",
+    "montant_realise": 35204298.389999986
+  },
+  {
+    "year": 2019,
+    "fonction_code": "1",
+    "fonction_label": "Sécurité et salubrité",
+    "montant_realise": 19519562.389999993
+  },
+  {
+    "year": 2019,
+    "fonction_code": "NC",
+    "fonction_label": "Non ventilé / Services centraux",
+    "montant_realise": 20516031.59
+  },
+  {
+    "year": 2019,
+    "fonction_code": "9",
+    "fonction_label": "Non ventilé / Divers",
+    "montant_realise": 166006665.70999998
+  },
+  {
+    "year": 2019,
+    "fonction_code": "4",
+    "fonction_label": "Santé et action sociale",
+    "montant_realise": 507143.38
+  },
+  {
+    "year": 2020,
+    "fonction_code": "0",
+    "fonction_label": "Services généraux",
+    "montant_realise": 51292197.70999996
+  },
+  {
+    "year": 2020,
+    "fonction_code": "6",
+    "fonction_label": "Action économique",
+    "montant_realise": 26509821.419999998
+  },
+  {
+    "year": 2020,
+    "fonction_code": "3",
+    "fonction_label": "Culture, Sport, Jeunesse",
+    "montant_realise": 128162188.46000011
+  },
+  {
+    "year": 2020,
+    "fonction_code": "4",
+    "fonction_label": "Santé et action sociale",
+    "montant_realise": 524136.53999999986
+  },
+  {
+    "year": 2020,
+    "fonction_code": "5",
+    "fonction_label": "Aménagement et habitat",
+    "montant_realise": 74864676.61000004
+  },
+  {
+    "year": 2020,
+    "fonction_code": "8",
+    "fonction_label": "Transports",
+    "montant_realise": 102391613.50999996
+  },
+  {
+    "year": 2020,
+    "fonction_code": "7",
+    "fonction_label": "Environnement et propreté",
+    "montant_realise": 133107518.32999994
+  },
+  {
+    "year": 2020,
+    "fonction_code": "1",
+    "fonction_label": "Sécurité et salubrité",
+    "montant_realise": 22101069.819999997
+  },
+  {
+    "year": 2020,
+    "fonction_code": "9",
+    "fonction_label": "Non ventilé / Divers",
+    "montant_realise": 130497132.57000002
+  },
+  {
+    "year": 2020,
+    "fonction_code": "NC",
+    "fonction_label": "Non ventilé / Services centraux",
+    "montant_realise": 42245306.73
+  },
+  {
+    "year": 2021,
+    "fonction_code": "9",
+    "fonction_label": "Non ventilé / Divers",
+    "montant_realise": 322551678.09999996
+  },
+  {
+    "year": 2021,
+    "fonction_code": "3",
+    "fonction_label": "Culture, Sport, Jeunesse",
+    "montant_realise": 126425793.72
+  },
+  {
+    "year": 2021,
+    "fonction_code": "7",
+    "fonction_label": "Environnement et propreté",
+    "montant_realise": 134909821.19
+  },
+  {
+    "year": 2021,
+    "fonction_code": "0",
+    "fonction_label": "Services généraux",
+    "montant_realise": 62608838.17999998
+  },
+  {
+    "year": 2021,
+    "fonction_code": "8",
+    "fonction_label": "Transports",
+    "montant_realise": 194519280.6800002
+  },
+  {
+    "year": 2021,
+    "fonction_code": "5",
+    "fonction_label": "Aménagement et habitat",
+    "montant_realise": 90716805.51000004
+  },
+  {
+    "year": 2021,
+    "fonction_code": "6",
+    "fonction_label": "Action économique",
+    "montant_realise": 29155898.840000004
+  },
+  {
+    "year": 2021,
+    "fonction_code": "4",
+    "fonction_label": "Santé et action sociale",
+    "montant_realise": 878540.7699999999
+  },
+  {
+    "year": 2021,
+    "fonction_code": "1",
+    "fonction_label": "Sécurité et salubrité",
+    "montant_realise": 19489880.720000003
+  },
+  {
+    "year": 2021,
+    "fonction_code": "NC",
+    "fonction_label": "Non ventilé / Services centraux",
+    "montant_realise": 23966809.29
+  },
+  {
+    "year": 2022,
+    "fonction_code": "3",
+    "fonction_label": "Culture, Sport, Jeunesse",
+    "montant_realise": 126274136.24999997
+  },
+  {
+    "year": 2022,
+    "fonction_code": "5",
+    "fonction_label": "Aménagement et habitat",
+    "montant_realise": 111281910.07000001
+  },
+  {
+    "year": 2022,
+    "fonction_code": "6",
+    "fonction_label": "Action économique",
+    "montant_realise": 43822298.690000005
+  },
+  {
+    "year": 2022,
+    "fonction_code": "7",
+    "fonction_label": "Environnement et propreté",
+    "montant_realise": 144886586.02999997
+  },
+  {
+    "year": 2022,
+    "fonction_code": "8",
+    "fonction_label": "Transports",
+    "montant_realise": 276332505.3599999
+  },
+  {
+    "year": 2022,
+    "fonction_code": "0",
+    "fonction_label": "Services généraux",
+    "montant_realise": 64055843.25999998
+  },
+  {
+    "year": 2022,
+    "fonction_code": "4",
+    "fonction_label": "Santé et action sociale",
+    "montant_realise": 1038461.5300000001
+  },
+  {
+    "year": 2022,
+    "fonction_code": "1",
+    "fonction_label": "Sécurité et salubrité",
+    "montant_realise": 19951645.590000004
+  },
+  {
+    "year": 2022,
+    "fonction_code": "NC",
+    "fonction_label": "Non ventilé / Services centraux",
+    "montant_realise": 118625567.61
+  },
+  {
+    "year": 2022,
+    "fonction_code": "9",
+    "fonction_label": "Non ventilé / Divers",
+    "montant_realise": 235588437.07999998
+  },
+  {
+    "year": 2023,
+    "fonction_code": "3",
+    "fonction_label": "Culture, Sport, Jeunesse",
+    "montant_realise": 130995151.36000004
+  },
+  {
+    "year": 2023,
+    "fonction_code": "0",
+    "fonction_label": "Services généraux",
+    "montant_realise": 78485379.69999999
+  },
+  {
+    "year": 2023,
+    "fonction_code": "5",
+    "fonction_label": "Aménagement et habitat",
+    "montant_realise": 132753841.33999994
+  },
+  {
+    "year": 2023,
+    "fonction_code": "6",
+    "fonction_label": "Action économique",
+    "montant_realise": 25662245.08000001
+  },
+  {
+    "year": 2023,
+    "fonction_code": "7",
+    "fonction_label": "Environnement et propreté",
+    "montant_realise": 165599483.59
+  },
+  {
+    "year": 2023,
+    "fonction_code": "8",
+    "fonction_label": "Transports",
+    "montant_realise": 381240804.13999987
+  },
+  {
+    "year": 2023,
+    "fonction_code": "1",
+    "fonction_label": "Sécurité et salubrité",
+    "montant_realise": 22101761.119999997
+  },
+  {
+    "year": 2023,
+    "fonction_code": "9",
+    "fonction_label": "Non ventilé / Divers",
+    "montant_realise": 332720821.51000005
+  },
+  {
+    "year": 2023,
+    "fonction_code": "4",
+    "fonction_label": "Santé et action sociale",
+    "montant_realise": 1083524.29
+  },
+  {
+    "year": 2023,
+    "fonction_code": "NC",
+    "fonction_label": "Non ventilé / Services centraux",
+    "montant_realise": 127693319.83
+  },
+  {
+    "year": 2025,
+    "fonction_code": "3",
+    "fonction_label": "Culture, Sport, Jeunesse",
+    "montant_realise": 131901554.10999998
+  },
+  {
+    "year": 2025,
+    "fonction_code": "5",
+    "fonction_label": "Aménagement et habitat",
+    "montant_realise": 147106304.69000003
+  },
+  {
+    "year": 2025,
+    "fonction_code": "6",
+    "fonction_label": "Action économique",
+    "montant_realise": 28553527.01
+  },
+  {
+    "year": 2025,
+    "fonction_code": "8",
+    "fonction_label": "Transports",
+    "montant_realise": 477293588.6999999
+  },
+  {
+    "year": 2025,
+    "fonction_code": "0",
+    "fonction_label": "Services généraux",
+    "montant_realise": 83950845.91999999
+  },
+  {
+    "year": 2025,
+    "fonction_code": "7",
+    "fonction_label": "Environnement et propreté",
+    "montant_realise": 171830367.17999998
+  },
+  {
+    "year": 2025,
+    "fonction_code": "9",
+    "fonction_label": "Non ventilé / Divers",
+    "montant_realise": 445079876.04999995
+  },
+  {
+    "year": 2025,
+    "fonction_code": "4",
+    "fonction_label": "Santé et action sociale",
+    "montant_realise": 913993.9300000002
+  },
+  {
+    "year": 2025,
+    "fonction_code": "1",
+    "fonction_label": "Sécurité et salubrité",
+    "montant_realise": 24058128.28999999
+  },
+  {
+    "year": 2025,
+    "fonction_code": "NC",
+    "fonction_label": "Non ventilé / Services centraux",
+    "montant_realise": 102490922.71
+  }
+]

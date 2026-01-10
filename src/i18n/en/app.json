@@ -5,6 +5,7 @@
     "menu": {
       "home": "Home",
       "comparator": "Comparator",
+      "budget": "2025 Budget",
       "info": "News",
       "inscriptionElectorale": "Electoral lists",
       "roleMairieMetropole": "Why vote?"
@@ -16,7 +17,8 @@
     "roleMairieMetropole": {
       "title": "What are the City Hall and the Metropolis for?",
       "description": "Understand the competencies of the City Hall and the Metropolis of Montpellier and why the municipal vote is crucial."
-    }
+    },
+    "latestNews": "Latest news"
   },
   "sidebar": {
     "description": "The citizen media for the 2026 municipal elections in Montpellier",

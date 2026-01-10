@@ -1,0 +1,436 @@
+[
+  {
+    "year": 2018,
+    "budget": "Assainissement",
+    "type": "Depense",
+    "montant_vote": 0,
+    "montant_realise": 38880631.95999999
+  },
+  {
+    "year": 2018,
+    "budget": "Assainissement",
+    "type": "Recette",
+    "montant_vote": 0,
+    "montant_realise": 56025157.730000004
+  },
+  {
+    "year": 2018,
+    "budget": "Eau",
+    "type": "Depense",
+    "montant_vote": 0,
+    "montant_realise": 1221246.6200000003
+  },
+  {
+    "year": 2018,
+    "budget": "Eau",
+    "type": "Recette",
+    "montant_vote": 0,
+    "montant_realise": 4865519.66
+  },
+  {
+    "year": 2018,
+    "budget": "Parking",
+    "type": "Recette",
+    "montant_vote": 0,
+    "montant_realise": 2315075.82
+  },
+  {
+    "year": 2018,
+    "budget": "Parking",
+    "type": "Depense",
+    "montant_vote": 0,
+    "montant_realise": 482889.71
+  },
+  {
+    "year": 2018,
+    "budget": "Principal",
+    "type": "Depense",
+    "montant_vote": 0,
+    "montant_realise": 638176291.8200002
+  },
+  {
+    "year": 2018,
+    "budget": "Principal",
+    "type": "Recette",
+    "montant_vote": 0,
+    "montant_realise": 709597766.1599993
+  },
+  {
+    "year": 2018,
+    "budget": "Spanc",
+    "type": "Recette",
+    "montant_vote": 0,
+    "montant_realise": 183814.05000000002
+  },
+  {
+    "year": 2018,
+    "budget": "Spanc",
+    "type": "Depense",
+    "montant_vote": 0,
+    "montant_realise": 85821.65000000001
+  },
+  {
+    "year": 2018,
+    "budget": "Transport",
+    "type": "Depense",
+    "montant_vote": 0,
+    "montant_realise": 170690076.87
+  },
+  {
+    "year": 2018,
+    "budget": "Transport",
+    "type": "Recette",
+    "montant_vote": 0,
+    "montant_realise": 194250708.17
+  },
+  {
+    "year": 2019,
+    "budget": "Principal",
+    "type": "Depense",
+    "montant_vote": 0,
+    "montant_realise": 730615527.8599997
+  },
+  {
+    "year": 2019,
+    "budget": "Principal",
+    "type": "Recette",
+    "montant_vote": 0,
+    "montant_realise": 769427496.6899993
+  },
+  {
+    "year": 2019,
+    "budget": "Transport",
+    "type": "Recette",
+    "montant_vote": 0,
+    "montant_realise": 217431711.91
+  },
+  {
+    "year": 2019,
+    "budget": "Transport",
+    "type": "Depense",
+    "montant_vote": 0,
+    "montant_realise": 193107985.60000002
+  },
+  {
+    "year": 2019,
+    "budget": "Assainissement",
+    "type": "Depense",
+    "montant_vote": 0,
+    "montant_realise": 62240655.859999955
+  },
+  {
+    "year": 2019,
+    "budget": "Assainissement",
+    "type": "Recette",
+    "montant_vote": 0,
+    "montant_realise": 67710859.57000001
+  },
+  {
+    "year": 2019,
+    "budget": "Spanc",
+    "type": "Depense",
+    "montant_vote": 0,
+    "montant_realise": 53853.71
+  },
+  {
+    "year": 2019,
+    "budget": "Spanc",
+    "type": "Recette",
+    "montant_vote": 0,
+    "montant_realise": 131442.24
+  },
+  {
+    "year": 2019,
+    "budget": "Parking",
+    "type": "Depense",
+    "montant_vote": 0,
+    "montant_realise": 417007.91000000003
+  },
+  {
+    "year": 2019,
+    "budget": "Parking",
+    "type": "Recette",
+    "montant_vote": 0,
+    "montant_realise": 2887810.62
+  },
+  {
+    "year": 2019,
+    "budget": "Eau",
+    "type": "Depense",
+    "montant_vote": 0,
+    "montant_realise": 457033.27999999997
+  },
+  {
+    "year": 2019,
+    "budget": "Eau",
+    "type": "Recette",
+    "montant_vote": 0,
+    "montant_realise": 5839579.149999999
+  },
+  {
+    "year": 2020,
+    "budget": "Assainissement",
+    "type": "Recette",
+    "montant_vote": 0,
+    "montant_realise": 54318007.1
+  },
+  {
+    "year": 2020,
+    "budget": "Assainissement",
+    "type": "Depense",
+    "montant_vote": 0,
+    "montant_realise": 47644770.169999994
+  },
+  {
+    "year": 2020,
+    "budget": "Transport",
+    "type": "Recette",
+    "montant_vote": 0,
+    "montant_realise": 257530989.47000003
+  },
+  {
+    "year": 2020,
+    "budget": "Transport",
+    "type": "Depense",
+    "montant_vote": 0,
+    "montant_realise": 228793520.39999998
+  },
+  {
+    "year": 2020,
+    "budget": "Eau",
+    "type": "Depense",
+    "montant_vote": 0,
+    "montant_realise": 947200.0100000001
+  },
+  {
+    "year": 2020,
+    "budget": "Eau",
+    "type": "Recette",
+    "montant_vote": 0,
+    "montant_realise": 6329197.379999999
+  },
+  {
+    "year": 2020,
+    "budget": "Parking",
+    "type": "Depense",
+    "montant_vote": 0,
+    "montant_realise": 378572.38999999996
+  },
+  {
+    "year": 2020,
+    "budget": "Parking",
+    "type": "Recette",
+    "montant_vote": 0,
+    "montant_realise": 3281335.8100000005
+  },
+  {
+    "year": 2020,
+    "budget": "Principal",
+    "type": "Depense",
+    "montant_vote": 0,
+    "montant_realise": 711695661.7000003
+  },
+  {
+    "year": 2020,
+    "budget": "Principal",
+    "type": "Recette",
+    "montant_vote": 0,
+    "montant_realise": 757779978.2600003
+  },
+  {
+    "year": 2020,
+    "budget": "Spanc",
+    "type": "Recette",
+    "montant_vote": 0,
+    "montant_realise": 104701.95999999999
+  },
+  {
+    "year": 2020,
+    "budget": "Spanc",
+    "type": "Depense",
+    "montant_vote": 0,
+    "montant_realise": 30112.899999999998
+  },
+  {
+    "year": 2021,
+    "budget": "Assainissement",
+    "type": "Recette",
+    "montant_vote": 0,
+    "montant_realise": 61485912.190000005
+  },
+  {
+    "year": 2021,
+    "budget": "Assainissement",
+    "type": "Depense",
+    "montant_vote": 0,
+    "montant_realise": 52003776.729999974
+  },
+  {
+    "year": 2021,
+    "budget": "Principal",
+    "type": "Depense",
+    "montant_vote": 0,
+    "montant_realise": 1005223347.0000008
+  },
+  {
+    "year": 2021,
+    "budget": "Principal",
+    "type": "Recette",
+    "montant_vote": 0,
+    "montant_realise": 1058885170.1099999
+  },
+  {
+    "year": 2021,
+    "budget": "Eau",
+    "type": "Depense",
+    "montant_vote": 0,
+    "montant_realise": 1208816.66
+  },
+  {
+    "year": 2021,
+    "budget": "Eau",
+    "type": "Recette",
+    "montant_vote": 0,
+    "montant_realise": 6614983.98
+  },
+  {
+    "year": 2021,
+    "budget": "Parking",
+    "type": "Depense",
+    "montant_vote": 0,
+    "montant_realise": 441696.79
+  },
+  {
+    "year": 2021,
+    "budget": "Parking",
+    "type": "Recette",
+    "montant_vote": 0,
+    "montant_realise": 3747577.4000000004
+  },
+  {
+    "year": 2021,
+    "budget": "Spanc",
+    "type": "Depense",
+    "montant_vote": 0,
+    "montant_realise": 51273.97
+  },
+  {
+    "year": 2021,
+    "budget": "Spanc",
+    "type": "Recette",
+    "montant_vote": 0,
+    "montant_realise": 91972.68
+  },
+  {
+    "year": 2022,
+    "budget": "Assainissement",
+    "type": "Depense",
+    "montant_vote": 0,
+    "montant_realise": 55109140.249999985
+  },
+  {
+    "year": 2022,
+    "budget": "Assainissement",
+    "type": "Recette",
+    "montant_vote": 0,
+    "montant_realise": 59529855.69
+  },
+  {
+    "year": 2022,
+    "budget": "Principal",
+    "type": "Recette",
+    "montant_vote": 0,
+    "montant_realise": 1166286021.5499995
+  },
+  {
+    "year": 2022,
+    "budget": "Principal",
+    "type": "Depense",
+    "montant_vote": 0,
+    "montant_realise": 1141857391.47
+  },
+  {
+    "year": 2022,
+    "budget": "Parking",
+    "type": "Recette",
+    "montant_vote": 0,
+    "montant_realise": 4225873.09
+  },
+  {
+    "year": 2022,
+    "budget": "Parking",
+    "type": "Depense",
+    "montant_vote": 0,
+    "montant_realise": 487844.42
+  },
+  {
+    "year": 2022,
+    "budget": "Spanc",
+    "type": "Depense",
+    "montant_vote": 0,
+    "montant_realise": 1926.7000000000003
+  },
+  {
+    "year": 2022,
+    "budget": "Spanc",
+    "type": "Recette",
+    "montant_vote": 0,
+    "montant_realise": 95524.56
+  },
+  {
+    "year": 2023,
+    "budget": "Principal",
+    "type": "Depense",
+    "montant_vote": 0,
+    "montant_realise": 1398336331.9600017
+  },
+  {
+    "year": 2023,
+    "budget": "Principal",
+    "type": "Recette",
+    "montant_vote": 0,
+    "montant_realise": 1413424285.43
+  },
+  {
+    "year": 2023,
+    "budget": "Parking",
+    "type": "Recette",
+    "montant_vote": 0,
+    "montant_realise": 4705823.18
+  },
+  {
+    "year": 2023,
+    "budget": "Parking",
+    "type": "Depense",
+    "montant_vote": 0,
+    "montant_realise": 1077498.44
+  },
+  {
+    "year": 2025,
+    "budget": "Principal",
+    "type": "Depense",
+    "montant_vote": 230242619.48999998,
+    "montant_realise": 1613179108.5900023
+  },
+  {
+    "year": 2025,
+    "budget": "Principal",
+    "type": "Recette",
+    "montant_vote": 283107779.59000003,
+    "montant_realise": 1689055992.9700005
+  },
+  {
+    "year": 2025,
+    "budget": "Parking",
+    "type": "Depense",
+    "montant_vote": 5584341.84,
+    "montant_realise": 1171565.34
+  },
+  {
+    "year": 2025,
+    "budget": "Parking",
+    "type": "Recette",
+    "montant_vote": 5811906.24,
+    "montant_realise": 4218993.369999999
+  }
+]

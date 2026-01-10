@@ -23,6 +23,7 @@ export const Header = component$(() => {
     { label: t("app.menu.home"), href: "/" },
     { label: t("app.menu.inscriptionElectorale"), href: "/inscription" },
     { label: t("app.menu.roleMairieMetropole"), href: "/role-mairie-metropole" },
+    //{ label: t("app.menu.budget"), href: "/budget-explorer" },
     //{ label: t("app.menu.comparator"), href: "/comparateur" },
     { label: t("app.menu.info"), href: "/info" },
   ];
