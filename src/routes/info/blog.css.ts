@@ -10,7 +10,7 @@ export const headerWithCoverImage = style({
   backgroundPosition: "center center",
   backgroundSize: "cover",
   backgroundRepeat: "no-repeat",
-  minHeight: "33vh",
+  minHeight: "50vh",
   //backgroundAttachment: "fixed",
   display: "flex",
   flexDirection: "column",
