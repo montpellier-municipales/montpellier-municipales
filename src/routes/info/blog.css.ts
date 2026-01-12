@@ -1,16 +1,45 @@
 import { style, globalStyle } from "@vanilla-extract/css";
 import { vars } from "~/theme.css";
 
-export const container = style({
-  maxWidth: vars.layout.maxWidth,
-  margin: "0 auto",
-  padding: "2rem",
-  fontFamily: "system-ui, sans-serif",
-});
-
 export const header = style({
   marginBottom: "3rem",
   textAlign: "center",
+});
+
+export const headerWithCoverImage = style({
+  backgroundPosition: "center center",
+  backgroundSize: "cover",
+  backgroundRepeat: "no-repeat",
+  minHeight: "33vh",
+  //backgroundAttachment: "fixed",
+  display: "flex",
+  flexDirection: "column",
+  justifyContent: "flex-end",
+});
+
+export const headerContent = style({
+  selectors: {
+    [`${headerWithCoverImage} &`]: {
+      backgroundColor: vars.color.backdropBackground, // Ensure background is set
+      backdropFilter: "blur(7px)",
+    },
+  },
+});
+
+export const container = style({
+  maxWidth: vars.layout.maxWidth,
+  margin: "0 auto",
+  padding: "1px 2rem 2rem",
+  fontFamily: "system-ui, sans-serif",
+});
+
+export const coverImage = style({
+  width: "100%",
+  height: "auto",
+  maxHeight: "400px",
+  objectFit: "cover",
+  borderRadius: "12px",
+  marginBottom: "2rem",
 });
 
 export const title = style({

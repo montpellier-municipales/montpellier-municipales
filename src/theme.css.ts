@@ -10,6 +10,7 @@ export const vars = createThemeContract({
     text: null,
     textMuted: null,
     border: null,
+    backdropBackground: null,
 
     primary: null,
     primaryHover: null,
@@ -36,7 +37,7 @@ export const vars = createThemeContract({
 // Couleurs de base (Palette Montpellier)
 const palette = {
   montpellierBlue: "#173a92",
-  montpellierDark: "#061115",
+  montpellierDark: "#061115f0",
   yellow: "#eab148",
   yellowDarken: "#c7973d",
   white: "#ffffff",
@@ -58,6 +59,7 @@ export const lightTheme = createTheme(vars, {
     textMuted: palette.gray700,
     title: palette.gray800,
     border: palette.gray200,
+    backdropBackground: "rgba(255, 255, 255, 0.65)",
 
     primary: palette.montpellierBlue,
     primaryHover: "#122c70", // Version plus sombre
@@ -92,6 +94,7 @@ export const darkTheme = createTheme(vars, {
     textMuted: "#94a3b8",
     title: palette.gray200,
     border: "#1e293b",
+    backdropBackground: "#0f1f2e90",
 
     primary: "#4c6ef5", // Bleu plus lumineux pour ressortir sur le noir
     primaryHover: "#3b5bdb",

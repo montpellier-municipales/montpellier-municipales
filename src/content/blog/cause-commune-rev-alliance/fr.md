@@ -5,6 +5,8 @@ date: "2025-12-21"
 author: "L'équipe citoyenne"
 tags: ["cause-commune"]
 excerpt: "Cause Commune et La REV officialisent leur alliance pour les municipales de 2026 à Montpellier, autour d'une 'écologie de rupture' sociale, anticapitaliste et ancrée dans les luttes."
+coverImage: "/images/alliance-entre-REV-et-Cause-Commune.jpg"
+coverImageCredit: "© Photo - DR"
 ---
 
 ## Une alliance politique annoncée

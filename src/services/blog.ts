@@ -33,6 +33,9 @@ async function parseFile(
       excerpt: data.excerpt,
       excerptHtml: excerptHtml as string | undefined,
       content: htmlContent as string,
+      coverImage: data.coverImage,
+      coverImageCredit: data.coverImageCredit,
+      coverImageAlt: data.coverImageAlt,
     };
   } catch {
     return null;

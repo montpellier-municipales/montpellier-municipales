@@ -3,6 +3,8 @@ title: "Nos villes sont-elles devenues des produits financiers ?"
 slug: "nos-villes-produits-financiers"
 date: "2026-01-10"
 author: "L'équipe citoyenne"
+coverImage: "/images/montpellier-finances.webp"
+coverImageAlt: "Montpellier face à la financiarisation de l’immobilier."
 excerpt: "Montpellier face à la financiarisation de l’immobilier. Une analyse de la contradiction entre la construction de bureaux et la pénurie de logements."
 tags: ["Logement", "Urbanisme", "Finance"]
 ---

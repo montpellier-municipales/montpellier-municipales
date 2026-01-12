@@ -5,6 +5,8 @@ date: "2025-12-21"
 author: "L'équipe citoyenne"
 tags: ["les-ecologistes", "la-france-insoumise"]
 excerpt: "Jean-Louis Roumégas (Écologistes) rejette la proposition d'alliance de Nathalie Oziol (LFI) pour les municipales 2026 à Montpellier, invoquant la méthode et des désaccords de fond."
+coverImage: "/images/roumegas-oziol.jpg"
+coverImageCredit: "© Photo · Metropolitain · CN"
 ---
 
 ## Un refus qui rebat les cartes

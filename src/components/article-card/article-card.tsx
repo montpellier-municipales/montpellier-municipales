@@ -16,14 +16,27 @@ export const ArticleCard = component$<ArticleCardProps>(({ post, lang }) => {
   const href = `${prefix}/info/${encodeURI(post.slug)}`;
 
   return (
-    <Link href={href} class={styles.card}>
-      <h2 class={styles.title}>{post.title}</h2>
-      <div class={styles.date}>{post.date}</div>
-      {post.excerptHtml ? (
-        <div class={styles.excerpt} dangerouslySetInnerHTML={post.excerptHtml} />
-      ) : (
-        <p class={styles.excerpt}>{post.excerpt}</p>
-      )}
+    <Link
+      href={href}
+      class={[styles.card, ...(post.coverImage ? [styles.cardWithCover] : [])]}
+      style={
+        post.coverImage
+          ? { backgroundImage: `url('${post.coverImage}')` }
+          : undefined
+      }
+    >
+      <div class={styles.cardContent}>
+        <h2 class={styles.title}>{post.title}</h2>
+        <div class={styles.date}>{post.date}</div>
+        {post.excerptHtml ? (
+          <div
+            class={styles.excerpt}
+            dangerouslySetInnerHTML={post.excerptHtml}
+          />
+        ) : (
+          <p class={styles.excerpt}>{post.excerpt}</p>
+        )}
+      </div>
     </Link>
   );
 });

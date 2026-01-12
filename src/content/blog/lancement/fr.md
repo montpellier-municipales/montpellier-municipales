@@ -3,6 +3,8 @@ title: "Lancement de la plateforme Montpellier Municipales 2026"
 slug: "lancement-plateforme-montpellier-2026"
 date: "2025-12-09"
 author: "L'équipe citoyenne"
+coverImage: "/images/montpellier-peyrou.jpg"
+coverImageAlt: "Vue du Peyrou à Montpellier"
 excerpt: "Bienvenue sur notre comparateur neutre et indépendant pour les élections municipales à Montpellier."
 ---
 

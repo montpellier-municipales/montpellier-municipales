@@ -59,7 +59,7 @@ function main() {
         // Filter: Principal Budget AND Expenses
         if (line.budget !== "Principal" || line.type !== "Depense") continue;
 
-        const code = getFunctionalChapter(line.fonction_code);
+        const code = getFunctionalChapter(line.fonction_code || "");
         // Ignore "NC" or handle it? "NC" usually means accounting flows not related to policies (debt, etc)
         // or just missing data. Let's keep it to see everything.
         

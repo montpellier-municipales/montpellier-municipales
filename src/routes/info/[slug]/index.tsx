@@ -47,21 +47,43 @@ export default component$(() => {
   });
 
   return (
-    <div class={styles.container}>
-      <header class={styles.header}>
-        <h1 class={styles.title}>{data.value.post.title}</h1>
-        <div class={styles.meta}>
-          <span>{data.value.post.date}</span>
-          <span>|</span>
-          <span>{data.value.post.author}</span>
+    <>
+      <header
+        class={[
+          styles.header,
+          ...(data.value.post.coverImage ? [styles.headerWithCoverImage] : []),
+        ]}
+        style={
+          data.value.post.coverImage
+            ? { backgroundImage: `url('${data.value.post.coverImage}')` }
+            : undefined
+        }
+      >
+        <div class={styles.headerContent}>
+          <div class={styles.container}>
+            <h1 class={styles.title}>{data.value.post.title}</h1>
+            <div class={styles.meta}>
+              <span>{data.value.post.date}</span>
+              <span>|</span>
+              <span>{data.value.post.author}</span>
+              {data.value.post.coverImage &&
+                data.value.post.coverImageCredit && (
+                  <>
+                    <span>|</span>
+                    <span>{data.value.post.coverImageCredit}</span>
+                  </>
+                )}
+            </div>
+          </div>
         </div>
       </header>
-
-      <article
-        class={styles.content}
-        dangerouslySetInnerHTML={data.value.post.content}
-      />
-    </div>
+      <div class={styles.container}>
+        <article
+          class={styles.content}
+          dangerouslySetInnerHTML={data.value.post.content}
+        />
+      </div>
+    </>
   );
 });
 
