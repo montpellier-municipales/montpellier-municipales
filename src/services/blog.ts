@@ -4,6 +4,18 @@ import matter from "gray-matter";
 import { marked } from "marked";
 import type { BlogPost } from "~/types/schema";
 
+// Configure marked to encapsulate h2 titles in spans
+marked.use({
+  renderer: {
+    heading: ({ text, depth }: any) => {
+      if (depth === 2) {
+        return `<h2><span>${text}</span></h2>`;
+      }
+      return `<h${depth}>${text}</h${depth}>`;
+    },
+  } as any,
+});
+
 const BLOG_DIR = join(process.cwd(), "src/content/blog");
 
 /**
@@ -18,7 +30,9 @@ async function parseFile(
     const fileContent = await readFile(filePath, "utf-8");
     const { data, content: markdownContent } = matter(fileContent);
     const htmlContent = await marked.parse(markdownContent);
-    const excerptHtml = data.excerpt ? await marked.parse(data.excerpt) : undefined;
+    const excerptHtml = data.excerpt
+      ? await marked.parse(data.excerpt)
+      : undefined;
 
     const publicSlug = data.slug || filenameId;
 
