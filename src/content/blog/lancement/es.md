@@ -4,6 +4,7 @@ slug: "lanzamiento-plataforma-elecciones-montpellier-2026"
 date: "2025-12-09"
 author: "El Equipo Ciudadano"
 excerpt: "Bienvenido a nuestra plataforma de comparación neutral e independiente para las elecciones municipales en Montpellier."
+coverImage: "/images/montpellier-peyrou.jpg"
 ---
 
 ## ¿Por qué este sitio web?

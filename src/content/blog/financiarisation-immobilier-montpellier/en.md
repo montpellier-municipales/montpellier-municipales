@@ -5,6 +5,7 @@ date: "2026-01-10"
 author: "L'équipe citoyenne"
 excerpt: "Montpellier facing the financialization of real estate. An analysis of the contradiction between office construction and housing shortages."
 tags: ["Housing", "Urban Planning", "Finance"]
+coverImage: "/images/montpellier-finances.webp"
 ---
 
 ## Montpellier Facing the Financialization of Real Estate

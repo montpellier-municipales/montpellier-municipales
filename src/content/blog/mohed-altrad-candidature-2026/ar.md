@@ -5,6 +5,8 @@ date: "2025-12-21"
 author: "الفريق المواطن"
 tags: ["mohed-altrad"]
 excerpt: "محمد ألتراد يرسل إشارات متعددة نحو ترشحه لعام 2026، رغم ماضيه القضائي الثقيل وولاية سابقة لم يتم الوفاء بها إلى حد كبير. تحليل لاستراتيجية مثيرة للجدل."
+coverImage: "/images/mohed-altrad-candidature-municipales.jpg"
+coverImageCredit: "© Photo · Midi Libre · Y. PO."
 ---
 
 ## تصريح مدروس للغاية

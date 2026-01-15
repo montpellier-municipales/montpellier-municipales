@@ -4,6 +4,7 @@ slug: "itlaq-manassa-intikhabat-montpellier-2026"
 date: "2025-12-09"
 author: "فريق المواطنين"
 excerpt: "مرحبًا بكم في منصتنا المحايدة والمستقلة للمقارنة بين قوائم الانتخابات البلدية في مونبلييه."
+coverImage: "/images/montpellier-peyrou.jpg"
 ---
 
 ## لماذا هذا الموقع؟

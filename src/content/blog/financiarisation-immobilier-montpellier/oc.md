@@ -5,6 +5,7 @@ date: "2026-01-10"
 author: "L'équipe citoyenne"
 excerpt: "Montpelhièr de cara a la financiarizacion de l’imobiliari. Una analisi de la contradiccion entre la construccion de burèus et la manca de lotjaments."
 tags: ["Lotjament", "Urbanisme", "Finança"]
+coverImage: "/images/montpellier-finances.webp"
 ---
 
 ## Montpelhièr de cara a la financiarizacion de l’imobiliari

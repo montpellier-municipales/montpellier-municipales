@@ -5,6 +5,8 @@ date: "2025-12-21"
 author: "L'equipa ciutadana"
 tags: ["cause-commune"]
 excerpt: "Causa Comuna e La REV oficializan lor aliança per las municipalas de 2026 a Montpelhièr, a l'entorn d'una 'ecologia de ruptura' sociala, anticapitalista e ancorada dins las luchas."
+coverImage: "/images/alliance-entre-REV-et-Cause-Commune.jpg"
+coverImageCredit: "© Photo - DR"
 ---
 
 ## Una aliança politica anonciada

@@ -5,6 +5,7 @@ date: "2026-01-10"
 author: "L'équipe citoyenne"
 excerpt: "Montpellier frente a la financiarización inmobiliaria. Un análisis de la contradicción entre la construcción de oficinas y la escasez de viviendas."
 tags: ["Vivienda", "Urbanismo", "Finanzas"]
+coverImage: "/images/montpellier-finances.webp"
 ---
 
 ## Montpellier frente a la financiarización inmobiliaria

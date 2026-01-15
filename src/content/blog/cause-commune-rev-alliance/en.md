@@ -5,6 +5,8 @@ date: "2025-12-21"
 author: "The Citizen Team"
 tags: ["cause-commune"]
 excerpt: "Cause Commune and La REV formalize their alliance for the 2026 municipal elections in Montpellier, centered on a 'breakaway ecology' that is social, anti-capitalist, and rooted in concrete struggles."
+coverImage: "/images/alliance-entre-REV-et-Cause-Commune.jpg"
+coverImageCredit: "© Photo - DR"
 ---
 
 ## A Political Alliance Announced

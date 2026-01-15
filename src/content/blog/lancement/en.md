@@ -4,6 +4,7 @@ slug: "launch-montpellier-elections-platform-2026"
 date: "2025-12-09"
 author: "The Citizen Team"
 excerpt: "Welcome to our neutral and independent comparison platform for the municipal elections in Montpellier."
+coverImage: "/images/montpellier-peyrou.jpg"
 ---
 
 ## Why this website?
