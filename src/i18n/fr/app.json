@@ -1,7 +1,7 @@
 {
   "app": {
     "title": "Montpellier Municipales 2026",
-    "subtitle": "Le comparateur citoyen",
+    "subtitle": "Le média citoyen des élections municipales 2026 à Montpellier",
     "menu": {
       "home": "Accueil",
       "comparator": "Comparateur",
@@ -26,5 +26,13 @@
   },
   "languageSwitcher": {
     "label": "Langue"
+  },
+  "footer": {
+    "contact": "Contact",
+    "whoAreWe": "Qui sommes-nous ?",
+    "legalNotices": "Mentions légales",
+    "privacyPolicy": "Politique de confidentialité",
+    "followUs": "Suivez-nous sur Instagram",
+    "copyright": "Sauf mention contraire, les contenus de ce site sont mis à disposition sous licence CC BY-SA 4.0."
   }
 }

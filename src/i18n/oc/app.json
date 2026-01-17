@@ -1,7 +1,7 @@
 {
   "app": {
     "title": "Montpelhièr Municipalas 2026",
-    "subtitle": "Lo comparator ciutadan",
+    "subtitle": "Lo mèdia ciutadan de las eleccions municipalas de 2026 a Montpelhièr",
     "menu": {
       "home": "Acuèlh",
       "comparator": "Comparador",
@@ -26,5 +26,13 @@
   },
   "languageSwitcher": {
     "label": "Lenga"
+  },
+  "footer": {
+    "contact": "Contacte",
+    "whoAreWe": "Qui sèm ?",
+    "legalNotices": "Mencions legalas",
+    "privacyPolicy": "Politica de confidencialitat",
+    "followUs": "Seguissètz-nos sus Instagram",
+    "copyright": "Levat mencion contrària, los contenguts d'aqueste site son mes a disposicion jos licéncia CC BY-SA 4.0."
   }
 }

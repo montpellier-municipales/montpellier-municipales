@@ -1,6 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 
-import MontpellierMunicipalesLogo from "~/static/monptellier-municipales.svg?jsx";
+import MontpellierMunicipalesLogo from "~/static/monptellier-municipales-2.svg?jsx";
 import { subTitle, title } from "./logo.css";
 
 interface Props {
@@ -12,7 +12,7 @@ export const Logo = component$<Props>(({ tag = "h1" }) => {
 
   return (
     <>
-      <MontpellierMunicipalesLogo height="32px" preserveAspectRatio="meet" />
+      <MontpellierMunicipalesLogo height="32px" preserveAspectRatio="xMinYMin meet" />
       <Tag class={title}>
         <div>Montpellier</div>
         <div class={subTitle}>municipales 2026</div>

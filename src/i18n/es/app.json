@@ -1,7 +1,7 @@
 {
   "app": {
     "title": "Elecciones Municipales Montpellier 2026",
-    "subtitle": "El comparador ciudadano",
+    "subtitle": "El medio ciudadano de las elecciones municipales de 2026 en Montpellier",
     "menu": {
       "home": "Inicio",
       "comparator": "Comparador",
@@ -26,5 +26,13 @@
   },
   "languageSwitcher": {
     "label": "Idioma"
+  },
+  "footer": {
+    "contact": "Contacto",
+    "whoAreWe": "¿Quiénes somos?",
+    "legalNotices": "Avisos legales",
+    "privacyPolicy": "Política de privacidad",
+    "followUs": "Síguenos en Instagram",
+    "copyright": "A menos que se indique lo contrario, los contenidos de este sitio están disponibles bajo la licencia CC BY-SA 4.0."
   }
 }
