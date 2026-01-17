@@ -1,2 +1,2 @@
-import { serveStaticMarkdown } from "~/utils/markdown-server";
-export const onGet = serveStaticMarkdown("home");
+import { serveHomeMarkdown } from "~/utils/markdown-server";
+export const onGet = serveHomeMarkdown;
