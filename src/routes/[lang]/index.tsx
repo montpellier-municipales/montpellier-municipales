@@ -1,8 +1,8 @@
 import { config } from "~/speak-config";
-import Home, { useLists, head } from "../index";
+import Home, { useLists, useHomeContent, head } from "../index";
 import type { StaticGenerateHandler } from "@builder.io/qwik-city";
 
-export { useLists, head };
+export { useLists, useHomeContent, head };
 export default Home;
 
 export const onStaticGenerate: StaticGenerateHandler = async () => {

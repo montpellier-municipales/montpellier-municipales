@@ -1,4 +1,4 @@
-import { style } from "@vanilla-extract/css";
+import { style, globalStyle } from "@vanilla-extract/css";
 import { vars } from "~/theme.css";
 
 export const container = style({
@@ -17,7 +17,6 @@ export const title = style({
   fontSize: "3rem",
   fontWeight: "800",
   marginBottom: "1rem",
-  //background: "linear-gradient(45deg, #3498db, #8e44ad)",
   backgroundColor: vars.color.primary,
   WebkitBackgroundClip: "text",
   WebkitTextFillColor: "transparent",
@@ -30,10 +29,51 @@ export const subtitle = style({
   margin: "0 auto",
 });
 
+export const textSection = style({
+  margin: "0 auto",
+  maxWidth: vars.layout.maxWidth,
+  color: vars.color.text,
+});
+
+globalStyle(`${textSection} h1`, {
+  fontSize: "3rem",
+  fontWeight: "800",
+  marginBottom: "1rem",
+  backgroundColor: vars.color.primary,
+  WebkitBackgroundClip: "text",
+  WebkitTextFillColor: "transparent",
+  textAlign: "center",
+});
+
+globalStyle(`${textSection} h2`, {
+  fontSize: "2rem",
+  fontWeight: "bold",
+  marginBottom: "1.5rem",
+  color: vars.color.title,
+  marginTop: "3rem",
+});
+
+globalStyle(`${textSection} p`, {
+  lineHeight: "1.6",
+  fontSize: "1.1rem",
+});
+
+globalStyle(`${textSection} ul li`, {
+  marginBottom: "1rem",
+});
+
+export const sectionTitle = style({
+  fontSize: "2rem",
+  fontWeight: "bold",
+  marginBottom: "1.5rem",
+  color: vars.color.title,
+});
+
 export const grid = style({
   display: "grid",
   gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))",
   gap: "2rem",
+  margin: "4rem 0",
 });
 
 export const card = style({
