@@ -62,6 +62,36 @@ export const RouterHead = component$(() => {
     });
   }
 
+  // Add markdown source link for content pages
+  const cleanPurePath = purePath.endsWith("/") && purePath.length > 1 ? purePath.slice(0, -1) : purePath;
+  const isContentPage = [
+    "/",
+    "/contact",
+    "/inscription",
+    "/mentions-legales",
+    "/politique-confidentialite",
+    "/qui-sommes-nous",
+    "/role-mairie-metropole",
+  ].includes(cleanPurePath) || (cleanPurePath.startsWith("/info/") && cleanPurePath.length > 6);
+
+  if (isContentPage) {
+    let mdHref = "";
+    const basePath = loc.url.pathname.endsWith("/") ? loc.url.pathname.slice(0, -1) : loc.url.pathname;
+    
+    if (cleanPurePath === "/") {
+      mdHref = basePath + "/index.md";
+    } else {
+      mdHref = basePath + ".md";
+    }
+
+    newLinks.push({
+      rel: "alternate",
+      type: "text/markdown",
+      href: mdHref,
+      title: "Markdown Source",
+    } as any);
+  }
+
   return (
     <>
       <title>{head.title}</title>

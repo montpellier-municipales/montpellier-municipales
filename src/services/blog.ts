@@ -47,6 +47,7 @@ async function parseFile(
       excerpt: data.excerpt,
       excerptHtml: excerptHtml as string | undefined,
       content: htmlContent as string,
+      contentMarkdown: markdownContent,
       coverImage: data.coverImage,
       coverImageCredit: data.coverImageCredit,
       coverImageAlt: data.coverImageAlt,

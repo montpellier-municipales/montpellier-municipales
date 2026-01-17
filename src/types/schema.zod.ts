@@ -61,9 +61,10 @@ export const BlogPostSchema = z.object({
   excerpt: z.string(),
   excerptHtml: z.string().optional(),
   content: z.string(),
+  contentMarkdown: z.string().optional(),
   coverImage: z.string().optional(),
-  coverImageCredit: z.string().optional(),
   coverImageAlt: z.string().optional(),
+  coverImageCredit: z.string().optional(),
 });
 
 export type BlogPost = z.infer<typeof BlogPostSchema>;
