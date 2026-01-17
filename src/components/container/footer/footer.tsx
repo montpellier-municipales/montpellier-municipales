@@ -1,8 +1,8 @@
 import { component$ } from "@builder.io/qwik";
 import { Link } from "@builder.io/qwik-city";
 import { inlineTranslate } from "qwik-speak";
-import LogoSvg from "~/static/monptellier-municipales-2.svg?jsx";
 import * as styles from "./footer.css";
+import { Logo } from "~/components/logo/logo";
 
 export const Footer = component$(() => {
   const t = inlineTranslate();
@@ -12,8 +12,9 @@ export const Footer = component$(() => {
       <div class={styles.container}>
         {/* Colonne Marque */}
         <div class={styles.brandColumn}>
-          <LogoSvg class={styles.logo} width={60} height={60} />
-          <div class={styles.title}>{t("app.title")}</div>
+          <div class={styles.logo}>
+            <Logo />
+          </div>
           <p class={styles.tagline}>{t("app.subtitle")}</p>
         </div>
 
@@ -34,7 +35,7 @@ export const Footer = component$(() => {
         </div>
 
         {/* Colonne Social */}
-        <div class={styles.socialColumn}>
+        {/*<div class={styles.socialColumn}>
           <a
             href="https://instagram.com/montpelliermunicipales2026"
             target="_blank"
@@ -58,7 +59,7 @@ export const Footer = component$(() => {
             </svg>
             <span>{t("footer.followUs")}</span>
           </a>
-        </div>
+        </div>*/}
       </div>
 
       <div class={styles.copyright}>

@@ -16,16 +16,16 @@ export const container = style({
   gap: "3rem",
   "@media": {
     "screen and (min-width: 768px)": {
-      gridTemplateColumns: "1fr 1fr 1fr",
+      //gridTemplateColumns: "1fr 1fr 1fr",
+      gridTemplateColumns: "1fr 1fr",
     },
   },
 });
 
 export const brandColumn = style({
   display: "flex",
-  flexDirection: "column",
-  gap: "1rem",
   alignItems: "center",
+  flexDirection: "column",
   textAlign: "center",
   "@media": {
     "screen and (min-width: 768px)": {
@@ -36,9 +36,12 @@ export const brandColumn = style({
 });
 
 export const logo = style({
-  width: "60px",
-  height: "60px",
-  objectFit: "contain",
+  display: "flex",
+  alignItems: "center",
+  gap: 16,
+  padding: "4px 0",
+  flexDirection: "row",
+  textAlign: "center",
 });
 
 export const title = style({
