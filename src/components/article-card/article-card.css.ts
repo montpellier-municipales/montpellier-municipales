@@ -4,6 +4,9 @@ import { vars } from "~/theme.css";
 export const card = style({
   display: "block",
   border: `1px solid ${vars.color.border}`,
+  minWidth: "360px",
+  maxWidth: "100%",
+  flex: "1 0 360px",
   borderRadius: "8px",
   textDecoration: "none",
   color: "inherit",

@@ -131,3 +131,35 @@ export const tag = style({
   marginRight: "0.5rem",
   marginBottom: "0.5rem",
 });
+
+export const newsPreview = style({
+  display: "flex",
+  flexDirection: "column",
+  gap: 24,
+  alignItems: "center",
+});
+
+export const articlesContainer = style({
+  display: "flex",
+  alignItems: "stretch",
+  justifyContent: "space-between",
+  gap: 16,
+  flexWrap: "wrap",
+});
+
+export const link = style({
+  display: "inline-block",
+  textAlign: "center",
+  backgroundColor: vars.color.secondary,
+  color: vars.color.text, // Le texte sur le jaune est souvent foncé
+  padding: "0.75rem 1.5rem",
+  borderRadius: "50px",
+  fontWeight: "bold",
+  textDecoration: "none",
+  transition: `transform 0.2s ${vars.defaultTransition}`,
+  ":hover": {
+    backgroundColor: vars.color.secondaryHover,
+    transform: "scale(1.05)",
+    textDecoration: "none",
+  },
+});

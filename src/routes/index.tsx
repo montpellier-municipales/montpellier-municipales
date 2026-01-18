@@ -9,6 +9,8 @@ import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { marked } from "marked";
 import { markdownRenderer } from "~/utils";
+import { getBlogPosts } from "~/services/blog";
+import { ArticleCard } from "~/components/article-card/article-card";
 
 const HOME_CONTENT_DIR = join(process.cwd(), "src/content/home");
 
@@ -66,7 +68,7 @@ export const useHomeContent = routeLoader$(
       console.error("Error loading home content:", error);
       return [];
     }
-  }
+  },
 );
 
 // Chargement des données côté serveur
@@ -74,14 +76,23 @@ export const useLists = routeLoader$(async () => {
   return await getAllLists();
 });
 
+export const useBlogPosts = routeLoader$(async ({ locale }) => {
+  const lang = locale() || config.defaultLocale.lang;
+  return await getBlogPosts(lang);
+});
+
 export default component$(() => {
-  useSpeak({ assets: ["home"] });
+  useSpeak({ assets: ["home", "actu"] });
 
   const t = inlineTranslate();
   const lists = useLists();
   const content = useHomeContent();
   const ctx = useSpeakContext();
+  const posts = useBlogPosts();
   const lang = ctx.locale.lang;
+
+  const newsLink =
+    lang === config.defaultLocale.lang ? "/actu" : `/${lang}/actu`;
 
   // Redirection automatique côté client basée sur la langue du navigateur
   // eslint-disable-next-line qwik/no-use-visible-task
@@ -97,7 +108,7 @@ export default component$(() => {
       if (!hasRedirected && browserLang !== config.defaultLocale.lang) {
         // Vérifie si la langue du navigateur est supportée
         const isSupported = config.supportedLocales.some(
-          (l) => l.lang === browserLang
+          (l) => l.lang === browserLang,
         );
 
         if (isSupported) {
@@ -180,6 +191,18 @@ export default component$(() => {
           />
         );
       })}
+
+      <div class={styles.newsPreview}>
+        <h2>{t("actu.subTitle")}</h2>
+        <div class={styles.articlesContainer}>
+          {posts.value.slice(0, 3).map((post) => (
+            <ArticleCard key={post.slug} post={post} lang={lang} />
+          ))}
+        </div>
+        <Link href={newsLink} class={styles.link}>
+          {t("home.viewAllNews")}
+        </Link>
+      </div>
     </div>
   );
 });
