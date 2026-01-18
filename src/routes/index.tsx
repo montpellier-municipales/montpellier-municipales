@@ -196,11 +196,11 @@ export default component$(() => {
 export const head: DocumentHead = () => {
   const t = inlineTranslate();
   return {
-    title: t("home.heroTitle"),
+    title: t("app.title"),
     meta: [
       {
         name: "description",
-        content: t("home.heroSubtitle"),
+        content: t("app.subtitle"),
       },
     ],
   };
