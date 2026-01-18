@@ -9,7 +9,7 @@ tags: ["candidats", "michael-delafosse", "municipales-2026", "montpellier"]
 excerpt: "Le maire sortant Michaël Delafosse annonce officiellement sa candidature pour un second mandat, prônant la continuité et la transformation."
 ---
 
-Michaël Delafosse, maire socialiste sortant de **Montpellier**, a officiellement annoncé sa candidature à un **second mandat** à la tête de la ville pour les élections municipales prévues en **mars 2026**. Cette annonce, attendue depuis plusieurs semaines, vient formaliser une campagne déjà amorcée de fait par le maire depuis l’automne dernier.
+[Michaël Delafosse](/listes/michael-delafosse), maire socialiste sortant de **Montpellier**, a officiellement annoncé sa candidature à un **second mandat** à la tête de la ville pour les élections municipales prévues en **mars 2026**. Cette annonce, attendue depuis plusieurs semaines, vient formaliser une campagne déjà amorcée de fait par le maire depuis l’automne dernier.
 
 ## Une annonce attendue mais confirmée
 

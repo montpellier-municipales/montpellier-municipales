@@ -3,13 +3,13 @@ title: "Michaël Delafosse Officially Announces Candidacy for Montpellier Mayor 
 slug: "michael-delafosse-candidacy-2026"
 date: "2026-01-17"
 author: "L'équipe citoyenne"
-coverImage: "/images/montpellier-peyrou.jpg"
+coverImage: "/images/le-maire-socialiste-de-montpellier-michael-delafosse.jpg"
 coverImageAlt: "Michaël Delafosse Candidacy 2026"
 tags: ["candidates", "michael-delafosse", "municipal-2026", "montpellier"]
 excerpt: "Outgoing Mayor Michaël Delafosse officially announces his candidacy for a second term, advocating for continuity and transformation."
 ---
 
-Michaël Delafosse, the outgoing Socialist mayor of **Montpellier**, has officially announced his candidacy for a **second term** at the head of the city for the municipal elections scheduled for **March 2026**. This announcement, expected for several weeks, formalizes a campaign already effectively initiated by the mayor since last autumn.
+[Michaël Delafosse](/en/listes/michael-delafosse), the outgoing Socialist mayor of **Montpellier**, has officially announced his candidacy for a **second term** at the head of the city for the municipal elections scheduled for **March 2026**. This announcement, expected for several weeks, formalizes a campaign already effectively initiated by the mayor since last autumn.
 
 ## An Expected but Confirmed Announcement
 

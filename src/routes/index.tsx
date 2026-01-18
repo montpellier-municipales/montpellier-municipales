@@ -22,10 +22,8 @@ const enum Components {
 export const useHomeContent = routeLoader$(
   async ({ locale }): Promise<(Components | string)[]> => {
     const lang = locale() || config.defaultLocale.lang;
-    // Fallback to default lang if file doesn't exist?
     let filePath = join(HOME_CONTENT_DIR, `${lang}.md`);
 
-    // Simple check or try/catch
     try {
       await readFile(filePath);
     } catch {
@@ -37,12 +35,14 @@ export const useHomeContent = routeLoader$(
       const htmlContent = await marked.parse(fileContent, {
         renderer: markdownRenderer,
       });
+      // Logic to split by placeholders
       const parts = htmlContent.split("<!-- candidates -->", 2);
       const { beforeCandidates, afterCandidates } = {
         beforeCandidates: parts[0] || "",
         afterCandidates: parts[1] || "",
       };
       const beforeSplit = beforeCandidates.split("<!-- countdown -->", 2);
+
       if (beforeSplit.length === 2) {
         return [
           beforeSplit[0],
@@ -52,7 +52,7 @@ export const useHomeContent = routeLoader$(
           afterCandidates,
         ];
       } else {
-        const afterSplit = beforeCandidates.split("<!-- countdown -->", 2);
+        const afterSplit = afterCandidates.split("<!-- countdown -->", 2);
         if (afterSplit.length === 2) {
           return [
             beforeCandidates,
@@ -71,14 +71,14 @@ export const useHomeContent = routeLoader$(
   },
 );
 
-// Chargement des données côté serveur
 export const useLists = routeLoader$(async () => {
   return await getAllLists();
 });
 
-export const useBlogPosts = routeLoader$(async ({ locale }) => {
+export const useLatestPosts = routeLoader$(async ({ locale }) => {
   const lang = locale() || config.defaultLocale.lang;
-  return await getBlogPosts(lang);
+  const posts = await getBlogPosts(lang);
+  return posts.slice(0, 3);
 });
 
 export default component$(() => {
@@ -87,33 +87,22 @@ export default component$(() => {
   const t = inlineTranslate();
   const lists = useLists();
   const content = useHomeContent();
+  const latestPosts = useLatestPosts();
   const ctx = useSpeakContext();
-  const posts = useBlogPosts();
   const lang = ctx.locale.lang;
 
-  const newsLink =
-    lang === config.defaultLocale.lang ? "/actu" : `/${lang}/actu`;
-
-  // Redirection automatique côté client basée sur la langue du navigateur
   // eslint-disable-next-line qwik/no-use-visible-task
   useVisibleTask$(() => {
-    // On ne redirige que si on est sur la racine (langue par défaut)
     if (typeof window === "undefined") return;
     if (lang === config.defaultLocale.lang) {
       const browserLang = navigator.language.split("-")[0];
-
-      // On vérifie si on a déjà redirigé l'utilisateur durant cette session
       const hasRedirected = sessionStorage.getItem("lang-redirect");
-
       if (!hasRedirected && browserLang !== config.defaultLocale.lang) {
-        // Vérifie si la langue du navigateur est supportée
         const isSupported = config.supportedLocales.some(
           (l) => l.lang === browserLang,
         );
-
         if (isSupported) {
           sessionStorage.setItem("lang-redirect", "true");
-
           window.location.href = `/${browserLang}/`;
         }
       }
@@ -139,7 +128,6 @@ export default component$(() => {
                   href={getLocalizedLink(`/listes/${list.id}`)}
                   class={styles.card}
                 >
-                  {/* Image Placeholder ou réelle */}
                   <div class={styles.cardImage}>
                     {list.logoUrl ? (
                       // eslint-disable-next-line qwik/jsx-img
@@ -157,14 +145,12 @@ export default component$(() => {
                       <span>{t("home.noImage")}</span>
                     )}
                   </div>
-
                   <div class={styles.cardContent}>
                     <h2 class={styles.cardTitle}>{list.name}</h2>
                     <p class={styles.cardSubtitle}>
                       {t("home.headOfList")} :{" "}
                       <strong>{list.headOfList}</strong>
                     </p>
-
                     <div>
                       {list.parties.slice(0, 3).map((party) => (
                         <span key={party} class={styles.tag}>
@@ -192,17 +178,17 @@ export default component$(() => {
         );
       })}
 
-      <div class={styles.newsPreview}>
-        <h2>{t("actu.subTitle")}</h2>
+      <section class={styles.newsPreview}>
+        <h2 class={styles.sectionTitle}>{t("app.latestNews")}</h2>
         <div class={styles.articlesContainer}>
-          {posts.value.slice(0, 3).reverse().map((post) => (
+          {latestPosts.value.reverse().map((post) => (
             <ArticleCard key={post.slug} post={post} lang={lang} />
           ))}
         </div>
-        <Link href={newsLink} class={styles.link}>
+        <Link href={getLocalizedLink("/info")} class={styles.buttonLink}>
           {t("home.viewAllNews")}
         </Link>
-      </div>
+      </section>
     </div>
   );
 });

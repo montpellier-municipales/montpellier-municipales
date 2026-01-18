@@ -147,7 +147,7 @@ export const articlesContainer = style({
   flexWrap: "wrap-reverse",
 });
 
-export const link = style({
+export const buttonLink = style({
   display: "inline-block",
   textAlign: "center",
   backgroundColor: vars.color.secondary,

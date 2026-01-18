@@ -3,13 +3,13 @@ title: "Michaël Delafosse oficializa sa candidatura a la comuna de Montpelhièr
 slug: "michael-delafosse-candidatura-2026"
 date: "2026-01-17"
 author: "L'équipe citoyenne"
-coverImage: "/images/montpellier-peyrou.jpg"
+coverImage: "/images/le-maire-socialiste-de-montpellier-michael-delafosse.jpg"
 coverImageAlt: "Candidatura de Michaël Delafosse 2026"
 tags: ["candidats", "michael-delafosse", "municipalas-2026", "montpelhièr"]
 excerpt: "Lo cònsol sortent Michaël Delafosse anóncia oficialament sa candidatura per un segond mandat, en preusant la continuitat e la transformacion."
 ---
 
-Michaël Delafosse, cònsol socialista sortent de **Montpelhièr**, a oficialament anonciat sa candidatura a un **segond mandat** al cap de la vila per las eleccions municipalas previstas en **març de 2026**. Aquesta anóncia, esperada dempuèi mantuna setmana, ven formalizar una campanha ja amorçada de fach pel cònsol dempuèi la davalada darrièra.
+[Michaël Delafosse](/oc/listes/michael-delafosse), cònsol socialista sortent de **Montpelhièr**, a oficialament anonciat sa candidatura a un **segond mandat** al cap de la vila per las eleccions municipalas previstas en **març de 2026**. Aquesta anóncia, esperada dempuèi mantuna setmana, ven formalizar una campanha ja amorçada de fach pel cònsol dempuèi la davalada darrièra.
 
 ## Una anóncia esperada mas confirmada
 

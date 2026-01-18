@@ -3,13 +3,13 @@ title: "Michaël Delafosse oficializa su candidatura a la alcaldía de Montpelli
 slug: "michael-delafosse-candidatura-2026"
 date: "2026-01-17"
 author: "L'équipe citoyenne"
-coverImage: "/images/montpellier-peyrou.jpg"
+coverImage: "/images/le-maire-socialiste-de-montpellier-michael-delafosse.jpg"
 coverImageAlt: "Candidatura de Michaël Delafosse 2026"
 tags: ["candidatos", "michael-delafosse", "municipales-2026", "montpellier"]
 excerpt: "El alcalde saliente Michaël Delafosse anuncia oficialmente su candidatura para un segundo mandato, abogando por la continuidad y la transformación."
 ---
 
-Michaël Delafosse, alcalde socialista saliente de **Montpellier**, ha anunciado oficialmente su candidatura a un **segundo mandato** al frente de la ciudad para las elecciones municipales previstas en **marzo de 2026**. Este anuncio, esperado desde hace varias semanas, formaliza una campaña ya iniciada de hecho por el alcalde desde el pasado otoño.
+[Michaël Delafosse](/es/listes/michael-delafosse), alcalde socialista saliente de **Montpellier**, ha anunciado oficialmente su candidatura a un **segundo mandato** al frente de la ciudad para las elecciones municipales previstas en **marzo de 2026**. Este anuncio, esperado desde hace varias semanas, formaliza una campaña ya iniciada de hecho por el alcalde desde el pasado otoño.
 
 ## Un anuncio esperado pero confirmado
 
