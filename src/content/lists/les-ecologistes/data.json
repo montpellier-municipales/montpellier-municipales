@@ -1,10 +1,10 @@
 {
   "$schema": "../../../types/schema.json",
   "id": "les-ecologistes",
-  "name": "Les Écologistes",
+  "name": "Printemps montpelliérain",
   "headOfList": "Jean-Louis Roumégas",
   "parties": [
-    "Les Écologistes"
+    "Les Écologistes", "Génération·s", "L'Après 34", "Assemblée des quartiers"
   ],
   "logoUrl": "/images/ecologistes.png",
   "candidatePictureUrl": "/images/ecologistes-candidat.webp",

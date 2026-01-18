@@ -1,0 +1,59 @@
+{
+  "$schema": "../../../types/schema.json",
+  "id": "michael-delafosse",
+  "disabled": false,
+  "name": "Montpellier Unie",
+  "headOfList": "Michaël Delafosse",
+  "parties": [
+    "Parti Socialiste",
+    "Parti Radical de Gauche",
+    "Parti Communiste",
+    "Place Publique",
+    "Génération Écologie",
+    "Parti Animaliste"
+  ],
+  "logoUrl": "/images/parti-socialiste.png",
+  "candidatePictureUrl": "/images/michael-delafosse.jpg",
+  "fame": 10,
+  "socials": {
+    "twitter": "https://twitter.com/MDelafosse",
+    "facebook": "https://facebook.com/MichaelDelafosseOfficiel",
+    "instagram": "https://www.instagram.com/michaeldelafosse/"
+  },
+  "program": [
+    {
+      "themeId": "transport",
+      "summary": {
+        "fr": "Maintien et extension de la gratuité des transports.",
+        "en": "Maintenance and extension of free public transport.",
+        "es": "Mantenimiento y extensión de la gratuidad del transporte.",
+        "oc": "Mantenement e extension de la gratuitat dels transpòrts.",
+        "ar": "الحفاظ على مجانية النقل وتوسيعها."
+      },
+      "details": {
+        "fr": "Poursuite de la gratuité totale des transports pour les habitants de la métropole, développement du réseau de tramway et de bus à haut niveau de service.",
+        "en": "Continuation of total free transport for metropolis residents, development of the tramway network and high-level service buses.",
+        "es": "Continuación de la gratuidad total del transporte para los habitantes de la metrópoli, desarrollo de la red de tranvía y autobuses de alto nivel de servicio.",
+        "oc": "Seguida de la gratuitat totala dels transpòrts pels abitants de la metropòli, desvolopament de la ret de tramvai e de bus a naut nivèl de servicis.",
+        "ar": "استمرار المجانية الكاملة للنقل لسكان الميتروبول، وتطوير شبكة الترام والحافلات ذات مستوى الخدمة العالي."
+      }
+    },
+    {
+      "themeId": "urbanisme",
+      "summary": {
+        "fr": "Rénovation urbaine et végétalisation.",
+        "en": "Urban renovation and greening.",
+        "es": "Renovación urbana y vegetalización.",
+        "oc": "Renovacion urbana e vegetalizacion.",
+        "ar": "التجديد الحضري والتشجير."
+      },
+      "details": {
+        "fr": "Transformation des quartiers, apaisement de l'espace public, et poursuite de la végétalisation de la ville pour s'adapter au changement climatique.",
+        "en": "Transformation of neighborhoods, calming of public space, and continued greening of the city to adapt to climate change.",
+        "es": "Transformación de los barrios, pacificación del espacio público y continuación de la vegetalización de la ciudad para adaptarse al cambio climático.",
+        "oc": "Transformacion dels quartièrs, amaisament de l'espaci public, e seguida de la vegetalizacion de la vila per s'adaptar al cambiament climatic.",
+        "ar": "تحويل الأحياء، وتهدئة الفضاء العام، ومواصلة تشجير المدينة للتكيف مع التغير المناخي."
+      }
+    }
+  ]
+}

@@ -5,8 +5,8 @@ date: "2025-12-21"
 author: "El equipo ciudadano"
 tags: ["mohed-altrad"]
 excerpt: "Mohed Altrad multiplica las señales hacia una candidatura en 2026, a pesar de un pasado judicial pesado y un mandato anterior poco cumplido. Análisis de una estrategia controvertida."
-coverImage: "/images/mohed-altrad-candidature-municipales.jpg"
-coverImageCredit: "© Photo · Midi Libre · Y. PO."
+coverImage: "/images/mohed-altrad.avif"
+coverImageCredit: "© LTP · Emma Laupa"
 ---
 
 ## Una declaración muy calculada

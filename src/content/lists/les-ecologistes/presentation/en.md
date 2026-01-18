@@ -2,7 +2,7 @@
 
 In Montpellier, Les Écologistes have a long-standing presence, both activist and institutional, and have participated in various electoral configurations and municipal majorities over the past decades.
 
-For the 2026 municipal elections, Les Écologistes have announced the formation of an **autonomous ecological list**, led by **Jean-Louis Roumégas**.
+For the 2026 municipal elections, Les Écologistes have announced the formation of an **autonomous ecologist list**, titled **"Printemps montpelliérain"** and led by **Jean-Louis Roumégas**.
 
 ### Jean-Louis Roumégas and Political Ecology in Montpellier
 

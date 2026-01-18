@@ -2,7 +2,7 @@
 
 À Montpellier, Les Écologistes disposent d’un ancrage ancien, à la fois militant et institutionnel, et ont participé à différentes configurations électorales et majorités municipales au cours des dernières décennies.
 
-Pour les élections municipales de 2026, Les Écologistes ont annoncé la constitution d’une **liste écologiste autonome**, conduite par **Jean‑Louis Roumégas**.
+Pour les élections municipales de 2026, Les Écologistes ont annoncé la constitution d’une **liste écologiste autonome**, intitulée **« Printemps montpelliérain »** et conduite par **Jean‑Louis Roumégas**.
 
 ### Jean‑Louis Roumégas et l’écologie politique à Montpellier
 

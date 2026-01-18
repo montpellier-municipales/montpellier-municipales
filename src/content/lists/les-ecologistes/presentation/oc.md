@@ -4,7 +4,7 @@ Lo movement defend una transformacion ecologica de la societat articulada a la j
 
 A Montpelhièr, Los Ecologistas dispausan d’un ancoratge ancian, a l'encòp militant e institucional, e an participat a diferentas configuracions electoralas e majoritats municipalas al cors de las darrièras decennias.
 
-Per las eleccions municipalas de 2026, Los Ecologistas an anonciat la constitucion d’una **lista ecologista autonòma**, menada per **Jean‑Louis Roumégas**.
+Per las eleccions municipalas de 2026, Les Écologistes an anonciat la constitucion d’una **lista ecologista autonòma**, entitolada **« Printemps montpelliérain »** e menada per **Jean‑Louis Roumégas**.
 
 ### Jean‑Louis Roumégas e l’ecologia politica a Montpelhièr
 

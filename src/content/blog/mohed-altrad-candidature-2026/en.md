@@ -5,8 +5,8 @@ date: "2025-12-21"
 author: "The Citizen Team"
 tags: ["mohed-altrad"]
 excerpt: "Mohed Altrad multiplies signals towards a 2026 candidacy, despite a heavy judicial past and a previous mandate largely unfulfilled. Analysis of a controversial strategy."
-coverImage: "/images/mohed-altrad-candidature-municipales.jpg"
-coverImageCredit: "© Photo · Midi Libre · Y. PO."
+coverImage: "/images/mohed-altrad.avif"
+coverImageCredit: "© LTP · Emma Laupa"
 ---
 
 ## A very calculated statement

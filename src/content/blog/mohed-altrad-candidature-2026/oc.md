@@ -5,8 +5,8 @@ date: "2025-12-21"
 author: "L'equipa ciutadana"
 tags: ["mohed-altrad"]
 excerpt: "Mohed Altrad multiplica los senhals cap a una candidatura en 2026, malgrat un passat judiciari pesuc e un mandat precedent pauc onorat. Analisi d'una estrategia controversiada."
-coverImage: "/images/mohed-altrad-candidature-municipales.jpg"
-coverImageCredit: "© Photo · Midi Libre · Y. PO."
+coverImage: "/images/mohed-altrad.avif"
+coverImageCredit: "© LTP · Emma Laupa"
 ---
 
 ## Una presa de paraula plan calculada
