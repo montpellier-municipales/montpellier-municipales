@@ -195,7 +195,7 @@ export default component$(() => {
       <div class={styles.newsPreview}>
         <h2>{t("actu.subTitle")}</h2>
         <div class={styles.articlesContainer}>
-          {posts.value.slice(0, 3).map((post) => (
+          {posts.value.slice(0, 3).reverse().map((post) => (
             <ArticleCard key={post.slug} post={post} lang={lang} />
           ))}
         </div>
