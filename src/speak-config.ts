@@ -10,5 +10,5 @@ export const config: SpeakConfig = {
     { lang: "oc", currency: "EUR", timeZone: "Europe/Paris", dir: "ltr" },
   ],
   assets: ["app"],
-  runtimeAssets: ["home", "list", "comparator"],
+  runtimeAssets: ["home", "list", "comparator", "actu"],
 };
