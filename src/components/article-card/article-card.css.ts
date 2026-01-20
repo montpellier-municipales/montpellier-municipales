@@ -1,4 +1,5 @@
 import { style } from "@vanilla-extract/css";
+import { postList } from "~/routes/info/blog.css";
 import { vars } from "~/theme.css";
 
 export const card = style({
@@ -19,6 +20,12 @@ export const card = style({
   ":hover": {
     transform: "scale(1.02)", // Slightly less aggressive zoom
     boxShadow: "0 4px 12px rgba(0,0,0,0.1)", // Add a subtle shadow on hover
+  },
+
+  selectors: {
+    [`${postList} &`]: {
+      flex: "0 0 auto",
+    },
   },
 });
 
