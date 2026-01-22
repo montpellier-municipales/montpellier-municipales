@@ -1,0 +1,50 @@
+{
+  "2018": {
+    "year": 2018,
+    "outstanding": 2122850420.990003,
+    "annuity": 188272283.16000018,
+    "newDebtBudgeted": 0
+  },
+  "2019": {
+    "year": 2019,
+    "outstanding": 2143309787.6600018,
+    "annuity": 260593961.12000036,
+    "newDebtBudgeted": 0
+  },
+  "2020": {
+    "year": 2020,
+    "outstanding": 2226388950.7699986,
+    "annuity": 190062421.44999975,
+    "newDebtBudgeted": 0
+  },
+  "2021": {
+    "year": 2021,
+    "outstanding": 2284378364.2199993,
+    "annuity": 285713683.68000007,
+    "newDebtBudgeted": 0
+  },
+  "2022": {
+    "year": 2022,
+    "outstanding": 2341116288.5800014,
+    "annuity": 230513942.95999992,
+    "newDebtBudgeted": 0
+  },
+  "2023": {
+    "year": 2023,
+    "outstanding": 2474335113.5399976,
+    "annuity": 290758784.2299995,
+    "newDebtBudgeted": 0
+  },
+  "2024": {
+    "year": 2024,
+    "outstanding": 2795520771.019998,
+    "annuity": 319901571.4300004,
+    "newDebtBudgeted": 0
+  },
+  "2025": {
+    "year": 2025,
+    "outstanding": 1302833697.01,
+    "annuity": 116210734.02000006,
+    "newDebtBudgeted": 288060627.93
+  }
+}

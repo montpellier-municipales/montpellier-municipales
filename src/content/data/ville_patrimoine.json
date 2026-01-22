@@ -1,0 +1,4809 @@
+{
+  "2018": [
+    {
+      "libelle": "VENTE VEHICULES",
+      "valeurAcquisition": 70741.26,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "VENTE VEHICULES",
+      "valeurAcquisition": 24386.96,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "VENTE VEHICULES",
+      "valeurAcquisition": 17538,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "VENTE VEHICULES",
+      "valeurAcquisition": 198612.07,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "VENTE VEHICULES",
+      "valeurAcquisition": 75228.17,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "VENTE VEHICULES",
+      "valeurAcquisition": 28993.25,
+      "vnc": 2571.44,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "PRODUITS VENTES BIENS MAT.",
+      "valeurAcquisition": 130066.97,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "CESSION ZAC REPUBLIQUE",
+      "valeurAcquisition": 1068110.01,
+      "vnc": 1068110.01,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "CESSION PARCELLE CD816",
+      "valeurAcquisition": 1338390.9,
+      "vnc": 1338390.9,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "CESSION DELAIISE VOIRIE BT57",
+      "valeurAcquisition": 1860,
+      "vnc": 1860,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "VENTE VEHICULES",
+      "valeurAcquisition": 6000,
+      "vnc": 2571.43,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "VENTE VEHICULES",
+      "valeurAcquisition": 3310.28,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "CESSION PARCELLE HK 327",
+      "valeurAcquisition": 1,
+      "vnc": 1,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "CESSION PARCELLE RR82",
+      "valeurAcquisition": 0,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "ECHANGE FONCIER PARKING POLYGO",
+      "valeurAcquisition": 27324,
+      "vnc": 27324,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "DEPOTS ET CAUTIONNEMENTS VERSE",
+      "valeurAcquisition": 371000,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "FRAIS D'ETUDES",
+      "valeurAcquisition": 2893539.84,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "ACI",
+      "valeurAcquisition": 5139463,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "CONCESSIONS, DROITS SIMILAIRES",
+      "valeurAcquisition": 325123.5,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "TERRAINS NUS",
+      "valeurAcquisition": 919608.62,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "TERRAINS AMENAGES AUTRES QUE V",
+      "valeurAcquisition": 769114.75,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "CIMETIERES",
+      "valeurAcquisition": 48126.73,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "PLANTATIONS D'ARBRES ET D'ARBU",
+      "valeurAcquisition": 264650.96,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "AUTRES AGENCEMENTS ET AMENAGEM",
+      "valeurAcquisition": 47912.41,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "AUTRES CONSTRUCTIONS",
+      "valeurAcquisition": 1458061.93,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "INSTALLATIONS DE VOIRIE",
+      "valeurAcquisition": 98049.48,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "OEUVRES ET OBJETS D'ART",
+      "valeurAcquisition": 1344,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "AUTRES COLLECTIONS ET OEUVRES",
+      "valeurAcquisition": 11727.2,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "INSTALL. GENERALES, AGENCEMENT",
+      "valeurAcquisition": 38154.91,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "MATERIEL DE TELEPHONIE",
+      "valeurAcquisition": 20557.22,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "AUTRES IMMOBILISATIONS CORPORE",
+      "valeurAcquisition": 1583355.22,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "AGENCEMENTS ET AMENAGEMENTS DE",
+      "valeurAcquisition": 2223810.92,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "PRETS AU PERSONNEL",
+      "valeurAcquisition": 30068.74,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "AUTRES PRETS",
+      "valeurAcquisition": 15500000,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "CREANCES/PARTICULIERS, PERS. D",
+      "valeurAcquisition": 580739.41,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "PRIVE : BATIMENTS, INSTALLATIO",
+      "valeurAcquisition": 8004404.07,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "BATIMENTS ADMINISTRATIFS",
+      "valeurAcquisition": 231879.6,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "BATIMENTS SCOLAIRES",
+      "valeurAcquisition": 7417164.97,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "BATIMENTS CULTURELS ET SPORTIF",
+      "valeurAcquisition": 241010,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "AUTRES BATIMENTS PUBLICS",
+      "valeurAcquisition": 5544378.68,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "BATIMENTS PUBLICS",
+      "valeurAcquisition": 748188.82,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "RESEAUX CABLES",
+      "valeurAcquisition": 100269.03,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "RESEAUX D'ELECTRIFICATION",
+      "valeurAcquisition": 188624.76,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "AUTRES RESEAUX",
+      "valeurAcquisition": 305146.32,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "AUTRE MATERIEL, OUTILLAGE INCE",
+      "valeurAcquisition": 42758.71,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "AUTRES MATERIELS DE TRANSPORT",
+      "valeurAcquisition": 394885.92,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "MATERIEL INFORMATIQUE SCOLAIRE",
+      "valeurAcquisition": 146573.25,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "AUTRE MATERIEL INFORMATIQUE",
+      "valeurAcquisition": 797396.36,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "MATERIEL DE BUREAU ET MOBILIER",
+      "valeurAcquisition": 601029.73,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "AUTRES MATERIELS DE BUREAU ET",
+      "valeurAcquisition": 295017.78,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "AUTRES CONSTRUCTIONS",
+      "valeurAcquisition": 8190088.92,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "AUTRES CONSTRUCTIONS",
+      "valeurAcquisition": 2765180.02,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "AUTRES COLLECTIONS ET OEUVRES",
+      "valeurAcquisition": 47292.39,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "INSTALLATIONS GENERALES, AGENC",
+      "valeurAcquisition": 8415.82,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "BATIMENTS SCOLAIRES",
+      "valeurAcquisition": 13384101.04,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "AUTRES BATIMENTS PUBLICS",
+      "valeurAcquisition": 1980000,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "SUBV. GRPT : BATIMENTS, INSTAL",
+      "valeurAcquisition": 132925.76,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Zac du coteaux - Montpellier TN 43",
+      "valeurAcquisition": 76788,
+      "vnc": 76788,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Port Marianne République - Montpellier SB 261 et 260 - Renonciation à droit d'usage et habitation",
+      "valeurAcquisition": 71543,
+      "vnc": 71543,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier SB 261 et 260 - Renonciation au droit au relogement",
+      "valeurAcquisition": 78457,
+      "vnc": 78457,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Copropriété Nouveau Peyrou lot 102 192 710",
+      "valeurAcquisition": 65000,
+      "vnc": 65000,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Zac Garosud Montpellier OD 179 et OD 121",
+      "valeurAcquisition": 6720,
+      "vnc": 6720,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Nouveau Saint Roch Montpellier EV 524 546 548 - Echange",
+      "valeurAcquisition": 1590,
+      "vnc": 1590,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Zac quartier Ovalie Montpellier PB 291 et PB 293",
+      "valeurAcquisition": 87240,
+      "vnc": 87240,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Lotissement Jean Mermoz Montpellier AT89 AT90 Lot 7",
+      "valeurAcquisition": 704540,
+      "vnc": 704540,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Zac Garosud Montpellier OC202 Lot 80.1",
+      "valeurAcquisition": 619548.35,
+      "vnc": 619548.35,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur HW104",
+      "valeurAcquisition": 45000,
+      "vnc": 45000,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur EW0340",
+      "valeurAcquisition": 250000,
+      "vnc": 250000,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur HM279",
+      "valeurAcquisition": 175000,
+      "vnc": 175000,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur HW0691",
+      "valeurAcquisition": 74908.33,
+      "vnc": 74908.33,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur HX109",
+      "valeurAcquisition": 100983.14,
+      "vnc": 100983.14,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur HW0010 RDC/1er",
+      "valeurAcquisition": 67083.33,
+      "vnc": 67083.33,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur HW0010 1er",
+      "valeurAcquisition": 54833.33,
+      "vnc": 54833.33,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur HW103 HW105",
+      "valeurAcquisition": 115000,
+      "vnc": 115000,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur HW0010 2ème",
+      "valeurAcquisition": 40408.33,
+      "vnc": 40408.33,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur HL0307 1er",
+      "valeurAcquisition": 58375,
+      "vnc": 58375,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur HL0307 2ème",
+      "valeurAcquisition": 61000,
+      "vnc": 61000,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur HL0307 2ème",
+      "valeurAcquisition": 67000,
+      "vnc": 67000,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur IZ0231",
+      "valeurAcquisition": 70833.33,
+      "vnc": 70833.33,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur IZ0093",
+      "valeurAcquisition": 48808.33,
+      "vnc": 48808.33,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur IZ110",
+      "valeurAcquisition": 31746,
+      "vnc": 31746,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur IZ105",
+      "valeurAcquisition": 49685.5,
+      "vnc": 49685.5,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur IZ0232 1er",
+      "valeurAcquisition": 55125,
+      "vnc": 55125,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur IZ0232 2ème",
+      "valeurAcquisition": 56250,
+      "vnc": 56250,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Zac Ovalie Montpellier PC 194 Lot 23B",
+      "valeurAcquisition": 1227220.4,
+      "vnc": 1227220.4,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Zac Ovalie Montpellier PC 195 Lot 23C",
+      "valeurAcquisition": 2374799.71,
+      "vnc": 2374799.71,
+      "entreeSortie": "S",
+      "variations": "03",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Zac Ovalie Montpellier PB 281 283 284 285 Lot 20B",
+      "valeurAcquisition": 1113386.23,
+      "vnc": 1113386.23,
+      "entreeSortie": "S",
+      "variations": "04",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Quartier Cevennes Petir Bard Montpellier KV406 408 405",
+      "valeurAcquisition": 1255741.93,
+      "vnc": 1255741.93,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Opération EAI Montpellier HY570 Lot 5B volumes 3 et 4 log social",
+      "valeurAcquisition": 527500.78,
+      "vnc": 527500.78,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Opération EAI Montpellier HY548 lot 4a1 écoles et log étudiant",
+      "valeurAcquisition": 4328411.73,
+      "vnc": 4328411.73,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Zac Port Marianne Rive gauche Montpellier SC 230 3m²",
+      "valeurAcquisition": 1,
+      "vnc": 1,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Zac Port Marianne Rive gauche Montpellier SC194 232 234 235 lot7b",
+      "valeurAcquisition": 621350,
+      "vnc": 621350,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Consul de mer extension 2 Montpellier DS807 809 lot E",
+      "valeurAcquisition": 1497712.65,
+      "vnc": 1497712.65,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Porte de la Méditerranée ludique 2 Montpellier RD70 72 66 SL105",
+      "valeurAcquisition": 3521000,
+      "vnc": 3521000,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Nouveau Saint Roch Montpellier EV565 EV546 lot 3",
+      "valeurAcquisition": 4278800,
+      "vnc": 4278800,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Nouveau Saint Roch Montpellier EV524 parking cédé à la Commune",
+      "valeurAcquisition": 0,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Zac des grisettes Montpellier DZ 158 lot 5D",
+      "valeurAcquisition": 890340,
+      "vnc": 890340,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "NGC Beau Soleil",
+      "valeurAcquisition": 3014865.24,
+      "vnc": 3014865.24,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur HT0029 1er lot 3",
+      "valeurAcquisition": 69450,
+      "vnc": 69450,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur HT0029 2ème lot 6",
+      "valeurAcquisition": 74550,
+      "vnc": 74550,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur HT0029 3ème lot 8",
+      "valeurAcquisition": 74100,
+      "vnc": 74100,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur HT0029 2ème lot 5",
+      "valeurAcquisition": 69600,
+      "vnc": 69600,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur HO086 2ème lot 6",
+      "valeurAcquisition": 91500,
+      "vnc": 91500,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur HO086 2ème lot 7",
+      "valeurAcquisition": 43050,
+      "vnc": 43050,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur HO086 3ème lot 8",
+      "valeurAcquisition": 89550,
+      "vnc": 89550,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur ET0213 1er lot 2",
+      "valeurAcquisition": 80833.33,
+      "vnc": 80833.33,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur ET0213 1er lot 3",
+      "valeurAcquisition": 80250,
+      "vnc": 80250,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur HM279 rdc lot 1",
+      "valeurAcquisition": 87500,
+      "vnc": 87500,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur HO086 1er lot 4",
+      "valeurAcquisition": 89850,
+      "vnc": 89850,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Pompignane Montpellier RR31 RS 8 9 11 12",
+      "valeurAcquisition": 5700000,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Pompignane Montpellier Mas Pastourel RR81 et RR 33",
+      "valeurAcquisition": 2173000,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Pompignane Montpellier Mas Pastourel RR82",
+      "valeurAcquisition": 193000,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Pompignane Montpellier CR79 terrain",
+      "valeurAcquisition": 2173000,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    }
+  ],
+  "2019": [
+    {
+      "libelle": "RI 31 - rue des Marels -Terrain pour jardins partagés",
+      "valeurAcquisition": 14240,
+      "vnc": 14240,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Terrain nu réserve foncière secteur Poutingon",
+      "valeurAcquisition": 272000,
+      "vnc": 272000,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Bail emphytéotique stade du Abbé Prévost - CD 829",
+      "valeurAcquisition": 20000,
+      "vnc": 20000,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "04"
+    },
+    {
+      "libelle": "OM n°39 - Achat terrain nu construction du GS de la Restanque",
+      "valeurAcquisition": 2400000,
+      "vnc": 2400000,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Remise d'équipement public - GS EAI Jeanne MOREAU - lot volume sur la parcelle HY 570",
+      "valeurAcquisition": 7288000,
+      "vnc": 7288000,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Rachat anticipé à EPF, convention secteur des Grèzes PM 22 PV4/14/37/38/39/40 PT11 PW30",
+      "valeurAcquisition": 583592.57,
+      "vnc": 583592.57,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Rachat anticipé de foncier auprès de l'EPF - Convention secteur de la Baume - SA n° 8 et SA n°10",
+      "valeurAcquisition": 1367419.62,
+      "vnc": 1367419.62,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Acquisition Chapelle des Recollets - CD 791",
+      "valeurAcquisition": 50000,
+      "vnc": 50000,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Régulaisation foncière école Yourcenar - Rue Aglaé Andanson - TL 451",
+      "valeurAcquisition": 1,
+      "vnc": 1,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Acquisition OL n°48 - ZAC de la Restanque",
+      "valeurAcquisition": 2200000,
+      "vnc": 2200000,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Acquisition ZAC Port Marianne - PUP Mas Combelle - SD 128",
+      "valeurAcquisition": 350000,
+      "vnc": 350000,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Parcelle SE n°45 - ZAC Port Marianne",
+      "valeurAcquisition": 75000,
+      "vnc": 75000,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "ZAC Nouveau Saint Roch - EV 464, 466, 468, 470, 538, 436, 551, 552, 534, 537",
+      "valeurAcquisition": 350013,
+      "vnc": 350013,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Acquisition KV n°412 auprès de 3M - Petit Bard",
+      "valeurAcquisition": 40000,
+      "vnc": 40000,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Appartement 1er étage sur la parcelle HZ 39 - ZAC EAI",
+      "valeurAcquisition": 160000,
+      "vnc": 160000,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Appartement RDC sur la parcelle HZ 39 - ZAC EAI",
+      "valeurAcquisition": 160000,
+      "vnc": 160000,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Parcelle HZ n°51 - ZAC EAI",
+      "valeurAcquisition": 340000,
+      "vnc": 340000,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Parcelle OL n°49 - ZAC de la Restanque",
+      "valeurAcquisition": 6000000,
+      "vnc": 6000000,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Parcelles CR n°377, 378 et 379 - POMPIGNANE",
+      "valeurAcquisition": 136170,
+      "vnc": 136170,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "PORT MARIANNE REPUBLIQUE SC 248,249,250,251,253,254,255,257,258 issus de division de SC108/110",
+      "valeurAcquisition": 310345,
+      "vnc": 310345,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "République Acte 2 - MONTPELLIER - SC 77,78,79,139,215,219,221,227",
+      "valeurAcquisition": 1648406.58,
+      "vnc": 1648406.58,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "CONSULS DE MER - EZ 174",
+      "valeurAcquisition": 280000,
+      "vnc": 280000,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Cession terrains à la SA3M ZAC République acte n°2 - MONTPELLIER - SC 77,78,79,139,215,219,221,227",
+      "valeurAcquisition": 1648406.58,
+      "vnc": 1648406.58,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Domaine de Grammont Convention de sous location de bail emphytéotique à la Métropole loyer annuel",
+      "valeurAcquisition": 14212,
+      "vnc": 14212,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "04"
+    },
+    {
+      "libelle": "Liaison électrique RTE 4 Seigneurs-Saumade servitudes de passage",
+      "valeurAcquisition": 31631,
+      "vnc": 31631,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "04"
+    },
+    {
+      "libelle": "Cession terrain AP 416 rue du Caroux à la société ANGELOTTI",
+      "valeurAcquisition": 514800,
+      "vnc": 514800,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Cession à la SA3M de la parcelle EY n°422 - Quartier Consuls de Mer",
+      "valeurAcquisition": 220000,
+      "vnc": 220000,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Cession droit au bail local 1 rue Mareschal",
+      "valeurAcquisition": 8000,
+      "vnc": 8000,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "route de Mende - Montpellier AN 266 (39 m²) et AI 85 (215 m²) vente à 3M L5 TRAM",
+      "valeurAcquisition": 1,
+      "vnc": 1,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "99"
+    },
+    {
+      "libelle": "avenue du Docteur Pezet - Montpellier AX 6 (115 m²) vente à 3M L5 TRAM",
+      "valeurAcquisition": 60500,
+      "vnc": 60500,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Avenue de Barcelone - Montpellier LR 320 LR 323 LR 322 LR 324 Vente à 3M",
+      "valeurAcquisition": 1,
+      "vnc": 1,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Bassin de rétention DEMETER - OK 4 OK 5 OK 218 OK 219 OK 220",
+      "valeurAcquisition": 0,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "02"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur -HR 83 lot 2, 5 et 7",
+      "valeurAcquisition": 120000,
+      "vnc": 120000,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur -HW 10 lot 14",
+      "valeurAcquisition": 56000,
+      "vnc": 56000,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur -IZ 232 lot 1",
+      "valeurAcquisition": 48375,
+      "vnc": 48375,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur -IZ 93 lot 27",
+      "valeurAcquisition": 46983.33,
+      "vnc": 46983.33,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur -HL 307 lot 5",
+      "valeurAcquisition": 64250,
+      "vnc": 64250,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur - BY 110 lot 4",
+      "valeurAcquisition": 46236,
+      "vnc": 46236,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur -IZ 93 lot 28",
+      "valeurAcquisition": 48803.33,
+      "vnc": 48803.33,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur -IZ 93 lot 29",
+      "valeurAcquisition": 46983.33,
+      "vnc": 46983.33,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur - ET 569",
+      "valeurAcquisition": 674500,
+      "vnc": 674500,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur - IZ 382 lot 9",
+      "valeurAcquisition": 79531.77,
+      "vnc": 79531.77,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur -HX 557 et 565",
+      "valeurAcquisition": 1,
+      "vnc": 1,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur -IZ 110 lot7",
+      "valeurAcquisition": 40541.67,
+      "vnc": 40541.67,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur -HM 196 lot 4",
+      "valeurAcquisition": 31666.67,
+      "vnc": 31666.67,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur -HW 15 lot 4",
+      "valeurAcquisition": 55445.5,
+      "vnc": 55445.5,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Montpellier Grand C&#x153;ur -IZ 117",
+      "valeurAcquisition": 200000,
+      "vnc": 200000,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "ZAC Ovalie - PB 304",
+      "valeurAcquisition": 599344.01,
+      "vnc": 599344.01,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "ZAC Ovalie - PB 305",
+      "valeurAcquisition": 1279788.44,
+      "vnc": 1279788.44,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "ZAC Ovalie - PB 303",
+      "valeurAcquisition": 1074089.81,
+      "vnc": 1074089.81,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "ZAC Ovalie - PB 306",
+      "valeurAcquisition": 868184.79,
+      "vnc": 868184.79,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "ZAC Ovalie - PB 307",
+      "valeurAcquisition": 651251.52,
+      "vnc": 651251.52,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "ZAC Ovalie - PB 245p",
+      "valeurAcquisition": 496505.93,
+      "vnc": 496505.93,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "NGC Beausoleil - KW 170 169 à Montpellier - lot volume passerelle",
+      "valeurAcquisition": 0,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "02"
+    },
+    {
+      "libelle": "Cession lot volume du Groupe scolaire EAI - HY 570 à Montpellier",
+      "valeurAcquisition": 7288000,
+      "vnc": 7288000,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Cession lot volume ZAC EAI - HY 570 à Montpellier",
+      "valeurAcquisition": 519660,
+      "vnc": 519660,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Cession Groupe scolaire de la Restantque - OM n°39",
+      "valeurAcquisition": 2400000,
+      "vnc": 2400000,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Nouveau Grand C&#x153;ur - HT 29 lot 4",
+      "valeurAcquisition": 65687,
+      "vnc": 65687,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Nouveau Grand C&#x153;ur - HT 29 lot 7",
+      "valeurAcquisition": 72900,
+      "vnc": 72900,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Nouveau Grand C&#x153;ur - EW 312 lot 1 et 2",
+      "valeurAcquisition": 150000,
+      "vnc": 150000,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Nouveau Grand C&#x153;ur - EW 317 lot 21",
+      "valeurAcquisition": 300000,
+      "vnc": 300000,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Nouveau Grand C&#x153;ur - HO 86 lot 05",
+      "valeurAcquisition": 42750,
+      "vnc": 42750,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Nouveau Grand C&#x153;ur - EW 306 lot 19",
+      "valeurAcquisition": 83333.33,
+      "vnc": 83333.33,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Nouveau Grand C&#x153;ur - HO 86 lot 07",
+      "valeurAcquisition": 500000,
+      "vnc": 500000,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Pompignane - RR82 et 101",
+      "valeurAcquisition": 797500,
+      "vnc": 797500,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    }
+  ],
+  "2020": [
+    {
+      "libelle": "PARCELLE AX 6",
+      "valeurAcquisition": 173798.09,
+      "vnc": 173798.09,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "PARCELLE AP 416",
+      "valeurAcquisition": 5656.16,
+      "vnc": 5656.16,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "PARCELLES CR 377/378/379",
+      "valeurAcquisition": 4539,
+      "vnc": 4539,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "DROIT AU BAIL",
+      "valeurAcquisition": 25000,
+      "vnc": 15000,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "DIVERSES PARCELLES ZAC PORT MARIANNE",
+      "valeurAcquisition": 0,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "ECHANGE FONCIER APOLLINAIRE",
+      "valeurAcquisition": 870000,
+      "vnc": 870000,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "AGENCEMENTS ET AMENAGEMENTS DE TERRAIN",
+      "valeurAcquisition": 4149470.83,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "MATERIEL INFORMATIQUE",
+      "valeurAcquisition": 736924.5,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "MATERIEL, OUTILLAGE INCENDIE",
+      "valeurAcquisition": 38816.04,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "AUTRES BATIMENTS PUBLICS",
+      "valeurAcquisition": 2888149.39,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "AUTRES COLLECTIONS ET OEUVRES D'ART",
+      "valeurAcquisition": 290.8,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "AUTRES CONSTRUCTIONS",
+      "valeurAcquisition": 1101781.1,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "AUTRES IMMOBILISATIONS CORPORELLES",
+      "valeurAcquisition": 1998123.17,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "AUTRES IMMOBILISATIONS INCORPORELLES",
+      "valeurAcquisition": 90000,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "MATERIELS DE BUREAU",
+      "valeurAcquisition": 218010.3,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "MATERIELS DE TRANSPORT",
+      "valeurAcquisition": 723247.12,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "AUTRES RESEAUX",
+      "valeurAcquisition": 203024.87,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "BATIMENTS ADMINISTRATIFS",
+      "valeurAcquisition": 461197.01,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "BATIMENTS CULTURELS ET SPORTIFS",
+      "valeurAcquisition": 1640363.03,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "BATIMENTS PUBLICS",
+      "valeurAcquisition": 248350.52,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "BATIMENTS SCOLAIRES",
+      "valeurAcquisition": 12320185.22,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "LOGICIELS",
+      "valeurAcquisition": 559775.15,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "CONSTRUCTIONS",
+      "valeurAcquisition": 10425121.97,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "FONDS ANCIENS DES BIBLIOTHEQUES",
+      "valeurAcquisition": 306,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "FRAIS D'ETUDES",
+      "valeurAcquisition": 2425547.49,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "FRAIS D'INSERTION",
+      "valeurAcquisition": 6480,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "INSTALL., MATERIEL ET OUTILL.",
+      "valeurAcquisition": 1601565.13,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "INSTALLATIONS DE VOIRIE",
+      "valeurAcquisition": 184820.65,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "MATERIEL DE BUREAU ET MOBILIER SCOLAIRES",
+      "valeurAcquisition": 325448.45,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "MATERIEL DE TELEPHONIE",
+      "valeurAcquisition": 35673.1,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "MATERIEL INFORMATIQUE SCOLAIRE",
+      "valeurAcquisition": 233623.38,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "PLANTATIONS D'ARBRES ET D'ARBUSTE",
+      "valeurAcquisition": 170855.2,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "RESEAUX CABLES",
+      "valeurAcquisition": 43052.37,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "RESEAUX DE VOIRIE",
+      "valeurAcquisition": 300000,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "RESEAUX D'ELECTRIFICATION",
+      "valeurAcquisition": 28720.54,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "RESTAUR. DES COLLECTIONS ET &#x152;UVRES D'ART",
+      "valeurAcquisition": 65272.64,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "TERRAINS AMENAGES AUTRES QUE VOIRIE",
+      "valeurAcquisition": 644977.25,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "TERRAINS NUS",
+      "valeurAcquisition": 6895009.05,
+      "vnc": 0,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    }
+  ],
+  "2021": [
+    {
+      "libelle": "Frais d'études",
+      "valeurAcquisition": 3675570.38,
+      "vnc": 3593909.2,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Frais d'insertion",
+      "valeurAcquisition": 20000,
+      "vnc": 20000,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Subventions d'équipement versées aux groupements de collectivités -bâtiments et installations",
+      "valeurAcquisition": 4507479.98,
+      "vnc": 4469421.71,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Subventions d'équipement versées aux autres organismes publics -bâtiments et installations",
+      "valeurAcquisition": 24853.95,
+      "vnc": 24670.1,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Subventions d'équipement versées aux personnes de droit privé - Biens mobiliers, matériels et éudes",
+      "valeurAcquisition": 14000,
+      "vnc": 13662.47,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Subventions d'équipement versées aux personnes de droit privé - bâtiments et installations",
+      "valeurAcquisition": 10972565.23,
+      "vnc": 10812624.43,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Attribuions de compensation d'investissement",
+      "valeurAcquisition": 10633986.17,
+      "vnc": 10375041.48,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Concessions et droits similaires, brevets, licences,marques, procédés",
+      "valeurAcquisition": 589116.98,
+      "vnc": 548817.02,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Terrains nus",
+      "valeurAcquisition": 4430174.15,
+      "vnc": 4430174.15,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Terrains aménagés autres que voirie",
+      "valeurAcquisition": 838146.44,
+      "vnc": 838146.44,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Terrains bâtis",
+      "valeurAcquisition": 1694300,
+      "vnc": 1694300,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Plantations d'arbres et d'arbustes",
+      "valeurAcquisition": 920654.37,
+      "vnc": 902616.91,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres agencements et aménagements",
+      "valeurAcquisition": 9382949.77,
+      "vnc": 9382949.77,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Bâtiments administratifs",
+      "valeurAcquisition": 309777.5,
+      "vnc": 309777.5,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Bâtiments scolaires",
+      "valeurAcquisition": 34807317.23,
+      "vnc": 34807317.23,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Bâtiments culturels et sportifs",
+      "valeurAcquisition": 2901359.61,
+      "vnc": 2901359.61,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres bâtiments publics",
+      "valeurAcquisition": 24078627.89,
+      "vnc": 24078627.89,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Immeuble de rapport",
+      "valeurAcquisition": 5594401.8,
+      "vnc": 5547167.01,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Installations générales, agencements, aménagements des constructions",
+      "valeurAcquisition": 419219.12,
+      "vnc": 419219.12,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres constructions",
+      "valeurAcquisition": 5279333.87,
+      "vnc": 5279333.87,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Réseaux de voirie",
+      "valeurAcquisition": 2173682.28,
+      "vnc": 2173682.28,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Installations de voirie",
+      "valeurAcquisition": 1808010.32,
+      "vnc": 1808010.32,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Réseaux cablés",
+      "valeurAcquisition": 28372.26,
+      "vnc": 28073.31,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Réseaux d'électrification",
+      "valeurAcquisition": 57398.74,
+      "vnc": 54678.19,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres réseaux",
+      "valeurAcquisition": 510765.82,
+      "vnc": 504275.64,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autre matériel et outillage d'incendie et de défence civile",
+      "valeurAcquisition": 24444.37,
+      "vnc": 24444.37,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autre installation, matériel et outillage technique",
+      "valeurAcquisition": 282899.62,
+      "vnc": 278744.77,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Biens sous jacents culturels et historiques immobilisées biens immobiliers",
+      "valeurAcquisition": 173666.03,
+      "vnc": 173666.03,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Biens sous jacents culturels et historiques immobilisées biens mobiliers",
+      "valeurAcquisition": 4701,
+      "vnc": 4701,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Installations générales, agencements",
+      "valeurAcquisition": 6046.54,
+      "vnc": 6046.54,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Matériel de transport",
+      "valeurAcquisition": 1892244.3,
+      "vnc": 1795318.29,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Matériel informatique scolaires",
+      "valeurAcquisition": 415389.12,
+      "vnc": 410804.12,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autre matériel informatique",
+      "valeurAcquisition": 4033757.49,
+      "vnc": 4009580.25,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Matériel de bureau et mobilier scolaire",
+      "valeurAcquisition": 664533.02,
+      "vnc": 660139.02,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autre matériel de bureau et mobilier",
+      "valeurAcquisition": 329089.41,
+      "vnc": 324691.19,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Matériel de téléphonie",
+      "valeurAcquisition": 139017.96,
+      "vnc": 139017.96,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres matériels",
+      "valeurAcquisition": 2138552.35,
+      "vnc": 2085222.46,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Prêt au personnel",
+      "valeurAcquisition": 26939.4,
+      "vnc": 26939.4,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Avances remboursables",
+      "valeurAcquisition": 9000000,
+      "vnc": 9000000,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Dépôts et cautionnements versés",
+      "valeurAcquisition": 1070852.33,
+      "vnc": 1070852.33,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Créances sur des particuliers et autres personnes de droit privé",
+      "valeurAcquisition": 330634,
+      "vnc": 330634,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Terrains nus",
+      "valeurAcquisition": 692924.77,
+      "vnc": 692924.77,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres bâtiments publics",
+      "valeurAcquisition": 591.36,
+      "vnc": 591.36,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres constructions",
+      "valeurAcquisition": 190108.16,
+      "vnc": 190108.16,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Matériel de transport",
+      "valeurAcquisition": 902474.87,
+      "vnc": 901486.17,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres matériels",
+      "valeurAcquisition": 52954.23,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Frais d'études",
+      "valeurAcquisition": 2187467.14,
+      "vnc": 2187467.14,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Subventions d'équipement versées aux groupements de collectivités -bâtiments et installations",
+      "valeurAcquisition": 7570924.81,
+      "vnc": 7570924.81,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Subventions d'équipement versées aux autres organismes publics -bâtiments et installations",
+      "valeurAcquisition": 4970,
+      "vnc": 4970,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Subventions d'équipement versées aux personnes de droit privé - Biens mobiliers, matériels et éudes",
+      "valeurAcquisition": 143.11,
+      "vnc": 143.11,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Terrains nus",
+      "valeurAcquisition": 2810750.77,
+      "vnc": 2810750.77,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Autres terrains",
+      "valeurAcquisition": 106822.79,
+      "vnc": 106822.79,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Plantations d'arbres et d'arbustes",
+      "valeurAcquisition": 716740.08,
+      "vnc": 716740.08,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Autres agencements et aménagements",
+      "valeurAcquisition": 110180.54,
+      "vnc": 110180.54,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Bâtiments scolaires",
+      "valeurAcquisition": 4763.27,
+      "vnc": 4763.27,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Bâtiments culturels et sportifs",
+      "valeurAcquisition": 3200,
+      "vnc": 3200,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Autres bâtiments publics",
+      "valeurAcquisition": 300000,
+      "vnc": 300000,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Immeuble de rapport",
+      "valeurAcquisition": 28100.5,
+      "vnc": 28100.5,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Réseaux de voirie",
+      "valeurAcquisition": 394290886.48,
+      "vnc": 394290886.48,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Installations de voirie",
+      "valeurAcquisition": 1792891.63,
+      "vnc": 1792891.63,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Réseaux cablés",
+      "valeurAcquisition": 332985.73,
+      "vnc": 332985.73,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Réseaux d'électrification",
+      "valeurAcquisition": 195727.75,
+      "vnc": 195727.75,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Autres réseaux",
+      "valeurAcquisition": 3146414.77,
+      "vnc": 3146414.77,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Autre matériel et outillage d'incendie et de défence civile",
+      "valeurAcquisition": 4333.06,
+      "vnc": 4333.06,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Matériel roulant de voirie",
+      "valeurAcquisition": 218815.54,
+      "vnc": 218815.54,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Autres matériel et ouillage de voirie",
+      "valeurAcquisition": 426141.28,
+      "vnc": 426141.28,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Biens sous jacents culturels et historiques immobilisées biens mobiliers",
+      "valeurAcquisition": 25,
+      "vnc": 25,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Matériel de transport",
+      "valeurAcquisition": 272136.38,
+      "vnc": 272136.38,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Autre matériel informatique",
+      "valeurAcquisition": 63479.1,
+      "vnc": 63479.1,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Titres immobilisés",
+      "valeurAcquisition": 1.74,
+      "vnc": 1.74,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Prêt au personnel",
+      "valeurAcquisition": 29948.39,
+      "vnc": 29948.39,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Avances remboursables",
+      "valeurAcquisition": 9000000,
+      "vnc": 9000000,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Dépôts et cautionnements versés",
+      "valeurAcquisition": 1072006.39,
+      "vnc": 1072006.39,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Créances sur des particuliers et autres personnes de droit privé",
+      "valeurAcquisition": 129146,
+      "vnc": 129146,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "1213 JACQUES C&#x152;UR PARKING MANTILLA - VENTE AMODIATIONS ICADE / REPUBLIQUE",
+      "valeurAcquisition": 595000,
+      "vnc": 595000,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "1420 OVALIE - Convention de participation ICADE/NG lot MAFFRE",
+      "valeurAcquisition": 611407,
+      "vnc": 611407,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "1420 OVALIE - Convention de participation FFB",
+      "valeurAcquisition": 244270,
+      "vnc": 244270,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "1420 OVALIE - convention PUP SUN Lodge",
+      "valeurAcquisition": 380760,
+      "vnc": 380760,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "1425 NOUVEAU SAINT ROCH - LOT 8B2 LINKCITY SCCV MTP TECH TOWER",
+      "valeurAcquisition": 1630000,
+      "vnc": 1630000,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "1425 NOUVEAU SAINT ROCH - LOT 8B1 PROMOVAL",
+      "valeurAcquisition": 1436988,
+      "vnc": 1436988,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "1415 GRAND C&#x152;UR - CESSION LOGEMENTS 15 rue du Général Vincent",
+      "valeurAcquisition": 80640,
+      "vnc": 80640,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "1415 GRAND C&#x152;UR - CESSION LOGEMENTS 7 rue Boussairolles (inli)",
+      "valeurAcquisition": 48800,
+      "vnc": 48800,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "1415 GRAND C&#x152;UR - CESSION COMMERCES 3 et 5 Général Vincent",
+      "valeurAcquisition": 122000,
+      "vnc": 122000,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "1992 POMPIGNANE - VENTE DE TERRAINS / ACCESSION LIBRE PROG OCEANIS Lot E",
+      "valeurAcquisition": 1093137,
+      "vnc": 1093137,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "1992 POMPIGNANE - FONCIER TERRAIN SNC PALMER PLAGE",
+      "valeurAcquisition": 53760,
+      "vnc": 53760,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "1909 NGC CONSULS 4 - CESSION BOUYGUES rue Moulin des Sept cans",
+      "valeurAcquisition": 29489,
+      "vnc": 29489,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "1940 RESTANQUE - Convention de participation - COGEDIM",
+      "valeurAcquisition": 2231469.8,
+      "vnc": 2231469.8,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "1940 RESTANQUE - Convention de participation - FDI",
+      "valeurAcquisition": 2614062.8,
+      "vnc": 2614062.8,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "1941 COTEAU - Convention de participation Région - Lycée jean Monnet",
+      "valeurAcquisition": 24240,
+      "vnc": 24240,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01945 EAI - Lot 5E2 ACM",
+      "valeurAcquisition": 511835,
+      "vnc": 511835,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01945 EAI - LOT 2F CAMPUS CREATIF",
+      "valeurAcquisition": 1812266,
+      "vnc": 1812266,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01945 EAI - ERILIA 5E1",
+      "valeurAcquisition": 457778,
+      "vnc": 457778,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01945 EAI - ACM 5A2",
+      "valeurAcquisition": 953869,
+      "vnc": 953869,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "1946 REPUBLIQUE - LOT ICADE E2",
+      "valeurAcquisition": 4521570.4,
+      "vnc": 4521570.4,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "1946 REPUBLIQUE - ACM LOT A2",
+      "valeurAcquisition": 963471.9,
+      "vnc": 963471.9,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "1946 REPUBLIQUE - ACM LOT E1",
+      "valeurAcquisition": 1335156,
+      "vnc": 1335156,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "1946 REPUBLIQUE - SCCV ROLLAND PETIT - Lot E3 Conv. Part",
+      "valeurAcquisition": 1330909,
+      "vnc": 1330909,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "1901 BEAUSOLEIL - LOT 3 BUREAUX SERM ID",
+      "valeurAcquisition": 1331270,
+      "vnc": 1331270,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01905 NOUVEAU GRAND C&#x152;UR - VENTE DE BATIMENTS / LOCAUX COMMERCIAUX",
+      "valeurAcquisition": 147500,
+      "vnc": 147500,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01905 NOUVEAU GRAND C&#x152;UR - ARCHIVES - FDI PROMOTION",
+      "valeurAcquisition": 1439408,
+      "vnc": 1439408,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "023568 VENTE COMMUNE DE MONTPELLIER-SERM RUE DU MAS ROUGE",
+      "valeurAcquisition": 179000,
+      "vnc": 179000,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "070354 Vente Raynaud/ Ville de Montpellier - Ville de Montpellier/SERM",
+      "valeurAcquisition": 1280000,
+      "vnc": 1280000,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "069855 Acq SCI TINY - 7 rue Boussairolles",
+      "valeurAcquisition": 16000,
+      "vnc": 16000,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "022250 2021 - OFFICE NOTARIAL DE JACOU - Vente CAZELLES/ Commune de montpellier",
+      "valeurAcquisition": 146000,
+      "vnc": 146000,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "023638 VENTE FNATH-SA3M RUE D'ALGER",
+      "valeurAcquisition": 177650,
+      "vnc": 177650,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "023666 VENTE TIMILLA-VILLE DE MONTPELLIER ET FRAIS MPT / SA3M",
+      "valeurAcquisition": 204099.6,
+      "vnc": 204099.6,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "022163 paiement acquisition GAYOLA",
+      "valeurAcquisition": 13000,
+      "vnc": 13000,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "020909 Acq Commune de Montpellier - SCI POISSON D'ARGENT",
+      "valeurAcquisition": 45000,
+      "vnc": 45000,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "022032 BRICHA Najat - Déconsignation préemption 39 Fbg du courreau",
+      "valeurAcquisition": 90000,
+      "vnc": 90000,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "021350 Acquisition Consorts PLO - OL 23 - 671 Che Montels de st Pierre",
+      "valeurAcquisition": 1220000,
+      "vnc": 1220000,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "024612 ACQUISITION VENTE RUBIX",
+      "valeurAcquisition": 300000,
+      "vnc": 300000,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "024719 ACQUISITION APF SA3M",
+      "valeurAcquisition": 720000,
+      "vnc": 720000,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "023570 VENTE AB PROMOTION VILLE DE MPT",
+      "valeurAcquisition": 1280000,
+      "vnc": 1280000,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "023203 PAIEMENT PRIX DE VENTE SUR PREEMPTION MALLIE/VILLE DE MONTPELLIER",
+      "valeurAcquisition": 55000,
+      "vnc": 55000,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "023297 PROJET D'ACTE VENTE JOSEPH SIMONE / VILLE DE MONTPELLIER",
+      "valeurAcquisition": 260000,
+      "vnc": 260000,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "023298 ACQUISITION CTS JOSEPH/ VILLE DE MONTPELLIER",
+      "valeurAcquisition": 50000,
+      "vnc": 50000,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "024115 VENTE JOSEPH CHRISTIAN - SA3M",
+      "valeurAcquisition": 45000,
+      "vnc": 45000,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "024117 ACQUISITION CTS JOSEPH BRUNO ET PASCAL",
+      "valeurAcquisition": 300000,
+      "vnc": 300000,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "020079 Acquisition VICENTE - Parcelles SE141 / SE218",
+      "valeurAcquisition": 119700,
+      "vnc": 119700,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "024005 VENTE VILLE DE MONTPELLIER / SA3M PARCELLES SC 34-49-72-80",
+      "valeurAcquisition": 370854,
+      "vnc": 370854,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "023207 PAIEMENT PRIX DE VENTE SUR PREEMTION VTE VINCENTE PROGRESSO",
+      "valeurAcquisition": 96040,
+      "vnc": 96040,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "021285 Acq Pinville Demain /SA3M",
+      "valeurAcquisition": 226720,
+      "vnc": 226720,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    }
+  ],
+  "2022": [
+    {
+      "libelle": "Frais d'études",
+      "valeurAcquisition": 3744638.66,
+      "vnc": 3619586.22,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Frais d'insertion",
+      "valeurAcquisition": 20000,
+      "vnc": 19286.31,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Subventions d'équipement versées aux groupements de collectivités -bâtiments et installations",
+      "valeurAcquisition": 16488709.72,
+      "vnc": 16323733.13,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Subventions d'équipement versées aux autres organismes publics -bâtiments et installations",
+      "valeurAcquisition": 221400,
+      "vnc": 220874.3,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Subventions d'équipement versées aux personnes de droit privé - Biens mobiliers, matériels et éudes",
+      "valeurAcquisition": 659670,
+      "vnc": 600719.7,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Subventions d'équipement versées aux personnes de droit privé - bâtiments et installations",
+      "valeurAcquisition": 11590180.23,
+      "vnc": 11317793.41,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Attribuions de compensation d'investissement",
+      "valeurAcquisition": 10567865.17,
+      "vnc": 10286710.01,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Concessions et droits similaires, brevets, licences,marques, procédés",
+      "valeurAcquisition": 804325.56,
+      "vnc": 599737.61,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Terrains nus",
+      "valeurAcquisition": 5985442.06,
+      "vnc": 5985442.06,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Terrains aménagés autres que voirie",
+      "valeurAcquisition": 501081.03,
+      "vnc": 501081.03,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Plantations d'arbres et d'arbustes",
+      "valeurAcquisition": 807893.88,
+      "vnc": 622250.18,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres agencements et aménagements",
+      "valeurAcquisition": 8127879.48,
+      "vnc": 8127879.48,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Bâtiments administratifs",
+      "valeurAcquisition": 398726.1,
+      "vnc": 398726.1,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Bâtiments scolaires",
+      "valeurAcquisition": 25979110.14,
+      "vnc": 25979110.14,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Bâtiments culturels et sportifs",
+      "valeurAcquisition": 1715527.61,
+      "vnc": 1715527.61,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Equipements du cimetière",
+      "valeurAcquisition": 26118,
+      "vnc": 26118,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres bâtiments publics",
+      "valeurAcquisition": 8724543.38,
+      "vnc": 8724543.38,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Immeuble de rapport",
+      "valeurAcquisition": 180994.02,
+      "vnc": 177082.21,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Installations générales, agencements, aménagements des constructions",
+      "valeurAcquisition": 153595.21,
+      "vnc": 153595.21,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres constructions",
+      "valeurAcquisition": 4857780.57,
+      "vnc": 4857780.57,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Réseaux de voirie",
+      "valeurAcquisition": 1423546,
+      "vnc": 1423546,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Installations de voirie",
+      "valeurAcquisition": 404941.17,
+      "vnc": 404941.17,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Réseaux cablés",
+      "valeurAcquisition": 138158.17,
+      "vnc": 6868,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Réseaux d'électrification",
+      "valeurAcquisition": 2816.64,
+      "vnc": 2744.49,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres réseaux",
+      "valeurAcquisition": 412818.33,
+      "vnc": 399020.78,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autre matériel et outillage d'incendie et de défence civile",
+      "valeurAcquisition": 4342.86,
+      "vnc": 4278.61,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Biens sous jacents culturels et historiques immobilisées biens immobiliers",
+      "valeurAcquisition": 44016.34,
+      "vnc": 44016.34,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Biens sous jacents culturels et historiques immobilisées biens mobiliers",
+      "valeurAcquisition": 67852.02,
+      "vnc": 67852.02,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Matériel de transport",
+      "valeurAcquisition": 1940717.73,
+      "vnc": 1861778.74,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Matériel informatique scolaires",
+      "valeurAcquisition": 588523.7,
+      "vnc": 314470.71,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autre matériel informatique",
+      "valeurAcquisition": 2255050.7,
+      "vnc": 1633592.77,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Matériel de bureau et mobilier scolaire",
+      "valeurAcquisition": 792628.16,
+      "vnc": 477485.08,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autre matériel de bureau et mobilier",
+      "valeurAcquisition": 350401.76,
+      "vnc": 182681.41,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Matériel de téléphonie",
+      "valeurAcquisition": 66178.75,
+      "vnc": 49613.06,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres matériels",
+      "valeurAcquisition": 2158665.05,
+      "vnc": 1572588.02,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Titres de participations",
+      "valeurAcquisition": 1431460,
+      "vnc": 1431460,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Prêt au personnel",
+      "valeurAcquisition": 42080.08,
+      "vnc": 42080.08,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Avances remboursables",
+      "valeurAcquisition": 11500000,
+      "vnc": 11500000,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Dépôts et cautionnements versés",
+      "valeurAcquisition": 6404.16,
+      "vnc": 6404.16,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Créances sur des particuliers et autres personnes de droit privé",
+      "valeurAcquisition": 165239.5,
+      "vnc": 165239.5,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Terrains nus",
+      "valeurAcquisition": 130311.7,
+      "vnc": 130311.7,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres constructions",
+      "valeurAcquisition": 34974.56,
+      "vnc": 34974.56,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Matériel de transport",
+      "valeurAcquisition": 203622.86,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autre matériel de bureau et mobilier",
+      "valeurAcquisition": 13447.22,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres matériels",
+      "valeurAcquisition": 65363.99,
+      "vnc": 3434.86,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Frais d'études",
+      "valeurAcquisition": 3425295.61,
+      "vnc": 3425295.61,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Subventions d'équipement versées aux groupements de collectivités -bâtiments et installations",
+      "valeurAcquisition": 190112,
+      "vnc": 190112,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Concessions et droits similaires, brevets, licences,marques, procédés",
+      "valeurAcquisition": 5940,
+      "vnc": 5940,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Terrains nus",
+      "valeurAcquisition": 644.95,
+      "vnc": 644.95,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Terrains bâtis",
+      "valeurAcquisition": 290.75,
+      "vnc": 290.75,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Plantations d'arbres et d'arbustes",
+      "valeurAcquisition": 478175.34,
+      "vnc": 478175.34,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Autres agencements et aménagements",
+      "valeurAcquisition": 199874.8,
+      "vnc": 199874.8,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Bâtiments scolaires",
+      "valeurAcquisition": 17770.96,
+      "vnc": 17770.96,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Autres constructions",
+      "valeurAcquisition": 2528.98,
+      "vnc": 2528.98,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Installations de voirie",
+      "valeurAcquisition": 43412.4,
+      "vnc": 43412.4,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Prêt au personnel",
+      "valeurAcquisition": 26204.44,
+      "vnc": 26204.44,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Avances remboursables",
+      "valeurAcquisition": 5000000,
+      "vnc": 5000000,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Créances sur des particuliers et autres personnes de droit privé",
+      "valeurAcquisition": 2599752.06,
+      "vnc": 2599752.06,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "01205 P.M RIVE GAUCHE THE FRENCH PROPTECH - Lot 11",
+      "valeurAcquisition": 5860234.21,
+      "vnc": 5860234.21,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01227 PARC MARIANNE SECTEUR MAS DE BARLET",
+      "valeurAcquisition": 412800,
+      "vnc": 412800,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01241 CONSULS DE MER EXTENSION",
+      "valeurAcquisition": 405624,
+      "vnc": 405624,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01250 ZAC PORT MARIANNE P. MER",
+      "valeurAcquisition": 126000,
+      "vnc": 126000,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01260 ZAC DES JARDINS LIRONDE",
+      "valeurAcquisition": 255097.2,
+      "vnc": 255097.2,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01415 MONTPELLIER GRAND COEUR",
+      "valeurAcquisition": 238420,
+      "vnc": 238420,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01425 ZAC NOUVEAU SAINT ROCH",
+      "valeurAcquisition": 173709.6,
+      "vnc": 173709.6,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01426 ZAC DES GRISETTES",
+      "valeurAcquisition": 306823.58,
+      "vnc": 306823.58,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01905 NOUVEAU GRAND C&#x152;UR",
+      "valeurAcquisition": 1557636,
+      "vnc": 1557636,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01909 NGC - PHASE 4 CONSULS DE MER 2",
+      "valeurAcquisition": 1028448.6,
+      "vnc": 1028448.6,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01945 E.A.I. Quartier Croix d'Argent",
+      "valeurAcquisition": 7776373.41,
+      "vnc": 7776373.41,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01992-1 CONCESSION - ZAC POMPIGNANE",
+      "valeurAcquisition": 469085.9,
+      "vnc": 469085.9,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01800 R.U QUARTIER CEVENNES - PETIT BARD",
+      "valeurAcquisition": 1740080,
+      "vnc": 1740080,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01940 ZAC DE LA RESTANQUE",
+      "valeurAcquisition": 2660579.27,
+      "vnc": 2660579.27,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01800 R.U QUARTIER CEVENNES - PETIT BARD - BONNARY ME",
+      "valeurAcquisition": 65000,
+      "vnc": 65000,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01905 NOUVEAU GRAND C&#x152;UR - 030498 ACTE CASPARIAN / SA3M 15 père Fabre",
+      "valeurAcquisition": 48375,
+      "vnc": 48375,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01905 NOUVEAU GRAND C&#x152;UR - 029986 ACQUISITION AUX ENCHERES 10 COMEDIE",
+      "valeurAcquisition": 425000,
+      "vnc": 425000,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01905 NOUVEAU GRAND C&#x152;UR - 028808 ACQUISITION LOCAL COMMERCIAL30 COURS GAMBETTA",
+      "valeurAcquisition": 170000,
+      "vnc": 170000,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01905 NOUVEAU GRAND C&#x152;UR - 025432 CESSION DROIT AU BAIL SOCIETE KVP",
+      "valeurAcquisition": 30000,
+      "vnc": 30000,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01905 NOUVEAU GRAND C&#x152;UR - 028665 Cession 48, avenue Clémenceau - réf : 222127202/24757",
+      "valeurAcquisition": 20000,
+      "vnc": 20000,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01905 NOUVEAU GRAND C&#x152;UR - 028897 REF AFFAIRE : 17666/222111215- PREMEPTION 41 BD JEU DE PAUME",
+      "valeurAcquisition": 67783.77,
+      "vnc": 67783.77,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01905 NOUVEAU GRAND C&#x152;UR - 029822 CESSION SCI CHARMOTTE - FDC GRAND C&#x152;UR",
+      "valeurAcquisition": 20000,
+      "vnc": 20000,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01940 ZAC DE LA RESTANQUE - 025267 2022 - ACQUISITION ONYX MEDITERRANEE",
+      "valeurAcquisition": 2796200,
+      "vnc": 2796200,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01940 ZAC DE LA RESTANQUE - 025344 2022 - Acquisition VILLE / SIMCRA",
+      "valeurAcquisition": 8293459.67,
+      "vnc": 8293459.67,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01940 ZAC DE LA RESTANQUE - 025780 2022 - Acquisition VILLE / SIMCRA",
+      "valeurAcquisition": -27422.84,
+      "vnc": -27422.84,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01940 ZAC DE LA RESTANQUE - 029560 VENTE COGEDIM SA3M 161734 REF DOSSIER 323719",
+      "valeurAcquisition": 193695,
+      "vnc": 193695,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01941 ZAC DU COTEAU - 027411 ACQUISITION MAITRE PICOLLET",
+      "valeurAcquisition": 1500000,
+      "vnc": 1500000,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01946 ZAC PORT MARIANNE - REPUBLIQUE - 029425 ACQUISITION PARCELLES",
+      "valeurAcquisition": 225867.65,
+      "vnc": 225867.65,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01946 ZAC PORT MARIANNE - REPUBLIQUE - 030361 ACQUISITION PARCELLE PARCELLE SE 23- CTS BRUNNER",
+      "valeurAcquisition": 600000,
+      "vnc": 600000,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "07946 ZAC PM - REPUBLIQUE - 025381 ACQUISITION MONTPELLIER SW Lot E2 (VEFA)",
+      "valeurAcquisition": 765504,
+      "vnc": 765504,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "07946 ZAC PM - REPUBLIQUE - 026286 VEFA SCCV MONTPELLIER ZAC PORT MARIANNE",
+      "valeurAcquisition": 1133619.84,
+      "vnc": 1133619.84,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01226 PARC MARIANNE - LA BAUME - 075708 ACQUISITION CONSORTS GOUZE - PARELLE SA N°23 - Montpellier",
+      "valeurAcquisition": 460000,
+      "vnc": 460000,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01226 PARC MARIANNE - LA BAUME - 074045 ACQUISITION ET FRAIS ACQUISITION - SCI LES TROIS MATS",
+      "valeurAcquisition": 410000,
+      "vnc": 410000,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01226 PARC MARIANNE - LA BAUME - 074049 SCI LES TROIS MATS/ SA3M",
+      "valeurAcquisition": 800000,
+      "vnc": 800000,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    }
+  ],
+  "2023": [
+    {
+      "libelle": "1415 GRAND C&#x152;UR",
+      "valeurAcquisition": 2028970,
+      "vnc": 2028970,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "1425 NOUVEAU SAINT ROCH",
+      "valeurAcquisition": 1179000,
+      "vnc": 1179000,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "1227 PARC MARIANNE SECTEUR MAS DE BARLET",
+      "valeurAcquisition": 3027200,
+      "vnc": 3027200,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01226 PARC MARIANNE - LA BAUME.",
+      "valeurAcquisition": 800000,
+      "vnc": 800000,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01905 NOUVEAU GRAND COEUR",
+      "valeurAcquisition": 370691.12,
+      "vnc": 370691.12,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01940 ZAC DE LA RESTANQUE",
+      "valeurAcquisition": 5260000,
+      "vnc": 5260000,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01945 E.A.I. QUARTIER CROIX D ARGENT",
+      "valeurAcquisition": 278000,
+      "vnc": 278000,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01946 ZAC PORT MARIANNE - REPUBLIQUE",
+      "valeurAcquisition": 1315000,
+      "vnc": 1315000,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Frais d'études",
+      "valeurAcquisition": 4524487.97,
+      "vnc": 4427415.86,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Frais d'insertion",
+      "valeurAcquisition": 13824,
+      "vnc": 6435.31,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Subventions d'équipement versées aux groupements de collectivités -bâtiments et installations",
+      "valeurAcquisition": 21217625.41,
+      "vnc": 20848835.65,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Subventions d'équipement versées aux personnes de droit privé - Biens mobiliers, matériels et éudes",
+      "valeurAcquisition": 590116.99,
+      "vnc": 525792.63,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Subventions d'équipement versées aux personnes de droit privé - bâtiments et installations",
+      "valeurAcquisition": 22117608.88,
+      "vnc": 21845126.46,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Attribuions de compensation d'investissement",
+      "valeurAcquisition": 10567865.17,
+      "vnc": 10273245.99,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Concessions et droits similaires, brevets, licences,marques, procédés",
+      "valeurAcquisition": 1704350.14,
+      "vnc": 1482902.51,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres Immobilisations incorporelles",
+      "valeurAcquisition": 71546,
+      "vnc": 64724.63,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Terrains nus",
+      "valeurAcquisition": 2806186.41,
+      "vnc": 2971425.91,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Terrains nus",
+      "valeurAcquisition": 165239.5,
+      "vnc": 165239.5,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Plantations d'arbres et d'arbustes",
+      "valeurAcquisition": 578192.01,
+      "vnc": 319320.22,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Plantations d'arbres et d'arbustes",
+      "valeurAcquisition": 148538.28,
+      "vnc": 148538.28,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Autres agencements et aménagements",
+      "valeurAcquisition": 6465137.24,
+      "vnc": 6465137.24,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres agencements et aménagements",
+      "valeurAcquisition": 2249696.46,
+      "vnc": 2249696.46,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Bâtiments administratifs",
+      "valeurAcquisition": 727405.11,
+      "vnc": 727405.11,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Bâtiments scolaires",
+      "valeurAcquisition": 21032795.9,
+      "vnc": 20956658.83,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Bâtiments scolaires",
+      "valeurAcquisition": 21700070.98,
+      "vnc": 21700070.98,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Bâtiments culturels et sportifs",
+      "valeurAcquisition": 2866843.65,
+      "vnc": 2866843.65,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Bâtiments culturels et sportifs",
+      "valeurAcquisition": 2436515.41,
+      "vnc": 2436515.41,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Equipements du cimetière",
+      "valeurAcquisition": 51020.18,
+      "vnc": 51020.18,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Equipements du cimetière",
+      "valeurAcquisition": 412169.52,
+      "vnc": 412169.52,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Autres bâtiments publics",
+      "valeurAcquisition": 6226531.82,
+      "vnc": 6226531.82,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres bâtiments publics",
+      "valeurAcquisition": 10147320.46,
+      "vnc": 10147320.46,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Immeuble de rapport",
+      "valeurAcquisition": 4252.02,
+      "vnc": 3409.12,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Immeuble de rapport",
+      "valeurAcquisition": 3940.03,
+      "vnc": 3940.03,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Installations générales, agencements, aménagements des constructions",
+      "valeurAcquisition": 179004.53,
+      "vnc": 179004.53,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres constructions",
+      "valeurAcquisition": 8620695.69,
+      "vnc": 8620695.69,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Réseaux de voirie",
+      "valeurAcquisition": 12829.45,
+      "vnc": 12829.45,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Réseaux de voirie",
+      "valeurAcquisition": 1161623.64,
+      "vnc": 1161623.64,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Installations de voirie",
+      "valeurAcquisition": 208787.44,
+      "vnc": 208787.44,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Installations de voirie",
+      "valeurAcquisition": 14968.8,
+      "vnc": 14968.8,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Réseaux cablés",
+      "valeurAcquisition": 64888.67,
+      "vnc": 58711.78,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Réseaux d'électrification",
+      "valeurAcquisition": 64054.74,
+      "vnc": 63464.69,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres réseaux",
+      "valeurAcquisition": 356690.5,
+      "vnc": 349242.06,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres réseaux",
+      "valeurAcquisition": 39641.04,
+      "vnc": 39641.04,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Autre matériel et outillage d'incendie et de défence civile",
+      "valeurAcquisition": 568.32,
+      "vnc": 93.42,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Biens sous jacents culturels et historiques immobilisées biens immobiliers",
+      "valeurAcquisition": 14184,
+      "vnc": 14184,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Biens sous jacents culturels et historiques immobilisées biens immobiliers",
+      "valeurAcquisition": 178347.45,
+      "vnc": 178347.45,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Biens sous jacents culturels et historiques immobilisées biens mobiliers",
+      "valeurAcquisition": 40560,
+      "vnc": 40560,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Biens sous jacents culturels et historiques immobilisées biens mobiliers",
+      "valeurAcquisition": 3607.38,
+      "vnc": 3607.38,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Installations générales, agencements et aménagements divers",
+      "valeurAcquisition": 13331.07,
+      "vnc": 7049.03,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Matériel de transport",
+      "valeurAcquisition": 2112910.02,
+      "vnc": 1947467.93,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Matériel informatique scolaires",
+      "valeurAcquisition": 396287.13,
+      "vnc": 330050.26,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autre matériel informatique",
+      "valeurAcquisition": 3057729.96,
+      "vnc": 2197401.53,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Matériel de bureau et mobilier scolaire",
+      "valeurAcquisition": 885871.69,
+      "vnc": 489588.53,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autre matériel de bureau et mobilier",
+      "valeurAcquisition": 607171.95,
+      "vnc": 308584.71,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Matériel de téléphonie",
+      "valeurAcquisition": 49693.8,
+      "vnc": 27371.03,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres matériels",
+      "valeurAcquisition": 1919694.5,
+      "vnc": 1453382.02,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Titres de participations",
+      "valeurAcquisition": 3468000,
+      "vnc": 3468000,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Prêt au personnel",
+      "valeurAcquisition": 17718.43,
+      "vnc": 17718.43,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Avances remboursables",
+      "valeurAcquisition": 17000000,
+      "vnc": 17000000,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Dépôts et cautionnements versés",
+      "valeurAcquisition": 1150760.9,
+      "vnc": 1150760.9,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Frais études, d'élaboration, de modifications et de révisions des documents d'urbanisme",
+      "valeurAcquisition": 439141.59,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Frais d'études",
+      "valeurAcquisition": 5007422.5,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Frais d'insertion",
+      "valeurAcquisition": 71313.6,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Subventions d'équipement versées aux groupements de collectivités -bâtiments et installations",
+      "valeurAcquisition": 2417759,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Subventions d'équipement versées aux personnes de droit privé - Biens mobiliers, matériels et éudes",
+      "valeurAcquisition": 75651.56,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Subventions d'équipement versées aux personnes de droit privé - bâtiments et installations",
+      "valeurAcquisition": 19169608.27,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Concessions et droits similaires, brevets, licences,marques, procédés",
+      "valeurAcquisition": 16560,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Terrains nus",
+      "valeurAcquisition": 1,
+      "vnc": 1,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Terrains nus",
+      "valeurAcquisition": 165239.5,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Bois et forêts",
+      "valeurAcquisition": 52273,
+      "vnc": 52273,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Plantations d'arbres et d'arbustes",
+      "valeurAcquisition": 160906.6,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Autres agencements et aménagements",
+      "valeurAcquisition": 269794.08,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Bâtiments administratifs",
+      "valeurAcquisition": 1603.2,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Bâtiments scolaires",
+      "valeurAcquisition": 13238627.79,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Bâtiments culturels et sportifs",
+      "valeurAcquisition": 331.24,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Autres bâtiments publics",
+      "valeurAcquisition": 102437.66,
+      "vnc": 1,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres bâtiments publics",
+      "valeurAcquisition": 1719806.35,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Immeuble de rapport",
+      "valeurAcquisition": 14920.1,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Installations générales, agencements, aménagements des constructions",
+      "valeurAcquisition": 59857.51,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Autres constructions",
+      "valeurAcquisition": 154212.17,
+      "vnc": 150933.74,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres constructions",
+      "valeurAcquisition": 1015778.43,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Matériel de transport",
+      "valeurAcquisition": 345316.31,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autre matériel de bureau et mobilier",
+      "valeurAcquisition": 329380.69,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Autres matériels",
+      "valeurAcquisition": 33583.67,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Prêt au personnel",
+      "valeurAcquisition": 24950.46,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Avances remboursables",
+      "valeurAcquisition": 4500000,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Autres prêts",
+      "valeurAcquisition": 2500000,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Dépôts et cautionnements versés",
+      "valeurAcquisition": 4000,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Créances sur des particuliers et autres personnes de droit privé",
+      "valeurAcquisition": 165239.5,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    }
+  ],
+  "2024": [
+    {
+      "libelle": "01905 NOUVEAU GRAND COEUR",
+      "valeurAcquisition": 8677889.88,
+      "vnc": 8677889.88,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01940 ZAC DE LA RESTANQUE",
+      "valeurAcquisition": 3051531.58,
+      "vnc": 3051531.58,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01945 E.A.I. Quartier Croix d'Argent",
+      "valeurAcquisition": 2338967.62,
+      "vnc": 2338967.62,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "01946 ZAC PORT MARIANNE - REPUBLIQUE",
+      "valeurAcquisition": 45471.05,
+      "vnc": 45471.05,
+      "entreeSortie": "E",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Frais études, d'élaboration, de modifications et de révisions des documents d'urbanisme",
+      "valeurAcquisition": 5486143.63,
+      "vnc": 5301073.16,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Frais d'insertion",
+      "valeurAcquisition": 13284,
+      "vnc": 11557.95,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Subventions déquipement aux organismes publics -Départements - Biens mobiliers, matériel et études",
+      "valeurAcquisition": 58800,
+      "vnc": 48646.56,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Subventions d'équipement versées aux groupements de collectivités - Bâtiments et installations",
+      "valeurAcquisition": 29100422.74,
+      "vnc": 28866696.04,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Subventions d'équipement versées aux organismes publics divers - Biens mobiliers, matériel et études",
+      "valeurAcquisition": 45000,
+      "vnc": 42476.51,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Subventions d'équipement versées aux organismes publics divers - Bâtiments et installations",
+      "valeurAcquisition": 135000,
+      "vnc": 134127.05,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Subventions d'équipement versées aux personnes de droit privé - Biens mobiliers, matériels et éudes",
+      "valeurAcquisition": 488875.78,
+      "vnc": 450411.11,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Subventions d'équipement versées aux personnes de droit privé - Bâtiments et installations",
+      "valeurAcquisition": 9388646.17,
+      "vnc": 9207380.19,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Attribuions de compensation d'investissement",
+      "valeurAcquisition": 11567865.17,
+      "vnc": 11295690.31,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Concessions et droits similaires, brevets, licences,marques, procédés",
+      "valeurAcquisition": 2072928.64,
+      "vnc": 1832405.25,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres Immobilisations incorporelles",
+      "valeurAcquisition": 28000,
+      "vnc": 28000,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Terrains nus",
+      "valeurAcquisition": 3057610.83,
+      "vnc": 3057610.83,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Plantations d'arbres et d'arbustes",
+      "valeurAcquisition": 520444.74,
+      "vnc": 321893.11,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres agencements et aménagements",
+      "valeurAcquisition": 5140055.73,
+      "vnc": 5140055.73,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres agencements et aménagements",
+      "valeurAcquisition": 2430822.34,
+      "vnc": 2430822.34,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Bâtiments administratifs",
+      "valeurAcquisition": 469157.72,
+      "vnc": 469157.72,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Bâtiments scolaires",
+      "valeurAcquisition": 25362928.54,
+      "vnc": 25362928.54,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Bâtiments scolaires",
+      "valeurAcquisition": 4697966.68,
+      "vnc": 4697966.68,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Bâtiments culturels et sportifs",
+      "valeurAcquisition": 3265593.77,
+      "vnc": 3265593.77,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Bâtiments culturels et sportifs",
+      "valeurAcquisition": 4847753.73,
+      "vnc": 4847753.73,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Equipements du cimetière",
+      "valeurAcquisition": 55653.55,
+      "vnc": 55653.55,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Equipements du cimetière",
+      "valeurAcquisition": 62808.03,
+      "vnc": 62808.03,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Autres bâtiments publics",
+      "valeurAcquisition": 11797243.6,
+      "vnc": 11797243.6,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres bâtiments publics",
+      "valeurAcquisition": 2519165.7,
+      "vnc": 2519165.7,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Immeuble de rapport",
+      "valeurAcquisition": 52651.79,
+      "vnc": 50647.93,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Immeuble de rapport",
+      "valeurAcquisition": 84061.64,
+      "vnc": 84061.64,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Installations générales, agencements, aménagements des constructions",
+      "valeurAcquisition": 57040.67,
+      "vnc": 57040.67,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres constructions",
+      "valeurAcquisition": 8721200.15,
+      "vnc": 8721200.15,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres constructions",
+      "valeurAcquisition": 337233.69,
+      "vnc": 337233.69,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Constructions sur sol d'autrui - Immeuble",
+      "valeurAcquisition": 207070.01,
+      "vnc": 207070.01,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Réseaux de voirie",
+      "valeurAcquisition": 23172063.46,
+      "vnc": 23172063.46,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Réseaux de voirie",
+      "valeurAcquisition": 33331.25,
+      "vnc": 33331.25,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Installations de voirie",
+      "valeurAcquisition": 58727.62,
+      "vnc": 58727.62,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Installations de voirie",
+      "valeurAcquisition": 55094.42,
+      "vnc": 55094.42,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Réseaux cablés",
+      "valeurAcquisition": 59832.81,
+      "vnc": 58669.88,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Réseaux d'électrification",
+      "valeurAcquisition": 39258.82,
+      "vnc": 38390.73,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres réseaux",
+      "valeurAcquisition": 509216.76,
+      "vnc": 459063.72,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres réseaux",
+      "valeurAcquisition": 4840800,
+      "vnc": 4840800,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Autre matériel et outillage de voirie",
+      "valeurAcquisition": 11046.48,
+      "vnc": 10759.76,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Biens sous jacents culturels et historiques immobilisées biens immobiliers",
+      "valeurAcquisition": 57000,
+      "vnc": 57000,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Biens sous jacents culturels et historiques immobilisées biens immobiliers",
+      "valeurAcquisition": 247096.15,
+      "vnc": 247096.15,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Biens sous jacents culturels et historiques immobilisées biens mobiliers",
+      "valeurAcquisition": 78769,
+      "vnc": 78769,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Biens sous jacents culturels et historiques immobilisées biens mobiliers",
+      "valeurAcquisition": 48339.88,
+      "vnc": 48339.88,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Installations générales, agencements et aménagements divers",
+      "valeurAcquisition": 80655.84,
+      "vnc": 75177.09,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Matériel de transport",
+      "valeurAcquisition": 1543821.28,
+      "vnc": 1420505.94,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Matériel informatique scolaires",
+      "valeurAcquisition": 341404.64,
+      "vnc": 224179.19,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autre matériel informatique",
+      "valeurAcquisition": 1690014.2,
+      "vnc": 1406758.65,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Matériel de bureau et mobilier scolaire",
+      "valeurAcquisition": 824368.94,
+      "vnc": 412735.28,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autre matériel de bureau et mobilier",
+      "valeurAcquisition": 330381.64,
+      "vnc": 223814.43,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Matériel de téléphonie",
+      "valeurAcquisition": 44466.78,
+      "vnc": 37248.42,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres matériels",
+      "valeurAcquisition": 1645127.58,
+      "vnc": 1352056.64,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Prêt au personnel",
+      "valeurAcquisition": 10317.21,
+      "vnc": 10317.21,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Avances remboursables",
+      "valeurAcquisition": 4000000,
+      "vnc": 4000000,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Dépôts et cautionnements versés",
+      "valeurAcquisition": 88751,
+      "vnc": 88751,
+      "entreeSortie": "E",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Frais études, d'élaboration, de modifications et de révisions des documents d'urbanisme",
+      "valeurAcquisition": 4566108.26,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Frais études, d'élaboration, de modifications et de révisions des documents d'urbanisme",
+      "valeurAcquisition": 902493.82,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Subventions d'équipement versées aux personnes de droit privé - Biens mobiliers, matériels et éudes",
+      "valeurAcquisition": 1411.6,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Subventions d'équipement versées aux personnes de droit privé - Bâtiments et installations",
+      "valeurAcquisition": 23167628.56,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres Immobilisations incorporelles",
+      "valeurAcquisition": 115.65,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Terrains nus",
+      "valeurAcquisition": 1746994.33,
+      "vnc": 1746994.33,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Plantations d'arbres et d'arbustes",
+      "valeurAcquisition": 46728.99,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres agencements et aménagements",
+      "valeurAcquisition": 144304.12,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Bâtiments scolaires",
+      "valeurAcquisition": 3627.36,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres bâtiments publics",
+      "valeurAcquisition": 3692.88,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Immeuble de rapport",
+      "valeurAcquisition": 1797510.02,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Autres constructions",
+      "valeurAcquisition": 53409.48,
+      "vnc": 53296.29,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Constructions sur sol d'autrui - Immeuble",
+      "valeurAcquisition": 207070.01,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Matériel roulant de voirie",
+      "valeurAcquisition": 1768.41,
+      "vnc": 1768.41,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Matériel roulant de voirie",
+      "valeurAcquisition": 10610.45,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Matériel de transport",
+      "valeurAcquisition": 26422.79,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Matériel de transport",
+      "valeurAcquisition": 730719.82,
+      "vnc": 26422.79,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "99"
+    },
+    {
+      "libelle": "Prêt au personnel",
+      "valeurAcquisition": 21371.1,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "Dépôts et cautionnements versés",
+      "valeurAcquisition": 1035000,
+      "vnc": 0,
+      "entreeSortie": "S",
+      "variations": "01",
+      "modalite": "01"
+    },
+    {
+      "libelle": "GRAND COEUR",
+      "valeurAcquisition": 661017,
+      "vnc": 661017,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "NOUVEAU SAINT ROCH",
+      "valeurAcquisition": 1,
+      "vnc": 1,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    },
+    {
+      "libelle": "1992 POMPIGNANE - Conventions de participations et PUP",
+      "valeurAcquisition": 4103203,
+      "vnc": 4103203,
+      "entreeSortie": "S",
+      "variations": "02",
+      "modalite": "01"
+    }
+  ],
+  "2025": []
+}

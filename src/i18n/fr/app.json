@@ -5,7 +5,9 @@
     "menu": {
       "home": "Accueil",
       "comparator": "Comparateur",
-      "budget": "Budget 2025",
+      "budget": "Budget",
+      "budgetMetropole": "Budget Métropole",
+      "budgetVille": "Budget Ville",
       "info": "Infos",
       "inscriptionElectorale": "Listes électorales",
       "roleMairieMetropole": "Pourquoi voter ?"

@@ -10,10 +10,14 @@ const MAPPING_FILE = "src/content/data/apcp_communes_mapping.json";
 
 // Charger les communes et le mapping manuel
 // Le fichier communes.json contient maintenant [{name: string, population: number}]
-const COMMUNES_DATA: { name: string, population: number }[] = JSON.parse(readFileSync(join(process.cwd(), COMMUNES_FILE), "utf-8"));
-const COMMUNES = COMMUNES_DATA.map(c => c.name);
+const COMMUNES_DATA: { name: string; population: number }[] = JSON.parse(
+  readFileSync(join(process.cwd(), COMMUNES_FILE), "utf-8"),
+);
+const COMMUNES = COMMUNES_DATA.map((c) => c.name);
 
-const MANUAL_MAPPING: Record<string, string[]> = JSON.parse(readFileSync(join(process.cwd(), MAPPING_FILE), "utf-8"));
+const MANUAL_MAPPING: Record<string, string[]> = JSON.parse(
+  readFileSync(join(process.cwd(), MAPPING_FILE), "utf-8"),
+);
 
 const parser = new XMLParser({
   ignoreAttributes: false,
@@ -27,7 +31,9 @@ function getVal(node: any): any {
 
 function decodeHtmlEntities(str: string): string {
   if (!str) return "";
-  return str.replace(/&#x([0-9A-Fa-f]+);/g, (_, hex) => String.fromCharCode(parseInt(hex, 16)));
+  return str.replace(/&#x([0-9A-Fa-f]+);/g, (_, hex) =>
+    String.fromCharCode(parseInt(hex, 16)),
+  );
 }
 
 function normalize(str: string): string {
@@ -44,18 +50,18 @@ function detectCommunes(text: string): string[] {
 
   for (const commune of COMMUNES) {
     const normalizedCommune = normalize(commune);
-    
+
     // Cas spécifique pour "Montpellier" pour éviter "Montpellier Méditerranée Métropole" ou "Montpellier Events"
     // Si le texte contient juste "Montpellier", ou "Ville de Montpellier", c'est bon.
     // Mais ici on cherche dans les libellés de projets.
     // Souvent les projets s'appellent "AMENAGEMENT MONTPELLIER ..." -> OK.
     // Si c'est "METROPOLE MONTPELLIER" -> c'est générique.
     // Pour simplifier, on détecte tout, mais on pourrait affiner.
-    
+
     // On vérifie si la commune est présente (word boundary check is better but regex is safer)
     // Simple check first
     if (normalizedText.includes(normalizedCommune)) {
-        detected.push(commune);
+      detected.push(commune);
     }
   }
 
@@ -74,7 +80,7 @@ async function processFile(filename: string): Promise<Apcp[]> {
   const xmlContent = readFileSync(join(DATA_DIR, filename), "latin1");
   const jsonObj = parser.parse(xmlContent);
   const budget = jsonObj.DocumentBudgetaire.Budget;
-  
+
   // 1. Extract APCP Definitions
   const rawApcps = budget.Annexes?.DATA_APCP?.APCP;
   if (!rawApcps) return [];
@@ -85,9 +91,9 @@ async function processFile(filename: string): Promise<Apcp[]> {
   for (const raw of apcpArray) {
     const id = getVal(raw.NumAutori);
     if (!id) continue;
-    
+
     const libelle = decodeHtmlEntities(getVal(raw.LibAutori) || "Sans libellé");
-    
+
     // Fusionner détection auto et mapping manuel
     const detected = detectCommunes(libelle);
     const manual = MANUAL_MAPPING[id] || [];
@@ -97,9 +103,11 @@ async function processFile(filename: string): Promise<Apcp[]> {
       id,
       libelle,
       chapitre: getVal(raw.Chapitre) || "",
-      montant_ap_vote_anterieur: parseFloat(getVal(raw.MtAutori_NMoins1) || "0"),
-      cp_vote_2025: 0,
-      cp_realise_2025: 0,
+      montant_ap_vote_anterieur: parseFloat(
+        getVal(raw.MtAutori_NMoins1) || "0",
+      ),
+      cp_vote: 0,
+      cp_realise: 0,
       cp_reste_a_realiser: 0,
       nombre_lignes: 0,
       communes: mergedCommunes,
@@ -115,16 +123,18 @@ async function processFile(filename: string): Promise<Apcp[]> {
     if (!caracSup) continue;
 
     const caracSupArray = Array.isArray(caracSup) ? caracSup : [caracSup];
-    const progAutoNode = caracSupArray.find((c: any) => c.Code === "ProgAutoNum");
-    
+    const progAutoNode = caracSupArray.find(
+      (c: any) => c.Code === "ProgAutoNum",
+    );
+
     if (progAutoNode) {
       const rawId = getVal(progAutoNode);
       const id = extractApcpId(rawId);
-      
+
       if (id && apcpMap.has(id)) {
         const apcp = apcpMap.get(id)!;
-        apcp.cp_vote_2025 += parseFloat(getVal(line.MtPrev) || "0");
-        apcp.cp_realise_2025 += parseFloat(getVal(line.MtReal) || "0");
+        apcp.cp_vote += parseFloat(getVal(line.MtPrev) || "0");
+        apcp.cp_realise += parseFloat(getVal(line.MtReal) || "0");
         apcp.cp_reste_a_realiser += parseFloat(getVal(line.MtRAR3112) || "0");
         apcp.nombre_lignes++;
       }
@@ -136,9 +146,11 @@ async function processFile(filename: string): Promise<Apcp[]> {
 
 async function main() {
   console.log("Extracting AP/CP data...");
-  
-  const principalApcps = await processFile("XML BS 2025 3M PRINCIPAL SCELLE.xml");
-  
+
+  const principalApcps = await processFile(
+    "XML BS 2025 3M PRINCIPAL SCELLE.xml",
+  );
+
   const data: ApcpData = {
     generated_at: new Date().toISOString(),
     apcps: principalApcps,
@@ -146,8 +158,10 @@ async function main() {
 
   mkdirSync(join(process.cwd(), "src/content/data"), { recursive: true });
   writeFileSync(OUTPUT_FILE, JSON.stringify(data, null, 2));
-  
-  console.log(`Successfully generated ${OUTPUT_FILE} with ${principalApcps.length} AP/CP entries.`);
+
+  console.log(
+    `Successfully generated ${OUTPUT_FILE} with ${principalApcps.length} AP/CP entries.`,
+  );
 }
 
 main().catch(console.error);

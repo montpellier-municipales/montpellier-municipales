@@ -1,0 +1,45 @@
+{
+  "budget": {
+    "metropole": {
+      "title": "Explorateur du Budget {{year}}",
+      "subtitle": "Plongez dans les détails du budget et de la dette de Montpellier Méditerranée Métropole.",
+      "yearLabel": "Année :",
+      "tabs": {
+        "evolution": "Évolution",
+        "budget": "Budget",
+        "loans": "Dette",
+        "apcp": "Investissements",
+        "subventions": "Subventions"
+      },
+      "metaDescription": "Détails du budget {{year}} de Montpellier Méditerranée Métropole.",
+      "subventions": {
+        "title": "Subventions versées par la métropole"
+      }
+    },
+    "ville": {
+      "title": "Budget Ville de Montpellier {{year}}",
+      "tabs": {
+        "budget": "Budget",
+        "personnel": "Personnel",
+        "patrimoine": "Patrimoine",
+        "loans": "Dette",
+        "subventions": "Subventions"
+      },
+      "personnel": {
+        "title": "Données du Personnel",
+        "wip": "En construction..."
+      },
+      "patrimoine": {
+        "title": "Données du Patrimoine",
+        "wip": "En construction..."
+      },
+      "loans": {
+        "title": "Détail de la Dette"
+      },
+      "subventions": {
+        "title": "Subventions versées"
+      },
+      "metaDescription": "Détails du budget {{year}} de la Ville de Montpellier."
+    }
+  }
+}

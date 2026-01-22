@@ -66,3 +66,48 @@ export const rightSection = style({
   alignItems: "center",
   gap: "1.5rem",
 });
+
+export const popover = style({
+  backgroundColor: vars.color.surface,
+  border: `1px solid ${vars.color.border}`,
+  borderRadius: "8px",
+  boxShadow: vars.shadow.lg,
+  padding: "8px",
+  flexDirection: "column",
+  gap: "4px",
+  minWidth: "200px",
+  marginTop: "8px",
+  display: "none",
+  selectors: {
+    "&[data-open]": {
+      display: "flex",
+    },
+  },
+});
+
+export const popoverLink = style([
+  link,
+  {
+    padding: "8px 12px",
+    borderRadius: "4px",
+    display: "block",
+    ":hover": {
+      backgroundColor: vars.color.background,
+      color: vars.color.primary,
+    },
+  },
+]);
+
+export const budgetTrigger = style([
+  link,
+  {
+    display: "flex",
+    alignItems: "center",
+    gap: "4px",
+    cursor: "pointer",
+    background: "none",
+    border: "none",
+    fontFamily: "inherit",
+    padding: 0,
+  },
+]);

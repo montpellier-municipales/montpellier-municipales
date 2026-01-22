@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-11T13:39:56.187Z",
+  "generated_at": "2026-01-23T18:46:37.160Z",
   "lines": [
     {
       "id": "2021-Assainissement-0",
@@ -28971,6 +28971,2211 @@
       "montant_vote": 0,
       "montant_realise": 861.62,
       "operation_reelle": false
+    }
+  ],
+  "concours": [
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "A.K. SPORT",
+      "montant": 20000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ADAGE",
+      "montant": 164316
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ADIL DE L'HERAULT",
+      "montant": 155500
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "AEROSPACE VALLEY",
+      "montant": 20000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "AFIVAM ASSO POUR LE FESTIVAL INTERNATIONAL DU VOYAGE ET DE L'AVENTURE",
+      "montant": 0,
+      "objet": "2 472&#x20AC; MISE A DISPOSITION SALLE PELLOUTIER"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "AGENCE LOCALE DE L'ENERGIE ET DU CLIMAT MONTPELLIER",
+      "montant": 697494
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "AGRI SUD OUEST INNOVATION",
+      "montant": 30000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "AGROPOLIS INTERNATIONAL",
+      "montant": 83000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "AJEM ASSOCIATION JACOUMARDE D'ENSEIGNEMENT MUSICAL",
+      "montant": 1000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ALDEBARAN CREATION CONTEMPORAINE",
+      "montant": 12000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ALTERNATIVES POUR UN DEVELOPPEMENT ECONOMIQUE SOCIAL LOCAL ADESL",
+      "montant": 2000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ALUMN'IAE MONTPELLIER",
+      "montant": 1500
+    },
+    {
+      "article": "65742",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "AMICALE DES RETRAITES DE MONTPELLIER MEDITERRANEE METROPOLE",
+      "montant": 2200
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "AMICALE DU NID",
+      "montant": 42791
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "AMIS DE L'ORGUE ET CHÆURS DE LA CATHEDRALE",
+      "montant": 1500
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ANIMA",
+      "montant": 5000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "APSH 34 - ASSOCIATION POUR PERSONNES EN SITUATION DE HANDICAP",
+      "montant": 11000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "AQUALOVE SAUVETAGE",
+      "montant": 2690
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ARS MUSICA MONTPELLIER",
+      "montant": 2000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ART MIXTE",
+      "montant": 9500
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ASPACAM",
+      "montant": 0,
+      "objet": "644&#x20AC; MISE A DISPOSITION SALLE PELLOUTIER"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ASPTT MONTPELLIER",
+      "montant": 12500,
+      "objet": "MISE A DISPOSITION DE LOCAUX - PISCINE ALFRED NAKACHE"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ASSO PEROLIENNE POUR LE MAINTIEN DES TRADITIONS CAMARGUAISES",
+      "montant": 6000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ASSOCIATION BRUIT QUI COURT",
+      "montant": 3500
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ASSOCIATION COREE'GRAPHIE",
+      "montant": 500
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ASSOCIATION DE GESTION ANIMATION ET RECHERCHE GESTARE",
+      "montant": 50564
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ASSOCIATION D'ENTRAIDE ET DE RECLASSEMENT SOCIAL",
+      "montant": 98909
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ASSOCIATION DES AMIS DE L'ORGUE DU TEMPLE DE LA RUE DE MAGUELONE",
+      "montant": 20000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ASSOCIATION DES PARENTS ET FUTURS PARENTS GAYS ET LESBIENS",
+      "montant": 0,
+      "objet": "10 200&#x20AC; MISE A DISPOSITION MUSEE FABRE - 1 036&#x20AC; GOODIES 3M"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ASSOCIATION DES PRODUCTEURS INDEPENDANTS DE LA FILIERE AUDIOVISUELLE DE PYRENEE",
+      "montant": 8000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ASSOCIATION DES PUPILLES DE L'ENSEIGNEMENT PUBLIC HERAULT",
+      "montant": 24000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ASSOCIATION ETUDIANTE BRIN DE FORET",
+      "montant": 500
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ASSOCIATION JESSICA FRANCE",
+      "montant": 15000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ASSOCIATION METROPOLES DU SUD",
+      "montant": 1000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ASSOCIATION MM",
+      "montant": 3000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ASSOCIATION POUR LA PROMOTION DE L'ARCHITECTURE, DES ARTS APPLIQUES ET VISUELS APAAAV",
+      "montant": 2000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ASSOCIATION POUR LE DEVELOPPEMENT DE L'ARCHEOLOGIE EN LR",
+      "montant": 10000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ASSOCIATION POUR LE DROIT A L'INITIATIVE ECONOMIQUE ADIE",
+      "montant": 15000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ASSOCIATION POUR L'INSERTION DES JEUNES PAR L'EMPLOI APIJE",
+      "montant": 19390
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ASSOCIATION PSYCHIATRIE ET PSYCHOBIOLOGIE",
+      "montant": 25000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ASSOCIATION SPORTIVE AUTOMOBILE DE L'HERAULT ASA",
+      "montant": 40000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ASSOCIATION SPORTIVE CULTURELLE HOSPITALIERE",
+      "montant": 10000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ASSOCIATION UNI'SONS",
+      "montant": 253409.4
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ATELIERS D'ART DE FRANCE",
+      "montant": 38000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ATTITUDE",
+      "montant": 68500
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "AVIS DE CHANTIER",
+      "montant": 5000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "AXENTS LE TREMPLIN DES ENTREPRENEUR",
+      "montant": 28000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "BALTHAZAR CENTRE DES ARTS DU CIRQUE",
+      "montant": 32500
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "BARBARIANS TOUCH RUGBY",
+      "montant": 0,
+      "objet": "MISE A DISPOSITION DE VESTIAIRES - STADE JULES RIMET"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "BASKET LATTES MONTPELLIER MEDITERRANEE METROPOLE ASSOCIATION BLMA",
+      "montant": 1010000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "BELVEDERE SUR LA VALLEE DU LEZ",
+      "montant": 2000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "BGE MONTPELLIER",
+      "montant": 38000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "BOOMERANG",
+      "montant": 5000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "BOUISSONA",
+      "montant": 38512
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "BOXING ARTS 34",
+      "montant": 1800
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "BOXING CLUB MONTPELLIERAIN",
+      "montant": 20000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "BRAND A PART",
+      "montant": 2000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "BROCELIANDE",
+      "montant": 2800
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "CAES DU CNRS / CLAS DE MONTPELLIER",
+      "montant": 0,
+      "objet": "1 236&#x20AC; MISE A DISPOSITION SALLE PELLOUTIER"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "CAPEB ARTISANAT PETITES ENTREPRISES",
+      "montant": 10000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "CCAS DE VILLENEUVE LES MAGUELONE",
+      "montant": 3329
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "CENTRE COMMUNAL D'ACTION SOCIALE CCAS",
+      "montant": 81780
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "CENTRE CULTUREL INTERNATIONAL MUSIQUES SANS FRONTIERES",
+      "montant": 3000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "CENTRE DE RESSOURCES DES GROUPEMENTS D'EMPLOYEURS REGION OCCITANIE",
+      "montant": 10000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "CENTRE DES JEUNES DIRIGEANTS DE MONTPELLIER",
+      "montant": 5000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "CENTRE HOSPITALIER REGIONAL UNIVERSITAIRE DE MONTPELLIER",
+      "montant": 40000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "CENTRE INTERNATIONAL DE MUSIQUES MEDIEVALES",
+      "montant": 17000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "CENTRES D'ENTRAINEMENT AUX METHODES D'EDUCATION ACTIVES - CEMEA -",
+      "montant": 2000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "CERCLE OCCITAN DE MONTPELLIER",
+      "montant": 1200
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "CETAVOIR",
+      "montant": 3000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "CHAMBRE DE COMMERCE ET D'INDUSTRIE",
+      "montant": 1500
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "CHAMBRE PROFESSIONNELLE DU CONSEIL LR",
+      "montant": 4900
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "CHAMBRE REGIONALE DE L'ECONOMIE SOCIALE ET SOLIDAIRE OCCITANIE",
+      "montant": 10000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "CHEMIN DES CIMES",
+      "montant": 0,
+      "objet": "1 236&#x20AC; MISE A DISPOSITION SALLE PELLOUTIER"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "CHOEUR POLYPHONIQUE OCCITAN DE MONTPELLIER NADALENCA",
+      "montant": 3000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "CHOEUR UNIVERSITAIRE DE MONTPELLIER MEDITERRANEE",
+      "montant": 2000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "CIA - COMPAGNIE INTERNATIONALE ALLIGATOR",
+      "montant": 2000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "CLUB ALPIN Français",
+      "montant": 0,
+      "objet": "1 236&#x20AC; MISE A DISPOSITION SALLE PELLOUTIER"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "CLUB DE LA PRESSE MONTPELLIER LANGUEDOC-ROUSSILLON",
+      "montant": 10000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "CLUB KIWANIS MONTPELLIER",
+      "montant": 0,
+      "objet": "1 236&#x20AC; MISE A DISPOSITION SALLE PELLOUTIER"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "CLUB TAURIN LE SANGLIER BAILLARGUES",
+      "montant": 3500
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "CLUB TAURIN LOU TAU",
+      "montant": 4000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "COMITE D'ACTION SOCIALE, SPORTIVE ET CULTURELLE MONTPELLIER 3M CASSC",
+      "montant": 785169,
+      "objet": "MISE A DISPOSITION DE DEUX LOCAUX, DE MATERIEL INFORMATIQUE ET TELEPHONIQUE"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "COMITE DE LIAISON ET DE COORDINATION DES ASSOCIATIONS DE PERSONNES HANDICAPEES ET MALADES CHRONIQUES",
+      "montant": 11000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "COMITE DEPARTEMENTAL DE TENNIS DE L'HERAULT",
+      "montant": 50000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "COMITE DEPARTEMENTAL D'EDUCATION POUR LA SANTE DE L'HERAULT CODES 34",
+      "montant": 2500
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "COMITE REGIONAL DU TOURISME ET DES LOISIRS D'OC",
+      "montant": 100000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "COMPAGNIE AUTRE MINA",
+      "montant": 10000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "COMPAGNIE COMME CA",
+      "montant": 1500
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "COMPAGNIE PEPI MORENA",
+      "montant": 1500
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "COMPAGNIE VIRGULE",
+      "montant": 1500
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "COMPAGNONS BATISSEURS OCCITANIE",
+      "montant": 131140
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "CONFEDERATION NATIONALE DU LOGEMENT FEDERATION DE L'HERAULT",
+      "montant": 2100
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "CONFLUENCES",
+      "montant": 53000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "CONNAISSANCE ET PARTAGE",
+      "montant": 3000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "CONSERVATOIRE DES ESPACES NATURELS",
+      "montant": 130000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "CONSOMMATION LOGEMENT CADRE DE VIE DE MONTPELLIER CLCV",
+      "montant": 55794
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "COODIO",
+      "montant": 15000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "CREATEF",
+      "montant": 2000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "CREATURES CREATRICES",
+      "montant": 5000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "CREER - MAISON DES CHOMEURS",
+      "montant": 15000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "CULTURE ET SPORT SOLIDAIRES 34 CSS 34",
+      "montant": 9500
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "D'AICI D'ALAI",
+      "montant": 500
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "DEFI - DEVELOPPEMENT, FORMATION, INSERTION",
+      "montant": 13000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "DERBI-DEVELOPPEMENT ENERGIES RENOUVELABLES BATIMENT INDUSTRIE",
+      "montant": 30000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "DERNIER CRI",
+      "montant": 19000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "DIGITAL 113",
+      "montant": 0,
+      "objet": "2 574&#x20AC; MISE A DISPOSITION SALLE PELLOUTIER"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "DIGITAL 113 GRAND CLUSTER NUMERIQUE D OCCITANIE",
+      "montant": 35000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ECHECS CLUB MONTPELLIER ECM",
+      "montant": 13650
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ECOLE NATIONALE SUPERIEURE D'ART DRAMATIQUE DE MONTPELLIER LR",
+      "montant": 450000,
+      "objet": "146 500&#x20AC; MISE A DISPOSITION MAISON LOUIS JUVET+ 220 000&#x20AC; MISE A DISPOSITION THEATRE DU HANGAR"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "EKHO CHOEUR DE CHAMBRE",
+      "montant": 4000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ENSEMBLE VOCAL CLAIRE GARRONE",
+      "montant": 1000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ENVIE OCCITANIE",
+      "montant": 30000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ESSOR SAVOIRS ET PARTAGE",
+      "montant": 1000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "EUROBIOMED",
+      "montant": 20000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "FACE HERAULT",
+      "montant": 28000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "FC SUSSARGUES",
+      "montant": 0,
+      "objet": "17 658,23&#x20AC; MISE A DISPOSITION DE LA MAISON DU NUMERIQUE ET BUREAUX DE CAP OMEGA"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "FC VENDANGES",
+      "montant": 0,
+      "objet": "MISE A DISPOSITION DE VESTIAIRES - STADE JULES RIMET"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "FEDERATION FRANCAISE DE CYCLISME",
+      "montant": 10000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "FEDERATION FRANCAISE DE HANDBALL",
+      "montant": 150000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "FEDERATION FRANCAISE DE MUSICOTHERAPIE",
+      "montant": 2000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "FEDERATION FRANCAISE DES SPORTS DE GLACE FFSG",
+      "montant": 350000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "FEDERATION REGIONALE DES CIVAM D'OCCITANIE",
+      "montant": 4000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "FESTIVAL INTERNATIONAL DU CINEMA MEDITERRANEEN DE MONTPELLIER CINEMED",
+      "montant": 484500
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "FESTIVAL RADIO FRANCE OCCITANIE MONTPELLIER",
+      "montant": 350000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "FOLIES LYRIQUES",
+      "montant": 215000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "FONDATION LE REFUGE",
+      "montant": 16645
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "FORMATION CAP EMPLOI - FOR.C.E.",
+      "montant": 15000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "FOYER DE LA JEUNE FILLE GESTION FOYERS CASTELLANE, FONTCARRADE",
+      "montant": 86214
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "France ACTIVE AIRDIE-OCCITANIE",
+      "montant": 101500
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "FRENCH TECH MEDITERRANEE MONTPELLIER NIMES",
+      "montant": 48750,
+      "objet": "2 822,40&#x20AC; MISE A DISPOSITION D'UN BUREAU"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "GEFOSAT",
+      "montant": 14561
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "GESTION ANIMATION ET RECHERCHE GESTARE",
+      "montant": 188500
+    },
+    {
+      "article": "65742",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "GIHP GROUPEMENT POUR L'INSERTION DES PERSONNES HANDICAPEES PHYSIQUES LR",
+      "montant": 1374800
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "GRAND ECRAN 2001",
+      "montant": 1500
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "GROUPE SOS SOLIDARITE - POINT ECOUTE PARENTS ADOLESCENTS",
+      "montant": 8500
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "HABITAT ET HUMANISME HERAULT",
+      "montant": 50624
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "HALTE POUCE",
+      "montant": 3000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "HUNTINGTON OCCITANIE",
+      "montant": 0,
+      "objet": "MISE A DISPOSITION DE VESTIAIRES - STADE JULES RIMET"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "I LOVE PLANET",
+      "montant": 10000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ICI - CENTRE CHOREGRAPHIQUE NATIONAL DE MONTPELLIER - OCCITANIE",
+      "montant": 130000,
+      "objet": "248 000&#x20AC; MISE A DISPOSITION AGORA CITE INTERNATIONALE DE LA DANSE"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ILLUSION ET MACADAM",
+      "montant": 20000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "INFORMATION ET RECHERCHE SUR LA RETINITE PIGMENTAIRE IRRP",
+      "montant": 500
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "INITIATIVE MONTPELLIER PIC SAINT LOUP",
+      "montant": 38000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "INITIATIVE SOLIDARITE SITUATIONS URGENCE SOCIALE - ISSUE",
+      "montant": 596642
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "INNOVUS",
+      "montant": 4000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "INPACT OCCITANIE",
+      "montant": 15000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "INSTITUT DE L'AUDIOVISUEL ET DES TELECOMM EN EUROPE IDAT",
+      "montant": 22500
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "INSTITUT NATIONAL DE RECHERCHE AGRICULTURE ALIMENTATION ET ENVIRONNEMENT INRAE",
+      "montant": 5000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "INTERNATIONAL NEW TECHNOLOGY INSTITUTE",
+      "montant": 10000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "JACOU CLAPIERS FOOTBALL ASSOCIATION",
+      "montant": 2000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "JAM - JAZZ ACTION MONTPELLIER",
+      "montant": 15000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "JE PARS A ZART",
+      "montant": 1500
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "JETEZ L'ENCRE",
+      "montant": 2000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "KANI S FIGHT",
+      "montant": 35000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "KITE AND WINDSURF MAGUELONE",
+      "montant": 60000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "KOA JAZZ FESTIVAL",
+      "montant": 3000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "LA BARONNIE DE CARAVETES ET LES AMIS DE LA BARONNIE",
+      "montant": 1600
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "LA CLAIRIERE",
+      "montant": 136482
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "LA COSTUMOTEK",
+      "montant": 2000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "LA FOLIE DE CADENET",
+      "montant": 5000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "LA FRICHE DE MIMI",
+      "montant": 8000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "LA MELEE",
+      "montant": 2000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "LABSUD",
+      "montant": 5000,
+      "objet": "41 700&#x20AC; MISE A DISPOSITION ESPACE HOTEL D'ENTREPRISES DU MILLENAIRE"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "L'ATELLINE",
+      "montant": 104000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "L'AVITARELLE",
+      "montant": 178095
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "LE BARIL",
+      "montant": 3000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "LE PASSE MURAILLE",
+      "montant": 15000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "LE PETIT CHAT NOIR RECORDS",
+      "montant": 2500
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "LE PRINTEMPS DES COMEDIENS",
+      "montant": 1472382
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "LE TAMBOURIN CLUB COURNONTERRALAIS",
+      "montant": 8000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "LE TRIDENT CASTRIES",
+      "montant": 6000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "LE TRIDENT SAINT GENIES DES MOURGUES",
+      "montant": 6100
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "LE TRIDENT SAINT GEORGES D'ORQUES",
+      "montant": 9000
+    },
+    {
+      "article": "65742",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "LE VIEUX BICLOU",
+      "montant": 8000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "LEADER MONTPELLIER",
+      "montant": 5000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "LES AMIS DU MUSEE FABRE AM",
+      "montant": 5000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "LES ARCHIVES DU SPECTACLE",
+      "montant": 6000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "LES CARACTERES DE LA MUSIQUE",
+      "montant": 5000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "LES ENFANTS D'HELENE",
+      "montant": 3000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "LES JARDINS DE COCAGNE MIRABEAU",
+      "montant": 15000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "LES MUSES EN DIALOGUE",
+      "montant": 13000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "LES NUITS CLAIRES",
+      "montant": 1500
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "LES NUITS DU CHAT",
+      "montant": 23000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "LES PATTOUNES DU COEUR",
+      "montant": 7000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "LES PREMIERES OCCITANIE",
+      "montant": 15000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "LES RABBITS - BASEBALL SOFTBALL",
+      "montant": 2000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "LEZARDS D'U...",
+      "montant": 7000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "LIGUE POUR LA PROTECTION DES OISEAUX LPO 34",
+      "montant": 7500
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "LOISIRS SOLIDARITES RETRAITES 34",
+      "montant": 0,
+      "objet": "1 236&#x20AC; MISE A DISPOSITION SALLE PELLOUTIER"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MAISON 2 LA CHANSON",
+      "montant": 3000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MAISON DE L'EUROPE DE MONTPELLIER",
+      "montant": 7000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MFA MONTPELLIER FOOTBALL AMERICAIN LES HURRICANES",
+      "montant": 5000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MISSION LOCALE DES JEUNES DE MONTPELLIER MEDITERRANEE METROPOLE MLJ3M",
+      "montant": 669790,
+      "objet": "17 573&#x20AC; MISE A DISPOSITION DE LOCAUX"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MONTPEL'LIBRE",
+      "montant": 3000,
+      "objet": "1 236&#x20AC; MISE A DISPOSITION SALLE PELLOUTIER"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MONTPELLIER GRS",
+      "montant": 97500,
+      "objet": "MISE A DISPOSITION DE LOCAUX ET DU GYMNASE LOU CLAPAS"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MONTPELLIER AGGLOMERATION PLONGEE UC",
+      "montant": 0,
+      "objet": "1 236&#x20AC; MISE A DISPOSITION SALLE PELLOUTIER"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MONTPELLIER AGGLOMERATION TRIATHLON MAT",
+      "montant": 20000,
+      "objet": "MISE A DISPOSITION DE LOCAUX - PISCINE SUZANNE BERLIOUX"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MONTPELLIER ATHLETIC MEDITERRANEE METROPOLE MA2M",
+      "montant": 78000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MONTPELLIER BASKET MOSSON",
+      "montant": 2000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MONTPELLIER BEACH SOCCER",
+      "montant": 3000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MONTPELLIER BEACH VOLLEY",
+      "montant": 34500
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MONTPELLIER CASTELNAU B",
+      "montant": 37800
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MONTPELLIER CASTELNAU VOLLEY-BALL UNIVERSITE UC",
+      "montant": 880000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MONTPELLIER CONTACTS - RADIO CLAPA",
+      "montant": 5000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MONTPELLIER DANSE",
+      "montant": 1538050,
+      "objet": "424 000&#x20AC; MISE A DISPOSITION AGORA CITE INTERNATIONALE DE LA DANSE"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MONTPELLIER FEMININE HORSE BALL (EX HORSE BALL MONTPELLIER VALLON)",
+      "montant": 10000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MONTPELLIER HANDBALL",
+      "montant": 630000,
+      "objet": "MISE A DISPOSITION D'UN LOCAL (SIÈGE) ET DU PALAIS DES SPORTS RENÉ BOUGNOL"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MONTPELLIER HERAULT SPORT CLUB",
+      "montant": 292500
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MONTPELLIER JUDO OLYMPIC",
+      "montant": 2000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MONTPELLIER MEDITERRANEE FUTSAL",
+      "montant": 10000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MONTPELLIER MEDITERRANEE METROPOLE CANOE KAYAK UC",
+      "montant": 58500,
+      "objet": "MISE A DISPOSITION DE LA BASE LA VALETTE"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MONTPELLIER MEDITERRANEE METROPOLE NATATION ARTISTIQUE.",
+      "montant": 7175
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MONTPELLIER MEDITERRANEE METROPOLE PATINAGE",
+      "montant": 75000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MONTPELLIER MEDITERRANEE METROPOLE TAEKWONDO 3MTKD",
+      "montant": 30000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MONTPELLIER MEDITERRANEE METROPOLE U.C. NATATION",
+      "montant": 375650,
+      "objet": "MISE A DISPOSITION DE LOCAUX - PISCINE OLYMPIQUE D'ANTIGONE - CNN"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MONTPELLIER METROPOLE HOCKEY CLUB",
+      "montant": 200000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MONTPELLIER PAILLADE NATATION",
+      "montant": 0,
+      "objet": "MISE A DISPOSITION DE LOCAUX - PISCINE SPILLAERT"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MONTPELLIER RUGBY CLUB",
+      "montant": 900000,
+      "objet": "MISE A DISPOSITION DE LOCAUX (SIÈGE) - COMPLEXE SPORTIF YVES DU MANOIR"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MONTPELLIER RUGBY CLUB SASP",
+      "montant": 916325
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MONTPELLIER RUSSIE",
+      "montant": 2500
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MONTPELLIER SCRABBLE",
+      "montant": 0,
+      "objet": "MISE A DISPOSITION DE LOCAUX (SIEGE) - CENTRE NAUTIQUE NEPTUNE"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MONTPELLIER SUPAGRO",
+      "montant": 5000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MONTPELLIER TENNIS DE TABLE",
+      "montant": 3000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MONTPELLIER WATER-POLO MWP",
+      "montant": 376650,
+      "objet": "MISE A DISPOSITION DE LOCAUX - PISCINE OLYMPIQUE D'ANTIGONE (POA)"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MONTPELLIER XIII",
+      "montant": 5000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MONTPELLIER ZERO DECHET",
+      "montant": 15000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MOUVEMENT IMPACT FRANCE",
+      "montant": 10000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MRBC MONTPELLIER REBUILDING CENTER CENTRE DU REEMPLOI DES MATERIAUX DU BATIMENT",
+      "montant": 20000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MUC ESCRIME",
+      "montant": 0,
+      "objet": "MISE A DISPOSITION DE VESTIAIRES - STADE JULES RIMET"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "OASIS CITADINE",
+      "montant": 3000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "OBJECTIF EMERGENCE",
+      "montant": 0,
+      "objet": "3 708&#x20AC; MISE A DISPOSITION SALLE PELLOUTIER"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "OCCITANIE FILMS",
+      "montant": 35000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "OCCITANIE MEDITERRANEE HABITAT (EX HABITAT SOCIAL OCCITANIE)",
+      "montant": 20000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "OC'CONSIGNE",
+      "montant": 40690
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "OCEBIO",
+      "montant": 5000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "OCTOPUS EXPRESSION",
+      "montant": 4000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "OFFICE DU TOURISME ET DES CONGRES DE MONTPELLIER MEDITERRANEE METROPOLE",
+      "montant": 2510703.76
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "OPERA ET ORCHESTRE NATIONAL DE MONTPELLIER OONM",
+      "montant": 12745000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ORCHESTRE DE CHAMBRE DU LANGUEDOC",
+      "montant": 2500
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "OX'IVENT",
+      "montant": 2000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "PARTAGE TON MONDE",
+      "montant": 230
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "PASSERELLES SYNERGIES",
+      "montant": 16900
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "PLUME",
+      "montant": 14000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "POLE OPTITEC",
+      "montant": 15000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "PROFESSION SPORT ET LOISIRS 34 PSL",
+      "montant": 3000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "PUSH START SUD",
+      "montant": 6000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "RADIO AVIVA AMDCJL",
+      "montant": 3000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "RE CYCLE ET VOUS",
+      "montant": 15000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "RENAISSANCE 34",
+      "montant": 40890
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "REPAIR CAFE MONTPELLIER",
+      "montant": 3000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "RESEAU DES SEMEURS DE JARDINS",
+      "montant": 7500
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "RESTAURANTS DU COEUR - RELAIS DU COEUR HERAULT",
+      "montant": 16158
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ROULE NATURE",
+      "montant": 1500
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "SAS MONTPELLIER HANDBALL",
+      "montant": 1093991.5
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "SASU MONTPELLIER HERAULT SPORT CLUB SAS MHSC",
+      "montant": 1174797
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "SECOURS POPULAIRE FRANCAIS MONTPELLIER SPF 34",
+      "montant": 3000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "SECTION TAURINE PAUL RICARD",
+      "montant": 9000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "SENTINELLES DE RIVIERES",
+      "montant": 10000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "SERVICE INTEGRÉ D'ACCUEIL ET D'ORIENTATION DE L'",
+      "montant": 100000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "SOCIETE DE PROTECTION DES ANIMAUX MONTPELLIER MEDITERRANEE METROPO",
+      "montant": 75000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "SOLIDARITE DOM-TOM HERAULT",
+      "montant": 43700
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "SOS LEZ ENVIRONNEMENT",
+      "montant": 4000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "STAND'ART",
+      "montant": 205500
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "STEVO 'S TEAM",
+      "montant": 3000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "SUD DE FOOT",
+      "montant": 0,
+      "objet": "MISE A DISPOSITION DE LOCAUX ET DES INSTALLATIONS - GYMNASE DU PEYROU"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "SUSSARGUES EVASION",
+      "montant": 0,
+      "objet": "MISE A DISPOSITION DE VESTIAIRES - STADE JULES RIMET"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "SYNDICAT NATIONAL DES ENSEIGNEMENTS DE SECOND DEGRE",
+      "montant": 15000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "TEAM RFF",
+      "montant": 0,
+      "objet": "MISE A DISPOSITION DE VESTIAIRES - STADE JULES RIMET"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "THEATRE DES TREIZE VENTS",
+      "montant": 700000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "THEATRE TALHERS PRODUCTION LA RAMPE THEATRE INTEREGIONAL OCCITAN LA RAMPE TIO",
+      "montant": 38000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "TOUT A FOND TAF",
+      "montant": 14000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "TRAIT",
+      "montant": 124440
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "TRANSDEV MOBILITE MONT",
+      "montant": 792501.77
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "TROC & MODE",
+      "montant": 2000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "TSV",
+      "montant": 10000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "UFORCA",
+      "montant": 0,
+      "objet": "1 236&#x20AC; MISE A DISPOSITION SALLE PELLOUTIER"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "UNION DEPARTEMENTALE DES ASSOCIATIONS FAMILIALES DE L'HERAULT",
+      "montant": 93850
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "UNION REGIONALE DES SOCIETES COOPERATIVES",
+      "montant": 20000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "UNIVERSITE PAUL VALERY MONTPELLIER III - THEATRE LA VIGNETTE",
+      "montant": 15000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "VELOCITE LANGUEDOC",
+      "montant": 6000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "VETERANS DE BEAULIEU",
+      "montant": 0,
+      "objet": "MISE A DISPOSITION DE VESTIAIRES - STADE JULES RIMET"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "VETERANS DE MONTAUD",
+      "montant": 0,
+      "objet": "MISE A DISPOSITION DE VESTIAIRES - STADE JULES RIMET"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "VETERANS SUSSARGUES",
+      "montant": 0,
+      "objet": "MISE A DISPOSITION DE VESTIAIRES - STADE JULES RIMET"
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "VOX RAPIDO",
+      "montant": 3000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "YEOBI",
+      "montant": 4000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ZART PRODUCTION",
+      "montant": 3000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ZEPETRA",
+      "montant": 8000
+    },
+    {
+      "article": "65748",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ZIGZAGS ARBATZ ET COMPAGNIE",
+      "montant": 3500
+    },
+    {
+      "article": "657381",
+      "nature_beneficiaire": "U4",
+      "nom_beneficiaire": "DOMAINE D'O",
+      "montant": 3137389
+    },
+    {
+      "article": "65763",
+      "nature_beneficiaire": "U4",
+      "nom_beneficiaire": "MONTPELLIER CONTEMPORAIN",
+      "montant": 3200000
+    },
+    {
+      "article": "204121",
+      "nature_beneficiaire": "U1",
+      "nom_beneficiaire": "REGION OCCITANIE",
+      "montant": 2339252
+    },
+    {
+      "article": "204133",
+      "nature_beneficiaire": "U2",
+      "nom_beneficiaire": "CONSEIL DEPARTEMENTAL HERAULT",
+      "montant": 195999.9
+    },
+    {
+      "article": "2041712",
+      "nature_beneficiaire": "P2",
+      "nom_beneficiaire": "SNCF GARES ET CONNEXIONS",
+      "montant": 279161
+    },
+    {
+      "article": "2041723",
+      "nature_beneficiaire": "P2",
+      "nom_beneficiaire": "SNCF RESEAU",
+      "montant": 100000
+    },
+    {
+      "article": "204181",
+      "nature_beneficiaire": "U6",
+      "nom_beneficiaire": "ECOLE SUP ARCHITECTURE MONTP",
+      "montant": 10000
+    },
+    {
+      "article": "204181",
+      "nature_beneficiaire": "P2",
+      "nom_beneficiaire": "FLAMMARION",
+      "montant": 3745.25
+    },
+    {
+      "article": "204181",
+      "nature_beneficiaire": "P2",
+      "nom_beneficiaire": "RTE RESEAU DE TRANSPORT D EL",
+      "montant": 900946
+    },
+    {
+      "article": "204181",
+      "nature_beneficiaire": "U6",
+      "nom_beneficiaire": "UNIVERSITE DE MONTPELLIER",
+      "montant": 100000
+    },
+    {
+      "article": "204182",
+      "nature_beneficiaire": "U6",
+      "nom_beneficiaire": "CNRS REGION LANGUEDOC ROUSSILLON",
+      "montant": 86345.72
+    },
+    {
+      "article": "204182",
+      "nature_beneficiaire": "U6",
+      "nom_beneficiaire": "INRAE INSTITUT NATIONAL RECH",
+      "montant": 75000
+    },
+    {
+      "article": "204182",
+      "nature_beneficiaire": "U6",
+      "nom_beneficiaire": "NATIONALE SUPERIEUR DE CHIMI ENSCM",
+      "montant": 115518
+    },
+    {
+      "article": "204182",
+      "nature_beneficiaire": "U6",
+      "nom_beneficiaire": "UNIVERSITE DE MONTPELLIER",
+      "montant": 523216.24
+    },
+    {
+      "article": "204182",
+      "nature_beneficiaire": "U6",
+      "nom_beneficiaire": "ACM OPAC MONTPELLIER",
+      "montant": 983079.1
+    },
+    {
+      "article": "204182",
+      "nature_beneficiaire": "P2",
+      "nom_beneficiaire": "ADOMA",
+      "montant": 567600
+    },
+    {
+      "article": "204182",
+      "nature_beneficiaire": "U6",
+      "nom_beneficiaire": "CDC HABITAT SOCIAL",
+      "montant": 629325.1
+    },
+    {
+      "article": "204182",
+      "nature_beneficiaire": "P2",
+      "nom_beneficiaire": "ERILIA SA HLM",
+      "montant": 190056.2
+    },
+    {
+      "article": "204182",
+      "nature_beneficiaire": "P2",
+      "nom_beneficiaire": "FDI HABITAT MONTPELLIER",
+      "montant": 259280
+    },
+    {
+      "article": "204182",
+      "nature_beneficiaire": "P2",
+      "nom_beneficiaire": "FONCIERE D HABITAT ET HUMANI",
+      "montant": 33155
+    },
+    {
+      "article": "204182",
+      "nature_beneficiaire": "P2",
+      "nom_beneficiaire": "HERAULT LOGEMENT OPHLM",
+      "montant": 164770
+    },
+    {
+      "article": "204182",
+      "nature_beneficiaire": "P2",
+      "nom_beneficiaire": "IMMOBILIERE MEDITERRANEE",
+      "montant": 83242
+    },
+    {
+      "article": "204182",
+      "nature_beneficiaire": "P2",
+      "nom_beneficiaire": "PATRIMOINE SA LANGUEDOCIENNE",
+      "montant": 67500
+    },
+    {
+      "article": "204182",
+      "nature_beneficiaire": "P2",
+      "nom_beneficiaire": "PROMOLOGIS SA",
+      "montant": 91553.5
+    },
+    {
+      "article": "204182",
+      "nature_beneficiaire": "P2",
+      "nom_beneficiaire": "SOCIETE FRANCAISE HABITATIO",
+      "montant": 82755
+    },
+    {
+      "article": "204182",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "UN TOIT POUR TOUS",
+      "montant": 101942.88
+    },
+    {
+      "article": "20421",
+      "nature_beneficiaire": "P3",
+      "nom_beneficiaire": "AIDE VELO ASSISTANCE ELECTRIQUE",
+      "montant": 4680315.61
+    },
+    {
+      "article": "20421",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "RE CYCLE ET VOUS",
+      "montant": 10000
+    },
+    {
+      "article": "20421",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "MONTPELLIER DANSE",
+      "montant": 18259
+    },
+    {
+      "article": "20421",
+      "nature_beneficiaire": "P4",
+      "nom_beneficiaire": "POLE OPTITEC",
+      "montant": 15000
+    },
+    {
+      "article": "20421",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "UNI SONS ASSOCIATION UNI SONS",
+      "montant": 22500
+    },
+    {
+      "article": "20421",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "ZEPETRA",
+      "montant": 2493
+    },
+    {
+      "article": "20421",
+      "nature_beneficiaire": "P4",
+      "nom_beneficiaire": "AEROSPACE VALLEY",
+      "montant": 20000
+    },
+    {
+      "article": "20421",
+      "nature_beneficiaire": "P4",
+      "nom_beneficiaire": "AGRI SUD OUEST INNOVATION",
+      "montant": 30000
+    },
+    {
+      "article": "20421",
+      "nature_beneficiaire": "P4",
+      "nom_beneficiaire": "EUROBIOMED",
+      "montant": 40000
+    },
+    {
+      "article": "20421",
+      "nature_beneficiaire": "P4",
+      "nom_beneficiaire": "TSV",
+      "montant": 10000
+    },
+    {
+      "article": "20421",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "SOS LEZ ENVIRONNEMENT",
+      "montant": 3996
+    },
+    {
+      "article": "20421",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "LA FOLIE DE CADENET",
+      "montant": 5000
+    },
+    {
+      "article": "20421",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "SENTINELLES DE RIVIERES",
+      "montant": 8941.97
+    },
+    {
+      "article": "20421",
+      "nature_beneficiaire": "P1",
+      "nom_beneficiaire": "THEATRE DES TREIZE VENTS",
+      "montant": 30000
+    },
+    {
+      "article": "20422",
+      "nature_beneficiaire": "P3",
+      "nom_beneficiaire": "AIDE AU SECTEUR LOCATIF",
+      "montant": 5663007
+    },
+    {
+      "article": "20422",
+      "nature_beneficiaire": "U6",
+      "nom_beneficiaire": "AGENCE REGIONALE DE L'ENERGIE",
+      "montant": 5400
+    },
+    {
+      "article": "20422",
+      "nature_beneficiaire": "P2",
+      "nom_beneficiaire": "SA3M",
+      "montant": 12856000
+    },
+    {
+      "article": "20422",
+      "nature_beneficiaire": "P2",
+      "nom_beneficiaire": "SERM",
+      "montant": 841736
+    },
+    {
+      "article": "20422",
+      "nature_beneficiaire": "P2",
+      "nom_beneficiaire": "TAM",
+      "montant": 5261688.94
+    },
+    {
+      "article": "20423",
+      "nature_beneficiaire": "P2",
+      "nom_beneficiaire": "AUTOROUTE SUD DE LA France",
+      "montant": 276057.4
+    },
+    {
+      "article": "20431",
+      "nature_beneficiaire": "P2",
+      "nom_beneficiaire": "SUFCO",
+      "montant": 7500
+    },
+    {
+      "article": "6573643",
+      "nature_beneficiaire": "P2",
+      "nom_beneficiaire": "VM 34000",
+      "montant": 85010.33
+    },
+    {
+      "article": "657382",
+      "nature_beneficiaire": "U6",
+      "nom_beneficiaire": "CNRS REGION LANGUEDOC ROUSSILLON",
+      "montant": 142300
+    },
+    {
+      "article": "65741",
+      "nature_beneficiaire": "P3",
+      "nom_beneficiaire": "SOUTIEN ACHAT POULES ET LOMBRICS",
+      "montant": 16168.5
+    },
+    {
+      "article": "65742",
+      "nature_beneficiaire": "P2",
+      "nom_beneficiaire": "AIDE AUX LOYERS",
+      "montant": 242659
+    },
+    {
+      "article": "65742",
+      "nature_beneficiaire": "P2",
+      "nom_beneficiaire": "SMTCH",
+      "montant": 95953.02
+    },
+    {
+      "article": "65742",
+      "nature_beneficiaire": "P2",
+      "nom_beneficiaire": "TAM",
+      "montant": 61829798.27
+    },
+    {
+      "article": "65742",
+      "nature_beneficiaire": "P2",
+      "nom_beneficiaire": "TRANSDEV MOBILITE MONT",
+      "montant": 14165526.25
+    },
+    {
+      "article": "65742",
+      "nature_beneficiaire": "P2",
+      "nom_beneficiaire": "VILLES INNOVANTES ET GESTION",
+      "montant": 22597.5
+    },
+    {
+      "article": "657341",
+      "nature_beneficiaire": "U3",
+      "nom_beneficiaire": "COMMUNE DE SAINT JEAN DE VEDAS",
+      "montant": 22178,
+      "objet": "ECOLE DE MUSIQUE"
+    },
+    {
+      "article": "657341",
+      "nature_beneficiaire": "U3",
+      "nom_beneficiaire": "COMMUNE DE SUSSARGUES",
+      "montant": 7246,
+      "objet": "ECOLE DE MUSIQUE"
+    },
+    {
+      "article": "657341",
+      "nature_beneficiaire": "U3",
+      "nom_beneficiaire": "COMMUNE DE CASTRIES",
+      "montant": 14476,
+      "objet": "ECOLE DE MUSIQUE"
+    },
+    {
+      "article": "657341",
+      "nature_beneficiaire": "U3",
+      "nom_beneficiaire": "COMMUNE DE JUVIGNAC",
+      "montant": 16746,
+      "objet": "ECOLE DE MUSIQUE"
+    },
+    {
+      "article": "657341",
+      "nature_beneficiaire": "U3",
+      "nom_beneficiaire": "COMMUNE DE LATTES",
+      "montant": 40000,
+      "objet": "THEATRE J. C&#x152;UR"
+    },
+    {
+      "article": "657341",
+      "nature_beneficiaire": "U3",
+      "nom_beneficiaire": "COMMUNE DE PEROLS",
+      "montant": 13342,
+      "objet": "ECOLE DE MUSIQUE"
+    },
+    {
+      "article": "2041412",
+      "nature_beneficiaire": "U3",
+      "nom_beneficiaire": "COMMUNE DE PIGNAN",
+      "montant": 30000,
+      "objet": "COMPLEXE SPORTIF"
+    },
+    {
+      "article": "2041412",
+      "nature_beneficiaire": "U3",
+      "nom_beneficiaire": "COMMUNE DE SAINT GENIES DES MOURGUES",
+      "montant": 50000,
+      "objet": "AIRE DE LAVAGE"
+    },
+    {
+      "article": "2041412",
+      "nature_beneficiaire": "U3",
+      "nom_beneficiaire": "COMMUNE DE BEAULIEU",
+      "montant": 8200,
+      "objet": "SALLE OMNISPORTS"
+    },
+    {
+      "article": "2041412",
+      "nature_beneficiaire": "U3",
+      "nom_beneficiaire": "COMMUNE DE CASTRIES",
+      "montant": 117595.05,
+      "objet": "CHÂTEAU DE CASTRIES"
+    },
+    {
+      "article": "2041412",
+      "nature_beneficiaire": "U3",
+      "nom_beneficiaire": "COMMUNE DE MONTPELLIER",
+      "montant": 112500,
+      "objet": "OPAH"
+    },
+    {
+      "article": "2041412",
+      "nature_beneficiaire": "U3",
+      "nom_beneficiaire": "COMMUNE DE RESTINCLIERES",
+      "montant": 111500,
+      "objet": "HALLES EN C&#x152;UR DE VILLE"
+    },
+    {
+      "article": "2041412",
+      "nature_beneficiaire": "U3",
+      "nom_beneficiaire": "COMMUNE DE SAINT GEORGES D'ORQUES",
+      "montant": 28000,
+      "objet": "RESTAURATION EGLISE"
+    },
+    {
+      "article": "2041412",
+      "nature_beneficiaire": "U3",
+      "nom_beneficiaire": "COMMUNE DE VENDARGUES",
+      "montant": 50000,
+      "objet": "CONSTRUCTION BIBLIOTHEQUE"
     }
   ]
 }

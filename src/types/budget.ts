@@ -35,6 +35,7 @@ export const BudgetLineSchema = z.object({
   // Montants
   montant_vote: z.number(), // MtPrev (Budget total prévisionnel)
   montant_realise: z.number(), // MtReal (Exécuté)
+  montant_budget_precedent: z.number().optional(), // MtBudgPrec
   
   // Infos complémentaires
   operation_reelle: z.boolean(), // true si OpBudg='0', false si ordre
@@ -43,8 +44,17 @@ export const BudgetLineSchema = z.object({
 
 export type BudgetLine = z.infer<typeof BudgetLineSchema>;
 
+export interface ConcoursLine {
+  article: string;
+  nature_beneficiaire: string; // CodNatJurBenefCA
+  nom_beneficiaire: string; // LibOrgaBenef
+  montant: number; // MtSubv
+  objet?: string; // ObjSubv or LibPrestaNat
+}
+
 // Type pour le fichier JSON complet
 export interface BudgetData {
   generated_at: string;
   lines: BudgetLine[];
+  concours?: ConcoursLine[];
 }

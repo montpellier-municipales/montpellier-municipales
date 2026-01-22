@@ -4,6 +4,8 @@ import type { ApcpData } from "~/types/apcp";
 import { BudgetType, BudgetSource } from "~/types/budget";
 import * as styles from "./budget-explorer.css";
 import { Dropdown } from "../ui/dropdown/dropdown";
+import aggregationData from "~/content/data/description-agregation.json";
+import { evaluateFormula } from "~/utils/budget-formulas";
 
 interface BudgetExplorerProps {
   data: BudgetData;
@@ -20,14 +22,65 @@ const formatCurrency = (amount: number) => {
   }).format(amount);
 };
 
+// Type pour les options d'agrégation aplaties
+interface AggregationOption {
+  id: string;
+  name: string;
+  level: number;
+  formula?: string;
+  effectiveFormula?: string; // Formule combinée pour les nœuds parents
+}
+
+// Fonction récursive pour collecter toutes les formules des descendants
+const collectDescendantFormulas = (node: any): string[] => {
+  if (node.formula) return [node.formula];
+  if (node.children) {
+    return node.children.flatMap((child: any) => collectDescendantFormulas(child));
+  }
+  return [];
+};
+
+// Aplatir l'arbre et calculer les formules effectives
+const processAggregationTree = (nodes: any[], level = 0): AggregationOption[] => {
+  let result: AggregationOption[] = [];
+  for (const node of nodes) {
+    // Calcul de la formule effective (soit la sienne, soit l'union de celles des enfants)
+    let effectiveFormula = node.formula;
+    if (!effectiveFormula && node.children) {
+      const formulas = collectDescendantFormulas(node);
+      if (formulas.length > 0) {
+        effectiveFormula = formulas.join("∪"); // Union des formules enfants
+      }
+    }
+
+    if (node.id !== "racine") { // On ignore la racine pour l'affichage
+        result.push({
+            id: node.id,
+            name: node.name,
+            level: level,
+            formula: node.formula,
+            effectiveFormula
+        });
+    }
+
+    if (node.children) {
+      result = result.concat(processAggregationTree(node.children, level + (node.id === "racine" ? 0 : 1)));
+    }
+  }
+  return result;
+};
+
+const aggregationOptions = processAggregationTree([aggregationData]);
+
 export const BudgetExplorer = component$<BudgetExplorerProps>(
   ({ data, apcpData, initialFilterApcp }) => {
     const state = useStore({
       // Filtres
-      filterType: BudgetType.Depense as string,
+      filterType: "all", // "all" pour permettre à l'agrégation de piloter
       filterSource: "all",
       filterNature: "all",
       filterApcp: initialFilterApcp || "",
+      filterAggregation: "", // ID du noeud d'agrégation sélectionné
       search: "",
 
       // Tri
@@ -73,7 +126,22 @@ export const BudgetExplorer = component$<BudgetExplorerProps>(
 
     // 2. Filtrage
     const filteredData = useComputed$(() => {
+      // Récupération de l'option d'agrégation sélectionnée
+      const selectedAggregation = state.filterAggregation 
+        ? aggregationOptions.find(o => o.id === state.filterAggregation)
+        : null;
+
+      // Année du contexte (par défaut 2025 ou extraite de generated_at)
+      const contextYear = 2025; 
+
       return data.lines.filter((line) => {
+        // Filtre Agrégation (Prioritaire ou Combinatoire ?)
+        // Si une agrégation est sélectionnée, on vérifie si la ligne correspond à la formule
+        let matchAggregation = true;
+        if (selectedAggregation && selectedAggregation.effectiveFormula) {
+            matchAggregation = evaluateFormula(selectedAggregation.effectiveFormula, line, contextYear);
+        }
+
         const matchType =
           state.filterType === "all" || line.type === state.filterType;
         const matchSource =
@@ -98,7 +166,7 @@ export const BudgetExplorer = component$<BudgetExplorerProps>(
           );
 
         return (
-          matchType && matchSource && matchNature && matchSearch && matchApcp
+          matchAggregation && matchType && matchSource && matchNature && matchSearch && matchApcp
         );
       });
     });
@@ -166,9 +234,44 @@ export const BudgetExplorer = component$<BudgetExplorerProps>(
       );
     });
 
+    const getAggregationLabel = (line: BudgetLine) => {
+      const contextYear = 2025;
+      for (let i = aggregationOptions.length - 1; i >= 0; i--) {
+        const option = aggregationOptions[i];
+        if (
+          option.effectiveFormula &&
+          evaluateFormula(option.effectiveFormula, line, contextYear)
+        ) {
+          return option.name;
+        }
+      }
+      return "-";
+    };
+
     return (
       <div class={styles.container}>
         <section class={styles.filterSection}>
+          <div class={styles.filterGroup}>
+             <label class={styles.label}>Agrégation (Vue fonctionnelle)</label>
+             <select 
+                class={styles.select} // Utiliser une classe similaire à Dropdown si possible, sinon style natif
+                value={state.filterAggregation}
+                onChange$={(e) => {
+                    state.filterAggregation = (e.target as HTMLSelectElement).value;
+                    state.currentPage = 1;
+                    // Reset des autres filtres si nécessaire pour éviter confusion ?
+                    // On laisse le choix à l'utilisateur pour l'instant (filtrage additif)
+                }}
+             >
+                <option value="">Vue détaillée (Toutes lignes)</option>
+                {aggregationOptions.map(opt => (
+                    <option key={opt.id} value={opt.id}>
+                        {`${'\u00A0'.repeat(opt.level * 3)}${opt.name}`}
+                    </option>
+                ))}
+             </select>
+          </div>
+          
           <div class={styles.filterGroup}>
             <label class={styles.label}>Sens</label>
             <Dropdown
@@ -178,6 +281,7 @@ export const BudgetExplorer = component$<BudgetExplorerProps>(
                 state.currentPage = 1;
               }}
               options={[
+                { value: "all", label: "Tous" },
                 { value: BudgetType.Depense, label: "Dépenses" },
                 { value: BudgetType.Recette, label: "Recettes" },
               ]}
@@ -290,6 +394,7 @@ export const BudgetExplorer = component$<BudgetExplorerProps>(
                 >
                   Nature / Compte {getSortIcon("nature_label")}
                 </th>
+                <th>Agrégation</th>
                 <th
                   onClick$={() => handleSort("fonction_label")}
                   style={{ cursor: "pointer" }}
@@ -332,6 +437,11 @@ export const BudgetExplorer = component$<BudgetExplorerProps>(
                     </div>
                     <div style={{ fontSize: "0.8rem", color: "#718096" }}>
                       Code: {line.nature_code}
+                    </div>
+                  </td>
+                  <td>
+                    <div style={{ fontSize: "0.9rem" }}>
+                      {getAggregationLabel(line)}
                     </div>
                   </td>
                   <td>
@@ -384,7 +494,7 @@ export const BudgetExplorer = component$<BudgetExplorerProps>(
                   borderTop: "2px solid #e2e8f0",
                 }}
               >
-                <td colSpan={4} style={{ textAlign: "right", padding: "1rem" }}>
+                <td colSpan={5} style={{ textAlign: "right", padding: "1rem" }}>
                   Total
                 </td>
                 <td class={styles.amount} style={{ padding: "1rem" }}>

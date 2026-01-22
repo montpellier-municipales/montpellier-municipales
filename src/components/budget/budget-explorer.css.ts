@@ -1,4 +1,4 @@
-import { style, globalStyle } from "@vanilla-extract/css";
+import { style, globalStyle, keyframes } from "@vanilla-extract/css";
 import { vars } from "~/theme.css";
 
 export const container = style({
@@ -24,7 +24,7 @@ export const filterGroup = style({
   flexDirection: "column",
   gap: "0.5rem",
   flex: "1 1 200px",
-  minWidth: 0, // Critical for preventing flex items from overflowing
+  minWidth: 0,
   maxWidth: "100%",
 });
 
@@ -129,7 +129,11 @@ export const pageButton = style({
   borderRadius: "6px",
   border: `1px solid ${vars.color.border}`,
   backgroundColor: vars.color.background,
+  color: vars.color.text,
   cursor: "pointer",
+  fontSize: "0.9rem",
+  fontWeight: "500",
+  transition: "all 0.2s",
   selectors: {
     "&:disabled": {
       opacity: 0.5,
@@ -139,4 +143,66 @@ export const pageButton = style({
       backgroundColor: vars.color.surface,
     },
   },
+});
+
+export const selectedPageButton = style([
+  pageButton,
+  {
+    backgroundColor: "#2b6cb0",
+    color: "white",
+    borderColor: "#2b6cb0",
+    fontWeight: "700",
+    selectors: {
+      "&:hover:not(:disabled)": {
+        backgroundColor: "#2c5282",
+      },
+    },
+  },
+]);
+
+export const paginationDivider = style({
+  padding: "0.5rem",
+  color: vars.color.textMuted,
+});
+
+// Tabs styles
+export const tabList = style({
+  display: "flex",
+  gap: "1rem",
+  marginBottom: "2rem",
+  borderBottom: `1px solid ${vars.color.border}`,
+  overflowX: "auto",
+});
+
+export const tab = style({
+  padding: "0.75rem 1.5rem",
+  fontSize: "1.1rem",
+  fontWeight: "600",
+  border: "none",
+  background: "none",
+  borderBottom: "3px solid transparent",
+  color: vars.color.textMuted,
+  cursor: "pointer",
+  whiteSpace: "nowrap",
+  transition: "all 0.2s ease-in-out",
+  selectors: {
+    '&[data-state="selected"]': {
+      borderBottom: `3px solid #2b6cb0`, // Hardcoded brand color or vars.color.primary?
+      color: "#2b6cb0",
+    },
+    "&:hover:not([data-state='selected'])": {
+      color: vars.color.text,
+      background: vars.color.surface,
+    },
+  },
+});
+
+const fadeIn = keyframes({
+  "0%": { opacity: 0 },
+  "100%": { opacity: 1 },
+});
+
+export const tabPanel = style({
+  outline: "none",
+  animation: `${fadeIn} 0.3s ease-in-out`,
 });

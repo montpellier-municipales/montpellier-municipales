@@ -9,8 +9,8 @@ export const ApcpSchema = z.object({
   montant_ap_vote_anterieur: z.number(), // MtAutori_NMoins1
   
   // Agrégats calculés depuis les lignes budgétaires
-  cp_vote_2025: z.number(), // Somme MtPrev (ou MtSup BudgetHorsRAR selon le cas)
-  cp_realise_2025: z.number(), // Somme MtReal
+  cp_vote: z.number(), // Somme MtPrev (ou MtSup BudgetHorsRAR selon le cas)
+  cp_realise: z.number(), // Somme MtReal
   cp_reste_a_realiser: z.number(), // Somme MtRAR3112
   
   nombre_lignes: z.number(),

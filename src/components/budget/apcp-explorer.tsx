@@ -32,7 +32,7 @@ export const ApcpExplorer = component$<ApcpExplorerProps>(
     const state = useStore({
       search: "",
       filterCommune: "",
-      sortColumn: "montant_ap_vote_anterieur",
+      sortColumn: "cp_realise",
       sortDirection: "desc" as "asc" | "desc",
       currentPage: 1,
       pageSize: 20,
@@ -87,7 +87,7 @@ export const ApcpExplorer = component$<ApcpExplorerProps>(
     });
 
     const totalPages = useComputed$(() =>
-      Math.ceil(sortedData.value.length / state.pageSize)
+      Math.ceil(sortedData.value.length / state.pageSize),
     );
     const paginatedData = useComputed$(() => {
       const start = (state.currentPage - 1) * state.pageSize;
@@ -98,12 +98,12 @@ export const ApcpExplorer = component$<ApcpExplorerProps>(
       return filteredData.value.reduce(
         (acc, apcp) => {
           acc.ap_anterieur += apcp.montant_ap_vote_anterieur;
-          acc.cp_vote += apcp.cp_vote_2025;
-          acc.cp_realise += apcp.cp_realise_2025;
+          acc.cp_vote += apcp.cp_vote;
+          acc.cp_realise += apcp.cp_realise;
           acc.cp_rar += apcp.cp_reste_a_realiser;
           return acc;
         },
-        { ap_anterieur: 0, cp_vote: 0, cp_realise: 0, cp_rar: 0 }
+        { ap_anterieur: 0, cp_vote: 0, cp_realise: 0, cp_rar: 0 },
       );
     });
 
@@ -187,13 +187,13 @@ export const ApcpExplorer = component$<ApcpExplorerProps>(
                   AP Votée (N-1) {getSortIcon("montant_ap_vote_anterieur")}
                 </th>
                 <th
-                  onClick$={() => handleSort("cp_vote_2025")}
+                  onClick$={() => handleSort("cp_vote")}
                   style={{ cursor: "pointer", textAlign: "right" }}
                 >
                   CP Voté {year} {getSortIcon("cp_vote_2025")}
                 </th>
                 <th
-                  onClick$={() => handleSort("cp_realise_2025")}
+                  onClick$={() => handleSort("cp_realise")}
                   style={{ cursor: "pointer", textAlign: "right" }}
                 >
                   CP Réalisé {year} {getSortIcon("cp_realise_2025")}
@@ -222,11 +222,9 @@ export const ApcpExplorer = component$<ApcpExplorerProps>(
                   <td class={styles.amount}>
                     {formatCurrency(apcp.montant_ap_vote_anterieur)}
                   </td>
+                  <td class={styles.amount}>{formatCurrency(apcp.cp_vote)}</td>
                   <td class={styles.amount}>
-                    {formatCurrency(apcp.cp_vote_2025)}
-                  </td>
-                  <td class={styles.amount}>
-                    {formatCurrency(apcp.cp_realise_2025)}
+                    {formatCurrency(apcp.cp_realise)}
                   </td>
                   <td class={styles.amount}>
                     {formatCurrency(apcp.cp_reste_a_realiser)}
@@ -299,5 +297,5 @@ export const ApcpExplorer = component$<ApcpExplorerProps>(
         </div>
       </div>
     );
-  }
+  },
 );

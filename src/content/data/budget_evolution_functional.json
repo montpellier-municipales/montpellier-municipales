@@ -360,61 +360,61 @@
     "montant_realise": 127693319.83
   },
   {
-    "year": 2025,
-    "fonction_code": "3",
-    "fonction_label": "Culture, Sport, Jeunesse",
-    "montant_realise": 131901554.10999998
-  },
-  {
-    "year": 2025,
+    "year": 2024,
     "fonction_code": "5",
     "fonction_label": "Aménagement et habitat",
     "montant_realise": 147106304.69000003
   },
   {
-    "year": 2025,
+    "year": 2024,
+    "fonction_code": "7",
+    "fonction_label": "Environnement et propreté",
+    "montant_realise": 171830367.1799999
+  },
+  {
+    "year": 2024,
+    "fonction_code": "0",
+    "fonction_label": "Services généraux",
+    "montant_realise": 83950845.91999996
+  },
+  {
+    "year": 2024,
     "fonction_code": "6",
     "fonction_label": "Action économique",
     "montant_realise": 28553527.01
   },
   {
-    "year": 2025,
-    "fonction_code": "8",
-    "fonction_label": "Transports",
-    "montant_realise": 477293588.6999999
-  },
-  {
-    "year": 2025,
-    "fonction_code": "0",
-    "fonction_label": "Services généraux",
-    "montant_realise": 83950845.91999999
-  },
-  {
-    "year": 2025,
-    "fonction_code": "7",
-    "fonction_label": "Environnement et propreté",
-    "montant_realise": 171830367.17999998
-  },
-  {
-    "year": 2025,
-    "fonction_code": "9",
-    "fonction_label": "Non ventilé / Divers",
-    "montant_realise": 445079876.04999995
-  },
-  {
-    "year": 2025,
+    "year": 2024,
     "fonction_code": "4",
     "fonction_label": "Santé et action sociale",
-    "montant_realise": 913993.9300000002
+    "montant_realise": 913993.93
   },
   {
-    "year": 2025,
+    "year": 2024,
+    "fonction_code": "3",
+    "fonction_label": "Culture, Sport, Jeunesse",
+    "montant_realise": 131901554.10999998
+  },
+  {
+    "year": 2024,
+    "fonction_code": "9",
+    "fonction_label": "Non ventilé / Divers",
+    "montant_realise": 445079876.0500001
+  },
+  {
+    "year": 2024,
     "fonction_code": "1",
     "fonction_label": "Sécurité et salubrité",
-    "montant_realise": 24058128.28999999
+    "montant_realise": 24058128.290000007
   },
   {
-    "year": 2025,
+    "year": 2024,
+    "fonction_code": "8",
+    "fonction_label": "Transports",
+    "montant_realise": 477293588.69999987
+  },
+  {
+    "year": 2024,
     "fonction_code": "NC",
     "fonction_label": "Non ventilé / Services centraux",
     "montant_realise": 102490922.71

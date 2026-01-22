@@ -3,7 +3,7 @@ import { join } from "node:path";
 import type { BudgetData } from "../src/types/budget";
 
 const DATA_DIR = join(process.cwd(), "src/content/data");
-const YEARS = [2018, 2019, 2020, 2021, 2022, 2023, 2025];
+const YEARS = [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025];
 
 const FUNCTIONAL_CHAPTERS: Record<string, string> = {
   "0": "Services généraux",

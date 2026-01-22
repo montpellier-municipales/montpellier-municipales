@@ -1,5 +1,5 @@
 import { $, component$, Slot, useSignal } from "@builder.io/qwik";
-import { Modal } from "@qwik-ui/headless";
+import { Modal, Collapsible } from "@qwik-ui/headless";
 import {
   activeMenuListItem,
   menuList,
@@ -15,10 +15,12 @@ import { LanguageSwitcher } from "../language-switcher/language-switcher";
 import { Spacer } from "../spacer";
 import { inlineTranslate } from "qwik-speak";
 import { getIsPathActive } from "~/utils";
+import { LuChevronDown } from "@qwikest/icons/lucide";
 
 type MenuItem = {
   label: string;
-  href: string;
+  href?: string;
+  subItems?: { label: string; href: string }[];
 };
 
 interface Props {
@@ -61,20 +63,60 @@ export const Sidebar = component$<Props>(({ menu }) => {
 
           <nav>
             <ul class={menuList}>
-              {menu.map((item) => (
-                <li key={item.href}>
-                  <Link
-                    href={getLink(item.href)}
-                    onClick$={closeSidebar}
-                    class={[
-                      menuListItem,
-                      ...(isPathActive(item.href) ? [activeMenuListItem] : []),
-                    ]}
-                  >
-                    {item.label}
-                  </Link>
-                </li>
-              ))}
+              {menu.map((item) => {
+                if (item.subItems) {
+                  const isActive = item.subItems.some(sub => isPathActive(sub.href));
+                  return (
+                    <li key={item.label}>
+                      <Collapsible.Root>
+                        <Collapsible.Trigger 
+                          class={[
+                            menuListItem,
+                            { [activeMenuListItem]: isActive },
+                          ]}
+                          style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%' }}
+                        >
+                          {item.label}
+                          <LuChevronDown height={16} />
+                        </Collapsible.Trigger>
+                        <Collapsible.Content>
+                          <ul style={{ paddingLeft: '1rem', listStyle: 'none' }}>
+                            {item.subItems.map((sub) => (
+                              <li key={sub.href}>
+                                <Link
+                                  href={getLink(sub.href)}
+                                  onClick$={closeSidebar}
+                                  class={[
+                                    menuListItem,
+                                    ...(isPathActive(sub.href) ? [activeMenuListItem] : []),
+                                  ]}
+                                  style={{ fontSize: '0.9rem', padding: '0.5rem 1rem' }}
+                                >
+                                  {sub.label}
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+                        </Collapsible.Content>
+                      </Collapsible.Root>
+                    </li>
+                  );
+                }
+                return (
+                  <li key={item.href}>
+                    <Link
+                      href={getLink(item.href!)}
+                      onClick$={closeSidebar}
+                      class={[
+                        menuListItem,
+                        ...(isPathActive(item.href!) ? [activeMenuListItem] : []),
+                      ]}
+                    >
+                      {item.label}
+                    </Link>
+                  </li>
+                );
+              })}
             </ul>
           </nav>
           <Spacer />

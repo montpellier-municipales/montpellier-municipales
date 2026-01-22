@@ -1,0 +1,218 @@
+{
+  "2018": [
+    {
+      "lender": "Arkéa",
+      "maxAuthorized": 10000000,
+      "drawdown": 0,
+      "repaid": 0,
+      "outstanding": 0,
+      "interestPaid": 0
+    },
+    {
+      "lender": "BNP Paribas",
+      "maxAuthorized": 10000000,
+      "drawdown": 0,
+      "repaid": 0,
+      "outstanding": 0,
+      "interestPaid": 0
+    }
+  ],
+  "2019": [
+    {
+      "lender": "Arkea",
+      "maxAuthorized": 10000000,
+      "drawdown": 0,
+      "repaid": 0,
+      "outstanding": 0,
+      "interestPaid": 0
+    },
+    {
+      "lender": "BNP Paribas",
+      "maxAuthorized": 10000000,
+      "drawdown": 6010000,
+      "repaid": 6010000,
+      "outstanding": 0,
+      "interestPaid": 250.08
+    },
+    {
+      "lender": "Banque Postale",
+      "maxAuthorized": 0,
+      "drawdown": 0,
+      "repaid": 0,
+      "outstanding": 0,
+      "interestPaid": 0
+    },
+    {
+      "lender": "BNP Paribas",
+      "maxAuthorized": 0,
+      "drawdown": 0,
+      "repaid": 0,
+      "outstanding": 0,
+      "interestPaid": 0
+    }
+  ],
+  "2020": [
+    {
+      "lender": "La Banque Postale",
+      "maxAuthorized": 10000000,
+      "drawdown": 10000000,
+      "repaid": 10000000,
+      "outstanding": 0,
+      "interestPaid": 1291.67
+    },
+    {
+      "lender": "BNP Paribas",
+      "maxAuthorized": 10000000,
+      "drawdown": 10000000,
+      "repaid": 10000000,
+      "outstanding": 0,
+      "interestPaid": 958.33
+    }
+  ],
+  "2021": [
+    {
+      "lender": "Arkéa",
+      "maxAuthorized": 0,
+      "drawdown": 0,
+      "repaid": 0,
+      "outstanding": 0,
+      "interestPaid": 0
+    },
+    {
+      "lender": "BNP Paribas",
+      "maxAuthorized": 10000000,
+      "drawdown": 5000000,
+      "repaid": 5000000,
+      "outstanding": 0,
+      "interestPaid": 1054.17
+    },
+    {
+      "lender": "BNP Paribas",
+      "maxAuthorized": 0,
+      "drawdown": 9700000,
+      "repaid": 9700000,
+      "outstanding": 0,
+      "interestPaid": 569.25
+    },
+    {
+      "lender": "Société Générale",
+      "maxAuthorized": 10000000,
+      "drawdown": 0,
+      "repaid": 0,
+      "outstanding": 0,
+      "interestPaid": 0
+    }
+  ],
+  "2022": [
+    {
+      "lender": "Arkéa",
+      "maxAuthorized": 10000000,
+      "drawdown": 0,
+      "repaid": 0,
+      "outstanding": 0,
+      "interestPaid": 0
+    },
+    {
+      "lender": "BNP Paribas",
+      "maxAuthorized": 10000000,
+      "drawdown": 2500000,
+      "repaid": 2500000,
+      "outstanding": 0,
+      "interestPaid": 134.16
+    },
+    {
+      "lender": "Caisse d'Epargne",
+      "maxAuthorized": 0,
+      "drawdown": 0,
+      "repaid": 0,
+      "outstanding": 0,
+      "interestPaid": 0
+    },
+    {
+      "lender": "La Banque Postale",
+      "maxAuthorized": 0,
+      "drawdown": 1000000,
+      "repaid": 1000000,
+      "outstanding": 0,
+      "interestPaid": 57.78
+    }
+  ],
+  "2023": [
+    {
+      "lender": "La Banque Postale",
+      "maxAuthorized": 20000000,
+      "drawdown": 44000000,
+      "repaid": 44000000,
+      "outstanding": 0,
+      "interestPaid": 3046.67
+    },
+    {
+      "lender": "Caisse d'Epargne",
+      "maxAuthorized": 10000000,
+      "drawdown": 3500000,
+      "repaid": 3500000,
+      "outstanding": 0,
+      "interestPaid": 3840.7
+    },
+    {
+      "lender": "BNP Paribas",
+      "maxAuthorized": 0,
+      "drawdown": 92000000,
+      "repaid": 92000000,
+      "outstanding": 0,
+      "interestPaid": 151708.29
+    }
+  ],
+  "2024": [
+    {
+      "lender": "BNP Paribas",
+      "maxAuthorized": 20000000,
+      "drawdown": 4500000,
+      "repaid": 4500000,
+      "outstanding": 0,
+      "interestPaid": 4716.3
+    },
+    {
+      "lender": "Arkéa",
+      "maxAuthorized": 0,
+      "drawdown": 3000000,
+      "repaid": 3000000,
+      "outstanding": 0,
+      "interestPaid": 1383.08
+    },
+    {
+      "lender": "BNP Paribas",
+      "maxAuthorized": 0,
+      "drawdown": 91000000,
+      "repaid": 91000000,
+      "outstanding": 0,
+      "interestPaid": 157028.33
+    }
+  ],
+  "2025": [
+    {
+      "lender": "BNP Paribas",
+      "maxAuthorized": 0,
+      "drawdown": 4500000,
+      "repaid": 4500000,
+      "outstanding": 0,
+      "interestPaid": 4716.3
+    },
+    {
+      "lender": "Arkéa",
+      "maxAuthorized": 10000000,
+      "drawdown": 3000000,
+      "repaid": 3000000,
+      "outstanding": 0,
+      "interestPaid": 1383.08
+    },
+    {
+      "lender": "BNP Paribas",
+      "maxAuthorized": 20000000,
+      "drawdown": 91000000,
+      "repaid": 91000000,
+      "outstanding": 0,
+      "interestPaid": 157028.33
+    }
+  ]
+}

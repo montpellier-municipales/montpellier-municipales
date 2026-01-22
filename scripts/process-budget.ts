@@ -1,14 +1,22 @@
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { join } from "node:path";
 import { XMLParser } from "fast-xml-parser";
-import { BudgetType, BudgetSource, type BudgetLine, type BudgetData } from "../src/types/budget";
+import { BudgetType, BudgetSource, type BudgetLine, type BudgetData, type ConcoursLine } from "../src/types/budget";
+import type { Apcp, ApcpData } from "../src/types/apcp";
 
 // Chargement des nomenclatures via fs pour éviter les soucis de config TS
 const nomenclaturesPath = join(process.cwd(), "src/content/data/budget_nomenclatures.json");
 const nomenclatures = JSON.parse(readFileSync(nomenclaturesPath, "utf-8"));
 
+const COMMUNES_FILE = "src/content/data/communes.json";
+const MAPPING_FILE = "src/content/data/apcp_communes_mapping.json";
+const COMMUNES_DATA: { name: string, population: number }[] = JSON.parse(readFileSync(join(process.cwd(), COMMUNES_FILE), "utf-8"));
+const COMMUNES = COMMUNES_DATA.map(c => c.name);
+const MANUAL_MAPPING: Record<string, string[]> = JSON.parse(readFileSync(join(process.cwd(), MAPPING_FILE), "utf-8"));
+
 const DATA_DIR = "MMM_MMM_BS_2025";
-const OUTPUT_FILE = "src/content/data/budget_2025_processed.json";
+const OUTPUT_FILE_BUDGET = "src/content/data/budget_2025_processed.json";
+const OUTPUT_FILE_APCP = "src/content/data/apcp_2025.json";
 
 // Utilisation des nomenclatures générées
 const NATURE_LABELS = nomenclatures.natures as Record<string, string>;
@@ -52,15 +60,45 @@ function resolveFunctionLabel(code: string | undefined): string | undefined {
 
 function extractApcpId(rawString: string): string | undefined {
   if (!rawString) return undefined;
-  const parts = rawString.split(" ");
+  const parts = rawString.trim().split(/\s+/);
   if (parts.length >= 2) return parts[1];
-  return undefined;
+  return parts[0];
 }
 
-async function processFile(filename: string, source: BudgetSource): Promise<BudgetLine[]> {
+function decodeHtmlEntities(str: string): string {
+  if (!str) return "";
+  return str.replace(/&#x([0-9A-Fa-f]+);/g, (_, hex) => String.fromCharCode(parseInt(hex, 16)));
+}
+
+function normalize(str: string): string {
+  return str
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/-/g, " ");
+}
+
+function detectCommunes(text: string): string[] {
+  const normalizedText = normalize(text);
+  const detected: string[] = [];
+
+  for (const commune of COMMUNES) {
+    const normalizedCommune = normalize(commune);
+    if (normalizedText.includes(normalizedCommune)) {
+        detected.push(commune);
+    }
+  }
+  return detected;
+}
+
+// Global APCP Map to aggregate across files
+const apcpsMap = new Map<string, Apcp>();
+
+async function processFile(filename: string, source: BudgetSource): Promise<{lines: BudgetLine[], concours: ConcoursLine[]}> {
   const xmlContent = readFileSync(join(DATA_DIR, filename), "latin1");
   const jsonObj = parser.parse(xmlContent);
   const budget = jsonObj.DocumentBudgetaire.Budget;
+  const natDec = getVal(budget.BlocBudget?.NatDec);
   
   const xmlLabelsMap: Record<string, string> = {};
   const ventilation = budget.Annexes?.DATA_VENTILATION?.VENTILATION;
@@ -73,7 +111,36 @@ async function processFile(filename: string, source: BudgetSource): Promise<Budg
     });
   }
 
-  const lines: any[] = budget.LigneBudget;
+  // --- APCP Definitions ---
+  const rawApcps = budget.Annexes?.DATA_APCP?.APCP;
+  if (rawApcps) {
+    const apcpArray = Array.isArray(rawApcps) ? rawApcps : [rawApcps];
+    for (const raw of apcpArray) {
+      const id = extractApcpId(getVal(raw.NumAutori));
+      if (!id) continue;
+      
+      if (!apcpsMap.has(id)) {
+         const libelle = decodeHtmlEntities(getVal(raw.LibAutori) || "Sans libellé");
+         const detected = detectCommunes(libelle);
+         const manual = MANUAL_MAPPING[id] || [];
+         const mergedCommunes = Array.from(new Set([...detected, ...manual])).sort();
+
+         apcpsMap.set(id, {
+          id,
+          libelle,
+          chapitre: getVal(raw.Chapitre) || "",
+          montant_ap_vote_anterieur: parseFloat(getVal(raw.MtAutori_NMoins1) || "0"),
+          cp_vote: 0,
+          cp_realise: 0,
+          cp_reste_a_realiser: 0,
+          nombre_lignes: 0,
+          communes: mergedCommunes,
+        });
+      }
+    }
+  }
+
+  const lines: any[] = budget.LigneBudget ? (Array.isArray(budget.LigneBudget) ? budget.LigneBudget : [budget.LigneBudget]) : [];
   const processedLines: BudgetLine[] = [];
 
   lines.forEach((l: any, index: number) => {
@@ -82,7 +149,8 @@ async function processFile(filename: string, source: BudgetSource): Promise<Budg
     const codeRD = getVal(l.CodRD); 
     
     const mtPrev = parseFloat(getVal(l.MtPrev) || "0");
-    const mtReal = parseFloat(getVal(l.MtReal) || "0");
+    const rawMtReal = parseFloat(getVal(l.MtReal) || "0");
+    const mtReal = natDec === "09" ? rawMtReal : 0;
     
     if (mtPrev === 0 && mtReal === 0) return;
 
@@ -93,13 +161,22 @@ async function processFile(filename: string, source: BudgetSource): Promise<Budg
     const natureChapitreLabel = resolveNatureLabel(natureChapitre, NATURE_LABELS);
     const fonctionLabel = resolveFunctionLabel(fonction);
 
-    // Extraction APCP
     let apcp_id: string | undefined = undefined;
     if (l.CaracSup) {
       const caracSupArray = Array.isArray(l.CaracSup) ? l.CaracSup : [l.CaracSup];
       const progAutoNode = caracSupArray.find((c: any) => c.Code === "ProgAutoNum");
       if (progAutoNode) {
         apcp_id = extractApcpId(getVal(progAutoNode));
+        
+        // Aggregate APCP amounts
+        if (apcp_id && apcpsMap.has(apcp_id)) {
+            const apcp = apcpsMap.get(apcp_id)!;
+            const credOuv = parseFloat(getVal(l.CredOuv) || "0");
+            apcp.cp_vote += (credOuv !== 0 ? credOuv : mtPrev);
+            apcp.cp_realise += mtReal;
+            apcp.cp_reste_a_realiser += parseFloat(getVal(l.MtRAR3112) || "0");
+            apcp.nombre_lignes++;
+        }
       }
     }
 
@@ -115,30 +192,57 @@ async function processFile(filename: string, source: BudgetSource): Promise<Budg
       fonction_label: fonctionLabel,
       montant_vote: mtPrev,
       montant_realise: mtReal,
+      montant_budget_precedent: parseFloat(getVal(l.MtBudgPrec) || "0"),
       operation_reelle: getVal(l.OpBudg) === "0",
       apcp_id: apcp_id,
     });
   });
 
-  return processedLines;
+  const processedConcours: ConcoursLine[] = [];
+  const concoursData = budget.Annexes?.DATA_CONCOURS?.CONCOURS;
+  if (concoursData) {
+      const cArr = Array.isArray(concoursData) ? concoursData : [concoursData];
+      cArr.forEach((c: any) => {
+          processedConcours.push({
+              article: getVal(c.CodArticle),
+              nature_beneficiaire: getVal(c.CodNatJurBenefCA),
+              nom_beneficiaire: getVal(c.LibOrgaBenef),
+              montant: parseFloat(getVal(c.MtSubv) || "0"),
+              objet: getVal(c.ObjSubv) || getVal(c.LibPrestaNat),
+          });
+      });
+  }
+
+  return { lines: processedLines, concours: processedConcours };
 }
 
 async function main() {
   console.log("Processing budget data...");
   
-  const principalLines = await processFile("XML BS 2025 3M PRINCIPAL SCELLE.xml", BudgetSource.Principal);
-  const parkingLines = await processFile("XML BS 2025 3M PARKING SCELLE.xml", BudgetSource.Parking);
+  const principal = await processFile("XML BS 2025 3M PRINCIPAL SCELLE.xml", BudgetSource.Principal);
+  const parking = await processFile("XML BS 2025 3M PARKING SCELLE.xml", BudgetSource.Parking);
   
-  const allLines = [...principalLines, ...parkingLines];
+  const allLines = [...principal.lines, ...parking.lines];
+  const allConcours = [...principal.concours, ...parking.concours];
   
-  const data: BudgetData = {
+  const budgetData: BudgetData = {
     generated_at: new Date().toISOString(),
     lines: allLines,
+    concours: allConcours
+  };
+
+  const apcpData: ApcpData = {
+    generated_at: new Date().toISOString(),
+    apcps: Array.from(apcpsMap.values())
   };
 
   mkdirSync(join(process.cwd(), "src/content/data"), { recursive: true });
-  writeFileSync(OUTPUT_FILE, JSON.stringify(data, null, 2));
-  console.log(`Successfully generated ${OUTPUT_FILE} with ${allLines.length} lines.`);
+  
+  writeFileSync(OUTPUT_FILE_BUDGET, JSON.stringify(budgetData, null, 2));
+  console.log(`Successfully generated ${OUTPUT_FILE_BUDGET} with ${allLines.length} lines and ${allConcours.length} concours.`);
+
+  writeFileSync(OUTPUT_FILE_APCP, JSON.stringify(apcpData, null, 2));
+  console.log(`Successfully generated ${OUTPUT_FILE_APCP} with ${apcpsMap.size} APCPs.`);
 }
 
 main().catch(console.error);
