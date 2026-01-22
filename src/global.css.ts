@@ -67,13 +67,13 @@ globalStyle("blockquote", {
   padding: "0.5rem 1.5rem",
   borderLeft: `5px solid ${vars.color.primary}`,
   color: vars.color.text,
-  textWrap: "pretty",
+  textWrap: "balance",
 });
 
 globalStyle('body[dir="rtl"] blockquote', {
   borderLeft: "none",
   borderRight: `5px solid ${vars.color.primary}`,
-  textWrap: "pretty",
+  textWrap: "balance",
 });
 
 globalStyle("hr", {

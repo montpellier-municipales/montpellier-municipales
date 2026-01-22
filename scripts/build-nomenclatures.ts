@@ -1,5 +1,4 @@
 import { writeFileSync } from "node:fs";
-import { join } from "node:path";
 
 const OUTPUT_FILE = "src/content/data/budget_nomenclatures.json";
 
