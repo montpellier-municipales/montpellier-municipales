@@ -9,6 +9,7 @@ import { PatrimoineExplorer } from "~/components/budget/patrimoine-explorer";
 import { VilleLoanExplorer } from "~/components/budget/ville-loan-explorer";
 import type { PersonnelLine, AssetLine, LoanLine } from "~/types/ville";
 import { Tabs } from "@qwik-ui/headless";
+import { Dropdown } from "~/components/ui/dropdown/dropdown";
 import * as styles from "~/components/budget/budget-explorer.css";
 
 interface CityBudgetPageProps {
@@ -25,6 +26,8 @@ export const CityBudgetPage = component$<CityBudgetPageProps>(({ year, budgetDat
   const nav = useNavigate();
   const loc = useLocation();
   const availableYears = ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"];
+  
+  const yearOptions = availableYears.map(y => ({ value: y, label: y }));
 
   const tabNames = ["budget", "personnel", "patrimoine", "loans", "subventions"];
   const selectedIndex = useSignal(0);
@@ -64,18 +67,17 @@ export const CityBudgetPage = component$<CityBudgetPageProps>(({ year, budgetDat
 
           <div class={styles.yearSelectorWrapper}>
             <label for="year-select" class={styles.yearSelectorLabel}>{t("budget.metropole.yearLabel")}</label>
-            <select
-              id="year-select"
-              onChange$={(e, el) => {
-                const prefix = loc.params.lang ? `/${loc.params.lang}` : "";
-                nav(`${prefix}/budget/montpellier/${el.value}/`);
-              }}
-              class={styles.yearSelector}
-            >
-              {availableYears.map(y => (
-                <option key={y} value={y} selected={y === year}>{y}</option>
-              ))}
-            </select>
+            <div style={{ width: "120px" }}>
+              <Dropdown
+                options={yearOptions}
+                value={year}
+                onChange$={(val) => {
+                  const prefix = loc.params.lang ? `/${loc.params.lang}` : "";
+                  nav(`${prefix}/budget/montpellier/${val}/`);
+                }}
+                placeholder={year}
+              />
+            </div>
           </div>
         </div>
       </header>

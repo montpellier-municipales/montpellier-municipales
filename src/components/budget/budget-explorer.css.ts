@@ -264,25 +264,3 @@ export const yearSelectorLabel = style({
   fontWeight: "600",
   color: vars.color.textMuted,
 });
-
-export const yearSelector = style({
-  padding: "0.5rem 1rem",
-  borderRadius: "0.375rem",
-  border: `1px solid ${vars.color.border}`,
-  fontSize: "1rem",
-  backgroundColor: vars.color.surface,
-  cursor: "pointer",
-  fontWeight: "bold",
-  color: vars.color.text,
-  transition: "border-color 0.2s, box-shadow 0.2s",
-  selectors: {
-    "&:hover": {
-      borderColor: vars.color.primary,
-    },
-    "&:focus": {
-      outline: "none",
-      borderColor: vars.color.primary,
-      boxShadow: `0 0 0 3px ${vars.color.primary}30`, // 30 is hex transparency ~20%
-    },
-  },
-});
