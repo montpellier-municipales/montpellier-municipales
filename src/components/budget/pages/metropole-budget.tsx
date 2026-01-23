@@ -58,36 +58,27 @@ export const MetropoleBudgetPage = component$<MetropoleBudgetPageProps>(({ year,
   });
 
   return (
-    <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "2rem" }}>
-      <header style={{ marginBottom: "2rem" }}>
-        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", flexWrap: "wrap", gap: "1rem" }}>
+    <div class={styles.pageContainer}>
+      <header class={styles.header}>
+        <div class={styles.headerContent}>
           <div>
-            <h1 style={{ fontSize: "2.5rem", fontWeight: "800", marginBottom: "0.5rem" }}>
+            <h1 class={styles.pageTitle}>
               {t("budget.metropole.title", { year })}
             </h1>
-            <p style={{ color: "#4A5568", fontSize: "1.1rem" }}>
+            <p class={styles.pageSubtitle}>
               {t("budget.metropole.subtitle")}
             </p>
           </div>
 
-          <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
-            <label for="year-select" style={{ fontWeight: "600", color: "#4A5568" }}>{t("budget.metropole.yearLabel")}</label>
+          <div class={styles.yearSelectorWrapper}>
+            <label for="year-select" class={styles.yearSelectorLabel}>{t("budget.metropole.yearLabel")}</label>
             <select
               id="year-select"
               onChange$={(e, el) => {
                 const prefix = loc.params.lang ? `/${loc.params.lang}` : "";
                 nav(`${prefix}/budget/montpellier-metropole/${el.value}/`);
               }}
-              style={{
-                padding: "0.5rem 1rem",
-                borderRadius: "0.375rem",
-                border: "1px solid #cbd5e0",
-                fontSize: "1rem",
-                backgroundColor: "white",
-                cursor: "pointer",
-                fontWeight: "bold",
-                color: "#2d3748"
-              }}
+              class={styles.yearSelector}
             >
               {availableYears.map(y => (
                 <option key={y} value={y} selected={y === year}>{y}</option>
@@ -131,7 +122,7 @@ export const MetropoleBudgetPage = component$<MetropoleBudgetPageProps>(({ year,
 
         <Tabs.Panel class={styles.tabPanel}>
           <div>
-            <h2 style={{ fontSize: "1.5rem", marginBottom: "1rem" }}>{t("budget.metropole.subventions.title")}</h2>
+            <h2 class={styles.sectionTitle}>{t("budget.metropole.subventions.title")}</h2>
             <ConcoursExplorer data={budgetData.concours || []} />
           </div>
         </Tabs.Panel>

@@ -206,3 +206,83 @@ export const tabPanel = style({
   outline: "none",
   animation: `${fadeIn} 0.3s ease-in-out`,
 });
+
+// Page layout styles
+export const pageContainer = style({
+  maxWidth: "1200px",
+  margin: "0 auto",
+  padding: "2rem",
+  width: "100%",
+});
+
+export const header = style({
+  marginBottom: "2rem",
+});
+
+export const headerContent = style({
+  display: "flex",
+  justifyContent: "space-between",
+  alignItems: "flex-start",
+  flexWrap: "wrap",
+  gap: "1rem",
+});
+
+export const pageTitle = style({
+  fontSize: "2.5rem",
+  fontWeight: "800",
+  marginBottom: "0.5rem",
+  color: vars.color.title,
+  lineHeight: "1.2",
+  '@media': {
+    'screen and (max-width: 768px)': {
+      fontSize: "2rem",
+    },
+  },
+});
+
+export const pageSubtitle = style({
+  color: vars.color.textMuted,
+  fontSize: "1.1rem",
+  marginTop: "0",
+  maxWidth: "800px",
+});
+
+export const sectionTitle = style({
+  fontSize: "1.5rem",
+  marginBottom: "1rem",
+  fontWeight: "700",
+  color: vars.color.title,
+});
+
+export const yearSelectorWrapper = style({
+  display: "flex",
+  alignItems: "center",
+  gap: "0.5rem",
+});
+
+export const yearSelectorLabel = style({
+  fontWeight: "600",
+  color: vars.color.textMuted,
+});
+
+export const yearSelector = style({
+  padding: "0.5rem 1rem",
+  borderRadius: "0.375rem",
+  border: `1px solid ${vars.color.border}`,
+  fontSize: "1rem",
+  backgroundColor: vars.color.surface,
+  cursor: "pointer",
+  fontWeight: "bold",
+  color: vars.color.text,
+  transition: "border-color 0.2s, box-shadow 0.2s",
+  selectors: {
+    "&:hover": {
+      borderColor: vars.color.primary,
+    },
+    "&:focus": {
+      outline: "none",
+      borderColor: vars.color.primary,
+      boxShadow: `0 0 0 3px ${vars.color.primary}30`, // 30 is hex transparency ~20%
+    },
+  },
+});
