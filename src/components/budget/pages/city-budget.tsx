@@ -20,14 +20,15 @@ interface CityBudgetPageProps {
   loanData: LoanLine[];
 }
 
+const availableYears = ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"];
+const yearOptions = availableYears.map(y => ({ value: y, label: y }));
+
 export const CityBudgetPage = component$<CityBudgetPageProps>(({ year, budgetData, personnelData, patrimoineData, loanData }) => {
   useSpeak({ assets: ["budget"] });
   const t = inlineTranslate();
   const nav = useNavigate();
   const loc = useLocation();
-  const availableYears = ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"];
-  
-  const yearOptions = availableYears.map(y => ({ value: y, label: y }));
+  const lang = loc.params.lang; // Extract primitive to safe capture
 
   const tabNames = ["budget", "personnel", "patrimoine", "loans", "subventions"];
   const selectedIndex = useSignal(0);
@@ -72,7 +73,7 @@ export const CityBudgetPage = component$<CityBudgetPageProps>(({ year, budgetDat
                 options={yearOptions}
                 value={year}
                 onChange$={(val) => {
-                  const prefix = loc.params.lang ? `/${loc.params.lang}` : "";
+                  const prefix = lang ? `/${lang}` : "";
                   nav(`${prefix}/budget/montpellier/${val}/`);
                 }}
                 placeholder={year}

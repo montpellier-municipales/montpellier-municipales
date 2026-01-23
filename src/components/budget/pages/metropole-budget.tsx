@@ -19,18 +19,19 @@ interface MetropoleBudgetPageProps {
   apcpData: ApcpData;
 }
 
+const availableYears = ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"];
+const yearOptions = availableYears.map(y => ({ value: y, label: y }));
+
 export const MetropoleBudgetPage = component$<MetropoleBudgetPageProps>(({ year, budgetData, loanData, apcpData }) => {
   useSpeak({ assets: ["budget"] });
   const t = inlineTranslate();
   const nav = useNavigate();
   const loc = useLocation();
+  const lang = loc.params.lang; // Extract primitive to safe capture
   
   const tabNames = ["budget", "loans", "apcp", "subventions", "evolution"];
   const selectedIndex = useSignal(0);
   const initialFilterApcp = useSignal<string>("");
-  const availableYears = ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"];
-  
-  const yearOptions = availableYears.map(y => ({ value: y, label: y }));
 
   // Sync state FROM URL (SSR safe)
   useTask$(({ track }) => {
@@ -80,7 +81,7 @@ export const MetropoleBudgetPage = component$<MetropoleBudgetPageProps>(({ year,
                 options={yearOptions}
                 value={year}
                 onChange$={(val) => {
-                  const prefix = loc.params.lang ? `/${loc.params.lang}` : "";
+                  const prefix = lang ? `/${lang}` : "";
                   nav(`${prefix}/budget/montpellier-metropole/${val}/`);
                 }}
                 placeholder={year}
