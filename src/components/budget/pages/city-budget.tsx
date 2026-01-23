@@ -1,4 +1,10 @@
-import { component$, useSignal, useTask$, useVisibleTask$ } from "@builder.io/qwik";
+import {
+  $,
+  component$,
+  useSignal,
+  useTask$,
+  useVisibleTask$,
+} from "@builder.io/qwik";
 import { useNavigate, useLocation } from "@builder.io/qwik-city";
 import { BudgetExplorer } from "~/components/budget/budget-explorer";
 import { ConcoursExplorer } from "~/components/budget/concours-explorer";
@@ -20,110 +26,149 @@ interface CityBudgetPageProps {
   loanData: LoanLine[];
 }
 
-const availableYears = ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"];
-const yearOptions = availableYears.map(y => ({ value: y, label: y }));
+const availableYears = [
+  "2018",
+  "2019",
+  "2020",
+  "2021",
+  "2022",
+  "2023",
+  "2024",
+  "2025",
+];
+const yearOptions = availableYears.map((y) => ({ value: y, label: y }));
 
-export const CityBudgetPage = component$<CityBudgetPageProps>(({ year, budgetData, personnelData, patrimoineData, loanData }) => {
-  useSpeak({ assets: ["budget"] });
-  const t = inlineTranslate();
-  const nav = useNavigate();
-  const loc = useLocation();
-  const lang = loc.params.lang; // Extract primitive to safe capture
+export const CityBudgetPage = component$<CityBudgetPageProps>(
+  ({ year, budgetData, personnelData, patrimoineData, loanData }) => {
+    useSpeak({ assets: ["budget"] });
+    const t = inlineTranslate();
+    const nav = useNavigate();
+    const loc = useLocation();
+    const lang = loc.params.lang; // Extract primitive to safe capture
 
-  const tabNames = ["budget", "personnel", "patrimoine", "loans", "subventions"];
-  const selectedIndex = useSignal(0);
+    const tabNames = [
+      "budget",
+      "personnel",
+      "patrimoine",
+      "loans",
+      "subventions",
+    ];
+    const selectedIndex = useSignal(0);
 
-  // Sync state FROM URL (SSR safe)
-  useTask$(({ track }) => {
-    const tab = track(() => loc.url.searchParams.get("tab"));
-    if (tab) {
-      const index = tabNames.indexOf(tab);
-      if (index !== -1 && index !== selectedIndex.value) {
-        selectedIndex.value = index;
+    // Sync state FROM URL (SSR safe)
+    useTask$(({ track }) => {
+      const tab = track(() => loc.url.searchParams.get("tab"));
+      if (tab) {
+        const index = tabNames.indexOf(tab);
+        if (index !== -1 && index !== selectedIndex.value) {
+          selectedIndex.value = index;
+        }
       }
-    }
-  });
+    });
 
-  // Sync state TO URL (Browser only to avoid non-serializable URL object issues in SSG)
-  // eslint-disable-next-line qwik/no-use-visible-task
-  useVisibleTask$(({ track }) => {
-    const index = track(() => selectedIndex.value);
-    const url = new URL(window.location.href);
-    const currentTab = url.searchParams.get("tab");
-    if (tabNames[index] !== currentTab) {
-      url.searchParams.set("tab", tabNames[index]);
-      nav(url.pathname + url.search, { replaceState: true });
-    }
-  });
+    // Sync state TO URL (Browser only to avoid non-serializable URL object issues in SSG)
+    // eslint-disable-next-line qwik/no-use-visible-task
+    useVisibleTask$(({ track }) => {
+      const index = track(() => selectedIndex.value);
+      const url = new URL(window.location.href);
+      const currentTab = url.searchParams.get("tab");
+      if (tabNames[index] !== currentTab) {
+        url.searchParams.set("tab", tabNames[index]);
+        nav(url.pathname + url.search, { replaceState: true });
+      }
+    });
 
-  return (
-    <div class={styles.pageContainer}>
-      <header class={styles.header}>
-        <div class={styles.headerContent}>
-          <div>
-            <h1 class={styles.pageTitle}>
-              {t("budget.ville.title", { year })}
-            </h1>
-          </div>
+    const handleYearChange = $((val: string) => {
+      const prefix = lang ? `/${lang}` : "";
+      window.location.href = `${prefix}/budget/montpellier/${val}/`;
+    });
 
-          <div class={styles.yearSelectorWrapper}>
-            <label for="year-select" class={styles.yearSelectorLabel}>{t("budget.metropole.yearLabel")}</label>
-            <div style={{ width: "120px" }}>
-              <Dropdown
-                options={yearOptions}
-                value={year}
-                onChange$={(val) => {
-                  const prefix = lang ? `/${lang}` : "";
-                  nav(`${prefix}/budget/montpellier/${val}/`);
-                }}
-                placeholder={year}
-              />
+    return (
+      <div class={styles.pageContainer}>
+        <header class={styles.header}>
+          <div class={styles.headerContent}>
+            <div>
+              <h1 class={styles.pageTitle}>
+                {t("budget.ville.title", { year })}
+              </h1>
+            </div>
+
+            <div class={styles.yearSelectorWrapper}>
+              <label for="year-select" class={styles.yearSelectorLabel}>
+                {t("budget.metropole.yearLabel")}
+              </label>
+              <div style={{ width: "120px" }}>
+                <Dropdown
+                  options={yearOptions}
+                  value={year}
+                  onChange$={handleYearChange}
+                  placeholder={year}
+                />
+              </div>
             </div>
           </div>
-        </div>
-      </header>
+        </header>
 
-      <Tabs.Root bind:selectedIndex={selectedIndex}>
-        <Tabs.List class={styles.tabList}>
-          <Tabs.Tab class={styles.tab}>{t("budget.ville.tabs.budget")}</Tabs.Tab>
-          <Tabs.Tab class={styles.tab}>{t("budget.ville.tabs.personnel")}</Tabs.Tab>
-          <Tabs.Tab class={styles.tab}>{t("budget.ville.tabs.patrimoine")}</Tabs.Tab>
-          <Tabs.Tab class={styles.tab}>{t("budget.ville.tabs.loans")}</Tabs.Tab>
-          <Tabs.Tab class={styles.tab}>{t("budget.ville.tabs.subventions")}</Tabs.Tab>
-        </Tabs.List>
+        <Tabs.Root bind:selectedIndex={selectedIndex}>
+          <Tabs.List class={styles.tabList}>
+            <Tabs.Tab class={styles.tab}>
+              {t("budget.ville.tabs.budget")}
+            </Tabs.Tab>
+            <Tabs.Tab class={styles.tab}>
+              {t("budget.ville.tabs.personnel")}
+            </Tabs.Tab>
+            <Tabs.Tab class={styles.tab}>
+              {t("budget.ville.tabs.patrimoine")}
+            </Tabs.Tab>
+            <Tabs.Tab class={styles.tab}>
+              {t("budget.ville.tabs.loans")}
+            </Tabs.Tab>
+            <Tabs.Tab class={styles.tab}>
+              {t("budget.ville.tabs.subventions")}
+            </Tabs.Tab>
+          </Tabs.List>
 
-        <Tabs.Panel class={styles.tabPanel}>
-          {budgetData && <BudgetExplorer data={budgetData} />}
-        </Tabs.Panel>
+          <Tabs.Panel class={styles.tabPanel}>
+            {budgetData && <BudgetExplorer data={budgetData} />}
+          </Tabs.Panel>
 
-        <Tabs.Panel class={styles.tabPanel}>
-          <div>
-            <h2 class={styles.sectionTitle}>{t("budget.ville.personnel.title")}</h2>
-            <PersonnelExplorer data={personnelData} />
-          </div>
-        </Tabs.Panel>
+          <Tabs.Panel class={styles.tabPanel}>
+            <div>
+              <h2 class={styles.sectionTitle}>
+                {t("budget.ville.personnel.title")}
+              </h2>
+              <PersonnelExplorer data={personnelData} />
+            </div>
+          </Tabs.Panel>
 
-        <Tabs.Panel class={styles.tabPanel}>
-          <div>
-            <h2 class={styles.sectionTitle}>{t("budget.ville.patrimoine.title")}</h2>
-            <PatrimoineExplorer data={patrimoineData} />
-          </div>
-        </Tabs.Panel>
+          <Tabs.Panel class={styles.tabPanel}>
+            <div>
+              <h2 class={styles.sectionTitle}>
+                {t("budget.ville.patrimoine.title")}
+              </h2>
+              <PatrimoineExplorer data={patrimoineData} />
+            </div>
+          </Tabs.Panel>
 
-        <Tabs.Panel class={styles.tabPanel}>
-          <div>
-            <h2 class={styles.sectionTitle}>{t("budget.ville.loans.title")}</h2>
-            <VilleLoanExplorer data={loanData} />
-          </div>
-        </Tabs.Panel>
+          <Tabs.Panel class={styles.tabPanel}>
+            <div>
+              <h2 class={styles.sectionTitle}>
+                {t("budget.ville.loans.title")}
+              </h2>
+              <VilleLoanExplorer data={loanData} />
+            </div>
+          </Tabs.Panel>
 
-        <Tabs.Panel class={styles.tabPanel}>
-          <div>
-            <h2 class={styles.sectionTitle}>{t("budget.ville.subventions.title")}</h2>
-            <ConcoursExplorer data={budgetData.concours || []} />
-          </div>
-        </Tabs.Panel>
-      </Tabs.Root>
-    </div>
-  );
-});
+          <Tabs.Panel class={styles.tabPanel}>
+            <div>
+              <h2 class={styles.sectionTitle}>
+                {t("budget.ville.subventions.title")}
+              </h2>
+              <ConcoursExplorer data={budgetData.concours || []} />
+            </div>
+          </Tabs.Panel>
+        </Tabs.Root>
+      </div>
+    );
+  },
+);
