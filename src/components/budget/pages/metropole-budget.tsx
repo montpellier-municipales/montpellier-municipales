@@ -74,7 +74,9 @@ export const MetropoleBudgetPage = component$<MetropoleBudgetPageProps>(
 
     const handleYearChange = $((val: string) => {
       const prefix = lang ? `/${lang}` : "";
-      window.location.href = `${prefix}/budget/montpellier-metropole/${val}/`;
+      if (typeof window !== "undefined") {
+        window.location.href = `${prefix}/budget/montpellier-metropole/${val}/`;
+      }
     });
 
     const handleViewBudget = $((apcpId: string) => {

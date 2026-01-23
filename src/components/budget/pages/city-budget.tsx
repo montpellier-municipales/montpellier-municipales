@@ -80,7 +80,9 @@ export const CityBudgetPage = component$<CityBudgetPageProps>(
 
     const handleYearChange = $((val: string) => {
       const prefix = lang ? `/${lang}` : "";
-      window.location.href = `${prefix}/budget/montpellier/${val}/`;
+      if (typeof window !== "undefined") {
+        window.location.href = `${prefix}/budget/montpellier/${val}/`;
+      }
     });
 
     return (
