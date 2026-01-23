@@ -75,7 +75,8 @@ export const MetropoleBudgetPage = component$<MetropoleBudgetPageProps>(({ year,
             <select
               id="year-select"
               onChange$={(e, el) => {
-                nav(`/budget/montpellier-metropole/${el.value}/`);
+                const prefix = loc.params.lang ? `/${loc.params.lang}` : "";
+                nav(`${prefix}/budget/montpellier-metropole/${el.value}/`);
               }}
               style={{
                 padding: "0.5rem 1rem",
