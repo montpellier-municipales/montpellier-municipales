@@ -50,7 +50,7 @@ export const CommuneBudgetChart = component$<CommuneBudgetChartProps>(
       };
 
       data.apcps.forEach((apcp) => {
-        const amount = apcp.montant_ap_vote_anterieur;
+        const amount = apcp.cp_realise;
 
         if (WEIGHTED_DISTRIBUTIONS[apcp.id]) {
           const weights = WEIGHTED_DISTRIBUTIONS[apcp.id];

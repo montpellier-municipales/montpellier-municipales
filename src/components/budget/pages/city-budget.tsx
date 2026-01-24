@@ -1,5 +1,4 @@
 import {
-  $,
   component$,
   useSignal,
   useTask$,
@@ -45,6 +44,7 @@ export const CityBudgetPage = component$<CityBudgetPageProps>(
     const nav = useNavigate();
     const loc = useLocation();
     const lang = loc.params.lang; // Extract primitive to safe capture
+    const selectedYear = useSignal(year);
 
     const tabNames = [
       "budget",
@@ -66,6 +66,22 @@ export const CityBudgetPage = component$<CityBudgetPageProps>(
       }
     });
 
+    // Sync selectedYear when prop changes
+    /*useTask$(({ track }) => {
+      track(() => year);
+      selectedYear.value = year;
+    });*/
+
+    // Handle navigation when year changes
+    // eslint-disable-next-line qwik/no-use-visible-task
+    useVisibleTask$(({ track }) => {
+      const targetYear = track(() => selectedYear.value);
+      if (targetYear !== year) {
+        const prefix = lang ? `/${lang}` : "";
+        nav(`${prefix}/budget/montpellier/${targetYear}/`);
+      }
+    });
+
     // Sync state TO URL (Browser only to avoid non-serializable URL object issues in SSG)
     // eslint-disable-next-line qwik/no-use-visible-task
     useVisibleTask$(({ track }) => {
@@ -75,13 +91,6 @@ export const CityBudgetPage = component$<CityBudgetPageProps>(
       if (tabNames[index] !== currentTab) {
         url.searchParams.set("tab", tabNames[index]);
         nav(url.pathname + url.search, { replaceState: true });
-      }
-    });
-
-    const handleYearChange = $((val: string) => {
-      const prefix = lang ? `/${lang}` : "";
-      if (typeof window !== "undefined") {
-        window.location.href = `${prefix}/budget/montpellier/${val}/`;
       }
     });
 
@@ -103,7 +112,9 @@ export const CityBudgetPage = component$<CityBudgetPageProps>(
                 <Dropdown
                   options={yearOptions}
                   value={year}
-                  onChange$={handleYearChange}
+                  onChange$={(val: string) => {
+                    selectedYear.value = val;
+                  }}
                   placeholder={year}
                 />
               </div>

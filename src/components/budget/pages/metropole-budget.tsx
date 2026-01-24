@@ -44,6 +44,7 @@ export const MetropoleBudgetPage = component$<MetropoleBudgetPageProps>(
     const nav = useNavigate();
     const loc = useLocation();
     const lang = loc.params.lang; // Extract primitive to safe capture
+    const selectedYear = useSignal(year);
 
     const tabNames = ["budget", "loans", "apcp", "subventions", "evolution"];
     const selectedIndex = useSignal(0);
@@ -60,6 +61,22 @@ export const MetropoleBudgetPage = component$<MetropoleBudgetPageProps>(
       }
     });
 
+    // Sync selectedYear when prop changes
+    useTask$(({ track }) => {
+      track(() => year);
+      selectedYear.value = year;
+    });
+
+    // Handle navigation when year changes
+    // eslint-disable-next-line qwik/no-use-visible-task
+    useVisibleTask$(({ track }) => {
+      const targetYear = track(() => selectedYear.value);
+      if (targetYear !== year) {
+        const prefix = lang ? `/${lang}` : "";
+        nav(`${prefix}/budget/montpellier-metropole/${targetYear}/`);
+      }
+    });
+
     // Sync state TO URL (Browser only)
     // eslint-disable-next-line qwik/no-use-visible-task
     useVisibleTask$(({ track }) => {
@@ -73,10 +90,7 @@ export const MetropoleBudgetPage = component$<MetropoleBudgetPageProps>(
     });
 
     const handleYearChange = $((val: string) => {
-      const prefix = lang ? `/${lang}` : "";
-      if (typeof window !== "undefined") {
-        window.location.href = `${prefix}/budget/montpellier-metropole/${val}/`;
-      }
+      selectedYear.value = val;
     });
 
     const handleViewBudget = $((apcpId: string) => {
