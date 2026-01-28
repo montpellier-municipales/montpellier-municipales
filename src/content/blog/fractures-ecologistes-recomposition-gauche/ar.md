@@ -3,6 +3,7 @@ title: "انتخابات بلدية مونبلييه 2026: انقسامات ال
 slug: "intikhabat-montpellier-2026-inqisamat-al-khodr-wa-iadat-tashkil-al-yasar"
 date: "2026-01-28"
 author: "هيئة تحرير مونبلييه البلدية 2026"
+tags: ["les-ecologistes"]
 coverImage: "/images/julia-mignacca-jean-louis-roumegas-ecologistes-municipales-montpellier.jpg"
 coverImageAlt: "جوليا مينياكا وجان لويس روميغاس"
 excerpt: "استقالة جوليا مينياكا، واستقالات متتالية بين صفوف البيئيين، والانضمام إلى قائمة ناتالي أوزيول: نظرة إلى الوراء على تسلسل سياسي يعيد خلط أوراق اليسار في مونبلييه مع اقتراب الانتخابات البلدية لعام 2026."

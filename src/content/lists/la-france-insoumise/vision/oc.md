@@ -1,41 +1,34 @@
-## Una estrategia municipala assumida per La França Insometuda
+## Una estrategia de recampament per la transformacion sociala
 
-Per las municipalas de 2026, La França Insometuda revendica una **preséncia autonòma**, amb de listas portant explicitament lo projècte insometut, sens dilucion dins de coalicions de gestion jutjadas incompatiblas amb sas orientacions nacionalas.
+Per las municipalas de 2026, la lista **Far mièlh per Montpelhièr** marca un tornant. Se s'apièja sul sòcle emblematic de La França Insometuda, revendica d'ara enlà una **dinamica de recampament larg** amb las fòrças ciutadanas (Cause Commune) e l'ecologia radicala (la REV, Julia Mignacca).
 
-A Montpelhièr, aquesta estrategia se tradusís per :
+A Montpelhièr, aquela estrategia se tradusís per :
 
-* la volontat d’installar una **oposicion municipala structurada** a l'entorn del programa insometut ;
-* lo refús de se limitar a un ròtle d’apondon dins de majoritats localas dirigidas per d'autras fòrças politicas ;
-* l’afirmacion d’un projècte municipal coerent amb las posicions nacionalas de LFI.
+* la construccion d'un **pòl de ruptura** capable de s'opausar frontalament a la majoritat socialista sortenta ;
+* lo refús de la metropolizacion inegalitària e de la gestion liberala de la vila ;
+* l'afirmacion d'un projècte municipal ancrat dins las luchas socialas e l'ecologia populara.
 
 ### Posicionament politic local
 
-La França Insometuda se situa clarament dins l’**oposicion a la municipalitat socialista actualament en plaça**. Las presas de posicion publicas dels elegits e responsables locals de LFI meton regularament en causa los chòises de la majoritat municipala sus mantun dossièrs structurants.
+La lista se situa dins una **oposicion frontala a la municipalitat socialista actuala**. Las fòrças que la compausan denóncian una gestion jutjada al servici dels interèsses privats e de la especulacion immobiliària, al detriment dels servicis publics e del quadre de vida.
 
-Demest las criticas formuladas figuran notament :
+Entre las criticas structurantas figuran :
 
-* la governança municipala e metropolitana, jutjada insufisament democratica ;
-* certanas politicas d’amenatjament e de desvolopament urban ;
-* la coeréncia dels chòises ecologics amb los engatjaments afichats.
+* la governaça metropolitana, jutjada opaca e desconnectada dels besonhs dels estatjants ;
+* la betonizacion e la gentrificacion dels quartièrs populars ;
+* l'instrumentalizacion dels enjòcs ecologics sens vertadièra volontat de transformacion sociala.
 
-LFI revendica aital la construccion d’una **alternativa municipala de rompedura**, s’apièjant sus las classas popularas, los quartièrs populars e las mobilizacions socialas.
+La lista revendica aital la construccion d’una **alternativa municipala ciutadana**, s’apièjant suls quartièrs populars, las comunas de la metropòli e las mobilizacions socialas.
 
-### Aisses programatics generalament meses en avant
+### Axes programatics del recampament
 
-Sens programa municipal finalizat a aqueste stadi, las comunicacions publicas de LFI e de Nathalie Oziol permeton pasmens d’identificar mantun aisses structurants :
+Lo programa de la lista, enrequit per las contribucions de Cause Commune e de la REV, s'articula a l'entorn de mantun axe clau :
 
-* **Justícia sociala e servicis publics** : defensa e desvolopament dels servicis publics municipals, lucha contra la precaritat, accès efectiu als dreches ;
-* **Lotjament** : critica de la speculacion immobiliària, enquadrament dels lòyers, desvolopament del lotjament social ;
-* **Ecologia populara** : transicion ecologica pensada en ligam amb las condicions de vida de las classas popularas, oposicion als projèctes jutjats ecologicament o socialament nefastes ;
-* **Democracia locala** : renforçament de la participacion ciutadana, transparéncia de las decisions e contraròtle dels elegits ;
-* **Lucha contra las discriminacions** : antiracisme, egalitat femnas-òmes, defensa de las libertats publicas.
-
-Aquests aisses s’inscrivon dins la declinason locala del programa nacional de La França Insometuda.
+*   **Democracia locala e poder ciutadan** : transformacion radicala de la governaça per tornar lo poder als estatjants (Cause Commune) ;
+*   **Ecologia radicala e antiespecisme** : defensa del viu, sortida del modèl extractivista e justícia climatica (la REV) ;
+*   **Justícia sociala e servicis publics** : defensa dels servicis publics, lucha contra la precaritat e gratuitat dels besonhs de basa ;
+*   **Lòtjanent e lucha contra l'especulacion** : enquadrament estricte dels loguièrs, arrestament dels grands projèctes immobiliaris inutils e drech al lòtjanent per totas e totes.
 
 ### Una articulacion entre enjòcs locals e nacionals
 
-La França Insometuda assumís una lectura politica segon la quala las politicas municipalas pòdon pas èsser dissociadas dels chòises nacionals e internacionals. La candidatura montpelhierenca s’inscrich aital dins un quadre mai larg, integrant :
-
-* una critica de las politicas nacionalas jutjadas responsablas de l’agravacion de las inegalitats ;
-* de presas de posicion sus d'enjòcs internacionals quand aquestes an una traduccion politica o simbolica al nivèl local ;
-* la volontat de far de la municipalitat un relais dels combats portats a d'autras escalas.
+**Far mièlh per Montpelhièr** assumís una lectura politica segon la quala las politicas municipalas son lo primièr palanquièr de resisténcia a las politicas neoliberalas. La candidatura de Nathalie Oziol s'inscriu dins aquela volontat de far de Montpelhièr una vila pioniera del cambiament social e ecologic.

@@ -3,6 +3,7 @@ title: "Municipalas de 2026 a Montpelhièr : fracturas ecologistas e recomposici
 slug: "municipalas-2026-montpelhier-fracturas-ecologistas-recomposicion-politica-esquerra"
 date: "2026-01-28"
 author: "Redaccion Montpelhièr Municipalas 2026"
+tags: ["les-ecologistes"]
 coverImage: "/images/julia-mignacca-jean-louis-roumegas-ecologistes-municipales-montpellier.jpg"
 coverImageAlt: "Julia Mignacca e Jean-Louis Roumégas"
 excerpt: "Demission de Julia Mignacca, partences en cadena en cò dels Ecologistas e raliament a la lista de Nathalie Oziol : retorn sus una sequéncia politica que rebat las cartas de l'esquèrra montpelhierenca a l'apròchi de las municipalas de 2026."

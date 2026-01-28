@@ -3,6 +3,7 @@ title: "الانتخابات البلدية في مونبلييه: كوز كوم
 slug: "intikhabat-montpellier-cause-commune-rev-yandaman-ila-nathalie-oziol"
 date: "2026-01-28"
 author: "هيئة تحرير مونبلييه البلدية 2026"
+tags: ["les-ecologistes", "la-france-insoumise", "cause-commune"]
 coverImage: "/images/nathalie-oziol-lfi-rassemblement-municipales-montpellier.jpg"
 coverImageAlt: "تحالف بين REV و Cause Commune"
 excerpt: "بعد عدة استقالات داخل الربيع المونبلييهي، تعلن مجموعة كوز كومون وREV انضمامهما إلى القائمة التي تقودها ناتالي أوزيول (فرنسا الأبية)، مما يؤكد حجم إعادة التشكيل السياسي في اليسار."

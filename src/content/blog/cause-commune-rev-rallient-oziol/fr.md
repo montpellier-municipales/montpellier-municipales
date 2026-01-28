@@ -3,7 +3,8 @@ title: "Municipales à Montpellier : Cause Commune et la REV rallient la liste d
 slug: "cause-commune-rev-rallient-oziol"
 date: "2026-01-28"
 author: "Rédaction Montpellier Municipales 2026"
-coverImage: "/images/nathalie-oziol-lfi-rassemblement-municipales-montpellier.jpg"
+tags: ["les-ecologistes", "la-france-insoumise", "cause-commune"]
+coverImage: "/images/alliance-entre-REV-et-Cause-Commune.jpg"
 coverImageAlt: "Alliance entre REV et Cause Commune"
 excerpt: "Après plusieurs départs au sein du Printemps montpelliérain, le collectif Cause Commune et la REV annoncent leur ralliement à la liste conduite par Nathalie Oziol (La France insoumise), confirmant l'ampleur de la recomposition politique à gauche."
 ---
@@ -15,7 +16,7 @@ Cette décision confirme l’ampleur de la recomposition en cours à gauche et a
 
 ## Cause Commune et la REV rejoignent la liste LFI
 
-Contrairement à certaines lectures hâtives, il ne s’agit pas d’un ralliement individuel. **C’est bien l’ensemble du collectif Cause Commune, accompagné de la REV, qui rejoint la liste “Faire mieux pour Montpellier”** portée par la députée LFI Nathalie Oziol.
+Contrairement à certaines lectures hâtives, il ne s’agit pas d’un ralliement individuel. **C’est bien lensemble du collectif Cause Commune, accompagné de la REV, qui rejoint la liste “Faire mieux pour Montpellier”** portée par la députée LFI Nathalie Oziol.
 
 Cause Commune s’est construit comme un collectif citoyen ancré localement, autour d’un projet politique mêlant justice sociale, écologie populaire et démocratie locale. La REV, engagée sur les enjeux écologiques et climatiques, avait rejoint le collectif à la fin de l’année 2025, renforçant sa dimension militante et programmatique.
 

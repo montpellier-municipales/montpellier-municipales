@@ -1,11 +1,15 @@
-**La França Insometuda (LFI)** es un movement politic nacional fondat en 2016 a l'entorn d'un programa de transformacion sociala, ecologica e democratica. Se definís coma un movement **antiliberal, ecologista e republican**, structurat a l'entorn d'un foncionament en grops d'accion locals e d'un programa nacional, *L’Avenir en commun*.
+**Far mièlh per Montpelhièr** es la lista de recampament de l'esquèrra radicala e de l'ecologia populara per las eleccions municipalas de 2026. Portada inicialament per **La França Insometuda (LFI)**, s'es alargada per venir lo principal pòl d'alternativa a las politicas metropolitanas actualas.
 
-A Montpelhièr, LFI es implantada de longa data a travèrs de militantes, de grops d'accion locals e d'elegits nacionals e locals. Per las eleccions municipalas de 2026, lo movement a anonciat sa volontat de presentar una **lista insometuda**, inscricha dins la estrategia nacionala de LFI visent a intervenir dirèctament dins las grandas vilas.
+La lista recampa d'ara enlà :
+*   **La França Insometuda (LFI)** : movement antiliberal, ecologista e republican.
+*   **Cause Commune** : collectiu ciutadan ancrat dins los quartièrs e engatjat per la democracia locala.
+*   **La REV (Revolucion Ecologica per lo Viu)** : organizacion ecologista antiespecista e radicala.
+*   **De personalitats eissidas de l'ecologia politica**, coma Julia Mignacca, e dels movements socials.
 
 La lista es menada per **Nathalie Oziol**, deputada d'Erau.
 
-### Nathalie Oziol e l'enrasigament local de LFI
+### Nathalie Oziol e lo recampament de l'esquèrra
 
 Nathalie Oziol es deputada de la **2nda circonscripcion d'Erau**. Es engatjada de longa data dins las mobilizacions socialas e politicas localas, e interven regularament sus de subjèctes ligats als servicis publics, a la precaritat, a l'ecologia e las libertats publicas.
 
-Sa designacion coma cap de lista s'inscrich dins una logica de **continuitat entre lo trabalh parlamentari e l'accion municipala**, LFI defendent l'idèa que los diferents nivèls institucionals devon èsser articulats al servici d'un meteis projècte politic.
+Sa candidatura incarna una volontat de **federar las fòrças de transformacion sociala e ecologica** a l'entorn d'un projècte de ruptura amb la gestion municipala sortenta. Lo raliament de Cause Commune, de la REV e de figuras coma Julia Mignacca marca una etapa clau dins la construccion d'aquel pòl d'esquèrra assumit.

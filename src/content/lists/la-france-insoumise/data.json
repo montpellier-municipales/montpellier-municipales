@@ -1,10 +1,12 @@
 {
   "$schema": "../../../types/schema.json",
   "id": "la-france-insoumise",
-  "name": "La France Insoumise",
+  "name": "Faire mieux pour Montpellier",
   "headOfList": "Nathalie Oziol",
   "parties": [
-    "La France Insoumise"
+    "La France Insoumise",
+    "Cause Commune",
+    "REV (Révolution Écologique pour le Vivant)"
   ],
   "logoUrl": "/images/LFI.png",
   "candidatePictureUrl": "/images/lfi-candidates.jpg",

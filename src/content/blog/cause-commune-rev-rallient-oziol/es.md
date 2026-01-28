@@ -3,6 +3,7 @@ title: "Municipales en Montpellier: Cause Commune y la REV se unen a la lista de
 slug: "municipales-montpellier-cause-commune-rev-unen-lista-nathalie-oziol-recomposicion-izquierda"
 date: "2026-01-28"
 author: "Redacción Montpellier Municipales 2026"
+tags: ["les-ecologistes", "la-france-insoumise", "cause-commune"]
 coverImage: "/images/nathalie-oziol-lfi-rassemblement-municipales-montpellier.jpg"
 coverImageAlt: "Alianza entre REV y Cause Commune"
 excerpt: "Tras varias salidas en el seno del Printemps montpelliérain, el colectivo Cause Commune y la REV anuncian su adhesión a la lista encabezada por Nathalie Oziol (La France insoumise), confirmando la magnitud de la recomposición política en la izquierda."

@@ -15,5 +15,6 @@
     "facebook": "https://facebook.com/CauseCommuneMontpellier",
     "instagram": "https://instagram.com/causecommunemtp"
   },
-  "program": []
+  "program": [],
+  "disabled": true
 }

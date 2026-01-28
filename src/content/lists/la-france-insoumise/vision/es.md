@@ -1,41 +1,34 @@
-## Una estrategia municipal asumida por La France Insoumise
+## Una estrategia de unidad para la transformación social
 
-Para las municipales de 2026, La France Insoumise reivindica una **presencia autónoma**, con listas que porten explícitamente el proyecto insumiso, sin dilución en coaliciones de gestión consideradas incompatibles con sus orientaciones nacionales.
+Para las municipales de 2026, la lista **Faire mieux pour Montpellier** (Hacerlo mejor por Montpellier) marca un punto de inflexión. Si bien se apoya en la base programática de La France Insoumise, ahora reivindica una **dinámica de unidad amplia** con las fuerzas ciudadanas (Cause Commune) y la ecología radical (la REV, Julia Mignacca).
 
 En Montpellier, esta estrategia se traduce en:
 
-* la voluntad de instalar una **oposición municipal estructurada** en torno al programa insumiso;
-* el rechazo a limitarse a un papel de apoyo en mayorías locales dirigidas por otras fuerzas políticas;
-* la afirmación de un proyecto municipal coherente con las posiciones nacionales de LFI.
+* la construcción de un **polo de ruptura** capaz de oponerse frontalmente a la mayoría socialista saliente;
+* el rechazo a la metropolización desigual y a la gestión liberal de la ciudad;
+* la afirmación de un proyecto municipal arraigado en las luchas sociales y la ecología popular.
 
 ### Posicionamiento político local
 
-La France Insoumise se sitúa claramente en la **oposición a la municipalidad socialista actualmente en el poder**. Las tomas de posición públicas de los cargos electos y responsables locales de LFI cuestionan regularmente las elecciones de la mayoría municipal en varios asuntos estructurales.
+La lista se sitúa en una **oposición frontal a la municipalidad socialista actual**. Las fuerzas que la componen denuncian una gestión considerada al servicio de los intereses privados y de la especulación inmobiliaria, en detrimento de los servicios públicos y del entorno de vida.
 
-Entre las críticas formuladas figuran notablemente:
+Entre las críticas estructurantes se encuentran:
 
-* la gobernanza municipal y metropolitana, considerada insuficientemente democrática;
-* ciertas políticas de ordenación y desarrollo urbano;
-* la coherencia de las elecciones ecológicas con los compromisos mostrados.
+* la gobernanza metropolitana, considerada opaca y desconectada de las necesidades de los habitantes;
+* la cementación y la gentrificación de los barrios populares;
+* la instrumentalización de los desafíos ecológicos sin una voluntad real de transformación social.
 
-LFI reivindica así la construcción de una **alternativa municipal de ruptura**, apoyándose en las clases populares, los barrios populares y las movilizaciones sociales.
+La lista reivindica así la construcción de una **alternativa municipal ciudadana**, apoyándose en los barrios populares, los municipios de la metrópoli y las movilizaciones sociales.
 
-### Ejes programáticos generalmente destacados
+### Ejes programáticos de la unidad
 
-Sin un programa municipal finalizado en esta etapa, las comunicaciones públicas de LFI y de Nathalie Oziol permiten sin embargo identificar varios ejes estructurantes:
+El programa de la lista, enriquecido por las contribuciones de Cause Commune y la REV, se articula en torno a varios ejes clave:
 
-* **Justicia social y servicios públicos**: defensa y desarrollo de los servicios públicos municipales, lucha contra la precariedad, acceso efectivo a los derechos;
-* **Vivienda**: crítica a la especulación inmobiliaria, control de alquileres, desarrollo de la vivienda social;
-* **Ecología popular**: transición ecológica pensada en relación con las condiciones de vida de las clases populares, oposición a proyectos considerados ecológica o socialmente perjudiciales;
-* **Democracia local**: refuerzo de la participación ciudadana, transparencia de las decisiones y control de los cargos electos;
-* **Lucha contra las discriminaciones**: antirracismo, igualdad mujeres-hombres, defensa de las libertades públicas.
+*   **Democracia local y poder ciudadano**: transformación radical de la gobernanza para devolver el poder a los habitantes (Cause Commune);
+*   **Ecología radical y antiespecismo**: defensa de lo viviente, salida del modelo extractivista y justicia climática (la REV);
+*   **Justicia social y servicios públicos**: defensa de los servicios públicos, lucha contra la precariedad y gratuidad de las necesidades esenciales;
+*   **Vivienda y lucha contra la especulación**: control estricto de los alquileres, paralización de grandes proyectos inmobiliarios inútiles y derecho a la vivienda para todas y todos.
 
-Estos ejes se inscriben en la declinación local del programa nacional de La France Insoumise.
+### Una articulación entre desafíos locales y nacionales
 
-### Una articulación entre cuestiones locales y nacionales
-
-La France Insoumise asume una lectura política según la cual las políticas municipales no pueden disociarse de las elecciones nacionales e internacionales. La candidatura de Montpellier se inscribe así en un marco más amplio, integrando:
-
-* una crítica a las políticas nacionales consideradas responsables del agravamiento de las desigualdades;
-* tomas de posición sobre cuestiones internacionales cuando estas tienen una traducción política o simbólica a nivel local;
-* la voluntad de hacer de la municipalidad un relevo de las luchas llevadas a otras escalas.
+**Faire mieux pour Montpellier** asume una lectura política según la cual las políticas municipales son la primera palanca de resistencia a las políticas neoliberales. La candidatura de Nathalie Oziol se inscribe en esta voluntad de hacer de Montpellier una ciudad pionera del cambio social y ecológico.

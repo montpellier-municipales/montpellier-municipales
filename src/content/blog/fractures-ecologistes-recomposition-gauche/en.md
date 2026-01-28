@@ -3,6 +3,7 @@ title: "2026 Montpellier Municipal Elections: Green Fractures and Political Real
 slug: "2026-montpellier-municipal-elections-green-fractures-political-realignment-left"
 date: "2026-01-28"
 author: "Montpellier Municipales 2026 Editorial Team"
+tags: ["les-ecologistes"]
 coverImage: "/images/julia-mignacca-jean-louis-roumegas-ecologistes-municipales-montpellier.jpg"
 coverImageAlt: "Julia Mignacca and Jean-Louis Roumégas"
 excerpt: "Resignation of Julia Mignacca, chain departures among the Ecologists and rallying to Nathalie Oziol's list: a look back at a political sequence that reshuffles the cards of the Montpellier left as the 2026 municipal elections approach."

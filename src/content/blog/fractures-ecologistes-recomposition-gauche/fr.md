@@ -3,6 +3,7 @@ title: "Municipales 2026 à Montpellier : fractures écologistes et recompositio
 slug: "fractures-ecologistes-recomposition-gauche"
 date: "2026-01-28"
 author: "Rédaction Montpellier Municipales 2026"
+tags: ["les-ecologistes"]
 coverImage: "/images/julia-mignacca-jean-louis-roumegas-ecologistes-municipales-montpellier.jpg"
 coverImageAlt: "Julia Mignacca et Jean-Louis Roumégas"
 excerpt: "Démission de Julia Mignacca, départs en chaîne chez les Écologistes et ralliement à la liste de Nathalie Oziol : retour sur une séquence politique qui rebat les cartes de la gauche montpelliéraine à l'approche des municipales de 2026."

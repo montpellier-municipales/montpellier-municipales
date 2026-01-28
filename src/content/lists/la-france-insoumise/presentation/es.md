@@ -1,11 +1,15 @@
-**La France Insoumise (LFI)** es un movimiento político nacional fundado en 2016 en torno a un programa de transformación social, ecológica y democrática. Se define como un movimiento **antiliberal, ecologista y republicano**, estructurado en torno a un funcionamiento en grupos de acción locales y un programa nacional, *L’Avenir en commun* (El Futuro en Común).
+**Faire mieux pour Montpellier** (Hacerlo mejor por Montpellier) es la lista de coalición de la izquierda radical y la ecología popular para las elecciones municipales de 2026. Impulsada inicialmente por **La France Insoumise (LFI)**, se ha ampliado para convertirse en el principal polo de alternativa a las actuales políticas metropolitanas.
 
-En Montpellier, LFI está implantada desde hace mucho tiempo a través de militantes, grupos de acción locales y cargos electos nacionales y locales. Para las elecciones municipales de 2026, el movimiento ha anunciado su voluntad de presentar una **lista insumisa**, inscrita en la estrategia nacional de LFI dirigida a intervenir directamente en las grandes ciudades.
+La lista reúne ahora a:
+*   **La France Insoumise (LFI)**: movimiento antiliberal, ecologista y republicano.
+*   **Cause Commune**: colectivo ciudadano arraigado en los barrios y comprometido con la democracia local.
+*   **La REV (Revolución Ecológica por el Viviente)**: organización ecologista antiespecista y radical.
+*   **Personalidades de la ecología política**, como Julia Mignacca, y de los movimientos sociales.
 
 La lista está encabezada por **Nathalie Oziol**, diputada por Hérault.
 
-### Nathalie Oziol y el arraigo local de LFI
+### Nathalie Oziol y la unidad de la izquierda
 
 Nathalie Oziol es diputada por la **2ª circunscripción de Hérault**. Está comprometida desde hace mucho tiempo en las movilizaciones sociales y políticas locales, e interviene regularmente en temas relacionados con los servicios públicos, la precariedad, la ecología y las libertades públicas.
 
-Su designación como cabeza de lista se inscribe en una lógica de **continuidad entre el trabajo parlamentario y la acción municipal**, defendiendo LFI la idea de que los diferentes niveles institucionales deben articularse al servicio de un mismo proyecto político.
+Su candidatura encarna el deseo de **unir las fuerzas de transformación social y ecológica** en torno a un proyecto de ruptura con la gestión municipal saliente. La adhesión de Cause Commune, de la REV y de figuras como Julia Mignacca marca una etapa clave en la construcción de este polo de izquierda asumido.
