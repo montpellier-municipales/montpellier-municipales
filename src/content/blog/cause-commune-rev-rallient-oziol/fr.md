@@ -4,7 +4,7 @@ slug: "cause-commune-rev-rallient-oziol"
 date: "2026-01-28"
 author: "Rédaction Montpellier Municipales 2026"
 tags: ["les-ecologistes", "la-france-insoumise", "cause-commune"]
-coverImage: "/images/nathalie-oziol-lfi-rassemblement-municipales-montpellier.jpg"
+coverImage: "/images/nathalie-oziol-lfi-cause-commune-municipales-monptellier-2026.webp"
 coverImageAlt: "Alliance entre REV et Cause Commune"
 excerpt: "Après plusieurs départs au sein du Printemps montpelliérain, le collectif Cause Commune et la REV annoncent leur ralliement à la liste conduite par Nathalie Oziol (La France insoumise), confirmant l'ampleur de la recomposition politique à gauche."
 ---

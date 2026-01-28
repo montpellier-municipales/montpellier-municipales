@@ -4,7 +4,7 @@ slug: "municipals-montpellier-cause-commune-rev-rally-nathalie-oziol-list-left-r
 date: "2026-01-28"
 author: "Montpellier Municipales 2026 Editorial Team"
 tags: ["les-ecologistes", "la-france-insoumise", "cause-commune"]
-coverImage: "/images/nathalie-oziol-lfi-rassemblement-municipales-montpellier.jpg"
+coverImage: "/images/nathalie-oziol-lfi-cause-commune-municipales-monptellier-2026.webp"
 coverImageAlt: "Alliance between REV and Cause Commune"
 excerpt: "After several departures within the Printemps montpelliérain, the Cause Commune collective and REV announce their rally to the list led by Nathalie Oziol (La France insoumise), confirming the scale of political realignment on the left."
 ---

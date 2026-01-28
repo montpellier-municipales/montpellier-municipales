@@ -4,7 +4,7 @@ slug: "municipalas-montpelhier-cause-commune-rev-rallian-lista-nathalie-oziol"
 date: "2026-01-28"
 author: "Redaccion Montpelhièr Municipalas 2026"
 tags: ["les-ecologistes", "la-france-insoumise", "cause-commune"]
-coverImage: "/images/nathalie-oziol-lfi-rassemblement-municipales-montpellier.jpg"
+coverImage: "/images/nathalie-oziol-lfi-cause-commune-municipales-monptellier-2026.webp"
 coverImageAlt: "Aliança entre REV e Cause Commune"
 excerpt: "Aprèp mantuna partença al sen del Printemps montpelliérain, lo collectiu Cause Commune e la REV anóncian lor raliament a la lista condusida per Nathalie Oziol (La França insomesa), confirmant l'ampleur de la recomposicion politica a esquèrra."
 ---
