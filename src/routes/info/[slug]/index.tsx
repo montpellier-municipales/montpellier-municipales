@@ -87,20 +87,22 @@ export default component$(() => {
   );
 });
 
+const ORIGIN = "https://montpellier-municipales.fr";
+
 export const head: DocumentHead = ({ resolveValue }) => {
   const data = resolveValue(useBlogPost);
   const alternates = data.alternates;
   const links = [];
 
   for (const [lang, slug] of Object.entries(alternates)) {
-    const href =
+    const path =
       lang === config.defaultLocale.lang
         ? `/info/${slug}`
         : `/${lang}/info/${slug}`; // Utilisation de defaultLocale
     links.push({
       rel: "alternate",
       hreflang: lang,
-      href: href,
+      href: `${ORIGIN}${path}`,
     });
   }
 

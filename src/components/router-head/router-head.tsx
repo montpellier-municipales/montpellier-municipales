@@ -2,6 +2,8 @@ import { component$ } from "@builder.io/qwik";
 import { useDocumentHead, useLocation } from "@builder.io/qwik-city";
 import { config } from "~/speak-config";
 
+const ORIGIN = "https://montpellier-municipales.fr";
+
 /**
  * The RouterHead component is placed inside of the document `<head>` element.
  */
@@ -25,12 +27,15 @@ export const RouterHead = component$(() => {
 
   const purePath = getPurePath(loc.url.pathname);
 
-  // Helper to generate generic path for a language
+  // Helper to generate absolute path for a language
   const getPathForLang = (lang: string) => {
+    let path = "";
     if (lang === config.defaultLocale.lang) {
-      return purePath;
+      path = purePath;
+    } else {
+      path = purePath === "/" ? `/${lang}/` : `/${lang}${purePath}`;
     }
-    return purePath === "/" ? `/${lang}/` : `/${lang}${purePath}`;
+    return `${ORIGIN}${path}`;
   };
 
   // Identify existing alternates provided by the page (e.g. blog posts)
@@ -87,16 +92,19 @@ export const RouterHead = component$(() => {
     newLinks.push({
       rel: "alternate",
       type: "text/markdown",
-      href: mdHref,
+      href: `${ORIGIN}${mdHref}`, // Make markdown link absolute too? Usually useful but not strictly required by SEO. Doing it for consistency.
       title: "Markdown Source",
     } as any);
   }
+
+  // Ensure absolute canonical URL
+  const canonicalUrl = `${ORIGIN}${loc.url.pathname}`;
 
   return (
     <>
       <title>{head.title}</title>
 
-      <link rel="canonical" href={loc.url.href} />
+      <link rel="canonical" href={canonicalUrl} />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta
         http-equiv="Content-Security-Policy"
@@ -108,12 +116,16 @@ export const RouterHead = component$(() => {
         <meta key={m.key} {...m} />
       ))}
 
-      {head.links.map((l) => (
-        <link key={l.key} {...l} />
-      ))}
+      {head.links.map((l) => {
+        // Fix existing alternate links to be absolute if they are relative
+        if (l.rel === "alternate" && l.href && l.href.startsWith("/")) {
+            return <link key={l.key} {...l} href={`${ORIGIN}${l.href}`} />;
+        }
+        return <link key={l.key} {...l} />;
+      })}
 
       {newLinks.map((l) => (
-        <link key={l.hreflang} {...l} />
+        <link key={l.hreflang || l.title} {...l} />
       ))}
 
       {head.styles.map((s) => (
