@@ -16,6 +16,7 @@ interface ApcpExplorerProps {
   data: ApcpData;
   onViewBudget$?: PropFunction<(apcpId: string) => void>;
   year?: string;
+  showCommuneStats?: boolean;
 }
 
 const formatCurrency = (amount: number) => {
@@ -27,7 +28,7 @@ const formatCurrency = (amount: number) => {
 };
 
 export const ApcpExplorer = component$<ApcpExplorerProps>(
-  ({ data, onViewBudget$, year = "2025" }) => {
+  ({ data, onViewBudget$, year = "2025", showCommuneStats = true }) => {
     const chartOpen = useSignal(false);
     const state = useStore({
       search: "",
@@ -40,6 +41,7 @@ export const ApcpExplorer = component$<ApcpExplorerProps>(
 
     // Extract unique communes
     const communeOptions = useComputed$(() => {
+      if (!showCommuneStats) return [];
       const communes = new Set<string>();
       data.apcps.forEach((apcp) => {
         apcp.communes?.forEach((c) => communes.add(c));
@@ -57,6 +59,7 @@ export const ApcpExplorer = component$<ApcpExplorerProps>(
           apcp.chapitre.includes(searchLower);
 
         const matchesCommune =
+            !showCommuneStats ||
           state.filterCommune === "" ||
           (state.filterCommune === "none"
             ? !apcp.communes || apcp.communes.length === 0
@@ -124,30 +127,34 @@ export const ApcpExplorer = component$<ApcpExplorerProps>(
 
     return (
       <div class={styles.container}>
-        <CustomCollapsible
-          label="📊 Voir la répartition par commune"
-          bindOpen={chartOpen}
-        >
-          <CommuneBudgetChart data={data} />
-        </CustomCollapsible>
+        {showCommuneStats && (
+          <CustomCollapsible
+            label="📊 Voir la répartition par commune"
+            bindOpen={chartOpen}
+          >
+            <CommuneBudgetChart data={data} />
+          </CustomCollapsible>
+        )}
 
         <section class={styles.filterSection}>
-          <div class={styles.filterGroup}>
-            <label class={styles.label}>Filtrer par commune</label>
-            <Dropdown
-              value={state.filterCommune}
-              onChange$={(value) => {
-                state.filterCommune = value;
-                state.currentPage = 1;
-              }}
-              options={[
-                { value: "", label: "Toutes les communes" },
-                { value: "none", label: "Métropole / Non affecté" },
-                ...communeOptions.value.map((c) => ({ value: c, label: c })),
-              ]}
-              placeholder="Choisir une commune..."
-            />
-          </div>
+          {showCommuneStats && (
+            <div class={styles.filterGroup}>
+              <label class={styles.label}>Filtrer par commune</label>
+              <Dropdown
+                value={state.filterCommune}
+                onChange$={(value) => {
+                  state.filterCommune = value;
+                  state.currentPage = 1;
+                }}
+                options={[
+                  { value: "", label: "Toutes les communes" },
+                  { value: "none", label: "Métropole / Non affecté" },
+                  ...communeOptions.value.map((c) => ({ value: c, label: c })),
+                ]}
+                placeholder="Choisir une commune..."
+              />
+            </div>
+          )}
 
           <div class={styles.filterGroup}>
             <label class={styles.label}>Recherche</label>

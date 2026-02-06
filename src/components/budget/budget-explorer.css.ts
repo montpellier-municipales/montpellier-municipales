@@ -148,13 +148,13 @@ export const pageButton = style({
 export const selectedPageButton = style([
   pageButton,
   {
-    backgroundColor: "#2b6cb0",
-    color: "white",
-    borderColor: "#2b6cb0",
+    backgroundColor: vars.color.primary,
+    color: vars.color.primaryText,
+    borderColor: vars.color.primary,
     fontWeight: "700",
     selectors: {
       "&:hover:not(:disabled)": {
-        backgroundColor: "#2c5282",
+        backgroundColor: vars.color.primaryHover,
       },
     },
   },
@@ -187,8 +187,8 @@ export const tab = style({
   transition: "all 0.2s ease-in-out",
   selectors: {
     '&[data-state="selected"]': {
-      borderBottom: `3px solid #2b6cb0`, // Hardcoded brand color or vars.color.primary?
-      color: "#2b6cb0",
+      borderBottom: `3px solid ${vars.color.primary}`,
+      color: vars.color.primary,
     },
     "&:hover:not([data-state='selected'])": {
       color: vars.color.text,

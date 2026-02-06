@@ -3,6 +3,7 @@ import {
   useSignal,
   useTask$,
   useVisibleTask$,
+  $,
 } from "@builder.io/qwik";
 import { useNavigate, useLocation } from "@builder.io/qwik-city";
 import { BudgetExplorer } from "~/components/budget/budget-explorer";
@@ -12,6 +13,8 @@ import { useSpeak, inlineTranslate } from "qwik-speak";
 import { PersonnelExplorer } from "~/components/budget/personnel-explorer";
 import { PatrimoineExplorer } from "~/components/budget/patrimoine-explorer";
 import { VilleLoanExplorer } from "~/components/budget/ville-loan-explorer";
+import { ApcpExplorer } from "~/components/budget/apcp-explorer";
+import type { ApcpData } from "~/types/apcp";
 import type { PersonnelLine, AssetLine, LoanLine } from "~/types/ville";
 import { Tabs } from "@qwik-ui/headless";
 import { Dropdown } from "~/components/ui/dropdown/dropdown";
@@ -23,6 +26,7 @@ interface CityBudgetPageProps {
   personnelData: PersonnelLine[];
   patrimoineData: AssetLine[];
   loanData: LoanLine[];
+  apcpData?: ApcpData;
 }
 
 const availableYears = [
@@ -38,7 +42,7 @@ const availableYears = [
 const yearOptions = availableYears.map((y) => ({ value: y, label: y }));
 
 export const CityBudgetPage = component$<CityBudgetPageProps>(
-  ({ year, budgetData, personnelData, patrimoineData, loanData }) => {
+  ({ year, budgetData, personnelData, patrimoineData, loanData, apcpData }) => {
     useSpeak({ assets: ["budget"] });
     const t = inlineTranslate();
     const nav = useNavigate();
@@ -52,8 +56,10 @@ export const CityBudgetPage = component$<CityBudgetPageProps>(
       "patrimoine",
       "loans",
       "subventions",
+      "investissements",
     ];
     const selectedIndex = useSignal(0);
+    const initialFilterApcp = useSignal<string>("");
 
     // Sync state FROM URL (SSR safe)
     useTask$(({ track }) => {
@@ -92,6 +98,11 @@ export const CityBudgetPage = component$<CityBudgetPageProps>(
         url.searchParams.set("tab", tabNames[index]);
         nav(url.pathname + url.search, { replaceState: true });
       }
+    });
+
+    const handleViewBudget = $((apcpId: string) => {
+      initialFilterApcp.value = apcpId;
+      selectedIndex.value = 0;
     });
 
     return (
@@ -139,10 +150,19 @@ export const CityBudgetPage = component$<CityBudgetPageProps>(
             <Tabs.Tab class={styles.tab}>
               {t("budget.ville.tabs.subventions")}
             </Tabs.Tab>
+            <Tabs.Tab class={styles.tab}>
+              Investissements (AP/CP)
+            </Tabs.Tab>
           </Tabs.List>
 
           <Tabs.Panel class={styles.tabPanel}>
-            {budgetData && <BudgetExplorer data={budgetData} />}
+            {budgetData && (
+              <BudgetExplorer
+                data={budgetData}
+                apcpData={apcpData}
+                initialFilterApcp={initialFilterApcp.value}
+              />
+            )}
           </Tabs.Panel>
 
           <Tabs.Panel class={styles.tabPanel}>
@@ -178,6 +198,24 @@ export const CityBudgetPage = component$<CityBudgetPageProps>(
                 {t("budget.ville.subventions.title")}
               </h2>
               <ConcoursExplorer data={budgetData.concours || []} />
+            </div>
+          </Tabs.Panel>
+
+          <Tabs.Panel class={styles.tabPanel}>
+            <div>
+              <h2 class={styles.sectionTitle}>
+                Investissements Pluriannuels (AP/CP)
+              </h2>
+              {apcpData ? (
+                <ApcpExplorer
+                  data={apcpData}
+                  year={year}
+                  showCommuneStats={false}
+                  onViewBudget$={handleViewBudget}
+                />
+              ) : (
+                <p>Données non disponibles pour cette année.</p>
+              )}
             </div>
           </Tabs.Panel>
         </Tabs.Root>

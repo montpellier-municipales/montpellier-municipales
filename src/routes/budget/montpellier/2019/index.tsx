@@ -6,8 +6,10 @@ import budgetData from "~/content/data/ville_budget_2019.json";
 import personnelData from "~/content/data/ville_personnel.json";
 import patrimoineData from "~/content/data/ville_patrimoine.json";
 import loanData from "~/content/data/ville_loans.json";
+import apcpData from "~/content/data/ville_apcp_2019.json";
 import type { PersonnelLine, AssetLine, LoanLine } from "~/types/ville";
 import type { BudgetData } from "~/types/budget";
+import type { ApcpData } from "~/types/apcp";
 
 export default component$(() => {
   const currentPersonnel = (personnelData as any)["2019"] as PersonnelLine[] || [];
@@ -21,6 +23,7 @@ export default component$(() => {
       personnelData={currentPersonnel} 
       patrimoineData={currentPatrimoine} 
       loanData={currentLoans}
+      apcpData={apcpData as ApcpData}
     />
   );
 });
