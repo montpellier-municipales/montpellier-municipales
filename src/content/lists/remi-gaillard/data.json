@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../types/schema.json",
+  "id": "remi-gaillard",
+  "name": "N'importe qui",
+  "headOfList": "Rémi Gaillard",
+  "parties": ["Sans étiquette", "Animaliste", "Anti-système"],
+  "logoUrl": "/images/remi-gaillard-municipales-montpellier-2026.jpg",
+  "candidatePictureUrl": "/images/remi-gaillard-municipales-montpellier-2026.jpg",
+  "fame": 8,
+  "website": "http://www.nimportequi.com/",
+  "socials": {
+    "twitter": "https://twitter.com/nqtv",
+    "facebook": "https://www.facebook.com/gaillardremi",
+    "instagram": "https://www.instagram.com/gaillardremi"
+  },
+  "program": []
+}
