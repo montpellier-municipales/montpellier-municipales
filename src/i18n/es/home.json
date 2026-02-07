@@ -3,7 +3,7 @@
     "headOfList": "Cabeza de lista",
     "noImage": "Sin imagen",
     "countdown": {
-      "title": "Fin de la inscripción en las listas electorales",
+      "title": "Primera vuelta de las elecciones municipales",
       "days": "Días",
       "day": "Día",
       "hours": "Horas",
@@ -12,8 +12,8 @@
       "minute": "Minuto",
       "seconds": "Segundos",
       "second": "Segundo",
-      "euMessage": "Todos los ciudadanos de la Unión Europea que residan, estudien o trabajen en Montpellier pueden votar.",
-      "action": "¿Cómo inscribirse?"
+      "euMessage": "La primera vuelta tendrá lugar el domingo 15 de marzo de 2026.",
+      "action": "Comparar los programas"
     },
     "viewAllNews": "Ver todas las noticias"
   }

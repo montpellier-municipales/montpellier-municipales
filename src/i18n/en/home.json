@@ -3,7 +3,7 @@
     "headOfList": "Head of List",
     "noImage": "No image",
     "countdown": {
-      "title": "End of voter registration",
+      "title": "First round of municipal elections",
       "days": "Days",
       "day": "Day",
       "hours": "Hours",
@@ -12,8 +12,8 @@
       "minute": "Minute",
       "seconds": "Seconds",
       "second": "Second",
-      "euMessage": "All EU citizens residing, studying, or working in Montpellier can vote.",
-      "action": "How to register?"
+      "euMessage": "The first round will take place on Sunday, March 15, 2026.",
+      "action": "Compare programs"
     },
     "viewAllNews": "View all news"
   }

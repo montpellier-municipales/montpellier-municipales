@@ -3,7 +3,7 @@
     "headOfList": "Tête de liste",
     "noImage": "Pas d'image",
     "countdown": {
-      "title": "Fin des inscriptions sur les listes électorales",
+      "title": "Premier tour des élections municipales",
       "days": "Jours",
       "day": "Jour",
       "hours": "Heures",
@@ -12,8 +12,8 @@
       "minute": "Minute",
       "seconds": "Secondes",
       "second": "Seconde",
-      "euMessage": "Tou·tes les citoyen·nes de l'Union Européenne résidant, étudiant ou travaillant à Montpellier peuvent voter.",
-      "action": "Comment s'inscrire ?"
+      "euMessage": "Le premier tour aura lieu le dimanche 15 mars 2026.",
+      "action": "Comparer les programmes"
     },
     "viewAllNews": "Voir toute l'actualité"
   }

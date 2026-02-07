@@ -11,8 +11,8 @@ export const Countdown = component$(() => {
 
   const inscriptionLink =
     lang === config.defaultLocale.lang
-      ? "/inscription"
-      : `/${lang}/inscription`;
+      ? "/comparateur"
+      : `/${lang}/comparateur`;
 
   const timeLeft = useStore({
     days: 0,
@@ -21,8 +21,8 @@ export const Countdown = component$(() => {
     seconds: 0,
   });
 
-  // Date cible : Vendredi 6 Février 2026 à 23h59 (Heure de Paris/Locale)
-  const targetDate = new Date("2026-02-06T23:59:59").getTime();
+  // Date cible : Dimanche 15 Mars 2026 à 08h00 (Heure de Paris/Locale)
+  const targetDate = new Date("2026-03-15T08:00:00").getTime();
 
   // Calcul du temps restant uniquement côté client pour éviter les écarts d'hydratation
   // eslint-disable-next-line qwik/no-use-visible-task
