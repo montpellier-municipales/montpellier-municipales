@@ -68,6 +68,8 @@ export const content = style({
   lineHeight: "1.8",
   color: vars.color.text,
   fontSize: "1.1rem",
+  maxWidth: "800px",
+  margin: "0 auto",
 });
 
 // Styles globaux pour le contenu HTML généré par le Markdown
@@ -100,8 +102,12 @@ globalStyle(`${content} li`, {
   marginBottom: "0.25rem",
 });
 
-globalStyle(`${content} strong`, {
-  fontWeight: 500,
+globalStyle(`${content} img`, {
+  maxWidth: "100%",
+  height: "auto",
+  borderRadius: "8px",
+  marginTop: "1.5rem",
+  marginBottom: "1.5rem",
 });
 
 globalStyle(`${content} iframe`, {
