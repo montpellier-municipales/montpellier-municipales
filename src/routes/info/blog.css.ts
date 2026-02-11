@@ -11,7 +11,6 @@ export const headerWithCoverImage = style({
   backgroundSize: "cover",
   backgroundRepeat: "no-repeat",
   minHeight: "50vh",
-  //backgroundAttachment: "fixed",
   display: "flex",
   flexDirection: "column",
   justifyContent: "flex-end",

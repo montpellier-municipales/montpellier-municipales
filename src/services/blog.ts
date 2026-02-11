@@ -8,10 +8,11 @@ import type { BlogPost } from "~/types/schema";
 marked.use({
   renderer: {
     heading: ({ text, depth }: any) => {
+      const parsedText = marked.parseInline(text);
       if (depth === 2) {
-        return `<h2><span>${text}</span></h2>`;
+        return `<h2><span>${parsedText}</span></h2>`;
       }
-      return `<h${depth}>${text}</h${depth}>`;
+      return `<h${depth}>${parsedText}</h${depth}>`;
     },
   } as any,
 });
@@ -24,7 +25,7 @@ const BLOG_DIR = join(process.cwd(), "src/content/blog");
 async function parseFile(
   filePath: string,
   filenameId: string,
-  lang: string
+  lang: string,
 ): Promise<BlogPost | null> {
   try {
     const fileContent = await readFile(filePath, "utf-8");
@@ -88,7 +89,7 @@ export const getBlogPosts = async (lang: string): Promise<BlogPost[]> => {
 
 export const getBlogPostsByTag = async (
   lang: string,
-  tag: string
+  tag: string,
 ): Promise<BlogPost[]> => {
   const allPosts = await getBlogPosts(lang);
   return allPosts.filter((post) => post.tags?.includes(tag));
@@ -96,7 +97,7 @@ export const getBlogPostsByTag = async (
 
 export const getBlogPost = async (
   slug: string,
-  lang: string
+  lang: string,
 ): Promise<BlogPost | null> => {
   const allPosts = await getBlogPosts(lang);
   const post = allPosts.find((p) => p.slug === slug);
@@ -108,7 +109,7 @@ export const getBlogPost = async (
  * Retourne un objet: { fr: 'slug-fr', en: 'slug-en' }
  */
 export const getPostAlternates = async (
-  id: string
+  id: string,
 ): Promise<Record<string, string>> => {
   const alternates: Record<string, string> = {};
 
