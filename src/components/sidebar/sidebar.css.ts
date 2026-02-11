@@ -123,6 +123,11 @@ export const menuListItem = style({
   display: "block",
   padding: 16,
   backgroundColor: vars.color.surface,
+  border: "none",
+  color: vars.color.primary,
+  cursor: "pointer",
+  fontFamily: vars.font.body,
+  fontSize: "16px",
   borderTop: `1px solid ${vars.color.border}`,
   ":hover": {
     backgroundColor: vars.color.background,
