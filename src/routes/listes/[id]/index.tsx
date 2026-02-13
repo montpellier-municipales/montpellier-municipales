@@ -1,4 +1,4 @@
-import { component$ } from "@builder.io/qwik";
+import { component$, useSignal, useComputed$ } from "@builder.io/qwik";
 import {
   DocumentHead,
   routeLoader$,
@@ -7,11 +7,14 @@ import {
 } from "@builder.io/qwik-city";
 import { getList, getAllLists } from "~/services/lists";
 import { getBlogPostsByTag } from "~/services/blog";
+import { getCandidateProgram } from "~/services/program";
 import * as styles from "./list-details.css";
 import { marked } from "marked";
 import { Language } from "~/types/schema";
 import { inlineTranslate, useSpeak } from "qwik-speak";
 import { ArticleCard } from "~/components/article-card/article-card";
+import { Dropdown } from "~/components/ui/dropdown/dropdown";
+import { AnchorNav } from "~/components/ui/anchor-nav/anchor-nav";
 
 // Loader pour récupérer les données côté serveur
 export const useListDetails = routeLoader$(async (requestEvent) => {
@@ -26,6 +29,7 @@ export const useListDetails = routeLoader$(async (requestEvent) => {
   }
 
   const relatedPosts = await getBlogPostsByTag(lang, listId);
+  const measures = await getCandidateProgram(listId, lang);
 
   const presentation = list.presentation
     ? (
@@ -54,7 +58,7 @@ export const useListDetails = routeLoader$(async (requestEvent) => {
       }, {})
     : {};
 
-  return { ...list, presentation, vision, relatedPosts };
+  return { ...list, presentation, vision, relatedPosts, measures };
 });
 
 export default component$(() => {
@@ -63,6 +67,53 @@ export default component$(() => {
   const loc = useLocation();
   const t = inlineTranslate();
   const currentLocale = (loc.params.lang as Language) ?? Language.fr;
+
+  const selectedTag = useSignal<string>("");
+  const allMeasuresLabel = t("list.allMeasures@@Toutes les mesures");
+  const presentationLabel = t("list.presentationTitle@@Présentation");
+  const programLabel = t("list.programTitle@@Le programme");
+  const newsLabel = t("app.latestNews@@Dernières actualités");
+
+  // Randomize measures on mount/load
+  const randomizedMeasures = useComputed$(() => {
+    return [...list.value.measures].sort(() => Math.random() - 0.5);
+  });
+
+  const allTags = useComputed$(() => {
+    const tags = new Set<string>();
+    list.value.measures.forEach((m) => {
+      m.tags.forEach((tag) => tags.add(tag));
+    });
+    return Array.from(tags).sort();
+  });
+
+  const tagOptions = useComputed$(() => {
+    const options = [{ value: "all", label: allMeasuresLabel }];
+    allTags.value.forEach((tag) => {
+      options.push({ value: tag, label: tag });
+    });
+    return options;
+  });
+
+  const filteredMeasures = useComputed$(() => {
+    if (!selectedTag.value || selectedTag.value === "all")
+      return randomizedMeasures.value;
+    return randomizedMeasures.value.filter((m) =>
+      m.tags.includes(selectedTag.value)
+    );
+  });
+
+  const anchors = useComputed$(() => {
+    const items = [];
+    items.push({ id: "presentation", label: presentationLabel });
+    if (list.value.measures.length > 0) {
+      items.push({ id: "program", label: programLabel });
+    }
+    if (list.value.relatedPosts.length > 0) {
+      items.push({ id: "news", label: newsLabel });
+    }
+    return items;
+  });
 
   return (
     <div class={styles.container}>
@@ -96,18 +147,68 @@ export default component$(() => {
         </div>
       </header>
 
-      <section
-        class={styles.listSection}
-        dangerouslySetInnerHTML={list.value.presentation?.[currentLocale]}
-      ></section>
+      {anchors.value.length > 0 && <AnchorNav anchors={anchors.value} />}
 
-      <section
-        class={styles.listSection}
-        dangerouslySetInnerHTML={list.value.vision?.[currentLocale]}
-      ></section>
+      <div id="presentation">
+        <section
+          class={styles.listSection}
+          dangerouslySetInnerHTML={list.value.presentation?.[currentLocale]}
+        ></section>
+
+        <section
+          class={styles.listSection}
+          dangerouslySetInnerHTML={list.value.vision?.[currentLocale]}
+        ></section>
+      </div>
+
+      {list.value.measures.length > 0 && (
+        <section id="program" class={styles.listSection}>
+          <div class={styles.programHeader}>
+            <h2>{t("list.programTitle@@Le programme")}</h2>
+
+            <div class={styles.filterContainer}>
+              <Dropdown
+                options={tagOptions.value}
+                value={selectedTag.value}
+                onChange$={(val) => (selectedTag.value = val)}
+                placeholder={t("list.filterByCategory@@Filtrer les mesures...")}
+              />
+            </div>
+          </div>
+
+          <div style={{ display: "grid", gap: "0rem" }}>
+            {filteredMeasures.value.map((measure) => (
+              <a
+                key={measure.id}
+                href={
+                  currentLocale === "fr"
+                    ? `/listes/${list.value.id}/programme/${measure.slug}/`
+                    : `/${currentLocale}/listes/${list.value.id}/programme/${measure.slug}/`
+                }
+                class={styles.measureCardLink}
+              >
+                <article class={styles.measureCard}>
+                  <div class={styles.tagList}>
+                    {measure.tags.map((tag) => (
+                      <span key={tag} class={styles.tagBadge}>
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                  <h3 class={styles.measureTitle}>{measure.title}</h3>
+                  <div
+                    class={styles.measurePreview}
+                    dangerouslySetInnerHTML={measure.content}
+                  ></div>
+                </article>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
 
       {list.value.relatedPosts.length > 0 && (
-        <section class={styles.listSection}>
+        <section id="news" class={styles.listSection}>
           <h2>{t("app.latestNews@@Dernières actualités")}</h2>
           <div style={{ display: "grid", gap: "1rem" }}>
             {list.value.relatedPosts.map((post) => (
@@ -116,22 +217,6 @@ export default component$(() => {
           </div>
         </section>
       )}
-
-      {/*<section class={styles.programSection}>
-        <h2>Programme (Extrait)</h2>
-
-        {list.value.program.map((point) => (
-          <article key={point.themeId} class={styles.themeCard}>
-            <h3 class={styles.themeTitle}>Thème : {point.themeId}</h3>
-            <p style={{ fontWeight: "bold", marginBottom: "0.5rem" }}>
-              {point.summary[currentLocale] || point.summary["fr"]}
-            </p>
-            <div style={{ color: "#555", lineHeight: "1.6" }}>
-              {point.details[currentLocale] || point.details["fr"]}
-            </div>
-          </article>
-        ))}
-      </section>*/}
     </div>
   );
 });

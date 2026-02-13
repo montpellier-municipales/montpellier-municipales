@@ -68,3 +68,19 @@ export const BlogPostSchema = z.object({
 });
 
 export type BlogPost = z.infer<typeof BlogPostSchema>;
+
+// Schéma pour les mesures de programme
+export const ProgramMeasureSchema = z.object({
+  id: z.string(),
+  slug: z.string(),
+  lang: z.string(),
+  title: z.string(),
+  image: z.string().optional(),
+  imageAlt: z.string().optional(),
+  imageCredit: z.string().optional(),
+  tags: z.array(z.string()),
+  content: z.string(),
+  contentMarkdown: z.string().optional(),
+});
+
+export type ProgramMeasure = z.infer<typeof ProgramMeasureSchema>;

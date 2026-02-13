@@ -1,6 +1,12 @@
 {
   "list": {
     "description": "Présentation de la liste {{listName}} et de sa tête de liste {{headOfList}} qui se présente aux élections municipales 2026 à Montpellier",
-    "headOfList": "Tête de liste : {{name}}"
+    "headOfList": "Tête de liste : {{name}}",
+    "programTitle": "Le programme",
+    "presentationTitle": "Présentation",
+    "allMeasures": "Toutes les mesures",
+    "filterByCategory": "Filtrer les mesures...",
+    "backToList": "Retour à la liste",
+    "measureBy": "Une mesure proposée par {{candidate}}"
   }
 }

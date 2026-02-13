@@ -1,6 +1,12 @@
 {
   "list": {
-    "description": "تقديم قائمة {{listName}} ورئيس قائمتها {{headOfList}} المرشح للانتخابات البلدية 2026 في مونبلييه",
-    "headOfList": "رئيس القائمة : {{name}}"
+    "description": "عرض قائمة {{listName}} ورئيس القائمة {{headOfList}} المرشح للانتخابات البلدية لعام 2026 في مونبلييه",
+    "headOfList": "رئيس القائمة: {{name}}",
+    "programTitle": "البرنامج",
+    "presentationTitle": "عرض",
+    "allMeasures": "كل الإجراءات",
+    "filterByCategory": "تصفية الإجراءات...",
+    "backToList": "العودة إلى القائمة",
+    "measureBy": "إجراء مقترح من قبل {{candidate}}"
   }
 }

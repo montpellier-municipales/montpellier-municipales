@@ -10,6 +10,7 @@ export const header = style({
   justifyContent: "center",
   position: "sticky",
   top: 0,
+  height: vars.layout.headerHeight,
   zIndex: 100,
   boxShadow: vars.shadow.sm,
 });

@@ -1,6 +1,12 @@
 {
   "list": {
-    "description": "Presentation of the {{listName}} list and its lead candidate {{headOfList}} running in the 2026 Montpellier municipal elections",
-    "headOfList": "Head of List: {{name}}"
+    "description": "Presentation of the {{listName}} list and its head of list {{headOfList}} running for the 2026 municipal elections in Montpellier",
+    "headOfList": "Head of list: {{name}}",
+    "programTitle": "The program",
+    "presentationTitle": "Presentation",
+    "allMeasures": "All measures",
+    "filterByCategory": "Filter measures...",
+    "backToList": "Back to the list",
+    "measureBy": "A measure proposed by {{candidate}}"
   }
 }

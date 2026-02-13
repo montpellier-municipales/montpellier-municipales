@@ -11,10 +11,12 @@ export const vars = createThemeContract({
     textMuted: null,
     border: null,
     backdropBackground: null,
+    backgroundMuted: null,
 
     primary: null,
     primaryHover: null,
     primaryText: null, // Texte sur fond primaire
+    primaryTransparent: null,
 
     secondary: null,
     secondaryHover: null,
@@ -26,6 +28,7 @@ export const vars = createThemeContract({
   layout: {
     maxWidth: null,
     sidebarWidth: null,
+    headerHeight: null,
   },
   shadow: {
     sm: null,
@@ -60,10 +63,12 @@ export const lightTheme = createTheme(vars, {
     title: palette.gray800,
     border: palette.gray200,
     backdropBackground: "rgba(255, 255, 255, 0.65)",
+    backgroundMuted: palette.gray100,
 
     primary: palette.montpellierBlue,
     primaryHover: "#122c70", // Version plus sombre
     primaryText: palette.white,
+    primaryTransparent: "rgba(23, 58, 146, 0.1)",
 
     secondary: palette.yellow,
     secondaryHover: palette.yellowDarken, // Version plus sombre
@@ -76,6 +81,7 @@ export const lightTheme = createTheme(vars, {
   layout: {
     maxWidth: "1000px",
     sidebarWidth: "320px",
+    headerHeight: "64px",
   },
   shadow: {
     sm: "0 1px 2px 0 rgba(0, 0, 0, 0.05)",
@@ -95,10 +101,12 @@ export const darkTheme = createTheme(vars, {
     title: palette.gray200,
     border: "#1e293b",
     backdropBackground: "#0f1f2e90",
+    backgroundMuted: "#1e293b",
 
     primary: "#4c6ef5", // Bleu plus lumineux pour ressortir sur le noir
     primaryHover: "#3b5bdb",
     primaryText: palette.white,
+    primaryTransparent: "rgba(76, 110, 245, 0.15)",
 
     secondary: palette.yellow,
     secondaryHover: palette.yellowDarken,
@@ -111,6 +119,7 @@ export const darkTheme = createTheme(vars, {
   layout: {
     maxWidth: "1000px",
     sidebarWidth: "320px",
+    headerHeight: "64px",
   },
   shadow: {
     sm: "0 1px 2px 0 rgba(0, 0, 0, 0.3)", // Ombres plus fortes en dark

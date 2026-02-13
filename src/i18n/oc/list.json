@@ -1,6 +1,12 @@
 {
   "list": {
-    "description": "Presentacion de la lista {{listName}} e de son cap de lista {{headOfList}} que se presenta a las eleccions municipalas 2026 a Montpelhièr",
-    "headOfList": "Cap de lista: {{name}}"
+    "description": "Presentacion de la lista {{listName}} e de sa tèsta de lista {{headOfList}} que se presenta a las eleccions municipalas de 2026 a Montpelhièr",
+    "headOfList": "Tèsta de lista : {{name}}",
+    "programTitle": "Lo programa",
+    "presentationTitle": "Presentacion",
+    "allMeasures": "Totas las mesuras",
+    "filterByCategory": "Filtrar las mesuras...",
+    "backToList": "Tornar a la lista",
+    "measureBy": "Una mesura prepausada per {{candidate}}"
   }
 }
