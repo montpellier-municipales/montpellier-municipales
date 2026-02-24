@@ -4,7 +4,9 @@
     "subtitle": "Lo mèdia ciutadan de las eleccions municipalas de 2026 a Montpelhièr",
     "menu": {
       "home": "Acuèlh",
-      "comparator": "Comparador",
+      "compare": "Comparar",
+      "compareProgrammes": "Programas",
+      "compareIdeological": "Bossòla Ideologica",
       "budget": "Budget",
       "budgetMetropole": "Budget de la Metropòli",
       "info": "Actualitats",

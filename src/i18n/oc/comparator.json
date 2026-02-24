@@ -6,6 +6,52 @@
     "themes": "Tèmas",
     "remove": "Levar",
     "noProgramForTheme": "Cap de proposicion sus aqueste tèma",
-    "metaDescription": "Comparatz los programas dels candidats a las eleccions municipalas de Montpelhièr 2026."
+    "metaDescription": "Comparatz los programas dels candidats a las eleccions municipalas de Montpelhièr 2026.",
+    "positioning": {
+      "title": "Bossòla Ideologica 2026",
+      "description": "Visualizatz lo posicionament de las listas sus las grandas questions de l'eleccion municipala de Montpelhièr.",
+      "xAxis": "Axe orizontal (X)",
+      "yAxis": "Axe vertical (Y)",
+      "dimensions": {
+        "economy": "Economia",
+        "societal": "Societat e Progrès",
+        "governance": "Governància",
+        "security": "Seguretat",
+        "ecology": "Ecologia"
+      },
+      "labels": {
+        "economy": {
+          "1": "Neoliberalisme",
+          "2": "Social-liberalisme",
+          "3": "Social-ecologia",
+          "4": "Socialisme / Municipalisme"
+        },
+        "societal": {
+          "1": "Reaccionari",
+          "2": "Conservador / Autoritàri",
+          "3": "Progressisme Liberal",
+          "4": "Progressisme Radical",
+          "5": "Antiespecista"
+        },
+        "governance": {
+          "1": "Autoritàri / Vertical",
+          "2": "Representatiu",
+          "3": "Participatiu",
+          "4": "Comuns / Auto-organizacion"
+        },
+        "security": {
+          "1": "Punitiu / Susvelhança",
+          "2": "Convencional",
+          "3": "Proximitat / Mediacion",
+          "4": "Preventiu / Comunitari"
+        },
+        "ecology": {
+          "1": "Creissença Verda",
+          "2": "Transicion",
+          "3": "Transicion Radicala",
+          "4": "Ruptura / Decreissença"
+        }
+      }
+    }
   }
 }

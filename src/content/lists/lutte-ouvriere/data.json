@@ -1,0 +1,24 @@
+{
+  "$schema": "../../../types/schema.json",
+  "id": "lutte-ouvriere",
+  "name": "Lutte Ouvrière",
+  "headOfList": "Morgane Lachiver",
+  "parties": ["Lutte Ouvrière"],
+  "logoUrl": "/images/lutte-ouvriere.svg",
+  "candidatePictureUrl": "/images/morgane-lachiver-lutte-ouvriere.jpg",
+  "fame": 4,
+  "website": "https://www.lutte-ouvriere.org/",
+  "socials": {
+    "twitter": "https://twitter.com/LutteOuvriere",
+    "facebook": "https://www.facebook.com/lutte.ouvriere.lo",
+    "instagram": "https://www.instagram.com/lutteouvriere/"
+  },
+  "positioning": {
+    "economy": 4,
+    "societal": 4,
+    "governance": 4,
+    "security": 4,
+    "ecology": 4
+  },
+  "program": []
+}

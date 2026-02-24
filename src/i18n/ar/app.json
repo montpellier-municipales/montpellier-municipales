@@ -4,7 +4,9 @@
     "subtitle": "الإعلام المواطن للانتخابات البلدية 2026 في مونبلييه",
     "menu": {
       "home": "الرئيسية",
-      "comparator": "المقارن",
+      "compare": "مقارنة",
+      "compareProgrammes": "البرامج",
+      "compareIdeological": "البوصلة الأيديولوجية",
       "budget": "الميزانية",
       "budgetMetropole": "ميزانية الميتروبول",
       "info": "أخبار",

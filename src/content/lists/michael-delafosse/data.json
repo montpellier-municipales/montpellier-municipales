@@ -20,6 +20,13 @@
     "facebook": "https://facebook.com/MichaelDelafosseOfficiel",
     "instagram": "https://www.instagram.com/michaeldelafosse/"
   },
+  "positioning": {
+    "economy": 2,
+    "societal": 3,
+    "governance": 2,
+    "security": 1,
+    "ecology": 2
+  },
   "program": [
     {
       "themeId": "transport",

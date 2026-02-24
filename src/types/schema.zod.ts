@@ -43,6 +43,13 @@ export const CandidateSchema = z
     program: z.array(ProgramPointSchema),
     presentation: TranslationSchema.optional(),
     vision: TranslationSchema.optional(),
+    positioning: z.object({
+      economy: z.number().min(1).max(4),
+      societal: z.number().min(1).max(5),
+      governance: z.number().min(1).max(4),
+      security: z.number().min(1).max(4),
+      ecology: z.number().min(1).max(4),
+    }),
   })
   .strict();
 

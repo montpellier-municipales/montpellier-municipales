@@ -15,6 +15,13 @@
     "facebook": "https://facebook.com/CauseCommuneMontpellier",
     "instagram": "https://instagram.com/causecommunemtp"
   },
+  "positioning": {
+    "economy": 4,
+    "societal": 4,
+    "governance": 4,
+    "security": 4,
+    "ecology": 4
+  },
   "program": [],
   "disabled": true
 }

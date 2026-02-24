@@ -15,5 +15,12 @@
     "facebook": "https://www.facebook.com/eelvofficiel",
     "instagram": "https://www.instagram.com/eelv.fr"
   },
+  "positioning": {
+    "economy": 3,
+    "societal": 4,
+    "governance": 3,
+    "security": 3,
+    "ecology": 3
+  },
   "program": []
 }

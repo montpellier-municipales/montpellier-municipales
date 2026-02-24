@@ -9,5 +9,12 @@
   "fame": 9,
   "website": "",
   "socials": {},
+  "positioning": {
+    "economy": 1,
+    "societal": 3,
+    "governance": 1,
+    "security": 1,
+    "ecology": 1
+  },
   "program": []
 }

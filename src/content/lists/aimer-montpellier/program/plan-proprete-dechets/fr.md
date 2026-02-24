@@ -1,0 +1,20 @@
+---
+title: "Un plan propreté et une gestion des déchets efficace"
+slug: "plan-proprete-dechets"
+tags: ["déchets", "environnement", "changement climatique"]
+lang: "fr"
+---
+
+Isabelle Perrein veut faire de Montpellier un modèle de propreté et d'économie circulaire en mettant fin à l'insalubrité actuelle.
+
+### La propreté pour tous, partout
+
+L'objectif est de restaurer la dignité des quartiers par un entretien rigoureux et une gestion moderne des déchets.
+
+- **Fréquence des nettoyages adaptée** : Revue de la fréquence de passage des services de nettoiement selon la vie réelle de chaque quartier.
+- **Colonnes de tri modernes et habillage des bacs** : Installation de nouveaux équipements de tri esthétiques et fonctionnels, avec verbalisation des incivilités.
+- **Incinérateur vertueux pour les déchets ultimes** : Construction d'un incinérateur moins coûteux et écologiquement responsable pour remplacer l'usine Amétyst défaillante.
+- **Régisseurs de quartier pour le tri** : Création d'un corps d'agents dédiés à l'éducation et à la coordination du tri sélectif local.
+- **Collecte massive des biodéchets** : Compostage généralisé pour réduire le volume de la poubelle grise.
+- **Nettoiement aux eaux grises** : Utilisation d'eaux recyclées pour l'arrosage et le lavage des rues afin de préserver la ressource en eau.
+- **Valorisation thermique des data centers** : Utiliser la chaleur produite par des data centers de proximité pour alimenter le réseau de chauffage urbain.

@@ -142,6 +142,44 @@
       "additionalProperties": {
         "type": "string"
       }
+    },
+    "positioning": {
+      "type": "object",
+      "properties": {
+        "economy": {
+          "type": "number",
+          "minimum": 1,
+          "maximum": 4
+        },
+        "societal": {
+          "type": "number",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "governance": {
+          "type": "number",
+          "minimum": 1,
+          "maximum": 4
+        },
+        "security": {
+          "type": "number",
+          "minimum": 1,
+          "maximum": 4
+        },
+        "ecology": {
+          "type": "number",
+          "minimum": 1,
+          "maximum": 4
+        }
+      },
+      "required": [
+        "economy",
+        "societal",
+        "governance",
+        "security",
+        "ecology"
+      ],
+      "additionalProperties": false
     }
   },
   "required": [
@@ -152,7 +190,8 @@
     "logoUrl",
     "candidatePictureUrl",
     "socials",
-    "program"
+    "program",
+    "positioning"
   ],
   "additionalProperties": false
 }

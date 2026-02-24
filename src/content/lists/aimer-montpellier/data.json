@@ -11,6 +11,13 @@
   "socials": {
     "facebook": "https://www.facebook.com/IsabellePerrein2026"
   },
+  "positioning": {
+    "economy": 1,
+    "societal": 2,
+    "governance": 1,
+    "security": 1,
+    "ecology": 1
+  },
   "program": [
     {
       "themeId": "securite",

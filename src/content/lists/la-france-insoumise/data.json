@@ -17,5 +17,12 @@
     "facebook": "https://www.facebook.com/LaFranceInsoumise",
     "instagram": "https://www.instagram.com/nathalieoziol"
   },
+  "positioning": {
+    "economy": 4,
+    "societal": 4,
+    "governance": 4,
+    "security": 4,
+    "ecology": 4
+  },
   "program": []
 }

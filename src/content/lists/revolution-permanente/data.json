@@ -17,5 +17,12 @@
     "tiktok": "https://www.tiktok.com/@revpermanente",
     "bluesky": "https://bsky.app/profile/revolutionpermanente.fr"
   },
+  "positioning": {
+    "economy": 4,
+    "societal": 4,
+    "governance": 4,
+    "security": 4,
+    "ecology": 4
+  },
   "program": []
 }

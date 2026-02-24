@@ -11,6 +11,13 @@
   "fame": 4,
   "website": "",
   "socials": {},
+  "positioning": {
+    "economy": 2,
+    "societal": 2,
+    "governance": 2,
+    "security": 2,
+    "ecology": 2
+  },
   "program": [],
   "disabled": true
 }

@@ -6,6 +6,52 @@
     "themes": "Themes",
     "remove": "Remove",
     "noProgramForTheme": "No proposal on this theme",
-    "metaDescription": "Compare the programs of candidates for the 2026 Montpellier municipal elections."
+    "metaDescription": "Compare the programs of candidates for the 2026 Montpellier municipal elections.",
+    "positioning": {
+      "title": "2026 Ideological Compass",
+      "description": "Visualize how lists position themselves on key issues for the Montpellier municipal election.",
+      "xAxis": "Horizontal Axis (X)",
+      "yAxis": "Vertical Axis (Y)",
+      "dimensions": {
+        "economy": "Economy",
+        "societal": "Society & Progress",
+        "governance": "Governance",
+        "security": "Security",
+        "ecology": "Ecology"
+      },
+      "labels": {
+        "economy": {
+          "1": "Neoliberalism",
+          "2": "Social-liberalism",
+          "3": "Social-ecology",
+          "4": "Socialism / Municipalism"
+        },
+        "societal": {
+          "1": "Reactionary",
+          "2": "Conservative / Authoritarian",
+          "3": "Liberal Progressivism",
+          "4": "Radical Progressivism",
+          "5": "Anti-speciesism"
+        },
+        "governance": {
+          "1": "Authoritarian / Vertical",
+          "2": "Representative",
+          "3": "Participatory",
+          "4": "Commons / Auto-organization"
+        },
+        "security": {
+          "1": "Punitive / Surveillance",
+          "2": "Conventional",
+          "3": "Proximity / Mediation",
+          "4": "Preventive / Community"
+        },
+        "ecology": {
+          "1": "Green Growth",
+          "2": "Transition",
+          "3": "Radical Transition",
+          "4": "Rupture / Degrowth"
+        }
+      }
+    }
   }
 }

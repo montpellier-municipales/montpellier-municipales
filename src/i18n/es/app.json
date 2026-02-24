@@ -4,7 +4,9 @@
     "subtitle": "El medio ciudadano de las elecciones municipales de 2026 en Montpellier",
     "menu": {
       "home": "Inicio",
-      "comparator": "Comparador",
+      "compare": "Comparar",
+      "compareProgrammes": "Programas",
+      "compareIdeological": "Brújula Ideológica",
       "budget": "Presupuesto",
       "budgetMetropole": "Presupuesto de la Metrópoli",
       "info": "Noticias",

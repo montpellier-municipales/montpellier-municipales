@@ -4,7 +4,9 @@
     "subtitle": "The citizen media for the 2026 municipal elections in Montpellier",
     "menu": {
       "home": "Home",
-      "comparator": "Comparator",
+      "compare": "Compare",
+      "compareProgrammes": "Programs",
+      "compareIdeological": "Ideological Compass",
       "budget": "Budget",
       "budgetMetropole": "Metropole Budget",
       "info": "News",

@@ -13,5 +13,12 @@
     "facebook": "https://www.facebook.com/gaillardremi",
     "instagram": "https://www.instagram.com/gaillardremi"
   },
+  "positioning": {
+    "economy": 2,
+    "societal": 3,
+    "governance": 2,
+    "security": 2,
+    "ecology": 2
+  },
   "program": []
 }

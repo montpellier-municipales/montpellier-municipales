@@ -1,0 +1,18 @@
+---
+title: "Technologies modernes au service de la sécurité"
+slug: "securite-technologies-modernes"
+tags: ["sécurité"]
+lang: "fr"
+---
+
+Isabelle Perrein propose de moderniser radicalement les moyens techniques de la ville pour assurer une surveillance efficace et une assistance immédiate aux citoyens.
+
+### Un Centre de Supervision Urbain (CSU) à la hauteur
+
+L'objectif est de passer d'un système défaillant à un outil de pointe opérationnel en permanence.
+
+- **CSU 24h/24 et 7j/7** : Mise en œuvre d'un véritable centre doté du personnel formé et des équipements nécessaires.
+- **Caméras intelligentes 360°** : Installation de caméras de nouvelle génération avec lecture automatique des plaques d'immatriculation.
+- **Bornes d'appel d'urgence** : Installation de bornes dans les bâtiments publics, les commerces volontaires, les secteurs à forte affluence, les écoles et les lieux de culte pour une assistance immédiate.
+- **Unités cynophiles et véhicules neufs** : Modernisation complète de l'équipement mobile pour une intervention rapide et efficace.
+- **Professionnalisation** : Formation continue des agents derrière les écrans pour une réactivité maximale.

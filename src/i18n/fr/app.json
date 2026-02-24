@@ -4,10 +4,12 @@
     "subtitle": "Le média citoyen des élections municipales 2026 à Montpellier",
     "menu": {
       "home": "Accueil",
-      "comparator": "Comparateur",
+      "compare": "Comparer",
+      "compareProgrammes": "Programmes",
+      "compareIdeological": "Boussole Idéologique",
       "budget": "Budget",
-      "budgetMetropole": "Budget Métropole",
-      "budgetVille": "Budget Ville",
+      "budgetMetropole": "Métropole",
+      "budgetVille": "Ville",
       "info": "Infos",
       "inscriptionElectorale": "Listes électorales",
       "roleMairieMetropole": "Pourquoi voter ?"
