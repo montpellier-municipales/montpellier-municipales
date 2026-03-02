@@ -51,6 +51,49 @@
           "3": "Transicion Radicala",
           "4": "Ruptura / Decreissença"
         }
+      },
+      "valuePages": {
+        "measuresHeading": "Mesuras correspondenta a aqueste posicionament",
+        "noMeasures": "Cap de mesura correspond a aqueste posicionament dins nòstre comparator.",
+        "otherValues": "Autras posicions sus aqueste axe",
+        "excludedNote": "Las candidaturas reaccionàrias se situan fòra del spectre republican. Aqueste comparator inclús cap de candidat a aqueste posicionament.",
+        "safetyArticleLabel": "Legir nòstra analisi sus l'eficacitat de las politicas de seguretat",
+        "safetyArticleHref": "/info/surete-publique-montpellier-efficacite-vs-affichage",
+        "backToCompass": "← Tornar a la Bossòla Ideologica",
+        "candidateMeasure": "Mesura de",
+        "descriptions": {
+          "economy": {
+            "1": "Prioritat als mecanismes de mercat, a la liura concorrença e a la deregulacion. L'accion municipala se limita a facilitar l'investiment privat. Los servicis publics jocan un ròtle segondari davant l'iniciativa privada.",
+            "2": "Lo mercat demòra lo quadre de referéncia, mas de filets de seguretà, una redistribucion e una regulacion corregisson sos excèsses. L'accion municipala completa lo mercat sens lo remetre en causa estructuralment.",
+            "3": "La justícia sociala e la transicion ecologica son inseparablas. Critica del productivisme e de la creissença a tot prètz. Prioritat a las economias localas e solidàrias, a l'economia circulara e a la reduccion de las inegalitats dins la transicion.",
+            "4": "Proprietat publica municipala, comuns, cooperativas e democracia economica locala. La vila ven un levier de transformacion vèrs mai d'equitat e d'autodeterminacion collectiva, en remetent en causa la proprietat privada dels servicis essencials."
+          },
+          "societal": {
+            "1": "Retorn a un òrdre social anterior, restriccion de las libertats civilas e dels dreches de las minoritats. Aqueste posicionament se situa fòra del spectre republican e es pas representat dins aqueste comparator.",
+            "2": "Ligament a las estructuras socialas tradicionàlas e a l'autoritat. Mefisança envèrs los cambiaments socials rapidèls. L'òrdre social es perçabut coma lo primièr garant de la cohesion.",
+            "3": "Sosten als dreches individuals, a la diversitat e a l'egalitat LGBTQ+ dins lo quadre economic existent. Politicas anti-discriminatòrias sens remetuda en causa del modèl liberal.",
+            "4": "Transformacion estructurala de las ierarquias socialas. Aproche interseccionala articulant feminisme, antirracisme e justícia sociala. Critica de las formas sistémicas de dominacion.",
+            "5": "Extension de la consideracion morala a totes los ésser sensiblas enlà de l'uman. Critica del especisme coma forma de dominacion. Promocion dels dreches animals e del veganisme coma calhèt politic."
+          },
+          "governance": {
+            "1": "Decisions concentradas dins las mans de l'executiu. Consultacion ciutadana limitada. Estil de lideratge tecnocratic o carismatic. L'eficacitat passa pel comandament ierarquic.",
+            "2": "Democracia liberala classica : los ciutadans elegisson de representants que governan en lor nom. La participacion se limita principalament al vòte.",
+            "3": "La democracia s'exercís entre las eleccions. Assemblaas ciutadanas, budgets participatius, processos deliberatius. Los abitants son consultats e implicats dins de decisions especificas.",
+            "4": "Vision democratica radicala. Comuns autogestionats, democracia directa, conselhs de quartièr a poder contrasenhen. Remetuda en causa del modèl representatiu al profit d'una governança ciutadana permanenta."
+          },
+          "security": {
+            "1": "La seguretà per la dissuasion, la repression e la visibilitat de la fòrça. Camaras, tolerància zèro, polícia municipala renforçada. Aproche punitiu davant los comportaments antisocials.",
+            "2": "Manteniment de l'òrdre classic, reactiu mai que proactiu. La polícia intervén sus sinhalizacion. Ni fortament punitiu, ni fortament preventiu.",
+            "3": "Polícia de proximitat ancrada dins lo territòri. Agents coneguts dels abitants. Desescalada e mediacion coma aisinas prioritàrias. Construccion de la confiança entre institucions e comunautats.",
+            "4": "La seguretà s'enracina dins la prevencion sociala. Ataca las causas profondas de la delinquença : inegalitats, derocament escolari, addiccions. Iniciativas comunitàrias al costat — o a la plaça — de la polícia. Inspirat per la criminologia fondada sus las provas."
+          },
+          "ecology": {
+            "1": "Proteccion de l'environament compatibla amb la continuacion de la creissença economica. Tecnologias netas, infraestructuras vertas, mercats del carbon. Lo paradigma de la creissença es pas remés en causa.",
+            "2": "Acceleracion de la transicion energetica e ecologica en mantenent lo dinamisme economic. Fòrts investiments dins las energias renovelablas, los transports publics e la renovacion termala — dins lo cadre del modèl economic existent.",
+            "3": "Remetuda en causa del modèl economic productivista. Planificacion ecologica contrasenhen amb d'objectius numerats. Incompatibilitat asumida entre creissença illimitada e preservacion de l'environament.",
+            "4": "Reduccion voluntària e organizata de la produccion e del consum dins las societats ricas. Economia de post-creissença centrada sus lo ben-èsser, la sobrietat e los limites planetaris."
+          }
+        }
       }
     }
   }

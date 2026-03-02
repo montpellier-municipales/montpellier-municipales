@@ -3,6 +3,12 @@ title: "Objectif Zéro Déchet et Ressource"
 slug: "objectif-zero-dechet-ressource"
 tags: ["déchets", "environnement"]
 lang: "fr"
+positioning:
+  economy: null
+  societal: null
+  governance: null
+  security: null
+  ecology: 3
 ---
 
 Rémi Gaillard propose une politique radicale de réduction des déchets pour transformer Montpellier en une ville exemplaire de l'économie circulaire.

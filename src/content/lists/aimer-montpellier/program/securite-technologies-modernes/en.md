@@ -3,6 +3,12 @@ title: "Modern Technology for Security"
 slug: "modern-technology-security"
 tags: ["sécurité"]
 lang: "en"
+positioning:
+  economy: null
+  societal: null
+  governance: 1
+  security: 1
+  ecology: null
 ---
 
 Isabelle Perrein proposes to radically modernize the city's technical means to ensure efficient surveillance and immediate assistance.

@@ -4,6 +4,12 @@ slug: "making-workers-voices-heard-ar"
 tags: ["émancipation et justice sociale", "démocratie"]
 lang: "ar"
 dir: "rtl"
+positioning:
+  economy: 4
+  societal: null
+  governance: 4
+  security: null
+  ecology: null
 ---
 
 تترشح مورغان لاشيفير وقائمة "النضال العمالي" (Lutte Ouvrière) لتمثيل أصوات أولئك الذين يديرون المجتمع ولكن لا يُسمح لهم أبداً بإبداء رأيهم في كيفية عمله.

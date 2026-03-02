@@ -3,6 +3,12 @@ title: "Lunaret : une réserve vivante et un zoologramme"
 slug: "lunaret-reserve-vivante-zoologramme"
 tags: ["bien être animal", "environnement", "culture", "enfance et éducation"]
 lang: "fr"
+positioning:
+  economy: null
+  societal: 5
+  governance: null
+  security: null
+  ecology: 4
 ---
 
 Rémi Gaillard propose de transformer le Zoo du Lunaret en un parc vivant unique en Europe, alliant protection animale et technologie innovante.

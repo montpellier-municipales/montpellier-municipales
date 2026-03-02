@@ -4,6 +4,12 @@ slug: "social-actions-solidarity-ar"
 tags: ["solidarité", "émancipation et justice sociale"]
 lang: "ar"
 dir: "rtl"
+positioning:
+  economy: 3
+  societal: 3
+  governance: null
+  security: null
+  ecology: null
 ---
 
 تقترح إيزابيل بيران حلولاً ملموسة وشفافة لتحسين الحياة اليومية للفئات الأكثر ضعفاً وتعزيز التماسك الاجتماعي.

@@ -5,6 +5,7 @@ import {
   $,
   useComputed$,
 } from "@builder.io/qwik";
+import { isServer } from "@builder.io/qwik";
 import {
   routeLoader$,
   useLocation,
@@ -80,6 +81,7 @@ export default component$(() => {
   // Met à jour l'URL lorsque la sélection change
   useTask$(({ track }) => {
     track(() => selectedListIds.value);
+    if (isServer) return;
     const newSearchParams = new URLSearchParams();
     if (selectedListIds.value.length > 0) {
       newSearchParams.set("listes", selectedListIds.value.join(","));
@@ -115,7 +117,7 @@ export default component$(() => {
 
   return (
     <div class={styles.container}>
-      <h1 class={styles.title}>{t("app.menu.comparator")}</h1>
+      <h1 class={styles.title}>{t("app.menu.compareProgrammes")}</h1>
 
       <div class={styles.selectorContainer}>
         <label class={styles.selectorLabel}>{t("comparator.addList")}</label>
@@ -218,7 +220,7 @@ export default component$(() => {
 export const head: DocumentHead = () => {
   const t = inlineTranslate();
   return {
-    title: t("app.menu.comparator"),
+    title: t("app.menu.compareProgrammes"),
     meta: [
       {
         name: "description",

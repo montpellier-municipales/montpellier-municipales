@@ -3,6 +3,12 @@ title: "Reinforced and Local Municipal Police"
 slug: "reinforced-local-municipal-police"
 tags: ["sécurité"]
 lang: "en"
+positioning:
+  economy: null
+  societal: null
+  governance: 2
+  security: 2
+  ecology: null
 ---
 
 Isabelle Perrein proposes to transform the municipal police into a true local security tool with permanent presence in all neighborhoods of Montpellier.

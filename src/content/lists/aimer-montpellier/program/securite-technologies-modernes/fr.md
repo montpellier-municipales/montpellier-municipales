@@ -3,6 +3,12 @@ title: "Technologies modernes au service de la sécurité"
 slug: "securite-technologies-modernes"
 tags: ["sécurité"]
 lang: "fr"
+positioning:
+  economy: null
+  societal: null
+  governance: 1
+  security: 1
+  ecology: null
 ---
 
 Isabelle Perrein propose de moderniser radicalement les moyens techniques de la ville pour assurer une surveillance efficace et une assistance immédiate aux citoyens.

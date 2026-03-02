@@ -3,6 +3,12 @@ title: "Un urbanisme de bon sens et des logements accessibles"
 slug: "urbanisme-bon-sens-logement"
 tags: ["environnement", "logement"]
 lang: "fr"
+positioning:
+  economy: 2
+  societal: null
+  governance: null
+  security: null
+  ecology: 2
 ---
 
 Isabelle Perrein propose de reconstruire la ville sur elle-même pour créer des quartiers de paix verdoyants tout en garantissant des prix abordables.

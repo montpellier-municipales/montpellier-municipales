@@ -3,6 +3,12 @@ title: "Priority on Education and Early Childhood"
 slug: "priority-education-early-childhood"
 tags: ["enfance et éducation"]
 lang: "en"
+positioning:
+  economy: 3
+  societal: 3
+  governance: null
+  security: null
+  ecology: null
 ---
 
 Isabelle Perrein proposes to make Montpellier a "City for Children and Youth," where everyone can grow and learn safely.

@@ -3,6 +3,12 @@ title: "Tolerancia cero con la delincuencia"
 slug: "tolerancia-cero-delincuencia"
 tags: ["sécurité"]
 lang: "es"
+positioning:
+  economy: null
+  societal: 1
+  governance: 1
+  security: 1
+  ecology: null
 ---
 
 Inspirada en la teoría de la "ventana rota", Isabelle Perrein propone una política de firmeza absoluta para restablecer el orden en todos los barrios de Montpellier.

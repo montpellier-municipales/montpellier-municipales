@@ -3,6 +3,12 @@ title: "Natural Swimming Pool on the Lez"
 slug: "natural-pool-lez"
 tags: ["gestion de l'eau", "environnement", "sport", "santé"]
 lang: "en"
+positioning:
+  economy: null
+  societal: null
+  governance: 3
+  security: null
+  ecology: 3
 ---
 
 Rémi Gaillard proposes installing natural floating swimming pools on the Lez river, accessible to residents in the summer.

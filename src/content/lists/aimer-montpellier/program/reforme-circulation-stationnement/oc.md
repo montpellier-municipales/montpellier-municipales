@@ -3,6 +3,12 @@ title: "Refòrma de la circulacion e retorn al drech al parcatge"
 slug: "reforma-circulacion-parcatge"
 tags: ["transport et mobilités"]
 lang: "oc"
+positioning:
+  economy: null
+  societal: null
+  governance: null
+  security: null
+  ecology: 1
 ---
 
 Isabelle Perrein prepausa de metre fin a una vision dogmatica dels transpòrts en reconciliant totes las mòdes de desplaçament.

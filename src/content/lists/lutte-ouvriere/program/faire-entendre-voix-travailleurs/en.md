@@ -3,6 +3,12 @@ title: "Making the Workers' Voices Heard"
 slug: "making-workers-voices-heard"
 tags: ["émancipation et justice sociale", "démocratie"]
 lang: "en"
+positioning:
+  economy: 4
+  societal: null
+  governance: 4
+  security: null
+  ecology: null
 ---
 
 Morgane Lachiver and Lutte Ouvrière are standing to represent the voice of those who run society but never have a say in how it works.

@@ -4,6 +4,12 @@ slug: "entrepreneurial-excellence-ar"
 tags: ["émancipation et justice sociale"]
 lang: "ar"
 dir: "rtl"
+positioning:
+  economy: 2
+  societal: null
+  governance: null
+  security: null
+  ecology: null
 ---
 
 تقترح إيزابيل بيران تعزيز الحراك الاجتماعي في مونبلييه من خلال جعل البلدية الشريك المفضل للشركات لإنشاء فرص عمل متاحة للجميع.

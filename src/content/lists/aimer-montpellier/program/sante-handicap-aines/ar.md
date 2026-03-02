@@ -4,6 +4,12 @@ slug: "health-disability-seniors-ar"
 tags: ["santé", "solidarité"]
 lang: "ar"
 dir: "rtl"
+positioning:
+  economy: 3
+  societal: 4
+  governance: null
+  security: null
+  ecology: null
 ---
 
 تقترح إيزابيل بيران وضع الضعف البشري في مركز العمل البلدي لضمان الصحة المتاحة والاستقلالية الدائمة لجميع المواطنين.

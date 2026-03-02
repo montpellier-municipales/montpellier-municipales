@@ -3,6 +3,12 @@ title: "El deporte para todos, en todas partes"
 slug: "deporte-para-todos"
 tags: ["sport"]
 lang: "es"
+positioning:
+  economy: null
+  societal: 3
+  governance: null
+  security: null
+  ecology: null
 ---
 
 Isabelle Perrein ve el deporte como un factor de cohesión social, esfuerzo y respeto. Quiere hacer de él un motor para la visibilidad de Montpellier.

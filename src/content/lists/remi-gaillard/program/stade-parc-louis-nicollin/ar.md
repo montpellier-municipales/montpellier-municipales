@@ -4,6 +4,12 @@ slug: "stade-parc-louis-nicollin"
 tags: ["sport", "culture", "environnement", "changement climatique", "transport et mobilités"]
 lang: "ar"
 dir: "rtl"
+positioning:
+  economy: 2
+  societal: null
+  governance: null
+  security: null
+  ecology: 2
 ---
 
 يقترح ريمي غايار إنشاء **ستاد-بارك لويس نيكولين**، وهو مرفق متعدد الوظائف فريد من نوعه في فرنسا، مصمم ليكون مساحة معيشة يومية حقيقية تدمج الرياضة والثقافة والطبيعة.

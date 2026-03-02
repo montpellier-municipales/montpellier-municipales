@@ -3,6 +3,12 @@ title: "Seguretat, Proteccion, Prevencion : Una prioritat umana"
 slug: "seguretat-proteccion-prevencion"
 tags: ["sécurité", "solidarité", "Émancipation et justice sociale"]
 lang: "oc"
+positioning:
+  economy: null
+  societal: 3
+  governance: 3
+  security: 3
+  ecology: null
 ---
 
 Rémi Gaillard prepausa una apròcha de la seguretat fondada sus la preséncia umana, la tecnologia utila e la solidaritat concrèta.

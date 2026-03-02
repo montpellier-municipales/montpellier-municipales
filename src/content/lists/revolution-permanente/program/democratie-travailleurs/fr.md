@@ -1,0 +1,20 @@
+---
+title: "Mettons fin aux privilèges des politiciens professionnels"
+slug: "democratie-travailleurs"
+tags: ["démocratie", "émancipation et justice sociale"]
+lang: "fr"
+positioning:
+  economy: null
+  societal: null
+  governance: 4
+  security: null
+  ecology: null
+---
+
+La professionnalisation de la politique crée une classe d'élus déconnectée des réalités des travailleuses et travailleurs. Révolution Permanente propose de remettre le pouvoir entre les mains du peuple.
+
+### Les axes forts :
+
+- **Élus révocables** : tout élu doit pouvoir être rappelé par ses électeurs à tout moment, et doit être payé au salaire d'une infirmière, sans cumul des mandats.
+- **Droit de vote dès 16 ans** : pour tous les résidents et résidentes, sans conditions de nationalité.
+- **Démission de Macron et fin de la Ve République** : mettre fin aux institutions qui concentrent le pouvoir dans les mains d'une élite politique et construire une nouvelle République au service du peuple.

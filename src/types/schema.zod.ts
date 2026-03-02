@@ -76,6 +76,16 @@ export const BlogPostSchema = z.object({
 
 export type BlogPost = z.infer<typeof BlogPostSchema>;
 
+const MeasurePositioningSchema = z
+  .object({
+    economy: z.number().min(1).max(4).nullable().optional(),
+    societal: z.number().min(1).max(5).nullable().optional(),
+    governance: z.number().min(1).max(4).nullable().optional(),
+    security: z.number().min(1).max(4).nullable().optional(),
+    ecology: z.number().min(1).max(4).nullable().optional(),
+  })
+  .optional();
+
 // Schéma pour les mesures de programme
 export const ProgramMeasureSchema = z.object({
   id: z.string(),
@@ -88,6 +98,7 @@ export const ProgramMeasureSchema = z.object({
   tags: z.array(z.string()),
   content: z.string(),
   contentMarkdown: z.string().optional(),
+  positioning: MeasurePositioningSchema,
 });
 
 export type ProgramMeasure = z.infer<typeof ProgramMeasureSchema>;

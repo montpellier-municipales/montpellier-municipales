@@ -3,6 +3,12 @@ title: "Oposicion a l'austeritat e defensa dels servicis publics"
 slug: "oposicion-austeritat-servicis-publics"
 tags: ["solidarité", "émancipation et justice sociale"]
 lang: "oc"
+positioning:
+  economy: 4
+  societal: 3
+  governance: null
+  security: null
+  ecology: null
 ---
 
 Lutte Ouvrière s'opausa a las politicas d'austeritat que estofan las comunas e degradan los servicis publics.

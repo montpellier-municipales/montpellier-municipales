@@ -4,6 +4,12 @@ slug: "intelligent-traffic-ai-ar"
 tags: ["transport et mobilités", "environnement", "changement climatique"]
 lang: "ar"
 dir: "rtl"
+positioning:
+  economy: null
+  societal: null
+  governance: null
+  security: null
+  ecology: 2
 ---
 
 يقترح ريمي غايار استخدام الذكاء الاصطناعي لتسيير حركة المرور في مونبلييه عن طريق جعل إشارات المرور ذكية.

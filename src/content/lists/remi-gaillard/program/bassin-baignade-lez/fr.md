@@ -3,6 +3,12 @@ title: "Bassin de baignade naturelle sur le Lez"
 slug: "bassin-baignade-lez"
 tags: ["gestion de l'eau", "environnement", "sport", "santé"]
 lang: "fr"
+positioning:
+  economy: null
+  societal: null
+  governance: 3
+  security: null
+  ecology: 3
 ---
 
 Rémi Gaillard propose l'installation de bassins de baignade naturelle flottants sur le Lez, accessibles aux habitants durant l'été.

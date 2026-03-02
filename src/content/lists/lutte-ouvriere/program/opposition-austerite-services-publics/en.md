@@ -3,6 +3,12 @@ title: "Opposing Austerity and Defending Public Services"
 slug: "opposing-austerity-defending-public-services"
 tags: ["solidarité", "émancipation et justice sociale"]
 lang: "en"
+positioning:
+  economy: 4
+  societal: 3
+  governance: null
+  security: null
+  ecology: null
 ---
 
 Lutte Ouvrière opposes austerity policies that strangle municipalities and degrade public services essential to the population.

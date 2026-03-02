@@ -3,6 +3,12 @@ title: "Réforme de la circulation et retour au droit au stationnement"
 slug: "reforme-circulation-stationnement"
 tags: ["transport et mobilités"]
 lang: "fr"
+positioning:
+  economy: null
+  societal: null
+  governance: null
+  security: null
+  ecology: 1
 ---
 
 Isabelle Perrein propose de mettre fin à une vision dogmatique des transports en réconciliant tous les modes de déplacement pour fluidifier la ville.

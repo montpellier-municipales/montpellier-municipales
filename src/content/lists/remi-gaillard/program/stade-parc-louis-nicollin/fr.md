@@ -3,6 +3,12 @@ title: "Le Stade-Parc Louis Nicollin : un lieu de vie 365 jours par an"
 slug: "stade-parc-louis-nicollin"
 tags: ["sport", "culture", "environnement", "changement climatique", "transport et mobilités"]
 lang: "fr"
+positioning:
+  economy: 2
+  societal: null
+  governance: null
+  security: null
+  ecology: 2
 ---
 
 Rémi Gaillard propose la création du **Stade-Parc Louis Nicollin**, un équipement multi-fonctionnel unique en France, conçu pour être un véritable lieu de vie quotidien intégrant sport, culture et nature.

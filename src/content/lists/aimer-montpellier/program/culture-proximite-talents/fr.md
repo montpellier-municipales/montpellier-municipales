@@ -3,6 +3,12 @@ title: "Penser la culture comme vecteur d'émancipation pour tous"
 slug: "culture-proximite-talents"
 tags: ["culture"]
 lang: "fr"
+positioning:
+  economy: null
+  societal: 3
+  governance: null
+  security: null
+  ecology: null
 ---
 
 Isabelle Perrein propose de sortir la culture des institutions pour l'amener dans tous les quartiers et favoriser l'expression de tous les talents montpelliérains.

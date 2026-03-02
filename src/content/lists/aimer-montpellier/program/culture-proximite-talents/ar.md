@@ -4,6 +4,12 @@ slug: "culture-vector-emancipation-ar"
 tags: ["culture"]
 lang: "ar"
 dir: "rtl"
+positioning:
+  economy: null
+  societal: 3
+  governance: null
+  security: null
+  ecology: null
 ---
 
 تقترح إيزابيل بيران إخراج الثقافة من المؤسسات لنقلها إلى كل حي وتعزيز التعبير عن جميع مواهب مونبلييه.

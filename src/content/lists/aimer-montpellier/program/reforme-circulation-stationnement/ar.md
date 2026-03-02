@@ -4,6 +4,12 @@ slug: "traffic-reform-parking-ar"
 tags: ["transport et mobilités"]
 lang: "ar"
 dir: "rtl"
+positioning:
+  economy: null
+  societal: null
+  governance: null
+  security: null
+  ecology: 1
 ---
 
 تقترح إيزابيل بيران إنهاء الرؤية العقائدية للنقل من خلال التوفيق بين جميع وسائل السفر لتسهيل الحركة في المدينة.

@@ -3,6 +3,12 @@ title: "Plan de limpieza y gestión de residuos eficaz"
 slug: "plan-limpieza-gestion-residuos"
 tags: ["déchets", "environnement", "changement climatique"]
 lang: "es"
+positioning:
+  economy: null
+  societal: null
+  governance: null
+  security: null
+  ecology: 2
 ---
 
 Isabelle Perrein se propone hacer de Montpellier un modelo de limpieza y economía circular, poniendo fin a la insalubridad actual.

@@ -3,6 +3,12 @@ title: "Prioritat a l'educacion e a la pichona enfança"
 slug: "prioritat-educacion-pichona-enfanca"
 tags: ["enfance et éducation"]
 lang: "oc"
+positioning:
+  economy: 3
+  societal: 3
+  governance: null
+  security: null
+  ecology: null
 ---
 
 Isabelle Perrein vòl far de Montpelhièr una « Ciutat dels enfants e dels joves » ont cadun se pòsca espandir en seguretat.

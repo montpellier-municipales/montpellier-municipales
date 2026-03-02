@@ -3,6 +3,12 @@ title: "Actions sociales et solidarité : Remettre l'humain au cœur"
 slug: "actions-sociales-solidarite"
 tags: ["solidarité", "émancipation et justice sociale"]
 lang: "fr"
+positioning:
+  economy: 3
+  societal: 3
+  governance: null
+  security: null
+  ecology: null
 ---
 
 Isabelle Perrein propose des solutions concrètes et transparentes pour améliorer le quotidien des Montpelliérains les plus vulnérables et renforcer la cohésion sociale.

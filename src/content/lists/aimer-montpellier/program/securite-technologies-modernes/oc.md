@@ -3,6 +3,12 @@ title: "Tecnologias modèrnas per la seguretat"
 slug: "tecnologias-modernas-seguretat"
 tags: ["sécurité"]
 lang: "oc"
+positioning:
+  economy: null
+  societal: null
+  governance: 1
+  security: 1
+  ecology: null
 ---
 
 Isabelle Perrein prepausa de modernizar radicalament los mitans tecnics de la vila per assegurar una susvelhança eficaça e una assisténcia immediata.

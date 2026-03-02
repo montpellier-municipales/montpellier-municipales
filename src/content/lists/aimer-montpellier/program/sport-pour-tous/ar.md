@@ -4,6 +4,12 @@ slug: "sport-for-all-everywhere-ar"
 tags: ["sport"]
 lang: "ar"
 dir: "rtl"
+positioning:
+  economy: null
+  societal: 3
+  governance: null
+  security: null
+  ecology: null
 ---
 
 ترى إيزابيل بيران الرياضة كعامل للتماسك الاجتماعي والجهد والاحترام. وتريد أن تجعلها محركاً لرؤية مونبلييه.

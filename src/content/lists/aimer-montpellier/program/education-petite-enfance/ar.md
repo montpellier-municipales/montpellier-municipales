@@ -4,6 +4,12 @@ slug: "priority-education-early-childhood-ar"
 tags: ["enfance et éducation"]
 lang: "ar"
 dir: "rtl"
+positioning:
+  economy: 3
+  societal: 3
+  governance: null
+  security: null
+  ecology: null
 ---
 
 تقترح إيزابيل بيران جعل مونبلييه "مدينة للأطفال والشباب،" حيث يمكن لكل شخص أن ينمو ويتعلم بأمان.

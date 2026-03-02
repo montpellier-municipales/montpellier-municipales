@@ -3,6 +3,12 @@ title: "Policía Municipal reforzada y de proximidad"
 slug: "policia-municipal-reforzada"
 tags: ["sécurité"]
 lang: "es"
+positioning:
+  economy: null
+  societal: null
+  governance: 2
+  security: 2
+  ecology: null
 ---
 
 Isabelle Perrein propone transformar la policía municipal en una verdadera herramienta de seguridad de proximidad y permanente en todos los barrios de Montpellier.

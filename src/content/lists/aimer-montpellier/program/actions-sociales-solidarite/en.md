@@ -3,6 +3,12 @@ title: "Social Actions and Solidarity: Putting Humans Back at the Heart"
 slug: "social-actions-solidarity-human-heart"
 tags: ["solidarité", "émancipation et justice sociale"]
 lang: "en"
+positioning:
+  economy: 3
+  societal: 3
+  governance: null
+  security: null
+  ecology: null
 ---
 
 Isabelle Perrein proposes concrete and transparent solutions to improve the daily lives of the most vulnerable and strengthen social cohesion.

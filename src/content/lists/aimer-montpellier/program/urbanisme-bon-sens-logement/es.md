@@ -3,6 +3,12 @@ title: "Urbanismo de sentido común y viviendas accesibles"
 slug: "urbanismo-sentido-comun-vivienda"
 tags: ["environnement", "logement"]
 lang: "es"
+positioning:
+  economy: 2
+  societal: null
+  governance: null
+  security: null
+  ecology: 2
 ---
 
 Isabelle Perrein propone reconstruir la ciudad sobre sí misma para crear barrios verdes y tranquilos, garantizando al mismo tiempo precios asequibles.

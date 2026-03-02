@@ -4,6 +4,12 @@ slug: "culture-through-actions-ar"
 tags: ["culture", "enfance et éducation"]
 lang: "ar"
 dir: "rtl"
+positioning:
+  economy: null
+  societal: 3
+  governance: null
+  security: null
+  ecology: null
 ---
 
 يقترح ريمي غايار جعل مونبلييه "عاصمة للثقافة بالأفعال"، من خلال المراهنة على التعبير الفني الحر وإشراك الأطفال وتثمين التراث.

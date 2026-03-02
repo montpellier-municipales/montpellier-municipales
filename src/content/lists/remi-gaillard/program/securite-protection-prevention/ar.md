@@ -4,6 +4,12 @@ slug: "security-protection-prevention-ar"
 tags: ["sécurité", "solidarité", "Émancipation et justice sociale"]
 lang: "ar"
 dir: "rtl"
+positioning:
+  economy: null
+  societal: 3
+  governance: 3
+  security: 3
+  ecology: null
 ---
 
 يقترح ريمي غايار نهجًا للأمن يعتمد على الوجود البشري، والتكنولوجيا المفيدة، والتضامن الملموس.

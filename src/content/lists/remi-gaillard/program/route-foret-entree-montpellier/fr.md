@@ -3,6 +3,12 @@ title: "Transformer une entrée de ville en Route-Forêt"
 slug: "route-foret-entree-montpellier"
 tags: ["environnement", "changement climatique", "transport et mobilités"]
 lang: "fr"
+positioning:
+  economy: null
+  societal: null
+  governance: null
+  security: null
+  ecology: 4
 ---
 
 Rémi Gaillard propose de transformer l'avenue de Toulouse (une entrée de ville majeure) en une "Route-Forêt" en supprimant une voie de circulation automobile pour créer une canopée végétale continue.

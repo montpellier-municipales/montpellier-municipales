@@ -3,6 +3,12 @@ title: "Transforming a City Entrance into a Forest Road"
 slug: "forest-road-entrance"
 tags: ["environnement", "changement climatique", "transport et mobilités"]
 lang: "en"
+positioning:
+  economy: null
+  societal: null
+  governance: null
+  security: null
+  ecology: 4
 ---
 
 Rémi Gaillard proposes to transform the avenue de Toulouse into a "Forest Road" by removing one traffic lane to create a continuous plant canopy.

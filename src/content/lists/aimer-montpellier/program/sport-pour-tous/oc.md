@@ -3,6 +3,12 @@ title: "Lo Spòrt per totes, pertot"
 slug: "sport-per-totes-pertot"
 tags: ["sport"]
 lang: "oc"
+positioning:
+  economy: null
+  societal: 3
+  governance: null
+  security: null
+  ecology: null
 ---
 
 Isabelle Perrein vei lo spòrt coma un factor de coesion sociala, d'esfòrç e de respècte. Vòl ne far un motor del raionament de Montpelhièr.

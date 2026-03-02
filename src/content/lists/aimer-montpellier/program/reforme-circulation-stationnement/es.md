@@ -3,6 +3,12 @@ title: "Reforma de la circulación y restauración del derecho al estacionamient
 slug: "reforma-circulacion-estacionamiento"
 tags: ["transport et mobilités"]
 lang: "es"
+positioning:
+  economy: null
+  societal: null
+  governance: null
+  security: null
+  ecology: 1
 ---
 
 Isabelle Perrein propone acabar con una visión dogmática de los transportes reconciliando todos los modos de desplazamiento para fluidificar la ciudad.

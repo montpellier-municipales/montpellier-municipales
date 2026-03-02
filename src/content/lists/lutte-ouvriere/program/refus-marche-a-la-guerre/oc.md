@@ -3,6 +3,12 @@ title: "Refús de la marcha a la guèrra"
 slug: "refus-marcha-guerra"
 tags: ["démocratie", "enfance et éducation"]
 lang: "oc"
+positioning:
+  economy: null
+  societal: 3
+  governance: 3
+  security: 4
+  ecology: null
 ---
 
 Morgane Lachiver e Lutte Ouvrière denóncian l'aumentacion dels budgets militars e l'emprise de l'armada sus la societat.

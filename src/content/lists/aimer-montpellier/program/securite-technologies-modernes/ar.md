@@ -4,6 +4,12 @@ slug: "modern-technology-security-ar"
 tags: ["sécurité"]
 lang: "ar"
 dir: "rtl"
+positioning:
+  economy: null
+  societal: null
+  governance: 1
+  security: 1
+  ecology: null
 ---
 
 تقترح إيزابيل بيران تحديث الوسائل التقنية للمدينة بشكل جذري لضمان المراقبة الفعالة والمساعدة الفورية.

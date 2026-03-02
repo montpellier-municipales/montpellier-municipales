@@ -3,6 +3,12 @@ title: "Montpellier : Capitale de la culture par les actes"
 slug: "montpellier-capitale-culture-actes"
 tags: ["culture", "enfance et éducation"]
 lang: "fr"
+positioning:
+  economy: null
+  societal: 3
+  governance: null
+  security: null
+  ecology: null
 ---
 
 Rémi Gaillard propose de faire de Montpellier une véritable "Capitale de la culture par les actes", en misant sur l'expression artistique libre, l'implication des enfants et la valorisation du patrimoine.

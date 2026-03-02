@@ -3,6 +3,12 @@ title: "Verdanson : Parc inondable et musée à ciel ouvert"
 slug: "verdanson-parc-inondable"
 tags: ["environnement", "changement climatique", "culture"]
 lang: "fr"
+positioning:
+  economy: null
+  societal: null
+  governance: null
+  security: null
+  ecology: 4
 ---
 
 Rémi Gaillard propose de transformer le canal du Verdanson, aujourd'hui largement bétonné et méconnu, en un véritable parc inondable et un musée de street art à ciel ouvert.

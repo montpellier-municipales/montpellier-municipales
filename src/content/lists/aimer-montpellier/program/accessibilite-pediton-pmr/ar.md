@@ -4,6 +4,12 @@ slug: "making-city-accessible-ar"
 tags: ["transport et mobilités"]
 lang: "ar"
 dir: "rtl"
+positioning:
+  economy: null
+  societal: 3
+  governance: null
+  security: null
+  ecology: null
 ---
 
 تهدف إيزابيل بيران إلى إنهاء إهمال المشاة والأشخاص ذوي القدرة المحدودة على الحركة (PMR) في سياسات النقل الحضري.

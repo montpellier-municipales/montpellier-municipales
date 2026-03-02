@@ -4,6 +4,12 @@ slug: "zero-tolerance-delinquency-ar"
 tags: ["sécurité"]
 lang: "ar"
 dir: "rtl"
+positioning:
+  economy: null
+  societal: 1
+  governance: 1
+  security: 1
+  ecology: null
 ---
 
 بناءً على نظرية "النافذة المكسورة"، تقترح إيزابيل بيران سياسة حزم مطلقة لاستعادة النظام في جميع أحياء مونبلييه.
