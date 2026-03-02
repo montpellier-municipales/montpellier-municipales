@@ -4,6 +4,12 @@ slug: "opposing-austerity-defending-public-services-ar"
 tags: ["solidarité", "émancipation et justice sociale"]
 lang: "ar"
 dir: "rtl"
+positioning:
+  economy: 4
+  societal: 3
+  governance: null
+  security: null
+  ecology: null
 ---
 
 تعارض قائمة "النضال العمالي" (Lutte Ouvrière) سياسات التقشف التي تخنق البلديات وتؤدي إلى تدهور الخدمات العامة الضرورية للسكان.

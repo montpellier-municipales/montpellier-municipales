@@ -4,6 +4,12 @@ slug: "natural-pool-lez-ar"
 tags: ["gestion de l'eau", "environnement", "sport", "santé"]
 lang: "ar"
 dir: "rtl"
+positioning:
+  economy: null
+  societal: null
+  governance: 3
+  security: null
+  ecology: 3
 ---
 
 يقترح ريمي غايار إنشاء مسابح طبيعية عائمة على نهر ليز، لتكون متاحة للسكان في الصيف.

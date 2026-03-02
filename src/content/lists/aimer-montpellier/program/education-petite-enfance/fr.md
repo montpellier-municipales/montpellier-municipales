@@ -3,6 +3,12 @@ title: "Priorité à l'éducation et à la petite enfance"
 slug: "education-petite-enfance"
 tags: ["enfance et éducation"]
 lang: "fr"
+positioning:
+  economy: 3
+  societal: 3
+  governance: null
+  security: null
+  ecology: null
 ---
 
 Isabelle Perrein place l'éducation au cœur de son projet pour faire de Montpellier une « Cité des enfants et des jeunes » où chacun peut s'épanouir en sécurité.

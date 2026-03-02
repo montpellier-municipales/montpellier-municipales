@@ -6,10 +6,17 @@
     "themes": "Themes",
     "remove": "Remove",
     "noProgramForTheme": "No proposal on this theme",
+    "selectLists": "Lists selected for comparison",
+    "positioningSection": "Positioning Overview",
+    "positioningSectionDesc": "Visualization of the relative positioning of lists on key municipal issues.",
+    "programSection": "Compare programs",
+    "allTags": "All",
+    "noMeasuresForTag": "No measure on this topic",
     "metaDescription": "Compare the programs of candidates for the 2026 Montpellier municipal elections.",
     "positioning": {
       "title": "2026 Ideological Compass",
       "description": "Visualize how lists position themselves on key issues for the Montpellier municipal election.",
+      "microText": "Axes run from conservative approaches (left) to progressive approaches (right).",
       "xAxis": "Horizontal Axis (X)",
       "yAxis": "Vertical Axis (Y)",
       "dimensions": {
@@ -50,6 +57,49 @@
           "2": "Transition",
           "3": "Radical Transition",
           "4": "Rupture / Degrowth"
+        }
+      },
+      "valuePages": {
+        "measuresHeading": "Measures matching this positioning",
+        "noMeasures": "No measure matches this positioning in our comparator.",
+        "otherValues": "Other positions on this axis",
+        "excludedNote": "Reactionary candidacies fall outside the republican spectrum. This comparator does not include any candidate with this positioning.",
+        "safetyArticleLabel": "Read our analysis on the effectiveness of security policies",
+        "safetyArticleHref": "/en/info/public-safety-montpellier-effectiveness-vs-display",
+        "backToCompass": "← Back to the Ideological Compass",
+        "candidateMeasure": "Measure by",
+        "descriptions": {
+          "economy": {
+            "1": "Priority given to market mechanisms, free competition, and deregulation. Municipal action is limited to facilitating private investment. Public services play a secondary role relative to private initiative.",
+            "2": "The market remains the reference framework, but safety nets, redistribution, and regulation correct its excesses. Municipal action complements the market without structurally challenging it.",
+            "3": "Social justice and ecological transition are inseparable. Critique of productivism and growth at all costs. Priority given to local and solidarity economies, circular economy, and inequality reduction in the transition.",
+            "4": "Municipal public ownership, commons, cooperatives, and local economic democracy. The city becomes a lever for transformation toward greater equity and collective self-determination, challenging private ownership of essential services."
+          },
+          "societal": {
+            "1": "Return to a prior social order, restriction of civil liberties and minority rights. This positioning is outside the republican spectrum and is not represented in this comparator.",
+            "2": "Attachment to traditional social structures and authority. Distrust of rapid social change. Social order is seen as the primary guarantor of cohesion.",
+            "3": "Support for individual rights, diversity, and LGBTQ+ equality within the existing economic framework. Anti-discrimination policies without challenging the liberal model.",
+            "4": "Structural transformation of social hierarchies. Intersectional approach articulating feminism, anti-racism, and social justice. Critique of systemic forms of domination.",
+            "5": "Extension of moral consideration to all sentient beings beyond the human. Critique of speciesism as a form of domination. Promotion of animal rights and veganism as a political choice."
+          },
+          "governance": {
+            "1": "Decisions concentrated in the hands of the executive. Limited citizen consultation. Technocratic or charismatic leadership style. Efficiency comes through hierarchical command.",
+            "2": "Classic liberal democracy: citizens elect representatives who govern on their behalf. Participation is mainly limited to voting.",
+            "3": "Democracy is exercised between elections. Citizens' assemblies, participatory budgets, deliberative processes. Residents are consulted and involved in specific decisions.",
+            "4": "Radical democratic vision. Self-managed commons, direct democracy, neighborhood councils with binding power. Challenging the representative model in favor of permanent citizen governance."
+          },
+          "security": {
+            "1": "Security through deterrence, repression, and visible force. Cameras, zero tolerance, reinforced municipal police. Punitive approach to antisocial behavior.",
+            "2": "Classic law enforcement, reactive rather than proactive. Police respond to reports. Neither strongly punitive nor strongly preventive.",
+            "3": "Community-based policing rooted in the territory. Agents known to residents. De-escalation and mediation as priority tools. Building trust between institutions and communities.",
+            "4": "Security is rooted in social prevention. Addresses root causes of crime: inequality, school dropout, addiction. Community initiatives alongside — or instead of — police. Inspired by evidence-based criminology."
+          },
+          "ecology": {
+            "1": "Environmental protection compatible with continued economic growth. Clean technologies, green infrastructure, carbon markets. The growth paradigm is not challenged.",
+            "2": "Acceleration of energy and ecological transition while maintaining economic dynamism. Strong investments in renewable energy, public transport, and thermal renovation — within the existing economic model.",
+            "3": "Challenging the productivist economic model. Binding ecological planning with quantified objectives. Assumed incompatibility between unlimited growth and environmental preservation.",
+            "4": "Voluntary and organized reduction of production and consumption in wealthy societies. Post-growth economy centered on well-being, sobriety, and planetary limits."
+          }
         }
       }
     }

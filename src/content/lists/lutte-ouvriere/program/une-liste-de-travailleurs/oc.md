@@ -3,6 +3,12 @@ title: "Una lista de trabalhadors per cambiar la societat"
 slug: "lista-trabalhadors-cambiar-societat"
 tags: ["démocratie", "émancipation et justice sociale"]
 lang: "oc"
+positioning:
+  economy: 4
+  societal: null
+  governance: 4
+  security: null
+  ecology: null
 ---
 
 La lista Lutte Ouvrière a Montpelhièr es compausada exclusivament de trabalhadors, caumaires e retirats del mond del trabalh.

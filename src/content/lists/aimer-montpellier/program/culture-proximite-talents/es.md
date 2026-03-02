@@ -3,6 +3,12 @@ title: "La cultura como vector de emancipación para todos"
 slug: "cultura-vector-emancipacion"
 tags: ["culture"]
 lang: "es"
+positioning:
+  economy: null
+  societal: 3
+  governance: null
+  security: null
+  ecology: null
 ---
 
 Isabelle Perrein propone sacar la cultura de las instituciones para llevarla a todos los barrios y fomentar la expresión de todos los talentos de Montpellier.

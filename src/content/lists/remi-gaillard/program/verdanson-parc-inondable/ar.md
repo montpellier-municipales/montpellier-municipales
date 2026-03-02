@@ -4,6 +4,12 @@ slug: "verdanson-floodable-park-ar"
 tags: ["environnement", "changement climatique", "culture"]
 lang: "ar"
 dir: "rtl"
+positioning:
+  economy: null
+  societal: null
+  governance: null
+  security: null
+  ecology: 4
 ---
 
 يقترح ريمي غايار تحويل قناة فيردانسون إلى منتزه مقاوم للفيضانات ومتحف للفنون الشارعية في الهواء الطلق.

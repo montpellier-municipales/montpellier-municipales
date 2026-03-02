@@ -6,10 +6,17 @@
     "themes": "Temas",
     "remove": "Eliminar",
     "noProgramForTheme": "Sin propuesta sobre este tema",
+    "selectLists": "Listas seleccionadas para la comparación",
+    "positioningSection": "Síntesis de los Ejes de Posicionamiento",
+    "positioningSectionDesc": "Visualización del posicionamiento relativo de las listas sobre los grandes temas municipales.",
+    "programSection": "Comparar los programas",
+    "allTags": "Todos",
+    "noMeasuresForTag": "Sin medida sobre este tema",
     "metaDescription": "Compare los programas de los candidatos a las elecciones municipales de Montpellier 2026.",
     "positioning": {
       "title": "Brújula Ideológica 2026",
       "description": "Visualice el posicionamiento de las listas sobre los grandes temas de las elecciones municipales de Montpellier.",
+      "microText": "Los ejes van de los enfoques conservadores (izquierda) hacia los enfoques progresistas (derecha).",
       "xAxis": "Eje horizontal (X)",
       "yAxis": "Eje vertical (Y)",
       "dimensions": {
@@ -50,6 +57,49 @@
           "2": "Transición",
           "3": "Transición Radical",
           "4": "Ruptura / Decrecimiento"
+        }
+      },
+      "valuePages": {
+        "measuresHeading": "Medidas que corresponden a este posicionamiento",
+        "noMeasures": "Ninguna medida corresponde a este posicionamiento en nuestro comparador.",
+        "otherValues": "Otras posiciones en este eje",
+        "excludedNote": "Las candidaturas reaccionarias se sitúan fuera del espectro republicano. Este comparador no incluye ningún candidato con este posicionamiento.",
+        "safetyArticleLabel": "Leer nuestro análisis sobre la eficacia de las políticas de seguridad",
+        "safetyArticleHref": "/info/surete-publique-montpellier-efficacite-vs-affichage",
+        "backToCompass": "← Volver a la Brújula Ideológica",
+        "candidateMeasure": "Medida de",
+        "descriptions": {
+          "economy": {
+            "1": "Prioridad a los mecanismos de mercado, la libre competencia y la desregulación. La acción municipal se limita a facilitar la inversión privada. Los servicios públicos desempeñan un papel secundario frente a la iniciativa privada.",
+            "2": "El mercado sigue siendo el marco de referencia, pero las redes de seguridad, la redistribución y la regulación corrigen sus excesos. La acción municipal complementa el mercado sin cuestionarlo estructuralmente.",
+            "3": "La justicia social y la transición ecológica son inseparables. Crítica del productivismo y del crecimiento a cualquier precio. Prioridad a las economías locales y solidarias, la economía circular y la reducción de las desigualdades en la transición.",
+            "4": "Propiedad pública municipal, comunes, cooperativas y democracia económica local. La ciudad se convierte en palanca de transformación hacia mayor equidad y autodeterminación colectiva, cuestionando la propiedad privada de los servicios esenciales."
+          },
+          "societal": {
+            "1": "Retorno a un orden social anterior, restricción de las libertades civiles y los derechos de las minorías. Este posicionamiento se sitúa fuera del espectro republicano y no está representado en este comparador.",
+            "2": "Apego a las estructuras sociales tradicionales y la autoridad. Desconfianza hacia los cambios sociales rápidos. El orden social se percibe como el primer garante de la cohesión.",
+            "3": "Apoyo a los derechos individuales, la diversidad y la igualdad LGBTQ+ en el marco económico existente. Políticas antidiscriminatorias sin cuestionar el modelo liberal.",
+            "4": "Transformación estructural de las jerarquías sociales. Enfoque interseccional que articula feminismo, antirracismo y justicia social. Crítica de las formas sistémicas de dominación.",
+            "5": "Extensión de la consideración moral a todos los seres sensibles más allá de lo humano. Crítica del especismo como forma de dominación. Promoción de los derechos animales y el veganismo como elección política."
+          },
+          "governance": {
+            "1": "Decisiones concentradas en manos del ejecutivo. Consulta ciudadana limitada. Estilo de liderazgo tecnocrático o carismático. La eficiencia pasa por el mando jerárquico.",
+            "2": "Democracia liberal clásica: los ciudadanos eligen representantes que gobiernan en su nombre. La participación se limita principalmente al voto.",
+            "3": "La democracia se ejerce entre elecciones. Asambleas ciudadanas, presupuestos participativos, procesos deliberativos. Los vecinos son consultados e implicados en decisiones específicas.",
+            "4": "Visión democrática radical. Comunes autogestionados, democracia directa, consejos de barrio con poder vinculante. Cuestionamiento del modelo representativo en favor de una gobernanza ciudadana permanente."
+          },
+          "security": {
+            "1": "La seguridad por disuasión, represión y visibilidad de la fuerza. Cámaras, tolerancia cero, policía municipal reforzada. Enfoque punitivo frente a los comportamientos antisociales.",
+            "2": "Mantenimiento del orden clásico, reactivo más que proactivo. La policía interviene a petición. Ni fuertemente punitivo ni fuertemente preventivo.",
+            "3": "Policía de proximidad arraigada en el territorio. Agentes conocidos por los vecinos. Desescalada y mediación como herramientas prioritarias. Construcción de confianza entre instituciones y comunidades.",
+            "4": "La seguridad se arraiga en la prevención social. Aborda las causas profundas de la delincuencia: desigualdades, abandono escolar, adicciones. Iniciativas comunitarias junto a — o en lugar de — la policía. Inspirado por la criminología basada en evidencias."
+          },
+          "ecology": {
+            "1": "Protección medioambiental compatible con la continuación del crecimiento económico. Tecnologías limpias, infraestructuras verdes, mercados de carbono. El paradigma del crecimiento no es cuestionado.",
+            "2": "Aceleración de la transición energética y ecológica manteniendo el dinamismo económico. Fuertes inversiones en energías renovables, transporte público y renovación térmica — dentro del modelo económico existente.",
+            "3": "Cuestionamiento del modelo económico productivista. Planificación ecológica vinculante con objetivos cuantificados. Incompatibilidad asumida entre crecimiento ilimitado y preservación del medio ambiente.",
+            "4": "Reducción voluntaria y organizada de la producción y el consumo en las sociedades ricas. Economía post-crecimiento centrada en el bienestar, la sobriedad y los límites planetarios."
+          }
         }
       }
     }

@@ -3,6 +3,12 @@ title: "Entrepreneurial Excellence and Local Employment"
 slug: "entrepreneurial-excellence-local-employment"
 tags: ["émancipation et justice sociale"]
 lang: "en"
+positioning:
+  economy: 2
+  societal: null
+  governance: null
+  security: null
+  ecology: null
 ---
 
 Isabelle Perrein proposes to boost social mobility in Montpellier by making the city the preferred partner for businesses to create accessible jobs.

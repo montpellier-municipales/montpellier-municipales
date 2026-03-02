@@ -3,6 +3,12 @@ title: "A Workers' List to Change Society"
 slug: "workers-list-change-society"
 tags: ["démocratie", "émancipation et justice sociale"]
 lang: "en"
+positioning:
+  economy: 4
+  societal: null
+  governance: 4
+  security: null
+  ecology: null
 ---
 
 The Lutte Ouvrière list in Montpellier is composed exclusively of workers, unemployed, and retirees from the working world, refusing career politicians.

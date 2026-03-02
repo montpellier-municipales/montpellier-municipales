@@ -3,6 +3,12 @@ title: "Hacer la ciudad accesible: prioridad para las PMR y los peatones"
 slug: "hacer-ciudad-accesible-pmr"
 tags: ["transport et mobilités"]
 lang: "es"
+positioning:
+  economy: null
+  societal: 3
+  governance: null
+  security: null
+  ecology: null
 ---
 
 Isabelle Perrein se propone acabar con el abandono de los peatones y las personas con movilidad reducida (PMR) en las políticas de transporte urbano.

@@ -3,6 +3,12 @@ title: "Intelligent Traffic Management with AI"
 slug: "intelligent-traffic-ai"
 tags: ["transport et mobilités", "environnement", "changement climatique"]
 lang: "en"
+positioning:
+  economy: null
+  societal: null
+  governance: null
+  security: null
+  ecology: 2
 ---
 
 Rémi Gaillard proposes using artificial intelligence to fluidify traffic in Montpellier by making traffic lights intelligent.

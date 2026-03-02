@@ -4,6 +4,12 @@ slug: "rejecting-march-to-war-ar"
 tags: ["démocratie", "enfance et éducation"]
 lang: "ar"
 dir: "rtl"
+positioning:
+  economy: null
+  societal: 3
+  governance: 3
+  security: 4
+  ecology: null
 ---
 
 تندد مورغان لاشيفير وقائمة "النضال العمالي" (Lutte Ouvrière) بزيادة الميزانيات العسكرية والقبضة المتزايدة للجيش على المجتمع، بما في ذلك على المستوى المحلي.

@@ -4,6 +4,12 @@ slug: "reinforced-local-police-ar"
 tags: ["sécurité"]
 lang: "ar"
 dir: "rtl"
+positioning:
+  economy: null
+  societal: null
+  governance: 2
+  security: 2
+  ecology: null
 ---
 
 تقترح إيزابيل بيران تحويل الشرطة البلدية إلى أداة حقيقية للأمن المحلي والدائم في جميع أحياء مونبلييه.

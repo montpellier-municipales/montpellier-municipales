@@ -3,6 +3,12 @@ title: "Lo Stade-Parc Louis Nicollin : un luòc de vida 365 jorns per an"
 slug: "stade-parc-louis-nicollin"
 tags: ["sport", "culture", "environnement", "changement climatique", "transport et mobilités"]
 lang: "oc"
+positioning:
+  economy: 2
+  societal: null
+  governance: null
+  security: null
+  ecology: 2
 ---
 
 Rémi Gaillard prepausa la creacion del **Stade-Parc Louis Nicollin**, un equipament multi-foncional unic en França, concebut per èsser un vertadièr luòc de vida quotidiana integrant espòrt, cultura e natura.

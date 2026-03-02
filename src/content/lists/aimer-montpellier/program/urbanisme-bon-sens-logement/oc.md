@@ -3,6 +3,12 @@ title: "Un urbanisme de bon sens e d'alòtjaments accessibles"
 slug: "urbanisme-bon-sens-alotjaments"
 tags: ["environnement", "logement"]
 lang: "oc"
+positioning:
+  economy: 2
+  societal: null
+  governance: null
+  security: null
+  ecology: 2
 ---
 
 Isabelle Perrein prepausa de tornar bastir la vila sus ela-meteissa per crear de quartièrs de patz e verds en assegurant de prètz abordables.

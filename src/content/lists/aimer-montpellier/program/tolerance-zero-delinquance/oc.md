@@ -3,6 +3,12 @@ title: "Toluerància zèro per la delinquéncia"
 slug: "toluerancia-zero-delinquencia"
 tags: ["sécurité"]
 lang: "oc"
+positioning:
+  economy: null
+  societal: 1
+  governance: 1
+  security: 1
+  ecology: null
 ---
 
 Inspirada per la teoria de la « veire bresada », Isabelle Perrein prepausa una politica de fermetat absoluta per restablir l'òrdre dins totes los quartièrs de Montpelhièr.

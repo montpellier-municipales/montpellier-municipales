@@ -4,6 +4,12 @@ slug: "common-sense-urbanism-ar"
 tags: ["environnement", "logement"]
 lang: "ar"
 dir: "rtl"
+positioning:
+  economy: 2
+  societal: null
+  governance: null
+  security: null
+  ecology: 2
 ---
 
 تقترح إيزابيل بيران إعادة بناء المدينة على نفسها لإنشاء أحياء خضراء وهادئة مع ضمان أسعار معقولة.

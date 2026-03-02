@@ -1,0 +1,20 @@
+---
+title: "Pour une ville féministe, antiraciste et internationaliste"
+slug: "feminisme-antiracisme-internationalisme"
+tags: ["sécurité", "émancipation et justice sociale"]
+lang: "fr"
+positioning:
+  economy: null
+  societal: 5
+  governance: null
+  security: 4
+  ecology: null
+---
+
+Révolution Permanente défend une ville qui rompt avec les violences policières, garantit les droits des femmes et exprime sa solidarité avec les peuples opprimés à travers le monde.
+
+### Les axes forts :
+
+- **Non aux violences policières** : désarmement de la police municipale, expulsion de la BAC, des CRS et de la police des transports des quartiers populaires.
+- **Le droit des femmes à disposer de leur corps** : « trop couverts ou pas assez, c'est aux femmes de décider » — défense du droit à l'avortement et lutte contre toutes les formes de contrôle des corps.
+- **Solidarité internationale** : soutien au peuple palestinien, au peuple kurde et à tous les peuples opprimés ; fin du jumelage entre Montpellier et les villes israéliennes ; fin de la répression contre les militant·es pro-palestinien·nes.

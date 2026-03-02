@@ -3,6 +3,12 @@ title: "Piscina de natación natural en el Lez"
 slug: "piscina-natural-lez"
 tags: ["gestion de l'eau", "environnement", "sport", "santé"]
 lang: "es"
+positioning:
+  economy: null
+  societal: null
+  governance: 3
+  security: null
+  ecology: 3
 ---
 
 Rémi Gaillard propone la instalación de piscinas naturales flotantes en el río Lez, accesibles a los residentes en verano.

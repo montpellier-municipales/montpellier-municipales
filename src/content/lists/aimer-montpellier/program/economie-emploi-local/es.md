@@ -3,6 +3,12 @@ title: "Excelencia empresarial y empleo local"
 slug: "excelencia-empresarial-empleo"
 tags: ["émancipation et justice sociale"]
 lang: "es"
+positioning:
+  economy: 2
+  societal: null
+  governance: null
+  security: null
+  ecology: null
 ---
 
 Isabelle Perrein propone impulsar la movilidad social en Montpellier haciendo de la alcaldía el socio preferente de las empresas para crear empleos accesibles.

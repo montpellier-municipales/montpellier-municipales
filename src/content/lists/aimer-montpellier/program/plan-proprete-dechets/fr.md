@@ -3,6 +3,12 @@ title: "Un plan propreté et une gestion des déchets efficace"
 slug: "plan-proprete-dechets"
 tags: ["déchets", "environnement", "changement climatique"]
 lang: "fr"
+positioning:
+  economy: null
+  societal: null
+  governance: null
+  security: null
+  ecology: 2
 ---
 
 Isabelle Perrein veut faire de Montpellier un modèle de propreté et d'économie circulaire en mettant fin à l'insalubrité actuelle.

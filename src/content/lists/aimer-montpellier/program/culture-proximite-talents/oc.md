@@ -3,6 +3,12 @@ title: "La Cultura coma vector d'emancipacion per totes"
 slug: "cultura-vector-emancipacion-oc"
 tags: ["culture"]
 lang: "oc"
+positioning:
+  economy: null
+  societal: 3
+  governance: null
+  security: null
+  ecology: null
 ---
 
 Isabelle Perrein prepausa de sortir la cultura de las institucions per la menar dins totes los quartièrs e favorizar l'expression de totes los talents montpelhierencs.

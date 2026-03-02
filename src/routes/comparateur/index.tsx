@@ -4,54 +4,61 @@ import {
   useTask$,
   $,
   useComputed$,
+  type JSXOutput,
 } from "@builder.io/qwik";
+import { isServer } from "@builder.io/qwik";
 import {
   routeLoader$,
   useLocation,
   useNavigate,
+  Link,
   type DocumentHead,
-  StaticGenerateHandler,
+  type StaticGenerateHandler,
 } from "@builder.io/qwik-city";
 import { getAllLists, getListsByIds } from "~/services/lists";
-import { Select } from "@qwik-ui/headless";
+import { getCandidateProgram } from "~/services/program";
+import { Tooltip } from "@qwik-ui/headless";
+import { OrdinalAxisPlot } from "~/components/OrdinalAxisPlot/OrdinalAxisPlot";
 import * as styles from "./comparator.css";
-import { Candidate, Language } from "~/types/schema";
-import { LuChevronDown } from "@qwikest/icons/lucide";
-import { vars } from "~/theme.css";
-import { inlineTranslate } from "qwik-speak";
-import themesData from "~/content/themes.json";
-
-// Simuler les thèmes (nous les avons déjà dans src/content/themes.json, mais pour l'exemple)
-interface Theme {
-  id: string;
-  label: Record<string, string>; // { fr: "Transports", en: "Transport" }
-  icon: string;
-  authority: {
-    metropolitan: boolean;
-    municipal: boolean;
-  };
-  tags: string[];
-}
-
-// Les thèmes devraient être chargés depuis src/content/themes.json
-const allThemes: Theme[] = themesData as unknown as Theme[];
+import { inlineTranslate, useSpeak } from "qwik-speak";
+import { LuCircle, LuCheckCircle } from "@qwikest/icons/lucide";
 
 export const useComparatorData = routeLoader$(async ({ url, locale }) => {
-  const allAvailableLists = await getAllLists(); // Pour le sélecteur
+  const lang = locale();
+  const allAvailableLists = await getAllLists();
 
   const selectedIdsParam = url.searchParams.get("listes");
-  let selectedLists: Candidate[] = [];
+  let selectedLists: Array<{
+    id: string;
+    name: string;
+    headOfList: string;
+    logoUrl: string;
+    candidatePictureUrl: string;
+    positioning: {
+      economy: number;
+      societal: number;
+      governance: number;
+      security: number;
+      ecology: number;
+    };
+    measures: Awaited<ReturnType<typeof getCandidateProgram>>;
+  }> = [];
+
   if (selectedIdsParam) {
     const ids = selectedIdsParam.split(",").filter(Boolean);
-    selectedLists = await getListsByIds(ids);
+    const lists = await getListsByIds(ids);
+    selectedLists = await Promise.all(
+      lists.map(async (list) => ({
+        id: list.id,
+        name: list.name,
+        headOfList: list.headOfList,
+        logoUrl: list.logoUrl,
+        candidatePictureUrl: list.candidatePictureUrl,
+        positioning: list.positioning,
+        measures: await getCandidateProgram(list.id, lang),
+      })),
+    );
   }
-
-  // Mapper les thèmes avec les labels pour la langue courante
-  const currentLang = locale(); // La locale actuelle
-  const themes = allThemes.map((theme) => ({
-    ...theme,
-    currentLabel: theme.label[currentLang] || theme.label["fr"],
-  }));
 
   return {
     allAvailableLists: allAvailableLists.map((l) => ({
@@ -61,155 +68,236 @@ export const useComparatorData = routeLoader$(async ({ url, locale }) => {
       logoUrl: l.logoUrl,
     })),
     selectedLists,
-    themes,
   };
 });
 
+const dimensions = [
+  { id: "economy", max: 4 },
+  { id: "societal", max: 5 },
+  { id: "governance", max: 4 },
+  { id: "security", max: 4 },
+  { id: "ecology", max: 4 },
+] as const;
+
 export default component$(() => {
+  useSpeak({ assets: ["comparator"] });
   const t = inlineTranslate();
   const data = useComparatorData();
   const loc = useLocation();
   const navigate = useNavigate();
-  const currentLang = (loc.params.lang as Language) ?? Language.fr; // Langue de l'URL
 
-  // Gère les IDs des listes sélectionnées pour l'URL
   const selectedListIds = useSignal<string[]>(
-    data.value.selectedLists.map((l) => l.id)
+    data.value.selectedLists.map((l) => l.id),
   );
 
-  // Met à jour l'URL lorsque la sélection change
+  const activeTag = useSignal<string | null>(null);
+
+  // Sync URL when selection changes
   useTask$(({ track }) => {
     track(() => selectedListIds.value);
+    if (isServer) return;
     const newSearchParams = new URLSearchParams();
     if (selectedListIds.value.length > 0) {
       newSearchParams.set("listes", selectedListIds.value.join(","));
     }
-    // navigate pour changer l'URL sans recharger la page
     navigate(`${loc.url.pathname}?${newSearchParams.toString()}`);
   });
 
-  // Pour le sélecteur, on veut la liste de TOUS les IDs (y compris ceux non sélectionnés)
-  const allListOptions = data.value.allAvailableLists.map((list) => ({
-    value: list.id,
-    label: `${list.name} (${list.headOfList})`,
-  }));
-
-  // Filtrer les listes déjà sélectionnées du menu déroulant
-  const availableOptions = useComputed$(() => {
-    return allListOptions.filter(
-      (option) => !selectedListIds.value.includes(option.value)
-    );
-  });
-
-  const handleAddList = $(async (newValue: string) => {
-    if (newValue && !selectedListIds.value.includes(newValue)) {
-      selectedListIds.value = [...selectedListIds.value, newValue];
+  const toggleList = $((id: string) => {
+    if (selectedListIds.value.includes(id)) {
+      selectedListIds.value = selectedListIds.value.filter((i) => i !== id);
+    } else {
+      selectedListIds.value = [...selectedListIds.value, id];
     }
   });
 
-  const handleRemoveList = $((idToRemove: string) => {
-    selectedListIds.value = selectedListIds.value.filter(
-      (id) => id !== idToRemove
+  const allTags = useComputed$(() => {
+    const tags = data.value.selectedLists.flatMap((l) =>
+      l.measures.flatMap((m) => m.tags || []),
     );
+    return [...new Set(tags)].sort();
   });
 
   return (
     <div class={styles.container}>
-      <h1 class={styles.title}>{t("app.menu.comparator")}</h1>
+      <h1 class={styles.pageTitle}>{t("app.menu.compareProgrammes")}</h1>
 
-      <div class={styles.selectorContainer}>
-        <label class={styles.selectorLabel}>{t("comparator.addList")}</label>
-        <Select.Root bind:value={selectedListIds} onChange$={handleAddList}>
-          {" "}
-          {/* Bind au tableau pour simuler un multi-select simplifié */}
-          <Select.Trigger class={styles.select}>
-            <Select.DisplayValue
-              placeholder={t("comparator.selectListPlaceholder")}
-            />
-            <LuChevronDown />
-          </Select.Trigger>
-          <Select.Popover>
-            {availableOptions.value.map((option) => (
-              <Select.Item key={option.value} value={option.value}>
-                <Select.ItemLabel>{option.label}</Select.ItemLabel>
-              </Select.Item>
-            ))}
-          </Select.Popover>
-        </Select.Root>
-      </div>
+      {/* List selection chips */}
+      <section class={styles.sectionCard}>
+        <h2 class={styles.sectionTitle}>{t("comparator.selectLists")}</h2>
+        <div class={styles.chips}>
+          {data.value.allAvailableLists.map((list) => {
+            const isSelected = selectedListIds.value.includes(list.id);
+            return (
+              <button
+                key={list.id}
+                class={isSelected ? styles.chipActive : styles.chip}
+                onClick$={() => toggleList(list.id)}
+              >
+                {isSelected ? <LuCheckCircle /> : <LuCircle />}
+                {list.name}
+              </button>
+            );
+          })}
+        </div>
+      </section>
 
       {data.value.selectedLists.length === 0 && (
-        <p style={{ textAlign: "center", color: vars.color.textMuted }}>
-          {t("comparator.noListSelected")}
-        </p>
+        <p class={styles.emptyState}>{t("comparator.noListSelected")}</p>
       )}
 
       {data.value.selectedLists.length > 0 && (
-        <div
-          class={styles.comparatorGrid}
-          style={{
-            gridTemplateColumns: `1fr repeat(${data.value.selectedLists.length}, 1fr)`,
-          }}
-        >
-          {/* Colonne des thèmes */}
-          <div style={{ padding: "1rem", fontWeight: "bold" }}>
-            {t("comparator.themes")}
-          </div>
+        <>
+          {/* Section 1: Positioning */}
+          <section class={styles.sectionCard}>
+            <h2 class={styles.sectionTitle}>
+              {t("comparator.positioningSection")}
+            </h2>
+            <p class={styles.sectionDesc}>
+              {t("comparator.positioningSectionDesc")}
+            </p>
+            <div class={styles.axesStack}>
+              {dimensions.map((dim) => {
+                const items = data.value.selectedLists.map((c) => ({
+                  id: c.id,
+                  value: t(
+                    `comparator.positioning.labels.${dim.id}.${c.positioning[dim.id as keyof typeof c.positioning]}`,
+                  ),
+                  render$: $(
+                    (): JSXOutput => (
+                      <Tooltip.Root gutter={4} flip>
+                        <Tooltip.Trigger class={styles.candidateLogoTrigger}>
+                          <img
+                            src={c.candidatePictureUrl}
+                            alt={c.name}
+                            class={styles.plotCandidateLogo}
+                            width={48}
+                            height={48}
+                          />
+                        </Tooltip.Trigger>
+                        <Tooltip.Panel
+                          class={styles.candidateTooltip}
+                          aria-label="Tooltip content"
+                        >
+                          {c.name} · {c.headOfList}
+                        </Tooltip.Panel>
+                      </Tooltip.Root>
+                    ),
+                  ),
+                }));
 
-          {/* En-têtes des listes sélectionnées */}
-          {data.value.selectedLists.map((list) => (
-            <div key={list.id} class={styles.listColumnHeader}>
-              <img
-                src={list.logoUrl}
-                alt={`Logo ${list.name}`}
-                class={styles.listLogo}
-                width={60}
-                height={60}
-              />
-              <span>{list.name}</span>
-              <button
-                onClick$={() => handleRemoveList(list.id)}
-                style={{
-                  background: "none",
-                  border: "none",
-                  color: vars.color.primaryText,
-                  cursor: "pointer",
-                  fontSize: "0.8rem",
-                }}
-              >
-                ({t("comparator.remove")})
-              </button>
-            </div>
-          ))}
-
-          {/* Comparaison des programmes par thème */}
-          {data.value.themes.map((theme) => (
-            <>
-              {/* Nom du thème */}
-              <div class={styles.themeColumn} style={{ gridColumn: "1 / 2" }}>
-                {theme.currentLabel}
-              </div>
-
-              {/* Programmes pour ce thème */}
-              {data.value.selectedLists.map((list) => {
-                const programPoint = list.program.find(
-                  (p) => p.themeId === theme.id
-                );
                 return (
-                  <div
-                    key={`${list.id}-${theme.id}`}
-                    class={styles.programItem}
-                  >
-                    {programPoint
-                      ? programPoint.summary[currentLang] ||
-                        programPoint.summary["fr"]
-                      : t("comparator.noProgramForTheme")}
+                  <div key={dim.id} class={styles.dimensionGroup}>
+                    <h2 class={styles.dimensionTitle}>
+                      <span>
+                        {t(`comparator.positioning.dimensions.${dim.id}`)}
+                      </span>
+                    </h2>
+                    <div class={styles.axisWrapper}>
+                      <OrdinalAxisPlot
+                        axis={Array.from({ length: dim.max }).map((_, i) =>
+                          t(`comparator.positioning.labels.${dim.id}.${i + 1}`),
+                        )}
+                        items={items}
+                      />
+                    </div>
                   </div>
                 );
               })}
-            </>
-          ))}
-        </div>
+            </div>
+          </section>
+
+          {/* Section 2: Program comparison */}
+          <section class={styles.sectionCard}>
+            <h2 class={styles.sectionTitle}>
+              {t("comparator.programSection")}
+            </h2>
+
+            {/* Sticky tag filter */}
+            <div class={styles.tagFilterRow}>
+              <button
+                class={
+                  activeTag.value === null
+                    ? styles.tagPillActive
+                    : styles.tagPill
+                }
+                onClick$={() => {
+                  activeTag.value = null;
+                }}
+              >
+                {t("comparator.allTags")}
+              </button>
+              {allTags.value.map((tag) => (
+                <button
+                  key={tag}
+                  class={
+                    activeTag.value === tag
+                      ? styles.tagPillActive
+                      : styles.tagPill
+                  }
+                  onClick$={() => {
+                    activeTag.value = tag;
+                  }}
+                >
+                  {tag}
+                </button>
+              ))}
+            </div>
+
+            {/* N-column comparison grid */}
+            <div
+              class={styles.comparisonGrid}
+              style={{
+                gridTemplateColumns: `repeat(${data.value.selectedLists.length}, 1fr)`,
+              }}
+            >
+              {data.value.selectedLists.map((list) => {
+                const filtered = list.measures.filter(
+                  (m) =>
+                    activeTag.value === null ||
+                    (m.tags || []).includes(activeTag.value!),
+                );
+                return (
+                  <div key={list.id} class={styles.candidateColumn}>
+                    <div class={styles.candidateHeader}>
+                      <img
+                        src={list.logoUrl}
+                        alt={`Logo ${list.name}`}
+                        class={styles.candidateLogo}
+                        width={40}
+                        height={40}
+                      />
+                      <span>{list.name}</span>
+                    </div>
+                    {filtered.map((measure) => (
+                      <article key={measure.id} class={styles.measureCard}>
+                        <div class={styles.measureTags}>
+                          {(measure.tags || []).map((tag) => (
+                            <span key={tag} class={styles.tagBadge}>
+                              {tag}
+                            </span>
+                          ))}
+                        </div>
+                        <h3 class={styles.measureTitle}>{measure.title}</h3>
+                        <Link
+                          href={`/listes/${list.id}/programme/${measure.slug}/`}
+                          class={styles.measureLink}
+                        >
+                          Lire →
+                        </Link>
+                      </article>
+                    ))}
+                    {filtered.length === 0 && (
+                      <p class={styles.noMeasurePlaceholder}>
+                        {t("comparator.noMeasuresForTag")}
+                      </p>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </section>
+        </>
       )}
     </div>
   );
@@ -218,7 +306,7 @@ export default component$(() => {
 export const head: DocumentHead = () => {
   const t = inlineTranslate();
   return {
-    title: t("app.menu.comparator"),
+    title: t("app.menu.compareProgrammes"),
     meta: [
       {
         name: "description",
@@ -228,9 +316,9 @@ export const head: DocumentHead = () => {
   };
 };
 
-// SSG : Génération statique (la page vide par défaut)
+// SSG: generate the empty default page
 export const onStaticGenerate: StaticGenerateHandler = async () => {
   return {
-    params: [{}], // Génère une seule page /comparateur (vide) pour chaque langue
+    params: [{}],
   };
 };

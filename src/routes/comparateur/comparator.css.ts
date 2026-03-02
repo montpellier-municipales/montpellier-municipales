@@ -1,104 +1,280 @@
-import { style } from '@vanilla-extract/css';
-import { vars } from '~/theme.css';
+import { style, globalStyle } from "@vanilla-extract/css";
+import { vars } from "~/theme.css";
+import { plot } from "~/components/OrdinalAxisPlot/OrdinalAxisPlot.css";
 
 export const container = style({
-  maxWidth: vars.layout.maxWidth,
-  margin: '0 auto',
-  padding: '2rem',
-  fontFamily: vars.font.body,
+  maxWidth: "960px",
+  margin: "0 auto",
+  padding: "2rem 1rem",
+  display: "flex",
+  flexDirection: "column",
+  gap: "3rem",
 });
 
-export const title = style({
-  fontSize: '2.5rem',
-  fontWeight: 'bold',
-  color: vars.color.text,
-  textAlign: 'center',
-  marginBottom: '2rem',
+export const pageTitle = style({
+  fontSize: "2rem",
+  fontWeight: "800",
+  color: vars.color.title,
+  textAlign: "center",
+  letterSpacing: "-0.02em",
 });
 
-export const selectorContainer = style({
-  marginBottom: '3rem',
-  padding: '1.5rem',
+export const sectionCard = style({
   backgroundColor: vars.color.surface,
-  borderRadius: '8px',
-  boxShadow: vars.shadow.sm,
-});
-
-export const selectorLabel = style({
-  display: 'block',
-  fontSize: '1.1rem',
-  fontWeight: 500,
-  marginBottom: '0.8rem',
-  color: vars.color.text,
-});
-
-export const select = style({
-  width: '100%',
-  padding: '0.75rem',
   border: `1px solid ${vars.color.border}`,
-  borderRadius: '4px',
-  backgroundColor: vars.color.background,
+  borderRadius: "1rem",
+  padding: "2rem",
+  boxShadow: vars.shadow.md,
+  display: "flex",
+  flexDirection: "column",
+  gap: "1.5rem",
+});
+
+export const sectionTitle = style({
+  fontSize: "1.25rem",
+  fontWeight: "700",
+  color: vars.color.title,
+  margin: 0,
+});
+
+export const sectionDesc = style({
+  fontSize: "0.9rem",
+  color: vars.color.textMuted,
+  margin: 0,
+});
+
+export const chips = style({
+  display: "flex",
+  flexWrap: "wrap",
+  gap: "0.5rem",
+});
+
+export const chip = style({
+  display: "flex",
+  alignItems: "center",
+  gap: "0.375rem",
+  padding: "0.5rem 1rem",
+  border: `1px solid ${vars.color.border}`,
+  borderRadius: "9999px",
+  backgroundColor: "transparent",
   color: vars.color.text,
-  fontSize: '1rem',
-  ':focus': {
+  cursor: "pointer",
+  fontSize: "0.875rem",
+  fontFamily: vars.font.body,
+  ":hover": {
     borderColor: vars.color.primary,
-    outline: 'none',
+    color: vars.color.primary,
   },
 });
 
-export const comparatorGrid = style({
-  display: 'grid',
-  gridTemplateColumns: '1fr repeat(auto-fit, minmax(250px, 1fr))', // Colonne thème + colonnes listes
-  gap: '1rem',
-  marginTop: '2rem',
-});
-
-export const themeColumn = style({
-  position: 'sticky',
-  top: 'calc(var(--header-height) + 1rem)', // Ajuster si header est sticky
-  alignSelf: 'start',
-  padding: '1rem',
-  backgroundColor: vars.color.surface,
-  borderRadius: '8px',
-  boxShadow: vars.shadow.sm,
-  zIndex: 10,
-  fontSize: '1.1rem',
-  fontWeight: 600,
+export const chipActive = style({
+  display: "flex",
+  alignItems: "center",
+  gap: "0.375rem",
+  padding: "0.5rem 1rem",
+  border: `2px solid ${vars.color.primary}`,
+  borderRadius: "9999px",
+  backgroundColor: vars.color.primaryTransparent,
   color: vars.color.primary,
+  cursor: "pointer",
+  fontSize: "0.875rem",
+  fontFamily: vars.font.body,
+  fontWeight: "600",
 });
 
-export const listColumnHeader = style({
-  padding: '1rem',
-  backgroundColor: vars.color.primary,
-  color: vars.color.primaryText,
-  borderRadius: '8px',
-  textAlign: 'center',
-  fontWeight: 'bold',
-  fontSize: '1.2rem',
-  display: 'flex',
-  flexDirection: 'column',
-  alignItems: 'center',
-  justifyContent: 'center',
+export const emptyState = style({
+  textAlign: "center",
+  color: vars.color.textMuted,
+  padding: "3rem",
+  border: `1px dashed ${vars.color.border}`,
+  borderRadius: "1rem",
 });
 
-export const listLogo = style({
-  width: '60px',
-  height: '60px',
-  borderRadius: '50%',
-  objectFit: 'contain',
-  marginBottom: '0.5rem',
-  backgroundColor: 'white',
+export const axesStack = style({
+  display: "flex",
+  flexDirection: "row",
+  flexWrap: "wrap",
+  gap: "2rem",
+  justifyContent: "center",
 });
 
-export const programItem = style({
-  padding: '1rem',
-  backgroundColor: vars.color.surface,
-  border: `1px solid ${vars.color.border}`,
-  borderRadius: '4px',
-  minHeight: '100px', // Pour aligner les boîtes
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-  textAlign: 'center',
+export const dimensionGroup = style({
+  display: "flex",
+  flexDirection: "column",
+  gap: "0.75rem",
+  flex: "1 1 250px",
+  minWidth: "220px",
+  maxWidth: "250px",
+});
+
+export const dimensionTitle = style({
+  fontSize: "0.875rem",
+  fontWeight: "700",
   color: vars.color.text,
+  textAlign: "center",
+  margin: 0,
+});
+
+export const axisWrapper = style({
+  position: "relative",
+});
+
+globalStyle(`${axisWrapper} .${plot}`, {
+  height: "280px",
+});
+
+export const tagFilterRow = style({
+  display: "flex",
+  flexWrap: "wrap",
+  gap: "0.5rem",
+  position: "sticky",
+  top: vars.layout.headerHeight,
+  backgroundColor: vars.color.surface,
+  paddingTop: "0.75rem",
+  paddingBottom: "0.75rem",
+  zIndex: 40,
+  borderBottom: `1px solid ${vars.color.border}`,
+  marginBottom: "0.5rem",
+});
+
+export const tagPill = style({
+  padding: "0.25rem 0.75rem",
+  border: `1px solid ${vars.color.border}`,
+  borderRadius: "9999px",
+  backgroundColor: "transparent",
+  color: vars.color.text,
+  cursor: "pointer",
+  fontSize: "0.8rem",
+  fontFamily: vars.font.body,
+  ":hover": {
+    borderColor: vars.color.primary,
+    color: vars.color.primary,
+  },
+});
+
+export const tagPillActive = style({
+  padding: "0.25rem 0.75rem",
+  border: `1px solid ${vars.color.primary}`,
+  borderRadius: "9999px",
+  backgroundColor: vars.color.primaryTransparent,
+  color: vars.color.primary,
+  cursor: "pointer",
+  fontSize: "0.8rem",
+  fontFamily: vars.font.body,
+  fontWeight: "600",
+});
+
+export const comparisonGrid = style({
+  display: "grid",
+  gap: "1rem",
+  alignItems: "start",
+});
+
+export const candidateColumn = style({
+  display: "flex",
+  flexDirection: "column",
+  gap: "1rem",
+});
+
+export const candidateHeader = style({
+  display: "flex",
+  alignItems: "center",
+  gap: "0.75rem",
+  position: "sticky",
+  top: `calc(${vars.layout.headerHeight} + 3.5rem)`,
+  backgroundColor: vars.color.surface,
+  borderBottom: `1px solid ${vars.color.border}`,
+  paddingTop: "0.5rem",
+  paddingBottom: "0.75rem",
+  zIndex: 20,
+  fontWeight: "600",
+  fontSize: "0.9rem",
+});
+
+export const candidateLogo = style({
+  width: "40px",
+  height: "40px",
+  borderRadius: "50%",
+  objectFit: "contain",
+  backgroundColor: vars.color.backgroundMuted,
+  flexShrink: 0,
+});
+
+export const measureCard = style({
+  border: `1px solid ${vars.color.border}`,
+  borderRadius: "0.75rem",
+  padding: "1rem",
+  display: "flex",
+  flexDirection: "column",
+  gap: "0.5rem",
+  ":hover": {
+    boxShadow: vars.shadow.md,
+  },
+});
+
+export const measureTitle = style({
+  fontSize: "0.9rem",
+  fontWeight: "600",
+  color: vars.color.title,
+  margin: 0,
+});
+
+export const measureTags = style({
+  display: "flex",
+  flexWrap: "wrap",
+  gap: "0.25rem",
+});
+
+export const tagBadge = style({
+  padding: "0.125rem 0.5rem",
+  borderRadius: "9999px",
+  backgroundColor: vars.color.backgroundMuted,
+  color: vars.color.textMuted,
+  fontSize: "0.7rem",
+  fontWeight: "500",
+});
+
+export const measureLink = style({
+  fontSize: "0.8rem",
+  color: vars.color.primary,
+  textDecoration: "none",
+  ":hover": {
+    textDecoration: "underline",
+  },
+});
+
+export const noMeasurePlaceholder = style({
+  color: vars.color.textMuted,
+  fontStyle: "italic",
+  fontSize: "0.875rem",
+  textAlign: "center",
+  padding: "2rem",
+  margin: 0,
+});
+
+export const candidateLogoTrigger = style({
+  background: "none",
+  border: "none",
+  padding: 0,
+  cursor: "pointer",
+  borderRadius: "50%",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
+});
+
+export const candidateTooltip = style({
+  backgroundColor: vars.color.surface,
+  color: vars.color.text,
+  padding: "0.5rem",
+  borderRadius: "6px",
+  fontSize: "0.75rem",
+  boxShadow: vars.shadow.md,
+});
+
+export const plotCandidateLogo = style({
+  width: "48px",
+  height: "48px",
+  borderRadius: "50%",
+  objectFit: "cover",
 });

@@ -3,6 +3,12 @@ title: "Traffic Reform and Restoration of Parking Rights"
 slug: "traffic-reform-parking-rights"
 tags: ["transport et mobilités"]
 lang: "en"
+positioning:
+  economy: null
+  societal: null
+  governance: null
+  security: null
+  ecology: 1
 ---
 
 Isabelle Perrein proposes to end a dogmatic vision of transport by reconciling all modes of travel to fluidify the city.

@@ -3,6 +3,12 @@ title: "Accions socialas e solidaritat: tornar metre l'uman al còr"
 slug: "accions-socialas-solidaritat"
 tags: ["solidarité", "émancipation et justice sociale"]
 lang: "oc"
+positioning:
+  economy: 3
+  societal: 3
+  governance: null
+  security: null
+  ecology: null
 ---
 
 Isabelle Perrein prepausa de solucions concrètas e transparentas per melhorar lo quotidiano dels Montpelhierencs mai vulnerables.

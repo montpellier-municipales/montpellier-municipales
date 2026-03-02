@@ -3,6 +3,12 @@ title: "Seguridad, Protección, Prevención: Una prioridad humana"
 slug: "seguridad-proteccion-prevencion"
 tags: ["sécurité", "solidarité", "Émancipation et justice sociale"]
 lang: "es"
+positioning:
+  economy: null
+  societal: 3
+  governance: 3
+  security: 3
+  ecology: null
 ---
 
 Rémi Gaillard propone un enfoque de seguridad basado en la presencia humana, la tecnología útil y la solidaridad concreta.

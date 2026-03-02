@@ -20,6 +20,8 @@ export const vars = createThemeContract({
 
     secondary: null,
     secondaryHover: null,
+
+    success: null,
   },
   font: {
     body: null,
@@ -72,6 +74,8 @@ export const lightTheme = createTheme(vars, {
 
     secondary: palette.yellow,
     secondaryHover: palette.yellowDarken, // Version plus sombre
+
+    success: "#10b981", // Vert pour succès
   },
   font: {
     body: '"Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif',
@@ -110,6 +114,8 @@ export const darkTheme = createTheme(vars, {
 
     secondary: palette.yellow,
     secondaryHover: palette.yellowDarken,
+
+    success: "#10b981", // Vert pour succès
   },
   font: {
     body: '"Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif',

@@ -3,6 +3,12 @@ title: "Montpellier: Capital of Culture through Actions"
 slug: "culture-through-actions"
 tags: ["culture", "enfance et éducation"]
 lang: "en"
+positioning:
+  economy: null
+  societal: 3
+  governance: null
+  security: null
+  ecology: null
 ---
 
 Rémi Gaillard proposes making Montpellier a "Capital of Culture through Actions," focusing on free artistic expression, child involvement, and heritage promotion.

@@ -3,6 +3,12 @@ title: "Making the City Accessible: Priority for PRM and Pedestrians"
 slug: "making-city-accessible-prm-pedestrians"
 tags: ["transport et mobilités"]
 lang: "en"
+positioning:
+  economy: null
+  societal: 3
+  governance: null
+  security: null
+  ecology: null
 ---
 
 Isabelle Perrein aims to end the neglect of pedestrians and persons with reduced mobility (PRM) in urban transport policies.

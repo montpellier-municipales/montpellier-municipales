@@ -3,6 +3,12 @@ title: "Rechazo de la marcha a la guerra"
 slug: "rechazo-guerra"
 tags: ["démocratie", "enfance et éducation"]
 lang: "es"
+positioning:
+  economy: null
+  societal: 3
+  governance: 3
+  security: 4
+  ecology: null
 ---
 
 Morgane Lachiver y Lutte Ouvrière denuncian el aumento de los presupuestos militares y el creciente control del ejército sobre la sociedad, incluido a nivel local.

@@ -3,6 +3,12 @@ title: "Salud, discapacidad y mayores: por una inclusión real"
 slug: "salud-discapacidad-mayores"
 tags: ["santé", "solidarité"]
 lang: "es"
+positioning:
+  economy: 3
+  societal: 4
+  governance: null
+  security: null
+  ecology: null
 ---
 
 Isabelle Perrein propone situar la vulnerabilidad humana en el centro de la acción municipal para garantizar la salud y la autonomía de todos.

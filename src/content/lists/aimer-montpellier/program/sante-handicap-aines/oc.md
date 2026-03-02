@@ -3,6 +3,12 @@ title: "Santat, andicap e personas d'edat: per una inclusion vertadièra"
 slug: "santat-andicap-aines-inclusion"
 tags: ["santé", "solidarité"]
 lang: "oc"
+positioning:
+  economy: 3
+  societal: 4
+  governance: null
+  security: null
+  ecology: null
 ---
 
 Isabelle Perrein prepausa de plaçar l'uman e la vulnerabilitat al centre de l'accion municipala per garantir la santat e l'autonomia per totes.

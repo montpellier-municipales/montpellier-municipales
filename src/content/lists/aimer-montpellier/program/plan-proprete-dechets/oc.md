@@ -3,6 +3,12 @@ title: "Plan propretat e una gestion dels degalhs eficaça"
 slug: "plan-propretat-gestion-degalhs"
 tags: ["déchets", "environnement", "changement climatique"]
 lang: "oc"
+positioning:
+  economy: null
+  societal: null
+  governance: null
+  security: null
+  ecology: 2
 ---
 
 Isabelle Perrein vòl far de Montpelhièr un modèl de propretat e d'economia circulara en acabant l'insalubritat actuala.

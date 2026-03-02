@@ -3,6 +3,12 @@ title: "Prioridad a la educación y a la primera infancia"
 slug: "prioridad-educacion-infancia"
 tags: ["enfance et éducation"]
 lang: "es"
+positioning:
+  economy: 3
+  societal: 3
+  governance: null
+  security: null
+  ecology: null
 ---
 
 Isabelle Perrein propone hacer de Montpellier una "Ciudad para Niños y Jóvenes," donde cada uno pueda crecer y aprender con seguridad.

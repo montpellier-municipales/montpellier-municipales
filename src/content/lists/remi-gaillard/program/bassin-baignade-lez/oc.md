@@ -3,6 +3,12 @@ title: "Bacin de banh natural sus Lez"
 slug: "banh-natural-lez"
 tags: ["gestion de l'eau", "environnement", "sport", "santé"]
 lang: "oc"
+positioning:
+  economy: null
+  societal: null
+  governance: 3
+  security: null
+  ecology: 3
 ---
 
 Rémi Gaillard prepausa l'installacion de bacins de banh natural flotants sus Lez, accessiblas als abitants pendent l'estiu.

@@ -3,6 +3,12 @@ title: "Far ausir la votz dels trabalhadors"
 slug: "votz-trabalhadors"
 tags: ["émancipation et justice sociale", "démocratie"]
 lang: "oc"
+positioning:
+  economy: 4
+  societal: null
+  governance: 4
+  security: null
+  ecology: null
 ---
 
 Morgane Lachiver e Lutte Ouvrière se presentan per portar la votz d'aqueles que fan virar la societat, mas que n'an jamai lo mot de dire.

@@ -4,6 +4,12 @@ slug: "cleanliness-waste-management-ar"
 tags: ["déchets", "environnement", "changement climatique"]
 lang: "ar"
 dir: "rtl"
+positioning:
+  economy: null
+  societal: null
+  governance: null
+  security: null
+  ecology: 2
 ---
 
 تهدف إيزابيل بيران إلى جعل مونبلييه نموذجاً للنظافة والاقتصاد الدائري من خلال إنهاء الظروف غير الصحية الحالية.

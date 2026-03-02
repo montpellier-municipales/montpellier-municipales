@@ -3,6 +3,12 @@ title: "Sport for All, Everywhere"
 slug: "sport-for-all-everywhere"
 tags: ["sport"]
 lang: "en"
+positioning:
+  economy: null
+  societal: 3
+  governance: null
+  security: null
+  ecology: null
 ---
 
 Isabelle Perrein sees sport as a factor for social cohesion, effort, and respect. She wants to make it a driver for Montpellier's visibility.

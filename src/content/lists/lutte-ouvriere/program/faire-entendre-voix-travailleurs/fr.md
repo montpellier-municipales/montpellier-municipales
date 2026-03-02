@@ -3,6 +3,12 @@ title: "Faire entendre la voix des travailleurs"
 slug: "faire-entendre-voix-travailleurs"
 tags: ["émancipation et justice sociale", "démocratie"]
 lang: "fr"
+positioning:
+  economy: 4
+  societal: null
+  governance: 4
+  security: null
+  ecology: null
 ---
 
 Morgane Lachiver et Lutte Ouvrière se présentent pour porter la voix de ceux qui font tourner la société, mais qui n'ont jamais leur mot à dire sur son fonctionnement.

@@ -3,6 +3,12 @@ title: "Excellence entrepreneuriale e emplec local"
 slug: "excellence-entrepreneuriale-emplec"
 tags: ["émancipation et justice sociale"]
 lang: "oc"
+positioning:
+  economy: 2
+  societal: null
+  governance: null
+  security: null
+  ecology: null
 ---
 
 Isabelle Perrein vòl relançar l'ascensor social a Montpelhièr en fasent de la comuna l'interlocutor privilegiat de las entrepresas per crear d'emplecs accessibles.

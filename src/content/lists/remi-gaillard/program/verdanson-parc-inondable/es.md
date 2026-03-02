@@ -3,6 +3,12 @@ title: "Verdanson: Parque inundable y museo al aire libre"
 slug: "verdanson-parque-inundable"
 tags: ["environnement", "changement climatique", "culture"]
 lang: "es"
+positioning:
+  economy: null
+  societal: null
+  governance: null
+  security: null
+  ecology: 4
 ---
 
 Rémi Gaillard propone transformar el canal del Verdanson en un parque inundable y un museo de arte callejero al aire libre.

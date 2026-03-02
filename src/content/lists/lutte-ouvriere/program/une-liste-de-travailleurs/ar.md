@@ -4,6 +4,12 @@ slug: "workers-list-change-society-ar"
 tags: ["démocratie", "émancipation et justice sociale"]
 lang: "ar"
 dir: "rtl"
+positioning:
+  economy: 4
+  societal: null
+  governance: 4
+  security: null
+  ecology: null
 ---
 
 تتكون قائمة "النضال العمالي" (Lutte Ouvrière) في مونبلييه حصرياً من العمال والعاطلين عن العمل والمتقاعدين من عالم العمل، وهي ترفض السياسيين المحترفين.

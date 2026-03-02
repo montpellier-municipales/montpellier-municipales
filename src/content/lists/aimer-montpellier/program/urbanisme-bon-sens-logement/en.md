@@ -3,6 +3,12 @@ title: "Common Sense Urbanism and Accessible Housing"
 slug: "common-sense-urbanism-housing"
 tags: ["environnement", "logement"]
 lang: "en"
+positioning:
+  economy: 2
+  societal: null
+  governance: null
+  security: null
+  ecology: 2
 ---
 
 Isabelle Perrein proposes to rebuild the city on itself to create green and peaceful neighborhoods while ensuring affordable prices.

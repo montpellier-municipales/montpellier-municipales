@@ -3,6 +3,12 @@ title: "Zero Tolerance for Delinquency"
 slug: "zero-tolerance-delinquency"
 tags: ["sécurité"]
 lang: "en"
+positioning:
+  economy: null
+  societal: 1
+  governance: 1
+  security: 1
+  ecology: null
 ---
 
 Inspired by the "Broken Window" theory, Isabelle Perrein proposes an absolute firmness policy to restore order in all neighborhoods of Montpellier.

@@ -3,6 +3,12 @@ title: "Verdanson: Floodable Park and Open-Air Museum"
 slug: "verdanson-floodable-park"
 tags: ["environnement", "changement climatique", "culture"]
 lang: "en"
+positioning:
+  economy: null
+  societal: null
+  governance: null
+  security: null
+  ecology: 4
 ---
 
 Rémi Gaillard proposes to transform the Verdanson canal into a floodable park and an open-air street art museum.

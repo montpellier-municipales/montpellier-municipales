@@ -3,6 +3,12 @@ title: "Cleanliness Plan and Efficient Waste Management"
 slug: "cleanliness-plan-waste-management"
 tags: ["déchets", "environnement", "changement climatique"]
 lang: "en"
+positioning:
+  economy: null
+  societal: null
+  governance: null
+  security: null
+  ecology: 2
 ---
 
 Isabelle Perrein aims to make Montpellier a model of cleanliness and circular economy by ending current unsanitary conditions.

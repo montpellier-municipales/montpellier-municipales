@@ -3,6 +3,12 @@ title: "Excellence entrepreneuriale pour l'emploi local"
 slug: "economie-emploi-local"
 tags: ["émancipation et justice sociale"]
 lang: "fr"
+positioning:
+  economy: 2
+  societal: null
+  governance: null
+  security: null
+  ecology: null
 ---
 
 Isabelle Perrein veut relancer l'ascenseur social à Montpellier en faisant de la mairie l'interlocuteur privilégié des entreprises pour créer des emplois accessibles à tous.

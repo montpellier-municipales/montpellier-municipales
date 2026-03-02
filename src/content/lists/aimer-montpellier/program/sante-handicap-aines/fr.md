@@ -3,6 +3,12 @@ title: "Santé, Handicap et Ainés : Pour une inclusion réelle"
 slug: "sante-handicap-aines"
 tags: ["santé", "solidarité"]
 lang: "fr"
+positioning:
+  economy: 3
+  societal: 4
+  governance: null
+  security: null
+  ecology: null
 ---
 
 Isabelle Perrein propose de placer l'humain et la vulnérabilité au centre de l'action municipale pour garantir une santé accessible et une autonomie durable à tous les citoyens.

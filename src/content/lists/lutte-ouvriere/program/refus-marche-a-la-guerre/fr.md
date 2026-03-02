@@ -3,6 +3,12 @@ title: "Refus de la marche à la guerre"
 slug: "refus-marche-a-la-guerre"
 tags: ["démocratie", "enfance et éducation"]
 lang: "fr"
+positioning:
+  economy: null
+  societal: 3
+  governance: 3
+  security: 4
+  ecology: null
 ---
 
 Morgane Lachiver et Lutte Ouvrière dénoncent l'augmentation des budgets militaires et l'emprise croissante de l'armée sur la société, y compris à l'échelle locale.

@@ -3,6 +3,12 @@ title: "Rendre la vila accessibla: prioritat a las PMR e als pedons"
 slug: "rendre-vila-accessibla-pmr"
 tags: ["transport et mobilités"]
 lang: "oc"
+positioning:
+  economy: null
+  societal: 3
+  governance: null
+  security: null
+  ecology: null
 ---
 
 Isabelle Perrein prepausa de metre fin a l'abandon dels pedons e de las personas de mobilitat reducha (PMR) dins las politicas de transpòrt urban.

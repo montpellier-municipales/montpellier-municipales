@@ -3,6 +3,12 @@ title: "Verdanson: Parc inondable e musèu a cèl dubèrt"
 slug: "verdanson-parc-inondable-oc"
 tags: ["environnement", "changement climatique", "culture"]
 lang: "oc"
+positioning:
+  economy: null
+  societal: null
+  governance: null
+  security: null
+  ecology: 4
 ---
 
 Rémi Gaillard prepausa de transformar lo canal del Verdanson en un vertadièr parc inondable e un musèu de street art a cèl dubèrt.

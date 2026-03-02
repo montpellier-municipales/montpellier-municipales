@@ -3,6 +3,12 @@ title: "Goal: Zero Waste and Resource"
 slug: "zero-waste-resource"
 tags: ["déchets", "environnement"]
 lang: "en"
+positioning:
+  economy: null
+  societal: null
+  governance: null
+  security: null
+  ecology: 3
 ---
 
 Rémi Gaillard proposes a radical waste reduction policy to transform Montpellier into an exemplary circular economy city.

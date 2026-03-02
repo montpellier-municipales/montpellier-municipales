@@ -3,6 +3,12 @@ title: "Une tolérance zéro pour les délinquants"
 slug: "tolerance-zero-delinquance"
 tags: ["sécurité"]
 lang: "fr"
+positioning:
+  economy: null
+  societal: 1
+  governance: 1
+  security: 1
+  ecology: null
 ---
 
 Inspirée par la théorie de la « vitre brisée », Isabelle Perrein propose une politique de fermeté absolue pour rétablir l'ordre dans tous les quartiers de Montpellier.

@@ -3,6 +3,12 @@ title: "Polícia municipala de proximitat e renforçada"
 slug: "policia-municipala-renforcada"
 tags: ["sécurité"]
 lang: "oc"
+positioning:
+  economy: null
+  societal: null
+  governance: 2
+  security: 2
+  ecology: null
 ---
 
 Isabelle Perrein prepausa de transformar la polícia municipala per ne far un vertadièr aisina de proximitat e de seguretat permanenta dins totes los quartièrs de Montpelhièr.

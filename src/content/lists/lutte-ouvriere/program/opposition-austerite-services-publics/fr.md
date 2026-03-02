@@ -3,6 +3,12 @@ title: "Opposition à l'austérité et défense des services publics"
 slug: "opposition-austerite-services-publics"
 tags: ["solidarité", "émancipation et justice sociale"]
 lang: "fr"
+positioning:
+  economy: 4
+  societal: 3
+  governance: null
+  security: null
+  ecology: null
 ---
 
 Lutte Ouvrière s'oppose aux politiques d'austérité qui étranglent les communes et dégradent les services publics indispensables à la population.

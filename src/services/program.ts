@@ -3,6 +3,7 @@ import { join } from "node:path";
 import matter from "gray-matter";
 import { marked } from "marked";
 import type { ProgramMeasure } from "~/types/schema";
+import { getAllLists } from "~/services/lists";
 
 const LISTS_DIR = join(process.cwd(), "src/content/lists");
 
@@ -30,6 +31,7 @@ async function parseMeasureFile(
       tags: data.tags || [],
       content: htmlContent as string,
       contentMarkdown: markdownContent,
+      positioning: data.positioning,
     };
   } catch {
     return null;
@@ -65,6 +67,44 @@ export const getCandidateProgram = async (
     return [];
   }
 };
+
+/**
+ * Récupère toutes les mesures correspondant à un positionnement donné, pour toutes les listes
+ */
+export async function getAllMeasuresForPositioningValue(
+  dimension: string,
+  value: number,
+  lang: string,
+): Promise<
+  Array<
+    ProgramMeasure & {
+      candidateId: string;
+      candidateName: string;
+      candidateHeadOfList: string;
+      candidateLogo: string;
+    }
+  >
+> {
+  const allLists = await getAllLists();
+  const results = await Promise.all(
+    allLists.map(async (list) => {
+      const measures = await getCandidateProgram(list.id, lang);
+      return measures
+        .filter(
+          (m) =>
+            m.positioning?.[dimension as keyof typeof m.positioning] === value,
+        )
+        .map((m) => ({
+          ...m,
+          candidateId: list.id,
+          candidateName: list.name,
+          candidateHeadOfList: list.headOfList,
+          candidateLogo: list.candidatePictureUrl,
+        }));
+    }),
+  );
+  return results.flat();
+}
 
 /**
  * Récupère une mesure spécifique

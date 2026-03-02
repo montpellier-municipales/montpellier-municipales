@@ -22,6 +22,13 @@ export const Header = component$(() => {
 
   const menu = [
     { label: t("app.menu.home"), href: "/" },
+    { 
+      label: t("app.menu.compare"), 
+      subItems: [
+        { label: t("app.menu.compareProgrammes"), href: "/comparateur/" },
+        { label: t("app.menu.compareIdeological"), href: "/comparateur/positionnement/" },
+      ] 
+    },
     { label: t("app.menu.inscriptionElectorale"), href: "/inscription" },
     { label: t("app.menu.roleMairieMetropole"), href: "/role-mairie-metropole" },
     { 

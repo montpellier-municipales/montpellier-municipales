@@ -3,6 +3,12 @@ title: "Hacer oír la voz de los trabajadores"
 slug: "voz-trabajadores"
 tags: ["émancipation et justice sociale", "démocratie"]
 lang: "es"
+positioning:
+  economy: 4
+  societal: null
+  governance: 4
+  security: null
+  ecology: null
 ---
 
 Morgane Lachiver y Lutte Ouvrière se presentan para dar voz a quienes hacen funcionar la sociedad pero nunca tienen palabra sobre su funcionamiento.

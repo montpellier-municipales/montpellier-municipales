@@ -3,6 +3,12 @@ title: "Culture as a Vector for Emancipation for All"
 slug: "culture-vector-emancipation"
 tags: ["culture"]
 lang: "en"
+positioning:
+  economy: null
+  societal: 3
+  governance: null
+  security: null
+  ecology: null
 ---
 
 Isabelle Perrein proposes to take culture out of institutions to bring it into every neighborhood and foster the expression of all Montpellier's talents.

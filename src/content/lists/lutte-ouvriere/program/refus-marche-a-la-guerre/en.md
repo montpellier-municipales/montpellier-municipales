@@ -3,6 +3,12 @@ title: "Rejecting the March to War"
 slug: "rejecting-march-to-war"
 tags: ["démocratie", "enfance et éducation"]
 lang: "en"
+positioning:
+  economy: null
+  societal: 3
+  governance: 3
+  security: 4
+  ecology: null
 ---
 
 Morgane Lachiver and Lutte Ouvrière denounce the increase in military budgets and the growing grip of the army on society, including at the local level.

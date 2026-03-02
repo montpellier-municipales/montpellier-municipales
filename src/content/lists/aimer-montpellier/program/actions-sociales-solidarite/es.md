@@ -3,6 +3,12 @@ title: "Acciones sociales y solidaridad: poner al ser humano en el centro"
 slug: "acciones-sociales-solidaridad"
 tags: ["solidarité", "émancipation et justice sociale"]
 lang: "es"
+positioning:
+  economy: 3
+  societal: 3
+  governance: null
+  security: null
+  ecology: null
 ---
 
 Isabelle Perrein propone soluciones concretas y transparentes para mejorar la vida cotidiana de los más vulnerables y fortalecer la cohesión social.
