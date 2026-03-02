@@ -25,8 +25,9 @@ import { inlineTranslate, useSpeak } from "qwik-speak";
 import { LuCheckCircle, LuXCircle } from "@qwikest/icons/lucide";
 
 // Pre-load ALL lists + their programs at SSG time.
-// No URL-param dependency — selection is fully client-side.
-export const useComparatorData = routeLoader$(async ({ locale }) => {
+// In SSR/dev mode, also reads ?listes= to enable server-side rendering of the
+// conditional section (fixes translation race with qwik-speak async loading).
+export const useComparatorData = routeLoader$(async ({ locale, url }) => {
   const lang = locale();
   const [allLists, charters] = await Promise.all([
     getAllLists(),
@@ -35,7 +36,7 @@ export const useComparatorData = routeLoader$(async ({ locale }) => {
 
   const allListsWithPrograms = await Promise.all(
     allLists.map(async (list) => {
-      const measures = await getCandidateProgram(list.id, lang);
+      const measures = await getCandidateProgram(list.id, lang, { includeContent: false });
       return {
         id: list.id,
         name: list.name,
@@ -54,7 +55,12 @@ export const useComparatorData = routeLoader$(async ({ locale }) => {
     }),
   );
 
-  return { allListsWithPrograms, charters };
+  // Parse ?listes= so the server can render the conditional section during SSR,
+  // ensuring t() runs inside _speakServerContext where translations are synchronous.
+  const initialSelectedIds =
+    url.searchParams.get("listes")?.split(",").filter(Boolean) ?? [];
+
+  return { allListsWithPrograms, charters, initialSelectedIds };
 });
 
 const dimensions = [
@@ -72,17 +78,18 @@ export default component$(() => {
   const { charters } = data.value;
   const loc = useLocation();
 
-  // Start empty — initialized from URL on the client after hydration
-  const selectedListIds = useSignal<string[]>([]);
+  // Initialized server-side from URL params (fixes translation race in SSR/dev)
+  const selectedListIds = useSignal<string[]>(data.value.initialSelectedIds);
   const activeTag = useSignal<string | null>(null);
 
-  // Read ?listes= from URL on client mount.
-  // useVisibleTask$ with "document-ready" is guaranteed to run on the client only.
-  // useTask$ without track() is marked "completed" during SSR and never re-runs.
+  // SSG-only fallback: in static builds the loader always returns [] because
+  // params aren't known at build time; read from window.location on the client.
   // eslint-disable-next-line qwik/no-use-visible-task
   useVisibleTask$(() => {
-    const param = new URLSearchParams(window.location.search).get("listes");
-    selectedListIds.value = param ? param.split(",").filter(Boolean) : [];
+    if (selectedListIds.value.length === 0) {
+      const param = new URLSearchParams(window.location.search).get("listes");
+      if (param) selectedListIds.value = param.split(",").filter(Boolean);
+    }
   }, { strategy: "document-ready" });
 
   // Keep URL in sync via replaceState — no navigation, no loader re-run needed
