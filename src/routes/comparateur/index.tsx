@@ -5,7 +5,6 @@ import {
   useVisibleTask$,
   $,
   useComputed$,
-  type JSXOutput,
 } from "@builder.io/qwik";
 import { isServer } from "@builder.io/qwik";
 import {
@@ -15,12 +14,13 @@ import {
   type DocumentHead,
   type StaticGenerateHandler,
 } from "@builder.io/qwik-city";
+import { readFile } from "node:fs/promises";
+import { join } from "node:path";
 import { getAllLists } from "~/services/lists";
 import { getCandidateProgram } from "~/services/program";
 import { getAllCharters } from "~/services/charters";
-import { Tooltip } from "@qwik-ui/headless";
-import { OrdinalAxisPlot } from "~/components/OrdinalAxisPlot/OrdinalAxisPlot";
 import * as styles from "./comparator.css";
+import { PositioningSection } from "./PositioningSection";
 import { inlineTranslate, useSpeak } from "qwik-speak";
 import { LuCheckCircle, LuXCircle } from "@qwikest/icons/lucide";
 
@@ -29,6 +29,34 @@ import { LuCheckCircle, LuXCircle } from "@qwikest/icons/lucide";
 // conditional section (fixes translation race with qwik-speak async loading).
 export const useComparatorData = routeLoader$(async ({ locale, url }) => {
   const lang = locale();
+
+  // Pre-compute positioning labels server-side to avoid client-side t() race
+  const comparatorI18nPath = join(
+    process.cwd(),
+    "src/i18n",
+    lang,
+    "comparator.json",
+  );
+  const comparatorI18nRaw = JSON.parse(
+    await readFile(comparatorI18nPath, "utf-8"),
+  ) as {
+    comparator: {
+      positioningSection: string;
+      positioningSectionDesc: string;
+      positioning: {
+        dimensions: Record<string, string>;
+        labels: Record<string, Record<string, string>>;
+      };
+    };
+  };
+  const ci18n = comparatorI18nRaw.comparator;
+  const positioningTranslations = {
+    sectionTitle: ci18n.positioningSection ?? "",
+    sectionDesc: ci18n.positioningSectionDesc ?? "",
+    dimensions: ci18n.positioning?.dimensions ?? {},
+    labels: ci18n.positioning?.labels ?? {},
+  };
+
   const [allLists, charters] = await Promise.all([
     getAllLists(),
     Promise.resolve(getAllCharters()),
@@ -36,7 +64,7 @@ export const useComparatorData = routeLoader$(async ({ locale, url }) => {
 
   const allListsWithPrograms = await Promise.all(
     allLists.map(async (list) => {
-      const measures = await getCandidateProgram(list.id, lang, { includeContent: false });
+      const measures = await getCandidateProgram(list.id, lang);
       return {
         id: list.id,
         name: list.name,
@@ -60,16 +88,13 @@ export const useComparatorData = routeLoader$(async ({ locale, url }) => {
   const initialSelectedIds =
     url.searchParams.get("listes")?.split(",").filter(Boolean) ?? [];
 
-  return { allListsWithPrograms, charters, initialSelectedIds };
+  return {
+    allListsWithPrograms,
+    charters,
+    initialSelectedIds,
+    positioningTranslations,
+  };
 });
-
-const dimensions = [
-  { id: "economy", max: 4 },
-  { id: "societal", max: 5 },
-  { id: "governance", max: 4 },
-  { id: "security", max: 4 },
-  { id: "ecology", max: 4 },
-] as const;
 
 export default component$(() => {
   useSpeak({ assets: ["comparator", "charters"] });
@@ -166,63 +191,10 @@ export default component$(() => {
       {selectedLists.value.length > 0 && (
         <>
           {/* Section 1: Positioning axes */}
-          <section class={styles.sectionCard}>
-            <h2 class={styles.sectionTitle}>
-              {t("comparator.positioningSection")}
-            </h2>
-            <p class={styles.sectionDesc}>
-              {t("comparator.positioningSectionDesc")}
-            </p>
-            <div class={styles.axesStack}>
-              {dimensions.map((dim) => {
-                const items = selectedLists.value.map((c) => ({
-                  id: c.id,
-                  value: t(
-                    `comparator.positioning.labels.${dim.id}.${c.positioning[dim.id as keyof typeof c.positioning]}`,
-                  ),
-                  render$: $(
-                    (): JSXOutput => (
-                      <Tooltip.Root gutter={4} flip>
-                        <Tooltip.Trigger class={styles.candidateLogoTrigger}>
-                          <img
-                            src={c.candidatePictureUrl}
-                            alt={c.name}
-                            class={styles.plotCandidateLogo}
-                            width={48}
-                            height={48}
-                          />
-                        </Tooltip.Trigger>
-                        <Tooltip.Panel
-                          class={styles.candidateTooltip}
-                          aria-label="Tooltip content"
-                        >
-                          {c.name} · {c.headOfList}
-                        </Tooltip.Panel>
-                      </Tooltip.Root>
-                    ),
-                  ),
-                }));
-
-                return (
-                  <div key={dim.id} class={styles.dimensionGroup}>
-                    <h3 class={styles.dimensionTitle}>
-                      {t(`comparator.positioning.dimensions.${dim.id}`)}
-                    </h3>
-                    <div class={styles.axisWrapper}>
-                      <OrdinalAxisPlot
-                        axis={Array.from({ length: dim.max }).map((_, i) =>
-                          t(
-                            `comparator.positioning.labels.${dim.id}.${i + 1}`,
-                          ),
-                        )}
-                        items={items}
-                      />
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          </section>
+          <PositioningSection
+            selectedLists={selectedLists.value}
+            positioningTranslations={data.value.positioningTranslations}
+          />
 
           {/* Section 2: Charter signatures */}
           <section class={styles.sectionCard}>
