@@ -26,17 +26,20 @@ interface OrdinalAxisPlotProps {
 
   /** Optional map from value label → href to make tick labels into links */
   tickLinks?: Record<string, string>;
+
+  /** Optional extra CSS class to apply to the root element */
+  class?: string;
 }
 
 export const OrdinalAxisPlot = component$<OrdinalAxisPlotProps>(
-  ({ axis, items, tickLinks }) => {
+  ({ axis, items, tickLinks, class: extraClass }) => {
     const itemsByValue = [...axis].reverse().map((value) => ({
       value,
       items: items.filter((item) => item.value === value),
     }));
 
     return (
-      <div class={plot}>
+      <div class={extraClass ? `${plot} ${extraClass}` : plot}>
         <div class={axisClass}>
           {itemsByValue.map(({ value }) => (
             <div class={axisColumn} key={String(value)}>

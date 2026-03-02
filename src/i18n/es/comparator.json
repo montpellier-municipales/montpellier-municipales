@@ -6,10 +6,17 @@
     "themes": "Temas",
     "remove": "Eliminar",
     "noProgramForTheme": "Sin propuesta sobre este tema",
+    "selectLists": "Listas seleccionadas para la comparación",
+    "positioningSection": "Síntesis de los Ejes de Posicionamiento",
+    "positioningSectionDesc": "Visualización del posicionamiento relativo de las listas sobre los grandes temas municipales.",
+    "programSection": "Comparar los programas",
+    "allTags": "Todos",
+    "noMeasuresForTag": "Sin medida sobre este tema",
     "metaDescription": "Compare los programas de los candidatos a las elecciones municipales de Montpellier 2026.",
     "positioning": {
       "title": "Brújula Ideológica 2026",
       "description": "Visualice el posicionamiento de las listas sobre los grandes temas de las elecciones municipales de Montpellier.",
+      "microText": "Los ejes van de los enfoques conservadores (izquierda) hacia los enfoques progresistas (derecha).",
       "xAxis": "Eje horizontal (X)",
       "yAxis": "Eje vertical (Y)",
       "dimensions": {

@@ -6,10 +6,17 @@
     "themes": "Tèmas",
     "remove": "Levar",
     "noProgramForTheme": "Cap de proposicion sus aqueste tèma",
+    "selectLists": "Listas seleccionadas per la comparason",
+    "positioningSection": "Sintèsi dels Axes de Posicionament",
+    "positioningSectionDesc": "Visualizacion del posicionament relatiu de las listas sus las grandas questions municipalas.",
+    "programSection": "Comparar los programas",
+    "allTags": "Totas",
+    "noMeasuresForTag": "Cap de mesura sus aqueste tèma",
     "metaDescription": "Comparatz los programas dels candidats a las eleccions municipalas de Montpelhièr 2026.",
     "positioning": {
       "title": "Bossòla Ideologica 2026",
       "description": "Visualizatz lo posicionament de las listas sus las grandas questions de l'eleccion municipala de Montpelhièr.",
+      "microText": "Los axes son orientats de las aproximacions conservadoras (esquèrra) vèrs las aproximacions progressistas (drecha).",
       "xAxis": "Axe orizontal (X)",
       "yAxis": "Axe vertical (Y)",
       "dimensions": {

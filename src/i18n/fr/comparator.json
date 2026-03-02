@@ -6,10 +6,17 @@
     "themes": "Thèmes",
     "remove": "Retirer",
     "noProgramForTheme": "Pas de proposition sur ce thème",
+    "selectLists": "Listes sélectionnées pour la comparaison",
+    "positioningSection": "Synthèse des Axes de Positionnement",
+    "positioningSectionDesc": "Visualisation du positionnement relatif des listes sur les grands enjeux municipaux.",
+    "programSection": "Comparer les programmes",
+    "allTags": "Toutes",
+    "noMeasuresForTag": "Pas de mesure sur ce thème",
     "metaDescription": "Comparez les programmes des candidats aux élections municipales de Montpellier 2026.",
     "positioning": {
       "title": "Boussole Idéologique 2026",
       "description": "Visualisez le positionnement des listes sur les grands enjeux de l'élection municipale de Montpellier.",
+      "microText": "Les axes sont orientés des approches conservatrices (gauche) vers les approches progressistes (droite).",
       "xAxis": "Axe horizontal (X)",
       "yAxis": "Axe vertical (Y)",
       "dimensions": {

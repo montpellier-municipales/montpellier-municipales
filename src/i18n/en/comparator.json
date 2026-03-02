@@ -6,10 +6,17 @@
     "themes": "Themes",
     "remove": "Remove",
     "noProgramForTheme": "No proposal on this theme",
+    "selectLists": "Lists selected for comparison",
+    "positioningSection": "Positioning Overview",
+    "positioningSectionDesc": "Visualization of the relative positioning of lists on key municipal issues.",
+    "programSection": "Compare programs",
+    "allTags": "All",
+    "noMeasuresForTag": "No measure on this topic",
     "metaDescription": "Compare the programs of candidates for the 2026 Montpellier municipal elections.",
     "positioning": {
       "title": "2026 Ideological Compass",
       "description": "Visualize how lists position themselves on key issues for the Montpellier municipal election.",
+      "microText": "Axes run from conservative approaches (left) to progressive approaches (right).",
       "xAxis": "Horizontal Axis (X)",
       "yAxis": "Vertical Axis (Y)",
       "dimensions": {

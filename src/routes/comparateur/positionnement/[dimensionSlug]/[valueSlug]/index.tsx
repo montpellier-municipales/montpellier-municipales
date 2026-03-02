@@ -13,7 +13,6 @@ import {
 } from "~/services/positioning";
 import { getAllMeasuresForPositioningValue } from "~/services/program";
 import { Language } from "~/types/schema";
-import { config } from "~/speak-config";
 import * as styles from "./value-page.css";
 
 export const useValuePageData = routeLoader$(async (requestEvent) => {
