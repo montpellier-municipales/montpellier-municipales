@@ -1,0 +1,19 @@
+{
+  "charters": {
+    "title": "Commitment Charters",
+    "description": "Which Montpellier candidate lists signed the commitment charters proposed by associations?",
+    "signed": "Signed",
+    "notSigned": "Not signed",
+    "partialSigned": "{{count}}/{{total}} measures",
+    "noResponse": "No response",
+    "viewCharter": "View charter",
+    "externalSource": "External source",
+    "measures": "Measures",
+    "signatories": "Signatories",
+    "back": "← Back to charters",
+    "measureDetail": "Detail by measure",
+    "noMeasures": "Overall commitment, no per-measure detail",
+    "partialCountOnly": "{{count}}/{{total}} (details unavailable)",
+    "metaDescription": "Which candidate lists in Montpellier signed association charters for the 2026 municipal elections?"
+  }
+}

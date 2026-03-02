@@ -278,3 +278,101 @@ export const plotCandidateLogo = style({
   borderRadius: "50%",
   objectFit: "cover",
 });
+
+export const charterTableWrapper = style({
+  overflowX: "auto",
+});
+
+export const charterTable = style({
+  width: "100%",
+  borderCollapse: "collapse",
+  fontSize: "0.85rem",
+});
+
+export const charterThLabel = style({
+  width: "auto",
+});
+
+export const charterThCandidate = style({
+  textAlign: "center",
+  padding: "0.25rem 0.5rem",
+  width: "56px",
+  minWidth: "56px",
+});
+
+export const charterCandidateAvatar = style({
+  borderRadius: "50%",
+  objectFit: "cover",
+  display: "block",
+  margin: "0 auto",
+});
+
+export const charterRow = style({
+  borderTop: `1px solid ${vars.color.border}`,
+});
+
+export const charterTdLabel = style({
+  padding: "0.6rem 0.5rem 0.6rem 0",
+  verticalAlign: "middle",
+});
+
+export const charterTitleLink = style({
+  display: "block",
+  fontWeight: "600",
+  color: vars.color.primary,
+  textDecoration: "none",
+  fontSize: "0.85rem",
+  ":hover": { textDecoration: "underline" },
+});
+
+export const charterOrg = style({
+  display: "block",
+  fontSize: "0.72rem",
+  color: vars.color.textMuted,
+  marginTop: "0.1rem",
+});
+
+export const charterTdCell = style({
+  textAlign: "center",
+  verticalAlign: "middle",
+  padding: "0.5rem",
+});
+
+export const charterSigned = style({
+  color: vars.color.success,
+  fontSize: "1.1rem",
+  display: "block",
+  margin: "0 auto",
+});
+
+export const charterNotSigned = style({
+  color: vars.color.border,
+  fontSize: "1.1rem",
+  display: "block",
+  margin: "0 auto",
+});
+
+export const charterPartial = style({
+  display: "inline-block",
+  padding: "0.15rem 0.4rem",
+  borderRadius: "10px",
+  backgroundColor: vars.color.primaryTransparent,
+  color: vars.color.primary,
+  fontSize: "0.72rem",
+  fontWeight: "700",
+});
+
+export const charterNoData = style({
+  color: vars.color.textMuted,
+  fontSize: "0.85rem",
+});
+
+export const charterDetailLink = style({
+  display: "inline-block",
+  marginTop: "0.75rem",
+  fontSize: "0.82rem",
+  color: vars.color.primary,
+  textDecoration: "none",
+  fontWeight: "600",
+  ":hover": { textDecoration: "underline" },
+});

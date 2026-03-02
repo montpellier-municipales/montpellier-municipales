@@ -1,0 +1,95 @@
+[
+  {
+    "id": "cite-bergere",
+    "slug": "cite-bergere",
+    "organization": "Collectif Préservons la Cité Bergère",
+    "title": "Lettre d'engagement pour la Cité Bergère",
+    "description": "Le collectif Préservons la Cité Bergère défend le dernier espace agricole en cœur de ville à Montpellier. Il a proposé à toutes les listes candidates une lettre d'engagement pour la préservation de ce site.",
+    "externalUrl": "https://www.preservonslacitebergere.fr/municipales-2026/",
+    "measures": [],
+    "signatories": [
+      { "candidateId": "la-france-insoumise", "signed": true,  "signedMeasureIds": [] },
+      { "candidateId": "michael-delafosse",   "signed": false, "signedMeasureIds": [] },
+      { "candidateId": "les-ecologistes",     "signed": true,  "signedMeasureIds": [] },
+      { "candidateId": "lutte-ouvriere",      "signed": false, "signedMeasureIds": [] },
+      { "candidateId": "mohed-altrad",        "signed": true,  "signedMeasureIds": [] },
+      { "candidateId": "philippe-saurel",     "signed": true,  "signedMeasureIds": [] },
+      { "candidateId": "remi-gaillard",       "signed": true,  "signedMeasureIds": [] },
+      { "candidateId": "revolution-permanente","signed": true, "signedMeasureIds": [] },
+      { "candidateId": "aimer-montpellier",   "signed": false, "signedMeasureIds": [] }
+    ]
+  },
+  {
+    "id": "l214",
+    "slug": "l214",
+    "organization": "L214 Éthique & Animaux",
+    "title": "L214 : 8 mesures pour 6 ans de mandat",
+    "description": "Une feuille de route réaliste pour sauver des millions d'animaux au niveau local, proposée par L214 à toutes les listes candidates aux élections municipales 2026.",
+    "externalUrl": "https://municipales.l214.com/",
+    "measures": [
+      { "id": "m1", "title": "Fixer un objectif de réduction de 50 % de la consommation de produits d'origine animale d'ici 2032 dans la politique alimentaire urbaine.", "theme": "" },
+      { "id": "m2", "title": "Instaurer une option végétarienne quotidienne dans les cantines scolaires (ne comportant ni viande, ni poisson).", "theme": "" },
+      { "id": "m3", "title": "Instaurer deux journées végétariennes hebdomadaires dans les cantines scolaires (ne comportant ni viande, ni poisson).", "theme": "" },
+      { "id": "m4", "title": "Instaurer une journée végétalienne hebdomadaire en restauration scolaire (a minima le plat principal ne comportant aucun produit d'origine animale).", "theme": "" },
+      { "id": "m5", "title": "Mener annuellement une démarche à destination du grand public et/ou des restaurateurs pour encourager et accompagner le développement d'une alimentation plus végétale.", "theme": "" },
+      { "id": "m6", "title": "Déclarer et s'engager à proposer systématiquement une offre végétale significative dans les buffets des réceptions officielles de la ville.", "theme": "" },
+      { "id": "m7", "title": "Intégrer un objectif d'exclusion des produits issus de l'élevage sans accès au plein air dans une stratégie d'achats publics responsables.", "theme": "" },
+      { "id": "m8", "title": "Intégrer un objectif d'exclusion des produits issus de la pisciculture dans une stratégie d'achats publics responsables.", "theme": "" }
+    ],
+    "signatories": [
+      { "candidateId": "la-france-insoumise", "signed": true,  "signedMeasureIds": ["m1","m2","m3","m4","m5","m6","m7","m8"] },
+      { "candidateId": "michael-delafosse",   "signed": true,  "signedMeasureIds": ["m1","m2","m3","m4","m5","m6","m7","m8"] },
+      { "candidateId": "les-ecologistes",     "signed": false, "signedMeasureIds": [] },
+      { "candidateId": "lutte-ouvriere",      "signed": false, "signedMeasureIds": [] },
+      { "candidateId": "mohed-altrad",        "signed": false, "signedMeasureIds": [] },
+      { "candidateId": "philippe-saurel",     "signed": false, "signedMeasureIds": [] },
+      { "candidateId": "remi-gaillard",       "signed": false, "signedMeasureIds": [] },
+      { "candidateId": "revolution-permanente","signed": false,"signedMeasureIds": [] },
+      { "candidateId": "aimer-montpellier",   "signed": false, "signedMeasureIds": [] }
+    ]
+  },
+  {
+    "id": "paz",
+    "slug": "paz",
+    "organization": "PAZ — Pour les Animaux et leur Zone de vie",
+    "title": "Charte PAZ condition animale",
+    "description": "23 mesures réparties en 7 thématiques pour améliorer la condition animale au niveau local, proposées par l'association Zoopolis/PAZ aux candidats aux élections municipales 2026.",
+    "externalUrl": "https://zoopolis.fr/nos-campagnes/elections/municipales-2026/",
+    "measures": [
+      { "id": "m1",  "title": "Avoir une délégation à la condition animale", "theme": "L'institution" },
+      { "id": "m2",  "title": "Mettre en place un budget dédié à la condition animale", "theme": "L'institution" },
+      { "id": "m3",  "title": "Financer la stérilisation et l'identification des chats errants", "theme": "Animaux liminaires" },
+      { "id": "m4",  "title": "Ne pas utiliser de méthodes cruelles visant les pigeons", "theme": "Animaux liminaires" },
+      { "id": "m5",  "title": "Ne pas utiliser de piège à colle", "theme": "Animaux liminaires" },
+      { "id": "m6",  "title": "Expérimenter des méthodes non létales visant les rats", "theme": "Animaux liminaires" },
+      { "id": "m7",  "title": "Ne pas utiliser de feux d'artifice classiques", "theme": "Animaux liminaires" },
+      { "id": "m8",  "title": "Agir pour mettre fin aux idées reçues sur les animaux liminaires", "theme": "Animaux liminaires" },
+      { "id": "m9",  "title": "Ne pas octroyer de subventions aux AAPPMA et associations de chasse", "theme": "Pêche de loisir et chasse" },
+      { "id": "m10", "title": "Ne pas autoriser les AAPPMA et associations de chasse dans les écoles", "theme": "Pêche de loisir et chasse" },
+      { "id": "m11", "title": "Ne pas pratiquer d'empoissonnement dans le but de pêcher et interdire la pêche au vif", "theme": "Pêche de loisir et chasse" },
+      { "id": "m12", "title": "Intégrer la condition animale au programme culturel", "theme": "Culture" },
+      { "id": "m13", "title": "Créer un fonds « condition animale » dans une ou des bibliothèques", "theme": "Culture" },
+      { "id": "m14", "title": "Ne pas autoriser de salons animaliers", "theme": "Animaux de compagnie" },
+      { "id": "m15", "title": "Rappeler la réglementation interdisant la vente de poissons rouges", "theme": "Animaux de compagnie" },
+      { "id": "m16", "title": "Exclure le foie gras de la commande publique", "theme": "Alimentation" },
+      { "id": "m17", "title": "Instaurer deux journées végétariennes ou végétaliennes hebdomadaires en restauration scolaire", "theme": "Alimentation" },
+      { "id": "m18", "title": "Ne pas autoriser d'animations de type balades à poney sur espace public", "theme": "Captivité animale" },
+      { "id": "m19", "title": "Ne pas autoriser de spectacles avec des animaux", "theme": "Captivité animale" },
+      { "id": "m20", "title": "Ne pas autoriser de tournages avec animaux sauvages captifs", "theme": "Captivité animale" },
+      { "id": "m21", "title": "Ne pas louer de lieux ou ne pas renouveler les baux pour zoos/aquariums", "theme": "Captivité animale" },
+      { "id": "m22", "title": "Établir un plan de transition pour les lieux de captivité animale municipaux", "theme": "Captivité animale" },
+      { "id": "m23", "title": "Ne pas soutenir par voie de communication les événements de captivité animale", "theme": "Captivité animale" }
+    ],
+    "signatories": [
+      { "candidateId": "michael-delafosse",    "signed": true,  "signedMeasureIds": [], "signedCount": 16 },
+      { "candidateId": "la-france-insoumise",  "signed": false, "signedMeasureIds": [] },
+      { "candidateId": "les-ecologistes",      "signed": false, "signedMeasureIds": [] },
+      { "candidateId": "lutte-ouvriere",       "signed": false, "signedMeasureIds": [] },
+      { "candidateId": "mohed-altrad",         "signed": false, "signedMeasureIds": [] },
+      { "candidateId": "philippe-saurel",      "signed": false, "signedMeasureIds": [] },
+      { "candidateId": "remi-gaillard",        "signed": false, "signedMeasureIds": [] },
+      { "candidateId": "revolution-permanente","signed": false, "signedMeasureIds": [] },
+      { "candidateId": "aimer-montpellier",    "signed": false, "signedMeasureIds": [] }
+    ]
+  }
+]

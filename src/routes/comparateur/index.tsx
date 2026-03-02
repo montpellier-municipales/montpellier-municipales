@@ -16,17 +16,21 @@ import {
 } from "@builder.io/qwik-city";
 import { getAllLists } from "~/services/lists";
 import { getCandidateProgram } from "~/services/program";
+import { getAllCharters } from "~/services/charters";
 import { Tooltip } from "@qwik-ui/headless";
 import { OrdinalAxisPlot } from "~/components/OrdinalAxisPlot/OrdinalAxisPlot";
 import * as styles from "./comparator.css";
 import { inlineTranslate, useSpeak } from "qwik-speak";
-import { LuCircle, LuCheckCircle } from "@qwikest/icons/lucide";
+import { LuCircle, LuCheckCircle, LuXCircle } from "@qwikest/icons/lucide";
 
 // Pre-load ALL lists + their programs at SSG time.
 // No URL-param dependency — selection is fully client-side.
 export const useComparatorData = routeLoader$(async ({ locale }) => {
   const lang = locale();
-  const allLists = await getAllLists();
+  const [allLists, charters] = await Promise.all([
+    getAllLists(),
+    Promise.resolve(getAllCharters()),
+  ]);
 
   const allListsWithPrograms = await Promise.all(
     allLists.map(async (list) => {
@@ -49,7 +53,7 @@ export const useComparatorData = routeLoader$(async ({ locale }) => {
     }),
   );
 
-  return { allListsWithPrograms };
+  return { allListsWithPrograms, charters };
 });
 
 const dimensions = [
@@ -61,9 +65,10 @@ const dimensions = [
 ] as const;
 
 export default component$(() => {
-  useSpeak({ assets: ["comparator"] });
+  useSpeak({ assets: ["comparator", "charters"] });
   const t = inlineTranslate();
   const data = useComparatorData();
+  const { charters } = data.value;
   const loc = useLocation();
 
   // Start empty — initialized from URL on the client after hydration
@@ -198,7 +203,104 @@ export default component$(() => {
             </div>
           </section>
 
-          {/* Section 2: Program comparison */}
+          {/* Section 2: Charter signatures */}
+          <section class={styles.sectionCard}>
+            <h2 class={styles.sectionTitle}>{t("charters.title")}</h2>
+            <p class={styles.sectionDesc}>{t("charters.description")}</p>
+            <div class={styles.charterTableWrapper}>
+              <table class={styles.charterTable}>
+                <thead>
+                  <tr>
+                    <th class={styles.charterThLabel}></th>
+                    {selectedLists.value.map((list) => (
+                      <th key={list.id} class={styles.charterThCandidate}>
+                        <img
+                          src={list.candidatePictureUrl}
+                          alt={list.name}
+                          class={styles.charterCandidateAvatar}
+                          width={36}
+                          height={36}
+                        />
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {charters.map((charter) => (
+                    <tr key={charter.id} class={styles.charterRow}>
+                      <td class={styles.charterTdLabel}>
+                        <Link
+                          href={`/comparateur/chartes/${charter.slug}/`}
+                          class={styles.charterTitleLink}
+                        >
+                          {charter.title}
+                        </Link>
+                        <span class={styles.charterOrg}>
+                          {charter.organization}
+                        </span>
+                      </td>
+                      {selectedLists.value.map((list) => {
+                        const signatory = charter.signatories.find(
+                          (s) => s.candidateId === list.id,
+                        );
+                        if (!signatory) {
+                          return (
+                            <td key={list.id} class={styles.charterTdCell}>
+                              <span class={styles.charterNoData}>—</span>
+                            </td>
+                          );
+                        }
+                        if (charter.measures.length === 0) {
+                          return (
+                            <td key={list.id} class={styles.charterTdCell}>
+                              {signatory.signed ? (
+                                <LuCheckCircle class={styles.charterSigned} />
+                              ) : (
+                                <LuXCircle class={styles.charterNotSigned} />
+                              )}
+                            </td>
+                          );
+                        }
+                        const total = charter.measures.length;
+                        const count =
+                          signatory.signedCount ??
+                          signatory.signedMeasureIds.length;
+                        if (!signatory.signed && count === 0) {
+                          return (
+                            <td key={list.id} class={styles.charterTdCell}>
+                              <LuXCircle class={styles.charterNotSigned} />
+                            </td>
+                          );
+                        }
+                        if (count === total) {
+                          return (
+                            <td key={list.id} class={styles.charterTdCell}>
+                              <LuCheckCircle class={styles.charterSigned} />
+                            </td>
+                          );
+                        }
+                        return (
+                          <td key={list.id} class={styles.charterTdCell}>
+                            <span class={styles.charterPartial}>
+                              {count}/{total}
+                            </span>
+                          </td>
+                        );
+                      })}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <Link
+              href="/comparateur/chartes/"
+              class={styles.charterDetailLink}
+            >
+              {t("charters.measureDetail")} →
+            </Link>
+          </section>
+
+          {/* Section 3: Program comparison */}
           <section class={styles.sectionCard}>
             <h2 class={styles.sectionTitle}>
               {t("comparator.programSection")}

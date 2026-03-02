@@ -27,6 +27,7 @@ export const Header = component$(() => {
       subItems: [
         { label: t("app.menu.compareProgrammes"), href: "/comparateur/" },
         { label: t("app.menu.compareIdeological"), href: "/comparateur/positionnement/" },
+        { label: t("app.menu.compareCharters"), href: "/comparateur/chartes/" },
       ] 
     },
     { label: t("app.menu.inscriptionElectorale"), href: "/inscription" },

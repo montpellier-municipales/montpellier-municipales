@@ -1,0 +1,19 @@
+{
+  "charters": {
+    "title": "Compromisos",
+    "description": "¿Qué listas candidatas de Montpellier firmaron los compromisos propuestos por las asociaciones?",
+    "signed": "Firmado",
+    "notSigned": "No firmado",
+    "partialSigned": "{{count}}/{{total}} medidas",
+    "noResponse": "Sin respuesta",
+    "viewCharter": "Ver el compromiso",
+    "externalSource": "Fuente externa",
+    "measures": "Medidas",
+    "signatories": "Signatarios",
+    "back": "← Volver a los compromisos",
+    "measureDetail": "Detalle por medida",
+    "noMeasures": "Compromiso global sin detalle por medida",
+    "partialCountOnly": "{{count}}/{{total}} (detalle no disponible)",
+    "metaDescription": "¿Qué listas candidatas en Montpellier firmaron los compromisos de asociaciones para las elecciones municipales de 2026?"
+  }
+}

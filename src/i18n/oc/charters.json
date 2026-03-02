@@ -1,0 +1,19 @@
+{
+  "charters": {
+    "title": "Chartes d'engadjament",
+    "description": "Las listas montpelhierenhas an signat las chartes prepausadas per d'associacions ?",
+    "signed": "Signat",
+    "notSigned": "Non signat",
+    "partialSigned": "{{count}}/{{total}} mesuras",
+    "noResponse": "Cap de resposta",
+    "viewCharter": "Veire la charta",
+    "externalSource": "Font extèrna",
+    "measures": "Mesuras",
+    "signatories": "Signataris",
+    "back": "← Tornar a las chartes",
+    "measureDetail": "Detalh per mesura",
+    "noMeasures": "Engadjament global sens detalh per mesura",
+    "partialCountOnly": "{{count}}/{{total}} (detalh indisponible)",
+    "metaDescription": "Quinas listas candidatas a Montpelhièr an signat las chartes d'associacions per las municipalas 2026 ?"
+  }
+}

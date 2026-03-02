@@ -102,3 +102,31 @@ export const ProgramMeasureSchema = z.object({
 });
 
 export type ProgramMeasure = z.infer<typeof ProgramMeasureSchema>;
+
+export const CharterMeasureSchema = z.object({
+  id: z.string(),
+  title: z.string(),
+  theme: z.string().optional(),
+});
+
+export const CharterSignatorySchema = z.object({
+  candidateId: z.string(),
+  signed: z.boolean(),
+  signedMeasureIds: z.array(z.string()),
+  signedCount: z.number().optional(), // override when specific measure IDs are unknown
+});
+
+export const CharterSchema = z.object({
+  id: z.string(),
+  slug: z.string(),
+  organization: z.string(),
+  title: z.string(),
+  description: z.string(),
+  externalUrl: z.string().optional(),
+  measures: z.array(CharterMeasureSchema),
+  signatories: z.array(CharterSignatorySchema),
+});
+
+export type Charter = z.infer<typeof CharterSchema>;
+export type CharterMeasure = z.infer<typeof CharterMeasureSchema>;
+export type CharterSignatory = z.infer<typeof CharterSignatorySchema>;

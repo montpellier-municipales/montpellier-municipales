@@ -1,0 +1,19 @@
+{
+  "charters": {
+    "title": "Chartes d'engagement",
+    "description": "Les listes montpelliéraines ont-elles signé les chartes proposées par des associations ?",
+    "signed": "Signé",
+    "notSigned": "Non signé",
+    "partialSigned": "{{count}}/{{total}} mesures",
+    "noResponse": "Pas de réponse",
+    "viewCharter": "Voir la charte",
+    "externalSource": "Source externe",
+    "measures": "Mesures",
+    "signatories": "Signataires",
+    "back": "← Retour aux chartes",
+    "measureDetail": "Détail par mesure",
+    "noMeasures": "Engagement global sans détail par mesure",
+    "partialCountOnly": "{{count}}/{{total}} (détail non disponible)",
+    "metaDescription": "Quelles listes candidates à Montpellier ont signé les chartes d'associations pour les municipales 2026 ?"
+  }
+}
