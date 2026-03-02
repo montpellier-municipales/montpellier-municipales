@@ -10,12 +10,11 @@ import { isServer } from "@builder.io/qwik";
 import {
   routeLoader$,
   useLocation,
-  useNavigate,
   Link,
   type DocumentHead,
   type StaticGenerateHandler,
 } from "@builder.io/qwik-city";
-import { getAllLists, getListsByIds } from "~/services/lists";
+import { getAllLists } from "~/services/lists";
 import { getCandidateProgram } from "~/services/program";
 import { Tooltip } from "@qwik-ui/headless";
 import { OrdinalAxisPlot } from "~/components/OrdinalAxisPlot/OrdinalAxisPlot";
@@ -23,52 +22,34 @@ import * as styles from "./comparator.css";
 import { inlineTranslate, useSpeak } from "qwik-speak";
 import { LuCircle, LuCheckCircle } from "@qwikest/icons/lucide";
 
-export const useComparatorData = routeLoader$(async ({ url, locale }) => {
+// Pre-load ALL lists + their programs at SSG time.
+// No URL-param dependency — selection is fully client-side.
+export const useComparatorData = routeLoader$(async ({ locale }) => {
   const lang = locale();
-  const allAvailableLists = await getAllLists();
+  const allLists = await getAllLists();
 
-  const selectedIdsParam = url.searchParams.get("listes");
-  let selectedLists: Array<{
-    id: string;
-    name: string;
-    headOfList: string;
-    logoUrl: string;
-    candidatePictureUrl: string;
-    positioning: {
-      economy: number;
-      societal: number;
-      governance: number;
-      security: number;
-      ecology: number;
-    };
-    measures: Awaited<ReturnType<typeof getCandidateProgram>>;
-  }> = [];
-
-  if (selectedIdsParam) {
-    const ids = selectedIdsParam.split(",").filter(Boolean);
-    const lists = await getListsByIds(ids);
-    selectedLists = await Promise.all(
-      lists.map(async (list) => ({
+  const allListsWithPrograms = await Promise.all(
+    allLists.map(async (list) => {
+      const measures = await getCandidateProgram(list.id, lang);
+      return {
         id: list.id,
         name: list.name,
         headOfList: list.headOfList,
         logoUrl: list.logoUrl,
         candidatePictureUrl: list.candidatePictureUrl,
         positioning: list.positioning,
-        measures: await getCandidateProgram(list.id, lang),
-      })),
-    );
-  }
+        // Only summary fields — content HTML is not needed in the comparator
+        measures: measures.map((m) => ({
+          id: m.id,
+          slug: m.slug,
+          title: m.title,
+          tags: m.tags,
+        })),
+      };
+    }),
+  );
 
-  return {
-    allAvailableLists: allAvailableLists.map((l) => ({
-      id: l.id,
-      name: l.name,
-      headOfList: l.headOfList,
-      logoUrl: l.logoUrl,
-    })),
-    selectedLists,
-  };
+  return { allListsWithPrograms };
 });
 
 const dimensions = [
@@ -84,23 +65,26 @@ export default component$(() => {
   const t = inlineTranslate();
   const data = useComparatorData();
   const loc = useLocation();
-  const navigate = useNavigate();
 
-  const selectedListIds = useSignal<string[]>(
-    data.value.selectedLists.map((l) => l.id),
-  );
-
+  // Start empty — initialized from URL on the client after hydration
+  const selectedListIds = useSignal<string[]>([]);
   const activeTag = useSignal<string | null>(null);
 
-  // Sync URL when selection changes
+  // Read ?listes= from URL on client mount (runs once, static-site compatible)
+  useTask$(() => {
+    if (isServer) return;
+    const param = loc.url.searchParams.get("listes");
+    selectedListIds.value = param ? param.split(",").filter(Boolean) : [];
+  });
+
+  // Keep URL in sync via replaceState — no navigation, no loader re-run needed
   useTask$(({ track }) => {
     track(() => selectedListIds.value);
     if (isServer) return;
-    const newSearchParams = new URLSearchParams();
-    if (selectedListIds.value.length > 0) {
-      newSearchParams.set("listes", selectedListIds.value.join(","));
-    }
-    navigate(`${loc.url.pathname}?${newSearchParams.toString()}`);
+    const qs = selectedListIds.value.length
+      ? `?listes=${selectedListIds.value.join(",")}`
+      : "";
+    window.history.replaceState(null, "", `${loc.url.pathname}${qs}`);
   });
 
   const toggleList = $((id: string) => {
@@ -111,8 +95,15 @@ export default component$(() => {
     }
   });
 
+  // Derived entirely from client-side signal + pre-loaded data — no server round-trip
+  const selectedLists = useComputed$(() =>
+    data.value.allListsWithPrograms.filter((l) =>
+      selectedListIds.value.includes(l.id),
+    ),
+  );
+
   const allTags = useComputed$(() => {
-    const tags = data.value.selectedLists.flatMap((l) =>
+    const tags = selectedLists.value.flatMap((l) =>
       l.measures.flatMap((m) => m.tags || []),
     );
     return [...new Set(tags)].sort();
@@ -126,7 +117,7 @@ export default component$(() => {
       <section class={styles.sectionCard}>
         <h2 class={styles.sectionTitle}>{t("comparator.selectLists")}</h2>
         <div class={styles.chips}>
-          {data.value.allAvailableLists.map((list) => {
+          {data.value.allListsWithPrograms.map((list) => {
             const isSelected = selectedListIds.value.includes(list.id);
             return (
               <button
@@ -142,13 +133,13 @@ export default component$(() => {
         </div>
       </section>
 
-      {data.value.selectedLists.length === 0 && (
+      {selectedLists.value.length === 0 && (
         <p class={styles.emptyState}>{t("comparator.noListSelected")}</p>
       )}
 
-      {data.value.selectedLists.length > 0 && (
+      {selectedLists.value.length > 0 && (
         <>
-          {/* Section 1: Positioning */}
+          {/* Section 1: Positioning axes */}
           <section class={styles.sectionCard}>
             <h2 class={styles.sectionTitle}>
               {t("comparator.positioningSection")}
@@ -158,7 +149,7 @@ export default component$(() => {
             </p>
             <div class={styles.axesStack}>
               {dimensions.map((dim) => {
-                const items = data.value.selectedLists.map((c) => ({
+                const items = selectedLists.value.map((c) => ({
                   id: c.id,
                   value: t(
                     `comparator.positioning.labels.${dim.id}.${c.positioning[dim.id as keyof typeof c.positioning]}`,
@@ -188,15 +179,15 @@ export default component$(() => {
 
                 return (
                   <div key={dim.id} class={styles.dimensionGroup}>
-                    <h2 class={styles.dimensionTitle}>
-                      <span>
-                        {t(`comparator.positioning.dimensions.${dim.id}`)}
-                      </span>
-                    </h2>
+                    <h3 class={styles.dimensionTitle}>
+                      {t(`comparator.positioning.dimensions.${dim.id}`)}
+                    </h3>
                     <div class={styles.axisWrapper}>
                       <OrdinalAxisPlot
                         axis={Array.from({ length: dim.max }).map((_, i) =>
-                          t(`comparator.positioning.labels.${dim.id}.${i + 1}`),
+                          t(
+                            `comparator.positioning.labels.${dim.id}.${i + 1}`,
+                          ),
                         )}
                         items={items}
                       />
@@ -248,10 +239,10 @@ export default component$(() => {
             <div
               class={styles.comparisonGrid}
               style={{
-                gridTemplateColumns: `repeat(${data.value.selectedLists.length}, 1fr)`,
+                gridTemplateColumns: `repeat(${selectedLists.value.length}, 1fr)`,
               }}
             >
-              {data.value.selectedLists.map((list) => {
+              {selectedLists.value.map((list) => {
                 const filtered = list.measures.filter(
                   (m) =>
                     activeTag.value === null ||
@@ -316,7 +307,7 @@ export const head: DocumentHead = () => {
   };
 };
 
-// SSG: generate the empty default page
+// SSG: one page, all data baked in, selection is fully client-side
 export const onStaticGenerate: StaticGenerateHandler = async () => {
   return {
     params: [{}],
