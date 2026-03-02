@@ -43,43 +43,67 @@ export const sectionDesc = style({
   margin: 0,
 });
 
-export const chips = style({
-  display: "flex",
-  flexWrap: "wrap",
-  gap: "0.5rem",
+export const candidateGrid = style({
+  display: "grid",
+  gridTemplateColumns: "repeat(auto-fill, minmax(150px, 1fr))",
+  gap: "0.75rem",
 });
 
-export const chip = style({
+export const candidateCard = style({
   display: "flex",
+  flexDirection: "column",
   alignItems: "center",
-  gap: "0.375rem",
-  padding: "0.5rem 1rem",
+  gap: "0.5rem",
+  padding: "1rem 0.75rem",
   border: `1px solid ${vars.color.border}`,
-  borderRadius: "9999px",
+  borderRadius: "0.875rem",
   backgroundColor: "transparent",
   color: vars.color.text,
   cursor: "pointer",
-  fontSize: "0.875rem",
   fontFamily: vars.font.body,
+  textAlign: "center",
+  transition: "border-color 0.15s, background-color 0.15s",
   ":hover": {
     borderColor: vars.color.primary,
-    color: vars.color.primary,
+    backgroundColor: vars.color.primaryTransparent,
   },
 });
 
-export const chipActive = style({
+export const candidateCardActive = style({
   display: "flex",
+  flexDirection: "column",
   alignItems: "center",
-  gap: "0.375rem",
-  padding: "0.5rem 1rem",
+  gap: "0.5rem",
+  padding: "1rem 0.75rem",
   border: `2px solid ${vars.color.primary}`,
-  borderRadius: "9999px",
+  borderRadius: "0.875rem",
   backgroundColor: vars.color.primaryTransparent,
   color: vars.color.primary,
   cursor: "pointer",
-  fontSize: "0.875rem",
   fontFamily: vars.font.body,
-  fontWeight: "600",
+  textAlign: "center",
+});
+
+export const candidateCardAvatar = style({
+  width: "56px",
+  height: "56px",
+  borderRadius: "50%",
+  objectFit: "cover",
+  flexShrink: 0,
+});
+
+export const candidateCardHead = style({
+  fontSize: "0.9rem",
+  fontWeight: "700",
+  lineHeight: "1.2",
+  margin: 0,
+});
+
+export const candidateCardListName = style({
+  fontSize: "0.7rem",
+  color: vars.color.textMuted,
+  margin: 0,
+  lineHeight: "1.3",
 });
 
 export const emptyState = style({

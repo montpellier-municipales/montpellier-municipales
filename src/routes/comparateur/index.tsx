@@ -2,6 +2,7 @@ import {
   component$,
   useSignal,
   useTask$,
+  useVisibleTask$,
   $,
   useComputed$,
   type JSXOutput,
@@ -21,7 +22,7 @@ import { Tooltip } from "@qwik-ui/headless";
 import { OrdinalAxisPlot } from "~/components/OrdinalAxisPlot/OrdinalAxisPlot";
 import * as styles from "./comparator.css";
 import { inlineTranslate, useSpeak } from "qwik-speak";
-import { LuCircle, LuCheckCircle, LuXCircle } from "@qwikest/icons/lucide";
+import { LuCheckCircle, LuXCircle } from "@qwikest/icons/lucide";
 
 // Pre-load ALL lists + their programs at SSG time.
 // No URL-param dependency — selection is fully client-side.
@@ -75,12 +76,14 @@ export default component$(() => {
   const selectedListIds = useSignal<string[]>([]);
   const activeTag = useSignal<string | null>(null);
 
-  // Read ?listes= from URL on client mount (runs once, static-site compatible)
-  useTask$(() => {
-    if (isServer) return;
-    const param = loc.url.searchParams.get("listes");
+  // Read ?listes= from URL on client mount.
+  // useVisibleTask$ with "document-ready" is guaranteed to run on the client only.
+  // useTask$ without track() is marked "completed" during SSR and never re-runs.
+  // eslint-disable-next-line qwik/no-use-visible-task
+  useVisibleTask$(() => {
+    const param = new URLSearchParams(window.location.search).get("listes");
     selectedListIds.value = param ? param.split(",").filter(Boolean) : [];
-  });
+  }, { strategy: "document-ready" });
 
   // Keep URL in sync via replaceState — no navigation, no loader re-run needed
   useTask$(({ track }) => {
@@ -118,20 +121,31 @@ export default component$(() => {
     <div class={styles.container}>
       <h1 class={styles.pageTitle}>{t("app.menu.compareProgrammes")}</h1>
 
-      {/* List selection chips */}
+      {/* List selection cards */}
       <section class={styles.sectionCard}>
         <h2 class={styles.sectionTitle}>{t("comparator.selectLists")}</h2>
-        <div class={styles.chips}>
+        <div class={styles.candidateGrid}>
           {data.value.allListsWithPrograms.map((list) => {
             const isSelected = selectedListIds.value.includes(list.id);
             return (
               <button
                 key={list.id}
-                class={isSelected ? styles.chipActive : styles.chip}
+                class={
+                  isSelected
+                    ? styles.candidateCardActive
+                    : styles.candidateCard
+                }
                 onClick$={() => toggleList(list.id)}
               >
-                {isSelected ? <LuCheckCircle /> : <LuCircle />}
-                {list.name}
+                <img
+                  src={list.candidatePictureUrl}
+                  alt={list.headOfList}
+                  class={styles.candidateCardAvatar}
+                  width={56}
+                  height={56}
+                />
+                <span class={styles.candidateCardHead}>{list.headOfList}</span>
+                <span class={styles.candidateCardListName}>{list.name}</span>
               </button>
             );
           })}
