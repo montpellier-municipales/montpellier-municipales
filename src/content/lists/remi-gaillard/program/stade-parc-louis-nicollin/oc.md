@@ -1,7 +1,7 @@
 ---
 title: "Lo Stade-Parc Louis Nicollin : un luòc de vida 365 jorns per an"
 slug: "stade-parc-louis-nicollin"
-tags: ["sport", "culture", "environnement", "changement climatique", "transport et mobilités"]
+tags: ["sport", "culture", "transport et mobilités"]
 lang: "oc"
 positioning:
   economy: 2

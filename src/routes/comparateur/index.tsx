@@ -18,6 +18,7 @@ import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { getAllLists } from "~/services/lists";
 import { getCandidateProgram } from "~/services/program";
+import { THEMES } from "~/services/thematiques";
 import { getAllCharters } from "~/services/charters";
 import * as styles from "./comparator.css";
 import { PositioningSection } from "./PositioningSection";
@@ -151,7 +152,26 @@ export default component$(() => {
 
   return (
     <div class={styles.container}>
-      <h1 class={styles.pageTitle}>{t("app.menu.compareProgrammes")}</h1>
+      <div class={styles.heroBlock}>
+        <h1 class={styles.pageTitle}>{t("comparator.pageTitle@@Municipales 2026 : comparer les programmes")}</h1>
+        <p class={styles.intro}>{t("comparator.seoIntro")}</p>
+      </div>
+
+      {/* Thématiques navigation */}
+      <section class={styles.sectionCard}>
+        <h2 class={styles.sectionTitle}>{t("comparator.themesSection")}</h2>
+        <nav class={styles.themesGrid}>
+          {Object.values(THEMES).map((theme) => (
+            <Link
+              key={theme.slug}
+              href={`/thematiques/${theme.urlSlug}/`}
+              class={styles.themeLink}
+            >
+              {theme.title}
+            </Link>
+          ))}
+        </nav>
+      </section>
 
       {/* List selection cards */}
       <section class={styles.sectionCard}>
@@ -392,7 +412,7 @@ export default component$(() => {
 export const head: DocumentHead = () => {
   const t = inlineTranslate();
   return {
-    title: t("app.menu.compareProgrammes"),
+    title: t("comparator.pageTitle@@Municipales 2026 : comparer les programmes"),
     meta: [
       {
         name: "description",

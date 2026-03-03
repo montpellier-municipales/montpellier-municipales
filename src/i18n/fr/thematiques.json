@@ -1,0 +1,64 @@
+{
+  "thematiques": {
+    "breadcrumb": "Comparateur",
+    "quickAnswerIntro": "D'après notre comparateur,",
+    "positionedAs": "se positionne comme",
+    "and": "et",
+    "proposalSingular": "proposition",
+    "proposalPlural": "propositions",
+    "inOurComparator": "dans notre comparateur.",
+    "rankingSection": "Positionnement des candidats sur {{theme}}",
+    "compassLink": "Voir la Boussole Idéologique sur {{theme}} →",
+    "proposalsSection": "Leurs propositions sur {{theme}}",
+    "measureSingular": "mesure",
+    "measurePlural": "mesures",
+    "compareSection": "Comparer les programmes en détail",
+    "compareIntro": "Notre comparateur vous permet de mettre côte à côte les propositions de plusieurs listes.",
+    "compareCta": "Ouvrir le comparateur →",
+    "articlesSection": "Nos analyses",
+    "themes": {
+      "ecologie": {
+        "title": "Écologie",
+        "h1": "Quel candidat défend le mieux l'écologie à Montpellier en 2026 ?",
+        "intro": "Changement climatique, biodiversité, eau, déchets : les enjeux environnementaux sont au cœur des élections municipales de 2026 à Montpellier. Nous avons analysé les programmes et le positionnement idéologique de chaque liste pour vous permettre de comparer leurs engagements concrets.",
+        "seoTitle": "Quel candidat est le plus écologiste aux municipales de Montpellier 2026 ?",
+        "seoDescription": "Comparaison des programmes et positionnements écologiques des candidats aux élections municipales de Montpellier 2026."
+      },
+      "bien-ete-animal": {
+        "title": "Bien-être animal",
+        "h1": "Quel candidat défend le mieux le bien-être animal à Montpellier en 2026 ?",
+        "intro": "De la fourrière municipale aux pratiques de la restauration collective, la mairie de Montpellier a de nombreux leviers d'action pour améliorer le sort des animaux. Voici comment les candidats se positionnent.",
+        "seoTitle": "Bien-être animal aux municipales de Montpellier 2026 : qui s'engage ?",
+        "seoDescription": "Comparez les propositions sur le bien-être animal des candidats aux municipales de Montpellier 2026."
+      },
+      "protection-sociale": {
+        "title": "Protection sociale",
+        "h1": "Quel candidat défend le mieux la solidarité et la protection sociale à Montpellier ?",
+        "intro": "Logement abordable, aide alimentaire, accès aux soins : la mairie peut agir concrètement sur la précarité. Comparaison des propositions de chaque liste.",
+        "seoTitle": "Protection sociale et solidarité aux municipales de Montpellier 2026",
+        "seoDescription": "Comparez les propositions sur le logement, la santé, l'alimentation et la solidarité des candidats aux municipales de Montpellier 2026."
+      },
+      "democratie": {
+        "title": "Démocratie",
+        "h1": "Quel candidat propose la gouvernance la plus démocratique à Montpellier en 2026 ?",
+        "intro": "Budget participatif, conseils de quartier, transparence des décisions : comment les candidats conçoivent-ils la participation citoyenne dans la gestion de la ville ?",
+        "seoTitle": "Démocratie participative aux municipales de Montpellier 2026 : comparaison des candidats",
+        "seoDescription": "Comparez les propositions sur la démocratie participative et la gouvernance des candidats aux municipales de Montpellier 2026."
+      },
+      "justice-sociale": {
+        "title": "Justice sociale",
+        "h1": "Quel candidat défend le mieux l'émancipation et la justice sociale à Montpellier ?",
+        "intro": "Égalité femmes-hommes, droits LGBTQ+, lutte contre les discriminations : quels candidats portent les valeurs d'émancipation et de justice sociale pour Montpellier 2026 ?",
+        "seoTitle": "Justice sociale aux municipales de Montpellier 2026 : qui s'engage ?",
+        "seoDescription": "Comparez les propositions sur la justice sociale et l'émancipation des candidats aux municipales de Montpellier 2026."
+      },
+      "culture": {
+        "title": "Culture",
+        "h1": "Quelle vision culturelle pour Montpellier en 2026 ? Comparaison des candidats",
+        "intro": "Soutien aux artistes, festivals, patrimoine, accès à la culture pour tous : les candidats aux municipales de Montpellier 2026 ont-ils une politique culturelle ambitieuse ?",
+        "seoTitle": "Politique culturelle aux municipales de Montpellier 2026 : comparer les programmes",
+        "seoDescription": "Comparez les propositions culturelles des candidats aux municipales de Montpellier 2026."
+      }
+    }
+  }
+}

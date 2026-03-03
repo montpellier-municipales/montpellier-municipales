@@ -1,7 +1,7 @@
 ---
 title: "ستاد-بارك لويس نيكولين: مساحة معيشة 365 يومًا في السنة"
 slug: "stade-parc-louis-nicollin"
-tags: ["sport", "culture", "environnement", "changement climatique", "transport et mobilités"]
+tags: ["sport", "culture", "transport et mobilités"]
 lang: "ar"
 dir: "rtl"
 positioning:

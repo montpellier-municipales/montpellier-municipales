@@ -1,7 +1,7 @@
 ---
 title: "The Louis Nicollin Stade-Parc: A Living Space 365 Days a Year"
 slug: "stade-parc-louis-nicollin"
-tags: ["sport", "culture", "environnement", "changement climatique", "transport et mobilités"]
+tags: ["sport", "culture", "transport et mobilités"]
 lang: "en"
 positioning:
   economy: 2

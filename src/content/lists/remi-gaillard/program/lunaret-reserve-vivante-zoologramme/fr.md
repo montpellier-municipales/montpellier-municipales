@@ -8,7 +8,7 @@ positioning:
   societal: 5
   governance: null
   security: null
-  ecology: 4
+  ecology: 2
 ---
 
 Rémi Gaillard propose de transformer le Zoo du Lunaret en un parc vivant unique en Europe, alliant protection animale et technologie innovante.

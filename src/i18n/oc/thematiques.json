@@ -1,0 +1,64 @@
+{
+  "thematiques": {
+    "breadcrumb": "Comparaire",
+    "quickAnswerIntro": "Segon nòstre comparaire,",
+    "positionedAs": "se posiciona coma",
+    "and": "e",
+    "proposalSingular": "proposicion",
+    "proposalPlural": "proposicions",
+    "inOurComparator": "dins nòstre comparaire.",
+    "rankingSection": "Posicionament dels candidats sus {{theme}}",
+    "compassLink": "Veire la Bossòla Ideologica sus {{theme}} →",
+    "proposalsSection": "Lors proposicions sus {{theme}}",
+    "measureSingular": "mesura",
+    "measurePlural": "mesuras",
+    "compareSection": "Comparar los programas en detalh",
+    "compareIntro": "Nòstre comparaire vos permet de metre costat per costat las proposicions de mai d'una lista.",
+    "compareCta": "Dobrir lo comparaire →",
+    "articlesSection": "Nòstras analisis",
+    "themes": {
+      "ecologie": {
+        "title": "Ecologia",
+        "h1": "Quin candidat defènd mai l'ecologia a Montpelhièr en 2026 ?",
+        "intro": "Cambiament climatic, biodiversitat, aiga, dejets : los enjòcs ambientals son al còr de las eleccions municipalas de 2026 a Montpelhièr. Avèm analizat los programas e lo posicionament ideologic de caduna de las listas per vos permetre de comparar lors engajaments concrets.",
+        "seoTitle": "Quin candidat es lo mai ecologista a las municipalas de Montpelhièr 2026 ?",
+        "seoDescription": "Comparason dels programas e posicionaments ecologics dels candidats a las eleccions municipalas de Montpelhièr 2026."
+      },
+      "bien-ete-animal": {
+        "title": "Ben-estar animal",
+        "h1": "Quin candidat defènd mai lo ben-estar animal a Montpelhièr en 2026 ?",
+        "intro": "De la foirièra municipala a las practicas de la restauracion collectiva, la mairiá de Montpelhièr a fòrça levièrs d'accion per melhorar la sort dels animals. Aicí cossí se posicionan los candidats.",
+        "seoTitle": "Ben-estar animal a las municipalas de Montpelhièr 2026 : quin s'engaja ?",
+        "seoDescription": "Comparatz las proposicions sus lo ben-estar animal dels candidats a las municipalas de Montpelhièr 2026."
+      },
+      "protection-sociale": {
+        "title": "Proteccion sociala",
+        "h1": "Quin candidat defènd mai la solidaritat e la proteccion sociala a Montpelhièr ?",
+        "intro": "Alojament abordable, ajuda alimentari, accès als sòins : la mairiá pòt agir concretament sus la precaritat. Comparason de las proposicions de caduna de las listas.",
+        "seoTitle": "Proteccion sociala e solidaritat a las municipalas de Montpelhièr 2026",
+        "seoDescription": "Comparatz las proposicions sus l'alojament, la santat, l'alimentacion e la solidaritat dels candidats a las municipalas de Montpelhièr 2026."
+      },
+      "democratie": {
+        "title": "Democracia",
+        "h1": "Quin candidat propòsa la governança la mai democratica a Montpelhièr en 2026 ?",
+        "intro": "Budget participatiu, conselhs de quartiér, transparéncia de las decisions : cossí los candidats concebon la participacion ciutadana dins la gestion de la vila ?",
+        "seoTitle": "Democracia participativa a las municipalas de Montpelhièr 2026 : comparason dels candidats",
+        "seoDescription": "Comparatz las proposicions sus la democracia participativa e la governança dels candidats a las municipalas de Montpelhièr 2026."
+      },
+      "justice-sociale": {
+        "title": "Justícia sociala",
+        "h1": "Quin candidat defènd mai l'emancipacion e la justícia sociala a Montpelhièr ?",
+        "intro": "Egalitat femnas-òmes, dreches LGBTQ+, luchas contra las discriminacions : quins candidats pòrtan los valors d'emancipacion e de justícia sociala per Montpelhièr 2026 ?",
+        "seoTitle": "Justícia sociala a las municipalas de Montpelhièr 2026 : quin s'engaja ?",
+        "seoDescription": "Comparatz las proposicions sus la justícia sociala e l'emancipacion dels candidats a las municipalas de Montpelhièr 2026."
+      },
+      "culture": {
+        "title": "Cultura",
+        "h1": "Quina vision culturala per Montpelhièr en 2026 ? Comparason dels candidats",
+        "intro": "Sosten als artistas, festivals, patrimòni, accès a la cultura per tots : los candidats a las municipalas de Montpelhièr 2026 an una politica culturala ambiciosa ?",
+        "seoTitle": "Politica culturala a las municipalas de Montpelhièr 2026 : comparar los programas",
+        "seoDescription": "Comparatz las proposicions culturalas dels candidats a las municipalas de Montpelhièr 2026."
+      }
+    }
+  }
+}

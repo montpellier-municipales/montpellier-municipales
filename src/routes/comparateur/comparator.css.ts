@@ -11,12 +11,20 @@ export const container = style({
   gap: "3rem",
 });
 
+export const heroBlock = style({
+  display: "flex",
+  flexDirection: "column",
+  alignItems: "center",
+  gap: "0.75rem",
+});
+
 export const pageTitle = style({
   fontSize: "2rem",
   fontWeight: "800",
   color: vars.color.title,
   textAlign: "center",
   letterSpacing: "-0.02em",
+  margin: 0,
 });
 
 export const sectionCard = style({
@@ -399,4 +407,34 @@ export const charterDetailLink = style({
   textDecoration: "none",
   fontWeight: "600",
   ":hover": { textDecoration: "underline" },
+});
+
+export const intro = style({
+  fontSize: "1rem",
+  color: vars.color.textMuted,
+  lineHeight: "1.7",
+  maxWidth: "680px",
+  margin: "0 auto",
+  textAlign: "center",
+});
+
+export const themesGrid = style({
+  display: "flex",
+  flexWrap: "wrap",
+  gap: "0.5rem",
+});
+
+export const themeLink = style({
+  padding: "0.4rem 1rem",
+  border: `1px solid ${vars.color.border}`,
+  borderRadius: "9999px",
+  color: vars.color.text,
+  textDecoration: "none",
+  fontSize: "0.875rem",
+  fontWeight: "500",
+  transition: "border-color 0.15s, color 0.15s",
+  ":hover": {
+    borderColor: vars.color.primary,
+    color: vars.color.primary,
+  },
 });

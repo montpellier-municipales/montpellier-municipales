@@ -4,6 +4,8 @@ import { join } from "node:path";
 import { config } from "~/speak-config";
 import { getBlogPost } from "~/services/blog";
 import { getAllLists } from "~/services/lists";
+import { getAllMeasuresForTags } from "~/services/program";
+import { THEMES_BY_URL_SLUG } from "~/services/thematiques";
 
 /**
  * Charge les traductions manuellement pour la génération de markdown
@@ -130,10 +132,145 @@ export const serveBlogMarkdown: RequestHandler = async (ev) => {
 
         const filePath = join(process.cwd(), "src/content/blog", post.id, `${lang}.md`);
         const content = await readFile(filePath, "utf-8");
-        
+
         ev.headers.set("Content-Type", "text/markdown; charset=utf-8");
         ev.text(200, content);
     } catch {
         ev.text(404, "Markdown source not found");
+    }
+};
+
+export const serveThemeMarkdown: RequestHandler = async (ev) => {
+    try {
+        const lang = ev.params.lang || config.defaultLocale.lang;
+        const theme = THEMES_BY_URL_SLUG[ev.params.theme];
+        if (!theme) {
+            ev.text(404, "Theme not found");
+            return;
+        }
+
+        const langPrefix = lang === config.defaultLocale.lang ? "" : `/${lang}`;
+        const baseUrl = `https://montpellier-municipales.fr${langPrefix}`;
+
+        const [thematiquesI18n, comparatorI18n, allLists, measuresByCandidate] =
+            await Promise.all([
+                getTranslations(lang, "thematiques"),
+                getTranslations(lang, "comparator"),
+                getAllLists(),
+                getAllMeasuresForTags(theme.tags, lang),
+            ]);
+
+        const positioningLabels =
+            (comparatorI18n as { comparator?: { positioning?: { labels?: Record<string, Record<string, string>> } } })
+                .comparator?.positioning?.labels ?? {};
+
+        const themeT =
+            (thematiquesI18n as { thematiques?: { themes?: Record<string, { title: string; h1: string; intro: string }> } })
+                .thematiques?.themes?.[theme.slug] ?? null;
+
+        const title = themeT?.title ?? theme.title;
+        const h1 = themeT?.h1 ?? theme.h1;
+        const intro = themeT?.intro ?? theme.intro;
+
+        const ui = (thematiquesI18n as {
+            thematiques?: {
+                rankingSection?: string;
+                proposalsSection?: string;
+                measureSingular?: string;
+                measurePlural?: string;
+            };
+        }).thematiques ?? {};
+
+        const rankingSection = (ui.rankingSection ?? "Positionnement des candidats sur {{theme}}").replace("{{theme}}", title.toLowerCase());
+        const proposalsSection = (ui.proposalsSection ?? "Leurs propositions sur {{theme}}").replace("{{theme}}", title.toLowerCase());
+        const measureSingular = ui.measureSingular ?? "mesure";
+        const measurePlural = ui.measurePlural ?? "mesures";
+
+        const rankedCandidates = allLists
+            .map((list) => {
+                const entry = measuresByCandidate.find((e) => e.candidateId === list.id);
+                const measures = entry?.measures ?? [];
+                const positioningScore = theme.positioningDimension
+                    ? list.positioning[theme.positioningDimension]
+                    : null;
+                const scoredMeasures = theme.positioningDimension
+                    ? measures.filter(
+                          (m) => (m.positioning?.[theme.positioningDimension!] ?? null) !== null,
+                      )
+                    : [];
+                const measurePositioningAvg =
+                    scoredMeasures.length > 0
+                        ? scoredMeasures.reduce(
+                              (sum, m) =>
+                                  sum + (m.positioning![theme.positioningDimension!] ?? 0),
+                              0,
+                          ) / scoredMeasures.length
+                        : 0;
+                const positioningLabel =
+                    theme.positioningDimension && positioningScore !== null
+                        ? (positioningLabels[theme.positioningDimension]?.[String(positioningScore)] ?? null)
+                        : null;
+                return {
+                    id: list.id,
+                    name: list.name,
+                    headOfList: list.headOfList,
+                    positioningScore,
+                    positioningLabel,
+                    measureCount: measures.length,
+                    measurePositioningAvg,
+                    measures,
+                };
+            })
+            .sort((a, b) =>
+                theme.positioningDimension
+                    ? (b.positioningScore ?? 1) *
+                          b.measurePositioningAvg *
+                          Math.log2(b.measureCount + 1.5) -
+                      (a.positioningScore ?? 1) *
+                          a.measurePositioningAvg *
+                          Math.log2(a.measureCount + 1.5)
+                    : b.measureCount - a.measureCount,
+            );
+
+        const lines: string[] = [];
+        lines.push(`# ${h1}`);
+        lines.push("");
+        lines.push(intro);
+        lines.push("");
+        lines.push(`Source: ${baseUrl}/thematiques/${theme.urlSlug}/`);
+        lines.push("");
+
+        lines.push(`## ${rankingSection}`);
+        lines.push("");
+        rankedCandidates.forEach((c, i) => {
+            const labelPart = c.positioningLabel ? ` — ${c.positioningLabel}` : "";
+            const countPart = ` — ${c.measureCount} ${c.measureCount !== 1 ? measurePlural : measureSingular}`;
+            lines.push(
+                `${i + 1}. **${c.headOfList}** ([${c.name}](${baseUrl}/listes/${c.id}/))${labelPart}${countPart}`,
+            );
+        });
+        lines.push("");
+
+        const candidatesWithMeasures = rankedCandidates.filter((c) => c.measureCount > 0);
+        if (candidatesWithMeasures.length > 0) {
+            lines.push(`## ${proposalsSection}`);
+            lines.push("");
+            for (const c of candidatesWithMeasures) {
+                lines.push(`### ${c.headOfList} · ${c.name}`);
+                lines.push("");
+                for (const m of c.measures) {
+                    lines.push(
+                        `- [${m.title}](${baseUrl}/listes/${c.id}/programme/${m.slug}/)`,
+                    );
+                }
+                lines.push("");
+            }
+        }
+
+        ev.headers.set("Content-Type", "text/markdown; charset=utf-8");
+        ev.text(200, lines.join("\n"));
+    } catch (e) {
+        console.error("Error serving theme markdown:", e);
+        ev.text(404, "Markdown not found");
     }
 };

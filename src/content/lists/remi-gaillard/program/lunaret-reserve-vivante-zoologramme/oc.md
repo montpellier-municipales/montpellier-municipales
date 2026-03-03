@@ -8,7 +8,7 @@ positioning:
   societal: 5
   governance: null
   security: null
-  ecology: 4
+  ecology: 2
 ---
 
 Rémi Gaillard prepausa de transformar lo Zoo de Lunaret en un pargue vivent unic en Euròpa, amb un "Zoologramme" (animals olografics) e un centre de suènhs pels animals salvatges.

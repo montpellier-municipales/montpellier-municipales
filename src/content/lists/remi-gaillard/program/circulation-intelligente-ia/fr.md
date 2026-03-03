@@ -1,14 +1,14 @@
 ---
 title: "Une circulation intelligente grâce à l'IA"
 slug: "circulation-intelligente-ia"
-tags: ["transport et mobilités", "environnement", "changement climatique"]
+tags: ["transport et mobilités"]
 lang: "fr"
 positioning:
   economy: null
   societal: null
   governance: null
   security: null
-  ecology: 2
+  ecology: 1
 ---
 
 Rémi Gaillard propose d'utiliser l'intelligence artificielle pour fluidifier la circulation à Montpellier en rendant les feux de signalisation intelligents.

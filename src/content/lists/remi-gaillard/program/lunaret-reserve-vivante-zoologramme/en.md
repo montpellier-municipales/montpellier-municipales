@@ -8,7 +8,7 @@ positioning:
   societal: 5
   governance: null
   security: null
-  ecology: 4
+  ecology: 2
 ---
 
 Rémi Gaillard proposes to transform the Lunaret Zoo into a unique living park in Europe, featuring a "Zoologram" (holographic animals) and a wild animal care center.

@@ -1,14 +1,14 @@
 ---
 title: "Gestión inteligente del tráfico con IA"
 slug: "trafico-inteligente-ia"
-tags: ["transport et mobilités", "environnement", "changement climatique"]
+tags: ["transport et mobilités"]
 lang: "es"
 positioning:
   economy: null
   societal: null
   governance: null
   security: null
-  ecology: 2
+  ecology: 1
 ---
 
 Rémi Gaillard propone utilizar inteligencia artificial para fluidificar el tráfico en Montpellier haciendo que los semáforos sean inteligentes.

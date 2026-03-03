@@ -107,6 +107,44 @@ export async function getAllMeasuresForPositioningValue(
 }
 
 /**
+ * Récupère toutes les mesures de tous les candidats correspondant à un ou plusieurs tags.
+ * Retourne les mesures enrichies avec les métadonnées candidat, triées par candidat.
+ */
+export const getAllMeasuresForTags = async (
+  tags: string[],
+  lang: string,
+): Promise<
+  Array<{
+    candidateId: string;
+    candidateName: string;
+    candidateHeadOfList: string;
+    candidateLogo: string;
+    candidatePictureUrl: string;
+    measures: ProgramMeasure[];
+  }>
+> => {
+  const allLists = await getAllLists();
+  const results = [];
+
+  for (const list of allLists.filter((l) => !l.disabled)) {
+    const measures = await getCandidateProgram(list.id, lang);
+    const relevant = measures.filter((m) => m.tags.some((t) => tags.includes(t)));
+    if (relevant.length > 0) {
+      results.push({
+        candidateId: list.id,
+        candidateName: list.name,
+        candidateHeadOfList: list.headOfList,
+        candidateLogo: list.logoUrl,
+        candidatePictureUrl: list.candidatePictureUrl,
+        measures: relevant,
+      });
+    }
+  }
+
+  return results;
+};
+
+/**
  * Récupère une mesure spécifique
  */
 export const getProgramMeasure = async (
