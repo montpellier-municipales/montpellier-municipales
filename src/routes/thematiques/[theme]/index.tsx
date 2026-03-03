@@ -12,6 +12,7 @@ import { getAllLists } from "~/services/lists";
 import { getAllMeasuresForTags } from "~/services/program";
 import { getBlogPostsByTag } from "~/services/blog";
 import { THEMES, THEMES_BY_URL_SLUG } from "~/services/thematiques";
+import { getCharter } from "~/services/charters";
 import type { BlogPost } from "~/types/schema";
 import * as styles from "./theme-page.css";
 
@@ -86,6 +87,10 @@ export const useThemeData = routeLoader$(async ({ params, locale, fail }) => {
     seoDescription: themeT?.seoDescription ?? theme.seoDescription,
   };
 
+  const relevantCharters = (theme.relevantCharters ?? [])
+    .map((slug) => getCharter(slug))
+    .filter((c): c is NonNullable<typeof c> => c !== null);
+
   const rankedCandidates = allLists
     .map((list) => {
       const entry = measuresByCandidate.find((e) => e.candidateId === list.id);
@@ -107,6 +112,42 @@ export const useThemeData = routeLoader$(async ({ params, locale, fail }) => {
               0,
             ) / scoredMeasures.length
           : 0;
+
+      const charterInfos = relevantCharters.map((charter) => {
+        const signatory = charter.signatories.find(
+          (s) => s.candidateId === list.id,
+        );
+        const totalMeasures = charter.measures.length;
+        let ratio = 0;
+        if (signatory) {
+          if (totalMeasures === 0) {
+            ratio = signatory.signed ? 1 : 0;
+          } else if (signatory.signedCount != null) {
+            ratio = signatory.signedCount / totalMeasures;
+          } else {
+            ratio = signatory.signedMeasureIds.length / totalMeasures;
+          }
+        }
+        return {
+          id: charter.id,
+          shortName:
+            charter.id === "cite-bergere"
+              ? "Cité Bergère"
+              : charter.id.toUpperCase(),
+          slug: charter.slug,
+          ratio,
+          signed: signatory?.signed ?? false,
+          signedCount: signatory?.signedCount ?? null,
+          totalMeasures,
+        };
+      });
+      const charterCoefficient =
+        charterInfos.length > 0
+          ? 1 +
+            charterInfos.reduce((sum, c) => sum + c.ratio, 0) /
+              charterInfos.length
+          : 1;
+
       return {
         id: list.id,
         name: list.name,
@@ -123,17 +164,22 @@ export const useThemeData = routeLoader$(async ({ params, locale, fail }) => {
         measureCount: measures.length,
         measurePositioningAvg,
         measures,
+        charterInfos,
+        charterCoefficient,
       };
     })
     .sort((a, b) =>
       theme.positioningDimension
         ? (b.positioningScore ?? 1) *
-            b.measurePositioningAvg *
-            Math.log2(b.measureCount + 1.5) -
+            (b.measurePositioningAvg + 1) *
+            Math.log2(b.measureCount + 1.5) *
+            b.charterCoefficient -
           (a.positioningScore ?? 1) *
-            a.measurePositioningAvg *
-            Math.log2(a.measureCount + 1.5)
-        : b.measureCount - a.measureCount,
+            (a.measurePositioningAvg + 1) *
+            Math.log2(a.measureCount + 1.5) *
+            a.charterCoefficient
+        : b.measureCount * b.charterCoefficient -
+          a.measureCount * a.charterCoefficient,
     );
 
   let relatedArticles: BlogPost[] = [];
@@ -199,15 +245,29 @@ export default component$(() => {
                 {t("thematiques.inOurComparator@@dans notre comparateur.")}
               </>
             )}
+            {topCandidate.charterInfos.some((ci) => ci.ratio > 0) && (
+              <>
+                {" "}
+                {t("thematiques.charterSigned@@Il·elle a également signé")}{" "}
+                {topCandidate.charterInfos
+                  .filter((ci) => ci.ratio > 0)
+                  .map((ci) => ci.shortName)
+                  .join(" et ")}
+                {"."}
+              </>
+            )}
           </p>
         </div>
       )}
 
       <section class={styles.section}>
         <h2 class={styles.sectionTitle}>
-          {t("thematiques.rankingSection@@Positionnement des candidats sur {{theme}}", {
-            theme: translatedTheme.title.toLowerCase(),
-          })}
+          {t(
+            "thematiques.rankingSection@@Positionnement des candidats sur {{theme}}",
+            {
+              theme: translatedTheme.title.toLowerCase(),
+            },
+          )}
         </h2>
         <div class={styles.rankingTable}>
           {rankedCandidates.map((c, i) => (
@@ -238,6 +298,22 @@ export default component$(() => {
                   ? t("thematiques.measurePlural@@mesures")
                   : t("thematiques.measureSingular@@mesure")}
               </span>
+              {c.charterInfos.map((ci) => (
+                <span
+                  key={ci.id}
+                  class={
+                    ci.ratio === 0
+                      ? styles.charterChipUnsigned
+                      : ci.ratio < 1
+                        ? styles.charterChipPartial
+                        : styles.charterChipSigned
+                  }
+                >
+                  {ci.totalMeasures > 0
+                    ? `${ci.shortName} ${ci.signedCount ?? Math.round(ci.ratio * ci.totalMeasures)}/${ci.totalMeasures}`
+                    : `${ci.shortName} ${ci.ratio > 0 ? "✓" : "✗"}`}
+                </span>
+              ))}
             </div>
           ))}
         </div>
@@ -246,9 +322,12 @@ export default component$(() => {
             href={`${langPrefix}/comparateur/positionnement/${translatedTheme.positioningDimensionSlug}/`}
             class={styles.compassLink}
           >
-            {t("thematiques.compassLink@@Voir la Boussole Idéologique sur {{theme}} →", {
-              theme: translatedTheme.title.toLowerCase(),
-            })}
+            {t(
+              "thematiques.compassLink@@Voir la Boussole Idéologique sur {{theme}} →",
+              {
+                theme: translatedTheme.title.toLowerCase(),
+              },
+            )}
           </Link>
         )}
       </section>
@@ -256,9 +335,12 @@ export default component$(() => {
       {rankedCandidates.some((c) => c.measureCount > 0) && (
         <section class={styles.section}>
           <h2 class={styles.sectionTitle}>
-            {t("thematiques.proposalsSection@@Leurs propositions sur {{theme}}", {
-              theme: translatedTheme.title.toLowerCase(),
-            })}
+            {t(
+              "thematiques.proposalsSection@@Leurs propositions sur {{theme}}",
+              {
+                theme: translatedTheme.title.toLowerCase(),
+              },
+            )}
           </h2>
           {rankedCandidates
             .filter((c) => c.measureCount > 0)
@@ -358,7 +440,9 @@ export const head: DocumentHead = ({ resolveValue }) => {
   const data = resolveValue(useThemeData);
   return {
     title: data.translatedTheme.seoTitle,
-    meta: [{ name: "description", content: data.translatedTheme.seoDescription }],
+    meta: [
+      { name: "description", content: data.translatedTheme.seoDescription },
+    ],
   };
 };
 

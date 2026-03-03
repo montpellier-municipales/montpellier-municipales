@@ -302,3 +302,37 @@ export const articleExcerpt = style({
   color: vars.color.textMuted,
   lineHeight: 1.5,
 });
+
+export const charterChipSigned = style({
+  fontSize: "0.78rem",
+  fontWeight: 600,
+  padding: "0.25rem 0.6rem",
+  borderRadius: "99px",
+  backgroundColor: "rgba(16, 185, 129, 0.1)",
+  color: vars.color.success,
+  border: `1px solid ${vars.color.success}`,
+  whiteSpace: "nowrap",
+});
+
+export const charterChipPartial = style({
+  fontSize: "0.78rem",
+  fontWeight: 600,
+  padding: "0.25rem 0.6rem",
+  borderRadius: "99px",
+  backgroundColor: vars.color.backgroundMuted,
+  color: vars.color.secondary,
+  border: `1px solid ${vars.color.secondary}`,
+  whiteSpace: "nowrap",
+});
+
+export const charterChipUnsigned = style({
+  fontSize: "0.78rem",
+  fontWeight: 600,
+  padding: "0.25rem 0.6rem",
+  borderRadius: "99px",
+  backgroundColor: vars.color.backgroundMuted,
+  color: vars.color.textMuted,
+  border: `1px solid ${vars.color.border}`,
+  whiteSpace: "nowrap",
+  opacity: 0.6,
+});

@@ -14,6 +14,7 @@ export type Theme = {
     | "security"
     | "ecology";
   positioningDimensionSlug?: string;
+  relevantCharters?: string[];
 };
 
 export const THEMES: Record<string, Theme> = {
@@ -31,6 +32,7 @@ export const THEMES: Record<string, Theme> = {
     tags: ["changement climatique", "environnement", "déchets", "gestion de l'eau"],
     positioningDimension: "ecology",
     positioningDimensionSlug: "ecologie",
+    relevantCharters: ["cite-bergere"],
   },
   "bien-etre-animal": {
     slug: "bien-etre-animal",
@@ -46,6 +48,7 @@ export const THEMES: Record<string, Theme> = {
     tags: ["bien être animal"],
     positioningDimension: "societal",
     positioningDimensionSlug: "societe",
+    relevantCharters: ["l214", "paz"],
   },
   "protection-sociale": {
     slug: "protection-sociale",
