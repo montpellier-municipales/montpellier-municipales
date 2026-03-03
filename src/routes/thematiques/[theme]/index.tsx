@@ -278,8 +278,8 @@ export default component$(() => {
                 class={styles.candidateLink}
               >
                 <img
-                  src={c.logoUrl}
-                  alt={c.name}
+                  src={c.candidatePictureUrl}
+                  alt={c.headOfList}
                   width={32}
                   height={32}
                   class={styles.candidateLogo}
