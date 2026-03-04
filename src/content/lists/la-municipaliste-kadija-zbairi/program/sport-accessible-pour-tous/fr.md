@@ -1,0 +1,18 @@
+---
+title: "Rendre le sport accessible à tous les habitants, quel que soit l'âge ou les moyens"
+slug: "sport-accessible-pour-tous"
+tags: ["sport", "santé"]
+lang: "fr"
+positioning:
+  economy: null
+  societal: null
+  governance: null
+  security: null
+  ecology: null
+---
+
+Le sport est à la fois une pratique individuelle et un espace de santé, de rencontre et de discipline collective. À Montpellier, il doit être pensé au-delà de la performance et de la compétition, comme un élément du quotidien urbain pour tous.
+
+Accès aux équipements, usages des espaces publics, pratiques libres, clubs associatifs, sport scolaire ou amateur : autant de dimensions à mieux articuler pour que le sport contribue réellement à l'égalité, à la prévention et au lien social. Pour cela, l'offre sportive doit être accessible, de proximité et adaptée aux réalités concrètes des habitant·es.
+
+**Orientation proposée :** développer une offre sportive de proximité, accessible financièrement et géographiquement, en soutenant les clubs associatifs et en favorisant les pratiques libres dans l'espace public.

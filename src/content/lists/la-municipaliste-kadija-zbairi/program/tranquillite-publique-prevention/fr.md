@@ -1,0 +1,18 @@
+---
+title: "Une tranquillité publique fondée sur la prévention et la présence humaine"
+slug: "tranquillite-publique-prevention"
+tags: ["sécurité"]
+lang: "fr"
+positioning:
+  economy: null
+  societal: null
+  governance: null
+  security: 3
+  ecology: null
+---
+
+La tranquillité publique ne se résume ni à la peur ni à la sanction. Elle tient à la qualité des espaces, à la présence humaine, aux relations entre habitant·es et à la capacité de la ville à prévenir plutôt qu'à subir les tensions.
+
+Une approche sérieuse de la sécurité passe par l'attention au quotidien : éclairage, usages partagés de l'espace, médiation, continuité des services de proximité et lisibilité des règles communes. C'est en rendant la ville plus habitée et plus lisible qu'on crée les conditions d'une coexistence apaisée.
+
+**Orientation proposée :** fonder la politique de tranquillité publique sur la prévention, la présence humaine et la médiation, plutôt que sur la surveillance et la répression.

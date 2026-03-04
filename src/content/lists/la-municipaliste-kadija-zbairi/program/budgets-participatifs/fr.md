@@ -1,0 +1,18 @@
+---
+title: "Instaurer des budgets participatifs fondés sur l'auto-organisation citoyenne"
+slug: "budgets-participatifs"
+tags: ["démocratie"]
+lang: "fr"
+positioning:
+  economy: null
+  societal: null
+  governance: 4
+  security: null
+  ecology: null
+---
+
+Réserver une part visible du budget municipal à des choix proposés et décidés par les habitant·es : c'est l'objet du budget participatif. Mais ici, l'approche va plus loin qu'une simple mise en concurrence de projets.
+
+Le processus proposé est celui d'un **apprentissage collectif** : partir d'un besoin réel, en discuter entre habitant·es, en estimer le coût, en vérifier la faisabilité technique, puis présenter à la ville une proposition déjà construite collectivement. La ville a un rôle précis et lisible : répondre de manière transparente, dire ce qui est possible, ce qui ne l'est pas, et pourquoi.
+
+**Mesure proposée :** instituer un budget participatif sur le temps long, pensé comme un outil d'auto-organisation citoyenne, avec un processus clair d'élaboration collective et une réponse publique motivée de la municipalité pour chaque proposition.

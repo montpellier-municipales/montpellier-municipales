@@ -1,0 +1,18 @@
+---
+title: "Soutenir la musique et le spectacle vivant comme pratique quotidienne et accessible"
+slug: "musique-spectacle-vivant-pratique-locale"
+tags: ["culture"]
+lang: "fr"
+positioning:
+  economy: null
+  societal: null
+  governance: null
+  security: null
+  ecology: null
+---
+
+Montpellier est une ville de musique et de spectacle vivant. Les scènes, les artistes et les publics sont là. L'enjeu est de permettre que cette vitalité ne se limite pas à la diffusion, mais s'ancre davantage dans la pratique, l'apprentissage et l'expérimentation — à tous les âges.
+
+Cela passe par des conditions concrètes : des lieux accessibles pour répéter et créer, des espaces ouverts en dehors des horaires scolaires ou administratifs, des passerelles entre écoles de musique, conservatoires, pratiques amateurs et structures professionnelles. Dans plusieurs villes, l'ouverture de lieux de travail artistique partagés et la mise à disposition de bâtiments existants ont permis d'élargir l'accès à la pratique sans multiplier les équipements.
+
+**Mesure proposée :** mieux utiliser les équipements existants — en organisant les usages, les horaires et les partenariats — pour faire de la musique et du spectacle vivant une pratique quotidienne, locale et accessible à toutes et tous.

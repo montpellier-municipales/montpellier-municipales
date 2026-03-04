@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../types/schema.json",
+  "id": "la-municipaliste-kadija-zbairi",
+  "name": "La Municipaliste",
+  "headOfList": "Kadija Zbairi",
+  "parties": ["Mouvement citoyen"],
+  "logoUrl": "/images/la-municipaliste-logo.png",
+  "candidatePictureUrl": "/images/kadija-zbairi-montpellier-municipales-2026.webp",
+  "fame": 3,
+  "website": "https://lamunicipaliste.fr/",
+  "slogan": "À vous de jouer !",
+  "socials": {},
+  "positioning": {
+    "economy": 3,
+    "societal": 3,
+    "governance": 4,
+    "security": 2,
+    "ecology": 3
+  },
+  "program": []
+}

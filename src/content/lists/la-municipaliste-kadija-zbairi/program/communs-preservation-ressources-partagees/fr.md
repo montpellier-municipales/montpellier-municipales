@@ -1,0 +1,18 @@
+---
+title: "Prendre soin des communs pour améliorer la qualité de vie"
+slug: "communs-preservation-ressources-partagees"
+tags: ["environnement", "démocratie"]
+lang: "fr"
+positioning:
+  economy: 3
+  societal: null
+  governance: 4
+  security: null
+  ecology: 3
+---
+
+L'eau, l'air, les sols, les espaces partagés, certaines ressources et infrastructures conditionnent la vie collective. Lorsqu'ils se dégradent, ce sont les usages du quotidien qui deviennent plus difficiles, et ce sont souvent les habitant·es les plus vulnérables qui en paient le prix.
+
+Ces éléments doivent être pensés comme des **communs** : des ressources à préserver, à entretenir et à partager collectivement, et non comme des variables secondaires ou des actifs cessibles. La gestion des communs implique d'associer les habitant·es à leur gouvernance, de définir des règles d'usage partagées et de garantir une transparence sur leur état.
+
+**Orientation proposée :** identifier et protéger les communs fragiles à Montpellier — eau, espaces verts, foncier, infrastructures partagées — en instaurant une gouvernance associant les habitant·es à leur gestion et à leur préservation.
