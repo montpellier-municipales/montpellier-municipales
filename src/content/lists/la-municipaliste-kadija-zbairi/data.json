@@ -11,10 +11,10 @@
   "slogan": "À vous de jouer !",
   "socials": {},
   "positioning": {
-    "economy": 3,
+    "economy": 4,
     "societal": 3,
     "governance": 4,
-    "security": 2,
+    "security": 4,
     "ecology": 3
   },
   "program": []
