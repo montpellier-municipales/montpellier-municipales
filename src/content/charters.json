@@ -48,6 +48,11 @@
         "candidateId": "aimer-montpellier",
         "signed": false,
         "signedMeasureIds": []
+      },
+      {
+        "candidateId": "la-municipaliste-kadija-zbairi",
+        "signed": true,
+        "signedMeasureIds": []
       }
     ]
   },
@@ -306,6 +311,62 @@
           "m23"
         ],
         "signedCount": 21
+      },
+      {
+        "candidateId": "les-ecologistes",
+        "signed": false,
+        "signedMeasureIds": []
+      },
+      {
+        "candidateId": "lutte-ouvriere",
+        "signed": false,
+        "signedMeasureIds": []
+      },
+      {
+        "candidateId": "mohed-altrad",
+        "signed": false,
+        "signedMeasureIds": []
+      },
+      {
+        "candidateId": "philippe-saurel",
+        "signed": false,
+        "signedMeasureIds": []
+      },
+      {
+        "candidateId": "remi-gaillard",
+        "signed": false,
+        "signedMeasureIds": []
+      },
+      {
+        "candidateId": "revolution-permanente",
+        "signed": false,
+        "signedMeasureIds": []
+      },
+      {
+        "candidateId": "aimer-montpellier",
+        "signed": false,
+        "signedMeasureIds": []
+      }
+    ]
+  },
+  {
+    "id": "code-animal",
+    "slug": "code-animal",
+    "organization": "Association Code Animal",
+    "title": "Charte Code Animal pour transformer le zoo de Montpellier en refuge",
+    "description": "La charte proposée par Code Animal en faveur de la transformation du zoo du Lunaret en refuge pour animaux sauvages. Les refuges permettent notamment d’accueillir des animaux saisis, abandonnés ou issus de structures fermées, comme les cirques.",
+    "externalUrl": "https://www.code-animal.com",
+    "measures": [],
+    "signatories": [
+      {
+        "candidateId": "la-france-insoumise",
+        "signed": true,
+        "signedMeasureIds": []
+      },
+      {
+        "candidateId": "michael-delafosse",
+        "signed": false,
+        "signedMeasureIds": []
       },
       {
         "candidateId": "les-ecologistes",

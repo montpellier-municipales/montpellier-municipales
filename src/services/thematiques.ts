@@ -48,7 +48,7 @@ export const THEMES: Record<string, Theme> = {
     tags: ["bien être animal"],
     positioningDimension: "societal",
     positioningDimensionSlug: "societe",
-    relevantCharters: ["l214", "paz"],
+    relevantCharters: ["l214", "paz", "code-animal"],
   },
   "protection-sociale": {
     slug: "protection-sociale",
