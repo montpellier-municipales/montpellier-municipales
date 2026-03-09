@@ -231,7 +231,8 @@ export default component$(() => {
               <>
                 {" "}
                 {t("thematiques.positionedAs@@se positionne comme")}{" "}
-                <strong>{topCandidate.positioningLabel}</strong> sur{" "}
+                <strong>{topCandidate.positioningLabel}</strong>{" "}
+                {t("thematiques.on@@sur")}{" "}
                 {translatedTheme.title.toLowerCase()}
               </>
             )}
@@ -252,7 +253,7 @@ export default component$(() => {
                 {topCandidate.charterInfos
                   .filter((ci) => ci.ratio > 0)
                   .map((ci) => ci.shortName)
-                  .join(" et ")}
+                  .join(` ${t("thematiques.and@@et")} `)}
                 {"."}
               </>
             )}
