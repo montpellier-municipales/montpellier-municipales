@@ -76,6 +76,12 @@ export default component$(() => {
           />
         )}
         <RouterHead />
+        {!isDev && (
+          <>
+            <script async src="https://plausible.io/js/pa-ykSIt19_XuzNOxI_9WnUA.js" />
+            <script dangerouslySetInnerHTML="window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()" />
+          </>
+        )}
       </head>
       {/* Application dynamique de la classe de thème */}
       <body
