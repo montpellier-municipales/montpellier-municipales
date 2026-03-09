@@ -7,6 +7,7 @@
     "allMeasures": "Toutes les mesures",
     "filterByCategory": "Filtrer les mesures...",
     "backToList": "Retour à la liste",
-    "measureBy": "Une mesure proposée par {{candidate}}"
+    "measureBy": "Une mesure proposée par {{candidate}}",
+    "compareCta": "Comparer avec d'autres programmes"
   }
 }

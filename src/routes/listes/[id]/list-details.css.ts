@@ -176,3 +176,29 @@ export const listSection = style({
   lineHeight: "1.5em",
   marginBottom: "3rem",
 });
+
+export const ctaWrapper = style({
+  display: "flex",
+  justifyContent: "flex-end",
+  marginBottom: "1.5rem",
+});
+
+export const compareCta = style({
+  display: "inline-flex",
+  alignItems: "center",
+  gap: "0.5rem",
+  padding: "0.6rem 1.2rem",
+  borderRadius: "8px",
+  border: `1px solid ${vars.color.primary}`,
+  color: vars.color.primary,
+  textDecoration: "none",
+  fontSize: "0.95rem",
+  fontWeight: 600,
+  transition: "background-color 0.15s, color 0.15s",
+  selectors: {
+    "&:hover": {
+      backgroundColor: vars.color.primary,
+      color: "white",
+    },
+  },
+});

@@ -1,4 +1,5 @@
 import { component$, useSignal, useComputed$ } from "@builder.io/qwik";
+import { LuArrowRightLeft } from "@qwikest/icons/lucide";
 import {
   DocumentHead,
   routeLoader$,
@@ -146,6 +147,20 @@ export default component$(() => {
           </div>
         </div>
       </header>
+
+      <div class={styles.ctaWrapper}>
+        <a
+          href={
+            currentLocale === "fr"
+              ? `/comparateur/?listes=${list.value.id}`
+              : `/${currentLocale}/comparateur/?listes=${list.value.id}`
+          }
+          class={styles.compareCta}
+        >
+          <LuArrowRightLeft />
+          {t("list.compareCta@@Comparer avec d'autres programmes")}
+        </a>
+      </div>
 
       {anchors.value.length > 0 && <AnchorNav anchors={anchors.value} />}
 

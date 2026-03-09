@@ -7,6 +7,7 @@
     "allMeasures": "Totas las mesuras",
     "filterByCategory": "Filtrar las mesuras...",
     "backToList": "Tornar a la lista",
-    "measureBy": "Una mesura prepausada per {{candidate}}"
+    "measureBy": "Una mesura prepausada per {{candidate}}",
+    "compareCta": "Comparar amb d'autres programas"
   }
 }
