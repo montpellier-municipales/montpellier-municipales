@@ -125,7 +125,18 @@ export const useThemeData = routeLoader$(async ({ params, locale, fail }) => {
           } else if (signatory.signedCount != null) {
             ratio = signatory.signedCount / totalMeasures;
           } else {
-            ratio = signatory.signedMeasureIds.length / totalMeasures;
+            const signedSet = new Set(signatory.signedMeasureIds);
+            for (const measure of charter.measures) {
+              if (
+                measure.goodResponse &&
+                (measure.goodResponse === "non_pas_du_tout" ||
+                  measure.goodResponse === "plutot_non") &&
+                signatory.measureResponses?.[measure.id] === measure.goodResponse
+              ) {
+                signedSet.add(measure.id);
+              }
+            }
+            ratio = signedSet.size / totalMeasures;
           }
         }
         return {
