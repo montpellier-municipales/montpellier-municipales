@@ -1,6 +1,6 @@
 export type Theme = {
-  slug: string;      // internal ID, used for blog tag matching — keep short
-  urlSlug: string;   // SEO-optimized URL path segment
+  slug: string; // internal ID, used for blog tag matching — keep short
+  urlSlug: string; // SEO-optimized URL path segment
   title: string;
   h1: string;
   intro: string;
@@ -29,10 +29,15 @@ export const THEMES: Record<string, Theme> = {
       "Quel candidat est le plus écologiste aux municipales de Montpellier 2026 ?",
     seoDescription:
       "Comparaison des programmes et positionnements écologiques des candidats aux élections municipales de Montpellier 2026.",
-    tags: ["changement climatique", "environnement", "déchets", "gestion de l'eau"],
+    tags: [
+      "changement climatique",
+      "environnement",
+      "déchets",
+      "gestion de l'eau",
+    ],
     positioningDimension: "ecology",
     positioningDimensionSlug: "ecologie",
-    relevantCharters: ["cite-bergere"],
+    relevantCharters: ["cite-bergere", "greenpeace-aeroport"],
   },
   "bien-etre-animal": {
     slug: "bien-etre-animal",
@@ -67,7 +72,8 @@ export const THEMES: Record<string, Theme> = {
   },
   democratie: {
     slug: "democratie",
-    urlSlug: "democratie-participative-gouvernance-municipales-montpellier-2026",
+    urlSlug:
+      "democratie-participative-gouvernance-municipales-montpellier-2026",
     title: "Démocratie",
     h1: "Quel candidat propose la gouvernance la plus démocratique à Montpellier en 2026 ?",
     intro:
