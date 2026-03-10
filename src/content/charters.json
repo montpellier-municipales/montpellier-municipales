@@ -404,5 +404,154 @@
         "signedMeasureIds": []
       }
     ]
+  },
+  {
+    "id": "greenpeace-aeroport",
+    "slug": "greenpeace-aeroport",
+    "organization": "Greenpeace Montpellier",
+    "title": "Questionnaire aéroport de Montpellier — Greenpeace",
+    "description": "Greenpeace Montpellier a soumis 12 questions aux candidats aux élections municipales 2026 à Montpellier et dans d'autres communes de la métropole, portant sur les nuisances de l'aéroport, sa politique de croissance et la transition écologique du secteur aérien.",
+    "externalUrl": "https://www.instagram.com/p/DVp5j1XiO33/",
+    "measures": [
+      {
+        "id": "m1",
+        "title": "Êtes-vous préoccupé·es par la santé des riverain·es de l'aéroport de Montpellier ?",
+        "theme": "Santé et nuisances",
+        "goodResponse": "oui_tout_a_fait"
+      },
+      {
+        "id": "m2",
+        "title": "Soutenez-vous la demande d'établir un couvre-feu nocturne ?",
+        "theme": "Santé et nuisances",
+        "goodResponse": "oui_tout_a_fait"
+      },
+      {
+        "id": "m3",
+        "title": "Êtes-vous favorable à la politique de croissance de l'aéroport ?",
+        "theme": "Croissance et trafic",
+        "goodResponse": "non_pas_du_tout"
+      },
+      {
+        "id": "m4",
+        "title": "Êtes-vous favorable à l'installation de bases low-cost à Montpellier ?",
+        "theme": "Croissance et trafic",
+        "goodResponse": "non_pas_du_tout"
+      },
+      {
+        "id": "m5",
+        "title": "Trouvez-vous cohérent que l'aéroport justifie sa croissance par les retombées locales alors que ses nouvelles lignes visent surtout à exporter les touristes héraultais ?",
+        "theme": "Croissance et trafic",
+        "goodResponse": "non_pas_du_tout"
+      },
+      {
+        "id": "m6",
+        "title": "Êtes-vous favorable à la suppression de la liaison aérienne Montpellier-Paris ?",
+        "theme": "Transition écologique",
+        "goodResponse": "oui_tout_a_fait"
+      },
+      {
+        "id": "m7",
+        "title": "Êtes-vous favorable à une interdiction des publicités pour l'aéroport et les compagnies aériennes ?",
+        "theme": "Transition écologique",
+        "goodResponse": "oui_tout_a_fait"
+      },
+      {
+        "id": "m8",
+        "title": "Êtes-vous favorable à ce que les offices de tourisme promeuvent seulement des solutions plus éco-responsables que l'avion pour venir dans notre région ?",
+        "theme": "Transition écologique",
+        "goodResponse": "oui_tout_a_fait"
+      },
+      {
+        "id": "m9",
+        "title": "Pensez-vous que la communication environnementale de l'aéroport s'apparente souvent à du « greenwashing » ?",
+        "theme": "Transition écologique",
+        "goodResponse": "oui_tout_a_fait"
+      },
+      {
+        "id": "m10",
+        "title": "Pensez-vous que les revenus liés aux activités extra-aéronautiques de l'aéroport, constituant de l'argent public, pourraient être utilisés autrement que pour la croissance continue de l'aéroport ?",
+        "theme": "Finances publiques",
+        "goodResponse": "oui_tout_a_fait"
+      },
+      {
+        "id": "m11",
+        "title": "Êtes-vous favorable à l'application stricte du principe « pollueur-payeur » afin que le prix des billets d'avion reflète mieux le coût environnemental du transport aérien ?",
+        "theme": "Finances publiques",
+        "goodResponse": "oui_tout_a_fait"
+      },
+      {
+        "id": "m12",
+        "title": "La réduction du trafic aérien est-elle inévitable face aux limites des solutions techniques pour décarboner l'aviation ?",
+        "theme": "Finances publiques",
+        "goodResponse": "oui_tout_a_fait"
+      }
+    ],
+    "signatories": [
+      {
+        "candidateId": "la-france-insoumise",
+        "signed": true,
+        "signedMeasureIds": [
+          "m1",
+          "m2",
+          "m6",
+          "m7",
+          "m8",
+          "m9",
+          "m10",
+          "m11",
+          "m12"
+        ],
+        "measureResponses": {
+          "m1": "oui_tout_a_fait",
+          "m2": "oui_tout_a_fait",
+          "m3": "non_pas_du_tout",
+          "m4": "non_pas_du_tout",
+          "m5": "non_pas_du_tout",
+          "m6": "oui_tout_a_fait",
+          "m7": "oui_tout_a_fait",
+          "m8": "oui_tout_a_fait",
+          "m9": "oui_tout_a_fait",
+          "m10": "oui_tout_a_fait",
+          "m11": "oui_tout_a_fait",
+          "m12": "oui_tout_a_fait"
+        }
+      },
+      {
+        "candidateId": "revolution-permanente",
+        "signed": true,
+        "signedMeasureIds": ["m1", "m2", "m6", "m7", "m8", "m9", "m10", "m12"],
+        "measureResponses": {
+          "m1": "oui_tout_a_fait",
+          "m2": "oui_tout_a_fait",
+          "m3": "non_pas_du_tout",
+          "m4": "non_pas_du_tout",
+          "m5": "non_pas_du_tout",
+          "m6": "oui_tout_a_fait",
+          "m7": "oui_tout_a_fait",
+          "m8": "oui_tout_a_fait",
+          "m9": "oui_tout_a_fait",
+          "m10": "oui_tout_a_fait",
+          "m11": "non_pas_du_tout",
+          "m12": "oui_tout_a_fait"
+        }
+      },
+      {
+        "candidateId": "lutte-ouvriere",
+        "signed": true,
+        "signedMeasureIds": ["m1", "m2", "m6", "m7", "m9", "m10", "m11"],
+        "measureResponses": {
+          "m1": "plutot_oui",
+          "m2": "plutot_oui",
+          "m3": "plutot_non",
+          "m4": "plutot_non",
+          "m5": "non_pas_du_tout",
+          "m6": "plutot_oui",
+          "m7": "plutot_oui",
+          "m9": "plutot_oui",
+          "m10": "oui_tout_a_fait",
+          "m11": "oui_tout_a_fait"
+        }
+      }
+    ]
   }
 ]

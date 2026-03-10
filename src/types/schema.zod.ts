@@ -103,10 +103,19 @@ export const ProgramMeasureSchema = z.object({
 
 export type ProgramMeasure = z.infer<typeof ProgramMeasureSchema>;
 
+export const CharterResponseLevelSchema = z.enum([
+  "oui_tout_a_fait",
+  "plutot_oui",
+  "plutot_non",
+  "non_pas_du_tout",
+]);
+export type CharterResponseLevel = z.infer<typeof CharterResponseLevelSchema>;
+
 export const CharterMeasureSchema = z.object({
   id: z.string(),
   title: z.string(),
   theme: z.string().optional(),
+  goodResponse: CharterResponseLevelSchema.optional(),
 });
 
 export const CharterSignatorySchema = z.object({
@@ -114,6 +123,7 @@ export const CharterSignatorySchema = z.object({
   signed: z.boolean(),
   signedMeasureIds: z.array(z.string()),
   signedCount: z.number().optional(), // override when specific measure IDs are unknown
+  measureResponses: z.record(z.string(), CharterResponseLevelSchema).optional(),
 });
 
 export const CharterSchema = z.object({

@@ -3,6 +3,7 @@ import {
   BlogPostSchema,
   CandidateSchema,
   CharterMeasureSchema,
+  CharterResponseLevelSchema,
   CharterSchema,
   CharterSignatorySchema,
   Language,
@@ -18,4 +19,5 @@ export type ProgramMeasure = z.infer<typeof ProgramMeasureSchema>;
 export type Charter = z.infer<typeof CharterSchema>;
 export type CharterMeasure = z.infer<typeof CharterMeasureSchema>;
 export type CharterSignatory = z.infer<typeof CharterSignatorySchema>;
+export type CharterResponseLevel = z.infer<typeof CharterResponseLevelSchema>;
 export { Language };

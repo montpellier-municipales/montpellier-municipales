@@ -279,6 +279,32 @@ export const unknownIcon = style({
   margin: "0 auto",
 });
 
+export const response_oui_tout_a_fait = style({
+  color: "#2d7a2d",
+  fontWeight: 700,
+  display: "block",
+  margin: "0 auto",
+});
+
+export const response_plutot_oui = style({
+  color: "#6aaa6a",
+  display: "block",
+  margin: "0 auto",
+});
+
+export const response_plutot_non = style({
+  color: "#d96000",
+  display: "block",
+  margin: "0 auto",
+});
+
+export const response_non_pas_du_tout = style({
+  color: "#c0392b",
+  fontWeight: 700,
+  display: "block",
+  margin: "0 auto",
+});
+
 export const note = style({
   fontSize: "0.78rem",
   color: vars.color.textMuted,

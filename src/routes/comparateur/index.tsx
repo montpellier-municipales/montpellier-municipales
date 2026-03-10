@@ -275,7 +275,17 @@ export default component$(() => {
                           );
                         }
                         const total = charter.measures.length;
+                        const hasGoodResponses = charter.measures.some((m) => m.goodResponse != null);
+                        const alignedCount =
+                          hasGoodResponses && signatory.measureResponses != null
+                            ? charter.measures.filter(
+                                (m) =>
+                                  m.goodResponse != null &&
+                                  signatory.measureResponses![m.id] === m.goodResponse,
+                              ).length
+                            : null;
                         const count =
+                          alignedCount ??
                           signatory.signedCount ??
                           signatory.signedMeasureIds.length;
                         if (!signatory.signed && count === 0) {

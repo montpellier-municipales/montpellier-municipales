@@ -9,6 +9,21 @@ import { getCharter, getAllCharters } from "~/services/charters";
 import { getAllLists } from "~/services/lists";
 import * as styles from "./charter-detail.css";
 import { inlineTranslate, useSpeak } from "qwik-speak";
+import type { CharterResponseLevel } from "~/types/schema";
+
+const RESPONSE_NUMERIC: Record<CharterResponseLevel, number> = {
+  oui_tout_a_fait: 4,
+  plutot_oui: 3,
+  plutot_non: 2,
+  non_pas_du_tout: 1,
+};
+
+const DISTANCE_STYLES = (s: typeof styles) => [
+  s.response_oui_tout_a_fait, // distance 0 — perfect match
+  s.response_plutot_oui, // distance 1
+  s.response_plutot_non, // distance 2
+  s.response_non_pas_du_tout, // distance 3 — opposite end
+];
 import {
   LuCheckCircle,
   LuXCircle,
@@ -27,9 +42,29 @@ export const useCharterData = routeLoader$(async ({ params, status }) => {
     name: l.name,
     headOfList: l.headOfList,
     logoUrl: l.logoUrl,
+    candidatePictureUrl: l.candidatePictureUrl,
   }));
   return { charter, lists };
 });
+
+const RESPONSE_LABELS: Record<CharterResponseLevel, string> = {
+  oui_tout_a_fait: "Oui tout à fait",
+  plutot_oui: "Plutôt oui",
+  plutot_non: "Plutôt non",
+  non_pas_du_tout: "Non pas du tout",
+};
+const RESPONSE_SHORT: Record<CharterResponseLevel, string> = {
+  oui_tout_a_fait: "✓✓",
+  plutot_oui: "✓",
+  plutot_non: "✗",
+  non_pas_du_tout: "✗✗",
+};
+const RESPONSE_STYLES: Record<CharterResponseLevel, string> = {
+  oui_tout_a_fait: styles.response_oui_tout_a_fait,
+  plutot_oui: styles.response_plutot_oui,
+  plutot_non: styles.response_plutot_non,
+  non_pas_du_tout: styles.response_non_pas_du_tout,
+};
 
 export default component$(() => {
   useSpeak({ assets: ["charters"] });
@@ -103,8 +138,8 @@ export default component$(() => {
                   }
                 >
                   <img
-                    src={list.logoUrl}
-                    alt={list.name}
+                    src={list.candidatePictureUrl}
+                    alt={list.headOfList}
                     class={styles.signatoryLogoImg}
                     width={56}
                     height={56}
@@ -147,8 +182,8 @@ export default component$(() => {
                   {lists.map((list) => (
                     <th key={list.id} class={styles.thCandidate}>
                       <img
-                        src={list.logoUrl}
-                        alt={list.name}
+                        src={list.candidatePictureUrl}
+                        alt={list.headOfList}
                         class={styles.candidateLogoImg}
                         width={36}
                         height={36}
@@ -185,6 +220,24 @@ export default component$(() => {
                             return (
                               <td key={list.id} class={styles.tdCell}>
                                 <span class={styles.unknownIcon}>—</span>
+                              </td>
+                            );
+                          }
+                          // If measureResponses exists for this measure, show level chip
+                          const responseLevel = signatory.measureResponses?.[measure.id] as CharterResponseLevel | undefined;
+                          if (responseLevel !== undefined) {
+                            const goodResponse = measure.goodResponse as CharterResponseLevel | undefined;
+                            const cssClass = goodResponse !== undefined
+                              ? DISTANCE_STYLES(styles)[Math.abs(RESPONSE_NUMERIC[responseLevel] - RESPONSE_NUMERIC[goodResponse])]
+                              : RESPONSE_STYLES[responseLevel];
+                            return (
+                              <td key={list.id} class={styles.tdCell}>
+                                <span
+                                  class={cssClass}
+                                  title={RESPONSE_LABELS[responseLevel]}
+                                >
+                                  {RESPONSE_SHORT[responseLevel]}
+                                </span>
                               </td>
                             );
                           }

@@ -133,6 +133,8 @@ export const useThemeData = routeLoader$(async ({ params, locale, fail }) => {
           shortName:
             charter.id === "cite-bergere"
               ? "Cité Bergère"
+              : charter.id === "greenpeace-aeroport"
+              ? "Greenpeace"
               : charter.id.toUpperCase(),
           slug: charter.slug,
           ratio,

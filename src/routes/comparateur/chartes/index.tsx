@@ -112,8 +112,20 @@ export default component$(() => {
                   }
                   // Measure-based charter
                   const total = charter.measures.length;
+
+                  // If any measure defines goodResponse, count by alignment with measureResponses
+                  const hasGoodResponses = charter.measures.some((m) => m.goodResponse != null);
+                  const alignedCount =
+                    hasGoodResponses && signatory.measureResponses != null
+                      ? charter.measures.filter(
+                          (m) =>
+                            m.goodResponse != null &&
+                            signatory.measureResponses![m.id] === m.goodResponse,
+                        ).length
+                      : null;
+
                   const knownCount = signatory.signedMeasureIds.length;
-                  const displayCount = signatory.signedCount ?? knownCount;
+                  const displayCount = alignedCount ?? signatory.signedCount ?? knownCount;
                   if (!signatory.signed && displayCount === 0) {
                     return (
                       <td key={list.id} class={styles.tdCell}>
