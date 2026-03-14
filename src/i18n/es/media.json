@@ -1,0 +1,22 @@
+{
+  "media": {
+    "pageTitle": "Cobertura mediática: Midi Libre",
+    "metaDescription": "¿Cuántas veces menciona Midi Libre a cada candidato en las municipales 2026 de Montpellier? Seguimiento de los tweets de @MLMontpellier.",
+    "campaignBanner": "Período oficial de campaña: 2 al 22 de marzo de 2026",
+    "preCampaign": "Antes de campaña",
+    "duringCampaign": "Durante campaña",
+    "total": "Total",
+    "byCandidateName": "Por nombre",
+    "byListName": "Por lista",
+    "byPartyName": "Por partido",
+    "invisibilizationNote": "Las menciones solo por partido (sin nombre ni lista) pueden indicar una invisibilización del o la candidata.",
+    "dataUpdated": "Datos actualizados el",
+    "methodologyNote": "Metodología: recopilación de tweets públicos de @MLMontpellier mediante scraping (sin clave API). Los tweets se clasifican en tres niveles: mención del nombre del o la candidata, de la lista, o del partido/coalición. Un mismo tweet puede corresponder a varios candidatos.",
+    "viewOnX": "Ver en X",
+    "recentTweets": "Tweets recientes",
+    "weeklyTimeline": "Cronología semanal",
+    "barChartTitle": "Menciones por candidato/a (desde el 1 de enero de 2026)",
+    "noData": "No hay datos disponibles. Ejecute pnpm data:media para recopilar tweets.",
+    "candidate": "Candidato/a"
+  }
+}
