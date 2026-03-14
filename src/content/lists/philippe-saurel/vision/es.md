@@ -11,7 +11,7 @@ Aunque no se adhirió al partido presidencial, varios apoyos locales de la mayor
 
 En las municipales **de 2020**, Philippe Saurel no logró mantenerse como alcalde:
 
-* Su lista "Divers gauche – LREM" obtuvo el **19,11 % de los votos en la primera vuelta** y el **34,65 % en la segunda**, lo que le permitió seguir siendo la **primera fuerza de oposición en el consejo municipal** con **11 escaños**, detrás de la lista socialista de Michaël Delafosse que ganó la alcaldía.
+* Su lista "sin etiqueta / diversa izquierda" obtuvo el **19,11 % de los votos en la primera vuelta** y el **34,65 % en la segunda**, lo que le permitió seguir siendo la **primera fuerza de oposición en el consejo municipal** con **11 escaños**, detrás de la lista socialista de Michaël Delafosse que ganó la alcaldía.
 
 ### Acciones del mandato
 

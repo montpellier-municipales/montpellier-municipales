@@ -11,7 +11,7 @@ Although he did not join the presidential party, several local supporters from t
 
 During the **2020** municipal elections, Philippe Saurel failed to remain mayor:
 
-* His "Diverse Left – LREM" list garnered **19.11% of the votes in the first round** and **34.65% in the second**, which allowed him to remain the **primary opposition force in the municipal council** with **11 seats**, behind Michaël Delafosse's socialist list which won the mayoralty.
+* His "non-partisan / diverse left" list garnered **19.11% of the votes in the first round** and **34.65% in the second**, which allowed him to remain the **primary opposition force in the municipal council** with **11 seats**, behind Michaël Delafosse's socialist list which won the mayoralty.
 
 ### Actions of the Mandate
 

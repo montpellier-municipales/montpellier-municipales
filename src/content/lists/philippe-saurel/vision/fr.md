@@ -11,7 +11,7 @@ Bien qu’il n’ait pas adhéré au parti présidentiel, plusieurs soutiens loc
 
 Lors des municipales **de 2020**, Philippe Saurel n’a pas réussi à se maintenir comme maire :
 
-* Sa liste « Divers gauche – LREM » a recueilli **19,11 % des voix au premier tour** puis **34,65 % au second**, ce qui lui a permis de rester **première force d’opposition au conseil municipal** avec **11 sièges**, derrière la liste socialiste de Michaël Delafosse qui a remporté la mairie.
+* Sa liste « sans étiquette / divers gauche » a recueilli **19,11 % des voix au premier tour** puis **34,65 % au second**, ce qui lui a permis de rester **première force d’opposition au conseil municipal** avec **11 sièges**, derrière la liste socialiste de Michaël Delafosse qui a remporté la mairie.
 
 ### Actions du mandat
 

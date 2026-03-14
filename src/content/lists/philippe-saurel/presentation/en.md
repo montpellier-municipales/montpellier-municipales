@@ -7,9 +7,9 @@ During his mandate, he promoted a municipal policy combining local security, urb
 
 ### Repositioning in the Municipal Campaign
 
-In **June 2025**, Philippe Saurel announced that he would be **the local leader of the *Utiles* movement** (Ultra-marins, Territoires, Indépendants, Libertés, Écologie et Solidarité), a trans-partisan political movement stemming from the LIOT parliamentary group. However, he has **not yet formally announced an official candidacy** for mayor for the 2026 municipal elections, specifying that he would make his decision **in September 2025**.
+In **June 2025**, Philippe Saurel announced that he would be **the local leader of the *Utiles* movement** (Ultra-marins, Territoires, Indépendants, Libertés, Écologie et Solidarité), a trans-partisan political movement stemming from the LIOT parliamentary group. He has since **officially declared his candidacy** for mayor of Montpellier for the **2026** municipal elections.
 
-In his statements, Saurel emphasized that he intended to form a **new and disinterested team**, locally rooted, before fully committing to the race. He focuses on a **trans-partisan** approach, open to all sensibilities except extremes, with the aim of gathering citizens around concrete projects for the city.
+In his statements, Saurel emphasized that he intends to form a **new and disinterested team**, locally rooted. He focuses on a **trans-partisan** approach, open to all sensibilities except extremes, with the aim of gathering citizens around concrete projects for the city.
 
 ### Criticism of the Current Situation
 

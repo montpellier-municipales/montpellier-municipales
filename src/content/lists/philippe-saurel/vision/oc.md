@@ -11,7 +11,7 @@ E mai se a pas aderit al partit presidencial, mantun sostens locals eissits de l
 
 Al moment de las municipalas **de 2020**, Philippe Saurel a pas reüssit a se manténer coma cònsol :
 
-* Sa lista « Divèrs esquèrra – LREM » a reculhit **19,11 % de las voses al primièr torn** puèi **34,65 % al segond**, çò que li a permés de restar **primièra fòrça d’oposicion al conselh municipal** amb **11 sètis**, darrièr la lista socialista de Michaël Delafosse qu'a ganhat la comuna.
+* Sa lista « sens etiqueta / divèrs esquèrra » a reculhit **19,11 % de las voses al primièr torn** puèi **34,65 % al segond**, çò que li a permés de restar **primièra fòrça d’oposicion al conselh municipal** amb **11 sètis**, darrièr la lista socialista de Michaël Delafosse qu'a ganhat la comuna.
 
 ### Accions del mandat
 

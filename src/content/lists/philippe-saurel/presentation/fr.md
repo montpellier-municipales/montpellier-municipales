@@ -7,9 +7,9 @@ Durant son mandat, il a mis en avant une politique municipale mêlant sécurité
 
 ### Repositionnement dans la campagne des municipales
 
-En **juin 2025**, Philippe Saurel a annoncé qu’il serait **le chef de file local du mouvement *Utiles*** (Ultra-marins, Territoires, Indépendants, Libertés, Écologie et Solidarité), un mouvement politique transpartisan issu du groupe parlementaire LIOT. Il n’a toutefois **pas encore formellement annoncé une candidature officielle** à la mairie pour les municipales de 2026, précisant qu’il prendrait sa décision **en septembre 2025**.
+En **juin 2025**, Philippe Saurel a annoncé qu’il serait **le chef de file local du mouvement *Utiles*** (Ultra-marins, Territoires, Indépendants, Libertés, Écologie et Solidarité), un mouvement politique transpartisan issu du groupe parlementaire LIOT. Il a depuis **officiellement déclaré sa candidature** à la mairie de Montpellier pour les municipales de **2026**.
 
-Dans ses déclarations, Saurel a souligné qu’il entendait constituer une **équipe nouvelle et désintéressée**, ancrée localement, avant de s’engager pleinement dans la course. Il met l’accent sur une démarche **transpartisane**, ouverte à toutes les sensibilités sauf les extrêmes, avec l’objectif de rassembler des citoyens autour de projets concrets pour la ville.
+Dans ses déclarations, Saurel a souligné qu’il entend constituer une **équipe nouvelle et désintéressée**, ancrée localement. Il met l’accent sur une démarche **transpartisane**, ouverte à toutes les sensibilités sauf les extrêmes, avec l’objectif de rassembler des citoyens autour de projets concrets pour la ville.
 
 ### Critique de la situation actuelle
 

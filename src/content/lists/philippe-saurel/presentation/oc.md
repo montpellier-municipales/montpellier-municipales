@@ -7,9 +7,9 @@ Pendent son mandat, a mes en avant una politica municipala mesclant seguretat lo
 
 ### Reposicionament dins la campanha de las municipalas
 
-En **junh de 2025**, Philippe Saurel a anonciat que seriá **lo cap de fila local del movement *Utiles*** (Ultra-marins, Territòris, Independents, Libertats, Ecologia e Solidaritat), un movement politic transpartisan eissit del grop parlamentari LIOT. A pasmens **pas encara formalament anonciat una candidatura oficiala** a la comuna per las municipalas de 2026, precisant que prendriá sa decision **en setembre de 2025**.
+En **junh de 2025**, Philippe Saurel a anonciat que seriá **lo cap de fila local del movement *Utiles*** (Ultra-marins, Territòris, Independents, Libertats, Ecologia e Solidaritat), un movement politic transpartisan eissit del grop parlamentari LIOT. A dempuèi **declarada oficialment sa candidatura** a la comuna de Montpelhièr per las municipalas de **2026**.
 
-Dins sas declaracions, Saurel a soslinhat qu’entendiá constituir una **equipa novèla e desinteressada**, ancorada localament, abans de s’engatjar plenament dins la corsa. Met l’accent sus una dralha **transpartisana**, dobèrta a totas las sensibilitats levat los extrèmes, amb l’objectiu d’acampar de ciutadans a l'entorn de projèctes concrèts per la vila.
+Dins sas declaracions, Saurel a soslinhat qu’entend constituir una **equipa novèla e desinteressada**, ancorada localament. Met l’accent sus una dralha **transpartisana**, dobèrta a totas las sensibilitats levat los extrèmes, amb l’objectiu d’acampar de ciutadans a l’entorn de projèctes concrèts per la vila.
 
 ### Critica de la situacion actuala
 

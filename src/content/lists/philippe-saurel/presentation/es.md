@@ -7,9 +7,9 @@ Durante su mandato, promovió una política municipal que combinaba seguridad lo
 
 ### Reposicionamiento en la campaña municipal
 
-En **junio de 2025**, Philippe Saurel anunció que sería **el líder local del movimiento *Utiles*** (Ultramarinos, Territorios, Independientes, Libertades, Ecología y Solidaridad), un movimiento político transpartidista surgido del grupo parlamentario LIOT. Sin embargo, **aún no ha anunciado formalmente una candidatura oficial** a la alcaldía para las municipales de 2026, precisando que tomaría su decisión **en septiembre de 2025**.
+En **junio de 2025**, Philippe Saurel anunció que sería **el líder local del movimiento *Utiles*** (Ultramarinos, Territorios, Independientes, Libertades, Ecología y Solidaridad), un movimiento político transpartidista surgido del grupo parlamentario LIOT. Desde entonces, ha **declarado oficialmente su candidatura** a la alcaldía de Montpellier para las municipales de **2026**.
 
-En sus declaraciones, Saurel subrayó que pretendía constituir un **equipo nuevo y desinteresado**, arraigado localmente, antes de comprometerse plenamente en la carrera. Pone el acento en un enfoque **transpartidista**, abierto a todas las sensibilidades excepto los extremos, con el objetivo de reunir a los ciudadanos en torno a proyectos concretos para la ciudad.
+En sus declaraciones, Saurel subrayó que pretende constituir un **equipo nuevo y desinteresado**, arraigado localmente. Pone el acento en un enfoque **transpartidista**, abierto a todas las sensibilidades excepto los extremos, con el objetivo de reunir a los ciudadanos en torno a proyectos concretos para la ciudad.
 
 ### Crítica de la situación actual
 
