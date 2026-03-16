@@ -243,15 +243,17 @@ export const ctaButton = style({
 export const introSection = style({
   display: "flex",
   flexDirection: "column",
-  gap: "1.5rem",
+  gap: "2rem",
   alignItems: "flex-start",
+  minHeight: "calc(100svh - 4rem)",
+  justifyContent: "center",
 });
 
 export const introTitle = style({
-  fontSize: "2rem",
+  fontSize: "3.5rem",
   fontWeight: "900",
   color: vars.color.title,
-  lineHeight: "1.2",
+  lineHeight: "1.1",
   margin: 0,
   "@media": {
     "(max-width: 600px)": {
@@ -268,6 +270,7 @@ export const introText = style({
 });
 
 export const startButton = style({
+  alignSelf: "center",
   backgroundColor: vars.color.primary,
   color: vars.color.primaryText,
   border: "none",
