@@ -30,7 +30,8 @@
     "data:population": "tsx scripts/extract-population.ts",
     "data:evolution": "tsx scripts/generate-functional-budget-evolution.ts",
     "data:all": "npm run data:nomenclatures && npm run data:budget && npm run data:loans && npm run data:apcp && npm run data:population",
-    "data:scrape-programs": "tsx scripts/scrape-programs.ts"
+    "data:scrape-programs": "tsx scripts/scrape-programs.ts",
+    "data:quiz-og": "tsx scripts/generate-quiz-og-images.ts"
   },
   "devDependencies": {
     "@builder.io/qwik": "^1.17.2",
@@ -39,6 +40,7 @@
     "@inlang/paraglide-js": "2.7.0",
     "@qwik-ui/headless": "^0.7.4",
     "@qwikest/icons": "^0.0.13",
+    "@resvg/resvg-js": "^2.6.2",
     "@tanstack/qwik-table": "^8.21.3",
     "@tanstack/table-core": "^8.21.3",
     "@types/marked": "5.0.2",
@@ -57,6 +59,7 @@
     "marked": "^17.0.1",
     "prettier": "3.6.2",
     "qwik-speak": "^0.24.0",
+    "satori": "^0.25.0",
     "tsx": "^4.21.0",
     "typescript": "5.4.5",
     "typescript-eslint": "8.38.0",
