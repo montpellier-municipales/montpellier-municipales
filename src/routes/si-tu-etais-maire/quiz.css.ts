@@ -238,6 +238,52 @@ export const ctaButton = style({
   },
 });
 
+/* Intro */
+
+export const introSection = style({
+  display: "flex",
+  flexDirection: "column",
+  gap: "1.5rem",
+  alignItems: "flex-start",
+});
+
+export const introTitle = style({
+  fontSize: "2rem",
+  fontWeight: "900",
+  color: vars.color.title,
+  lineHeight: "1.2",
+  margin: 0,
+  "@media": {
+    "(max-width: 600px)": {
+      fontSize: "1.5rem",
+    },
+  },
+});
+
+export const introText = style({
+  fontSize: "1.05rem",
+  color: vars.color.text,
+  lineHeight: "1.7",
+  margin: 0,
+});
+
+export const startButton = style({
+  backgroundColor: vars.color.primary,
+  color: vars.color.primaryText,
+  border: "none",
+  borderRadius: "0.5rem",
+  padding: "0.9rem 2rem",
+  fontSize: "1.1rem",
+  fontWeight: "700",
+  cursor: "pointer",
+  transition: "background-color 0.15s ease",
+  selectors: {
+    "&:hover": {
+      backgroundColor: vars.color.primaryHover,
+    },
+  },
+});
+
 export const winnerBadge = style({
   fontSize: "0.75rem",
   fontWeight: "700",

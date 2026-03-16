@@ -31,13 +31,13 @@ export default component$(() => {
   const candidatesData = useCandidatesData();
 
   const state = useStore<{
-    phase: "playing" | "results";
+    phase: "intro" | "playing" | "results";
     current: number;
     answers: string[];
     selectedId: string | null;
     shuffledOptions: (typeof QUESTIONS)[0]["options"] | null;
   }>({
-    phase: "playing",
+    phase: "intro",
     current: 0,
     answers: [],
     selectedId: null,
@@ -127,6 +127,26 @@ export default component$(() => {
 
   return (
     <div class={styles.container}>
+      {state.phase === "intro" && (
+        <div class={styles.introSection}>
+          <h1 class={styles.introTitle}>
+            ET SI TOI, TU ÉTAIS MAIRE,&nbsp;TU FERAIS QUOI&nbsp;?
+          </h1>
+          <p class={styles.introText}>
+            On te présente {QUESTIONS.length} questions sur des enjeux concrets pour
+            Montpellier. Pour chaque question, choisis la proposition qui te correspond
+            le mieux — sans savoir qui la défend. À la fin, découvre quel·le candidat·e
+            est le plus proche de tes idées.
+          </p>
+          <button
+            class={styles.startButton}
+            onClick$={() => { state.phase = "playing"; }}
+          >
+            Commencer →
+          </button>
+        </div>
+      )}
+
       {state.phase === "playing" && (
         <>
           {/* Progress */}

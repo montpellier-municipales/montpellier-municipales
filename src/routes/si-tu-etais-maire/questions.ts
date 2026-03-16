@@ -349,10 +349,11 @@ export const QUESTIONS: QuizQuestion[] = [
     options: [
       {
         candidateId: "la-france-insoumise",
-        title: "Adapter l'espace public aux usages des femmes",
+        title: "Mettre en place un dispositif municipal d'accueil des victimes",
         content:
-          "Développer des marches exploratoires sous le prisme du genre et mettre en œuvre les aménagements nécessaires pour rendre l'espace public plus sûr et plus inclusif pour les femmes. Mettre en place des dispositifs d'accompagnement et des aménagements ciblés issus des diagnostics réalisés avec les habitant·es.",
-        measureSlug: "adapter-l-espace-public-aux-usages-des-femmes",
+          "Nous renforcerons la Maison des femmes pour en faire un centre municipal féministe, lieu identifié et accessible, dédié à la prévention, à l'autonomie et à la protection des femmes. Ce centre proposera un guichet unique d'accompagnement des femmes victimes de violences, avec une permanence juridique gratuite, en non-mixité, et un numéro municipal dédié.",
+        measureSlug:
+          "mettre-en-place-un-dispositif-municipal-d-accueil-des-victimes",
       },
       {
         candidateId: "michael-delafosse",
