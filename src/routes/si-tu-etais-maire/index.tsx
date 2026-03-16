@@ -1,9 +1,4 @@
-import {
-  component$,
-  useStore,
-  useVisibleTask$,
-  $,
-} from "@builder.io/qwik";
+import { component$, useStore, useVisibleTask$, $ } from "@builder.io/qwik";
 import { routeLoader$, Link, type DocumentHead } from "@builder.io/qwik-city";
 import { getList } from "~/services/lists";
 import { QUESTIONS } from "./questions";
@@ -40,7 +35,7 @@ export default component$(() => {
     current: number;
     answers: string[];
     selectedId: string | null;
-    shuffledOptions: typeof QUESTIONS[0]["options"] | null;
+    shuffledOptions: (typeof QUESTIONS)[0]["options"] | null;
   }>({
     phase: "playing",
     current: 0,
@@ -55,7 +50,7 @@ export default component$(() => {
     track(() => state.current);
     const opts = [
       ...QUESTIONS[state.current].options,
-    ] as typeof QUESTIONS[0]["options"];
+    ] as (typeof QUESTIONS)[0]["options"];
     if (Math.random() > 0.5) opts.reverse();
     state.shuffledOptions = opts;
     state.selectedId = null;
@@ -85,10 +80,10 @@ export default component$(() => {
 
   // Results
   const oziolCount = state.answers.filter(
-    (id) => id === "la-france-insoumise"
+    (id) => id === "la-france-insoumise",
   ).length;
   const delaCount = state.answers.filter(
-    (id) => id === "michael-delafosse"
+    (id) => id === "michael-delafosse",
   ).length;
   const total = state.answers.length;
 
@@ -132,7 +127,7 @@ export default component$(() => {
 
                 return (
                   <button
-                    key={option.candidateId}
+                    key={`${state.current}-${option.candidateId}`}
                     class={[
                       styles.optionCard,
                       isSelected && styles.optionCardSelected,
@@ -154,7 +149,7 @@ export default component$(() => {
                     )}
                   </button>
                 );
-              }
+              },
             )}
           </div>
 
@@ -204,7 +199,10 @@ export default component$(() => {
               <p class={styles.candidateName}>
                 {oziolData?.headOfList ?? "Nathalie Oziol"}
                 {winner === "la-france-insoumise" && (
-                  <span class={styles.winnerBadge} style={{ marginLeft: "0.5rem" }}>
+                  <span
+                    class={styles.winnerBadge}
+                    style={{ marginLeft: "0.5rem" }}
+                  >
                     Plus proche
                   </span>
                 )}
@@ -223,8 +221,7 @@ export default component$(() => {
           <div
             class={[
               styles.candidateResultRow,
-              winner === "michael-delafosse" &&
-                styles.candidateResultRowWinner,
+              winner === "michael-delafosse" && styles.candidateResultRowWinner,
             ]
               .filter(Boolean)
               .join(" ")}
@@ -242,7 +239,10 @@ export default component$(() => {
               <p class={styles.candidateName}>
                 {delaData?.headOfList ?? "Michaël Delafosse"}
                 {winner === "michael-delafosse" && (
-                  <span class={styles.winnerBadge} style={{ marginLeft: "0.5rem" }}>
+                  <span
+                    class={styles.winnerBadge}
+                    style={{ marginLeft: "0.5rem" }}
+                  >
                     Plus proche
                   </span>
                 )}
