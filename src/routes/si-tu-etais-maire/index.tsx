@@ -1,4 +1,4 @@
-import { component$, useStore, useVisibleTask$, $ } from "@builder.io/qwik";
+import { component$, useStore, useSignal, useVisibleTask$, $ } from "@builder.io/qwik";
 import { routeLoader$, Link, type DocumentHead } from "@builder.io/qwik-city";
 import { getList } from "~/services/lists";
 import { QUESTIONS } from "./questions";
@@ -124,6 +124,133 @@ export default component$(() => {
 
   const oziolData = candidatesData.value["la-france-insoumise"];
   const delaData = candidatesData.value["michael-delafosse"];
+
+  const canvasRef = useSignal<HTMLCanvasElement | undefined>(undefined);
+
+  const generateAndShare$ = $(async () => {
+    const canvas = canvasRef.value;
+    if (!canvas) return;
+
+    const W = 1200;
+    const H = 630;
+    canvas.width = W;
+    canvas.height = H;
+    const ctx = canvas.getContext("2d");
+    if (!ctx) return;
+
+    const isOziolWinner = winner === "la-france-insoumise";
+    const winnerData = isOziolWinner ? oziolData : delaData;
+    const winnerName = winnerData?.headOfList ?? (isOziolWinner ? "Nathalie Oziol" : "Michaël Delafosse");
+    const winnerPct = isOziolWinner ? oziolPct : delaPct;
+    const picUrl = winnerData?.candidatePictureUrl;
+
+    // Background
+    ctx.fillStyle = "#0f172a";
+    ctx.fillRect(0, 0, W, H);
+
+    // Accent bar at top
+    ctx.fillStyle = "#6366f1";
+    ctx.fillRect(0, 0, W, 6);
+
+    const roundRect = (x: number, y: number, w: number, h: number, r: number) => {
+      ctx.beginPath();
+      ctx.moveTo(x + r, y);
+      ctx.lineTo(x + w - r, y);
+      ctx.quadraticCurveTo(x + w, y, x + w, y + r);
+      ctx.lineTo(x + w, y + h - r);
+      ctx.quadraticCurveTo(x + w, y + h, x + w - r, y + h);
+      ctx.lineTo(x + r, y + h);
+      ctx.quadraticCurveTo(x, y + h, x, y + h - r);
+      ctx.lineTo(x, y + r);
+      ctx.quadraticCurveTo(x, y, x + r, y);
+      ctx.closePath();
+    };
+
+    const imgSize = 240;
+    const imgX = 80;
+    const imgY = H / 2 - imgSize / 2;
+
+    const drawText = () => {
+      // Score pill
+      ctx.fillStyle = "#6366f1";
+      roundRect(imgX + imgSize + 60, H / 2 - 130, 340, 56, 28);
+      ctx.fill();
+      ctx.fillStyle = "#ffffff";
+      ctx.font = "bold 28px system-ui, sans-serif";
+      ctx.textAlign = "center";
+      ctx.fillText(`${winnerPct} % en accord`, imgX + imgSize + 60 + 170, H / 2 - 93);
+
+      // Winner name
+      ctx.fillStyle = "#ffffff";
+      ctx.font = "bold 52px system-ui, sans-serif";
+      ctx.textAlign = "left";
+      ctx.fillText(winnerName, imgX + imgSize + 60, H / 2 - 20);
+
+      // Subtitle
+      ctx.fillStyle = "#94a3b8";
+      ctx.font = "28px system-ui, sans-serif";
+      ctx.fillText("est le·a candidat·e le plus proche", imgX + imgSize + 60, H / 2 + 40);
+      ctx.fillText("de tes idées pour Montpellier 2026", imgX + imgSize + 60, H / 2 + 80);
+
+      // Quiz title top-left
+      ctx.fillStyle = "#94a3b8";
+      ctx.font = "22px system-ui, sans-serif";
+      ctx.textAlign = "left";
+      ctx.fillText("Et si tu étais maire, tu ferais quoi ?", 80, 60);
+
+      // URL bottom-right
+      ctx.fillStyle = "#94a3b8";
+      ctx.font = "22px system-ui, sans-serif";
+      ctx.textAlign = "right";
+      ctx.fillText("montpellier-en-commun.fr/si-tu-etais-maire", W - 60, H - 30);
+    };
+
+    function triggerShare() {
+      canvas!.toBlob(async (blob) => {
+        if (!blob) return;
+        const file = new File([blob], "mon-resultat-municipales.png", { type: "image/png" });
+        if (navigator.canShare && navigator.canShare({ files: [file] })) {
+          try {
+            await navigator.share({
+              files: [file],
+              title: "Et si tu étais maire ?",
+              text: `Je suis à ${winnerPct}\u00a0% en accord avec ${winnerName} sur les municipales de Montpellier 2026. Et toi ?`,
+            });
+            return;
+          } catch {
+            // fallthrough to download
+          }
+        }
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = "mon-resultat-municipales.png";
+        a.click();
+        URL.revokeObjectURL(url);
+      }, "image/png");
+    }
+
+    if (picUrl) {
+      const img = new Image();
+      img.crossOrigin = "anonymous";
+      img.onload = () => {
+        ctx.save();
+        ctx.beginPath();
+        ctx.arc(imgX + imgSize / 2, imgY + imgSize / 2, imgSize / 2, 0, Math.PI * 2);
+        ctx.closePath();
+        ctx.clip();
+        ctx.drawImage(img, imgX, imgY, imgSize, imgSize);
+        ctx.restore();
+        drawText();
+        triggerShare();
+      };
+      img.onerror = () => { drawText(); triggerShare(); };
+      img.src = picUrl;
+    } else {
+      drawText();
+      triggerShare();
+    }
+  });
 
   return (
     <div class={styles.container}>
@@ -312,6 +439,12 @@ export default component$(() => {
           >
             Comparer les programmes en détail →
           </Link>
+          <div class={styles.shareRow}>
+            <button class={styles.shareButton} onClick$={generateAndShare$}>
+              Partager mon résultat ↗
+            </button>
+          </div>
+          <canvas ref={canvasRef} style={{ display: "none" }} />
         </div>
       )}
     </div>

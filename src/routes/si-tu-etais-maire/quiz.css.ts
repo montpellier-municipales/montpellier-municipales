@@ -287,6 +287,29 @@ export const startButton = style({
   },
 });
 
+export const shareRow = style({
+  display: "flex",
+  justifyContent: "center",
+});
+
+export const shareButton = style({
+  backgroundColor: vars.color.surface,
+  color: vars.color.title,
+  border: `1.5px solid ${vars.color.border}`,
+  borderRadius: "0.5rem",
+  padding: "0.75rem 1.5rem",
+  fontSize: "1rem",
+  fontWeight: "600",
+  cursor: "pointer",
+  transition: "background-color 0.15s ease, border-color 0.15s ease",
+  selectors: {
+    "&:hover": {
+      backgroundColor: vars.color.primaryTransparent,
+      borderColor: vars.color.primary,
+    },
+  },
+});
+
 export const winnerBadge = style({
   fontSize: "0.75rem",
   fontWeight: "700",
