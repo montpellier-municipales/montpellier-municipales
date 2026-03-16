@@ -67,9 +67,38 @@ export default component$(() => {
     state.answers = newAnswers;
     state.shuffledOptions = null;
 
+    // Track the answer for this question
+    if (typeof window !== "undefined" && (window as any).plausible) {
+      (window as any).plausible("Quiz_Answer", {
+        props: {
+          question: state.current + 1,
+          choice:
+            state.selectedId === "la-france-insoumise" ? "oziol" : "delafosse",
+        },
+      });
+    }
+
     if (state.current < QUESTIONS.length - 1) {
       state.current = state.current + 1;
     } else {
+      // Last question — also track final result
+      const total = newAnswers.length;
+      const oziolCount = newAnswers.filter(
+        (id) => id === "la-france-insoumise",
+      ).length;
+      const delaCount = newAnswers.filter(
+        (id) => id === "michael-delafosse",
+      ).length;
+      const winner = oziolCount >= delaCount ? "oziol" : "delafosse";
+      if (typeof window !== "undefined" && (window as any).plausible) {
+        (window as any).plausible("Quiz_Result", {
+          props: {
+            winner,
+            oziol_pct: Math.round((oziolCount / total) * 100),
+            delafosse_pct: Math.round((delaCount / total) * 100),
+          },
+        });
+      }
       state.phase = "results";
     }
   });
