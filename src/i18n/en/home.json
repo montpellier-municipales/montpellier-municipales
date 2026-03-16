@@ -13,7 +13,8 @@
       "seconds": "Seconds",
       "second": "Second",
       "euMessage": "Vote in the second round before Sunday, March 22, 2026 at 8 PM!",
-      "action": "Compare programs"
+      "action": "Compare programs",
+      "quizAction": "Who to vote for?"
     },
     "viewAllNews": "View all news",
     "firstRound": {

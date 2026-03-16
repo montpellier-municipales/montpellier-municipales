@@ -1,4 +1,10 @@
-import { component$, useStore, useVisibleTask$, useSignal, $ } from "@builder.io/qwik";
+import {
+  component$,
+  useStore,
+  useVisibleTask$,
+  useSignal,
+  $,
+} from "@builder.io/qwik";
 import { useNavigate, type DocumentHead } from "@builder.io/qwik-city";
 import { QUESTIONS } from "./questions";
 import * as styles from "./quiz.css";
@@ -99,13 +105,13 @@ export default component$(() => {
       {state.phase === "intro" && (
         <div class={styles.introSection}>
           <h1 class={styles.introTitle}>
-            ET SI TOI, TU ÉTAIS MAIRE,&nbsp;TU FERAIS QUOI&nbsp;?
+            ET SI TOI, TU ÉTAIS MAIRE, TU FERAIS QUOI&nbsp;?
           </h1>
           <p class={styles.introText}>
-            On te présente {QUESTIONS.length} questions sur des enjeux concrets pour
-            Montpellier. Pour chaque question, choisis la proposition qui te correspond
-            le mieux — sans savoir qui la défend. À la fin, découvre quel·le candidat·e
-            est le plus proche de tes idées.
+            On te présente {QUESTIONS.length} questions sur des enjeux concrets
+            pour Montpellier. Pour chaque question, choisis la proposition qui
+            te correspond le mieux — sans savoir qui la défend. À la fin,
+            découvre quel·le candidat·e est le plus proche de tes idées.
           </p>
           <button
             class={styles.startButton}
@@ -119,7 +125,7 @@ export default component$(() => {
       )}
 
       {state.phase === "playing" && (
-        <div ref={questionRef}>
+        <div ref={questionRef} class={styles.quizSection}>
           {/* Progress */}
           <div>
             <div class={styles.progressBarWrapper}>
@@ -138,37 +144,39 @@ export default component$(() => {
 
           {/* Options */}
           <div class={styles.optionsGrid}>
-            {(state.shuffledOptions ?? currentQuestion.options).map((option) => {
-              const isSelected = state.selectedId === option.candidateId;
-              const isOther =
-                state.selectedId !== null &&
-                state.selectedId !== option.candidateId;
+            {(state.shuffledOptions ?? currentQuestion.options).map(
+              (option) => {
+                const isSelected = state.selectedId === option.candidateId;
+                const isOther =
+                  state.selectedId !== null &&
+                  state.selectedId !== option.candidateId;
 
-              return (
-                <button
-                  key={`${state.current}-${option.candidateId}`}
-                  class={[
-                    styles.optionCard,
-                    isSelected && styles.optionCardSelected,
-                    isOther && styles.optionCardOther,
-                  ]
-                    .filter(Boolean)
-                    .join(" ")}
-                  onClick$={() => handleSelect(option.candidateId)}
-                >
-                  <p class={styles.optionTitle}>{option.title}</p>
-                  <p class={styles.optionContent}>{option.content}</p>
-                  {/* Reveal candidate only after selection */}
-                  {state.selectedId !== null && (
-                    <span class={styles.candidateTag}>
-                      {option.candidateId === "la-france-insoumise"
-                        ? "Nathalie Oziol (LFI)"
-                        : "Michaël Delafosse (PS)"}
-                    </span>
-                  )}
-                </button>
-              );
-            })}
+                return (
+                  <button
+                    key={`${state.current}-${option.candidateId}`}
+                    class={[
+                      styles.optionCard,
+                      isSelected && styles.optionCardSelected,
+                      isOther && styles.optionCardOther,
+                    ]
+                      .filter(Boolean)
+                      .join(" ")}
+                    onClick$={() => handleSelect(option.candidateId)}
+                  >
+                    <p class={styles.optionTitle}>{option.title}</p>
+                    <p class={styles.optionContent}>{option.content}</p>
+                    {/* Reveal candidate only after selection */}
+                    {state.selectedId !== null && (
+                      <span class={styles.candidateTag}>
+                        {option.candidateId === "la-france-insoumise"
+                          ? "Nathalie Oziol (LFI)"
+                          : "Michaël Delafosse (PS)"}
+                      </span>
+                    )}
+                  </button>
+                );
+              },
+            )}
           </div>
 
           {/* Next button */}

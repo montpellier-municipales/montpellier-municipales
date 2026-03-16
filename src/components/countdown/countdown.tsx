@@ -14,6 +14,11 @@ export const Countdown = component$(() => {
       ? "/comparateur"
       : `/${lang}/comparateur`;
 
+  const quizLink =
+    lang === config.defaultLocale.lang
+      ? "/si-tu-etais-maire/"
+      : `/${lang}/si-tu-etais-maire/`;
+
   const timeLeft = useStore({
     days: 0,
     hours: 0,
@@ -83,6 +88,9 @@ export const Countdown = component$(() => {
 
       <Link href={inscriptionLink} class={styles.link}>
         {t("home.countdown.action")}
+      </Link>
+      <Link href={quizLink} class={styles.secondaryLink}>
+        {t("home.countdown.quizAction")}
       </Link>
     </div>
   );

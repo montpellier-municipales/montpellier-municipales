@@ -30,7 +30,7 @@ export const Header = component$(() => {
         { label: t("app.menu.compareCharters"), href: "/comparateur/chartes/" },
       ] 
     },
-    { label: t("app.menu.inscriptionElectorale"), href: "/inscription" },
+    { label: t("app.menu.pourQuiVoter"), href: "/si-tu-etais-maire/" },
     { label: t("app.menu.roleMairieMetropole"), href: "/role-mairie-metropole" },
     { 
       label: t("app.menu.budget"), 

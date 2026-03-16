@@ -31,6 +31,12 @@ export const progressLabel = style({
   textAlign: "right",
 });
 
+export const quizSection = style({
+  display: "flex",
+  flexDirection: "column",
+  gap: "1.5rem",
+});
+
 export const questionText = style({
   fontSize: "1.4rem",
   fontWeight: "700",
@@ -56,7 +62,8 @@ export const optionCard = style({
   borderRadius: "0.75rem",
   padding: "1.25rem",
   cursor: "pointer",
-  transition: "box-shadow 0.15s ease, border-color 0.15s ease, opacity 0.15s ease",
+  transition:
+    "box-shadow 0.15s ease, border-color 0.15s ease, opacity 0.15s ease",
   display: "flex",
   flexDirection: "column",
   gap: "0.75rem",

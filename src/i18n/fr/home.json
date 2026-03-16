@@ -13,7 +13,8 @@
       "seconds": "Secondes",
       "second": "Seconde",
       "euMessage": "Votez pour le deuxième tour avant le dimanche 22 mars 2026 à 20h !",
-      "action": "Comparer les programmes"
+      "action": "Comparer les programmes",
+      "quizAction": "Pour qui voter ?"
     },
     "viewAllNews": "Voir toute l'actualité",
     "firstRound": {

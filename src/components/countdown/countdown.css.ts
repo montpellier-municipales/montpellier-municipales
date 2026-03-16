@@ -57,6 +57,24 @@ export const message = style({
   maxWidth: 600,
 });
 
+export const secondaryLink = style({
+  display: "inline-block",
+  marginTop: "0.75rem",
+  color: vars.color.primary,
+  padding: "0.75rem 1.5rem",
+  borderRadius: "50px",
+  border: `2px solid ${vars.color.primary}`,
+  fontWeight: "bold",
+  textDecoration: "none",
+  transition: `transform 0.2s ${vars.defaultTransition}`,
+  ":hover": {
+    backgroundColor: vars.color.primary,
+    color: vars.color.surface,
+    transform: "scale(1.05)",
+    textDecoration: "none",
+  },
+});
+
 export const link = style({
   display: "inline-block",
   backgroundColor: vars.color.secondary,
