@@ -40,12 +40,10 @@ export const QUESTIONS: QuizQuestion[] = [
     options: [
       {
         candidateId: "la-france-insoumise",
-        title:
-          "Instaurer un moratoire sur les projets autoroutiers inutiles et écocides",
+        title: "Renforcer massivement l’offre de transports collectifs",
         content:
-          "Défendre le moratoire sur le Contournement Ouest de Montpellier, étudier les solutions alternatives proposées par les collectifs de lutte et privilégier les solutions de transports en commun publics. Continuer à défendre l'arrêt du LIEN, autre projet routier écocide.",
-        measureSlug:
-          "instaurer-un-moratoire-sur-les-projets-autoroutiers-inutiles-et-ecocides-a-montp",
+          "Renforcer la desserte et la densité du réseau de tramway, de bus et de bus en site propre, notamment aux heures de forte affluence, afin de réduire les temps d’attente, améliorer la régularité et absorber l’augmentation de la fréquentation liée à la gratuité. Investir dans l’acquisition de nouvelles rames de tramway et dans le développement des infrastructures nécessaires pour augmenter durablement la capacité du réseau et améliorer le confort des usager·es.",
+        measureSlug: "renforcer-massivement-l-offre-de-transports-collectifs",
       },
       {
         candidateId: "michael-delafosse",
@@ -97,7 +95,7 @@ export const QUESTIONS: QuizQuestion[] = [
         candidateId: "michael-delafosse",
         title: "Agir pour une alimentation solidaire et durable",
         content:
-          "60 % des familles ont bénéficié d'une baisse du tarif de la cantine. Un tarif social à 50 centimes a été créé pour les familles les plus précaires. La Ville a multiplié par 2,5 la part du bio et du local dans les assiettes des enfants depuis 2020 : 76 % des produits sont désormais bio, locaux ou labellisés.",
+          "Aménager huit Maisons de l'alimentation solidaire (MAS) dans tous les quartiers pour lutter contre la précarité alimentaire. Viser 100 % de bio, local et labellisé dans les cantines, avec un matériel réutilisable en inox. Ouvrir la Cité de l'alimentation dans le quartier Montpellier Sud en 2028, lieu unique en France dédié à l'alimentation durable et solidaire.",
         measureSlug: "alimentation-solidaire-durable",
       },
     ],
@@ -173,10 +171,12 @@ export const QUESTIONS: QuizQuestion[] = [
     options: [
       {
         candidateId: "la-france-insoumise",
-        title: "Garantir un accès digne à l'alimentation",
+        title:
+          "Plan métropolitain « 10 000 emplois non-délocalisables pour une économie qui répond aux besoins »",
         content:
-          "Déployer des cantines sociales jeunes à tarification solidaire pouvant aller jusqu'à la gratuité. Soutenir les associations étudiantes assurant des distributions alimentaires jusqu'à ce qu'elles n'aient plus besoin de le faire.",
-        measureSlug: "garantir-un-acces-digne-a-l-alimentation",
+          "Réorienter l'agence de développement économique pour financer les secteurs d'avenir du territoire : mobilités douces, énergie solaire, alimentation locale, rénovation du bâti, économie circulaire. Favoriser un écosystème public d'appui à l'emploi local et à l'économie sociale et solidaire (ESS), en mobilisant l'investissement et la commande publique.",
+        measureSlug:
+          "plan-metropolitain-10-000-emplois-non-delocalisables-pour-une-economie-qui-repon",
       },
       {
         candidateId: "michael-delafosse",
@@ -190,7 +190,7 @@ export const QUESTIONS: QuizQuestion[] = [
   // 9. environnement
   {
     question:
-      "La nature en ville doit protéger et rafraîchir nos quartiers. Comment ?",
+      "Nous devons adapter notre ville au changement climatique. Comment ?",
     options: [
       {
         candidateId: "la-france-insoumise",
@@ -198,7 +198,8 @@ export const QUESTIONS: QuizQuestion[] = [
           "Désimperméabiliser la ville et anticiper les risques d'inondations",
         content:
           "Lancer un plan de désimperméabilisation des sols. Généraliser l'utilisation de matériaux perméables et novateurs lors des nouveaux projets de voirie. Revoir le plan de prévention des risques d'inondation afin de l'adapter aux risques actuels de crue sur la commune.",
-        measureSlug: "desimpermeabiliser-la-ville-et-anticiper-les-risques-inondations",
+        measureSlug:
+          "desimpermeabiliser-la-ville-et-anticiper-les-risques-inondations",
       },
       {
         candidateId: "michael-delafosse",
@@ -264,14 +265,16 @@ export const QUESTIONS: QuizQuestion[] = [
           "Mener une Convention populaire sur la stratégie « zéro déchets »",
         content:
           "Organiser une Convention populaire des déchets, associant largement les habitants avec une partie de tirage au sort, chargée de porter un regard global sur la politique déchets. Les scénarios étudiés devront inclure obligatoirement des solutions locales aux exutoires, et les conclusions seront soumises à une votation citoyenne.",
-        measureSlug: "mener-une-convention-populaire-sur-la-strategie-zero-dechets",
+        measureSlug:
+          "mener-une-convention-populaire-sur-la-strategie-zero-dechets",
       },
       {
         candidateId: "michael-delafosse",
-        title: "Réduire les déchets et renforcer la propreté de la ville",
+        title:
+          "Mettre en place une unité de valorisation énergétique des déchets (CSR)",
         content:
-          "– 8 % d'ordures ménagères entre 2021 et 2024, + 24 % de collecte des recyclables secs, 507 points de collecte des biodéchets installés d'ici 2025. Sur le prochain mandat, nous poursuivrons la mise en place du tri à la source des biodéchets, l'installation de composteurs de proximité et le déploiement de bornes de collecte du verre.",
-        measureSlug: "reduire-dechets-proprete",
+          "Mettre en place à Montpellier une unité de production de combustible solide de récupération (CSR) sur le site de Usine Amétyst afin de valoriser les déchets non recyclables. Cette installation permettra de transformer une partie des déchets résiduels en énergie, plutôt que de les enfouir ou de les exporter.",
+        measureSlug: "unite-valorisation-energetique-dechets-csr",
       },
     ],
   },
@@ -360,24 +363,50 @@ export const QUESTIONS: QuizQuestion[] = [
       },
     ],
   },
-  // 17. émancipation et justice sociale
+  // 17. handicap et accessibilité
   {
     question:
-      "L'émancipation des femmes passe par des politiques publiques ambitieuses. Lesquelles ?",
+      "Rendre Montpellier pleinement accessible aux personnes en situation de handicap : comment ?",
     options: [
       {
         candidateId: "la-france-insoumise",
-        title: "Visibilité des femmes dans l'espace public",
+        title:
+          "Mettre en œuvre un plan pluriannuel d'accessibilité des locaux et infrastructures publiques",
         content:
-          "Lancer dès 2026 une initiative de ré-institution des femmes dans l'espace public en renommant les rues afin d'atteindre la parité de genre dans les noms de rues, places publiques et établissements scolaires. Mener des campagnes d'affichage annuel pour sensibiliser et lutter contre les violences commises par les hommes, le harcèlement, les VSS et les violences LGBTIphobes.",
-        measureSlug: "visibilite-des-femmes-dans-l-espace-public",
+          "Mettre en place dès la première année du mandat un plan pluriannuel d'accessibilité couvrant l'ensemble des locaux et infrastructures publics, en intégrant tous les types de handicaps, y compris sensoriels, psychiques et cognitifs.",
+        measureSlug:
+          "mettre-en-oeuvre-un-plan-pluriannuel-d-accessibilite-des-locaux-et-infrastructur",
       },
       {
         candidateId: "michael-delafosse",
-        title: "Lutter contre toutes les discriminations et violences",
+        title:
+          "Travailler à l'amélioration du service de transport des personnes en situation de handicap",
         content:
-          "À la suite d'une série d'études menée dès 2023, nous proposons la création d'une Cité des femmes, lieu central et ouvert sur la ville, fédérant les acteurs engagés pour les droits des femmes, notamment le CIDFF et le Planning familial.",
-        measureSlug: "lutter-discriminations-violences",
+          "Nous travaillerons à l'amélioration du service de transport des personnes en situation de handicap, en partenariat notamment avec le GIHP qui, chaque matin, permet déjà à près de 200 enfants en situation de handicap d'être conduits à l'école.",
+        measureSlug: "accessibilite-universelle",
+      },
+    ],
+  },
+  // 18. relations internationales et paix
+  {
+    question:
+      "Quelle doit être la politique internationale de Montpellier ?",
+    options: [
+      {
+        candidateId: "la-france-insoumise",
+        title:
+          "Faire de Montpellier une ville de paix, engagée pour le respect du droit international",
+        content:
+          "Suspendre le jumelage avec la ville de Tibériade tant que le droit international ne sera pas respecté, en solidarité avec le peuple palestinien. Adopter une charte municipale des relations internationales exigeant que tout jumelage ou partenariat respecte strictement le droit international et les droits humains. Affirmer une politique municipale clairement engagée en faveur de la paix, du dialogue entre les peuples et de la solidarité internationale, en refusant toute complaisance avec les politiques de guerre, de colonisation ou d'oppression.",
+        measureSlug:
+          "rompre-le-jumelage-avec-tiberiade-et-conditionner-les-jumelages-au-respect-du-dr",
+      },
+      {
+        candidateId: "michael-delafosse",
+        title: "Soutien inconditionnel à Israël",
+        content:
+          "Faire de la ville un soutien politique clair et constant à l'État d'Israël dans ses relations internationales et ses partenariats.",
+        measureSlug: "soutien-inconditionnel-israel",
       },
     ],
   },
