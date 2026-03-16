@@ -9,7 +9,7 @@ import { getList } from "~/services/lists";
 import * as styles from "./result.css";
 
 const TOTAL = 18;
-const SITE_URL = "https://montpellier-en-commun.fr";
+const SITE_URL = "https://montpellier-municipales.fr";
 
 export const useCandidatesData = routeLoader$(async (ev) => {
   const score = parseInt(ev.params.score, 10);

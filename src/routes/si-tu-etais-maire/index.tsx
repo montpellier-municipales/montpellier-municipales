@@ -1,4 +1,4 @@
-import { component$, useStore, useVisibleTask$, $ } from "@builder.io/qwik";
+import { component$, useStore, useVisibleTask$, useSignal, $ } from "@builder.io/qwik";
 import { useNavigate, type DocumentHead } from "@builder.io/qwik-city";
 import { QUESTIONS } from "./questions";
 import * as styles from "./quiz.css";
@@ -20,6 +20,8 @@ export default component$(() => {
     shuffledOptions: null,
   });
 
+  const questionRef = useSignal<HTMLElement>();
+
   // Shuffle options once per question
   // eslint-disable-next-line qwik/no-use-visible-task
   useVisibleTask$(({ track }) => {
@@ -30,6 +32,15 @@ export default component$(() => {
     if (Math.random() > 0.5) opts.reverse();
     state.shuffledOptions = opts;
     state.selectedId = null;
+  });
+
+  // Scroll to question section on each question change
+  // eslint-disable-next-line qwik/no-use-visible-task
+  useVisibleTask$(({ track }) => {
+    track(() => state.current);
+    if (state.phase === "playing") {
+      questionRef.value?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
   });
 
   const handleSelect = $((candidateId: string) => {
@@ -108,7 +119,7 @@ export default component$(() => {
       )}
 
       {state.phase === "playing" && (
-        <>
+        <div ref={questionRef}>
           {/* Progress */}
           <div>
             <div class={styles.progressBarWrapper}>
@@ -152,7 +163,7 @@ export default component$(() => {
                     <span class={styles.candidateTag}>
                       {option.candidateId === "la-france-insoumise"
                         ? "Nathalie Oziol (LFI)"
-                        : "Michaël Delafosse"}
+                        : "Michaël Delafosse (PS)"}
                     </span>
                   )}
                 </button>
@@ -168,7 +179,7 @@ export default component$(() => {
               </button>
             </div>
           )}
-        </>
+        </div>
       )}
     </div>
   );
