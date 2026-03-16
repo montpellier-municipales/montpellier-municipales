@@ -3,7 +3,7 @@
     "headOfList": "Cap de lista",
     "noImage": "Cap d'imatge",
     "countdown": {
-      "title": "Primièr torn de las eleccions municipalas",
+      "title": "Segond torn de las eleccions municipalas",
       "days": "Jorns",
       "day": "Jorn",
       "hours": "Oras",
@@ -12,7 +12,7 @@
       "minute": "Minuta",
       "seconds": "Segondas",
       "second": "Segonda",
-      "euMessage": "Votatz pel primièr torn abans lo dimenge 15 de març de 2026 a 20h !",
+      "euMessage": "Votatz pel segond torn abans lo dimenge 22 de març de 2026 a 20h !",
       "action": "Comparar los programas"
     },
     "viewAllNews": "Veire tota l'actualitat"

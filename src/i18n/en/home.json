@@ -3,7 +3,7 @@
     "headOfList": "Head of List",
     "noImage": "No image",
     "countdown": {
-      "title": "First round of municipal elections",
+      "title": "Second round of municipal elections",
       "days": "Days",
       "day": "Day",
       "hours": "Hours",
@@ -12,7 +12,7 @@
       "minute": "Minute",
       "seconds": "Seconds",
       "second": "Second",
-      "euMessage": "Vote in the first round before Sunday, March 15, 2026 at 8 PM!",
+      "euMessage": "Vote in the second round before Sunday, March 22, 2026 at 8 PM!",
       "action": "Compare programs"
     },
     "viewAllNews": "View all news"

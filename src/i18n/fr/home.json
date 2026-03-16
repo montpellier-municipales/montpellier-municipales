@@ -3,7 +3,7 @@
     "headOfList": "Tête de liste",
     "noImage": "Pas d'image",
     "countdown": {
-      "title": "Premier tour des élections municipales",
+      "title": "Deuxième tour des élections municipales",
       "days": "Jours",
       "day": "Jour",
       "hours": "Heures",
@@ -12,7 +12,7 @@
       "minute": "Minute",
       "seconds": "Secondes",
       "second": "Seconde",
-      "euMessage": "Votez pour le premier tour avant le dimanche 15 mars 2026 à 20h !",
+      "euMessage": "Votez pour le deuxième tour avant le dimanche 22 mars 2026 à 20h !",
       "action": "Comparer les programmes"
     },
     "viewAllNews": "Voir toute l'actualité"

@@ -3,7 +3,7 @@
     "headOfList": "Cabeza de lista",
     "noImage": "Sin imagen",
     "countdown": {
-      "title": "Primera vuelta de las elecciones municipales",
+      "title": "Segunda vuelta de las elecciones municipales",
       "days": "Días",
       "day": "Día",
       "hours": "Horas",
@@ -12,7 +12,7 @@
       "minute": "Minuto",
       "seconds": "Segundos",
       "second": "Segundo",
-      "euMessage": "¡Vota en la primera vuelta antes del domingo 15 de marzo de 2026 a las 20h!",
+      "euMessage": "¡Vota en la segunda vuelta antes del domingo 22 de marzo de 2026 a las 20h!",
       "action": "Comparar los programas"
     },
     "viewAllNews": "Ver todas las noticias"

@@ -21,8 +21,8 @@ export const Countdown = component$(() => {
     seconds: 0,
   });
 
-  // Date cible : Dimanche 15 Mars 2026 à 20h00 (Heure de Paris/Locale)
-  const targetDate = new Date("2026-03-15T20:00:00").getTime();
+  // Date cible : Dimanche 22 Mars 2026 à 20h00 (Heure de Paris/Locale)
+  const targetDate = new Date("2026-03-22T20:00:00").getTime();
 
   // Calcul du temps restant uniquement côté client pour éviter les écarts d'hydratation
   // eslint-disable-next-line qwik/no-use-visible-task
