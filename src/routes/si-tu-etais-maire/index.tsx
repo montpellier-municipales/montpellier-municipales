@@ -70,6 +70,7 @@ export default component$(() => {
     if (state.selectedId === null) return;
     const newAnswers = [...state.answers, state.selectedId];
     state.answers = newAnswers;
+    state.shuffledOptions = null;
 
     if (state.current < QUESTIONS.length - 1) {
       state.current = state.current + 1;
@@ -214,7 +215,7 @@ export default component$(() => {
                   style={{ width: `${oziolPct}%` }}
                 />
               </div>
-              <span class={styles.scorePercent}>{oziolPct}\u00a0%</span>
+              <span class={styles.scorePercent}>{oziolPct}&nbsp;%</span>
             </div>
           </div>
 
@@ -252,7 +253,7 @@ export default component$(() => {
                   style={{ width: `${delaPct}%` }}
                 />
               </div>
-              <span class={styles.scorePercent}>{delaPct}\u00a0%</span>
+              <span class={styles.scorePercent}>{delaPct}&nbsp;%</span>
             </div>
           </div>
 
