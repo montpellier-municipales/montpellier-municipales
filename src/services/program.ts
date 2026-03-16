@@ -75,6 +75,7 @@ export async function getAllMeasuresForPositioningValue(
   dimension: string,
   value: number,
   lang: string,
+  opts?: { qualifiedOnly?: boolean },
 ): Promise<
   Array<
     ProgramMeasure & {
@@ -85,7 +86,7 @@ export async function getAllMeasuresForPositioningValue(
     }
   >
 > {
-  const allLists = await getAllLists();
+  const allLists = await getAllLists(opts);
   const results = await Promise.all(
     allLists.map(async (list) => {
       const measures = await getCandidateProgram(list.id, lang);
@@ -113,6 +114,7 @@ export async function getAllMeasuresForPositioningValue(
 export const getAllMeasuresForTags = async (
   tags: string[],
   lang: string,
+  opts?: { qualifiedOnly?: boolean },
 ): Promise<
   Array<{
     candidateId: string;
@@ -123,7 +125,7 @@ export const getAllMeasuresForTags = async (
     measures: ProgramMeasure[];
   }>
 > => {
-  const allLists = await getAllLists();
+  const allLists = await getAllLists(opts);
   const results = [];
 
   for (const list of allLists.filter((l) => !l.disabled)) {

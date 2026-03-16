@@ -14,7 +14,7 @@ import { LuCheckCircle, LuXCircle, LuExternalLink } from "@qwikest/icons/lucide"
 export const useChartersData = routeLoader$(async () => {
   const [charters, allLists] = await Promise.all([
     Promise.resolve(getAllCharters()),
-    getAllLists(),
+    getAllLists({ qualifiedOnly: true }),
   ]);
   const lists = allLists.map((l) => ({
     id: l.id,

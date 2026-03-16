@@ -15,6 +15,17 @@
       "euMessage": "Votatz pel segond torn abans lo dimenge 22 de març de 2026 a 20h !",
       "action": "Comparar los programas"
     },
-    "viewAllNews": "Veire tota l'actualitat"
+    "viewAllNews": "Veire tota l'actualitat",
+    "firstRound": {
+      "title": "Resultats del 1èr torn",
+      "withAbstention": "Amb abstencion",
+      "withoutAbstention": "Sens abstencion",
+      "qualified": "Qualificat(a)",
+      "abstention": "Abstencion",
+      "blancNul": "Blancs & Nuls",
+      "registeredVoters": "inscrichs",
+      "expressedVotes": "sufragis esprimits",
+      "note": "Participacion : 50,43 % — 88 232 votants sus ~174 973 inscrichs"
+    }
   }
 }

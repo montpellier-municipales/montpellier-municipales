@@ -14,7 +14,7 @@ import { inlineTranslate } from "qwik-speak";
 import { OrdinalAxisPlot } from "~/components/OrdinalAxisPlot/OrdinalAxisPlot";
 
 export const usePositioningData = routeLoader$(async () => {
-  const allLists = await getAllLists();
+  const allLists = await getAllLists({ qualifiedOnly: true });
   return allLists.map((l) => ({
     id: l.id,
     name: l.name,

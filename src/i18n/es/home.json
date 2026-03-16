@@ -15,6 +15,17 @@
       "euMessage": "¡Vota en la segunda vuelta antes del domingo 22 de marzo de 2026 a las 20h!",
       "action": "Comparar los programas"
     },
-    "viewAllNews": "Ver todas las noticias"
+    "viewAllNews": "Ver todas las noticias",
+    "firstRound": {
+      "title": "Resultados de la 1ª vuelta",
+      "withAbstention": "Con abstención",
+      "withoutAbstention": "Sin abstención",
+      "qualified": "Clasificado/a",
+      "abstention": "Abstención",
+      "blancNul": "Blancos y nulos",
+      "registeredVoters": "inscritos",
+      "expressedVotes": "votos emitidos",
+      "note": "Participación: 50,43 % — 88 232 votantes sobre ~174 973 inscritos"
+    }
   }
 }

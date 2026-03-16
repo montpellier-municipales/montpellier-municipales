@@ -1,6 +1,7 @@
 {
   "$schema": "../../../types/schema.json",
   "id": "la-france-insoumise",
+  "qualified": true,
   "name": "Faire mieux pour Montpellier",
   "headOfList": "Nathalie Oziol",
   "parties": [

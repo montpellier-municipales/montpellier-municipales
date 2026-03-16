@@ -11,6 +11,7 @@ import { marked } from "marked";
 import { markdownRenderer } from "~/utils";
 import { getBlogPosts } from "~/services/blog";
 import { ArticleCard } from "~/components/article-card/article-card";
+import { FirstRoundResults } from "~/components/first-round-results/first-round-results";
 
 const HOME_CONTENT_DIR = join(process.cwd(), "src/content/home");
 
@@ -117,7 +118,12 @@ export default component$(() => {
     <div class={styles.container}>
       {content.value.map((section, i) => {
         if (section === Components.COUNTDOWN) {
-          return <Countdown key="countdown" />;
+          return (
+            <>
+              <Countdown key="countdown" />
+              <FirstRoundResults />
+            </>
+          );
         }
         if (section === Components.CANDIDATS) {
           return (
@@ -126,7 +132,7 @@ export default component$(() => {
                 <Link
                   key={list.id}
                   href={getLocalizedLink(`/listes/${list.id}`)}
-                  class={styles.card}
+                  class={list.qualified ? styles.card : styles.cardDimmed}
                 >
                   <div class={styles.cardImage}>
                     {list.logoUrl ? (

@@ -52,7 +52,7 @@ export const getList = async (id: string): Promise<Candidate | null> => {
   }
 };
 
-export const getAllLists = async (): Promise<Candidate[]> => {
+export const getAllLists = async (opts?: { qualifiedOnly?: boolean }): Promise<Candidate[]> => {
   try {
     const entries = await readdir(LISTS_DIR);
     const listIds: string[] = [];
@@ -119,7 +119,9 @@ export const getAllLists = async (): Promise<Candidate[]> => {
       }
     }
 
-    return finalOrder;
+    const qualified = finalOrder.filter((l) => l.qualified);
+    const rest = finalOrder.filter((l) => !l.qualified);
+    return opts?.qualifiedOnly ? qualified : [...qualified, ...rest];
   } catch (error) {
     console.error("Error reading lists directory:", error);
     return [];

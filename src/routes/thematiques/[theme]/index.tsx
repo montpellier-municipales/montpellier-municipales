@@ -24,8 +24,8 @@ export const useThemeData = routeLoader$(async ({ params, locale, fail }) => {
 
   const [allLists, measuresByCandidate, comparatorI18nRaw, thematiquesI18nRaw] =
     await Promise.all([
-      getAllLists(),
-      getAllMeasuresForTags(theme.tags, lang),
+      getAllLists({ qualifiedOnly: true }),
+      getAllMeasuresForTags(theme.tags, lang, { qualifiedOnly: true }),
       readFile(
         join(process.cwd(), "src/i18n", lang, "comparator.json"),
         "utf-8",

@@ -29,6 +29,7 @@ export const CandidateSchema = z
     logoUrl: z.string(),
     candidatePictureUrl: z.string(),
     fame: z.number().optional(), // 1 (Inconnu) à 10 (Très connu). Utilisé pour le tri aléatoire pondéré.
+    qualified: z.boolean().optional(), // true si qualifiée pour le 2ème tour
     website: z.string().optional(),
     
     socials: z.object({

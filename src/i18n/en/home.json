@@ -15,6 +15,17 @@
       "euMessage": "Vote in the second round before Sunday, March 22, 2026 at 8 PM!",
       "action": "Compare programs"
     },
-    "viewAllNews": "View all news"
+    "viewAllNews": "View all news",
+    "firstRound": {
+      "title": "First round results",
+      "withAbstention": "With abstention",
+      "withoutAbstention": "Without abstention",
+      "qualified": "Qualified",
+      "abstention": "Abstention",
+      "blancNul": "Blank & Null",
+      "registeredVoters": "registered voters",
+      "expressedVotes": "votes cast",
+      "note": "Turnout: 50.43% — 88,232 voters out of ~174,973 registered"
+    }
   }
 }

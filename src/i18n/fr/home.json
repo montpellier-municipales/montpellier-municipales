@@ -15,6 +15,17 @@
       "euMessage": "Votez pour le deuxième tour avant le dimanche 22 mars 2026 à 20h !",
       "action": "Comparer les programmes"
     },
-    "viewAllNews": "Voir toute l'actualité"
+    "viewAllNews": "Voir toute l'actualité",
+    "firstRound": {
+      "title": "Résultats du 1er tour",
+      "withAbstention": "Avec abstention",
+      "withoutAbstention": "Sans abstention",
+      "qualified": "Qualifié(e)",
+      "abstention": "Abstention",
+      "blancNul": "Blancs & Nuls",
+      "registeredVoters": "inscrits",
+      "expressedVotes": "suffrages exprimés",
+      "note": "Participation : 50,43 % — 88 232 votants sur ~174 973 inscrits"
+    }
   }
 }

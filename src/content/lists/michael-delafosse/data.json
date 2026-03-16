@@ -1,6 +1,7 @@
 {
   "$schema": "../../../types/schema.json",
   "id": "michael-delafosse",
+  "qualified": true,
   "disabled": false,
   "name": "Demain Montpellier",
   "headOfList": "Michaël Delafosse",

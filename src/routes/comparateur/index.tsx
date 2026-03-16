@@ -58,10 +58,12 @@ export const useComparatorData = routeLoader$(async ({ locale, url }) => {
     labels: ci18n.positioning?.labels ?? {},
   };
 
-  const [allLists, charters] = await Promise.all([
+  const [allListsRaw, charters] = await Promise.all([
     getAllLists(),
     Promise.resolve(getAllCharters()),
   ]);
+
+  const allLists = allListsRaw.filter((l) => l.qualified);
 
   const allListsWithPrograms = await Promise.all(
     allLists.map(async (list) => {
@@ -320,6 +322,12 @@ export default component$(() => {
               class={styles.charterDetailLink}
             >
               {t("charters.measureDetail")} →
+            </Link>
+            <Link
+              href="/comparateur/couverture-mediatique/"
+              class={styles.charterDetailLink}
+            >
+              {t("media.pageTitle@@Couverture médiatique Midi Libre")} →
             </Link>
           </section>
 

@@ -30,6 +30,7 @@ export const useValuePageData = routeLoader$(async (requestEvent) => {
     dimension,
     numValue,
     lang,
+    { qualifiedOnly: true },
   );
 
   const maxValue = Object.keys(VALUE_SLUGS[dimension]).length;

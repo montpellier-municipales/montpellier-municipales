@@ -93,6 +93,14 @@ export const card = style({
   },
 });
 
+export const cardDimmed = style([
+  card,
+  {
+    opacity: 0.5,
+    filter: "grayscale(100%)",
+  },
+]);
+
 export const cardImage = style({
   width: "100%",
   height: "200px",
