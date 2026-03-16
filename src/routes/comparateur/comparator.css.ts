@@ -227,8 +227,7 @@ export const candidateLogo = style({
   width: "40px",
   height: "40px",
   borderRadius: "50%",
-  objectFit: "contain",
-  backgroundColor: vars.color.backgroundMuted,
+  objectFit: "cover",
   flexShrink: 0,
 });
 

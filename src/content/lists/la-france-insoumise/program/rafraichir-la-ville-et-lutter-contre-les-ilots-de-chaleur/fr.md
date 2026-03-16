@@ -1,0 +1,14 @@
+---
+title: "Rafraîchir la ville et lutter contre les îlots de chaleur"
+slug: "rafraichir-la-ville-et-lutter-contre-les-ilots-de-chaleur"
+tags: ["environnement", "changement climatique", "santé"]
+lang: "fr"
+positioning:
+  economy: null
+  societal: null
+  governance: null
+  security: null
+  ecology: 4
+---
+
+Réaliser un diagnostic de surchauffe urbaine de la Ville : îlots de chaleur urbaine et zones d’inconfort thermique puis déployer un plan de rafraîchissement global (écoles, toitures, places de la Ville, maîtrise des vents…). Développer un plan de végétalisation et dispositifs d’ombrage de l’ensemble des places et aires de jeu de Montpellier, en commençant par les quartiers prioritaires. Créer des ombrages dans les rues où la plantation d’arbres est impossible et accroître la végétalisation des rues. Repenser les fontaines publiques pour en faire des espaces ludiques et remettre l’eau au cœur de l’aménagement des espaces publics lorsque cela est possible. Rendre le lac des Garrigues baignable et lancer une étude de faisabilité pour le Lez. Engager des projets de réaménagement écologique de sites emblématiques tels que l’Esplanade du Peyrou, le bassin Jacques-Cœur, la place des Martyrs de la Résistance, la place Max Rouquette, le parc Montcalm ou la Place de l’Europe, en renforçant l’arborisation et l’ombrage.

@@ -29,7 +29,8 @@
     "data:apcp": "tsx scripts/process-apcp.ts",
     "data:population": "tsx scripts/extract-population.ts",
     "data:evolution": "tsx scripts/generate-functional-budget-evolution.ts",
-    "data:all": "npm run data:nomenclatures && npm run data:budget && npm run data:loans && npm run data:apcp && npm run data:population"
+    "data:all": "npm run data:nomenclatures && npm run data:budget && npm run data:loans && npm run data:apcp && npm run data:population",
+    "data:scrape-programs": "tsx scripts/scrape-programs.ts"
   },
   "devDependencies": {
     "@builder.io/qwik": "^1.17.2",
@@ -46,6 +47,7 @@
     "@vanilla-extract/vite-plugin": "^5.1.3",
     "agent-twitter-client": "^0.0.18",
     "chart.js": "^4.5.1",
+    "cheerio": "^1.2.0",
     "compiled-i18n": "^1.2.1",
     "eslint": "9.32.0",
     "eslint-plugin-qwik": "^1.17.2",

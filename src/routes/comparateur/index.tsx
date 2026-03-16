@@ -379,8 +379,8 @@ export default component$(() => {
                   <div key={list.id} class={styles.candidateColumn}>
                     <div class={styles.candidateHeader}>
                       <img
-                        src={list.logoUrl}
-                        alt={`Logo ${list.name}`}
+                        src={list.candidatePictureUrl}
+                        alt={list.headOfList}
                         class={styles.candidateLogo}
                         width={40}
                         height={40}
