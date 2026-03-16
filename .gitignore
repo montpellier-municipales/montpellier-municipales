@@ -40,3 +40,8 @@ lerna-debug.log*
 # Yarn
 .yarn/*
 !.yarn/releases
+
+# Python scripts
+scripts/.venv/
+scripts/.twitter-cookies.json
+scripts/.chrome-profile/

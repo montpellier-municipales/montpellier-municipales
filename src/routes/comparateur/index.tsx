@@ -323,12 +323,6 @@ export default component$(() => {
             >
               {t("charters.measureDetail")} →
             </Link>
-            <Link
-              href="/comparateur/couverture-mediatique/"
-              class={styles.charterDetailLink}
-            >
-              {t("media.pageTitle@@Couverture médiatique Midi Libre")} →
-            </Link>
           </section>
 
           {/* Section 3: Program comparison */}
